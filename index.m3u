@@ -19,7 +19,7 @@ http://clients.apsny.camera/tv_abaza_tv/index.m3u8
 http://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1 tvg-id="Cinema.ru" tvg-logo="https://i.imgur.com/sP15Oc9.png" group-title="Фильмы",Cinema
 https://sc.id-tv.kz/Cinema.m3u8
-#EXTINF:-1 tvg-id="BackusTVDark.ru" tvg-logo="https://i.imgur.com/ySYKZ0Z.png" group-title="Фильмы",Backus TV Страшное
+#EXTINF:-1 tvg-id="BackusTVDark.ru" tvg-logo="https://i.imgur.com/ySYKZ0Z.png" group-title="Фильмы",Backus TV Dark
 http://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:-1 tvg-id="CGTNRussian.cn" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="Китай",CGTN Русский
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
@@ -27,15 +27,36 @@ https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Мода",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxLifeRussia.ru" tvg-logo="https://i.imgur.com/O2miSLA.png" group-title="Series",Fox Life Russia (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD.m3u8
-#EXTINF:-1 tvg-id="FoxRussia.ru" tvg-logo="https://i.imgur.com/nr1Y67Z.png" group-title="Movies",Fox Russia (576p) [Not 24/7]
-http://188.40.68.167/russia/fox_russia_sd/playlist.m3u8
-#EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="General",Freedom (FREEДOM) (UATV) (720p)
+#EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="Украина",FREEДOM
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 tvg-id="FreshTV.ru" tvg-logo="https://i.imgur.com/PDNUztS.png" group-title="Music",FreshTV (720p) [Geo-blocked]
-https://strm.yandex.ru/kal/fresh/fresh0.m3u8
-#EXTINF:-1 tvg-id="GaliciaTVEuropa.es" tvg-logo="https://i.imgur.com/AZBod7u.png" group-title="Undefined",Galicia TV Europa (720p)
-http://europa-crtvg.flumotion.com/playlist.m3u8
-#EXTINF:-1 tvg-id="GIT.ua" tvg-logo="https://i.imgur.com/lNZ1pld.png" group-title="Undefined",GIT (720p)
-https://stream.uagit.tv/gittv.m3u8
+#EXTINF:-1 tvg-id="GlobalStarTV.ru" tvg-logo="https://i.imgur.com/qu7t9d4.png" group-title="Undefined",Global Star TV (720p)
+http://stream2.hardlife.tv:8134/hls-live/hlsGS/_definst_/liveevent/gs.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",HD life (1080p) [Not 24/7]
+http://37.193.6.155:34040/udp/239.1.9.2:1234
+
+#EXTINF:-1 tvg-id="HDMedia.ru" tvg-logo="https://i.imgur.com/vEjTNlf.png" group-title="Entertainment",HD Медиа (720p) [Geo-blocked]
+https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
+
+#EXTINF:-1 tvg-id="HITV.ru" tvg-logo="https://i.imgur.com/Mr9AJxK.png" group-title="Music",HITV (1080p)
+https://strm.yandex.ru/kal/hittv/hittv0.m3u8
+
+#EXTINF:-1 tvg-id="Inter.ua" tvg-logo="https://i.imgur.com/kOW4SIP.png" group-title="Undefined",IHTEP (576p)
+https://edge1.iptv.macc.com.ua/img/inter_3/index.m3u8
+
+
+
+#EXTINF:-1 tvg-id="Leomax24.ru" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Shop",Leomax 24 (1080p)
+https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Luxury (1080p)
+http://nano.teleservice.su:8080/hls/luxury.m3u8
+
+#EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="Music",M2 (540p)
+http://live.m2.tv/hls3/stream.m3u8
+
+#EXTINF:-1 tvg-id="MosObrTV.ru" tvg-logo="https://i.imgur.com/t6PmOD5.png" group-title="Education",MOSOBR.TV (720p) [Not 24/7]
+http://retc.educom.ru/mosobrtv/tv1/index.m3u8
+
+#EXTINF:-1 tvg-id="MTVmix.ru" tvg-logo="https://i.imgur.com/ewdf2F4.png" group-title="Music",MTVmix (Уфа) (384p)
+http://81.30.182.82:18092/hls/live.m3u8
