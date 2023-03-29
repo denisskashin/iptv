@@ -1,2 +1,2 @@
 # iptv
-IPTVtest
+IPTV
