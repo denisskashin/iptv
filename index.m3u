@@ -41,34 +41,43 @@ http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)", Трк 555 (Алушта)
 http://trk555.tv:8888/live
-
-#EXTINF:-1 tvg-id="TV1000RusskoeKino.ru" tvg-logo="https://i.imgur.com/8neUwrB.png" group-title="Movies",TV1000 Русское кино (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
-
-#EXTINF:-1 tvg-id="TVMChannel.ru" tvg-logo="https://i.imgur.com/ZX6crqH.png" group-title="Undefined",TVMChannel (576p) [Geo-blocked]
-http://cdn-01.bonus-tv.ru:8080/tvm_edge/playlist.m3u8
-
-#EXTINF:-1 tvg-id="UniverTV.ru" tvg-logo="https://i.imgur.com/r3u0mxr.png" group-title="Undefined",Univer TV (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="UniverTV.ru" tvg-logo="https://i.imgur.com/r3u0mxr.png" group-title="Развлечения",Univer TV
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Viasat History (480p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Viasat History
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s23/index.m3u8
-
-#EXTINF:-1 tvg-id="VIPComedy.ru" tvg-logo="https://i.imgur.com/9BFyzLo.png" group-title="Comedy",ViP Comedy Russia (720p) [Not 24/7]
-http://188.40.68.167/russia/vip_comedy/playlist.m3u8
-
-#EXTINF:-1 tvg-id="VIPMegahit.ru" tvg-logo="https://i.imgur.com/LdeDWed.png" group-title="Movies",VIP Megahit Russia (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
-
-#EXTINF:-1 tvg-id="VIPPremiere.ru" tvg-logo="https://i.imgur.com/Qfeygx1.png" group-title="Movies",VIP Premiere Russia (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
-
-#EXTINF:-1 tvg-id="VIPSerial.ru" tvg-logo="https://i.imgur.com/jFaXSMJ.png" group-title="Series",VIP Serial Russia (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
-
-#EXTINF:-1 tvg-id="VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" group-title="Music",VIVA Russia (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" group-title="Музыка",VIVA Russia
 https://live.prd.dlive.tv/hls/live/viva-russia.m3u8
-
-#EXTINF:-1 tvg-id="WeatherSpyEurope.us" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Weather",WeatherSpy Europe (720p)
+#EXTINF:-1 tvg-id="WeatherSpyEurope.us" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Наука",WeatherSpy
 https://jukin-weatherspy-2-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AVTO24.ru" tvg-logo="https://i.imgur.com/qSp0CJG.png" group-title="Auto",Авто 24 (576p) [Geo-blocked]
+http://185.52.77.67:8080/Avto24/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Aris24.ru" tvg-logo="https://i.imgur.com/CTFVEAb.png" group-title="Undefined",Арис 24 (720p) [Not 24/7]
+http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Arsenal.ru" tvg-logo="https://i.imgur.com/DBpVeb0.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Арсенал (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s68/index.m3u8
+
+#EXTINF:-1 tvg-id="Arkhyz24.ru" tvg-logo="https://i.imgur.com/blAtdkJ.png" group-title="Undefined",Архыз 24 (1080p)
+https://live.mediacdn.ru/sr1/arhis24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Astrahan24.ru" tvg-logo="https://i.imgur.com/9WcnjQN.png" group-title="Undefined",Астрахань 24 (720p)
+https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AstrahanRuSport.ru" tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="Sports",Астрахань.Ru Sport (720p)
+https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AstrahanRuTV.ru" tvg-logo="https://i.imgur.com/w4ys6zm.png" group-title="Undefined",Астрахань.Ru TV (480p)
+https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Afontovo.ru" tvg-logo="https://i.imgur.com/StFfPaI.png" group-title="Undefined",Афонтово (Красноярск) (1080p) [Geo-blocked]
+http://xstream.afontovo.ru/afontovo_ya.m3u8
+
+#EXTINF:-1 tvg-id="Bashkortostan24.ru" tvg-logo="https://i.imgur.com/s34Wtz6.png" group-title="News",Башкортостан 24 (1080p)
+http://live.gtrk.tv/hls/b24-hls.m3u8
+
+#EXTINF:-1 tvg-id="Belgorod24.ru" tvg-logo="https://i.imgur.com/EEirvyx.png" group-title="Undefined",Белгород 24 (1080p)
+http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
