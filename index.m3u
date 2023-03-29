@@ -29,34 +29,39 @@ https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="Украина",FREEДOM
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 tvg-id="GlobalStarTV.ru" tvg-logo="https://i.imgur.com/qu7t9d4.png" group-title="Undefined",Global Star TV (720p)
-http://stream2.hardlife.tv:8134/hls-live/hlsGS/_definst_/liveevent/gs.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",HD life (1080p) [Not 24/7]
-http://37.193.6.155:34040/udp/239.1.9.2:1234
-
-#EXTINF:-1 tvg-id="HDMedia.ru" tvg-logo="https://i.imgur.com/vEjTNlf.png" group-title="Entertainment",HD Медиа (720p) [Geo-blocked]
-https://strm.yandex.ru/kal/hdmedia/hdmedia0.m3u8
-
-#EXTINF:-1 tvg-id="HITV.ru" tvg-logo="https://i.imgur.com/Mr9AJxK.png" group-title="Music",HITV (1080p)
-https://strm.yandex.ru/kal/hittv/hittv0.m3u8
-
-#EXTINF:-1 tvg-id="Inter.ua" tvg-logo="https://i.imgur.com/kOW4SIP.png" group-title="Undefined",IHTEP (576p)
-https://edge1.iptv.macc.com.ua/img/inter_3/index.m3u8
-
-
-
-#EXTINF:-1 tvg-id="Leomax24.ru" tvg-logo="https://i.imgur.com/qU9ohQu.png" group-title="Shop",Leomax 24 (1080p)
-https://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Luxury (1080p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="ТВ шоп",Luxury (1080p)
 http://nano.teleservice.su:8080/hls/luxury.m3u8
-
-#EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="Music",M2 (540p)
+#EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="Украина",M2 (540p)
 http://live.m2.tv/hls3/stream.m3u8
 
-#EXTINF:-1 tvg-id="MosObrTV.ru" tvg-logo="https://i.imgur.com/t6PmOD5.png" group-title="Education",MOSOBR.TV (720p) [Not 24/7]
-http://retc.educom.ru/mosobrtv/tv1/index.m3u8
 
-#EXTINF:-1 tvg-id="MTVmix.ru" tvg-logo="https://i.imgur.com/ewdf2F4.png" group-title="Music",MTVmix (Уфа) (384p)
-http://81.30.182.82:18092/hls/live.m3u8
+
+#EXTINF:-1 tvg-id="MusicBoxRussia.ru" tvg-logo="https://i.imgur.com/iWJdeD1.png" group-title="Music",Music Box Russia (1080p)
+https://strm.yandex.ru/kal/rmbox/rmbox0.m3u8
+
+#EXTINF:-1 tvg-id="NationalGeographicRussia.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/512px-Natgeologo.svg.png" group-title="Documentary",National Geographic (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/NGC_HD.m3u8
+
+#EXTINF:-1 tvg-id="NationalGeographicWildRussia.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/512px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild Russia (1080p) [Not 24/7]
+https://sc.id-tv.kz/NatGeoWildHD.m3u8
+
+#EXTINF:-1 tvg-id="NTVEurope.bd" tvg-logo="https://europentv.ntvbd.com/sites/all/themes/sloth/logo.png" group-title="General",NTV Europe (720p) [Not 24/7]
+https://cdn.appv.jagobd.com:444/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI/ntvuk00332211.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ParamountComedyRussia.ru" tvg-logo="https://i.imgur.com/Nki62R7.png" group-title="Comedy",Paramount Comedy Russia
+http://45.145.32.11:20007/paramount_comedy/video.m3u8
+
+#EXTINF:-1 tvg-id="RTenEspanol.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png" group-title="News",RT en Español (1080p) [Geo-blocked]
+https://rt-esp.rttv.com/live/rtesp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",RT News (1080p)
+https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",RT News (1080p)
+https://strm.yandex.ru/kal/rt_hd/rt_hd0.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",RT News (1080p) [Geo-blocked]
+https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RUTV.ru" tvg-logo="https://i.imgur.com/Z7HUU7V.png" group-title="Music",RU.TV (1080p) [Geo-blocked]
+https://strm.yandex.ru/kal/rutv_cv/rutv_cv0.m3u8
