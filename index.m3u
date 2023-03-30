@@ -65,35 +65,47 @@ http://xstream.afontovo.ru/afontovo_ya.m3u8
 http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuSport.ru" tvg-logo="https://i.imgur.com/BKaEtqL.png" group-title="Спорт",Астрахань.Ru Sport
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
-#EXTINF:-1 tvg-id="BelRos.ru" tvg-logo="https://i.imgur.com/tUF33HD.png" group-title="Undefined",БелРос (576p)
+#EXTINF:-1 tvg-id="BelRos.ru" tvg-logo="https://i.imgur.com/tUF33HD.png" group-title="Белоруссия",БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Bober.ru" tvg-logo="https://i.imgur.com/clWWhB8.png" group-title="Undefined",Бобер (576p) [Not 24/7]
-https://sc.id-tv.kz/bober.m3u8
-
-#EXTINF:-1 tvg-id="BigAsia.ru" tvg-logo="https://i.imgur.com/vruuPKF.png" group-title="Undefined",Большая Азия (1080p) [Geo-blocked]
-https://strm.yandex.ru/kal/bigasia/bigasia0.m3u8
-
-#EXTINF:-1 tvg-id="BST.ru" tvg-logo="https://i.imgur.com/IDotHmQ.png" group-title="Undefined",БСТ (Башкирское спутниковое телевидение) (576p)
+#EXTINF:-1 tvg-id="BST.ru" tvg-logo="https://i.imgur.com/IDotHmQ.png" group-title="Россия (Регионы)",БСТ (Башкирское спутниковое телевидение)
 https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Vera24.ru" tvg-logo="https://i.imgur.com/Qer5Lnh.png" group-title="Religious",Вера 24 (720p)
-http://62.32.67.187:1935/WEB_Vera24/Vera24.stream/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Vetta24.ru" tvg-logo="https://i.imgur.com/zKH1b5k.png" group-title="Undefined",Ветта 24 (Пермь) (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="Vetta24.ru" tvg-logo="https://i.imgur.com/zKH1b5k.png" group-title="Россия (Регионы)",Ветта 24 (Пермь)
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
-
-#EXTINF:-1 tvg-id="VmesteRF.ru" tvg-logo="https://i.imgur.com/KI1qZNc.png" group-title="Undefined",Вместе-РФ (1080p) [Geo-blocked]
+#EXTINF:-1 tvg-id="VmesteRF.ru" tvg-logo="https://i.imgur.com/KI1qZNc.png" group-title="Развлечения",Вместе-РФ
 http://cdn-01.bonus-tv.ru:8080/vmesterf/index.m3u8
-
-#EXTINF:-1 tvg-id="Volgograd1.ru" tvg-logo="https://i.imgur.com/1xlaImE.png" group-title="Undefined",Волгоград 1 (1080p) [Geo-blocked]
-https://strm.yandex.ru/kal/volgograd1/volgograd10.m3u8
-
-#EXTINF:-1 tvg-id="Glas.ua" tvg-logo="https://i.imgur.com/l5FEP9w.png" group-title="Religious",Глас (576p)
+#EXTINF:-1 tvg-id="Glas.ua" tvg-logo="https://i.imgur.com/l5FEP9w.png" group-title="Украина",Глас
 http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
-
-#EXTINF:-1 tvg-id="Gorodskoytelekanal.ru" tvg-logo="https://i.imgur.com/zMNJfoV.png" group-title="General",Городской телеканал (Ярославль) (576p)
+#EXTINF:-1 tvg-id="Gorodskoytelekanal.ru" tvg-logo="https://i.imgur.com/zMNJfoV.png" group-title="Россия (Регионы)",Городской телеканал (Ярославль)
 http://www.gtk.tv/hls/gtyar.m3u8
-
-#EXTINF:-1 tvg-id="Guberniya33.ru" tvg-logo="https://i.imgur.com/iPmWphQ.png" group-title="General",Губерния 33 (Владимир) (360p)
+#EXTINF:-1 tvg-id="Guberniya33.ru" tvg-logo="https://i.imgur.com/iPmWphQ.png" group-title="Россия (Регионы)",Губерния 33 (Владимир)
 https://live-trc33.cdnvideo.ru/trc33/trc33.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="GuberniaSamara.ru" tvg-logo="https://i.imgur.com/IlL57Rm.png" group-title="General",Губерния (Самара) (576p)
+http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Dagestan.ru" tvg-logo="https://i.imgur.com/jumkRvc.png" group-title="Undefined",Дагестан (1080p)
+https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Дайвинг.TV (720p) [Geo-blocked]
+https://strm.yandex.ru/kal/diving/diving0.m3u8
+
+#EXTINF:-1 tvg-id="Dialoguesaboutfishing.ru" tvg-logo="https://i.imgur.com/OuBtnGU.png" group-title="Outdoor",Диалоги о рыбалке (1080p)
+http://strm.yandex.ru/kal/dialogi/dialogi0.m3u8
+
+#EXTINF:-1 tvg-id="DikayaOkhotaHD.ru" tvg-logo="https://i.imgur.com/EOue13e.png" group-title="Outdoor",Дикая охота (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Dikaya_Ohota_HD.m3u8
+
+#EXTINF:-1 tvg-id="DikayaRybalkaHD.ru" tvg-logo="https://i.imgur.com/e3BFVgt.png" group-title="Outdoor",Дикая рыбалка (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Dikaya_Rybalka_HD.m3u8
+
+#EXTINF:-1 tvg-id="Dikij.ru" tvg-logo="https://i.imgur.com/VDXDiPC.png" group-title="Outdoor",Дикий (480p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Dikiy.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Дождь (1080p) [Geo-blocked]
+https://strm.yandex.ru/kal/tvrain/tvrain0.m3u8
+
+#EXTINF:-1 tvg-id="Doctor.ru" tvg-logo="https://i.imgur.com/VNirxxn.png" group-title="Education;Lifestyle",Доктор (720p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/D7M94NBVB5DLFS/512/index.m3u8
+
+#EXTINF:-1 tvg-id="DomKino.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/512px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png" group-title="Movies",Дом кино (576p)
+http://50.7.92.90/Dom_kino/playlist.m3u8
