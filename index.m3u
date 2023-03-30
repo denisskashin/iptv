@@ -122,36 +122,82 @@ http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8
 https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
 #EXTINF:-1 tvg-id="LDPRTV.ru" tvg-logo="https://i.imgur.com/gCmCRfe.png" group-title="Россия (Регионы)",ЛДПР ТВ
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
-
-
-
-#EXTINF:-1 tvg-id="LenTV24.ru" tvg-logo="https://i.imgur.com/d02uxkB.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Лен ТВ 24 (540p) [Geo-blocked]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
-https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
-
-#EXTINF:-1 tvg-id="Lipeckoevremya.ru" tvg-logo="https://i.imgur.com/a42jk7b.png" group-title="General",Липецкое время (576p) [Not 24/7]
-http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
-
-#EXTINF:-1 tvg-id="LyubimoeTV.ru" tvg-logo="https://i.imgur.com/JJv81ZP.png" group-title="Kids",Любимое.ТВ (720p) [Geo-blocked]
-https://strm.yandex.ru/kal/lovedtv/lovedtv0.m3u8
-
-#EXTINF:-1 tvg-id="MirPlus3.ru" tvg-logo="https://i.imgur.com/oxJnv6I.png" group-title="General",Мir +3 (512p) [Not 24/7]
-https://sc.id-tv.kz/Mir.m3u8
-
-#EXTINF:-1 tvg-id="MaturTV.ru" tvg-logo="https://i.imgur.com/Pg7K7eV.png" group-title="Music",Матур ТВ (1080p)
-https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-
-#EXTINF:-1 tvg-id="Mezhdunet.ru" tvg-logo="https://i.imgur.com/lFwhJJU.png" group-title="Undefined",Между.Net (Междуреченск) (720p) [Not 24/7]
+#EXTINF:-1 tvg-id="Mezhdunet.ru" tvg-logo="https://i.imgur.com/lFwhJJU.png" group-title="Россия (Регионы)",Между.Net (Междуреченск)
 http://212.77.128.179:8089/www_mezhdunet/mezhdunet/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Millet.ru" tvg-logo="https://i.imgur.com/hUjLRLy.png" group-title="Undefined",Миллет (540p) [Not 24/7]
+#EXTINF:-1 tvg-id="Millet.ru" tvg-logo="https://i.imgur.com/hUjLRLy.png" group-title="Россия (Регионы)",Миллет
 http://live.trkmillet.ru/millet/index.m3u8
-
-#EXTINF:-1 tvg-id="Ministerstvoidey.ru" tvg-logo="https://i.imgur.com/3P0uvHD.png" group-title="Undefined",Министерство идей (720p)
+#EXTINF:-1 tvg-id="Ministerstvoidey.ru" tvg-logo="https://i.imgur.com/3P0uvHD.png" group-title="Наука",Министерство идей
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Mir24.ru" tvg-logo="https://i.imgur.com/tKnSHEc.png" group-title="News",Мир 24 (1080p)
+#EXTINF:-1 tvg-id="Lipeckoevremya.ru" tvg-logo="https://i.imgur.com/a42jk7b.png" group-title="Россия (Регионы)",Липецкое время
+http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
+#EXTINF:-1 tvg-id="Mir.ru" tvg-logo="https://i.imgur.com/Murt4NK.png" group-title="Основные",Мир
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+#EXTINF:-1 tvg-id="MaturTV.ru" tvg-logo="https://i.imgur.com/Pg7K7eV.png" group-title="Музыка",Матур ТВ
+https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+#EXTINF:-1 tvg-id="Mir24.ru" tvg-logo="https://i.imgur.com/tKnSHEc.png" group-title="Новости",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 
-#EXTINF:-1 tvg-id="Mir.ru" tvg-logo="https://i.imgur.com/Murt4NK.png" group-title="General",Мир (1080p) [Not 24/7]
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="MirPlus2.ru" tvg-logo="https://i.imgur.com/i6JthjI.png" group-title="General",Мир +2 (540p) [Not 24/7]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MirPlus4.ru" tvg-logo="https://i.imgur.com/CrFWXTD.png" group-title="General",Мир +4 (540p) [Not 24/7]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MirPlus7.ru" tvg-logo="https://i.imgur.com/CrFWXTD.png" group-title="General",Мир +7 (540p)
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Мир Белагорья (720p) [Geo-blocked]
+http://mirbelogorya.ru:8080/mirbelogorya/index.m3u8
+
+#EXTINF:-1 tvg-id="MirBelogorya.ru" tvg-logo="https://mirbelogorya.ru/images/logo/Logo_Mir_Belogorya_purple_gradient.png" group-title="Undefined",Мир Белогорья (720p) [Geo-blocked]
+http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
+
+#EXTINF:-1 tvg-id="MirSeriala.ru" tvg-logo="https://i.imgur.com/uzj7wVp.png" group-title="Series",Мир сериала (576p) [Not 24/7]
+http://188.40.68.167/russia/mir_seriala/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MistoPlus.ua" tvg-logo="https://i.imgur.com/NHjg1Jm.png" group-title="General",Мисто плюс (720p)
+http://93.78.206.172:8080/stream5/stream.m3u8
+
+#EXTINF:-1 tvg-id="Morskoi.ru" tvg-logo="https://i.imgur.com/ub7f6an.png" group-title="Undefined",Морской (720p) [Not 24/7]
+http://88b9da48.kazmazpaz.ru/iptv/D7M94NBVB5DLFS/742/index.m3u8
+
+#EXTINF:-1 tvg-id="Moskva24.ru" tvg-logo="https://i.imgur.com/LVUHtnK.png" group-title="Undefined",Москва 24 (576p) [Not 24/7]
+https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MTV.ru" tvg-logo="https://i.imgur.com/pdCAUrP.png" group-title="Undefined",МТВ (Волгоград) (720p) [Not 24/7]
+http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MuzhskoeKino.ru" tvg-logo="https://i.imgur.com/amG6Tbt.png" group-title="Movies",Мужское кино (1080p) [Not 24/7]
+https://sc.id-tv.kz/Mujskoe_kino_hd.m3u8
+
+#EXTINF:-1 tvg-id="MuzSoyuz.ru" tvg-logo="https://i.imgur.com/Puk1Bhx.png" group-title="Music;Religious",Муз союз (576p)
+http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MuzTV.ru" tvg-logo="https://i.imgur.com/BtqrHmz.png" group-title="Music" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Муз-ТВ (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s28/index.m3u8
+
+#EXTINF:-1 tvg-id="Multilandia.ru" tvg-logo="https://i.imgur.com/DKd38TF.png" group-title="Kids",Мультиландия (576p) [Geo-blocked]
+http://serv30.vintera.tv:8081/detskiy/multimania20/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Надежда (720p)
+https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Надежда (720p)
+https://tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Nadiya.ua" tvg-logo="https://i.imgur.com/u3nXfZV.png" group-title="Undefined",Надия/Новый канал (576p) [Not 24/7]
+http://nadiya.home-net.com.ua/mob/mystream.m3u8
+
+#EXTINF:-1 tvg-id="NanoTV.ru" tvg-logo="https://i.imgur.com/0eEjt0F.png" group-title="Undefined",Нано (540p)
+http://nano.teleservice.su:8080/hls/nano.m3u8
+
+#EXTINF:-1 tvg-id="CurrentTimeTV.cz" tvg-logo="https://i.imgur.com/eSCZ8YY.png" group-title="News" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Настоящее Время (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s61/index.m3u8
+
+#EXTINF:-1 tvg-id="Nauka.ru" tvg-logo="https://i.imgur.com/ZZxzueO.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Наука (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s98/index.m3u8
