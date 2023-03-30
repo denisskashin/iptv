@@ -83,38 +83,48 @@ https://live-trc33.cdnvideo.ru/trc33/trc33.sdp/playlist.m3u8
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Dagestan.ru" tvg-logo="https://i.imgur.com/jumkRvc.png" group-title="Россия (Регионы)",Дагестан
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
-#EXTINF:-1 tvg-id="Domashniy.ru" tvg-logo="https://i.imgur.com/XVRwgom.png" group-title="Entertainment" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Домашний (540p) [Geo-blocked]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-https://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/variant.m3u8
-
-#EXTINF:-1 tvg-id="DonbassOnline.ua" tvg-logo="https://i.imgur.com/qBjrTly.png" group-title="Undefined",Донбас Online (1080p) [Not 24/7]
-http://176.110.1.30:1935/live/donbasonline/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Dorama.uk" tvg-logo="https://i.imgur.com/ZH5LuXU.png" group-title="Movies",Дорама (1080p) [Not 24/7]
-https://sc.id-tv.kz/dorama_hd.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Евразия (Орск) (720p)
-http://infochhdcdn.trkeurasia.ru/orsk-infochhd/infochhd/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Евразия (Орск) (720p)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",Евразия (Орск)
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
-
-#EXTINF:-1 tvg-id="Evronovosti.ru" tvg-logo="https://i.imgur.com/9eIZJSQ.png" group-title="News",Евроновости (576p)
-http://185.32.44.154/euronews/index.m3u8
-
-#EXTINF:-1 tvg-id="Enisey.ru" tvg-logo="https://i.imgur.com/57deE7f.png" group-title="Undefined",Енисей (1080p) [Not 24/7]
+#EXTINF:-1 tvg-id="Enisey.ru" tvg-logo="https://i.imgur.com/57deE7f.png" group-title="Россия (Регионы)",Енисей
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Music",Жар Птица (404p) [Geo-blocked]
-http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Zagorodnyy.ru" tvg-logo="https://i.imgur.com/YGqO3Us.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Загородный (480p)
+#EXTINF:-1 tvg-id="Zagorodnyy.ru" tvg-logo="https://i.imgur.com/YGqO3Us.png" group-title="Усадьба и дача" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Загородный
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s31/index.m3u8
-
-#EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="General",Звезда (1080p) [Not 24/7]
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ (480p)
+#EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s92/index.m3u8
+#EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Музыка",Жар Птица (404p) [Geo-blocked]
+http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
+#EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="Развлечения",Звезда
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="Izvestia.ru" tvg-logo="https://i.imgur.com/FwPWS8i.png" group-title="News",Известия (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
+
+#EXTINF:-1 tvg-id="IndijskoeKino.ru" tvg-logo="https://i.imgur.com/7D8yud7.png" group-title="Movies",Индийское кино (576p) [Not 24/7]
+https://sc.id-tv.kz/Indiiskoe_kino.m3u8
+
+#EXTINF:-1 tvg-id="Istoriya.ru" tvg-logo="https://i.imgur.com/7fZXK7y.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",История (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s40/index.m3u8
+
+#EXTINF:-1 tvg-id="K1.ua" tvg-logo="https://i.imgur.com/VFECoes.png" group-title="Undefined",К1 (576p)
+http://edge3.iptv.macc.com.ua/life/k1.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",К16 (Саров) (406p) [Not 24/7]
+http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
+
+#EXTINF:-1 tvg-id="KabbalaTV.ru" tvg-logo="https://i.imgur.com/uaffIpV.png" group-title="Religious",Каббала ТВ (360p) [Not 24/7]
+https://edge2.uk.kab.tv/live/tvrus-rus-medium/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Kavkaz24.ru" tvg-logo="https://i.imgur.com/DyJw1Pi.png" group-title="General",Кавказ 24 (720p) [Geo-blocked]
+https://strm.yandex.ru/kal/kavkaz24_supres/kavkaz24_supres0.m3u8
+
+#EXTINF:-1 tvg-id="KaleidoscopeTV.ru" tvg-logo="https://i.imgur.com/Ub3gojM.png" group-title="Undefined",Калейдскоп (480p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Kaleidoskop.m3u8
+
+#EXTINF:-1 tvg-id="DisneyChannelRussia.ru" tvg-logo="https://i.imgur.com/n0t2B3Z.png" group-title="Kids",Канал Disney (576p) [Not 24/7]
+http://188.40.68.167/russia/disney/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Karusel.ru" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="Kids" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Карусель (540p) [Geo-blocked]
