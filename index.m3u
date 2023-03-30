@@ -217,66 +217,99 @@ http://rtmp.one.by:2200
 #EXTINF:-1 tvg-id="FridayInternational.ru" tvg-logo="https://i.imgur.com/N2z3EZC.png" group-title="Основные" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Пятница! International
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s50/index.m3u8
-
-
-
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Радио Пилот (720p) [Not 24/7]
-https://pilotfm.ru/cam/hls/pilothd.m3u8
-
-#EXTINF:-1 tvg-id="RadioHit.ru" tvg-logo="https://i.imgur.com/5xKqV1s.png" group-title="Music",Радио Хит (Орск) (720p)
-http://lova.me/hls/hithd.m3u8
-
-#EXTINF:-1 tvg-id="RadioShanson.ru" tvg-logo="https://i.imgur.com/lbqM3K2.png" group-title="Music",Радио Шансон (720p) [Not 24/7]
-http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
-
-#EXTINF:-1 tvg-id="RamenskoeTV.ru" tvg-logo="https://i.imgur.com/lAOvxxI.png" group-title="Undefined",Раменское ТВ (720p)
-https://rtv.facecast.io/rtv/0.m3u8
-
-#EXTINF:-1 tvg-id="Ratnik.ru" tvg-logo="https://i.imgur.com/vhLQtSd.png" group-title="Entertainment",Ратник (1080p) [Geo-blocked]
-http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RBKTV.ru" tvg-logo="https://i.imgur.com/CwhmJby.png" group-title="Business",РБК (576p)
-http://uiptv.do.am/1ufc/701293058/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Region29.ru" tvg-logo="https://i.imgur.com/pULU44E.png" group-title="Undefined",Регион 29 (Архангельск) (720p) [Geo-blocked]
-http://live-atkmedia.cdnvideo.ru/atkmedia/atkmedia/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RENTV.ru" tvg-logo="https://i.imgur.com/0Tu5lte.png" group-title="General" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",РЕН ТВ (540p) [Geo-blocked]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
-
-#EXTINF:-1 tvg-id="RZDTV.ru" tvg-logo="https://i.imgur.com/lf1r9L6.png" group-title="Undefined",РЖД ТВ (360p) [Geo-blocked]
-http://hls.tva.cdnvideo.ru/tva/tva.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RodnoeKino.ru" tvg-logo="https://i.imgur.com/H70LxoZ.png" group-title="Movies",Родное кино (576p) [Not 24/7]
+#EXTINF:-1 tvg-id="RodnoeKino.ru" tvg-logo="https://i.imgur.com/H70LxoZ.png" group-title="Фильмы и сериалы",Родное кино
 https://sc.id-tv.kz/Rodnoe_kino.m3u8
-
-#EXTINF:-1 tvg-id="Rodnoykanal.ru" tvg-logo="https://i.imgur.com/JqydEYN.png" group-title="Undefined",Родной канал (720p) [Not 24/7]
-https://n1.slavmir.tv/live/slavmir/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Russia1Plus6.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/11-%D0%B9_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-1.svg/512px-11-%D0%B9_%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F-1.svg.png" group-title="General",Россия 1 +6 (180p)
-https://gtrkchita.ru:8081/hls/r1-chita_180p.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Россия 1 HD (720p) [Not 24/7]
-https://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Россия 1 HD (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/Russia1HD.m3u8
-
-#EXTINF:-1 tvg-id="Russia24.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png" group-title="News",Россия 24 (576p) [Not 24/7]
-http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Russia24Chita.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png" group-title="News",Россия 24 (Чита) (360p)
-https://gtrkchita.ru:8081/hls/r24-chita_360p.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Россия РТР
-https://a3569455801-s26881.cdn.ngenix.net/live/smil:rtrp.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RostovPapa.ru" tvg-logo="https://i.imgur.com/2JYkoSa.png" group-title="Undefined",Ростов-папа (1080p)
+#EXTINF:-1 tvg-id="RostovPapa.ru" tvg-logo="https://i.imgur.com/2JYkoSa.png" group-title="Россия (Регионы)",Ростов-папа
 http://live-rostovpapa.cdnvideo.ru/rostovpapa/rostovpapa.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-logo="https://i.imgur.com/yOnSc4O.png" group-title="General" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
-
+#EXTINF:-1 tvg-id="RadioHit.ru" tvg-logo="https://i.imgur.com/5xKqV1s.png" group-title="Музыка",Радио Хит (Орск)
+http://lova.me/hls/hithd.m3u8
+#EXTINF:-1 tvg-id="RadioShanson.ru" tvg-logo="https://i.imgur.com/lbqM3K2.png" group-title="Музыка",Радио Шансон
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+#EXTINF:-1 tvg-id="Ratnik.ru" tvg-logo="https://i.imgur.com/vhLQtSd.png" group-title="Фильмы и сериалы",Ратник
+http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="RBKTV.ru" tvg-logo="https://i.imgur.com/CwhmJby.png" group-title="Новости",РБК
+http://uiptv.do.am/1ufc/701293058/playlist.m3u8
+#EXTINF:-1 tvg-id="RTRPlaneta.ru" tvg-logo="https://i.imgur.com/yOnSc4O.png" group-title="Основные" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",РТР-Планета (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s15/index.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/512px-Rossiya-24_Logo.svg.png" group-title="Основные",Россия 24
+http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="RusskiyDetektiv.ru" tvg-logo="https://i.imgur.com/kaRKp2u.png" group-title="Movies",Русский Детектив (576p)
+http://78.58.133.179:28000/play/a01t/index.m3u8
+
+#EXTINF:-1 tvg-id="RusskiySever.ru" tvg-logo="https://i.imgur.com/BxAyQTx.png" group-title="Undefined",Русский Север (Вологда) (1080p)
+http://185.186.142.16/streams.rs.m3u8
+
+#EXTINF:-1 tvg-id="RussianExtreme.ru" tvg-logo="https://i.imgur.com/qjx6zZV.png" group-title="Sports",Русский Экстрим
+http://vid.extremtv.ru/hls_get/cameraFeed.m3u8
+
+#EXTINF:-1 tvg-id="Rybolov.ru" tvg-logo="https://i.imgur.com/wJMTcFS.png" group-title="Outdoor" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Рыболов (480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s55/index.m3u8
+
+#EXTINF:-1 tvg-id="Ryzhiy.ru" tvg-logo="https://i.imgur.com/QlncxbD.png" group-title="Kids" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Рыжий (480p)
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
+http://ott-cdn.ucom.am/s57/index.m3u8
+
+#EXTINF:-1 tvg-id="S1.ru" tvg-logo="https://i.imgur.com/chNBF5t.png" group-title="Undefined",С1 (Сургут) (1080p) [Not 24/7]
+https://sitv.ru/hls/stv.m3u8
+
+#EXTINF:-1 tvg-id="Salyam.ru" tvg-logo="https://i.imgur.com/FfULLr1.png" group-title="Undefined",Салям (576p)
+https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SamaraGIS.ru" tvg-logo="https://samaragis.ru/wp-includes/images/logo.png" group-title="Undefined",Самара ГИС (1080p) [Not 24/7]
+http://45.67.57.9:8080/new/new/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Sarafan.ru" tvg-logo="https://i.imgur.com/AgX6qoz.png" group-title="Undefined",Сарафан (576p) [Not 24/7]
+http://195.26.83.96:7024/play/82
+
+#EXTINF:-1 tvg-id="Svarozhichi.ua" tvg-logo="https://i.imgur.com/Zf9ioPu.png" group-title="Undefined",Сварожичи (720p)
+http://80.91.177.102:1935/live/live1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Sever.ru" tvg-logo="https://i.imgur.com/sTOQLYl.png" group-title="Undefined",Север (Нарьян-Мар) (1080p)
+https://live2.mediacdn.ru/sr1/sever-mobile/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SelengaTV.ru" tvg-logo="https://i.imgur.com/pKUtF4S.png" group-title="Undefined",Селенга ТВ (576p)
+http://90.188.37.86/live/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SmaylikTV.ru" tvg-logo="https://i.imgur.com/CBj8XCT.png" group-title="Kids",Смайлик ТВ (720p) [Not 24/7]
+http://62.32.67.187:1935/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SolnechnogorskoeTV.ru" tvg-logo="https://i.imgur.com/LZUAUVY.png" group-title="Undefined",Солнечногорское ТВ (360p) [Geo-blocked]
+http://hls.solntv.cdnvideo.ru/solntv/solntv.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Soyuz.ru" tvg-logo="https://i.imgur.com/w3OewHc.png" group-title="Religious",Союз (576p)
+http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Spas.ru" tvg-logo="https://i.imgur.com/DNO4SOL.png" group-title="Religious",СПАС (576p)
+http://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Start.ru" tvg-logo="https://i.imgur.com/VBqVkno.png" group-title="Sports",Старт (1080p)
+https://strm.yandex.ru/kal/start/start0.m3u8
+
+#EXTINF:-1 tvg-id="STB.ua" tvg-logo="https://i.imgur.com/0f9zYjL.png" group-title="Undefined",СТБ
+http://188.35.9.11:11021/j
+
+#EXTINF:-1 tvg-id="StranaFM.ru" tvg-logo="https://i.imgur.com/WsPlKJJ.png" group-title="Music",Страна FM (720p) [Not 24/7]
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",СТРК (720p) [Not 24/7]
+http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CTC.ru" tvg-logo="https://i.imgur.com/ilUzAeb.png" group-title="Family" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",СТС (540p) [Geo-blocked]
+
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STS/variant.m3u8
+
+#EXTINF:-1 tvg-id="CTCKids.ru" tvg-logo="https://i.imgur.com/o9kLpAL.png" group-title="Kids",СТС Kids (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
+
+#EXTINF:-1 tvg-id="CTCLove.ru" tvg-logo="https://i.imgur.com/YBVZoDd.png" group-title="Family",СТС Love (480p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2.m3u8
+
+#EXTINF:-1 tvg-id="Subbota.ru" tvg-logo="https://i.imgur.com/nsk8PpB.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Суббота! (450p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
+https://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/variant.m3u8
