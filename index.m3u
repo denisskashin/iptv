@@ -102,7 +102,7 @@ https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 http://ott-cdn.ucom.am/s40/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",К16 (Саров)
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Фильмы",Кинозал (VHS 90s)
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Фильмы и сериалы",Кинозал (VHS 90s)
 https://v2.catcast.tv/content/37925/index.m3u8
 #EXTINF:-1 tvg-id="Kinokomedija.ru" tvg-logo="https://i.imgur.com/1Z9VTM6.png" group-title="Фильмы и сериалы",Кинокомедия
 https://sc.id-tv.kz/Kinokomediya_hd.m3u8
@@ -114,34 +114,44 @@ https://sc.id-tv.kz/Kinopremiera_hd.m3u8
 https://sc.id-tv.kz/Kinosvidanie_hd.m3u8
 #EXTINF:-1 tvg-id="Kinohit.ru" tvg-logo="https://i.imgur.com/Ge8vkQM.png" group-title="Фильмы и сериалы",Кинохит
 https://sc.id-tv.kz/Kinohit_hd.m3u8
-#EXTINF:-1 tvg-id="Komediya.ru" tvg-logo="https://i.imgur.com/47ZLTkW.png" group-title="Comedy",Комедия (576p) [Not 24/7]
-http://188.40.68.167/russia/komediya/playlist.m3u8
-
-
-#EXTINF:-1 tvg-id="KonniyMir.ru" tvg-logo="https://i.imgur.com/X6otbK0.png" group-title="Outdoor",Конный Мир (576p) [Geo-blocked]
+#EXTINF:-1 tvg-id="KonniyMir.ru" tvg-logo="https://i.imgur.com/X6otbK0.png" group-title="Спорт",Конный Мир
 http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
-
-#EXTINF:-1 tvg-id="KrikTV.ru" tvg-logo="https://i.imgur.com/rtuChZR.png" group-title="Undefined",Крик-ТВ (576p) [Geo-blocked]
-https://strm.yandex.ru/kal/krik_tv/krik_tv0.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Крым 24 (540p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",Крым 24
 http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Кузбасс 1 (1080p) [Not 24/7]
-https://www.10kanal.ru:1443/10kanal/k24/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RussiaK.ru" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/512px-Russia-Cultura.svg.png" group-title="Culture" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Культура (540p) [Geo-blocked]
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/variant.m3u8
-
-#EXTINF:-1 tvg-id="KurajTV.ru" tvg-logo="https://i.imgur.com/hZXBD9F.png" group-title="Undefined",Курай (576p)
+#EXTINF:-1 tvg-id="KurajTV.ru" tvg-logo="https://i.imgur.com/hZXBD9F.png" group-title="Музыка",Курай
 https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",КФУ ТВ (1080p) [Not 24/7]
-https://cdn.universmotri.ru/live/kfu.sdp/playlist.m3u8
-
-#EXTINF:-1 tvg-id="LanetTV.ua" tvg-logo="https://i.imgur.com/Jdy4SoG.png" group-title="Undefined",Ланет.TV (486p)
-http://kiev1-cdn.lanet.tv/live/1008.m3u8
-
-#EXTINF:-1 tvg-id="LDPRTV.ru" tvg-logo="https://i.imgur.com/gCmCRfe.png" group-title="General",ЛДПР ТВ (1080p)
+#EXTINF:-1 tvg-id="LDPRTV.ru" tvg-logo="https://i.imgur.com/gCmCRfe.png" group-title="Россия (Регионы)",ЛДПР ТВ
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
+
+
+
+#EXTINF:-1 tvg-id="LenTV24.ru" tvg-logo="https://i.imgur.com/d02uxkB.png" group-title="Undefined" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Лен ТВ 24 (540p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
+https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
+
+#EXTINF:-1 tvg-id="Lipeckoevremya.ru" tvg-logo="https://i.imgur.com/a42jk7b.png" group-title="General",Липецкое время (576p) [Not 24/7]
+http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
+
+#EXTINF:-1 tvg-id="LyubimoeTV.ru" tvg-logo="https://i.imgur.com/JJv81ZP.png" group-title="Kids",Любимое.ТВ (720p) [Geo-blocked]
+https://strm.yandex.ru/kal/lovedtv/lovedtv0.m3u8
+
+#EXTINF:-1 tvg-id="MirPlus3.ru" tvg-logo="https://i.imgur.com/oxJnv6I.png" group-title="General",Мir +3 (512p) [Not 24/7]
+https://sc.id-tv.kz/Mir.m3u8
+
+#EXTINF:-1 tvg-id="MaturTV.ru" tvg-logo="https://i.imgur.com/Pg7K7eV.png" group-title="Music",Матур ТВ (1080p)
+https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+
+#EXTINF:-1 tvg-id="Mezhdunet.ru" tvg-logo="https://i.imgur.com/lFwhJJU.png" group-title="Undefined",Между.Net (Междуреченск) (720p) [Not 24/7]
+http://212.77.128.179:8089/www_mezhdunet/mezhdunet/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Millet.ru" tvg-logo="https://i.imgur.com/hUjLRLy.png" group-title="Undefined",Миллет (540p) [Not 24/7]
+http://live.trkmillet.ru/millet/index.m3u8
+
+#EXTINF:-1 tvg-id="Ministerstvoidey.ru" tvg-logo="https://i.imgur.com/3P0uvHD.png" group-title="Undefined",Министерство идей (720p)
+http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mir24.ru" tvg-logo="https://i.imgur.com/tKnSHEc.png" group-title="News",Мир 24 (1080p)
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Mir.ru" tvg-logo="https://i.imgur.com/Murt4NK.png" group-title="General",Мир (1080p) [Not 24/7]
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
