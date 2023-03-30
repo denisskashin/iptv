@@ -97,34 +97,39 @@ http://ott-cdn.ucom.am/s92/index.m3u8
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="Развлечения",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
-
-
-#EXTINF:-1 tvg-id="Izvestia.ru" tvg-logo="https://i.imgur.com/FwPWS8i.png" group-title="News",Известия (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/Izvestiya_HD_2.m3u8
-
-#EXTINF:-1 tvg-id="IndijskoeKino.ru" tvg-logo="https://i.imgur.com/7D8yud7.png" group-title="Movies",Индийское кино (576p) [Not 24/7]
-https://sc.id-tv.kz/Indiiskoe_kino.m3u8
-
-#EXTINF:-1 tvg-id="Istoriya.ru" tvg-logo="https://i.imgur.com/7fZXK7y.png" group-title="Undefined" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",История (480p)
+#EXTINF:-1 tvg-id="Istoriya.ru" tvg-logo="https://i.imgur.com/7fZXK7y.png" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",История (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s40/index.m3u8
-
-#EXTINF:-1 tvg-id="K1.ua" tvg-logo="https://i.imgur.com/VFECoes.png" group-title="Undefined",К1 (576p)
-http://edge3.iptv.macc.com.ua/life/k1.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",К16 (Саров) (406p) [Not 24/7]
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",К16 (Саров)
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 
-#EXTINF:-1 tvg-id="KabbalaTV.ru" tvg-logo="https://i.imgur.com/uaffIpV.png" group-title="Religious",Каббала ТВ (360p) [Not 24/7]
-https://edge2.uk.kab.tv/live/tvrus-rus-medium/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Kavkaz24.ru" tvg-logo="https://i.imgur.com/DyJw1Pi.png" group-title="General",Кавказ 24 (720p) [Geo-blocked]
-https://strm.yandex.ru/kal/kavkaz24_supres/kavkaz24_supres0.m3u8
-
-#EXTINF:-1 tvg-id="KaleidoscopeTV.ru" tvg-logo="https://i.imgur.com/Ub3gojM.png" group-title="Undefined",Калейдскоп (480p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/Kaleidoskop.m3u8
-
-#EXTINF:-1 tvg-id="DisneyChannelRussia.ru" tvg-logo="https://i.imgur.com/n0t2B3Z.png" group-title="Kids",Канал Disney (576p) [Not 24/7]
-http://188.40.68.167/russia/disney/playlist.m3u8
-
 #EXTINF:-1 tvg-id="Karusel.ru" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="Kids" user-agent="Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178",Карусель (540p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.21a.76178
+https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Кинозал (VHS 90s) (720p) [Not 24/7]
+https://v2.catcast.tv/content/37925/index.m3u8
+
+#EXTINF:-1 tvg-id="Kinokomedija.ru" tvg-logo="https://i.imgur.com/1Z9VTM6.png" group-title="Comedy",Кинокомедия (360p) [Not 24/7]
+https://sc.id-tv.kz/Kinokomediya_hd.m3u8
+
+#EXTINF:-1 tvg-id="Kinomiks.ru" tvg-logo="https://i.imgur.com/OGUMa1A.png" group-title="Movies",Киномикс (1080p) [Not 24/7]
+https://sc.id-tv.kz/Kinomix_hd.m3u8
+
+#EXTINF:-1 tvg-id="Kinopremyera.ru" tvg-logo="https://i.imgur.com/lgvOVxm.png" group-title="Movies",Кинопремьера (1080p) [Not 24/7]
+https://sc.id-tv.kz/Kinopremiera_hd.m3u8
+
+#EXTINF:-1 tvg-id="Kinosvidanie.ru" tvg-logo="https://i.imgur.com/ZRaWqxj.png" group-title="Movies",Киносвидание (1080p) [Not 24/7]
+https://sc.id-tv.kz/Kinosvidanie_hd.m3u8
+
+#EXTINF:-1 tvg-id="Kinosemja.ru" tvg-logo="https://i.imgur.com/ML0TEYb.png" group-title="Movies",Киносемья (1080p) [Not 24/7]
+https://sc.id-tv.kz/Kinosemiya_hd.m3u8
+
+#EXTINF:-1 tvg-id="Kinohit.ru" tvg-logo="https://i.imgur.com/Ge8vkQM.png" group-title="Movies",Кинохит (404p) [Not 24/7]
+https://sc.id-tv.kz/Kinohit_hd.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Классика Кино (720p) [Geo-blocked]
+https://strm.yandex.ru/kal/kinoclassic/kinoclassic0.m3u8
+
+#EXTINF:-1 tvg-id="Komediynoe.ru" tvg-logo="https://i.imgur.com/cEKe8XC.png" group-title="Comedy",Комедийное (540p)
+http://185.97.150.19:8082/2402
