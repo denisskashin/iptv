@@ -43,12 +43,12 @@ http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 http://trk555.tv:8888/live
 #EXTINF:-1 tvg-id="UniverTV.ru" tvg-logo="https://i.imgur.com/r3u0mxr.png" group-title="Развлечения и юмор",Univer TV
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Viasat History
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Viasat History
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s23/index.m3u8
 #EXTINF:-1 tvg-id="VIVARussia.ru" tvg-logo="https://i.imgur.com/OFhQQCD.png" group-title="Музыка",VIVA Russia
 https://live.prd.dlive.tv/hls/live/viva-russia.m3u8
-#EXTINF:-1 tvg-id="WeatherSpyEurope.us" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Наука",WeatherSpy
+#EXTINF:-1 tvg-id="WeatherSpyEurope.us" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Наука и природа",WeatherSpy
 https://jukin-weatherspy-2-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Aris24.ru" tvg-logo="https://i.imgur.com/CTFVEAb.png" group-title="Россия (Регионы)",Арис 24
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
@@ -90,14 +90,14 @@ http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="Zagorodnyy.ru" tvg-logo="https://i.imgur.com/YGqO3Us.png" group-title="Усадьба и дача" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Загородный
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s31/index.m3u8
-#EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ (480p)
+#EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s92/index.m3u8
 #EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Музыка",Жар Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="Фильмы и сериалы",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
-#EXTINF:-1 tvg-id="Istoriya.ru" tvg-logo="https://i.imgur.com/7fZXK7y.png" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",История (480p)
+#EXTINF:-1 tvg-id="Istoriya.ru" tvg-logo="https://i.imgur.com/7fZXK7y.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",История (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s40/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",К16 (Саров)
@@ -126,7 +126,7 @@ http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
 http://212.77.128.179:8089/www_mezhdunet/mezhdunet/playlist.m3u8
 #EXTINF:-1 tvg-id="Millet.ru" tvg-logo="https://i.imgur.com/hUjLRLy.png" group-title="Россия (Регионы)",Миллет
 http://live.trkmillet.ru/millet/index.m3u8
-#EXTINF:-1 tvg-id="Ministerstvoidey.ru" tvg-logo="https://i.imgur.com/3P0uvHD.png" group-title="Наука",Министерство идей
+#EXTINF:-1 tvg-id="Ministerstvoidey.ru" tvg-logo="https://i.imgur.com/3P0uvHD.png" group-title="Наука и природа",Министерство идей
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Lipeckoevremya.ru" tvg-logo="https://i.imgur.com/a42jk7b.png" group-title="Россия (Регионы)",Липецкое время
 http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
@@ -154,7 +154,7 @@ https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 http://nadiya.home-net.com.ua/mob/mystream.m3u8
 #EXTINF:-1 tvg-id="NanoTV.ru" tvg-logo="https://i.imgur.com/0eEjt0F.png" group-title="ТВ шоп",Нано
 http://nano.teleservice.su:8080/hls/nano.m3u8
-#EXTINF:-1 tvg-id="Nauka.ru" tvg-logo="https://i.imgur.com/ZZxzueO.png" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Наука
+#EXTINF:-1 tvg-id="Nauka.ru" tvg-logo="https://i.imgur.com/ZZxzueO.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Наука
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s98/index.m3u8
 #EXTINF:-1 tvg-id="MuzhskoeKino.ru" tvg-logo="https://i.imgur.com/amG6Tbt.png" group-title="Фильмы и сериалы",Мужское кино
@@ -206,7 +206,7 @@ https://sc.id-tv.kz/poehali.m3u8
 #EXTINF:-1 tvg-id="PravdaTUT.ua" tvg-logo="https://i.imgur.com/mdsqwpi.png" group-title="Украина" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",ПравдаТУТ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 http://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua.m3u8
-#EXTINF:-1 tvg-id="Prosveshchenie.ru" tvg-logo="https://i.imgur.com/uppFhhq.png" group-title="Наука",Просвещение
+#EXTINF:-1 tvg-id="Prosveshchenie.ru" tvg-logo="https://i.imgur.com/uppFhhq.png" group-title="Наука и природа",Просвещение
 https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
 #EXTINF:-1 tvg-id="Radio1018.ru" tvg-logo="https://i.imgur.com/kHyujEG.png" group-title="Радио",Радио 101.8
 https://video.penzainform.ru/e/r1018.m3u8
@@ -242,7 +242,7 @@ http://185.186.142.16/streams.rs.m3u8
 https://sitv.ru/hls/stv.m3u8
 #EXTINF:-1 tvg-id="Salyam.ru" tvg-logo="https://i.imgur.com/FfULLr1.png" group-title="Россия (Регионы)",Салям
 https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
-#EXTINF:-1 tvg-id="SamaraGIS.ru" tvg-logo="https://samaragis.ru/wp-includes/images/logo.png" group-title="Наука",Самара ГИС
+#EXTINF:-1 tvg-id="SamaraGIS.ru" tvg-logo="https://samaragis.ru/wp-includes/images/logo.png" group-title="Наука и природа",Самара ГИС
 http://45.67.57.9:8080/new/new/playlist.m3u8
 #EXTINF:-1 tvg-id="Sever.ru" tvg-logo="https://i.imgur.com/sTOQLYl.png" group-title="Россия (Регионы)",Север (Нарьян-Мар)
 https://live2.mediacdn.ru/sr1/sever-mobile/playlist.m3u8
@@ -378,211 +378,33 @@ https://autopilot.catcast.tv/content/38850/index.m3u8
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1 group-title="Дети и мультики",O!
 https://sc.id-tv.kz/o_34_35.m3u8
-
-#EXTINF:-1 group-title="Test",Мультиландия
-http://serv30.vintera.tv:8081/detskiy/multimania20/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Disney канал
-http://serv30.vintera.tv:8081/detskiy/multimania20/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",2x2
-http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/bw2000000/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="Test",Карусель
-http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/bw2000000/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="Test",Радость моя
-http://cdn-01.bonus-tv.ru:8080/radostmoya_edge/tracks-v1a1/index.m3u8
-
-#EXTINF:-1 group-title="Test",TiJi
+#EXTINF:-1 group-title="Дети и мультики",TiJi
 http://194.190.78.91:8080/TiJi_OT/video.m3u8
-
-#EXTINF:-1 group-title="Test",Аладдин
+#EXTINF:-1 group-title="Дети и мультики",Аладдин
 https://autopilot.catcast.tv/content/34251/index.m3u8
-
-#EXTINF:-1 group-title="Test",Смайлик ТВ HD
-http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Gravity Fouls
-https://autopilot.catcast.tv/content/38105/index.m3u8
-
-#EXTINF:-1 group-title="Test",Природа
+#EXTINF:-1 group-title="Наука и природа",Природа
 https://uni5rtmp.tulix.tv/betternature/betternature/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Животные FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Космос FHD
+#EXTINF:-1 group-title="Наука и природа",Космос FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Пляжи FHD
+#EXTINF:-1 group-title="Наука и природа",Пляжи FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Лес FHD
+#EXTINF:-1 group-title="Наука и природа",Лес FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Озёра FHD
+#EXTINF:-1 group-title="Наука и природа",Озёра FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Горы FHD
+#EXTINF:-1 group-title="Наука и природа",Горы FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Реки FHD
+#EXTINF:-1 group-title="Наука и природа",Реки FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Закат FHD
+#EXTINF:-1 group-title="Наука и природа",Закат FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Джунгли FHD
+#EXTINF:-1 group-title="Наука и природа",Джунгли FHD
 https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Водопады FHD
+#EXTINF:-1 group-title="Наука и природа",Водопады FHD
 https://95771f8415a84e31bd152fe9c6c9905c.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/wse_powr_com_5c953910932c837b4939735d/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Дождь FHD
-https://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
-
-#EXTINF:-1 group-title="Test",Камин HD
-https://stirr.ott-channels.stingray.com/naturescape/master_1920x1080_4500kbps.m3u8
-
-#EXTINF:-1 group-title="Test",Камин+ HD
-http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
-
-#EXTINF:-1 group-title="Test",Очаг HD
-https://fireside.localnowlive.com/v1/master/385c85a93929f94966d0fb186fc33b431e6f1eb9/DSP_5fdd393a31300f16077a1692_fireside/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Аквариум HD
-https://forumstatic.ru/files/0014/11/1c/61313.m3u8
-
-#EXTINF:-1 group-title="Test",Острова HD
-https://a.jsrdn.com/broadcast/41e3e6703e/+0000/c.m3u8
-
-#EXTINF:-1 group-title="Test",Relax 1
+#EXTINF:-1 group-title="Наука и природа",Relax 1
 https://stingray-naturescape-1.samsung.wurl.com/manifest/playlist.m3u8
 
-#EXTINF:-1 group-title="Test",Relax 2
-https://live.streams.ovh/YourStreaming/YourStreaming/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Ultra HD Cinema 4K UHD
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw20000000/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="Test",ULTRA REX 4K UHD
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw20000000/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="Test",Ultra REX FullHD
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
-
-#EXTINF:-1 group-title="Test",Ultra HD cinema
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8?version=2&hd
-
-#EXTINF:-1 group-title="Test",Ultra HD Cinema FulHD
-#EXTVLCOPT:http-user-agent=OnlineTvAppDroid
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
-
-#EXTINF:-1 group-title="Test",Ultra HD Cinema
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8?|User-agent=HlsWinkPlayer
-
-#EXTINF:-1 group-title="Test",VIP Premiere
-https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
-
-#EXTINF:-1 group-title="Test",VIP Megahit
-https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
-
-#EXTINF:-1 group-title="Test",VIP Comedy
-https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
-
-#EXTINF:-1 group-title="Test",VIP Serial
-https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
-
-#EXTINF:-1 group-title="Test",TV1000 HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
-
-#EXTINF:-1 group-title="Test",TV1000 Action HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
-
-#EXTINF:-1 group-title="Test",TV1000 Русское кино HD
-https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
-
-#EXTINF:-1 group-title="Test",TV 1000 Русское кино Int
-http://74.102.118.117:8812/udp/127.0.0.1:5311
-
-#EXTINF:-1 group-title="Test",TV 1000 HD
-http://dmitry-tv.ml/hls/CH_TV1000HD.m3u8
-
-#EXTINF:-1 group-title="Test",TV 1000 Action FHD
-http://dmitry-tv.ml/hls/CH_TV1000ACTIONHD.m3u8
-
-#EXTINF:-1 group-title="Test",Kino Watch TV 1
-https://ed-nl-01.mycdn.video/fresh/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="Test",Kino Watch TV 2
-https://ed-nl-01.mycdn.video/hit/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="Test",Kino Watch TV 3
-https://ed-nl-01.mycdn.video/docu/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="Test",Кино UHD
-https://my.teleelevidenie.com/play/hls-custom-c1049-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Кинопоказ HD
-https://my.teleelevidenie.com/play/hls-custom-c1375-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Наше Мужское HD
-https://my.teleelevidenie.com/play/hls-custom-c1379-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Наш Кинопоказ HD
-https://my.teleelevidenie.com/play/hls-custom-c1378-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",TV3 Film FHD
-https://my.teleelevidenie.com/play/hls-custom-c75-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Plan B
-https://my.teleelevidenie.com/play/hls-custom-c1664-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Plan B HD
-https://my.teleelevidenie.com/play/hls-custom-c1665-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Блокбастер HD
-https://my.teleelevidenie.com/play/hls-custom-c1377-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Душевное HD
-https://my.teleelevidenie.com/play/hls-custom-c1384-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Epic Drama HD
-https://my.teleelevidenie.com/play/hls-custom-c306-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Balticum Platinum HD
-https://my.teleelevidenie.com/play/hls-custom-c104-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",День Победы HD
-https://my.teleelevidenie.com/play/hls-custom-c1432-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="Test",Шокирующее HD
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/1666/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",Блокбастер FHD
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/61727/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",TV 1000 World Kino HD
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/54329/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",Дом Кино
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/65/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",Комедия ТВ
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/11093/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",CineMan
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/53382/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",Premiere HD 1
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/33691/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",Premiere HD 4
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/52961/hlsx/pl.m3u8
-
-#EXTINF:-1 group-title="Test",TV3 Film HD
-http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/95174/hlsx/pl.m3u8
 
 #EXTINF:-1 group-title="Test",Dizi TV
 http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/53962/hlsx/pl.m3u8
