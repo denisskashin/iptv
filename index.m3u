@@ -3,7 +3,7 @@
 https://ythls.onrender.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-logo="https://i.imgur.com/tHVc8on.png" group-title="Спорт",1+1 Спорт
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="2x2.ru" tvg-logo="https://i.imgur.com/fhQFLEl.png" group-title="Фильмы и сериалы",2x2
+#EXTINF:-1 tvg-id="2x2.ru" tvg-logo="https://i.imgur.com/fhQFLEl.png" group-title="Развлечения и юмор",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1 tvg-id="4Kanal.ua" tvg-logo="https://i.imgur.com/JtqdPlY.png" group-title="Украина",4 канал
 https://ythls.onrender.com/channel/UCQdSS9GSBbtSqW3oNB39KTw.m3u8
@@ -41,7 +41,7 @@ http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)", Трк 555 (Алушта)
 http://trk555.tv:8888/live
-#EXTINF:-1 tvg-id="UniverTV.ru" tvg-logo="https://i.imgur.com/r3u0mxr.png" group-title="Развлечения",Univer TV
+#EXTINF:-1 tvg-id="UniverTV.ru" tvg-logo="https://i.imgur.com/r3u0mxr.png" group-title="Развлечения и юмор",Univer TV
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Viasat History
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
@@ -93,7 +93,7 @@ http://ott-cdn.ucom.am/s31/index.m3u8
 #EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s92/index.m3u8
-#EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Музыка",Жар Птица (404p) [Geo-blocked]
+#EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Музыка",Жар Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="Фильмы и сериалы",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
@@ -308,8 +308,6 @@ https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2f
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 #EXTINF:-1 group-title="Основные",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
-#EXTINF:-1 group-title="Основные",Рен ТВ International
-https://sc.id-tv.kz/RenTV_36_37.m3u8
 #EXTINF:-1 group-title="Основные",СТС International
 https://sc.id-tv.kz/STS_34_35.m3u8
 #EXTINF:-1 group-title="Основные",THT Exclusive
@@ -360,94 +358,28 @@ http://rtmp.one.by:2200
 http://rtmp.one.by:2300
 #EXTINF:-1 group-title="Музыка",Reload Radio Music Power HD
 http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
-
-
-
-#EXTINF:-1 group-title="Test",Deejay TV
-http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/index_600_av-p.m3u8
-
-#EXTINF:-1 group-title="Test",РORTAL FOXMIX TV
-http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
-
-#EXTINF:-1 group-title="Test",RETRO MUSIC TV
+#EXTINF:-1 group-title="Музыка",Retro Music
 http://stream.mediawork.cz/retrotv/smil:retrotv2.smil/chunklist_w680437373_b750000.m3u8
-
-#EXTINF:-1 group-title="Test",Retro Music
+#EXTINF:-1 group-title="Музыка",Retro Music (дубль)
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Евроденс 90х
-https://eurodance90.catcast.tv/content/36987/index.m3u8
-
-#EXTINF:0,Шансон ТВ
-http://hls.shansontv.cdnvideo.ru/shansontv/shansontv_hq.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Радио Шансон ТВ HD
-http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8
-
-#EXTINF:-1 group-title="Test",Жар Птица
-http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",МузСоюз
-http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
-
-#EXTINF:-1 group-title="Test",Радио Хит ТВ
+#EXTINF:-1 group-title="Музыка",Радио Хит ТВ
 http://hithd.camsh.orsk.ru/hls/hithd.m3u8
-
-#EXTINF:-1 group-title="Test",Radio Capital
-http://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/index_5_av-b.m3u8
-
-#EXTINF:-1 group-title="Test",Eurosport 4K UHD
-https://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw20000000/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="Test",Евроспорт 4к
-http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8?version=2
-
-#EXTINF:-1 group-title="Test",Беларусь 5 HD
-https://95-213-224-187.livesports24.online/belarusss5.m3u8
-
-#EXTINF:-1 group-title="Test",Qazs
+#EXTINF:-1 group-title="Спорт",Qazs
 http://92.46.127.146:8080/qazsport/index.m3u8
-
-#EXTINF:-1 group-title="Test",Turkmenistan S
+#EXTINF:-1 group-title="Спорт",Turkmenistan
 https://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8
-
-#EXTINF:-1 group-title="Test",Red Bull TV
+#EXTINF:-1 group-title="Спорт",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
-
-#EXTINF:-1 group-title="Test",Nick Jr
-http://king-tv.online:80/jp_1/7FHCJrZ8JX/262994.ts
-
-#EXTINF:-1 group-title="Test",RETRO Cartoon
+#EXTINF:-1 group-title="Дети и мультики",RETRO Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8
-
-#EXTINF:-1 group-title="Test",СТС Kids HD
-https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
-
-#EXTINF:-1 group-title="Test",2x2 HD
-https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Big Buck Bunny HD
-https://wowza.peer5.com/live/smil:bbb_abr.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",Мульт
+#EXTINF:-1 group-title="Дети и мультики",Мульт
 https://autopilot.catcast.tv/content/38850/index.m3u8
-
-#EXTINF:-1 group-title="Test",Детское|Кино
-http://v2.catcast.me/content/38720/index.m3u8
-
-#EXTINF:-1 group-title="Test",KINDER TV
-https://v2.catcast.tv/content/38144/index.m3u8
-
-#EXTINF:-1 group-title="Test",Da Vinchi Kids
+#EXTINF:-1 group-title="Дети и мультики",Da Vinchi Kids
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
-
-#EXTINF:-1 group-title="Test",Рыжий
-http://serv30.vintera.tv:8081/detskiy/ryzhiy_08/playlist.m3u8
-
-#EXTINF:-1 group-title="Test",O!
+#EXTINF:-1 group-title="Дети и мультики",O!
 https://sc.id-tv.kz/o_34_35.m3u8
 
-#EXTINF:0,Мультиландия
+#EXTINF:-1,Мультиландия
 http://serv30.vintera.tv:8081/detskiy/multimania20/playlist.m3u8
 
 #EXTINF:-1 group-title="Test",Disney канал
@@ -928,7 +860,7 @@ https://sc.id-tv.kz/Cinema_34_35.m3u8
 #EXTINF:-1 group-title="Test",Дом Кино Премиум HD
 https://sc.id-tv.kz/domkino_hd_38_39.m3u8
 
-#EXTINF:0,Мужское кино
+#EXTINF:-1,Мужское кино
 https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
 
 #EXTINF:-1 group-title="Test",Победа
@@ -1124,16 +1056,16 @@ http://ott-cdn.ucom.am/s68/04.m3u8
 #EXTINF:-1 group-title="Test",U!Premium ATV
 http://ott-cdn.ucom.am/s83/index.m3u8
 
-#EXTINF:0,Armenia Comedy ATV
+#EXTINF:-1,Armenia Comedy ATV
 http://ott-cdn.ucom.am/s32/index.m3u8
 
-#EXTINF:0,Cineman ATV
+#EXTINF:-1,Cineman ATV
 http://ott-cdn.ucom.am/s66/04.m3u8
 
-#EXTINF:0,Filmzone ATV
+#EXTINF:-1,Filmzone ATV
 http://ott-cdn.ucom.am/s48/04.m3u8
 
-#EXTINF:0,Kinoman ATV
+#EXTINF:-1,Kinoman ATV
 http://ott-cdn.ucom.am/s94/04.m3u8
 
 #EXTINF:-1 group-title="Test",Haykino ATV
