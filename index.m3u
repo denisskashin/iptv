@@ -298,37 +298,1110 @@ https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
 https://hls.tv.3angels.ru/stream.m3u8
 #EXTINF:-1 tvg-id="Yuvelirochka.ru" tvg-logo="https://i.imgur.com/IcWtXCZ.png" group-title="ТВ шоп",Ювелирочка ТВ
 http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-
-
-#EXTINF:-1 group-title="test",Первый канал FHD
-http://91.192.168.251:5050
-
-#EXTINF:-1 group-title="test",Россия 24
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
-
-#EXTINF:-1 group-title="test",IZ.RU HD
-http://hls-igi.cdnvideo.ru/igi/igi_hq/chunklist.m3u8
-
-#EXTINF:-1 group-title="test",Наше ТВ
-http://95.46.208.8:26259/nashe
-
-#EXTINF:-1 group-title="test",Сарафан
+#EXTINF:-1 group-title="Развлечения и юмор",Сарафан
 http://86.57.178.105:10822
 
-#EXTINF:-1 group-title="test",КВН ТВ
-http://88.118.158.168:4022/udp/239.255.1.93:1234
 
-#EXTINF:-1 group-title="test",НТВ HD
-http://78.58.133.179:28000/play/a001/index.m3u8
 
-#EXTINF:-1 group-title="test",НТВ Хит HD
-http://fwryalta.trkcrimea.ru/yalta.m3u8
 
-#EXTINF:-1 group-title="test",НТВ FHD
-https://my.teleelevidenie.com/play/hls-custom-c177-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
 
-#EXTINF:-1 group-title="test",НТВ Право
-https://my.teleelevidenie.com/play/hls-custom-c50-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
 
-#EXTINF:-1 group-title="test",НТВ Стиль
-http://ott-cdn.ucom.am/s77/04.m3u8
+#EXTINF:-1 group-title="Test",Пятница
+http://78.58.133.179:28000/play/a01v/index.m3u8
+
+#EXTINF:-1 group-title="Test",Суббота! HD
+https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",ТНТ HD
+https://bl.uma.media/live/410338/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013807/79ad96b5b87fdce129191b83aaf2fb46/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",ТНТ4 HD
+https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",ТНТ4
+http://46.34.209.243:80/btv/SWM/TNT4/TNT4_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",ТНТ International
+http://ott-cdn.ucom.am/s19/04.m3u8
+
+#EXTINF:-1 group-title="Test",Рен ТВ International
+https://sc.id-tv.kz/RenTV_36_37.m3u8
+
+#EXTINF:-1 group-title="Test",СТС International
+https://sc.id-tv.kz/STS_38_39.m3u8
+
+#EXTINF:-1 group-title="Test",СТС International
+https://sc.id-tv.kz/STS_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Россия РТР
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist_3.m3u8
+
+#EXTINF:-1 group-title="Test",ТВ-3 FHD
+https://bl.uma.media/live/407373/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013859/5fdc4b8080160a4e56933b0402133da4/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Пятница HD
+https://bl.uma.media/live/410336/HLS_R/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613010957/e2cf94524a064ecb46389bb54a359d9a/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Санкт-Петербург
+http://5.59.129.134:8080/sankt-peterburg/index.m3u8
+
+#EXTINF:-1 group-title="Test",Новое телевидение HD
+http://46.34.209.243:80/btv/SWM/New_TV/New_TV_1080p_5000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Домашний
+http://78.58.133.179:28000/play/a209/index.m3u8
+
+#EXTINF:-1 group-title="Test",THT Exclusive
+http://89.28.25.122/hls/tnt_md.m3u8
+
+#EXTINF:-1 group-title="Test",HTM HD
+http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",TEO TV HD
+http://teotv.ru:1935/live/site/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Крик ТВ
+http://cdn-01.bonus-tv.ru:8080/kriktv_edge/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 group-title="Test",ТВР 24
+https://live-tvr24.cdnvideo.ru/tvr24/tvr24.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Русский Север HD
+http://185.186.142.16/rs/1080/s.m3u8
+
+#EXTINF:-1 group-title="Test",Север HD
+https://live2.mediacdn.ru/sr1/sever/playlist_hdhigh.m3u8
+
+#EXTINF:-1 group-title="Test",Варяг ТВ HD
+http://87.252.229.252:8081/varag
+
+#EXTINF:-1 group-title="Test",Canal 2 HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/48329/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Canal 3 HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/26285/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",СТРК
+http://sochi-strk.ru:2015/STRK/mpegts
+
+#EXTINF:-1 group-title="Test",43 Канал
+http://sochi-strk.ru:2015/43Kanal/mpegts
+
+#EXTINF:-1 group-title="Test",С1 HD
+https://sitv.ru/hls/stv1024.m3u8
+
+#EXTINF:-1 group-title="Test",С86 HD
+https://sitv.ru/hls/s86.m3u8
+
+#EXTINF:-1 group-title="Test",Красная Линия
+http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Танцуй!
+https://my.teleelevidenie.com/play/hls-custom-c1366-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Первый канал "Евразия"
+https://sc.id-tv.kz/1KanalEvraziya_34_35.m3u8
+
+#EXTINF:0,Первый канал
+http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_NN_1TV/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Первый канал (+1)
+http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8?version=2
+
+#EXTINF:0,Первый канал (+5)
+http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_IRK_1TV/variant.m3u8?version=2
+
+#EXTINF:0,Первый канал (+6)
+http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Первый Тульский
+http://rt-ct-tula-htlive-lb.cdn.ngenix.net/hls/CH_R01_PERV_TUL/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Первый Ярославский
+http://rt-ct-yarl-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_CT_YARL_NTM/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Первый городской (Киров)
+http://rt-vlg-kirov-htlive-lb.cdn.ngenix.net/hls/CH_R03_OTT_VLG_KIROV_PERVYGORODSKOY/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Первый городской (Омск)
+http://rt-sib-omsk-htlive-lb.cdn.ngenix.net/hls/CH_R01_OTT_SIB_OMSK_1GORODSKOY/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Известия
+http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Дождь
+https://a3569457435-s78511.cdn.ngenix.net/open/_definst_/TVRain_noaudio/chunklist_DVR.m3u8
+
+#EXTINF:-1 group-title="Test",Россия 1
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA1/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Россия 24 HD
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
+
+#EXTINF:-1 group-title="Test",Россия 24
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIA24/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Россия РТР
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/playlist_3.m3u8
+
+#EXTINF:-1 group-title="Test",Россия К
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIAK/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Звезда
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ZVEZDA/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Мир HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Мир (+4)
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
+
+#EXTINF:0,Мир Premium
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
+
+#EXTINF:0,Мир 24 HD
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",НТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NTV/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",ТНТ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",ТНТ4
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TNT4/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",ТВ Центр
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",РЕН ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Рен ТВ HD
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
+
+#EXTINF:-1 group-title="Test",Пятый канал
+http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Домашний
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DOMASHNIY/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Пятница!
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PYATNIZZA/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",СТС
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",СТС Love
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
+
+#EXTINF:-1 group-title="Test",Губерния Самарская
+http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/chunklist.m3u8
+
+#EXTINF:-1 group-title="Test",МТВ
+http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",ТВ-3
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Супер
+http://zabava-htlive.cdn.ngenix.net/hls/CH_SUPER/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Че
+http://zabava-htlive.cdn.ngenix.net/hls/CH_PERETZ/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Ю
+http://zabava-htlive.cdn.ngenix.net/hls/CH_U/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Родной канал HD
+https://n1.slavmir.tv/live/slavmir/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Новый мир
+http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",ОТР
+http://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Астрахань 24
+http://streaming.astrakhan.ru/astrakhan24/index.m3u8
+
+#EXTINF:-1 group-title="Test",Известия ТВ HD
+http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Известия ТВ FHD
+http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Первый республиканский
+http://ott.inmart.tv:8081/18/index.m3u8
+
+#EXTINF:-1 group-title="Test",Оплoт HD
+http://ott.inmart.tv:8081/54/index.m3u8
+
+#EXTINF:-1 group-title="Test",Оплoт 2 HD
+http://ott.inmart.tv:8081/17/index.m3u8
+
+#EXTINF:-1 group-title="Test",musikcolabfm
+#EXTVLCOPT:http-user-agent=smartlabs
+http://hls.goodgame.ru:80/hls/163343.m3u8
+
+#EXTINF:-1 group-title="Test",ElW
+#EXTVLCOPT:http-user-agent=smartlabs
+http://hls.goodgame.ru:80/hls/152922.m3u8
+
+#EXTINF:-1 group-title="Test",Metal TV
+#EXTVLCOPT:http-user-agent=smartlabs
+http://v1.catcast.me/content/33816/index.m3u8
+
+#EXTINF:-1 group-title="Test",Radio Van 103.0 FM Yerevan
+http://stream.radiovan.fm/stream/index.m3u8
+
+#EXTINF:-1 group-title="Test",M2O TV
+http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
+
+#EXTINF:-1 group-title="Test",1 HD
+https://sc.id-tv.kz/1hd_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Sonus FM
+http://www.sonus.fm:1935/public/stream_720p/chunklist_w514335426.m3u8
+
+#EXTINF:-1 group-title="Test",Первый Музыкальный BY
+http://rtmp.one.by:1200
+
+#EXTINF:-1 group-title="Test",Первый Музыкальный BY HD
+http://rtmp.one.by:1300
+
+#EXTINF:-1 group-title="Test",Первый Музыкальный BY Россия
+http://rtmp.one.by:2200
+
+#EXTINF:-1 group-title="Test",Первый Музыкальный BY Россия HD
+http://rtmp.one.by:2300
+
+#EXTINF:-1 group-title="Test",Радио ХИТ (Орск)
+http://hithd.camsh.orsk.ru/hls/hithd.m3u8
+
+#EXTINF:-1 group-title="Test",DJing Hot Hot Hot HD
+http://www.djing.com/tv/hothothot.m3u8
+
+#EXTINF:-1 group-title="Test",Djing Animation HD
+http://www.djing.com/tv/animation.m3u8
+
+#EXTINF:-1 group-title="Test",Djing Classic HD
+http://www.djing.com/tv/hits.m3u8
+
+#EXTINF:-1 group-title="Test",Djing Hedonist HD
+https://www.djing.com/tv/s-28634-05-hedonist.m3u8
+
+#EXTINF:-1 group-title="Test",Djing Hits
+https://www.djing.com/tv/i-28634-04.m3u8
+
+#EXTINF:-1 group-title="Test",Djing Ibiza HD
+http://www.djing.com/tv/dancefloor.m3u8
+
+#EXTINF:-1 group-title="Test",Djing Karaoke HD
+http://www.djing.com/tv/karaoke.m3u8
+
+#EXTINF:-1 group-title="Test",Djing TV
+https://www.djing.com/tv/28638-04.m3u8
+
+#EXTINF:-1 group-title="Test",DJing Wild HD
+http://www.djing.com/tv/s-28634-05-wild-edm.m3u8
+
+#EXTINF:-1 group-title="Test",Djing TV HD
+http://www.djing.com/tv/live.m3u8
+
+#EXTINF:-1 group-title="Test",Djing Underground HD
+http://www.djing.com/tv/underground.m3u8
+
+#EXTINF:-1 group-title="Test",ACB TV
+http://acbtv.vintera.tv:8081/acbtv/acbtv_stream/playlist.m3u8
+
+#EXTINF:0,Страна FM HD
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Hit Music Channel
+http://hitmusic.hu/hitmusic.m3u8
+
+#EXTINF:0,Kronehit HD
+https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
+
+#EXTINF:-1 group-title="Test",Reload Radio Music Power HD
+http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
+
+#EXTINF:-1 group-title="Test",Deejay TV
+http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/index_600_av-p.m3u8
+
+#EXTINF:-1 group-title="Test",РORTAL FOXMIX TV
+http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
+
+#EXTINF:-1 group-title="Test",RETRO MUSIC TV
+http://stream.mediawork.cz/retrotv/smil:retrotv2.smil/chunklist_w680437373_b750000.m3u8
+
+#EXTINF:-1 group-title="Test",Retro Music
+http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Евроденс 90х
+https://eurodance90.catcast.tv/content/36987/index.m3u8
+
+#EXTINF:0,Шансон ТВ
+http://hls.shansontv.cdnvideo.ru/shansontv/shansontv_hq.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Радио Шансон ТВ HD
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live_hiq/index.m3u8
+
+#EXTINF:-1 group-title="Test",Жар Птица
+http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",МузСоюз
+http://hls.tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/chunklist.m3u8
+
+#EXTINF:-1 group-title="Test",Радио Хит ТВ
+http://hithd.camsh.orsk.ru/hls/hithd.m3u8
+
+#EXTINF:-1 group-title="Test",Radio Capital
+http://capital_tv-lh.akamaihd.net/i/CapitalTv_1@183098/index_5_av-b.m3u8
+
+#EXTINF:-1 group-title="Test",Eurosport 4K UHD
+https://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw20000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Евроспорт 4к
+http://zabava-htlive.cdn.ngenix.net/hls/CH_EUROSPORT4K_HLS/bw6000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Беларусь 5 HD
+https://95-213-224-187.livesports24.online/belarusss5.m3u8
+
+#EXTINF:-1 group-title="Test",Qazs
+http://92.46.127.146:8080/qazsport/index.m3u8
+
+#EXTINF:-1 group-title="Test",Turkmenistan S
+https://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8
+
+#EXTINF:-1 group-title="Test",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
+
+#EXTINF:-1 group-title="Test",Nick Jr
+http://king-tv.online:80/jp_1/7FHCJrZ8JX/262994.ts
+
+#EXTINF:-1 group-title="Test",RETRO Cartoon
+https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8
+
+#EXTINF:-1 group-title="Test",СТС Kids HD
+https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
+
+#EXTINF:-1 group-title="Test",2x2 HD
+https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Big Buck Bunny HD
+https://wowza.peer5.com/live/smil:bbb_abr.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Мульт
+https://autopilot.catcast.tv/content/38850/index.m3u8
+
+#EXTINF:-1 group-title="Test",Детское|Кино
+http://v2.catcast.me/content/38720/index.m3u8
+
+#EXTINF:-1 group-title="Test",KINDER TV
+https://v2.catcast.tv/content/38144/index.m3u8
+
+#EXTINF:-1 group-title="Test",Da Vinchi Kids
+https://sc.id-tv.kz/DaVinci_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Рыжий
+http://serv30.vintera.tv:8081/detskiy/ryzhiy_08/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",O!
+https://sc.id-tv.kz/o_34_35.m3u8
+
+#EXTINF:0,Мультиландия
+http://serv30.vintera.tv:8081/detskiy/multimania20/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Disney канал
+http://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",2x2
+http://zabava-htlive.cdn.ngenix.net/hls/CH_2X2/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Карусель
+http://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Радость моя
+http://cdn-01.bonus-tv.ru:8080/radostmoya_edge/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 group-title="Test",TiJi
+http://194.190.78.91:8080/TiJi_OT/video.m3u8
+
+#EXTINF:-1 group-title="Test",Аладдин
+https://autopilot.catcast.tv/content/34251/index.m3u8
+
+#EXTINF:-1 group-title="Test",Смайлик ТВ HD
+http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Gravity Fouls
+https://autopilot.catcast.tv/content/38105/index.m3u8
+
+#EXTINF:-1 group-title="Test",Природа
+https://uni5rtmp.tulix.tv/betternature/betternature/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Животные FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9537b8932c837b49397343/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Космос FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Пляжи FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Лес FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Озёра FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Горы FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Реки FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Закат FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Джунгли FHD
+https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Водопады FHD
+https://95771f8415a84e31bd152fe9c6c9905c.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/wse_powr_com_5c953910932c837b4939735d/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Дождь FHD
+https://a.jsrdn.com/broadcast/76381deeda/+0000/c.m3u8
+
+#EXTINF:-1 group-title="Test",Камин HD
+https://stirr.ott-channels.stingray.com/naturescape/master_1920x1080_4500kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Камин+ HD
+http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 group-title="Test",Очаг HD
+https://fireside.localnowlive.com/v1/master/385c85a93929f94966d0fb186fc33b431e6f1eb9/DSP_5fdd393a31300f16077a1692_fireside/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Аквариум HD
+https://forumstatic.ru/files/0014/11/1c/61313.m3u8
+
+#EXTINF:-1 group-title="Test",Острова HD
+https://a.jsrdn.com/broadcast/41e3e6703e/+0000/c.m3u8
+
+#EXTINF:-1 group-title="Test",Relax 1
+https://stingray-naturescape-1.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Relax 2
+https://live.streams.ovh/YourStreaming/YourStreaming/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Ultra HD Cinema 4K UHD
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw20000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",ULTRA REX 4K UHD
+https://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw20000000/variant.m3u8?version=2
+
+#EXTINF:-1 group-title="Test",Ultra REX FullHD
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RUSSIANEXTREMEULTRA_HLS/bw6000000/variant.m3u8
+
+#EXTINF:-1 group-title="Test",Ultra HD cinema
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/variant.m3u8?version=2&hd
+
+#EXTINF:-1 group-title="Test",Ultra HD Cinema FulHD
+#EXTVLCOPT:http-user-agent=OnlineTvAppDroid
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8
+
+#EXTINF:-1 group-title="Test",Ultra HD Cinema
+http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA_HLS/bw6000000/variant.m3u8?|User-agent=HlsWinkPlayer
+
+#EXTINF:-1 group-title="Test",VIP Premiere
+https://okkotv-live.cdnvideo.ru/channel/VIP_Premiere_HD.m3u8
+
+#EXTINF:-1 group-title="Test",VIP Megahit
+https://okkotv-live.cdnvideo.ru/channel/VIP_Megahit_HD.m3u8
+
+#EXTINF:-1 group-title="Test",VIP Comedy
+https://okkotv-live.cdnvideo.ru/channel/VIP_Comedy_HD.m3u8
+
+#EXTINF:-1 group-title="Test",VIP Serial
+https://okkotv-live.cdnvideo.ru/channel/VIP_Serial_HD.m3u8
+
+#EXTINF:-1 group-title="Test",TV1000 HD
+https://okkotv-live.cdnvideo.ru/channel/TV1000_HD.m3u8
+
+#EXTINF:-1 group-title="Test",TV1000 Action HD
+https://okkotv-live.cdnvideo.ru/channel/TV1000_Action_HD.m3u8
+
+#EXTINF:-1 group-title="Test",TV1000 Русское кино HD
+https://okkotv-live.cdnvideo.ru/channel/TV1000_Rus_Kino_HD.m3u8
+
+#EXTINF:-1 group-title="Test",TV 1000 Русское кино Int
+http://74.102.118.117:8812/udp/127.0.0.1:5311
+
+#EXTINF:-1 group-title="Test",TV 1000 HD
+http://dmitry-tv.ml/hls/CH_TV1000HD.m3u8
+
+#EXTINF:-1 group-title="Test",TV 1000 Action FHD
+http://dmitry-tv.ml/hls/CH_TV1000ACTIONHD.m3u8
+
+#EXTINF:-1 group-title="Test",Kino Watch TV 1
+https://ed-nl-01.mycdn.video/fresh/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Kino Watch TV 2
+https://ed-nl-01.mycdn.video/hit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Kino Watch TV 3
+https://ed-nl-01.mycdn.video/docu/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Кино UHD
+https://my.teleelevidenie.com/play/hls-custom-c1049-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Кинопоказ HD
+https://my.teleelevidenie.com/play/hls-custom-c1375-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Наше Мужское HD
+https://my.teleelevidenie.com/play/hls-custom-c1379-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Наш Кинопоказ HD
+https://my.teleelevidenie.com/play/hls-custom-c1378-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",TV3 Film FHD
+https://my.teleelevidenie.com/play/hls-custom-c75-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Plan B
+https://my.teleelevidenie.com/play/hls-custom-c1664-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Plan B HD
+https://my.teleelevidenie.com/play/hls-custom-c1665-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Блокбастер HD
+https://my.teleelevidenie.com/play/hls-custom-c1377-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Душевное HD
+https://my.teleelevidenie.com/play/hls-custom-c1384-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Epic Drama HD
+https://my.teleelevidenie.com/play/hls-custom-c306-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Balticum Platinum HD
+https://my.teleelevidenie.com/play/hls-custom-c104-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",День Победы HD
+https://my.teleelevidenie.com/play/hls-custom-c1432-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
+
+#EXTINF:-1 group-title="Test",Шокирующее HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/1666/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Блокбастер FHD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/61727/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",TV 1000 World Kino HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/54329/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Дом Кино
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/65/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Комедия ТВ
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/11093/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",CineMan
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/53382/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Premiere HD 1
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/33691/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Premiere HD 4
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/52961/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",TV3 Film HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/95174/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Dizi TV
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/53962/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",ХИТ HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/46927/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",TrAsh HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/33428/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Яснае ТВ
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/27397/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",BOLT HD UA
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/27303:Bolt
+
+#EXTINF:-1 group-title="Test",Камеди HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/35481/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Про Любовь HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/32849/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Романтичное HD
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/39446/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",AMC UA
+http://s.ipcast.xyz/~205ceb711830cb1db1dd6f2679970d2019b/29428/hlsx/pl.m3u8
+
+#EXTINF:-1 group-title="Test",Остросюжетное FHD
+http://ua001.vivat.live/t-061f.1f9d.850c784cd529b228ea8eb06e0e97303f/hd/00535/8m/index.m3u8
+
+#EXTINF:-1 group-title="Test",Наше HD
+http://ua001.vivat.live/t-061f.1f9d.850c784cd529b228ea8eb06e0e97303f/hd/00536/8m/index.m3u8
+
+#EXTINF:-1 group-title="Test",Премиальное FHD
+http://ua001.vivat.live/t-061f.1f9d.850c784cd529b228ea8eb06e0e97303f/hd/00537/8m/index.m3u8
+
+#EXTINF:-1 group-title="Test",Кино ТВ HD
+http://ua001.vivat.live/t-061f.1f9d.850c784cd529b228ea8eb06e0e97303f/hd/00529/8m/index.m3u8
+
+#EXTINF:-1 group-title="Test",Кино ТВ
+http://194.146.190.241:4000/play/a02q/index.m3u8
+
+#EXTINF:-1 group-title="Test",FlixSnip
+http://88.118.158.168:4022/udp/239.255.1.46:1234
+
+#EXTINF:-1 group-title="Test",3 plus
+http://94.101.225.142:9981/stream/channelid/1825053967
+
+#EXTINF:-1 group-title="Test",8 TV
+http://94.101.225.142:9981/stream/channelid/1021525282
+
+#EXTINF:-1 group-title="Test",1+2 Int.
+http://94.101.225.142:9981/stream/channelid/283023567
+
+#EXTINF:-1 group-title="Test",FilmZone
+http://94.101.225.142:9981/stream/channelid/298518610
+
+#EXTINF:-1 group-title="Test",Киносерия
+http://46.34.209.244:80/btv/SWM/Kinoserija/Kinoserija_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",TV PRO
+http://rtmp.tvpro-online.ru/hls/ch1.m3u8
+
+#EXTINF:-1 group-title="Test",Blue Crabs TV
+http://stream-norst.cf:8080/crabs/index.m3u8
+
+#EXTINF:-1 group-title="Test",BACKUSTV HD
+http://stream.backustv.ru/live/btv/index.m3u8
+
+#EXTINF:-1 group-title="Test",BACKUSTV Страшное HD
+http://stream.backustv.ru/live/btv2/index.m3u8
+
+#EXTINF:-1 group-title="Test",Film Box
+http://94.230.240.17:8080/film_box/index.m3u8
+
+#EXTINF:-1 group-title="Test",Киносвидание
+http://94.154.83.88:10000/kinosvidanie
+
+#EXTINF:-1 group-title="Test",STV HD
+http://188.138.130.130:8080
+
+#EXTINF:-1 group-title="Test",Комедийное HD
+http://91.201.177.2:8010/play/a00271
+
+#EXTINF:-1 group-title="Test",Serial UHD
+http://king-tv.online:80/jp_1/7FHCJrZ8JX/192807.ts
+
+#EXTINF:-1 group-title="Test",Шокирующее FHD
+http://king-tv.online:80/jp_1/7FHCJrZ8JX/263038.ts
+
+#EXTINF:-1 group-title="Test",Комедийное FHD
+http://king-tv.online:80/jp_1/7FHCJrZ8JX/262965.ts
+
+#EXTINF:-1 group-title="Test",BCU FilmMystic HD
+http://king-tv.online:80/jp_1/7FHCJrZ8JX/263099.ts
+
+#EXTINF:-1 group-title="Test",Страшное HD
+http://king-tv.online:80/jp_1/7FHCJrZ8JX/263110.ts
+
+#EXTINF:-1 group-title="Test",KINO 18+
+https://autopilot.catcast.tv/content/40381/index.m3u8
+
+#EXTINF:-1 group-title="Test",TV1 Cinemastan HD
+http://st.kglive.asia/hls/tv1cinema.m3u8
+
+#EXTINF:-1 group-title="Test",Твое ТВ
+http://stream-norst.cf/tvoetv.m3u8
+
+#EXTINF:-1 group-title="Test",Твое ТВ HD
+http://stream-norst.cf:8080/tvoetv/index.m3u8
+
+#EXTINF:-1 group-title="Test",Наше Любимое Кино
+http://46.34.209.243:80/btv/SWM/Nashe_Lubimoe_Kino/Nashe_Lubimoe_Kino_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Победа
+http://46.34.209.243:80/btv/SWM/Pobeda/Pobeda_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",NST
+http://46.34.209.243:80/btv/SWM/HCT/HCT.m3u8
+
+#EXTINF:-1 group-title="Test",НСТ
+http://46.34.209.243/btv/SWM/HCT/HCT_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Cinema
+http://46.34.209.242:80/btv/SWM/CINEMA/CINEMA_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",ЕВРОКИНО
+http://46.34.209.243/btv/SWM/Eurokino/Eurokino_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",СТРК HD
+http://sochi-strk.ru:2015/STRK/mpegts
+
+#EXTINF:-1 group-title="Test",КИНО 24
+http://85.192.10.131/hls/Kino24Ru/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",A HIT HD 1080p
+http://46.34.209.243:80/btv/SWM/AmediaHitHD/AmediaHitHD_1080p_5000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",A HIT HD 720p
+http://46.34.209.243:80/btv/SWM/AmediaHitHD/AmediaHitHD_720p_3500kbps.m3u8
+
+#EXTINF:-1 group-title="Test",A Premium HD
+http://46.34.209.243:80/btv/SWM/Amedia_PremiumHD/Amedia_PremiumHD.m3u8
+
+#EXTINF:-1 group-title="Test",A1 720p
+http://46.34.209.243:80/btv/SWM/A1/A1_720p_3500kbps.m3u8
+
+#EXTINF:-1 group-title="Test",A2 HD
+http://46.34.209.243:80/btv/SWM/A2/A2.m3u8
+
+#EXTINF:-1 group-title="Test",A2 576p
+http://46.34.209.243:80/btv/SWM/A2/A2_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Hollywood
+http://46.34.209.243:80/btv/SWM/Hollywood/Hollywood_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Hollywood HD
+http://46.34.209.243:80/btv/SWM/Hollywood/Hollywood.m3u8
+
+#EXTINF:-1 group-title="Test",Paramount Comedy
+http://176.197.77.101:81/udp/239.255.42.16:1234
+
+#EXTINF:-1 group-title="Test",Bollywood HD
+http://46.34.209.243:80/btv/SWM/Bollywood_HD/Bollywood_HD.m3u8
+
+#EXTINF:-1 group-title="Test",Bollywood HD 1080p
+http://46.34.209.243:80/btv/SWM/Bollywood_HD/Bollywood_HD_1080p_5000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",ДОМ КИНО
+http://46.34.209.243/btv/SWM/Dom_Kino/Dom_Kino_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",РУССКИЙ ИЛЛЮЗИОН
+http://86.57.178.105:10823
+
+#EXTINF:-1 group-title="Test",ТВЦ
+http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
+
+#EXTINF:-1 group-title="Test",ТВЦ Int
+http://46.34.209.243/btv/SWM/TVCentr/TVCentr_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",ТВЦ +2
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC_2/variant.m3u8
+
+#EXTINF:-1 group-title="Test",ТВ 3
+http://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/bw2000000/variant.m3u8
+
+#EXTINF:-1 group-title="Test",Дорама HD
+http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Киносерия
+http://109.239.128.126:8080/kinoseria/tracks-v2a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Киноужас FHD
+http://109.239.128.126:8080/kinouzhas/tracks-v2a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Кинохит HD
+http://109.239.128.126:8080/kinohit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Родное Кино
+http://109.239.128.126:8080/rodnoe_kino/tracks-v2a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Кинопоказ
+http://91.221.201.2:7006/play/a002/index.m3u8
+
+#EXTINF:-1 group-title="Test",Кино ТВ FHD
+http://109.239.128.126:8080/kino_tv_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",SCI-FI
+https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+
+#EXTINF:-1 group-title="Test",BLACK
+https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
+
+#EXTINF:-1 group-title="Test",Film Box
+http://94.230.240.17:8080/film_box/index.m3u8
+
+#EXTINF:-1 group-title="Test",Мосфильм Золотая Коллекция HD
+http://109.239.128.126:8080/mosfilm/tracks-v2a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Первый Российский Национальный
+http://62.76.27.70:8081/1pnk/1pnk/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Время
+http://46.34.209.243:80/btv/SWM/Vremya/Vremya_576p_2000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Film TV HD
+https://hls.goodgame.ru/hls/186959.m3u8
+
+#EXTINF:-1 group-title="Test",ЛИК
+https://v2.catcast.tv/content/37353/index.m3u8
+
+#EXTINF:-1 group-title="Test",Zee TV
+http://194.213.23.7:3304
+
+#EXTINF:-1 group-title="Test",STV HD
+http://188.138.130.130:8080
+
+#EXTINF:-1 group-title="Test",T+
+http://213.108.175.226/telplushd/index.m3u8
+
+#EXTINF:-1 group-title="Test",TV PRO
+http://rtmp.tvpro-online.ru/hls/ch1.m3u8
+
+#EXTINF:-1 group-title="Test",Кинохит
+https://sc.id-tv.kz/Kinohit_hd_38_39.m3u8
+
+#EXTINF:-1 group-title="Test",Сиеста HD
+http://1hdru-hls-otcnet.cdnvideo.ru/siesta/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 group-title="Test",Zee TV
+http://194.213.23.7:3304
+
+#EXTINF:-1 group-title="Test",Феникс+Кино
+https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
+
+#EXTINF:-1 group-title="Test",Дорама HD
+http://46.34.209.243:80/btv/SWM/Dorama/Dorama_720p_3500kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Наше Новое Кино FHD
+http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_1080p_5000kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Кинопремьера FHD
+https://sc.id-tv.kz/Kinopremiera_hd_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Наше новое кино
+http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_720p_3500kbps.m3u8
+
+#EXTINF:-1 group-title="Test",Наше новое кино HD
+http://46.34.209.243/btv/SWM/Nashe_novoe_kino/Nashe_novoe_kino_1080p_5000kbps.m3u
+
+#EXTINF:-1 group-title="Test",Cinema
+https://sc.id-tv.kz/Cinema_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Дом Кино Премиум HD
+https://sc.id-tv.kz/domkino_hd_38_39.m3u8
+
+#EXTINF:0,Мужское кино
+https://sc.id-tv.kz/Mujskoe_kino_hd_38_39.m3u8
+
+#EXTINF:-1 group-title="Test",Победа
+https://sc.id-tv.kz/Pobeda_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Bollywood
+https://sc.id-tv.kz/bollywood_hd_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Bollywood HD
+https://sc.id-tv.kz/bollywood_hd
+
+#EXTINF:-1 group-title="Test",A2
+https://sc.id-tv.kz/A2_38_39.m3u8
+
+#EXTINF:-1 group-title="Test",Всё ТВ HD
+https://zabava-htlive.cdn.ngenix.net/hls/CH_VSETVHD_HLS/bw5000000/variant.m3u8
+
+#EXTINF:-1 group-title="Test",Б-Кінозал
+http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
+
+#EXTINF:-1 group-title="Test",Amedia Hit HD
+https://sc.id-tv.kz/amedia_hit_hd_34_35.m3u8
+
+#EXTINF:-1 group-title="Test",Сиеста HD
+http://1hdru-hls-otcnet.cdnvideo.ru/siesta/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 group-title="Test",Красная линия
+https://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8
+
+#EXTINF:-1 group-title="Test",Spike
+https://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@829515/master.m3u8
+
+#EXTINF:-1 group-title="Test",Любимый HD
+http://92.245.103.126:1935/live/live.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",СТРК HD
+http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Star Cinema HD
+http://95.67.12.94:9001
+
+#EXTINF:-1 group-title="Test",Star Family
+http://95.67.12.94:9002
+
+#EXTINF:-1 group-title="Test",Hollywood
+http://mfe.cliptv.az/dash/AMC_SD.ism/playlist.mpd
+
+#EXTINF:-1 group-title="Test",Королев ТВ
+http://ai5dhpwuk8j.a.trbcdn.net/livemaster/lr4wy_live-b9nqfoyk6i9.smil/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Свое ТВ
+https://live.stv24.tv/svoetv/MQ_video.m3u8
+
+#EXTINF:-1 group-title="Test",Millenium TV
+http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Millenium TV HD
+http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Свежаки HD
+https://ed-nl-01.mycdn.video/fresh/index.m3u8
+
+#EXTINF:-1 group-title="Test",Уже видел HD
+https://ed-nl-01.mycdn.video/hit/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="Test",Доку HD
+https://ed-nl-01.mycdn.video/docu/index.m3u8
+
+#EXTINF:-1 group-title="Test",seriesTV
+http://cdnhls.goodgame.ru/hls/186021.m3u8
+
+#EXTINF:-1 group-title="Test",ФАНТАСТИКА HD
+http://hlss.goodgame.ru/hls/185690.m3u8
+
+#EXTINF:-1 group-title="Test",FILM Триллер
+https://autopilot.catcast.tv/content/38794/index.m3u8
+
+#EXTINF:-1 group-title="Test",FILM Блокбастер
+http://autopilot.catcast.tv/content/40017/index.m3u8
+
+#EXTINF:-1 group-title="Test",FILM Ужасы VHS
+https://v2.catcast.tv/content/38798/index.m3u8
+
+#EXTINF:-1 group-title="Test",FAN HD
+http://cdnhls.goodgame.ru/hls/157239.m3u8
+
+#EXTINF:-1 group-title="Test",Film TV HD
+https://hls.goodgame.ru/hls/186959.m3u8
+
+#EXTINF:-1 group-title="Test",AVD TV
+https://autopilot.catcast.tv/content/40791/index.m3u8
+
+#EXTINF:-1 group-title="Test",NorMax
+https://autopilot.catcast.tv/mobile.m3u8?channel_id=40660&token=019acdb5dde7638936dc35e807e7fd0d&server=v2.catcast.tv
+
+#EXTINF:-1 group-title="Test",Фильм 1
+http://cdnhls.goodgame.ru/hls/187824.m3u8
+
+#EXTINF:-1 group-title="Test",Фильм 2
+http://cdnhls.goodgame.ru/hls/179807.m3u8
+
+#EXTINF:-1 group-title="Test",Aladdin HD
+https://autopilot.catcast.tv/content/34251/index.m3u8
+
+#EXTINF:-1 group-title="Test",AKUDJI TV HD
+http://hls.goodgame.ru/hls/5346.m3u8
+
+#EXTINF:-1 group-title="Test",FilMax
+http://cdnhls.goodgame.ru/hls/163253.m3u8
+
+#EXTINF:-1 group-title="Test",Кино 1
+https://v2.catcast.tv/content/38617/index.m3u8
+
+#EXTINF:-1 group-title="Test",SKY2000 HD
+http://siza.site/iptvteam?format=flv
+
+#EXTINF:-1 group-title="Test",HORROR
+http://autopilot.catcast.tv/content/38710/index.m3u8
+
+#EXTINF:-1 group-title="Test",Spike Eu
+https://viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@829515/master.m3u8
+
+#EXTINF:-1 group-title="Test",Zee TV
+http://194.213.23.7:3304
+
+#EXTINF:-1 group-title="Test",Kinoklub
+http://autopilot.catcast.tv/content/39005/index.m3u8
+
+#EXTINF:-1 group-title="Test",PZN FHD
+http://cdnhls.goodgame.ru/hls/180960.m3u8
+
+#EXTINF:-1 group-title="Test",Ассорти HD
+http://cdnhls.goodgame.ru/hls/178574.m3u8
+
+#EXTINF:-1 group-title="Test",ВидеокассетА
+https://autopilot.catcast.tv/content/37925/index.m3u8
+
+#EXTINF:-1 group-title="Test",SC TV FHD
+http://cdnhls.goodgame.ru/hls/61358.m3u8
+
+#EXTINF:-1 group-title="Test",Filiza Studios HD
+https://cdnhls.goodgame.ru/hls/166446.m3u8
+
+#EXTINF:-1 group-title="Test",Прем'єра
+https://v2.catcast.tv/content/38792/index.m3u8
+
+#EXTINF:-1 group-title="Test",Millenium TV HD
+http://tv1.mmg.ooo/live/hd.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Millenium TV
+http://tv1.mmg.ooo/live/sd.stream/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Aladdin HD
+https://autopilot.catcast.tv/content/34251/index.m3u8
+
+#EXTINF:-1 group-title="Test",Fentezy HD
+http://autopilot.catcast.tv/content/38144/index.m3u8
+
+#EXTINF:-1 group-title="Test",Фантастика Sci-Fi
+https://autopilot.catcast.tv/content/38801/index.m3u8
+
+#EXTINF:-1 group-title="Test",СССР ТВ
+https://autopilot.catcast.tv/content/38821/index.m3u8
+
+#EXTINF:-1 group-title="Test",Первый СССР
+http://62.76.27.70:8081/1pnk/1pnk/playlist.m3u8
+
+#EXTINF:-1 group-title="Test",Ужастик
+https://autopilot.catcast.tv/content/38896/index.m3u8
+
+#EXTINF:-1 group-title="Test",ПРЕМЬЕРА
+https://autopilot.catcast.tv/content/39161/index.m3u8
+
+#EXTINF:-1 group-title="Test",ОСП студия
+https://v2.catcast.tv/content/39792/index.m3u8
+
+#EXTINF:-1 group-title="Test",Akudji HD
+#EXTVLCOPT:http-user-agent=smartlabs
+http://hls.goodgame.ru/hls/5346.m3u8
+
+#EXTINF:-1 group-title="Test",Кинозал-VHS 90s
+http://v2.catcast.me/content/37925/index.m3u8
+
+#EXTINF:-1 group-title="Test",Кино ТВ
+http://185.245.187.150:80/KinotvFHD/index.m3u8
+
+#EXTINF:-1 group-title="Test",КинозаЛ
+https://hls.goodgame.ru/hls/73474.m3u8
+
+#EXTINF:-1 group-title="Test",Арсенал
+http://ott-cdn.ucom.am/s68/04.m3u8
+
+#EXTINF:-1 group-title="Test",U!Premium ATV
+http://ott-cdn.ucom.am/s83/index.m3u8
+
+#EXTINF:0,Armenia Comedy ATV
+http://ott-cdn.ucom.am/s32/index.m3u8
+
+#EXTINF:0,Cineman ATV
+http://ott-cdn.ucom.am/s66/04.m3u8
+
+#EXTINF:0,Filmzone ATV
+http://ott-cdn.ucom.am/s48/04.m3u8
+
+#EXTINF:0,Kinoman ATV
+http://ott-cdn.ucom.am/s94/04.m3u8
+
+#EXTINF:-1 group-title="Test",Haykino ATV
+http://ott-cdn.ucom.am/s22/index.m3u8
+
+#EXTINF:-1 group-title="Test",НТМ HD
+http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
