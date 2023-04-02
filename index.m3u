@@ -19,11 +19,11 @@ http://clients.apsny.camera/tv_abaza_tv/index.m3u8
 http://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1 tvg-id="BackusTVDark.ru" tvg-logo="https://i.imgur.com/ySYKZ0Z.png" group-title="Фильмы и сериалы",Backus TV Dark
 http://stream.backustv.ru/live/btv2/index.m3u8
-#EXTINF:-1 tvg-id="CGTNRussian.cn" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="Китай",CGTN Русский
+#EXTINF:-1 tvg-id="CGTNRussian.cn" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="Основные",CGTN Русский
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.ru" tvg-logo="https://i.imgur.com/RUSX0rX.png" group-title="Основные",Первый канал
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Мода",Fashion TV
+#EXTINF:-1 tvg-id="FashionTVEurope.fr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/512px-Fashion_TV_logo.svg.png" group-title="Хобби и увлечения",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="Украина",FREEДOM
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
@@ -84,7 +84,7 @@ https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
 #EXTINF:-1 tvg-id="Enisey.ru" tvg-logo="https://i.imgur.com/57deE7f.png" group-title="Россия (Регионы)",Енисей
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
-#EXTINF:-1 tvg-id="Zagorodnyy.ru" tvg-logo="https://i.imgur.com/YGqO3Us.png" group-title="Усадьба и дача" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Загородный
+#EXTINF:-1 tvg-id="Zagorodnyy.ru" tvg-logo="https://i.imgur.com/YGqO3Us.png" group-title="Хобби и увлечения" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Загородный
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s31/index.m3u8
 #EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ (480p)
@@ -92,8 +92,8 @@ http://ott-cdn.ucom.am/s31/index.m3u8
 http://ott-cdn.ucom.am/s92/index.m3u8
 #EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Музыка",Жар Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-#EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://i.imgur.com/4PAcpfM.png" group-title="Фильмы и сериалы",Звезда
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+#EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://picon.ml/zvezda.png" group-title="Фильмы и сериалы",Звезда
+http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="Istoriya.ru" tvg-logo="https://i.imgur.com/7fZXK7y.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",История (480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s40/index.m3u8
@@ -196,7 +196,7 @@ http://194.190.78.91/pskov/rewind-10800.m3u8
 http://5.164.24.83/tula/1tv_low/index.m3u8
 #EXTINF:-1 tvg-id="Pobeda.ru" tvg-logo="https://i.imgur.com/gNiz1xm.png" group-title="Фильмы и сериалы",Победа
 https://sc.id-tv.kz/Pobeda.m3u8
-#EXTINF:-1 tvg-id="Poehali.ru" tvg-logo="https://i.imgur.com/c6oPeGF.png" group-title="Путешествия",Поехали!
+#EXTINF:-1 tvg-id="Poehali.ru" tvg-logo="https://i.imgur.com/c6oPeGF.png" group-title="Хобби и увлечения",Поехали!
 https://sc.id-tv.kz/poehali.m3u8
 #EXTINF:-1 tvg-id="PravdaTUT.ua" tvg-logo="https://i.imgur.com/mdsqwpi.png" group-title="Украина" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",ПравдаТУТ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
@@ -307,8 +307,8 @@ https://sc.id-tv.kz/STS_34_35.m3u8
 http://89.28.25.122/hls/tnt_md.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)",HTM (Мордовия)
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
-#EXTINF:-1 group-title="Россия (Регионы)",Крик ТВ
-http://cdn-01.bonus-tv.ru:8080/kriktv_edge/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/1775.png" group-title="Россия (Регионы)",Крик ТВ
+http://cdn-01.bonus-tv.ru:8080/kriktv_edge/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)",Русский Север (Вологда)
 http://185.186.142.16/rs/1080/s.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)",Север (Ненецкий автономный округ)
@@ -361,10 +361,10 @@ https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8
 https://autopilot.catcast.tv/content/38850/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики",Da Vinchi Kids
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
-#EXTINF:-1 group-title="Дети и мультики",O!
+#EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Дети и мультики",O!
 https://sc.id-tv.kz/o_34_35.m3u8
-#EXTINF:-1 group-title="Дети и мультики",TiJi
-http://194.190.78.91:8080/TiJi_OT/video.m3u8
+#EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Дети и мультики",O! (дубль)
+https://flu.ttk.mx/O!/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Дети и мультики",Аладдин
 https://autopilot.catcast.tv/content/34251/index.m3u8
 #EXTINF:-1 group-title="Наука и природа",Природа
@@ -426,8 +426,10 @@ http://ott-cdn.ucom.am/s48/04.m3u8
 http://ott-cdn.ucom.am/s94/04.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы",Haykino ATV
 http://ott-cdn.ucom.am/s22/index.m3u8
-#EXTINF:-1 group-title="Основные",НТВ
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Основные",НТВ
 http://91.234.255.18:8000/play/a049/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Основные",НТВ (дубль)
+http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Украина",Общественное Независимое Телевидение
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 #EXTINF:-1 group-title="Украина",НТК
@@ -454,82 +456,22 @@ http://89.179.247.144/mixm.m3u8
 http://stream.mediawork.cz/retrotv/smil:retrotv2.smil/chunklist_w1326335307_b750000.m3u8
 #EXTINF:-1 group-title="Радио",Радио Книга
 http://bookradio.hostingradio.ru:8069/fm
-
-
-
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/983.png" group-title="Test",Первый канал HD
-udp://@225.50.66.11:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/984.png" group-title="Test",Россия 1 HD
-udp://@225.50.66.25:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Test",НТВ HD
-http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="Test",Пятый канал
-https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/kultura.png" group-title="Test",Россия К
-udp://@225.50.66.87:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2295.png" group-title="Test",RTД HD
-https://hls.rt.com/hls/rtdru.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1000.png" group-title="Test",ОТР
-udp://@225.50.66.12:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="Test",БелРос
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/669.png" group-title="Test",Время
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/669.png" group-title="Основные",Время
 http://flu.ttk.mx:9090/Vremya/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/304.png" group-title="Test",Домашний HD
-https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT/1080p.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/zvezda.png" group-title="Test",Звезда
-http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2476.png" group-title="Test",Красная линия
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2476.png" group-title="Фильмы и сериалы",Красная линия
 http://dmi3y-tv.ru/hls/CH_REDLINE.m3u8
-#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/1775.png" group-title="Test",Крик ТВ
-http://cdn-01.bonus-tv.ru:8080/kriktv_edge/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/5810.png" group-title="Test",Липецкое время
-http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4628.png" group-title="Test",Новый Век (Тамбов)
-udp://@225.50.66.14:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2470.png" group-title="Test",Ратник
-http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="Test",РЕН ТВ HD
-https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT/1080p.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/698.png" group-title="Test",ТВ3
-https://bl.uma.media/live/407373/HLS/6307840_7/2/1/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2402.png" group-title="Test",Ретро
-http://138.201.67.145:8081/retro/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/275.png" group-title="Test",Совершенно Секретно
-
-
-#EXTINF:-1 tvg-logo="https://picon.ml/ani.png" group-title="Test",Ani
+#EXTINF:-1 tvg-logo="https://picon.ml/ani.png" group-title="Дети и мультики",Ani
 https://flu.ttk.mx/Ani/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="https://picon.ml/nickelodeon.png" group-title="Test",Nickelodeon
-
-#EXTINF:-1 tvg-logo="" group-title="Test",СОЛНЦЕ
-udp://@225.50.66.2:1234
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Test",Детское кино International
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="Дети и мультики",Детское кино International
 https://v2.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="Test",СТС Kids HD
-https://okkotv-live.cdnvideo.ru/channel/CTC_Kids_HD.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/618.png" group-title="Test",Мама
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/618.png" group-title="Дети и мультики",Мама
 http://193.33.240.8:8080/mama/index.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/mult.png" group-title="Test",Мульт
+#EXTINF:-1 tvg-logo="https://picon.ml/mult.png" group-title="Дети и мультики",Мульт
 http://flu.ttk.mx:9090/Mult/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="Test",Мультиландия
-https://okkotv-live.cdnvideo.ru/channel/Multilandia_HD/1080p.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/740.png" group-title="Test",Карусель
-udp://@225.50.66.5:1234
-#EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Test",О!
-https://flu.ttk.mx/O!/index.m3u8?token=orh6o
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="Test",Рыжий
-#EXTVLCOPT:http-user-agent=smartlabs
-http://ott-cdn.ucom.am/s57/04.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2287.png" group-title="Test",Радость моя
-http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
-
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4458.png" group-title="Test",360 Новости HD
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2170.png" group-title="Test",Беларусь 24 HD
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2170.png" group-title="Основные",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/dozhd.png" group-title="Test",Дождь
-https://1040819719.rsc.cdn77.org/transcode/ses/playlist.m3u8
+
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2271.png" group-title="Test",Известия HD
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/3015.png" group-title="Test",МИР24
