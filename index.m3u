@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/uk/tv.blue.ch.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.xml,http://www.teleguide.info/download/new3/xmltv.xml.gz, https://iptvx.one/epg/epg.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/EPG_LITE" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}"
 
 #EXTINF:-1 tvg-id="1Plus1.ua" tvg-logo="https://i.imgur.com/eJXfMh0.png",1+1
 https://ythls.onrender.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
@@ -499,12 +499,26 @@ http://sb.err.ee/live/etv2.m3u8
 http://sb.err.ee/live/etvpluss.m3u8
 #EXTINF:-1 tvg-name="Taevas TV7" tvg-logo="https://i.imgur.com/usXedIj.png" tvg-id="TaevasTV7.fi" group-title="Эстония",Taevas TV7
 https://vod.tv7.fi/tv7-ee/_definst_/smil:tv7-ee.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="test",РЕН-ТВ
+#EXTINF:-1 group-title="Основные",РЕН-ТВ
 http://37.193.18.15:81/udp/239.1.15.5:1234
-
-#EXTINF:-1 group-title="test" tvg-id="rentv" tvg-logo="http://epg.it999.ru/img2/18.png",РЕН ТВ
+#EXTINF:-1 group-title="Основные" tvg-id="rentv" tvg-logo="http://epg.it999.ru/img2/18.png",РЕН ТВ
 http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
 
-#EXTINF:-1 group-title="test"  tvg-id="rentv" tvg-logo="http://epg.it999.ru/img2/18.png",РЕН ТВ
-https://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+
+#EXTINF:-1 group-title="тест" tvg-id="pervy" tvg-logo="http://epg.it999.ru/img2/983.png",Первый HD
+https://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
+
+#EXTINF:-1 group-title="тест" tvg-id="rossia1" tvg-logo="http://epg.it999.ru/img2/984.png",Россия HD
+http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
+
+#EXTINF:-1 group-title="тест" tvg-id="ntv" tvg-logo="http://epg.it999.ru/img2/2001.png",НТВ HD
+https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="тест" tvg-id="tvcentr" tvg-logo="http://epg.it999.ru/img2/649.png",ТВ Центр HD
+http://hls.peers.tv/streaming/tvc_hd/126/copy/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
+
+#EXTINF:-1 group-title="тест" tvg-id="tvcentr" tvg-logo="http://epg.it999.ru/img2/649.png",ТВ Центр
+http://flu.ttk.mx:9090/TVC/index.m3u8?token=orh6o
+
+#EXTINF:-1 group-title="тест" tvg-id="ntv-style" tvg-logo="http://epg.it999.ru/img2/1755.png",НТВ Стиль
+https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
