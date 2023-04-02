@@ -329,16 +329,8 @@ https://sitv.ru/hls/stv1024.m3u8
 https://sitv.ru/hls/s86.m3u8
 #EXTINF:-1 group-title="Новости",Известия
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
-#EXTINF:-1 group-title="Основные",Мир HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 group-title="Основные",Мир (+4)
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)",Родной канал
 https://n1.slavmir.tv/live/slavmir/playlist.m3u8
-#EXTINF:-1 group-title="Новости",Известия ТВ HD
-http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
-#EXTINF:-1 group-title="Новости",Известия ТВ FHD
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)",Оплoт HD (Донбасс)
 http://ott.inmart.tv:8081/54/index.m3u8
 #EXTINF:-1 group-title="Радио",Radio Van 103.0 FM Yerevan
@@ -413,7 +405,7 @@ https://autopilot.catcast.tv/content/40381/index.m3u8
 http://sochi-strk.ru:2015/STRK/mpegts
 #EXTINF:-1 group-title="Основные",ТВЦ
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
-#EXTINF:-1 group-title="Основные",T+
+#EXTINF:-1 group-title="Фильмы и сериал",T+
 http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)",Любимый HD
 http://92.245.103.126:1935/live/live.stream/playlist.m3u8
