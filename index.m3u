@@ -1,7 +1,8 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/uk/tv.blue.ch.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.xml,http://www.teleguide.info/download/new3/xmltv.xml.gz, https://iptvx.one/epg/epg.xml.gz"
 #EXTGRP:Пупс
-#EXTINF:-1 tvg-id="1Plus1.ua" tvg-logo="https://i.imgur.com/eJXfMh0.png" group-title="Украина",1+1
+#EXTINF:-1 tvg-id="1Plus1.ua" tvg-logo="https://i.imgur.com/eJXfMh0.png",1+1
 https://ythls.onrender.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
+
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-logo="https://i.imgur.com/tHVc8on.png" group-title="Спорт",1+1 Спорт
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="2x2.ru" tvg-logo="https://i.imgur.com/fhQFLEl.png" group-title="Развлечения и юмор",2x2
@@ -298,8 +299,6 @@ https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d1
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/79.png" group-title="Основные",СТС
 https://sc.id-tv.kz/STS_34_35.m3u8
-#EXTINF:-1 group-title="Основные",THT Exclusive
-http://89.28.25.122/hls/tnt_md.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)",HTM (Мордовия)
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/1775.png" group-title="Россия (Регионы)",Крик ТВ
@@ -508,10 +507,3 @@ http://sb.err.ee/live/etv2.m3u8
 http://sb.err.ee/live/etvpluss.m3u8
 #EXTINF:-1 tvg-name="Taevas TV7" tvg-logo="https://i.imgur.com/usXedIj.png" tvg-id="TaevasTV7.fi" group-title="Эстония",Taevas TV7
 https://vod.tv7.fi/tv7-ee/_definst_/smil:tv7-ee.smil/playlist.m3u8
-
-
-#EXTINF:-1 group-title="test",RenTV
-https://sc.id-tv.kz/RenTV_34_35.m3u8
-
-#EXTINF:-1 group-title="test",Karusel
-https://sc.id-tv.kz/Karusel_34_35.m3u8
