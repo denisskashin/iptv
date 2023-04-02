@@ -498,10 +498,10 @@ http://37.193.18.15:81/udp/239.1.15.5:1234
 http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Основные" tvg-id="pervy" tvg-logo="http://epg.it999.ru/img2/983.png",Первый HD
 https://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
-
-
-#EXTINF:-1 group-title="тест" tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png",Домашний
+#EXTINF:-1 group-title="Основные" tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png",Домашний
 http://flu.ttk.mx:9090/Domashni/index.m3u8?token=orh6o
-
-#EXTINF:-1 group-title="тест" tvg-id="yu" tvg-logo="http://epg.it999.ru/img2/898.png",Ю
+#EXTINF:-1 group-title="Основные" tvg-id="yu" tvg-logo="http://epg.it999.ru/img2/898.png",Ю
 http://flu.ttk.mx:9090/U/index.m3u8?token=orh6o
+
+#EXTINF:-1 tvg-id="rzhd-tv" tvg-logo="http://epg.it999.ru/img2/2471.png",РЖД ТВ HD
+http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
