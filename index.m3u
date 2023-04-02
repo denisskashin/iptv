@@ -510,17 +510,5 @@ http://sb.err.ee/live/etvpluss.m3u8
 https://vod.tv7.fi/tv7-ee/_definst_/smil:tv7-ee.smil/playlist.m3u8
 
 
-#EXTINF:-1 tvg-id="RENTV.ru" tvg-logo="https://i.imgur.com/0Tu5lte.png" group-title="тест",РЕН ТВ (1080p) [Geo-blocked]
-https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
-
-#EXTINF:-1 tvg-name="РЕН ТВ" group-title="тест", РЕН ТВ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
-
-#EXTINF:-1 tvg-name="Рен ТВ HD" group-title="тест", Рен ТВ HD
-http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
-
-#EXTINF:-1 tvg-name="Рен ТВ HD (okko tv)" group-title="тест", Рен ТВ HD (okko tv)
-https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
-
-#EXTINF:-1 tvg-name="РЕН ТВ HD" group-title="тест", РЕН ТВ HD
-http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
+#EXTINF:-1" group-title="test",Рен ТВ International
+https://sc.id-tv.kz/RenTV_38_39.m3u8
