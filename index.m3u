@@ -281,8 +281,6 @@ http://stream0.tv41.ru/live.m3u8
 https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="3ABNRussia.ru" tvg-logo="https://i.imgur.com/4fhBbam.png" group-title="Религия",Три Ангела
 https://hls.tv.3angels.ru/stream.m3u8
-#EXTINF:-1 tvg-id="3ABNRussia.ru" tvg-logo="https://i.imgur.com/4fhBbam.png" group-title="Религия",Три Ангела (дубль)
-http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/663.png" group-title="Развлечения и юмор",Сарафан
 http://138.201.67.145:8081/sarafan/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2288.png" group-title="Основные",Суббота!
@@ -518,3 +516,13 @@ http://flu.ttk.mx:9090/TVC/index.m3u8?token=orh6o
 
 #EXTINF:-1 group-title="тест" tvg-id="ntv-style" tvg-logo="http://epg.it999.ru/img2/1755.png",НТВ Стиль
 https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
+
+
+#EXTINF:-1 group-title="тест",Eurosport 1 HD
+http://37.193.18.15:81/udp/239.1.11.6:1234
+#EXTINF:-1 group-title="тест",Eurosport 1
+http://37.193.18.15:81/udp/239.1.12.3:1234
+#EXTINF:-1 group-title="тест",Eurosport 2
+http://37.193.18.15:81/udp/239.1.12.4:1234
+#EXTINF:-1 group-title="тест",Футбол
+http://37.193.18.15:81/udp/239.1.12.5:1234
