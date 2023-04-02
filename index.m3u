@@ -502,18 +502,39 @@ https://cdn10.1internet.tv/dash-live12/streams/1tv/1tvdash.mpd
 http://flu.ttk.mx:9090/Domashni/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Основные" tvg-id="yu" tvg-logo="http://epg.it999.ru/img2/898.png",Ю
 http://flu.ttk.mx:9090/U/index.m3u8?token=orh6o
-
-#EXTINF:-1 group-title="тест" tvg-id="rzhd-tv" tvg-logo="http://epg.it999.ru/img2/2471.png",РЖД ТВ HD
-http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="тест" tvg-id="rossija-k" tvg-logo="http://epg.it999.ru/img2/187.png",Россия-Культура
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist_3.m3u8
-
-#EXTINF:-1 group-title="тест" tvg-id="rossija24" tvg-logo="http://epg.it999.ru/img2/1683.png",Россия-24
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
-
-#EXTINF:-1 group-title="тест"  tvg-id="glazami-turista-4k" tvg-logo="http://epg.it999.ru/img2/2508.png",Глазами туриста
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-id="glazami-turista-4k" tvg-logo="http://epg.it999.ru/img2/2508.png",Глазами туриста
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 
-#EXTINF:-1 group-title="тест" tvg-id="discovery-hd" tvg-logo="http://epg.it999.ru/img2/1612.png",Discovery HD
-https://livetv.mylifeisgood.ml/channels/discovery.m3u8
+
+#EXTINF:-1 group-title="тест" tvg-id="discovery-science" tvg-logo="http://epg.it999.ru/img2/3067.png",Discovery Science HD
+https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
+
+#EXTINF:-1 group-title="тест"  tvg-id="id-xtra-ru" tvg-logo="http://epg.it999.ru/img2/2507.png",Investigation Discovery HD
+https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
+
+#EXTINF:-1  group-title="тест" tvg-id="animal-planet" tvg-logo="http://epg.it999.ru/img2/990.png",Animal Planet HD
+https://livetv.mylifeisgood.ml/channels/animalplanethd
+
+#EXTINF:-1  group-title="тест"  tvg-id="moya-planeta" tvg-logo="http://epg.it999.ru/img2/675.png",Моя планета
+http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b1600000.m3u8
+
+#EXTINF:-1 group-title="тест"  tvg-id="teleputeshestvija" tvg-logo="http://epg.it999.ru/img2/2424.png",Телепутешествия
+http://92.43.140.249/s71/index.m3u8
+
+#EXTINF:-1 group-title="тест"   tvg-id="v-mire-zhivotnyx-hd" tvg-logo="http://epg.it999.ru/img2/2498.png",В мире животных HD
+http://hls.peers.tv/streaming/animal_family_hd/16/tvrec/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
+
+#EXTINF:-1 tvg-id="dialogi-o-rybalke" tvg-logo="http://epg.it999.ru/img2/2627.png",Диалоги о рыбалке
+http://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
+
+#EXTINF:-1 group-title="тест"  tvg-id="ohotnik-rybolov",Рыболов
+http://92.43.140.249/s55/index.m3u8
+
+#EXTINF:-1 group-title="тест"  tvg-id="zootv" tvg-logo="http://epg.it999.ru/img2/2431.png",Зоо ТВ
+http://92.43.140.249/s92/index.m3u8
+
+#EXTINF:-1 group-title="тест"  tvg-id="teletravel-hd" tvg-logo="http://epg.it999.ru/img2/2311.png",Приключения
+http://92.43.140.249/s99/index.m3u8
+
+#EXTINF:-1 group-title="тест"  tvg-id="eureka-hd" tvg-logo="http://epg.it999.ru/img2/2310.png",Первый космический
+http://92.43.140.249/s44/index.m3u8
