@@ -27,14 +27,10 @@ https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="Украина",FREEДOM
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="ТВ шоп",Luxury
-http://nano.teleservice.su:8080/hls/luxury.m3u8
 #EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="Украина",M2
 http://live.m2.tv/hls3/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Новости",RT
 https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
-#EXTINF:-1 tvg-id="ShoppingLive.ru" tvg-logo="https://i.imgur.com/EMmGnjV.png" group-title="ТВ шоп",Shopping Live
-http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",Sochi Live HD
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)", Трк 555 (Алушта)
@@ -149,8 +145,6 @@ http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 tvg-id="Nadiya.ua" tvg-logo="https://i.imgur.com/u3nXfZV.png" group-title="Украина",Надия / Новый канал
 http://nadiya.home-net.com.ua/mob/mystream.m3u8
-#EXTINF:-1 tvg-id="NanoTV.ru" tvg-logo="https://i.imgur.com/0eEjt0F.png" group-title="ТВ шоп",Нано
-http://nano.teleservice.su:8080/hls/nano.m3u8
 #EXTINF:-1 tvg-id="Nauka.ru" tvg-logo="https://i.imgur.com/ZZxzueO.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Наука
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s98/index.m3u8
@@ -297,8 +291,6 @@ https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
 https://hls.tv.3angels.ru/stream.m3u8
 #EXTINF:-1 tvg-id="3ABNRussia.ru" tvg-logo="https://i.imgur.com/4fhBbam.png" group-title="Религия",Три Ангела (дубль)
 http://dmi3y-tv.ru/hls/CH_3ANGELAHD.m3u8
-#EXTINF:-1 tvg-id="Yuvelirochka.ru" tvg-logo="https://i.imgur.com/IcWtXCZ.png" group-title="ТВ шоп",Ювелирочка ТВ
-http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/663.png" group-title="Развлечения и юмор",Сарафан
 http://138.201.67.145:8081/sarafan/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2288.png" group-title="Основные",Суббота!
