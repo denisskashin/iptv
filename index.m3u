@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://iptv-org.github.io/epg/guides/uk/tv.blue.ch.xml,https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.xml,http://www.teleguide.info/download/new3/xmltv.xml.gz, https://iptvx.one/epg/epg.xml.gz"
-
+#EXTGRP:Пупс
 #EXTINF:-1 tvg-id="1Plus1.ua" tvg-logo="https://i.imgur.com/eJXfMh0.png" group-title="Украина",1+1
 https://ythls.onrender.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-logo="https://i.imgur.com/tHVc8on.png" group-title="Спорт",1+1 Спорт
@@ -294,7 +294,7 @@ http://138.201.67.145:8081/sarafan/index.m3u8
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 tvg-id="TNT4.ru" tvg-logo="https://i.imgur.com/4GiD9xN.png" group-title="Развлечения и юмор",ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
-#EXTINF:-1 group-title="Основные",ТНТ International
+#EXTINF:-1 tvg-logo="https://i.imgur.com/T4A6rEI.png" group-title="Основные",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/79.png" group-title="Основные",СТС
 https://sc.id-tv.kz/STS_34_35.m3u8
