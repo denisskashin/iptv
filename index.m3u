@@ -10,8 +10,6 @@ https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/37
 https://ythls.onrender.com/channel/UCQdSS9GSBbtSqW3oNB39KTw.m3u8
 #EXTINF:-1 tvg-id="9Volna.ru" tvg-logo="http://epg.it999.ru/img2/2307.png" group-title="Музыка",9 Волна
 http://cdn-01.bonus-tv.ru:8080/9volna/playlist.m3u8
-#EXTINF:-1 tvg-id="24Kanal.ua" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/512px-24_Group_Ukraine_04.png" group-title="Украина",24 Канал
-http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="360deg.ru" tvg-logo="https://i.imgur.com/VTJqdoX.png" group-title="Россия (Регионы)",360°
 https://edge2-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
 #EXTINF:-1 tvg-id="AbazaTV.ru" tvg-logo="https://i.imgur.com/7Jo7UAf.png" group-title="Россия (Регионы)",Abaza TV
@@ -425,7 +423,7 @@ http://ott-cdn.ucom.am/s22/index.m3u8
 http://91.234.255.18:8000/play/a049/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Основные",НТВ (дубль)
 http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Украина",Общественное Независимое Телевидение
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NvhLjXU.jpg" group-title="Украина",Общественное Независимое Телевидение
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 #EXTINF:-1 group-title="Украина",НТК
 http://stream.ntktv.ua/s/ntk/ntk.m3u8
@@ -510,3 +508,19 @@ http://sb.err.ee/live/etv2.m3u8
 http://sb.err.ee/live/etvpluss.m3u8
 #EXTINF:-1 tvg-name="Taevas TV7" tvg-logo="https://i.imgur.com/usXedIj.png" tvg-id="TaevasTV7.fi" group-title="Эстония",Taevas TV7
 https://vod.tv7.fi/tv7-ee/_definst_/smil:tv7-ee.smil/playlist.m3u8
+
+
+#EXTINF:-1 tvg-id="RENTV.ru" tvg-logo="https://i.imgur.com/0Tu5lte.png" group-title="тест",РЕН ТВ (1080p) [Geo-blocked]
+https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
+
+#EXTINF:-1 tvg-name="РЕН ТВ" group-title="тест", РЕН ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/bw2000000/variant.m3u8?version=2
+
+#EXTINF:-1 tvg-name="Рен ТВ HD" group-title="тест", Рен ТВ HD
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
+
+#EXTINF:-1 tvg-name="Рен ТВ HD (okko tv)" group-title="тест", Рен ТВ HD (okko tv)
+https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT.m3u8
+
+#EXTINF:-1 tvg-name="РЕН ТВ HD" group-title="тест", РЕН ТВ HD
+http://ad-hls-rentv.cdnvideo.ru/ren/smil:ren.smil/chunklist_b1024000.m3u8
