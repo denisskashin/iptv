@@ -474,30 +474,30 @@ http://flu.ttk.mx:9090/U/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-id="glazami-turista-4k" tvg-logo="http://epg.it999.ru/img2/2508.png",Глазами туриста
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 
-#EXTINF:0 tvg-id="start" tvg-logo="https://iptvxcdn.ml/start.png",Старт
+#EXTINF:0 tvg-id="start" group-title="test" tvg-logo="https://iptvxcdn.ml/start.png",Старт
 https://livetv.mylifeisgood.ml/channels/startlive
 
-#EXTINF:0 tvg-id="setanta-sports" tvg-logo="http://epg.it999.ru/img2/2812.png",SETANTA SPORTS 1 HD
+#EXTINF:0 tvg-id="setanta-sports" group-title="test" tvg-logo="http://epg.it999.ru/img2/2812.png",SETANTA SPORTS 1 HD
 https://livetv.mylifeisgood.ml/channels/setantahd
 
-#EXTINF:0 tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png",Setanta Sports 2 HD
+#EXTINF:0 tvg-id="setanta-sports-plus" group-title="test" tvg-logo="http://epg.it999.ru/img2/2813.png",Setanta Sports 2 HD
 https://livetv.mylifeisgood.ml/channels/setantaplus
 
-#EXTINF:-1 tvg-id="eurosport1" tvg-logo="http://epg.it999.ru/img2/2052.png",Eurosport 1 HD
+#EXTINF:-1 tvg-id="eurosport1" group-title="test" tvg-logo="http://epg.it999.ru/img2/2052.png",Eurosport 1 HD
 https://livetv.mylifeisgood.ml/channels/eurosport1ru
 
-#EXTINF:-1 tvg-id="eurosport2" tvg-logo="http://epg.it999.ru/img2/4313.png",Eurosport 2 HD
+#EXTINF:-1 tvg-id="eurosport2" group-title="test" tvg-logo="http://epg.it999.ru/img2/4313.png",Eurosport 2 HD
 https://livetv.mylifeisgood.ml/channels/eurosport2
 
-#EXTINF:-1 tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2004.png",Viasat Sport HD
+#EXTINF:-1 tvg-id="viasat-sport" group-title="test" tvg-logo="http://epg.it999.ru/img2/2004.png",Viasat Sport HD
 http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://antifriztv.com/storage/images/pack_logos/51de7a32b761165b4e7ac15866b2af76.png",Спортивный HD
+#EXTINF:-1 tvg-id="no_epg_sport" group-title="test" tvg-logo="https://antifriztv.com/storage/images/pack_logos/51de7a32b761165b4e7ac15866b2af76.png",Спортивный HD
 https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://antifriztv.com/storage/images/pack_logos/51de7a32b761165b4e7ac15866b2af76.png",Спортивный HD
+#EXTINF:-1 tvg-id="no_epg_sport" group-title="test" tvg-logo="https://antifriztv.com/storage/images/pack_logos/51de7a32b761165b4e7ac15866b2af76.png",Спортивный HD
 https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 
-#EXTINF:0 tvg-id="football-ru" tvg-logo="http://epg.it999.ru/img2/2782.png",Телеканал Футбол
+#EXTINF:0 tvg-id="football-ru" group-title="test" tvg-logo="http://epg.it999.ru/img2/2782.png",Телеканал Футбол
 http://flu.ttk.mx:9090/Futbol/index.m3u8?token=orh6o
 
