@@ -14,8 +14,8 @@ http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
 #EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="Украина",М2
 http://live.m2.tv/hls3/stream.m3u8
-http://85.238.112.40:8810/hls_sec/239.33.116.26-.m3u8
 #EXTINF:-1 group-title="Украина",НТК
+http://85.238.112.40:8810/hls_sec/239.33.116.26-.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/NvhLjXU.jpg" group-title="Украина",ОНТ
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 #EXTINF:-1 group-title="Украина",Первый Городской (Одесса)
@@ -105,9 +105,8 @@ http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/zagorodny.png" group-title="Хобби и увлечения",Загородный
 #EXTVLCOPT:http-user-agent=smartlabs
 http://ott-cdn.ucom.am/s31/04.m3u8
-#EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
-http://ott-cdn.ucom.am/s92/index.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-id="zootv" tvg-logo="http://epg.it999.ru/img2/2431.png",Зоо ТВ
+http://92.43.140.249/s92/index.m3u8
 #EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Музыка",Жар Птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru" tvg-logo="https://picon.ml/zvezda.png" group-title="Фильмы и сериалы",Звезда
@@ -446,13 +445,12 @@ http://194.190.78.91:8080/aivaya/index.m3u8
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/moya-planeta.png" group-title="Наука и природа",Моя Планета
 http://193.33.240.8:8080/planeta_hd/index.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/kosmichesky.png" group-title="Наука и природа",Первый Космический
-#EXTVLCOPT:http-user-agent=smartlabs
-http://ott-cdn.ucom.am/s44/04.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-id="eureka-hd" tvg-logo="http://epg.it999.ru/img2/2310.png",Первый космический
+http://92.43.140.249/s44/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/kuhnia.png" group-title="Хобби и увлечения",Кухня ТВ
 http://146.158.0.56/KuhnyaTV/mono.m3u8
-#EXTINF:-1 tvg-logo="https://picon.ml/prikluchenia-hd.png" group-title="Наука и природа",Приключения
-http://193.33.240.8:8080/teletravel_hd/index.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-id="teletravel-hd" tvg-logo="http://epg.it999.ru/img2/2311.png",Приключения
+http://92.43.140.249/s99/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/tochka-otryva.png" group-title="Спорт",Точка Отрыва
 http://185.52.77.43:8080/TochkaOtriva/index.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/usadba.png" group-title="Хобби и увлечения",Усадьба
@@ -476,36 +474,30 @@ http://flu.ttk.mx:9090/U/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-id="glazami-turista-4k" tvg-logo="http://epg.it999.ru/img2/2508.png",Глазами туриста
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 
+#EXTINF:0 tvg-id="start" tvg-logo="https://iptvxcdn.ml/start.png",Старт
+https://livetv.mylifeisgood.ml/channels/startlive
 
-#EXTINF:-1 group-title="тест" tvg-id="discovery-science" tvg-logo="http://epg.it999.ru/img2/3067.png",Discovery Science HD
-https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
+#EXTINF:0 tvg-id="setanta-sports" tvg-logo="http://epg.it999.ru/img2/2812.png",SETANTA SPORTS 1 HD
+https://livetv.mylifeisgood.ml/channels/setantahd
 
-#EXTINF:-1 group-title="тест" tvg-id="id-xtra-ru" tvg-logo="http://epg.it999.ru/img2/2507.png",Investigation Discovery HD
-https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
+#EXTINF:0 tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png",Setanta Sports 2 HD
+https://livetv.mylifeisgood.ml/channels/setantaplus
 
-#EXTINF:-1  group-title="тест" tvg-id="animal-planet" tvg-logo="http://epg.it999.ru/img2/990.png",Animal Planet HD
-https://livetv.mylifeisgood.ml/channels/animalplanethd
+#EXTINF:-1 tvg-id="eurosport1" tvg-logo="http://epg.it999.ru/img2/2052.png",Eurosport 1 HD
+https://livetv.mylifeisgood.ml/channels/eurosport1ru
 
-#EXTINF:-1  group-title="тест" tvg-id="moya-planeta" tvg-logo="http://epg.it999.ru/img2/675.png",Моя планета
-http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b1600000.m3u8
+#EXTINF:-1 tvg-id="eurosport2" tvg-logo="http://epg.it999.ru/img2/4313.png",Eurosport 2 HD
+https://livetv.mylifeisgood.ml/channels/eurosport2
 
-#EXTINF:-1 group-title="тест" tvg-id="teleputeshestvija" tvg-logo="http://epg.it999.ru/img2/2424.png",Телепутешествия
-http://92.43.140.249/s71/index.m3u8
+#EXTINF:-1 tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2004.png",Viasat Sport HD
+http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
 
-#EXTINF:-1 group-title="тест" tvg-id="v-mire-zhivotnyx-hd" tvg-logo="http://epg.it999.ru/img2/2498.png",В мире животных HD
-http://hls.peers.tv/streaming/animal_family_hd/16/tvrec/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://antifriztv.com/storage/images/pack_logos/51de7a32b761165b4e7ac15866b2af76.png",Спортивный HD
+https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 
-#EXTINF:-1 tvg-id="dialogi-o-rybalke" tvg-logo="http://epg.it999.ru/img2/2627.png",Диалоги о рыбалке
-http://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
+#EXTINF:-1 tvg-id="no_epg_sport" tvg-logo="https://antifriztv.com/storage/images/pack_logos/51de7a32b761165b4e7ac15866b2af76.png",Спортивный HD
+https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 
-#EXTINF:-1 group-title="тест" tvg-id="ohotnik-rybolov",Рыболов
-http://92.43.140.249/s55/index.m3u8
+#EXTINF:0 tvg-id="football-ru" tvg-logo="http://epg.it999.ru/img2/2782.png",Телеканал Футбол
+http://flu.ttk.mx:9090/Futbol/index.m3u8?token=orh6o
 
-#EXTINF:-1 group-title="тест" tvg-id="zootv" tvg-logo="http://epg.it999.ru/img2/2431.png",Зоо ТВ
-http://92.43.140.249/s92/index.m3u8
-
-#EXTINF:-1 group-title="тест" tvg-id="teletravel-hd" tvg-logo="http://epg.it999.ru/img2/2311.png",Приключения
-http://92.43.140.249/s99/index.m3u8
-
-#EXTINF:-1 group-title="тест" tvg-id="eureka-hd" tvg-logo="http://epg.it999.ru/img2/2310.png",Первый космический
-http://92.43.140.249/s44/index.m3u8
