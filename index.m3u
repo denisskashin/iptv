@@ -2,12 +2,36 @@
 
 #EXTINF:-1 tvg-id="1Plus1.ua" tvg-logo="https://i.imgur.com/eJXfMh0.png",1+1
 https://ythls.onrender.com/channel/UCVEaAWKfv7fE1c-ZuBs7TKQ.m3u8
+#EXTINF:-1 group-title="Украина",100% News
+http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1 tvg-id="4Kanal.ua" tvg-logo="https://i.imgur.com/JtqdPlY.png" group-title="Украина",4 канал
 https://ythls.onrender.com/channel/UCQdSS9GSBbtSqW3oNB39KTw.m3u8
-EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="Украина",FREEДOM
-https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
-#EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="Украина",M2
+#EXTINF:-1 group-title="Украина",7 канал
+http://cdn10.live-tv.od.ua:8081/7tvod/7tvod/playlist.m3u8
+#EXTINF:-1 tvg-id="Glas.ua" tvg-logo="https://i.imgur.com/l5FEP9w.png" group-title="Украина",Глас
+http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
+#EXTINF:-1 group-title="Украина",ИТВ
+http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
+#EXTINF:-1 tvg-id="M2.ua" tvg-logo="https://i.imgur.com/9ffrXBg.png" group-title="Украина",М2
 http://live.m2.tv/hls3/stream.m3u8
+http://85.238.112.40:8810/hls_sec/239.33.116.26-.m3u8
+#EXTINF:-1 group-title="Украина",НТК
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NvhLjXU.jpg" group-title="Украина",ОНТ
+http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
+#EXTINF:-1 group-title="Украина",Первый Городской (Одесса)
+http://cdn1.live-tv.od.ua:8081/1tvod/1tvod/playlist.m3u8
+#EXTINF:-1 tvg-id="PravdaTUT.ua" tvg-logo="https://i.imgur.com/mdsqwpi.png" group-title="Украина" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",Правда ТУТ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+http://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua.m3u8
+#EXTINF:-1 tvg-id="Pryamyy.ua" tvg-logo="https://i.imgur.com/cIIOTR6.png" group-title="Украина",Прямий
+https://ythls.onrender.com/channel/UCH9H_b9oJtSHBovh94yB5HA.m3u8
+#EXTINF:-1 group-title="Украина",Реноме (Одесса)
+http://stream.ntktv.ua/s/ntk/ntk.m3u8
+#EXTINF:-1 group-title="Украина",ТИС ТВ
+http://cdn10.live-tv.od.ua:8081/riood/tisod504/playlist.m3u8
+EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="Украина",УАТВ
+https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
+
 
 #EXTINF:-1 tvg-id="1Plus1Sport.ua" tvg-logo="https://i.imgur.com/tHVc8on.png" group-title="Спорт",1+1 Спорт
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
@@ -66,8 +90,6 @@ https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 tvg-id="VmesteRF.ru" tvg-logo="https://i.imgur.com/KI1qZNc.png" group-title="Россия (Регионы)",Вместе-РФ
 http://cdn-01.bonus-tv.ru:8080/vmesterf/index.m3u8
-#EXTINF:-1 tvg-id="Glas.ua" tvg-logo="https://i.imgur.com/l5FEP9w.png" group-title="Украина",Глас
-http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 #EXTINF:-1 tvg-id="Gorodskoytelekanal.ru" tvg-logo="https://i.imgur.com/zMNJfoV.png" group-title="Россия (Регионы)",Городской телеканал (Ярославль)
 http://www.gtk.tv/hls/gtyar.m3u8
 #EXTINF:-1 tvg-id="Guberniya33.ru" tvg-logo="https://i.imgur.com/iPmWphQ.png" group-title="Россия (Регионы)",Губерния 33 (Владимир)
@@ -83,7 +105,7 @@ http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/zagorodny.png" group-title="Хобби и увлечения",Загородный
 #EXTVLCOPT:http-user-agent=smartlabs
 http://ott-cdn.ucom.am/s31/04.m3u8
-#EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ (480p)
+#EXTINF:-1 tvg-id="ZooTV.ru" tvg-logo="https://i.imgur.com/p7WzqGS.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Зоо ТВ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s92/index.m3u8
 #EXTINF:-1 tvg-id="ZharPtitsa.ru" tvg-logo="https://i.imgur.com/19R470V.png" group-title="Музыка",Жар Птица
@@ -143,8 +165,6 @@ https://radio-live-mg.rtr-vesti.ru/hls/moscow_24/playlist.m3u8
 http://hls.volgograd1vtv.cdnvideo.ru/volgograd1vtv/volgograd1vtv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Религия",Надежда
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
-#EXTINF:-1 tvg-id="Nadiya.ua" tvg-logo="https://i.imgur.com/u3nXfZV.png" group-title="Украина",Надия / Новый канал
-http://nadiya.home-net.com.ua/mob/mystream.m3u8
 #EXTINF:-1 tvg-id="Nauka.ru" tvg-logo="https://i.imgur.com/ZZxzueO.png" group-title="Наука и природа" user-agent="Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148",Наука
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 12_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148
 http://ott-cdn.ucom.am/s98/index.m3u8
@@ -195,9 +215,6 @@ http://5.164.24.83/tula/1tv_low/index.m3u8
 https://sc.id-tv.kz/Pobeda.m3u8
 #EXTINF:-1 tvg-id="Poehali.ru" tvg-logo="https://i.imgur.com/c6oPeGF.png" group-title="Хобби и увлечения",Поехали!
 https://sc.id-tv.kz/poehali.m3u8
-#EXTINF:-1 tvg-id="PravdaTUT.ua" tvg-logo="https://i.imgur.com/mdsqwpi.png" group-title="Украина" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",ПравдаТУТ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-http://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua.m3u8
 #EXTINF:-1 tvg-id="Prosveshchenie.ru" tvg-logo="https://i.imgur.com/uppFhhq.png" group-title="Наука и природа",Просвещение
 https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
 #EXTINF:-1 tvg-id="FirstMusicChannel.by" tvg-logo="https://i.imgur.com/YdyFJrl.png" group-title="Музыка",Первый Музыкальный Канал
@@ -228,8 +245,6 @@ http://185.186.142.16/streams.rs.m3u8
 https://sitv.ru/hls/stv.m3u8
 #EXTINF:-1 tvg-id="Salyam.ru" tvg-logo="https://i.imgur.com/FfULLr1.png" group-title="Россия (Регионы)",Салям
 https://bsttv.bonus-tv.ru/cdn/salyam/playlist.m3u8
-#EXTINF:-1 tvg-id="SamaraGIS.ru" tvg-logo="https://samaragis.ru/wp-includes/images/logo.png" group-title="Наука и природа",Самара ГИС
-http://45.67.57.9:8080/new/new/playlist.m3u8
 #EXTINF:-1 tvg-id="Sever.ru" tvg-logo="https://i.imgur.com/sTOQLYl.png" group-title="Россия (Регионы)",Север (Нарьян-Мар)
 https://live2.mediacdn.ru/sr1/sever-mobile/playlist.m3u8
 #EXTINF:-1 tvg-id="SelengaTV.ru" tvg-logo="https://i.imgur.com/pKUtF4S.png" group-title="Россия (Регионы)",Селенга ТВ - Бурятия
@@ -256,8 +271,6 @@ http://live-1.otcnet.ru/tvextra720b/index.m3u8
 http://air.tvk6.ru/tvk24/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",Телеканал 86 (Сургут)
 https://sitv.ru/hls/s86.m3u8
-#EXTINF:-1 tvg-id="Pryamyy.ua" tvg-logo="https://i.imgur.com/cIIOTR6.png" group-title="Украина",Телеканал Прямий
-https://ythls.onrender.com/channel/UCH9H_b9oJtSHBovh94yB5HA.m3u8
 #EXTINF:-1 tvg-id="Telplus.ru" tvg-logo="https://i.imgur.com/1zbcZ3p.png" group-title="Россия (Регионы)",Телплюс ТВ (Астрахань)
 http://streaming.astrakhan.ru/telplushd/playlist.m3u8
 #EXTINF:-1 tvg-id="Tivikom.ru" tvg-logo="https://i.imgur.com/qcJ4EBl.png" group-title="Россия (Регионы)",Тивиком (Улан-Удэ)
@@ -346,28 +359,6 @@ https://autopilot.catcast.tv/content/38850/index.m3u8
 https://sc.id-tv.kz/DaVinci_34_35.m3u8
 #EXTINF:-1 tvg-logo="https://picon.ml/o_.png" group-title="Дети и мультики",O!
 https://flu.ttk.mx/O!/index.m3u8?token=orh6o
-#EXTINF:-1 group-title="Наука и природа",Природа
-https://uni5rtmp.tulix.tv/betternature/betternature/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Космос FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953819932c837b49397345/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Пляжи FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95396f932c837b49397360/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Лес FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c953836932c837b49397355/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Озёра FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95385c932c837b49397356/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Горы FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95387b932c837b49397357/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Реки FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c95388f932c837b4939735a/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Закат FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538a5932c837b4939735b/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Джунгли FHD
-https://stitcheraws.unreel.me/wse-node02.powr.com/live/5c9538b9932c837b4939735c/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Водопады FHD
-https://95771f8415a84e31bd152fe9c6c9905c.mediatailor.us-east-1.amazonaws.com/v1/master/82ded7a88773aef3d6dd1fedce15ba2d57eb6bca/wse_powr_com_5c953910932c837b4939735d/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа",Relax 1
-https://stingray-naturescape-1.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 group-title="Основные",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2181.png" group-title="Фильмы и сериалы",Film Box
@@ -409,26 +400,6 @@ http://ott-cdn.ucom.am/s22/index.m3u8
 http://91.234.255.18:8000/play/a049/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/162.png" group-title="Основные",НТВ (дубль)
 http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/NvhLjXU.jpg" group-title="Украина",Общественное Независимое Телевидение
-http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
-#EXTINF:-1 group-title="Украина",НТК
-http://stream.ntktv.ua/s/ntk/ntk.m3u8
-#EXTINF:-1 group-title="Украина",Первый Городской (Одесса)
-http://cdn1.live-tv.od.ua:8081/1tvod/1tvod/playlist.m3u8
-#EXTINF:-1 group-title="Украина",7 канал
-http://cdn10.live-tv.od.ua:8081/7tvod/7tvod/playlist.m3u8
-#EXTINF:-1 group-title="Украина",Travel Guide TV UA
-http://cdn10.live-tv.od.ua:8081/leonovtv/test1/playlist.m3u8
-#EXTINF:-1 group-title="Украина",ТИС ТВ
-http://cdn10.live-tv.od.ua:8081/riood/tisod504/playlist.m3u8
-#EXTINF:-1 group-title="Украина",ITV HD
-http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
-#EXTINF:-1 group-title="Украина",100% News UA
-http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
-#EXTINF:-1 group-title="Украина",Renome (Одесса)
-http://85.238.112.40:8810/hls_sec/239.33.116.26-.m3u8
-#EXTINF:-1 group-title="Украина",М2
-http://live.m2.tv/hls3/stream.m3u8
 #EXTINF:-1 group-title="Музыка",MIXM TV
 http://89.179.247.144/mixm.m3u8
 #EXTINF:-1 group-title="Музыка",Ретро
@@ -509,32 +480,32 @@ https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="discovery-science" tvg-logo="http://epg.it999.ru/img2/3067.png",Discovery Science HD
 https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
 
-#EXTINF:-1 group-title="тест"  tvg-id="id-xtra-ru" tvg-logo="http://epg.it999.ru/img2/2507.png",Investigation Discovery HD
+#EXTINF:-1 group-title="тест" tvg-id="id-xtra-ru" tvg-logo="http://epg.it999.ru/img2/2507.png",Investigation Discovery HD
 https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
 
 #EXTINF:-1  group-title="тест" tvg-id="animal-planet" tvg-logo="http://epg.it999.ru/img2/990.png",Animal Planet HD
 https://livetv.mylifeisgood.ml/channels/animalplanethd
 
-#EXTINF:-1  group-title="тест"  tvg-id="moya-planeta" tvg-logo="http://epg.it999.ru/img2/675.png",Моя планета
+#EXTINF:-1  group-title="тест" tvg-id="moya-planeta" tvg-logo="http://epg.it999.ru/img2/675.png",Моя планета
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:mplan.smil/chunklist_b1600000.m3u8
 
-#EXTINF:-1 group-title="тест"  tvg-id="teleputeshestvija" tvg-logo="http://epg.it999.ru/img2/2424.png",Телепутешествия
+#EXTINF:-1 group-title="тест" tvg-id="teleputeshestvija" tvg-logo="http://epg.it999.ru/img2/2424.png",Телепутешествия
 http://92.43.140.249/s71/index.m3u8
 
-#EXTINF:-1 group-title="тест"   tvg-id="v-mire-zhivotnyx-hd" tvg-logo="http://epg.it999.ru/img2/2498.png",В мире животных HD
+#EXTINF:-1 group-title="тест" tvg-id="v-mire-zhivotnyx-hd" tvg-logo="http://epg.it999.ru/img2/2498.png",В мире животных HD
 http://hls.peers.tv/streaming/animal_family_hd/16/tvrec/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
 
 #EXTINF:-1 tvg-id="dialogi-o-rybalke" tvg-logo="http://epg.it999.ru/img2/2627.png",Диалоги о рыбалке
 http://hls.peers.tv/streaming/dialogi_o_rybalke/16/vh1w/playlist.m3u8?token=d680c0c502834299a358e0c1783e9f94&client=97
 
-#EXTINF:-1 group-title="тест"  tvg-id="ohotnik-rybolov",Рыболов
+#EXTINF:-1 group-title="тест" tvg-id="ohotnik-rybolov",Рыболов
 http://92.43.140.249/s55/index.m3u8
 
-#EXTINF:-1 group-title="тест"  tvg-id="zootv" tvg-logo="http://epg.it999.ru/img2/2431.png",Зоо ТВ
+#EXTINF:-1 group-title="тест" tvg-id="zootv" tvg-logo="http://epg.it999.ru/img2/2431.png",Зоо ТВ
 http://92.43.140.249/s92/index.m3u8
 
-#EXTINF:-1 group-title="тест"  tvg-id="teletravel-hd" tvg-logo="http://epg.it999.ru/img2/2311.png",Приключения
+#EXTINF:-1 group-title="тест" tvg-id="teletravel-hd" tvg-logo="http://epg.it999.ru/img2/2311.png",Приключения
 http://92.43.140.249/s99/index.m3u8
 
-#EXTINF:-1 group-title="тест"  tvg-id="eureka-hd" tvg-logo="http://epg.it999.ru/img2/2310.png",Первый космический
+#EXTINF:-1 group-title="тест" tvg-id="eureka-hd" tvg-logo="http://epg.it999.ru/img2/2310.png",Первый космический
 http://92.43.140.249/s44/index.m3u8
