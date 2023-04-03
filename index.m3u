@@ -45,7 +45,7 @@ https://edge2-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m
 http://clients.apsny.camera/tv_abaza_tv/index.m3u8
 #EXTINF:-1 tvg-id="backustv" group-title="Фильмы и сериалы" tvg-logo="http://epg.it999.ru/img2/4770.png",Backus TV
 https://stream.backustv.ru/live/btv/index.m3u8
-#EXTINF:-1 tvg-id="backustv-horror" group-title="test" tvg-logo="http://epg.it999.ru/img2/4662.png",Backus TV Страшное
+#EXTINF:-1 tvg-id="backustv-horror" group-title="Фильмы и сериалы" tvg-logo="http://epg.it999.ru/img2/4662.png",Backus TV Страшное
 https://stream.backustv.ru/live/btv2/index.m3u8
 #EXTINF:-1 tvg-id="CGTNRussian.cn" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="Основные",CGTN Русский
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
@@ -210,7 +210,7 @@ http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8
 http://194.190.78.91/pskov/rewind-10800.m3u8
 #EXTINF:-1 tvg-id="PervyyTulskiy.ru" tvg-logo="https://i.imgur.com/QdKKHXb.png" group-title="Россия (Регионы)",Первый Тульский
 http://5.164.24.83/tula/1tv_low/index.m3u8
-#EXTINF:0 tvg-id="pobeda" group-title="test" tvg-logo="http://epg.it999.ru/img2/2771.png",Победа
+#EXTINF:0 tvg-id="pobeda" group-title="Фильмы и сериалы" tvg-logo="http://epg.it999.ru/img2/2771.png",Победа
 http://flu.ttk.mx:9090/Pobeda/index.m3u8?token=orh6o
 #EXTINF:-1 tvg-id="Poehali.ru" tvg-logo="https://i.imgur.com/c6oPeGF.png" group-title="Хобби и увлечения",Поехали!
 https://sc.id-tv.kz/poehali.m3u8
@@ -512,4 +512,62 @@ http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o
 #EXTINF:0 tvg-id="domkino" group-title="Фильмы и сериалы" tvg-logo="http://epg.it999.ru/img2/834.png",Дом Кино
 http://flu.ttk.mx:9090/Dom_kino/index.m3u8?token=orh6o
 
+#EXTINF:-1 tvg-id="muztv" group-title="Test" tvg-logo="http://epg.it999.ru/img2/897.png",Муз ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/variant.m3u8
 
+#EXTINF:-1 group-title="Test" tvg-logo="https://tv2club.com/wp-content/uploads/2020/12/cz-ocko-8142.jpg",Ocko
+http://ocko-live.ssl.cdn.cra.cz/channels/ocko/playlist/cze/live_hq.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-logo="https://photos.live-tv-channels.org/tv-logo/cz-ocko-expres-6319.jpg",Ocko Expres
+http://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-logo="https://photos.live-tv-channels.org/tv-logo/cz-ocko-star-6827.jpg",Ocko Star
+http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-logo="https://ritsatv.ru/files/poster/medium/300102.jpg",RITSA TV
+https://live.prd.dlive.tv/hls/live/fila007.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="m2-ua" tvg-logo="https://seeklogo.com/images/M/M2-logo-719227FCEC-seeklogo.com.png",M2 HD
+http://live.m2.tv/hls3/720/stream.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Cy3fsuLzaorl2j4CbpaREwtomc_sd6DlMg&usqp=CAU",Первый Музыкальный RU
+http://rtmp.one.by:2200
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Cy3fsuLzaorl2j4CbpaREwtomc_sd6DlMg&usqp=CAU",Первый Музыкальный RU HD
+http://rtmp.one.by:2300
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://online-red.com/images/tv/one-hd.png",Первый Музыкальный BY
+http://rtmp.one.by:1200
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://online-red.com/images/tv/one-hd.png",Первый Музыкальный BY HD
+http://rtmp.one.by:1300
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://sat-one.info/news-imeg/58892.jpg",VIVA TV
+https://live.prd.dlive.tv/hls/live/viva-russia.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://online-red.com/images/radio-logo/strana-fm.png",Страна FM
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/chunklist.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="shanson-tv" tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png",Шансон-ТВ
+http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png",Radio Шансон-ТВ
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png",Radio Шансон-ТВ
+http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
+
+#EXTINF:-1   group-title="Test" tvg-id="ru-tv" tvg-logo="http://epg.it999.ru/img/2277.png",RU.TV
+https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://smotrimkino.vip/uploads/posts/2019-07/1564013659_kronehit.jpg",Kronehit TV
+http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://mooz.tv/site/img/mooz-dance.jpg",Mooz Dance
+http://db2-archive.teleon.tv/m3u/m3u.php?ch=moozdance
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://upload.wikimedia.org/wikipedia/ro/5/50/Dolce_mooz_ro.png",Mooz RO
+http://db2-archive.teleon.tv/m3u/m3u.php?ch=moozro
+
+#EXTINF:-1  group-title="Test" tvg-id="no_epg_music" tvg-logo="https://mooz.tv/site/img/mooz-hits.jpg",Mooz HITS
+http://db2-archive.teleon.tv/m3u/m3u.php?ch=moozhits
