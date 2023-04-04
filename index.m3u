@@ -83,8 +83,6 @@ http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 http://ott-cdn.ucom.am/s40/04.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Россия (Регионы)",К16 (Саров)
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
-#EXTINF:-1 tvg-id="Kinokomedija.ru" tvg-logo="https://i.imgur.com/1Z9VTM6.png" group-title="Фильмы и сериалы",Кинокомедия
-https://sc.id-tv.kz/Kinokomediya_hd.m3u8
 #EXTINF:-1 tvg-id="Kinomiks.ru" tvg-logo="https://i.imgur.com/OGUMa1A.png" group-title="Фильмы и сериалы",Киномикс
 https://sc.id-tv.kz/Kinomix_hd.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru" tvg-logo="https://i.imgur.com/lgvOVxm.png" group-title="Фильмы и сериалы"",Кинопремьера
@@ -340,7 +338,7 @@ http://213.108.175.226/telplushd/index.m3u8
 http://92.245.103.126:1935/live/live.stream/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы",Kinoklub
 http://autopilot.catcast.tv/content/39005/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы",ВидеокассетА
+#EXTINF:-1 tvg-logo="https://uz-tv.net/storage/images/iptv/channels/1660.jpg?t=1607501789" group-title="Фильмы и сериалы",ВидеокассетА
 https://autopilot.catcast.tv/content/37925/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы",Фантастика Sci-Fi
 https://autopilot.catcast.tv/content/38801/index.m3u8
@@ -521,3 +519,6 @@ http://stream.ntktv.ua/s/ntk/ntk.m3u8
 http://cdn10.live-tv.od.ua:8081/riood/tisod504/playlist.m3u8
 #EXTINF:-1 tvg-id="UATV.ua" tvg-logo="https://i.imgur.com/xqiA0Po.png" group-title="Украина",УАТВ
 https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
+
+#EXTINF:-1 group-title="test",Еврокино
+http://94.230.240.12:8080/eurokino/index.m3u8
