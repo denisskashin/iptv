@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.xml"
 
-#EXTINF:-1 group-title="Музыка" tvg-logo="http://epg.it999.ru/img2/2307.png" tvg-id="9Volna.ru",9 Волна
+#EXTINF:-1 group-title="Музыка" tvg-logo="http://epg.it999.ru/img2/2307.png"9 Волна
 http://cdn-01.bonus-tv.ru:8080/9volna/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/19R470V.png",Жар Птица
@@ -729,9 +729,6 @@ http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 
 #EXTINF:-1 group-title="Украина" tvg-logo="",ИТВ
 http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
-
-#EXTINF:-1 group-title="Украина" tvg-logo="https://i.imgur.com/9ffrXBg.png",М2
-http://live.m2.tv/hls3/stream.m3u8
 
 #EXTINF:-1 group-title="Украина" tvg-logo="",НТК
 http://85.238.112.40:8810/hls_sec/239.33.116.26-.m3u8
