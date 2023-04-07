@@ -1,25 +1,10 @@
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.xml"
 
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/zmnSoBA.png"9 Волна
-http://cdn-01.bonus-tv.ru:8080/9volna/playlist.m3u8
+#EXTINF:-1 group-title="Новости" tvg-logo="https://i.imgur.com/tKnSHEc.png",МИР 24
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
 
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/19R470V.png",Жар Птица
-http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
-
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/OFhQQCD.png",VIVA Russia
-https://live.prd.dlive.tv/hls/live/viva-russia.m3u8
-
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/p7WzqGS.png",Зоо ТВ
-http://92.43.140.249/s92/index.m3u8
-
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/istoria.png",История
-http://ott-cdn.ucom.am/s40/04.m3u8
-
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/wRP9XA7.png",Viasat History
-http://ott-cdn.ucom.am/s23/index.m3u8
-
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/KIEKOt1.png",WeatherSpy
-https://jukin-weatherspy-2-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 group-title="Новости" tvg-logo="https://i.imgur.com/tKnSHEc.png",МИР 24 (дубль)
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 group-title="Новости" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Russia-today-logo.svg/512px-Russia-today-logo.svg.png",RT
 https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
@@ -156,8 +141,17 @@ http://serv25.vintera.tv:8081/liptime/liptime/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/Murt4NK.png",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 
+#EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/zmnSoBA.png"9 Волна
+http://cdn-01.bonus-tv.ru:8080/9volna/playlist.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/19R470V.png",Жар Птица
+http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
+
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/Pg7K7eV.png",Матур ТВ
 https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+
+#EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/OFhQQCD.png",VIVA Russia
+https://live.prd.dlive.tv/hls/live/viva-russia.m3u8
 
 #EXTINF:-1 group-title="Новости" tvg-logo="https://i.imgur.com/tKnSHEc.png",МИР 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/hd/playlist.m3u8
@@ -222,11 +216,23 @@ https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/skkDR7q.png",НТС (Севастополь)
 https://peqk71plnjy.a.trbcdn.net/livemaster/w4kz7pki62_nts_tv/playlist.m3u8
 
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/p7WzqGS.png",Зоо ТВ
+http://92.43.140.249/s92/index.m3u8
+
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/istoria.png",История
+http://ott-cdn.ucom.am/s40/04.m3u8
+
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/nebesa-tv7.png",Небеса ТВ7
 https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/nebesa-tv7.png",Небеса ТВ7 (дубль)
 http://dmi3y-tv.ru/hls/CH_TV7HD720.m3u8
+
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/wRP9XA7.png",Viasat History
+http://ott-cdn.ucom.am/s23/index.m3u8
+
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/KIEKOt1.png",WeatherSpy
+https://jukin-weatherspy-2-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Основные" tvg-logo="http://epg.it999.ru/img2/1755.png",НТВ Стиль
 https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
