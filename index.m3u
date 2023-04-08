@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/ru/tv.yandex.ru.xml"
+#EXTM3U url-tvg="http://www.teleguide.info/download/new3/xmltv.xml.gz"
 
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/kIE6Ehu.png",Ani
 https://flu.ttk.mx/Ani/index.m3u8?token=orh6o
@@ -138,7 +138,7 @@ https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/vm5sJHP.png",Первый канал Евразия
 https://sc.id-tv.kz/1KanalEvraziya.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png",Пятница! International
+#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png",РЕН ТВ
 http://37.193.18.15:81/udp/239.1.15.5:1234
@@ -154,9 +154,9 @@ https://sc.id-tv.kz/STS_34_35.m3u8
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/sbuSefI.png",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="TVCentr.ru",ТВ Центр
+#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png",ТВ Центр
 http://ott-cdn.ucom.am/s54/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="TVCentrInternational.ru",ТВЦ
+#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png",ТВ Центр (Новокузнецк)
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/SjdOaya.png",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
