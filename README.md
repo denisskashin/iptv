@@ -4,14 +4,38 @@ IPTV
 1) Найти все программы передач
 2) Сделать консилидированную программу
 
-| Группа          | Имя                        | Лого                                                                                | Ссылка                                                     | tvg-id | Все ок |
-|-----------------|----------------------------|-------------------------------------------------------------------------------------|------------------------------------------------------------|--------|--------|
-| Дети и мультики | Ani                        | ![https://i.imgur.com/kIE6Ehu.png](https://i.imgur.com/kIE6Ehu.png)                 | https://flu.ttk.mx/Ani/index.m3u8?token=orh6o              | ani    |        |
-| Дети и мультики | Da Vinci                   | ![https://i.imgur.com/iBx7K1M.png](https://i.imgur.com/iBx7K1M.png)                 | https://sc.id-tv.kz/DaVinci_34_35.m3u8                     | da-vinci-eu |        |
-| Дети и мультики | Детское кино International | ![https://picon.ml/detkinoint-tviksel.png](https://picon.ml/detkinoint-tviksel.png) | https://v2.catcast.tv/content/38720/index.m3u8             | detkinoint-tviksel |        |
-| Дети и мультики | Мама                       | ![https://i.imgur.com/8o8QHOz.png](https://i.imgur.com/8o8QHOz.png)                 | http://193.33.240.8:8080/mama/index.m3u8                   | mama   |        |
-| Дети и мультики | IPTV Play МультСказки      | ![https://i.imgur.com/7I1mnDQ.png](https://i.imgur.com/7I1mnDQ.png)                 | https://autopilot.catcast.tv/content/38850/index.m3u8      |        |        |
-| Дети и мультики | Мульт                      | ![https://i.imgur.com/crJQTID.png](https://i.imgur.com/crJQTID.png)                 | http://flu.ttk.mx:9090/Mult/index.m3u8?token=orh6o         | mult   |        |
-| Дети и мультики | O!                         | ![https://i.imgur.com/pDc665V.png](https://i.imgur.com/pDc665V.png)                 | https://flu.ttk.mx/O!/index.m3u8?token=orh6o               |        |        |
-| Дети и мультики | RETRO Cartoon              | ![https://i.imgur.com/hIlEfhl.png](https://i.imgur.com/hIlEfhl.png)                 | https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8 |        |        |
-| Дети и мультики | Рыжий                      | ![https://i.imgur.com/QlncxbD.png](https://i.imgur.com/QlncxbD.png)                 | http://ott-cdn.ucom.am/s57/index.m3u8                      | ryzhy  |        |
+|    | Группа          | Имя                          | tvg-id              | Все ок |
+|----|-----------------|------------------------------|---------------------|--------|
+| 1  | Дети и мультики | Ani                          | ani                 |        |
+| 2  | Дети и мультики | Da Vinci                     | da-vinci-eu         |        |
+| 3  | Дети и мультики | Детское кино International   | detkinoint-tviksel  |        |
+| 4  | Дети и мультики | Мама                         | mama                |        |
+| 5  | Дети и мультики | IPTV Play МультСказки        |                     |        |
+| 6  | Дети и мультики | Мульт                        | mult                |        |
+| 7  | Дети и мультики | O!                           | o_                  |        |
+| 8  | Дети и мультики | RETRO Cartoon                |                     |        |
+| 9  | Дети и мультики | Рыжий                        | ryzhy               |        |
+| 10 | Музыка          | 1HD                          | 1hd                 |        |
+| 11 | Музыка          | 9 Волна                      | 9Volna.ru           |        |
+| 12 | Музыка          | AIVA                         | aiva                |        |
+| 13 | Музыка          | VIVA Russia                  | viva-rus            |        |
+| 14 | Музыка          | Жар птица                    | zhar-ptica          |        |
+| 15 | Музыка          | Kronehit TV                  |                     |        |
+| 16 | Музыка          | Курай                        | kuraj               |        |
+| 17 | Музыка          | M2                           | m2-ua               |        |
+| 18 | Музыка          | Матур ТВ                     | matur-tv            |        |
+| 19 | Музыка          | MTVMIX                       | m-television        |        |
+| 20 | Музыка          | МузCоюз                      | muzsoyuz            |        |
+| 21 | Музыка          | Муз-ТВ                       | muztv               |        |
+| 22 | Музыка          | Первый Музыкальный           | onemuz              |        |
+| 23 | Музыка          | Первый Музыкальный HD        | onemuz              |        |
+| 24 | Музыка          | Первый Музыкальный Россия    | onemuz              |        |
+| 25 | Музыка          | Первый Музыкальный Россия HD | onemuz              |        |
+| 26 | Музыка          | Радио Хит ТВ                 |                     |        |
+| 27 | Музыка          | Радио Шансон                 | radio-shanson       |        |
+| 28 | Музыка          | Retro Music                  | retro-music-cz      |        |
+| 29 | Музыка          | RU.TV                        | ru-tv               |        |
+| 30 | Музыка          | Sonus FM                     |                     |        |
+| 31 | Музыка          | Страна FM                    | radio-strana-fm-tv  |        |
+| 32 | Музыка          | СТРК                         | radio-strana-fm-tv  |        |
+
