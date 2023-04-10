@@ -130,9 +130,6 @@ http://ott-cdn.ucom.am/s19/04.m3u8
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/2Ydfgw4.png" tvg-id="centralnoye-tv",Центральное телевидение (ЦТВ)
 http://ott-cdn.ucom.am/s20/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/KDZvt0Q.png" tvg-id="yu",Ю
-http://flu.ttk.mx:9090/U/index.m3u8?token=orh6o
-
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-id="2na2",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/AgX6qoz.png" tvg-id="sarafan",Сарафан
@@ -183,6 +180,7 @@ http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/4JUHIVS.png" tvg-id="evrasia",Евразия
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
+
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/57deE7f.png" tvg-id="enisey-region",Енисей
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/7tNDKHe.png" tvg-id="",К16
