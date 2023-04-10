@@ -460,3 +460,10 @@ udp://@239.1.1.195:1234
 udp://@239.1.35.135:1234
 #EXTINF:-1 tvg-name="SuperHero" group-title="test" ,СуперГерои
 udp://@239.1.41.176:1234
+
+
+
+#EXTINF:-1 group-title="test",СТС
+http://185.23.80.28:8080/STS/index.m3u8
+#EXTINF:-1 group-title="test",СТС Love
+http://185.23.80.28:8080/STSLove/index.m3u8
