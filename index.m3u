@@ -96,7 +96,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
 http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/3ChnWGg.png" tvg-id="ntv-pravo",НТВ Право
 https://ntv-hls-orig.cdnvideo.ru/th_pravo/index.m3u8
-
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
 https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/RUSX0rX.png" tvg-id="pervy",Первый канал
@@ -113,6 +112,7 @@ http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
 http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
+
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/ilUzAeb.png" tvg-id="sts",СТС
 https://sc.id-tv.kz/STS_34_35.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
@@ -427,3 +427,31 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 http://sb.err.ee/live/etv2.m3u8
 #EXTINF:-1 group-title="Эстония" tvg-name="ETV+" tvg-logo="https://i.imgur.com/YAubPlU.png" tvg-id="etv-plus-ee",ETV+ Ⓖ
 http://sb.err.ee/live/etvpluss.m3u8
+
+
+
+#EXTINF:-1 group-title="TEST",СТС
+https://sc.id-tv.kz/STS_34_35.m3u8
+#EXTINF:-1 group-title="TEST",СТС
+https://plbl.m9.lfstrm.tv/sts/normal/1/index.m3u8
+#EXTINF:-1 group-title="TEST",СТС
+http://176.114.16.54:80/sts/index.m3u8
+#EXTINF:-1 group-title="TEST",СТС
+#EXTVLCOPT:http-user-agent=smartlabs
+http://ott-cdn.ucom.am/s52/04.m3u8
+#EXTINF:-1 group-title="TEST",СТС HD
+https://plbl.m9.lfstrm.tv/sts_hd/normal/3/index.m3u8?account=4d837b77a2610a6e&client=689fed54f633d6a4&env=s&expires=1581962400&mpltlh=auto&origin=m9-live4&profile=3a5c7adecb8ad667&provider_id=5b0fdb8557971859510a2bdb®ion=&token=c7ZWdO576VIrQkWLxL1wpw&user=c4e905a972589199&wlid=smotreshka
+#EXTINF:-1 group-title="TEST",СТС International
+https://sc.id-tv.kz/STS_38_39.m3u8
+#EXTINF:-1 group-title="TEST",СТС Kids
+https://user11183.clients-cdnnow.ru/hls/CTC_Kids/master.m3u8
+#EXTINF:-1 group-title="TEST",СТС
+http://live02-cdn.tv.ti.ru:80/dtv/id121_NBN_SG—sts/03/plst.m3u8
+#EXTINF:-1 group-title="TEST",СТС Kids HD
+https://plbl.m9.lfstrm.tv/sts_kids/normal/3/index.m3u8?account=3f378f7832e53c10&origin=m9-dvr4&provider_id=5bbf1e6e7bf7c4facb5e43e8
+#EXTINF:-1 group-title="TEST",СТС Love
+https://plbl.m9.lfstrm.tv/ctclove/normal/1/index.m3u8?account=3f378f7832e53c10&origin=m9-dvr1&provider_id=5bbf1e6e7bf7c4facb5e43e8
+#EXTINF:-1 group-title="TEST",СТС
+http://zabava-htlive.cdn.ngenix.net/hls/CH_STS/bw2000000/variant.m3u8?version=2
+#EXTINF:-1 group-title="TEST",СТС Love
+https://zabava-htlive.cdn.ngenix.net/hls/CH_STSLOVE/variant.m3u8
