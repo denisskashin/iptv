@@ -132,6 +132,7 @@ https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 http://ott-cdn.ucom.am/s20/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/KDZvt0Q.png" tvg-id="yu",Ю
 http://flu.ttk.mx:9090/U/index.m3u8?token=orh6o
+
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-id="2na2",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/AgX6qoz.png" tvg-id="sarafan",Сарафан
@@ -430,40 +431,271 @@ http://sb.err.ee/live/etv2.m3u8
 http://sb.err.ee/live/etvpluss.m3u8
 
 
-#EXTINF:-1 tvg-name="STS" group-title="test" ,СТС
-udp://@235.60.101.22:2015
-#EXTINF:-1 tvg-name="STS" deinterlace=6 group-title="test" ,СТС HD
-udp://@224.200.202.216:1234
-#EXTINF:-1 tvg-name="Karusel" group-title="test" ,Карусель
-udp://@235.60.101.17:2015
-#EXTINF:-1 tvg-name="Solnce" group-title="test" ,Солнце
-udp://@239.1.39.144:1234
-#EXTINF:-1 tvg-name="stskids_sd" deinterlace=6 group-title="test" ,СТС Kids
-udp://@239.1.41.180:1234
-#EXTINF:-1 tvg-name="tiptop" deinterlace=6 group-title="test" ,ТипТоп HD
-udp://@239.1.35.149:1234
-#EXTINF:-1 tvg-name="ntv+39+8" group-title="test" ,Детский мир
-udp://@239.1.35.143:1234
-#EXTINF:-1 tvg-name="O" group-title="test" ,О!
-udp://@239.1.3.163:1234
-#EXTINF:-1 tvg-name="Radost_moj" group-title="test" ,Радость моя
-udp://@239.1.6.153:1234
-#EXTINF:-1 tvg-name="Multmuzika" group-title="test" ,Мультимузыка
-udp://@239.1.6.163:1234
-#EXTINF:-1 tvg-name="TiJi" group-title="test" ,TIJI
-udp://@239.1.35.134:1234
-#EXTINF:-1 tvg-name="Detskiy" group-title="test" ,Уник-ум
-udp://@239.1.41.186:1234
-#EXTINF:-1 tvg-name="Mult" group-title="test" ,Мульт
-udp://@239.1.1.195:1234
-#EXTINF:-1 tvg-name="Gulli" group-title="test" ,Gulli Girl
-udp://@239.1.35.135:1234
-#EXTINF:-1 tvg-name="SuperHero" group-title="test" ,СуперГерои
-udp://@239.1.41.176:1234
-
-
-
-#EXTINF:-1 group-title="test",СТС
+#EXTINF:-1 group-title="Россия",Ю (www.iptvlist.ru)
+http://185.23.80.28:8080/Yu/index.m3u8
+#EXTINF:-1 group-title="Россия",СТС
 http://185.23.80.28:8080/STS/index.m3u8
-#EXTINF:-1 group-title="test",СТС Love
+#EXTINF:-1 group-title="Россия",СТС Love
 http://185.23.80.28:8080/STSLove/index.m3u8
+#EXTINF:-1 group-title="Россия",Домашний
+http://185.23.80.28:8080/Domashnij/index.m3u8
+#EXTINF:-1 group-title="Россия",Че
+http://185.23.80.28:8080/Che/index.m3u8
+#EXTINF:-1 group-title="Россия",МИР
+http://185.23.80.28:8080/MIR/index.m3u8
+#EXTINF:-1 group-title="Россия",НТВ Стиль
+http://185.23.80.28:8080/NTVStil/index.m3u8
+#EXTINF:-1 group-title="Россия",НТВ Право
+http://185.23.80.28:8080/NTVPravo/index.m3u8
+#EXTINF:-1 group-title="Россия",НТВ Хит
+http://185.23.80.28:8080/NTVXit/index.m3u8
+#EXTINF:-1 group-title="Россия",НТВ Сериал
+http://185.23.80.28:8080/NTVSerial/index.m3u8
+#EXTINF:-1 group-title="Россия",Телепутешествия
+http://185.23.80.28:8080/Teleputeshestviya/index.m3u8
+#EXTINF:-1 group-title="Россия",Русский Экстрим
+http://185.23.80.28:8080/RusskijEkstrim/index.m3u8
+#EXTINF:-1 group-title="Россия",Приключения HD
+http://185.23.80.28:8080/Priklyucheniya_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",МОЯ ПЛАНЕТА
+http://185.23.80.28:8080/DialogiORybalke/index.m3u8
+#EXTINF:-1 group-title="Россия",Моя Планета
+http://185.23.80.28:8080/MoyaPlaneta/index.m3u8
+#EXTINF:-1 group-title="Россия",Охотник и рыболов HD
+http://185.23.80.28:8080/OxotnikIRybolov_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",Рыболов
+http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8
+#EXTINF:-1 group-title="Россия",Дикая охота HD
+http://185.23.80.28:8080/Dikaya_Ohota/index.m3u8
+#EXTINF:-1 group-title="Россия",Дикая рыбалка HD
+http://185.23.80.28:8080/Dikaya_Rybalka/index.m3u8
+#EXTINF:-1 group-title="Россия",Дикий
+http://185.23.80.28:8080/Dikiy/index.m3u8
+#EXTINF:-1 group-title="Россия",В мире животных
+http://185.23.80.28:8080/VMireZhivotnyx/index.m3u8
+#EXTINF:-1 group-title="Россия",Загородный
+http://185.23.80.28:8080/Zagorodnyj/index.m3u8
+#EXTINF:-1 group-title="Россия",Живая Планета
+http://185.23.80.28:8080/ZhivayaPlaneta/index.m3u8
+#EXTINF:-1 group-title="Россия",ЖИВАЯ ПРИРОДА HD
+http://185.23.80.28:8080/ZhivayaPriroda_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",Зоо ТВ
+http://185.23.80.28:8080/ZooTV/index.m3u8
+#EXTINF:-1 group-title="Россия",Первый космический HD
+http://185.23.80.28:8080/Evrika_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",История
+http://185.23.80.28:8080/Istoriya/index.m3u8
+#EXTINF:-1 group-title="Россия",Нано ТВ HD
+http://185.23.80.28:8080/NANO_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",Наша Тема
+http://185.23.80.28:8080/NashaThema/index.m3u8
+#EXTINF:-1 group-title="Россия",Наука
+http://185.23.80.28:8080/Nauka/index.m3u8
+#EXTINF:-1 group-title="Россия",Т24
+http://185.23.80.28:8080/T24/index.m3u8
+#EXTINF:-1 group-title="Россия",Победа
+http://185.23.80.28:8080/Pobeda/index.m3u8
+#EXTINF:-1 group-title="Россия",Про Любовь
+http://185.23.80.28:8080/ProLyubov/index.m3u8
+#EXTINF:-1 group-title="Россия",Камеди (www.iptvlist.ru)
+http://185.23.80.28:8080/Camedi/index.m3u8
+#EXTINF:-1 group-title="Россия",Наше Мужское
+http://185.23.80.28:8080/NasheMuzhskoe/index.m3u8
+#EXTINF:-1 group-title="Россия",Наш Кинопоказ
+http://185.23.80.28:8080/NashKinopokaz/index.m3u8
+#EXTINF:-1 group-title="Россия",Блокбастер
+http://185.23.80.28:8080/Blockbaster/index.m3u8
+#EXTINF:-1 group-title="Россия",Хит
+http://185.23.80.28:8080/Xit/index.m3u8
+#EXTINF:-1 group-title="Россия",Кинопоказ
+http://185.23.80.28:8080/Kinopokaz/index.m3u8
+#EXTINF:-1 group-title="Россия",НСТ
+http://185.23.80.28:8080/NST/index.m3u8
+#EXTINF:-1 group-title="Россия",КиноСат
+http://185.23.80.28:8080/KinoSat/index.m3u8
+#EXTINF:-1 group-title="Россия",ЕвроКино
+http://185.23.80.28:8080/EuroKino/index.m3u8
+#EXTINF:-1 group-title="Россия",Русский Роман
+http://185.23.80.28:8080/RusskijRoman/index.m3u8
+#EXTINF:-1 group-title="Россия",Русский Детектив
+http://185.23.80.28:8080/RusskijDetektiv/index.m3u8
+#EXTINF:-1 group-title="Россия",Русский Иллюзион
+http://185.23.80.28:8080/RusIlluzion/index.m3u8
+#EXTINF:-1 group-title="Россия",Иллюзион+
+http://185.23.80.28:8080/Illyuzion+/index.m3u8
+#EXTINF:-1 group-title="Россия",Кино ТВ (www.iрtvlist.ru)
+http://185.23.80.28:8080/Kino_TV/index.m3u8
+#EXTINF:-1 group-title="Россия",FAN
+http://185.23.80.28:8080/FAN/index.m3u8
+#EXTINF:-1 group-title="Россия",Капитан Фантастика
+http://185.23.80.28:8080/KapitanFantastika/index.m3u8
+#EXTINF:-1 group-title="Россия",Суббота!
+http://185.23.80.28:8080/Super/index.m3u8
+#EXTINF:-1 group-title="Россия",ТОЧКА ОТРЫВА
+http://185.23.80.28:8080/TochkoOtryva/index.m3u8
+#EXTINF:-1 group-title="Россия",Арсенал HD
+http://185.23.80.28:8080/Arsenal_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",АВТО24
+http://185.23.80.28:8080/AVTO24/index.m3u8
+#EXTINF:-1 group-title="Россия",Драйв
+http://185.23.80.28:8080/Draiv/index.m3u8
+#EXTINF:-1 group-title="Россия",Еда HD
+http://185.23.80.28:8080/Eda/index.m3u8
+#EXTINF:-1 group-title="Россия",Первый Вегетарианский
+http://185.23.80.28:8080/PervyjVegetarianskij/index.m3u8
+#EXTINF:-1 group-title="Россия",Известия Воронеж
+http://185.23.80.28:8080/IzvestiyaVoronezh/index.m3u8
+#EXTINF:-1 group-title="Россия",Доктор
+http://185.23.80.28:8080/Doktor/index.m3u8
+#EXTINF:-1 group-title="Россия",О!
+http://185.23.80.28:8080/O/index.m3u8
+#EXTINF:-1 group-title="Россия",TV Губерния
+http://185.23.80.28:8080/TVGuberniya/index.m3u8
+#EXTINF:-1 group-title="Россия",Уникум
+http://185.23.80.28:8080/Unikum/index.m3u8
+#EXTINF:-1 group-title="Россия",Тонус
+http://185.23.80.28:8080/Zdorove/index.m3u8
+#EXTINF:-1 group-title="Россия",Luxury HD
+http://185.23.80.28:8080/LUXURY_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",Карусель
+http://185.23.80.28:8080/Karusel/index.m3u8
+#EXTINF:-1 group-title="Россия",Мульт
+http://185.23.80.28:8080/Mult/index.m3u8
+#EXTINF:-1 group-title="Россия",Мультиландия
+http://185.23.80.28:8080/Multilandiya/index.m3u8
+#EXTINF:-1 group-title="Россия",Мама
+http://185.23.80.28:8080/Mama/index.m3u8
+#EXTINF:-1 group-title="Россия",Мультимузыка
+http://185.23.80.28:8080/Multimuzyka/index.m3u8
+#EXTINF:-1 group-title="Россия",СОЛНЦЕ
+http://185.23.80.28:8080/Disney/index.m3u8
+#EXTINF:-1 group-title="Россия",Рыжий
+http://185.23.80.28:8080/Ryzhij/index.m3u8
+#EXTINF:-1 group-title="Россия",Ani
+http://185.23.80.28:8080/Ani/index.m3u8
+#EXTINF:-1 group-title="Россия",TiJi
+http://185.23.80.28:8080/TiJi/index.m3u8
+#EXTINF:-1 group-title="Россия",Телеканал Футбол
+http://185.23.80.28:8080/Football/index.m3u8
+#EXTINF:-1 group-title="Россия",Моторспорт ТВ
+http://185.23.80.28:8080/Motorsport_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",СТАРТ
+http://185.23.80.28:8080/START/index.m3u8
+#EXTINF:-1 group-title="Россия",МузТВ
+http://185.23.80.28:8080/MUZTV/index.m3u8
+#EXTINF:-1 group-title="Россия",ЖАРА
+http://185.23.80.28:8080/ZhARA/index.m3u8
+#EXTINF:-1 group-title="Россия",RU.TV
+http://185.23.80.28:8080/RU.TV/index.m3u8
+#EXTINF:-1 group-title="Россия",Ля-минор ТВ
+http://t1.is.services:9981/stream/channelid/1478329793?profile=pass
+#EXTINF:-1 group-title="Россия",Музыка Первого
+http://185.23.80.28:8080/MuzikaPervogo/index.m3u8
+#EXTINF:-1 group-title="Россия",О2
+http://185.23.80.28:8080/O2/index.m3u8
+#EXTINF:-1 group-title="Россия",BRIDGE ФРЭШ
+http://185.23.80.28:8080/BRIDGE_FRESH/index.m3u8
+#EXTINF:-1 group-title="Россия",BRIDGE TV HITS
+http://185.23.80.28:8080/BRIDGETVDANCE/index.m3u8
+#EXTINF:-1 group-title="Россия",Европа Плюс ТВ HD
+http://185.23.80.28:8080/EuropaHD/index.m3u8
+#EXTINF:-1 group-title="Россия",RUSSIAN MUSIC BOX
+http://185.23.80.28:8080/RUSSIANMUSICBOX/index.m3u8
+#EXTINF:-1 group-title="Россия",BRIDGE TV Русский хит
+http://185.23.80.28:8080/BRIDGETVRusskijXit/index.m3u8
+#EXTINF:-1 group-title="Россия",BRIDGE CLASSIC
+http://185.23.80.28:8080/BRIDGETVCLASSIC/index.m3u8
+#EXTINF:-1 group-title="Россия",Classic Music
+http://t1.is.services:9981/stream/channelid/509299879?profile=pass
+#EXTINF:-1 group-title="Россия",Муз союз
+http://146.158.0.56:80/MuzSouz/index.m3u8
+#EXTINF:-1 group-title="Россия",СОЮЗ
+http://91.220.135.165:81/70/index.m3u8
+#EXTINF:-1 group-title="Россия",СОВЕРШЕННО СЕКРЕТНО
+https://edge02.smart.az/o1/sovershennosekretno/playlist.m3u8
+#EXTINF:-1 group-title="Россия",Сказки зайки
+http://178.124.210.172:8000/play/a03r/index.m3u8
+#EXTINF:-1 group-title="Россия",FashionBox
+http://146.158.0.56:80/FashionBox/index.m3u8
+#EXTINF:-1 group-title="Россия",TDK
+http://31.148.48.15:80/TDK/index.m3u8?token=test
+#EXTINF:-1 group-title="Россия",RTG HD
+http://50.7.222.58:80/RTG_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",ЕГЭ
+http://146.158.0.56:80/EGETV/index.m3u8
+#EXTINF:-1 group-title="Россия",Театр
+http://146.158.0.56:80/Teatr/index.m3u8
+#EXTINF:-1 group-title="Россия",Сарафан
+http://185.23.80.28:8080/Sarafan/index.m3u8
+#EXTINF:-1 group-title="Россия",Бобёр
+http://185.23.80.28:8080/Bober/index.m3u8
+#EXTINF:-1 group-title="Россия",УСАДЬБА
+http://91.220.135.165:81/48/index.m3u8
+#EXTINF:-1 group-title="Россия",НОСТАЛЬГИЯ
+https://edge02.smart.az/o3/nostalgiya/playlist.m3u8
+#EXTINF:-1 group-title="Россия",РОДНОЕ КИНО
+https://edge02.smart.az/o2/rodnoekino/playlist.m3u8
+#EXTINF:-1 group-title="Россия",Мосфильм. Золотая коллекция
+https://edge02.smart.az/o1/mosfilm/playlist.m3u8
+#EXTINF:-1 group-title="Россия",Ретро
+http://185.23.80.28:8080/Retro/index.m3u8
+#EXTINF:-1 group-title="Россия",БелРос
+http://31.148.48.15:80/BelRos/index.m3u8?token=test
+#EXTINF:-1 group-title="Россия",Красная Линия
+http://185.23.80.28:8080/KrasnayaLiniya/index.m3u8
+#EXTINF:-1 group-title="Россия",Вместе РФ HD
+http://cdn-01.bonus-tv.ru:8080/vmesterf/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Россия",Дума ТВ
+https://dumatv.iptv2022.com/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Россия",Вопросы и Ответы
+http://78.25.155.47:1309/channel/Vopr_i_otv.ts
+#EXTINF:-1 group-title="Россия",Танцуй!
+http://t1.is.services:9981/stream/channelid/153530935?profile=pass
+#EXTINF:-1 group-title="Россия",Здравствуйте
+http://sh2854204.b.had.su/zz/Zdravstvuyte.m3u8
+#EXTINF:-1 group-title="Россия",Подмосковье 360 HD
+http://185.23.80.28:8080/Telekanal360_HD/index.m3u8
+#EXTINF:-1 group-title="Россия",360 новости
+http://185.23.80.28:8080/360Novosti/index.m3u8
+#EXTINF:-1 group-title="Россия",Москва 24
+http://185.23.80.28:8080/Moskva24/index.m3u8
+#EXTINF:-1 group-title="Россия",Беларусь 24
+http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
+#EXTINF:-1 group-title="Россия",КРЫМ 24
+http://iptv.ktkru.ru:8025/index.m3u8
+#EXTINF:-1 group-title="Россия",Мир 24
+https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+#EXTINF:-1 group-title="Россия",РБК
+http://185.23.80.28:8080/RBK/index.m3u8
+#EXTINF:-1 group-title="Россия",Известия
+http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+#EXTINF:-1 group-title="Россия",Москва Доверие
+http://185.23.80.28:8080/MoskvaDoverie/index.m3u8
+#EXTINF:-1 group-title="Россия",Настоящее время HD
+http://portal.ott.pink/watch/207/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="Россия",ЕВРОНОВОСТИ
+http://212.0.213.132:8082/Mir_24/index.m3u8
+#EXTINF:-1 group-title="Россия",Первый канал
+http://185.23.80.28:8080/Pervyj/index.m3u8
+#EXTINF:-1 group-title="Россия",Россия 1
+http://185.23.80.28:8080/Rossiya1/index.m3u8
+#EXTINF:-1 group-title="Россия",Россия 24
+http://185.23.80.28:8080/Rossiya24/index.m3u8
+#EXTINF:-1 group-title="Россия",НТВ
+http://185.23.80.28:8080/NTV/index.m3u8
+#EXTINF:-1 group-title="Россия",ТВЦ
+http://185.23.80.28:8080/TVCentr/index.m3u8
+#EXTINF:-1 group-title="Россия",Звезда
+http://185.23.80.28:8080/Zvezda/index.m3u8
+#EXTINF:-1 group-title="Россия",ОТР
+http://185.23.80.28:8080/OTR/index.m3u8
+#EXTINF:-1 group-title="Россия",СПАС
+http://185.23.80.28:8080/Spas/index.m3u8
+#EXTINF:-1 group-title="Россия",Россия К
+http://185.23.80.28:8080/RossiyaK/index.m3u8
+#EXTINF:-1 group-title="Россия",Звезда плюс
+http://146.158.0.56:80/ZvezdaPlus/index.m3u8
+#EXTINF:-1 group-title="Россия",Пятый канал
+http://185.23.80.28:8080/Pyatyj/index.m3u8
+#EXTINF:-1 group-title="Россия",РЕН ТВ
+http://185.23.80.28:8080/REN/index.m3u8
