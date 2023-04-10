@@ -428,3 +428,9 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 http://sb.err.ee/live/etv2.m3u8
 #EXTINF:-1 group-title="Эстония" tvg-name="ETV+" tvg-logo="https://i.imgur.com/YAubPlU.png" tvg-id="etv-plus-ee",ETV+ Ⓖ
 http://sb.err.ee/live/etvpluss.m3u8
+
+
+#EXTINF:-1 tvg-name="STS" group-title="test" ,СТС
+udp://@235.60.101.22:2015
+#EXTINF:-1 tvg-name="STS" deinterlace=6 group-title="test" ,СТС HD
+udp://@224.200.202.216:1234
