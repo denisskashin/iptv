@@ -54,20 +54,28 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png" tvg-id="shanson-tv",Шансон-ТВ
 http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/6uotdVQ.png" tvg-id="v-mire-zhivotnyx-hd",В мире животных
+http://185.23.80.28:8080/VMireZhivotnyx/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/wRP9XA7.png" tvg-id="viasat-history",Viasat History
 http://ott-cdn.ucom.am/s23/index.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/VDXDiPC.png" tvg-id="dikiy",Дикий
+http://185.23.80.28:8080/Dikiy/index.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/Jv7RwGq.png" tvg-id="zhivaya-planeta",Живая планета
+http://185.23.80.28:8080/ZhivayaPlaneta/index.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/zhivaya-priroda.png" tvg-id="zhivaya-priroda",Живая природа
+http://185.23.80.28:8080/ZhivayaPriroda_HD/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/p7WzqGS.png" tvg-id="zootv",Зоо ТВ
-http://92.43.140.249/s92/index.m3u8
+http://185.23.80.28:8080/ZooTV/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/istoria.png" tvg-id="istoria",История
-http://ott-cdn.ucom.am/s40/04.m3u8
+http://185.23.80.28:8080/Istoriya/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/moya-planeta.png" tvg-id="moya-planeta",Моя планета
-http://193.33.240.8:8080/planeta_hd/index.m3u8
+http://185.23.80.28:8080/MoyaPlaneta/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/ZZxzueO.png" tvg-id="nauka-20",Наука 2.0
 http://ott-cdn.ucom.am/s98/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/N1Ze5IE.png" tvg-id="eureka-hd",Первый космический
-http://92.43.140.249/s44/index.m3u8
+http://185.23.80.28:8080/Evrika_HD/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/qQ6pPPQ.png" tvg-id="prikluchenia-hd",Приключения
-http://92.43.140.249/s99/index.m3u8
+http://185.23.80.28:8080/Priklyucheniya_HD/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/uppFhhq.png" tvg-id="prosveschenie",Просвещение
 https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
 #EXTINF:-1 group-title="Новости", tvg-logo="https://i.imgur.com/FwPWS8i.png" tvg-id="izvestia",Известия
@@ -83,7 +91,7 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/tUF33HD.png" tvg-id="tro",БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/XVRwgom.png" tvg-id="domashny",Домашний
-http://flu.ttk.mx:9090/Domashni/index.m3u8?token=orh6o
+http://185.23.80.28:8080/Domashnij/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/i6JthjI.png" tvg-id="mir-pl2",Мир +2
@@ -106,15 +114,17 @@ https://sc.id-tv.kz/1KanalEvraziya.m3u8
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ
 http://37.193.18.15:81/udp/239.1.15.5:1234
+
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv-int",РЕН ТВ 2
 http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
+
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia-24.png" tvg-id="rossia-24",Россия 24
 http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
 
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/ilUzAeb.png" tvg-id="sts",СТС
-https://sc.id-tv.kz/STS_34_35.m3u8
+http://185.23.80.28:8080/STS/index.m3u8
 
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
@@ -130,14 +140,22 @@ http://ott-cdn.ucom.am/s19/04.m3u8
 https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/2Ydfgw4.png" tvg-id="centralnoye-tv",Центральное телевидение (ЦТВ)
 http://ott-cdn.ucom.am/s20/index.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/KDZvt0Q.png" tvg-id="yu",Ю
+http://185.23.80.28:8080/Yu/index.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-id="2na2",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
+#EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://picon.ml/russky-ekstrim.png" tvg-id="russky-ekstrim",Русский экстрим
+http://185.23.80.28:8080/RusskijEkstrim/index.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/AgX6qoz.png" tvg-id="sarafan",Сарафан
 http://138.201.67.145:8081/sarafan/index.m3u8
+#EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/YBVZoDd.png" tvg-id="sts-love",СТС Love
+http://185.23.80.28:8080/STSLove/index.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/4GiD9xN.png" tvg-id="tnt4",ТНТ4
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/r3u0mxr.png" tvg-id="univer-tv",Univer TV
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
+#EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/ZOcDGpB.png" tvg-id="che",Че!
+http://185.23.80.28:8080/Che/index.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/GOSdjiq.png" tvg-id="nadezhda",Надежда
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://picon.ml/nebesa-tv7.png" tvg-id="nebesa-tv7",Небеса ТВ7
@@ -180,7 +198,6 @@ http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/4JUHIVS.png" tvg-id="evrasia",Евразия
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
-
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/57deE7f.png" tvg-id="enisey-region",Енисей
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/7tNDKHe.png" tvg-id="",К16
@@ -263,8 +280,6 @@ http://stream0.tv41.ru/live.m3u8
 https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/tHVc8on.png" tvg-id="",1+1 Спорт
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/BKaEtqL.png" tvg-id="",Астрахань.Ru Sport
-https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/FH9HD9p.png" tvg-id="viasat-sport",Viasat Sport
 http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/X6otbK0.png" tvg-id="konny-mir",Конный мир
@@ -411,78 +426,33 @@ https://sc.id-tv.kz/FlixSnip.m3u8
 http://ott-cdn.ucom.am/s22/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/GXJKWdy.png" tvg-id="glazami-turista",Глазами туриста
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/OuBtnGU.png" tvg-id="dialogi-o-rybalke",Диалоги о рыбалке
+http://185.23.80.28:8080/DialogiORybalke/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/EOue13e.png" tvg-id="dikaya-oxota-hd",Дикая охота
+http://185.23.80.28:8080/Dikaya_Ohota/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/e3BFVgt.png" tvg-id="dikaya-rybalka-hd",Дикая рыбалка
+http://185.23.80.28:8080/Dikaya_Ohota/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/YGqO3Us.png" tvg-id="zagorodny",Загородный
-http://ott-cdn.ucom.am/s31/04.m3u8
+http://185.23.80.28:8080/Zagorodnyj/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/kuhnia.png" tvg-id="kuxnia-tv",Кухня ТВ
 http://146.158.0.56/KuhnyaTV/mono.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/Bj1jI7F.png" tvg-id="oxotnik-i-rybolov",Охотник и Рыболов
-http://ott-cdn.ucom.am/s62/index.m3u8
+http://185.23.80.28:8080/OxotnikIRybolov_HD/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/c6oPeGF.png" tvg-id="poexali",Поехали!
 https://sc.id-tv.kz/poehali.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/wJMTcFS.png" tvg-id="oxotnik-i-rybolov",Рыболов
+http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/eXJm1n3.png" tvg-id="teleputeshestvia",Телепутешествия
+http://185.23.80.28:8080/Teleputeshestviya/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/mf13haG.png" tvg-id="usadba",Усадьба
 http://94.230.240.17:8080/usadba/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="Эстония" tvg-name="ETV2" tvg-logo="https://i.imgur.com/fUjGHDa.png" tvg-id="etv2-ee",ETV2 Ⓖ
-http://sb.err.ee/live/etv2.m3u8
 #EXTINF:-1 group-title="Эстония" tvg-name="ETV+" tvg-logo="https://i.imgur.com/YAubPlU.png" tvg-id="etv-plus-ee",ETV+ Ⓖ
 http://sb.err.ee/live/etvpluss.m3u8
 
 
-#EXTINF:-1 group-title="Россия",Ю (www.iptvlist.ru)
-http://185.23.80.28:8080/Yu/index.m3u8
-#EXTINF:-1 group-title="Россия",СТС
-http://185.23.80.28:8080/STS/index.m3u8
-#EXTINF:-1 group-title="Россия",СТС Love
-http://185.23.80.28:8080/STSLove/index.m3u8
-#EXTINF:-1 group-title="Россия",Домашний
-http://185.23.80.28:8080/Domashnij/index.m3u8
-#EXTINF:-1 group-title="Россия",Че
-http://185.23.80.28:8080/Che/index.m3u8
-#EXTINF:-1 group-title="Россия",МИР
-http://185.23.80.28:8080/MIR/index.m3u8
-#EXTINF:-1 group-title="Россия",НТВ Стиль
-http://185.23.80.28:8080/NTVStil/index.m3u8
-#EXTINF:-1 group-title="Россия",НТВ Право
-http://185.23.80.28:8080/NTVPravo/index.m3u8
-#EXTINF:-1 group-title="Россия",НТВ Хит
-http://185.23.80.28:8080/NTVXit/index.m3u8
-#EXTINF:-1 group-title="Россия",НТВ Сериал
-http://185.23.80.28:8080/NTVSerial/index.m3u8
-#EXTINF:-1 group-title="Россия",Телепутешествия
-http://185.23.80.28:8080/Teleputeshestviya/index.m3u8
-#EXTINF:-1 group-title="Россия",Русский Экстрим
-http://185.23.80.28:8080/RusskijEkstrim/index.m3u8
-#EXTINF:-1 group-title="Россия",Приключения HD
-http://185.23.80.28:8080/Priklyucheniya_HD/index.m3u8
-#EXTINF:-1 group-title="Россия",МОЯ ПЛАНЕТА
-http://185.23.80.28:8080/DialogiORybalke/index.m3u8
-#EXTINF:-1 group-title="Россия",Моя Планета
-http://185.23.80.28:8080/MoyaPlaneta/index.m3u8
-#EXTINF:-1 group-title="Россия",Охотник и рыболов HD
-http://185.23.80.28:8080/OxotnikIRybolov_HD/index.m3u8
-#EXTINF:-1 group-title="Россия",Рыболов
-http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8
-#EXTINF:-1 group-title="Россия",Дикая охота HD
-http://185.23.80.28:8080/Dikaya_Ohota/index.m3u8
-#EXTINF:-1 group-title="Россия",Дикая рыбалка HD
-http://185.23.80.28:8080/Dikaya_Rybalka/index.m3u8
-#EXTINF:-1 group-title="Россия",Дикий
-http://185.23.80.28:8080/Dikiy/index.m3u8
-#EXTINF:-1 group-title="Россия",В мире животных
-http://185.23.80.28:8080/VMireZhivotnyx/index.m3u8
-#EXTINF:-1 group-title="Россия",Загородный
-http://185.23.80.28:8080/Zagorodnyj/index.m3u8
-#EXTINF:-1 group-title="Россия",Живая Планета
-http://185.23.80.28:8080/ZhivayaPlaneta/index.m3u8
-#EXTINF:-1 group-title="Россия",ЖИВАЯ ПРИРОДА HD
-http://185.23.80.28:8080/ZhivayaPriroda_HD/index.m3u8
-#EXTINF:-1 group-title="Россия",Зоо ТВ
-http://185.23.80.28:8080/ZooTV/index.m3u8
-#EXTINF:-1 group-title="Россия",Первый космический HD
-http://185.23.80.28:8080/Evrika_HD/index.m3u8
-#EXTINF:-1 group-title="Россия",История
-http://185.23.80.28:8080/Istoriya/index.m3u8
+
 #EXTINF:-1 group-title="Россия",Нано ТВ HD
 http://185.23.80.28:8080/NANO_HD/index.m3u8
 #EXTINF:-1 group-title="Россия",Наша Тема
