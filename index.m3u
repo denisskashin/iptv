@@ -1,4 +1,16 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus1hd.png" tvg-id="belarus1",Беларусь 1
+http://37.17.12.124:8901/play/a003#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus2hd.png" tvg-id="belarus2",Беларусь 2
+http://37.17.12.124:8901/play/a004#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://i.imgur.com/iVIlgrj.png" tvg-id="belarus24",Беларусь 24
+http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus3hd.png" tvg-id="belarus3",Беларусь 3
+http://37.17.12.124:8901/play/a005#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
+http://82.209.197.187:8080/udp/239.0.100.9:1234
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/stv-by.png" tvg-id="stv-by",СТВ
+http://80.94.225.126:8080/STV/mono.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/kIE6Ehu.png" tvg-id="ani",Ani
 http://185.23.80.28:8080/Ani/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское кино International
@@ -131,10 +143,8 @@ http://185.23.80.28:8080/RBK/index.m3u8
 https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/arsenaltv.png" tvg-id="arsenaltv",Арсенал
 http://185.23.80.28:8080/Arsenal_HD/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/iVIlgrj.png" tvg-id="belarus24",Беларусь 24
-http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/tUF33HD.png" tvg-id="tro",БелРос
-http://31.148.48.15:80/BelRos/index.m3u8?token=test
+http://uiptv.do.am/1ufc/116316122/playlist.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/XVRwgom.png" tvg-id="domashny",Домашний
 http://185.23.80.28:8080/Domashnij/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/dumatv.png" tvg-id="dumatv",Дума ТВ
@@ -150,25 +160,33 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/nastoiaschee-vremia.png" tvg-id="nastoyaschee-vremia",Настоящее время
 http://portal.ott.pink/watch/207/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/9r1BKzK.png" tvg-id="ntv",НТВ
-http://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
+http://185.23.80.28:8080/NTV/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/3ChnWGg.png" tvg-id="ntv-pravo",НТВ Право
 https://ntv-hls-orig.cdnvideo.ru/th_pravo/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
 https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/otr.png" tvg-id="otr",ОТР
+http://185.23.80.28:8080/OTR/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/RUSX0rX.png" tvg-id="pervy",Первый канал
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/vm5sJHP.png" tvg-id="pervy-kanal-eurasia-kz",Первый канал Евразия
 https://sc.id-tv.kz/1KanalEvraziya.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
+
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ
+http://185.23.80.28:8080/REN/index.m3u8
+
+#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ 2
 http://37.193.18.15:81/udp/239.1.15.5:1234
 
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv-int",РЕН ТВ 2
-http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
+#EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia1.png" tvg-id="rossia1",Россия 1
+http://185.23.80.28:8080/Rossiya1/index.m3u8
 
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia-24.png" tvg-id="rossia-24",Россия 24
-http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist.m3u8
+http://185.23.80.28:8080/Rossiya24/index.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/kultura.png" tvg-id="kultura",Россия Культура
+http://185.23.80.28:8080/RossiyaK/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
 
@@ -182,7 +200,7 @@ http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvci",ТВ Центр International
 http://ott-cdn.ucom.am/s54/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvcentr",ТВ Центр
-http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
+http://185.23.80.28:8080/TVCentr/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
@@ -212,7 +230,7 @@ https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/w3OewHc.png" tvg-id="soyuz",Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/DNO4SOL.png" tvg-id="spas",Спас
-http://spas.mediacdn.ru/cdn/spas/playlist.m3u8
+http://185.23.80.28:8080/Spas/index.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/34eyR0f.png" tvg-id="",ТВ Экстра
 http://live-1.otcnet.ru/tvextra720b/index.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/4fhBbam.png" tvg-id="tri-angela",Три ангела
@@ -418,7 +436,7 @@ http://flu.ttk.mx:9090/Dom_kino/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/8LPtPf6.png" tvg-id="evrokino",Еврокино
 http://185.23.80.28:8080/EuroKino/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/4PAcpfM.png" tvg-id="zvezda",Звезда
-http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
+http://185.23.80.28:8080/Zvezda/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/illuzion-plus.png" tvg-id="illuzion-plus",Иллюзион+
 http://185.23.80.28:8080/Illyuzion+/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/ArMPRru.png" tvg-id="",IPTV Play Премьра
@@ -471,6 +489,8 @@ http://185.23.80.28:8080/Pobeda/index.m3u8
 http://213.172.73.133:8081/nimble_live/9008_Премиальное_HD/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/pro-lyubov.png" tvg-id="pro-lyubov",Про любовь
 http://185.23.80.28:8080/ProLyubov/index.m3u8
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/piaty-int.png" tvg-id="piaty-int",Пятый канал
+http://185.23.80.28:8080/Pyatyj/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/vhLQtSd.png" tvg-id="ratnik",Ратник
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/retro-tv.png" tvg-id="retro-tv",Ретро
@@ -525,6 +545,8 @@ http://185.23.80.28:8080/Draiv/index.m3u8
 http://185.23.80.28:8080/Eda/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/YGqO3Us.png" tvg-id="zagorodny",Загородный
 http://185.23.80.28:8080/Zagorodnyj/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/zvezda-plus.png" tvg-id="zvezda-plus",Звезда плюс
+http://146.158.0.56:80/ZvezdaPlus/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/kuhnia.png" tvg-id="kuxnia-tv",Кухня ТВ
 http://146.158.0.56/KuhnyaTV/mono.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/luxury-hd.png" tvg-id="luxury-hd",Luxury
@@ -556,133 +578,36 @@ http://sb.err.ee/live/etvpluss.m3u8
 
 
 
-#EXTINF:-1 group-title="Россия",ЕВРОНОВОСТИ
-http://212.0.213.132:8082/Mir_24/index.m3u8
-#EXTINF:-1 group-title="Россия",Первый канал
-http://185.23.80.28:8080/Pervyj/index.m3u8
-#EXTINF:-1 group-title="Россия",Россия 1
-http://185.23.80.28:8080/Rossiya1/index.m3u8
-#EXTINF:-1 group-title="Россия",Россия 24
-http://185.23.80.28:8080/Rossiya24/index.m3u8
-#EXTINF:-1 group-title="Россия",НТВ
-http://185.23.80.28:8080/NTV/index.m3u8
-#EXTINF:-1 group-title="Россия",ТВЦ
-http://185.23.80.28:8080/TVCentr/index.m3u8
-#EXTINF:-1 group-title="Россия",Звезда
-http://185.23.80.28:8080/Zvezda/index.m3u8
-#EXTINF:-1 group-title="Россия",ОТР
-http://185.23.80.28:8080/OTR/index.m3u8
-#EXTINF:-1 group-title="Россия",СПАС
-http://185.23.80.28:8080/Spas/index.m3u8
-#EXTINF:-1 group-title="Россия",Россия К
-http://185.23.80.28:8080/RossiyaK/index.m3u8
-#EXTINF:-1 group-title="Россия",Звезда плюс
-http://146.158.0.56:80/ZvezdaPlus/index.m3u8
-#EXTINF:-1 group-title="Россия",Пятый канал
-http://185.23.80.28:8080/Pyatyj/index.m3u8
-#EXTINF:-1 group-title="Россия",РЕН ТВ
-http://185.23.80.28:8080/REN/index.m3u8
-
-
-
-
-#EXTINF:-1 group-title="belarus_test",СТВ Беларусь
-http://80.94.225.126:8080/STV/mono.m3u8
-#EXTINF:-1 group-title="belarus_test",СТВ (iptvlist.ru)
-http://82.209.197.187:8080/udp/239.0.100.5:1234
-#EXTINF:-1 group-title="belarus_test",Беларусь 1
-http://37.17.12.124:8901/play/a003#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="belarus_test",Беларусь 2
-http://37.17.12.124:8901/play/a004#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="belarus_test",Беларусь 3
-http://37.17.12.124:8901/play/a005#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="belarus_test",Беларусь 5
-http://82.209.197.187:8080/udp/239.0.100.9:1234
-#EXTINF:-1 group-title="belarus_test",Беларусь 24
-http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="belarus_test",Белрос
-http://82.209.197.187:8080/udp/239.0.100.123:1234
-#EXTINF:-1 group-title="belarus_test",Белрос
-http://uiptv.do.am/1ufc/116316122/playlist.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="belarus_test",Беларусь РТР
-http://37.17.12.124:8901/play/a008#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
 #EXTINF:-1 group-title="belarus_test",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
 #EXTINF:-1 group-title="belarus_test",Белсат TV (BY/RU)
 http://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=belsattv
-#EXTINF:-1 group-title="belarus_test",Белсат TV
-https://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="belarus_test",Беларусь 24
-https://sc.id-tv.kz:443/Belarus24_34_35.m3u8
-#EXTINF:-1 group-title="belarus_test",Беларусь 1
-http://86.57.178.105:8421/bel1
 #EXTINF:-1 group-title="belarus_test",Беларусь 4 HD Витебск
 https://flu.vtv.by/bt4-non-by/index.m3u8
-#EXTINF:-1 group-title="belarus_test",СТВ (Беларусь)
-http://80.94.225.126:8080/STV/mono.m3u8
 #EXTINF:-1 group-title="belarus_test",Светлое ТВ
 http://194.158.218.123:8880/SvetloeTV/index.m3u8
 #EXTINF:-1 group-title="belarus_test",Беларусь 1
 http://37.17.12.124:8901/play/a003
-#EXTINF:-1 group-title="belarus_test",Беларусь 2
-http://37.17.12.124:8901/play/a004
-#EXTINF:-1 group-title="belarus_test",Беларусь 3
-http://37.17.12.124:8901/play/a005
-#EXTINF:-1 group-title="belarus_test",Белсат
-http://f1.stream.devkom.pro:1063/ramowka/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="belarus_test",Белсат ТВ
-http://f1.stream.devkom.pro:1063/ramowka/video.m3u8
-#EXTINF:-1 group-title="belarus_test",Беларусь 24
-http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
-#EXTINF:-1 group-title="belarus_test",БелРос ТВ
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 group-title="belarus_test",Беларусь 24 (iptvlist.ru)
-http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
-#EXTINF:-1 group-title="belarus_test",Беларусь 1 (Mogilev)
-http://82.209.197.187:8080/udp/239.0.100.1:1234
-#EXTINF:-1 group-title="belarus_test",Беларусь 2
-http://82.209.197.187:8080/udp/239.0.100.2:1234
-#EXTINF:-1 group-title="belarus_test",Беларусь 3
-http://82.209.197.187:8080/udp/239.0.100.3:1234
-#EXTINF:-1 group-title="belarus_test",Беларусь 4 (Mogilev)
-http://82.209.197.187:8080/udp/239.0.100.125:1234
 #EXTINF:-1 group-title="belarus_test",Беларусь 4 Витебск
 https://flu.vtv.by/bt4-non-by/index.m3u8
 #EXTINF:-1 group-title="belarus_test",ОНТ
 http://82.209.197.187:8080/udp/239.0.100.4:1234
-#EXTINF:-1 group-title="belarus_test",НТВ Беларусь
-http://82.209.197.187:8080/udp/239.0.100.6:1234
-#EXTINF:-1 group-title="belarus_test",РТР Беларусь
-http://82.209.197.187:8080/udp/239.0.100.7:1234
 #EXTINF:-1 group-title="belarus_test",BTB HD
 http://82.209.197.187:8080/udp/239.0.100.26:1234
 #EXTINF:-1 group-title="belarus_test",Витебск HD
 https://flu.vtv.by/tvt-non-by/index.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="belarus_test",Бобруйск 360
-http://82.209.197.187:8080/udp/239.0.100.38:1234
 #EXTINF:-1 group-title="belarus_test",8 канал
 http://82.209.197.187:8080/udp/239.0.100.124:1234
 #EXTINF:-1 group-title="belarus_test",Звязда
-http://82.209.197.187:8080/udp/239.0.100.142:1234
-#EXTINF:-1 group-title="belarus_test",БелРос ТВ
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 group-title="belarus_test",Ретро
-http://82.209.197.187:8080/udp/239.0.100.92:1234
+http://82.209.197.187:8080/udp/239.0.100.142:1234ё
 #EXTINF:-1 group-title="belarus_test",Домашние животные
 http://82.209.197.187:8080/udp/239.0.100.93:1234
-#EXTINF:-1 group-title="belarus_test",USADBA
-http://82.209.197.187:8080/udp/239.0.100.94:1234
 #EXTINF:-1 group-title="belarus_test",Вопросы Ответы
 http://82.209.197.187:8080/udp/239.0.100.95:1234
-#EXTINF:-1 group-title="belarus_test",Союз
-http://82.209.197.187:8080/udp/239.0.100.10:1234
-#EXTINF:-1 group-title="belarus_test",Белсат TV (BY/RU)
-https://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+
 
 #EXTINF:-1 group-title="ukraina_test",UA Перший [iptvlist.ru]
 http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="ukraina_test", Перший
-http://91.146.94.234:10001/play/a04d
 #EXTINF:-1 group-title="ukraina_test",1+1 HD
 http://91.146.94.234:10001/play/a04i
 #EXTINF:-1 group-title="ukraina_test",1+1 УКРАЇНА
@@ -691,8 +616,6 @@ http://212.28.87.173:8000/play/a108/index.m3u8
 http://212.28.87.173:8000/play/a0z3/index.m3u8
 #EXTINF:-1 group-title="ukraina_test",ICTV
 http://portal.ott.pink/watch/13/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="ukraina_test",ICTV р
-http://91.146.94.234:10001/play/a04k
 #EXTINF:-1 group-title="ukraina_test",ICTV2
 http://85.223.221.130:8000/play/a08b
 #EXTINF:-1 group-title="ukraina_test",СТБ HD
@@ -701,8 +624,6 @@ http://91.146.94.234:10001/play/a04l
 http://91.146.94.234:10001/play/a04o
 #EXTINF:-1 group-title="ukraina_test",Інтер HD
 http://212.28.87.173:8000/play/a10r/index.m3u8
-#EXTINF:-1 group-title="ukraina_test",НТН
-http://91.146.94.234:10001/play/a04t
 #EXTINF:-1 group-title="ukraina_test",НТН  HD
 http://212.28.87.173:8000/play/a10s/index.m3u8
 #EXTINF:-1 group-title="ukraina_test",Квартал ТВ
@@ -713,16 +634,12 @@ http://212.28.87.173:8000/play/a10w/index.m3u8
 http://212.28.87.173:8000/play/a0z1/index.m3u8
 #EXTINF:-1 group-title="ukraina_test",Піксель
 http://91.146.94.234:10001/play/a057
-#EXTINF:-1 group-title="ukraina_test",Інтер
-http://portal.ott.pink/watch/7316/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="ukraina_test",ТЕТ
 http://91.146.94.234:10001/play/a04p
 #EXTINF:-1 group-title="ukraina_test",М1
 http://91.146.94.234:10001/play/a052
 #EXTINF:-1 group-title="ukraina_test",Eco TV
 http://78.26.128.59:9876/play/26/index.m3u8
-#EXTINF:-1 group-title="ukraina_test",Наука
-http://85.223.221.130:8000/play/a064
 #EXTINF:-1 group-title="ukraina_test",Мега
 http://91.146.94.234:10001/play/a04u
 #EXTINF:-1 group-title="ukraina_test",Tepa_UA
@@ -731,32 +648,20 @@ http://85.223.221.130:8000/play/a08c
 http://176.222.190.76/btv/SWM/terra_hd/terra_hd.m3u8
 #EXTINF:-1 group-title="ukraina_test",Трофей
 http://85.223.221.130:8000/play/a066
-#EXTINF:-1 group-title="ukraina_test",Трофей HD
-http://81.198.190.9:7878/Trofey/video.m3u8
 #EXTINF:-1 group-title="ukraina_test",Дача
 http://85.223.221.130:8000/play/a07a
-#EXTINF:-1 group-title="ukraina_test",Epoque UA
-http://85.223.221.130:8000/play/a081
 #EXTINF:-1 group-title="ukraina_test",Наука
 http://85.223.221.130:8000/play/a064
-#EXTINF:-1 group-title="ukraina_test",Наука HD
-http://212.28.87.173:8000/play/a0z9/index.m3u8
-#EXTINF:-1 group-title="ukraina_test",Fauna
-http://85.223.221.130:8000/play/a063
 #EXTINF:-1 group-title="ukraina_test",Фауна
 http://212.28.87.173:8000/play/a0z8/index.m3u8
 #EXTINF:-1 group-title="ukraina_test",6 Соток
 http://78.26.128.59:9876/play/242/index.m3u8
 #EXTINF:-1 group-title="ukraina_test",Iсландiя
 http://78.26.128.59:9876/play/248/index.m3u8
-#EXTINF:-1 ,1_й Автомобыльний
-http://85.223.221.130:8000/play/a04h
 #EXTINF:-1 group-title="ukraina_test",ПЕРШИЙ АВТОМОБІЛЬНИЙ HD
 http://95.67.12.89:9035
 #EXTINF:-1 group-title="ukraina_test",D1
 http://portal.ott.pink/watch/7494/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="ukraina_test",Уніaн
-http://portal.ott.pink/watch/236/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="ukraina_test",I-UA TV HD
 http://kie2.cdn.i-ua.tv/hlsme/iuatv_1080p.m3u8
 #EXTINF:-1 group-title="ukraina_test",Ізмаіл ТВ
@@ -771,8 +676,6 @@ http://portal.ott.pink/watch/10/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359
 http://portal.ott.pink/watch/236/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="ukraina_test",FREEДОМ - UATV Channel
 http://portal.ott.pink/watch/7431/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="ukraina_test",FREEДОМ HD
-https://cdnua03.hls.tv/178/hls/3ce9832c48b67915e9f2769b2dfbb005/91/stream.m3u8
 #EXTINF:-1 group-title="ukraina_test",100% News (Одесса)
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #EXTINF:-1 group-title="ukraina_test",Bambarbia TV
@@ -789,8 +692,6 @@ http://portal.ott.pink/watch/7592/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B3
 http://portal.ott.pink/watch/117/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="ukraina_test",ГРОМАДСЬКЕ ІНТЕРАКТИВНЕ ТЕЛЕБАЧЕННЯ (Луцьк)
 https://stream.uagit.tv/gittv.m3u8?cur=&key=3i277
-#EXTINF:-1 group-title="ukraina_test",Аверс (Луцьк)
-https://avers.pp.ua/hls/efir.m3u8
 #EXTINF:-1 group-title="ukraina_test",Дніпро TV HD
 http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
 #EXTINF:-1 group-title="ukraina_test",5 Канал
@@ -801,23 +702,11 @@ http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8
 http://portal.ott.pink/watch/7418/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="ukraina_test",Первый Городской (Кривой Рог)
 http://cdn1.live-tv.od.ua:8081/1tvkr/1tvkr/playlist.m3u8
-#EXTINF:-1 group-title="ukraina_test",Первый Городской (Одесса)
-http://cdn1.live-tv.od.ua:8081/1tvod/1tvod/playlist.m3u8
-#EXTINF:-1 group-title="ukraina_test",Прямый
-http://95.67.21.100/hls/prm_ua_hi/index.m3u8?cur=&key=3i277
 #EXTINF:-1 group-title="ukraina_test",Прямий HD
 http://portal.ott.pink/watch/14/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="ukraina_test",Правда ТУТ
-http://95.67.17.131/hls/pravdatytkievshina_ua_hi/index.m3u8
-#EXTINF:-1 group-title="ukraina_test",Правда ТУТ HD (Київ)
-http://pravdatytkievshina-hls2.cosmonova.net.ua/hls/pravdatytkievshina_ua_hi/index.m3u8
-#EXTINF:-1 group-title="ukraina_test",Правда ТУТ HD (Киев)
-http://pravdatytkievshina-hls2.cosmonova.net.ua/hls/pravdatytkievshina_ua_hi/index.m3u8
-#EXTINF:-1 group-title="ukraina_test",UA Культура
-http://95.67.21.26/hls/ua-culture_ua_mid/index.m3u8
 #EXTINF:-1 group-title="ukraina_test",Чернiвецький Промiнь
 http://portal.ott.pink/watch/131/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="ukraina_test",TV Запорожье
+=#EXTINF:-1 group-title="ukraina_test",TV Запорожье
 http://stream.ztv.zp.ua/hls/live.m3u8?cur=&key=3i277
 #EXTINF:-1 group-title="ukraina_test",InRating TV
 https://inrating-tv.cdn-04.cosmonova.net.ua/hls/inrating-tv_ua_hi/index.m3u8
@@ -831,9 +720,7 @@ http://194.242.100.24:6666
 http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr-lq/playlist.m3u8
 #EXTINF:-1 group-title="ukraina_test",ОНТ Одеса
 http://85.238.112.40:8810/hls_sec/239.1.75.33-.m3u8
-#EXTINF:-1 group-title="ukraina_test",Тернополь 1
-http://185.53.79.12/ternopil1/index.m3u8?cur=&key=3i277
-#EXTINF:-1 group-title="ukraina_test",Тернопiль 1 HD
+#EXTINF:-1 group-title="ukraina_test",Тернопiль 1
 http://ott.columbus.te.ua/ternopil1/index.m3u8?cur=&key=3i277
 #EXTINF:-1 group-title="ukraina_test",НТК Коломия
 https://stream.ntktv.ua/s/ntk/ntk.m3u8?cur=&key=3i277
@@ -861,16 +748,11 @@ http://cdn1.live-tv.od.ua:8081/dumska/dumska720p/playlist.m3u8
 http://85.238.112.69:8811/hls_sec/239.0.4.18-.m3u8
 #EXTINF:-1 group-title="ukraina_test",Сварожичи ТВ UA HD
 http://80.91.177.102:1935/live/live1/playlist.m3u8
-#EXTINF:-1 group-title="ukraina_test",Сварожичи ТВ
-http://tv.tv-project.com:1935/live/live1/playlist.m3u8
-#EXTINF:-1 group-title="ukraina_test",Сварожичи р
-http://tv.tv-project.com:1935/live/live2/playlist.m3u8
 #EXTINF:-1 group-title="ukraina_test",НТК
 http://stream.ntktv.ua/s/ntk/ntk.m3u8
-#EXTINF:-1 group-title="ukraina_test",ITV (Рівне)
-http://cdn10.live-tv.od.ua:8081/itvrv/abr-lq/playlist.m3u8
 #EXTINF:-1 group-title="ukraina_test",ITV HD
 http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
+
 #EXTINF:-1 group-title="ukraina_test",Сфера ТВ
 http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
 #EXTINF:-1 group-title="ukraina_test",Xsport
@@ -890,8 +772,6 @@ http://78.26.128.59:9876/play/89/index.m3u8
 http://176.222.190.76/btv/SWM/Eurosport/Eurosport.m3u8
 #EXTINF:-1 group-title="test_sport" ,Eurosport 2 hd
 http://176.222.190.76/btv/SWM/Eurosport2/Eurosport2.m3u8
-#EXTINF:-1 group-title="test_sport" ,Eurosport 2 h
-http://91.146.94.234:10001/play/a05c
 #EXTINF:-1 group-title="test_sport" ,Q Sport International
 http://176.222.190.76/btv/SWM/Qsport_international/Qsport_international.m3u8
 #EXTINF:-1 group-title="test_sport" ,Setanta Qazaqstan
