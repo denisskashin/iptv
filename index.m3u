@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/8by.png" tvg-id="8kanal-by",8 канал
+http://82.209.197.187:8080/udp/239.0.100.124:1234
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus1hd.png" tvg-id="belarus1",Беларусь 1
 http://37.17.12.124:8901/play/a003#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus2hd.png" tvg-id="belarus2",Беларусь 2
@@ -7,8 +9,22 @@ http://37.17.12.124:8901/play/a004#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progress
 http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus3hd.png" tvg-id="belarus3",Беларусь 3
 http://37.17.12.124:8901/play/a005#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus4.png" tvg-id="belarus4-vitebsk",Беларусь 4 Витебск
+https://flu.vtv.by/bt4-non-by/index.m3u8
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
 http://82.209.197.187:8080/udp/239.0.100.9:1234
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belsat.png" tvg-id="belsat",Белсат TV (BY/RU)
+http://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=belsattv
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/bobruysk360.png" tvg-id="bobruysk360",Бобруйск 360
+http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/vitebsk.png" tvg-id="vitebsk",Витебск
+https://flu.vtv.by/tvt-non-by/index.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/vtv-by.png" tvg-id="vtv",BTB
+http://82.209.197.187:8080/udp/239.0.100.26:1234
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/ont-by.png" tvg-id="ont-by",ОНТ
+http://82.209.197.187:8080/udp/239.0.100.4:1234
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/svetloe-tv.png" tvg-id="svetloe-tv",Светлое ТВ
+http://194.158.218.123:8880/SvetloeTV/index.m3u8
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/stv-by.png" tvg-id="stv-by",СТВ
 http://80.94.225.126:8080/STV/mono.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/kIE6Ehu.png" tvg-id="ani",Ani
@@ -531,6 +547,8 @@ http://185.23.80.28:8080/Xit/index.m3u8
 http://185.23.80.28:8080/AVTO24/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/bober.png" tvg-id="bobior",Бобёр
 http://185.23.80.28:8080/Bober/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
+http://82.209.197.187:8080/udp/239.0.100.95:1234
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/GXJKWdy.png" tvg-id="glazami-turista",Глазами туриста
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/OuBtnGU.png" tvg-id="dialogi-o-rybalke",Диалоги о рыбалке
@@ -539,6 +557,8 @@ http://185.23.80.28:8080/DialogiORybalke/index.m3u8
 http://185.23.80.28:8080/Dikaya_Ohota/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/e3BFVgt.png" tvg-id="dikaya-rybalka-hd",Дикая рыбалка
 http://185.23.80.28:8080/Dikaya_Ohota/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye",Домашние животные
+http://82.209.197.187:8080/udp/239.0.100.93:1234
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/drive.png" tvg-id="drive",Драйв
 http://185.23.80.28:8080/Draiv/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/eda.png" tvg-id="eda",Еда
@@ -575,35 +595,6 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Эстония" tvg-name="ETV+" tvg-logo="https://i.imgur.com/YAubPlU.png" tvg-id="etv-plus-ee",ETV+ Ⓖ
 http://sb.err.ee/live/etvpluss.m3u8
-
-
-
-#EXTINF:-1 group-title="belarus_test",Бобруйск 360
-http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
-#EXTINF:-1 group-title="belarus_test",Белсат TV (BY/RU)
-http://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=belsattv
-#EXTINF:-1 group-title="belarus_test",Беларусь 4 HD Витебск
-https://flu.vtv.by/bt4-non-by/index.m3u8
-#EXTINF:-1 group-title="belarus_test",Светлое ТВ
-http://194.158.218.123:8880/SvetloeTV/index.m3u8
-#EXTINF:-1 group-title="belarus_test",Беларусь 1
-http://37.17.12.124:8901/play/a003
-#EXTINF:-1 group-title="belarus_test",Беларусь 4 Витебск
-https://flu.vtv.by/bt4-non-by/index.m3u8
-#EXTINF:-1 group-title="belarus_test",ОНТ
-http://82.209.197.187:8080/udp/239.0.100.4:1234
-#EXTINF:-1 group-title="belarus_test",BTB HD
-http://82.209.197.187:8080/udp/239.0.100.26:1234
-#EXTINF:-1 group-title="belarus_test",Витебск HD
-https://flu.vtv.by/tvt-non-by/index.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="belarus_test",8 канал
-http://82.209.197.187:8080/udp/239.0.100.124:1234
-#EXTINF:-1 group-title="belarus_test",Звязда
-http://82.209.197.187:8080/udp/239.0.100.142:1234ё
-#EXTINF:-1 group-title="belarus_test",Домашние животные
-http://82.209.197.187:8080/udp/239.0.100.93:1234
-#EXTINF:-1 group-title="belarus_test",Вопросы Ответы
-http://82.209.197.187:8080/udp/239.0.100.95:1234
 
 
 #EXTINF:-1 group-title="ukraina_test",UA Перший [iptvlist.ru]
