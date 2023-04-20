@@ -375,11 +375,15 @@ https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/FH9HD9p.png" tvg-id="viasat-sport",Viasat Sport
 http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Wrestling
+https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/edgesport-de.png" tvg-id="edgesport-de",Edge Sport
+https://edgesport-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/eurosport1.png" tvg-id="eurosport1",Eurosport 1
 http://78.26.128.59:9876/play/89/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/eurosport2.png" tvg-id="eurosport2",Eurosport 2
 http://176.222.190.76/btv/SWM/Eurosport2/Eurosport2.m3u8
-#EXTINF:-1 group-title="test_sport" tvg-logo="https://picon.ml/extreme-sports.png" tvg-id="extreme-sports",Extreme Sports
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/extreme-sports.png" tvg-id="extreme-sports",Extreme Sports
 http://78.26.128.59:9876/play/19/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/X6otbK0.png" tvg-id="konny-mir",Конный мир
 http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
@@ -387,7 +391,7 @@ http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
 http://176.222.190.76/btv/SWM/Qsport_international/Qsport_international.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/q-sport-ext.png" tvg-id="q-sport-ext",Q Sport League
 http://176.222.190.76/btv/SWM/Q/Q.m3u8
-#EXTINF:-1 group-title="test_sport" tvg-logo="https://picon.ml/kazsport.png" tvg-id="kazsport",Qazsport
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/kazsport.png" tvg-id="kazsport",Qazsport
 http://176.222.190.76/btv/SWM/Qazsport_HD/Qazsport_HD.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/UDJ0P5Q.png" tvg-id="kazsport",QazSport
 http://92.46.127.146:8080/qazsport/index.m3u8
@@ -427,12 +431,16 @@ http://78.26.128.59:9876/play/535/index.m3u8
 http://78.26.128.59:9876/play/518/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/VBqVkno.png" tvg-id="start",Старт
 http://185.23.80.28:8080/START/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Tennis Channel
+https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/TZiBQDK.png" tvg-id="tochka-otryva",Точка отрыва
 http://185.23.80.28:8080/TochkoOtryva/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/zKWfwAw.png" tvg-id="",Turkmenistan
 https://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/pEuaZVx.png" tvg-id="football-ru",Футбол
 http://185.23.80.28:8080/Football/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Horizon Sports
+https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
 
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/1plus1.png" tvg-id="1plus1",1+1
 http://91.146.94.234:10001/play/a04i
@@ -758,35 +766,6 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="Эстония" tvg-name="ETV+" tvg-logo="https://i.imgur.com/YAubPlU.png" tvg-id="etv-plus-ee",ETV+ Ⓖ
 http://sb.err.ee/live/etvpluss.m3u8
 
-
-
-
-
-#EXTINF:-1 group-title="test_sport",Лучшие моменты ЛЧ
-https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8
-
-#EXTINF:-1 group-title="test_sport",Xsport
-http://91.146.94.234:10001/play/a059
-
-#EXTINF:-1 group-title="test_sport",Horizon Sports
-https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
-
-#EXTINF:-1 group-title="test_sport",Fuel_TV
-https://fueltv-fueltv-1-au.samsung.wurl.com/playlist_1280x720_3000k.m3u8
-
-#EXTINF:-1 group-title="test_sport",Tennis Channel
-https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
-
-#EXTINF:-1 group-title="test_sport",Wrestling
-https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
-
-#EXTINF:-1 group-title="test_sport",Tennis Channel
-https://tennischannel-intl-samsung-uk.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 group-title="test_sport",Edge Sport
-https://edgesport-samsunguk.amagi.tv/playlist.m3u8
-
-
 #EXTINF:-1 group-title="Коллекция фильмов (Просмотренное)",Анчартед: На картах не значится (2022)
 https://hye1eaipby4w.takedwn.ws/04_27_22/04/27/19/PQS3T5Y3/T37FKNXB.mp4/index-v1-a1.m3u8
 
@@ -811,5 +790,4 @@ https://hye1eaipby4w.takedwn.ws/07_21_20/07/21/16/BEZXP7MK/2QDLEATI.mp4/index-v1
 https://hye1eaipby4w.takedwn.ws/05_13_21/05/13/05/QLPOUKP4/VSNUKCST.mp4/index-v1-a1.m3u8
 #EXTINF:-1 group-title="Коллекция фильмов",Матрица: Воскрешение (2021)
 https://hye1eaipby4w.takedwn.ws/01_20_22/01/20/11/PCF4XAKO/VICH4NTC.mp4/index-v1-a1.m3u8
-#EXTINF:-1 group-title="Коллекция фильмов",Шан-Чи и легенда десяти колец (2021)
-https://hls-hd.kinokrad.co/hlshd/HD.R.LM.Shang.Chi.and.the.Legend.of.the.Ten.Rings.2021.D.HDRip.14OOMB.720p/playlist.m3u8
+
