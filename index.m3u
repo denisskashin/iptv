@@ -1,5 +1,4 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
-
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/8by.png" tvg-id="8kanal-by",8 канал
 http://82.209.197.187:8080/udp/239.0.100.124:1234
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus1hd.png" tvg-id="belarus1",Беларусь 1
@@ -28,7 +27,6 @@ http://82.209.197.187:8080/udp/239.0.100.4:1234
 http://194.158.218.123:8880/SvetloeTV/index.m3u8
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/stv-by.png" tvg-id="stv-by",СТВ
 http://80.94.225.126:8080/STV/mono.m3u8
-
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/kIE6Ehu.png" tvg-id="ani",Ani
 http://185.23.80.28:8080/Ani/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское кино International
@@ -118,7 +116,6 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png" tvg-id="shanson-tv",Шансон-ТВ
 http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
-
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/6uotdVQ.png" tvg-id="v-mire-zhivotnyx-hd",В мире животных
 http://185.23.80.28:8080/VMireZhivotnyx/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/wRP9XA7.png" tvg-id="viasat-history",Viasat History
@@ -153,7 +150,6 @@ https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
 http://176.222.190.76/btv/SWM/terra_hd/terra_hd.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/texno-24.png" tvg-id="texno-24",Т24 (Техно 24)
 http://185.23.80.28:8080/T24/index.m3u8
-
 #EXTINF:-1 group-title="Новости", tvg-logo="https://picon.ml/360-news.png" tvg-id="360-news",360 новости
 http://185.23.80.28:8080/360Novosti/index.m3u8
 #EXTINF:-1 group-title="Новости", tvg-logo="https://i.imgur.com/FwPWS8i.png" tvg-id="izvestia",Известия
@@ -770,11 +766,11 @@ http://sb.err.ee/live/etvpluss.m3u8
 https://hye1eaipby4w.takedwn.ws/04_27_22/04/27/19/PQS3T5Y3/T37FKNXB.mp4/index-v1-a1.m3u8
 #EXTINF:-1 group-title="Коллекция фильмов (Просмотренное)",Человек-паук (2002)
 https://hye1eaipby4w.takedwn.ws/05_13_21/05/13/01/G3WMI4XY/DSCR5ZKJ.mp4/index-v1-a1.m3u8
-
-#EXTINF:-1 group-title="Коллекция фильмов",Человек-паук: 2 (2004)
+#EXTINF:-1 group-title="Коллекция фильмов (Просмотренное)",Человек-паук 2 (2004)
 https://hye1eaipby4w.takedwn.ws/01_05_22/01/05/15/4RC3DUBU/X2WPLWV6.mp4/index-v1-a1.m3u8
-#EXTINF:-1 group-title="Коллекция фильмов",Человек-паук: 3 Враг в отражении (2007)
+#EXTINF:-1 group-title="Коллекция фильмов (Просмотренное)",Человек-паук: 3 Враг в отражении (2007)
 https://hye1eaipby4w.takedwn.ws/05_13_21/05/13/01/7KVZEIBO/F7BIV2BC.mp4/index-v1-a1.m3u8
+
 #EXTINF:-1 group-title="Коллекция фильмов",Человек-паук (2012)
 https://hye1eaipby4w.takedwn.ws/05_13_21/05/13/03/NUBQLABA/R6QFNTBF.mp4/index-v1-a1.m3u8
 #EXTINF:-1 group-title="Коллекция фильмов",Человек-паук: Высокое напряжение(2014)
@@ -783,12 +779,10 @@ https://hye1eaipby4w.takedwn.ws/05_12_21/05/12/23/F75SMNFV/V6JCQJXW.mp4/index-v1
 https://hye1eaipby4w.takedwn.ws/07_21_20/07/21/16/BEZXP7MK/2QDLEATI.mp4/index-v1-a1.m3u8
 #EXTINF:-1 group-title="Коллекция фильмов",Человек-паук : Вдали от дома (2019)
 https://hye1eaipby4w.takedwn.ws/05_13_21/05/13/05/QLPOUKP4/VSNUKCST.mp4/index-v1-a1.m3u8
+
 #EXTINF:-1 group-title="Коллекция фильмов",Матрица: Воскрешение (2021)
 https://hye1eaipby4w.takedwn.ws/01_20_22/01/20/11/PCF4XAKO/VICH4NTC.mp4/index-v1-a1.m3u8
-
 #EXTINF:-1 group-title="Коллекция фильмов",Всё везде и сразу (2022)
 https://hye1eaipby4w.takedwn.ws/05_18_22/05/18/13/4STAHT6X/RBNTGSDJ.mp4/index-v1-a1.m3u8
 
-#EXTINF:-1 group-title="Новинки 2021" tvg-logo="https://st.kinotop.net/storage/242x358/posters/2021/11/b0aa930e4c2d6c60b5b3.jpg",Шан-Чи и легенда десяти колец (2021)
-https://test.takedwn.ws/11_12_21/11/12/11/SZHX7ZNF/EWOSTQNV.mp4/index-v1-a1.m3u8
 
