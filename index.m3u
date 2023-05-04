@@ -57,9 +57,6 @@ http://185.23.80.28:8080/Ryzhij/index.m3u8
 http://185.23.80.28:8080/Ryzhij/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/solnce.png" tvg-id="solnce",Солнце
 http://31.40.149.157:9981/stream/channelid/1754655428?ticket=FFDEC0DC27C847D146F602313CCC1D9ED5278C46&profile=pass
-#EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/sts-kids-hd.png" tvg-id="sts-kids-hd",СТС Kids
-http://31.40.149.157:9981/stream/channelid/1041884886?ticket=7F1F0E8C575DACCF18D30E894BFEBC2A47A968C1&profile=pass
-
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/tiji.png" tvg-id="tiji",TiJi
 http://185.23.80.28:8080/TiJi/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/unikum.png" tvg-id="detsky",Уникум
@@ -217,7 +214,7 @@ https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/2Ydfgw4.png" tvg-id="centralnoye-tv",Центральное телевидение (ЦТВ)
 http://ott-cdn.ucom.am/s20/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/KDZvt0Q.png" tvg-id="yu",Ю
-https://s91412.cdn.ngenix.net/mdrm/CH_U/variant.m3u8
+http://31.40.149.157:9981/stream/channelid/1041884886?ticket=7F1F0E8C575DACCF18D30E894BFEBC2A47A968C1&profile=pass
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-id="2na2",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://picon.ml/russky-ekstrim.png" tvg-id="russky-ekstrim",Русский экстрим
