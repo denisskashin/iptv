@@ -29,16 +29,18 @@ http://194.158.218.123:8880/SvetloeTV/index.m3u8
 http://80.94.225.126:8080/STV/mono.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/kIE6Ehu.png" tvg-id="ani",Ani
 http://31.40.149.157:9981/stream/channelid/153126086?ticket=526004120471236EA98BBA4637C985AB96D53646&profile=pass
+#EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/v-gostiax-u-skazki.png" tvg-id="v-gostiax-u-skazki",В гостях у сказки
+http://31.40.149.157:9981/stream/channelid/15694878?ticket=AE4AB29F0426E7837429E51F0BCFF3C8C1FCAB6D&profile=pass
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское кино International
 https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/7I1mnDQ.png" tvg-id="",IPTV Play МультСказки
 https://autopilot.catcast.tv/content/38850/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/capfantast.png" tvg-id="ginger-hd",Капитан фантастика
-http://185.23.80.28:8080/KapitanFantastika/index.m3u8
+http://194.87.237.169:8888/srv1/100871/mpegts?token=B3CBF9RKLQWP
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/karusel.png" tvg-id="karusel",Карусель
 http://31.40.149.157:9981/stream/channelid/962642100?ticket=5A3B19C349BB6E56EEFF4C98FB5C46C86EFA790D&profile=pass
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/8o8QHOz.png" tvg-id="mama",Мама
-http://185.23.80.28:8080/Mama/index.m3u8
+http://194.87.237.169:8888/srv1/100368/mpegts?token=B3CBF9RKLQWP
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/crJQTID.png" tvg-id="mult",Мульт
 http://31.40.149.157:9981/stream/channelid/211382224?ticket=6BF2065E5041BD4F4ABB5122E27F30FB01926A38&profile=pass
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/multimania.png" tvg-id="multimania",Мультиландия
@@ -749,5 +751,3 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 group-title="test",В гостях у сказки
-http://31.40.149.157:9981/stream/channelid/15694878?ticket=AE4AB29F0426E7837429E51F0BCFF3C8C1FCAB6D&profile=pass
