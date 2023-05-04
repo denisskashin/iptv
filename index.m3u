@@ -193,27 +193,27 @@ https://sc.id-tv.kz/1KanalEvraziya.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ
-http://185.23.80.28:8080/REN/index.m3u8
+http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ 2
 http://37.193.18.15:81/udp/239.1.15.5:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia1.png" tvg-id="rossia1",Россия 1
-http://185.23.80.28:8080/Rossiya1/index.m3u8
+http://37.193.18.15:81/udp/239.1.15.2:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia-24.png" tvg-id="rossia-24",Россия 24
-http://185.23.80.28:8080/Rossiya24/index.m3u8
+http://37.193.18.15:81/udp/239.1.15.3:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/kultura.png" tvg-id="kultura",Россия Культура
-http://185.23.80.28:8080/RossiyaK/index.m3u8
+http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist_3.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/ilUzAeb.png" tvg-id="sts",СТС
-http://185.23.80.28:8080/STS/index.m3u8
+http://37.193.18.15:81/udp/239.1.15.6:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
-http://185.23.80.28:8080/Super/index.m3u8
+https://bl.uma.media/live/317845/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/sbuSefI.png" tvg-id="",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvci",ТВ Центр International
 http://ott-cdn.ucom.am/s54/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvcentr",ТВ Центр
-http://185.23.80.28:8080/TVCentr/index.m3u8
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
@@ -221,21 +221,21 @@ https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/2Ydfgw4.png" tvg-id="centralnoye-tv",Центральное телевидение (ЦТВ)
 http://ott-cdn.ucom.am/s20/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/KDZvt0Q.png" tvg-id="yu",Ю
-http://185.23.80.28:8080/Yu/index.m3u8
+https://s91412.cdn.ngenix.net/mdrm/CH_U/variant.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-id="2na2",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://picon.ml/russky-ekstrim.png" tvg-id="russky-ekstrim",Русский экстрим
 http://185.23.80.28:8080/RusskijEkstrim/index.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/AgX6qoz.png" tvg-id="sarafan",Сарафан
-http://185.23.80.28:8080/Sarafan/index.m3u8
+http://37.193.18.15:81/udp/239.1.2.11:1234
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/YBVZoDd.png" tvg-id="sts-love",СТС Love
-http://185.23.80.28:8080/STSLove/index.m3u8
+http://37.193.18.15:81/udp/239.1.3.8:1234
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/4GiD9xN.png" tvg-id="tnt4",ТНТ4
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/r3u0mxr.png" tvg-id="univer-tv",Univer TV
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/ZOcDGpB.png" tvg-id="che",Че!
-http://185.23.80.28:8080/Che/index.m3u8
+http://37.193.18.15:81/udp/239.1.15.14:1234
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/GOSdjiq.png" tvg-id="nadezhda",Надежда
 https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://picon.ml/nebesa-tv7.png" tvg-id="nebesa-tv7",Небеса ТВ7
@@ -243,7 +243,7 @@ https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/w3OewHc.png" tvg-id="soyuz",Союз
 http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/DNO4SOL.png" tvg-id="spas",Спас
-http://185.23.80.28:8080/Spas/index.m3u8
+http://37.193.18.15:81/udp/239.1.15.22:1234
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/34eyR0f.png" tvg-id="",ТВ Экстра
 http://live-1.otcnet.ru/tvextra720b/index.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/4fhBbam.png" tvg-id="tri-angela",Три ангела
