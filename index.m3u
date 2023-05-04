@@ -200,8 +200,6 @@ http://37.193.18.15:81/udp/239.1.15.5:1234
 http://37.193.18.15:81/udp/239.1.15.2:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia-24.png" tvg-id="rossia-24",Россия 24
 http://37.193.18.15:81/udp/239.1.15.3:1234
-#EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/kultura.png" tvg-id="kultura",Россия Культура
-http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist_3.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/ilUzAeb.png" tvg-id="sts",СТС
@@ -212,8 +210,6 @@ https://bl.uma.media/live/317845/HLS/4614144_3/1/1/playlist.m3u8
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvci",ТВ Центр International
 http://ott-cdn.ucom.am/s54/index.m3u8
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvcentr",ТВ Центр
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TVC/variant.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
@@ -749,3 +745,7 @@ http://94.230.240.17:8080/usadba/index.m3u8
 http://146.158.0.56:80/FashionBox/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+
+#EXTINF:-1 group-title="test",Наш Спорт 1
+http://dvag4ile.russtv.net/iptv/2KKRWH284VKAUD/7360/index.m3u8
