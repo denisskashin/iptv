@@ -595,20 +595,12 @@ https://bl.uma.media/live/485536/HLS/4614144_3/2/1/playlist.m3u8
 https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="http://epg.it999.ru/img2/834.png" tvg-id="domkino",Дом кино
 http://flu.ttk.mx:9090/Dom_kino/index.m3u8?token=orh6o
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/8LPtPf6.png" tvg-id="evrokino",Еврокино
-http://178.163.29.89:4022/udp/234.0.0.176:2000
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/4PAcpfM.png" tvg-id="zvezda",Звезда
-http://37.193.18.15:81/udp/239.1.15.9:1234
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/illuzion-plus.png" tvg-id="illuzion-plus",Иллюзион+
-http://185.23.80.28:8080/Illyuzion+/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/ArMPRru.png" tvg-id="",IPTV Play Премьра
 https://autopilot.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/ArMPRru.png" tvg-id="",IPTV Play Ужастик
 https://autopilot.catcast.tv/content/38896/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/ST6S8Yx.png" tvg-id="",IPTV Play Фантастика
 https://autopilot.catcast.tv/content/38801/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/kamedi.png" tvg-id="kamedi",Камеди
-http://185.23.80.28:8080/Camedi/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="http://epg.it999.ru/img2/6258.png" tvg-id="kino1int-tviksel",Кино 1 International
 https://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/kino18plus-tviksel.png" tvg-id="kino18plus-tviksel",Кино 18+
@@ -618,9 +610,9 @@ http://autopilot.catcast.tv/content/39005/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/lidNHkH.png" tvg-id="atv-kinoman",ATV Kinoman
 http://ott-cdn.ucom.am/s94/04.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/OGUMa1A.png" tvg-id="kinomiks",Киномикс
-https://sc.id-tv.kz/Kinomix_hd.m3u8
+http://178.163.29.89:4022/udp/234.0.0.222:2000
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/nNjMyAq.png" tvg-id="kinopokaz",Кинопоказ
-http://185.23.80.28:8080/Kinopokaz/index.m3u8
+http://178.163.29.89:4022/udp/234.0.0.209:2000
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/lgvOVxm.png" tvg-id="kinopremiera-hd",Кинопремьера
 https://sc.id-tv.kz/Kinopremiera_hd.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/kinosat.png" tvg-id="kinosat",КиноСат
