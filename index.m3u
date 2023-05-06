@@ -726,8 +726,16 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 group-title="test",russia_hd
-https://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
+#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 (+1)
+http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?version=2&checkedby:iptvcat.net
+#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 (+3)
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?version=2&checkedby:iptvcat.net
+#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 (-1)
+http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8?version=2&checkedby:iptvcat.net
+#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 +1
+http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 +3
+http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?checkedby:iptvcat.net
+#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 +8
+http://s14553.cdn.ngenix.net/hls/CH_R04_OTT_DV_SLIN_ROSSIA1_SLIN/variant.m3u8?checkedby:iptvcat.net
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Undefined",Россия РТР
-https://a3569455801-s26881.cdn.ngenix.net/live/smil:rtrp.smil/playlist.m3u8
