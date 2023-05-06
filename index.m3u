@@ -41,8 +41,6 @@ http://31.40.149.157:9981/stream/channelid/962642100?ticket=5A3B19C349BB6E56EEFF
 http://31.40.149.157:9981/stream/channelid/211382224?ticket=6BF2065E5041BD4F4ABB5122E27F30FB01926A38&profile=pass
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/multimania.png" tvg-id="multimania",Мультиландия
 http://31.40.149.157:9981/stream/channelid/1848309290?ticket=4BCEACF87200B3E57511C6C757E3A36E48A7EFD6&profile=pass
-#EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://picon.ml/multimuzyka.png" tvg-id="multimuzyka",Мультимузыка
-http://194.87.237.169:8888/srv3/100406/mpegts?token=B3CBF9RKLQWP
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/pDc665V.png" tvg-id="o_",O!
 http://185.23.80.28:8080/O/index.m3u8
 #EXTINF:-1 group-title="Дети и мультики" tvg-logo="https://i.imgur.com/hIlEfhl.png" tvg-id="",RETRO Cartoon
@@ -732,4 +730,8 @@ http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 http://cdnmg.secure.live.rtr-vesti.ru/hls/russia_k/playlist_3.m3u8
 #EXTINF:-1 group-title="All",РОССИЯ КУЛЬТУРА р
 http://185.184.234.181:81/udp/225.1.2.4:1234
+#EXTINF:-1 group-title="All",Мультсказки
+https://autopilot.catcast.tv/content/38850/index.m3u8
+#EXTINF:-1 group-title="All",Смайлик ТВ HD
+http://62.32.67.187:1935/WEB_Smilik/Smilik.stream/playlist.m3u8
 
