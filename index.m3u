@@ -191,10 +191,8 @@ https://sc.id-tv.kz/1KanalEvraziya.m3u8
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ
 http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ 2
-http://37.193.18.15:81/udp/239.1.15.5:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia1.png" tvg-id="rossia1",Россия 1
-http://37.193.18.15:81/udp/239.1.15.2:1234
+http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia-24.png" tvg-id="rossia-24",Россия 24
 http://37.193.18.15:81/udp/239.1.15.3:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
@@ -734,3 +732,8 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
+#EXTINF:-1 group-title="тест" tvg-logo="https://picon.ml/rossia1.png" tvg-id="rossia1",Россия 1
+http://cdnmg.secure.live.rtr-vesti.ru/hls2/russia_hd/playlist_6.m3u8
+
+#EXTINF:-1 group-title="тест" tvg-id="ntv" tvg-logo="http://epg.it999.ru/img2/2001.png",НТВ HD
+https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
