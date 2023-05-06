@@ -623,12 +623,6 @@ https://sc.id-tv.kz/Kinohit_hd.m3u8
 http://185.23.80.28:8080/KrasnayaLiniya/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/amG6Tbt.png" tvg-id="muzhskoe-kino",Мужское кино
 https://sc.id-tv.kz/Mujskoe_kino_hd.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/nash-kinopokaz.png" tvg-id="nash-kinopokaz",Наш Кинопоказ
-http://185.23.80.28:8080/NashKinopokaz/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/nashe-muzhskoe-hd.png" tvg-id="nashe-muzhskoe",Наше Мужское
-http://185.23.80.28:8080/NasheMuzhskoe/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/nst.png" tvg-id="nst",НСТ (Настоящее страшное ТВ)
-http://185.23.80.28:8080/NST/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/QdVa8tl.png" tvg-id="ntv-serial",НТВ Сериал
 https://ntv-hls-orig.cdnvideo.ru/th_serial/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/5RFslxi.png" tvg-id="ntv-xit",НТВ Хит
@@ -732,8 +726,5 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 group-title="test",HHH
-http://gamsgo.cyou:8080/598830d7/1c1ab34576/36563
-
-#EXTINF:-1 group-title="test",Unikum
-http://gamsgo.cyou:8080/598830d7/1c1ab34576/298016
+#EXTINF:-1 group-title="test",russia_hd
+https://a3569458063-s26881.cdn.ngenix.net/hls/russia_hd/playlist_4.m3u8
