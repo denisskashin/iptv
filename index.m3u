@@ -194,7 +194,7 @@ http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/ilUzAeb.png" tvg-id="sts",СТС
 http://37.193.18.15:81/udp/239.1.15.6:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
-https://bl.uma.media/live/317845/HLS/4614144_3/1/1/playlist.m3u8
+https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/sbuSefI.png" tvg-id="",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvci",ТВ Центр International
@@ -747,59 +747,6 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 http://cdn-01.bonus-tv.ru:8080/tvm_edge/tracks-v1a1/index.m3u8
 
 
-
-#EXTINF:-1 group-title="All",Феникс + Кино
-https://okkotv-live.cdnvideo.ru/channel/Phoenix.m3u8
-#EXTINF:-1 group-title="All",Суббота! HD
-https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
-#EXTINF:-1 group-title="All",Суббота
-http://46.174.83.66/Subbota/mpegts
-#EXTINF:-1 group-title="All",Красная линия СССР
-http://kprf-htlive.cdn.ngenix.net/live/_definst_/stream_high/chunklist.m3u8
-#EXTINF:-1 group-title="All",Москва Доверие
-http://cdnmg.secure.live.rtr-vesti.ru/hls/doverie/playlist_2.m3u8
-#EXTINF:-1 group-title="All",Известия
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
-#EXTINF:-1 group-title="All",Russian America TV
-https://stream.russianamerica.tv/ratv/index.m3u8
-#EXTINF:-1 group-title="All",Первый канал (-1)
-http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_1TV_KLNG/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+1)
-http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+2)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_2/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+3)
-https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+4)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_4/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+5)
-https://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_IRK_1TV/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+6)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_6/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+7)
-http://s91030.cdn.ngenix.net/hls/CH_R25_OTT_DV_VLD_1TV/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+8)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD_8/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Первый канал (+9)
-https://s14131.cdn.ngenix.net/hls/CH_R41_OTT_DV_KAM_ROSSIA1/variant.m3u8
-#EXTINF:-1 group-title="All",НТВ (-1)
-http://a3569458162-rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R03_NTV/playlist.m3u8?offset=-3600&utcstart=1611486000&version=2
-#EXTINF:-1 group-title="All",НТВ (+1)
-http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_NTV/variant.m3u8
-#EXTINF:-1 group-title="All",НТВ (+2)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",НТВ (+3)
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_NTV_OMSKOBL/variant.m3u8
-#EXTINF:-1 group-title="All",НТВ (+4)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_4/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",НТВ (+5)
-http://rt-sib-uude-htlive.cdn.ngenix.net/hls/CH_R03_NTV_BURAT/variant.m3u8
-#EXTINF:-1 group-title="All",НТВ (+6)
-http://rt-sib-chita-htlive.cdn.ngenix.net/hls/CH_R01_NTV_ZK/variant.m3u8
-#EXTINF:-1 group-title="All",НТВ (+7)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_7/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Россия 1
-http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R04_ROSSIA1/variant.m3u8
 #EXTINF:-1 group-title="All",Россия 1 (+1)
 http://radio-live-mg.rtr-vesti.ru/hls/russia1_plus1/playlist_2.m3u8
 #EXTINF:-1 group-title="All",Россия 1 (+2)
