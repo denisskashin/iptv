@@ -726,26 +726,19 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 (+1)
-http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?version=2&checkedby:iptvcat.net
-#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 (+3)
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?version=2&checkedby:iptvcat.net
-#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 (-1)
-http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R04_OTT_NW_KLGR_ROSSIA1/variant.m3u8?version=2&checkedby:iptvcat.net
-#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 +1
-http://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R04_OTT_VLG_SARATOV_ROSSIA1/variant.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 +3
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R04_OTT_SIB_OMSK_ROSSIA1_OMSKOBL/variant.m3u8?checkedby:iptvcat.net
-#EXTINF:0 tvg-country="RU" tvg-logo="" group-title="Undefined",Россия 1 +8
-http://s14553.cdn.ngenix.net/hls/CH_R04_OTT_DV_SLIN_ROSSIA1_SLIN/variant.m3u8?checkedby:iptvcat.net
-
-
-#EXTINF:-1 tvg-logo="https://cdn-st1.rtr-vesti.ru/lrt_cdn/i/logo/ch-logo-1.png" group-title="Russia (Россия)",Россия 1
-http://hls-mycdn01792630458.cdnvideo.ru/mycdn01792630458/chechnyatoday/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://fanat.tv/images/tv/rossiya-24.png" group-title="Russia (Россия)",Россия 24
-http://serv25.vintera.tv:8081/500/rus24-500w/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://fanat.tv/images/tv/rossiya-k.png" group-title="Russia (Россия)",РОССИЯ-K
-http://serv25.vintera.tv:8081/restream/rusk/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://rtr-planeta.com/i/main_logo.png" group-title="Russia (Россия)",Россия РТР
-http://a3569455780-s26881.cdn.ngenix.net/live/smil:rtrp.smil/chunklist_b1600000.m3u8
-
+#EXTINF:-1 group-title="test",Россия 1
+http://81.177.208.87:4022/udp/232.0.3.2:1234
+#EXTINF:-1 group-title="test",РоссиЯ 1
+http://81.177.208.87:4022/udp/232.0.1.5:1234
+#EXTINF:-1 group-title="test",iptv-rus.ru
+http://81.177.208.87:4022/udp/232.0.1.5:1235
+#EXTINF:-1 group-title="test",РоссиЯ 1 HD
+http://81.177.208.87:4022/udp/232.0.1.57:1234
+#EXTINF:-1 group-title="test",РоссиЯ 24
+http://81.177.208.87:4022/udp/232.0.1.1:1234
+#EXTINF:-1 group-title="test",РоссиЯ 24
+http://81.177.208.87:4022/udp/232.0.3.7:1234
+#EXTINF:-1 group-title="test",РоссиЯ К
+http://81.177.208.87:4022/udp/232.0.3.6:1234
+#EXTINF:-1 group-title="test",РоссиЯ К
+http://81.177.208.87:4022/udp/232.0.1.6:1234
