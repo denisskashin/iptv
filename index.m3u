@@ -221,19 +221,6 @@ https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d1
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/ZOcDGpB.png" tvg-id="che",Че!
 http://37.193.18.15:81/udp/239.1.15.14:1234
-#EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/GOSdjiq.png" tvg-id="nadezhda",Надежда
-https://live-tvhope.cdnvideo.ru/tvhope-pull/tvhope_1/playlist.m3u8
-#EXTINF:-1 group-title="Религия" tvg-logo="https://picon.ml/nebesa-tv7.png" tvg-id="nebesa-tv7",Небеса ТВ7
-https://vod.tv7.fi/tv7-ru/tv7-ru.smil/playlist.m3u8
-#EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/w3OewHc.png" tvg-id="soyuz",Союз
-http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
-#EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/DNO4SOL.png" tvg-id="spas",Спас
-http://37.193.18.15:81/udp/239.1.15.22:1234
-#EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/34eyR0f.png" tvg-id="",ТВ Экстра
-http://live-1.otcnet.ru/tvextra720b/index.m3u8
-#EXTINF:-1 group-title="Религия" tvg-logo="https://i.imgur.com/4fhBbam.png" tvg-id="tri-angela",Три ангела
-https://hls.tv.3angels.ru/stream.m3u8
-
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-id="360-int",360°
 https://edge2-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/7Jo7UAf.png" tvg-id="",Aбаза TV
@@ -630,7 +617,7 @@ https://bl.uma.media/live/485541/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/8neUwrB.png" tvg-id="tv1000-russkoe-kino",TV 1000 Русское кино
 https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/mDeTbaF.png" tvg-id="fanhd",FAN
-http://185.23.80.28:8080/FAN/index.m3u8
+https://hls.goodgame.ru/manifest/157239_master.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/cXatYqt.png" tvg-id="filmbox-ru",FilmBox Russia
 http://94.230.240.17:8080/film_box/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/uWBrDpV.png" tvg-id="atv-filmzone",ATV Filmzone
@@ -701,14 +688,11 @@ https://autopilot.catcast.tv/content/38821/index.m3u8
 https://autopilot.catcast.tv/content/39161/index.m3u8
 #EXTINF:-1 group-title="All",STR TV
 https://strtv.at.ua/hls/index.m3u8
-
-
 #EXTINF:-1 group-title="All",SCR TV HD
 https://hls.goodgame.ru/hls/61358.m3u8?cur=tva.org.ua&key=3i277
 #EXTINF:-1 group-title="All",PZN HD
 http://hls.goodgame.ru/manifest/180960_master.m3u8
-#EXTINF:-1 group-title="All",ТВ 43
-http://sochi-strk.ru:2015/43Kanal/mpegts
+
 #EXTINF:-1 group-title="All",Bollywood HD r
 https://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 group-title="All",Fox HD r
@@ -735,14 +719,7 @@ http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
 https://stream.ntktv.ua/s/ntk/ntk.m3u8
 #EXTINF:-1 group-title="All",БІК
 http://194.50.51.34/playlist.m3u8?cur=tva.org.ua&key=3i277
-#EXTINF:-1 group-title="All",InRating TV
-https://inrating-tv.cdn-04.cosmonova.net.ua/hls/inrating-tv_ua_hi/index.m3u8
-#EXTINF:-1 group-title="All",МИР
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv3_2500/playlist.m3u8
-#EXTINF:-1 group-title="All",МИР HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 group-title="All",МИР 24
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
+
 #EXTINF:-1 group-title="All",TVM Channel
 http://cdn-01.bonus-tv.ru:8080/tvm_edge/tracks-v1a1/index.m3u8
 
@@ -755,11 +732,9 @@ http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
 
 #EXTINF:-1 group-title="All",11 канал Полевской
 https://hjplb2qzsf8.a.trbcdn.net/livemaster/qm9inc7byc_stream1/playlist.m3u8
+
 #EXTINF:-1 group-title="All",АТВ-Ставрополь
 http://hls.atvmedia.ru/atv800.m3u8
-
-#EXTINF:-1 group-title="All",АРИС 24 HD (Кумертау)
-http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
 
 #EXTINF:-1 group-title="All",УлПравда ТВ (Ульяновск)
 http://194.190.78.91:8080/pravdatv/index.m3u8
@@ -770,17 +745,10 @@ http://194.190.78.91:8080/dimgrad/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="All",Тверской проспект (Тверь)
 http://stream.fastlnk.ru:88/Tverskojj_prospekt/index.m3u8
 
-#EXTINF:-1 group-title="All",Первый Псковский
-http://194.190.78.91/pskov/rewind-10800.m3u8?983897548583a
-
-#EXTINF:-1 group-title="All",Тивиком (Улан-Удэ)
-http://tvcom.stream.intelema.ru/tvcom/studio/index.m3u8
 
 #EXTINF:-1 group-title="All",Щёлково ТВ (Щёлково)
 http://stream0.tv41.ru/live.m3u8
 
-#EXTINF:-1 group-title="All",Ветта 24 (Перьм)
-http://serv24.vintera.tv:8081/vetta/vetta_office/chunks.m3u8
 
 #EXTINF:-1 group-title="All",НТМ (Мордовия)
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
@@ -788,11 +756,6 @@ http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 group-title="All",Мордовия 24
 https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
 
-#EXTINF:-1 group-title="All",Эхо-ТВ (Рязань)
-http://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="All",9 Волна
-http://cdn-01.bonus-tv.ru:8080/9volna/index.m3u8
 
 #EXTINF:-1 group-title="All",Советск-Тильзит ТВ
 http://109.239.208.82:80/tilsit/mpegts
@@ -803,9 +766,6 @@ https://bst.bratsk.ru/hls/bst2/index.m3u8
 #EXTINF:-1 group-title="All",Министерство идей (Екатеринбург)
 http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
 
-
-#EXTINF:-1 group-title="All",Селенга-ТВ (Улан-Удэ)
-http://90.188.37.86/live/playlist.m3u8
 
 #EXTINF:-1 group-title="All",РГВК Дагестан HD (Махачкала)
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist_hdhigh.m3u8
@@ -826,11 +786,6 @@ https://air.tvk6.ru/tvk24/index.m3u8
 #EXTINF:-1 group-title="All",8 канал Красноярск
 http://80.65.18.213/perviy_molodeginyi_3100kb.m3u8
 
-#EXTINF:-1 group-title="All",Север (Нарьян-Мар)
-http://live.mediacdn.ru:80/sr1/sever/playlist.m3u8
-
-#EXTINF:-1 group-title="All",Татарстан-24 (Казань)
-http://stream.efir24.tv:1935/live/efir24tv/playlist.m3u8
 
 #EXTINF:-1 group-title="All",Эфир (Казань)
 http://stream.efir24.tv:1935/live/efirkazan/playlist.m3u8
@@ -842,14 +797,6 @@ http://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
 #EXTINF:-1 group-title="All",Красногорск ТВ
 http://live-krtv.cdnvideo.ru/krtv/krtv.sdp/playlist.m3u8
 
-#EXTINF:-1 group-title="All",Курай ТВ
-https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
-
-#EXTINF:-1 group-title="All",БЕЛАРУСЬ 24
-http://serv30.vintera.tv:8081/belarus24/belarus24/chunks.m3u8
-
-#EXTINF:-1 group-title="All",ТРО (БелРос)
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 
 #EXTINF:-1 group-title="All",Noroc TV
 http://live.noroc.tv/hls/noroctv_chisinau.m3u8
@@ -869,75 +816,11 @@ https://sc.id-tv.kz/Astana.m3u8
 #EXTINF:-1 group-title="All",Новое Телевидение HD
 http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8
 
-#EXTINF:-1 group-title="All",Atameken Business
-http://live-atameken.cdnvideo.ru/atameken/atameken.sdp/playlist.m3u8
-
-#EXTINF:-1 group-title="All",Ел Арна
-https://sc.id-tv.kz/ElArna.m3u8
-
-#EXTINF:-1 group-title="All",КТК
-http://92.46.127.146:8080/KTK-L3-TRANS/index.m3u8
-
-#EXTINF:-1 group-title="All",Türkmenistan
-https://alpha.tv.online.tm/legacyhls/ch007_400/index.m3u8
-
-#EXTINF:-1 group-title="All",Altyn Asyr
-https://alpha.tv.online.tm/legacyhls/ch001_400/index.m3u8
-
-#EXTINF:-1 group-title="All",Ýaşlyk
-https://alpha.tv.online.tm/legacyhls/ch002_400/index.m3u8
-
 #EXTINF:-1 group-title="All",Miras tva.org.ua
 https://alpha.tv.online.tm/legacyhls/ch003_400/index.m3u8
 
-#EXTINF:-1 group-title="All",Türkmenistan Sport
-https://alpha.tv.online.tm/legacyhls/ch004_400/index.m3u8
-
-#EXTINF:-1 group-title="All",Türkmen owazy
-https://alpha.tv.online.tm/legacyhls/ch005_400/index.m3u8
-
-#EXTINF:-1 group-title="All",Aşgabat
-https://alpha.tv.online.tm/legacyhls/ch006_400/index.m3u8
-
-#EXTINF:-1 group-title="All",ATV 1
-http://85.132.81.184:8080/atv/index.m3u8
-
-#EXTINF:-1 group-title="All",ATV 2
-http://85.132.81.184:8080/atv-2/index.m3u8
-
-#EXTINF:-1 group-title="All",ATV 4
-http://85.132.81.184:8080/atv-4/index.m3u8
-
-#EXTINF:-1 group-title="All",ARB
-http://85.132.81.184:8080/arb/live/index.m3u8
-
-#EXTINF:-1 group-title="All",EL TV
-http://85.132.53.162:1935/live/eltv/chunklist.m3u8
-
-#EXTINF:-1 group-title="All",Kэpэz TV
-http://85.132.81.184:8080/arbkepez/live/index.m3u8
-
-#EXTINF:-1 group-title="All",Formula TV HD
-https://tv.cdn.xsg.ge/c4635/TVFormula/tracks-v1a1/index.m3u8
-
-#EXTINF:-1 group-title="All",Palitranews
-https://live.palitranews.ge/hls/palitratv/index.m3u8
-
-#EXTINF:-1 group-title="All",Imedi TV
-https://tv.cdn.xsg.ge/imedihd/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="All",1TV HD
-https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8?token=tva.org.ua
-
-#EXTINF:-1 group-title="All",2TV HD
-https://tv.cdn.xsg.ge/gpb-2tv/tracks-v1a1/mono.m3u8?token=tva.org.ua
-
 #EXTINF:-1 group-title="All",National Geographic Wild
 https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
-
-#EXTINF:-1 group-title="All",Конный Мир 2
-http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8
-
 
 #EXTINF:-1 group-title="All",ТВ Экстра
 http://194.190.78.91:8080/tvextra720b/index.m3u8
@@ -945,214 +828,46 @@ http://194.190.78.91:8080/tvextra720b/index.m3u8
 #EXTINF:-1 group-title="All",Астрахань.Ru Sport HD
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 
-#EXTINF:-1 group-title="All",Red Bull
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?tva.org.ua
-
-#EXTINF:-1 group-title="All",Qazsport
-http://92.46.127.146:8080/qazsport/index.m3u8
-
-#EXTINF:-1 group-title="All",Turkmenistan Sport
-http://217.174.225.146/hls/ch004_720/index.m3u8
-
-#EXTINF:-1 group-title="All",FAN HD
-https://hls.goodgame.ru/manifest/157239_master.m3u8
-
-
-#EXTINF:-1 group-title="All",Бобик в гостях у Барбоса 1977
-https://vs46.vcdn.biz/b8dd805689ecbc347014b35d40a27afa_megogo/vod/hls/b/450_900_1350_1500_2000/u_sid/0/o/84891/u_uid/0/u_vod/3/u_device/cms_html5/a/0/type.amlst/chunklist-sid551791129-b2000000.m3u8
-
-#EXTINF:-1 group-title="All",1HD Music
-http://1hdru-hls-otcnet.cdnvideo.ru/onehdmusic/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="All",Музыка Кино International
 http://autopilot.catcast.tv/content/37739/index.m3u8
+
 #EXTINF:-1 group-title="All",Музыка 1 International
 http://autopilot.catcast.tv/content/37745/index.m3u8
+
 #EXTINF:-1 group-title="All",Музыка 2 International
 http://autopilot.catcast.tv/content/37742/index.m3u8
+
 #EXTINF:-1 group-title="All",TRANCE IS STAR TV
 https://tis.catcast.tv/content/391/index.m3u8
+
 #EXTINF:-1 group-title="All",Kronehit HD
 https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1 group-title="All",Kronehit TV
-http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
-#EXTINF:-1 group-title="All",Entermusictv
-https://v2.catcast.tv/content/36007/index.m3u8
-#EXTINF:-1 group-title="All",Techno Dance Music
-https://hlss.goodgame.ru/hls/180509.m3u8
-#EXTINF:-1 group-title="All",ТНТ MUSIC HD
-http://83.222.205.65:8080/tntmusic/index.m3u8
-#EXTINF:-1 group-title="All",Euro90 TV Channel
-https://ssl4.radyotvonline.com/e90tv/e90tvlive/chunklist.m3u8
-#EXTINF:-1 group-title="All",H!T Music Channel
-http://hitmusic.hu/hitmusic.m3u8?token=tva.org.ua
-#EXTINF:-1 group-title="All",Муз-ТВ
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Муз-ТВ (+2)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_2/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Муз-ТВ (+4)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_4/bw2000000/variant.m3u8
-#EXTINF:-1 group-title="All",Муз-ТВ (+7)
-https://zabava-htlive.cdn.ngenix.net/hls/CH_MUZTV_7/bw2000000/variant.m3u8
+
 #EXTINF:-1 group-title="All",MIXM TV
 http://89.179.247.144/mixm.m3u8
+
 #EXTINF:-1 group-title="All",Afrobeats
 https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 group-title="All",Первый музыкальный HD (Россия)
-http://rtmp.one.by:2300
-#EXTINF:-1 group-title="All",Deejay TV
-http://deejay_tv-lh.akamaihd.net/i/DeejayTv_1@129866/index_600_av-p.m3u8
-#EXTINF:-1 group-title="All",Portal FoxMix TV
-http://tv.portalfoxmix.club:1935/portalfoxmix/portalfoxmix/chunklist_w707723531.m3u8
-#EXTINF:-1 group-title="All",m2o TV (Italy)
-http://m2otv-lh.akamaihd.net/i/m2oTv_1@186074/index_600_av-p.m3u8
+
 #EXTINF:-1 group-title="All",Retro Music Television
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
+
 #EXTINF:-1 group-title="All",Новое Радио ТВ
 http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
+
 #EXTINF:-1 group-title="All",Persiana Music
 http://51.210.199.24/hls/stream.m3u8
-#EXTINF:-1 group-title="All",M6 Music HD
-http://190.2.155.162:8080/m6music/mpegts
-#EXTINF:-1 group-title="All",MCM Top
-http://194.190.78.91:8080/mcm/index.m3u8
-#EXTINF:-1 group-title="All",MTV HD FR
-http://190.2.155.162:8080/mtvfrance/mpegts
-#EXTINF:-1 group-title="All",MTV HITS HD FR
-http://190.2.155.162:8080/mtvhit/mpegts
-#EXTINF:-1 group-title="All",Шансон ТВ
-http://hls.shansontv.cdnvideo.ru/shansontv/smil:shansontv.smil/playlist.m3u8
-#EXTINF:-1 group-title="All",Шансон ТВ HD
-http://hls.shansontv.cdnvideo.ru/shansontv/shansontv_hq.sdp/playlist.m3u8
-#EXTINF:-1 group-title="All",AIVA HD
-http://194.190.78.91:8080/aivaya/index.m3u8
-#EXTINF:-1 group-title="All",М1 HD
-http://live.m2.tv/hls2/720/stream.m3u8
-#EXTINF:-1 group-title="All",М1
-http://live.m2.tv/hls2/stream.m3u8
+
 #EXTINF:-1 group-title="All",М2 HD
 http://live.m2.tv/hls3/720/stream.m3u8
-#EXTINF:-1 group-title="All",Прибой ТВ HD
-http://185.78.112.46:8077/priboy_tv_hd/index.m3u8
-#EXTINF:-1 group-title="All",Радио Джем FM [ЕКБ]
-https://m.jamfm.ru/cam/hls/jam.m3u8
-#EXTINF:-1 group-title="All",7D7TV
-http://95.67.12.149:9083
-#EXTINF:-1 group-title="All",IZ.RU HD
-http://hls-igi.cdnvideo.ru/igi/igi_hq/chunklist.m3u8
-#EXTINF:-1 group-title="All",Телеканал High TV
-https://v2.catcast.tv/content/270/index.m3u8
-#EXTINF:-1 group-title="All",TEO TV HD
-http://teotv.ru:1935/live/site/playlist.m3u8
-#EXTINF:-1 group-title="All",Каббала
-http://edge2.uk.kab.tv/rtplive/kabtv-rus-medium.stream/playlist.m3u8
-#EXTINF:-1 group-title="All",к16
-http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
-#EXTINF:-1 group-title="All",Мособр TV
-http://retg.educom.ru/mosobrtv/smil:tv.smil/playlist.m3u8
-#EXTINF:-1 group-title="All",Мособр TV HD
-http://retj.educom.ru/mosobrtv/tv1/index.m3u8
-#EXTINF:-1 group-title="All",Santhora Short Film (720p)
-http://rtmp.santhoratv.zecast.net/santhora/santhorashortfilm/playlist.m3u8
-#EXTINF:-1 group-title="All",Santhora TV (720p)
-http://rtmp.santhoratv.zecast.net/santhoratv/santhoratv/playlist.m3u8
-#EXTINF:-1 group-title="All",Pluto TV Comedy Central (Made in Germany) (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5d4948418101147596fd6c5a/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 group-title="All",Pluto TV Chefkoch (720p)
-https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5e8c4c3f141f350007936f7d/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
-#EXTINF:-1 group-title="All",Bloomberg TV Europe (720p)
-https://liveprodeuwest.akamaized.net/eu1/Channel-EUTVqvs-AWS-ireland-1/Source-EUTVqvs-1000-1_live.m3u8
-#EXTINF:-1 group-title="All",Bloomberg TV Europe UHD (2160p)
-https://bloomberg-bloombergtv-1-it.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="All",Campus TV Magdeburg (1080p)
-http://62.113.210.250/medienasa-live/ok-wernigerode_high/hasbahca.m3u8
-#EXTINF:-1 group-title="All",Campus-TV-Magdeburg+ (1080p)
-http://62.113.210.250/medienasa-live/ok-wernigerode_high/chunklist_w937425968.m3u8
-#EXTINF:-1 group-title="All",CNN International Europe (720p)
-https://cnn-cnninternational-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="All",CNN International Germany (720p)
-https://cnn-cnninternational-1-de.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="All",Deluxe Lounge HD (720p)
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/manifest/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/91fcad1e-54b1-4702-9ec1-22a379525281/0.m3u8
-#EXTINF:-1 group-title="All",Deutsches Musik Fernsehen (720p)
-http://tv.artcom-venture.de:1322/dmf/tv.m3u8
-#EXTINF:-1 group-title="All",DW Deutsch (1080p) [Geo-blocked]
-https://dwamdstream106.akamaized.net/hls/live/2017965/dwstream106/index.m3u8
-#EXTINF:-1 group-title="All",DW Deutsch+ (1080p) [Geo-blocked]
-https://dwamdstream105.akamaized.net/hls/live/2015531/dwstream105/index.m3u8
-#EXTINF:-1 group-title="All",Elbekanal (576p)
-http://58bd5b7a98e04.streamlock.net/medienasa-live/elbe_high/playlist.m3u8
-#EXTINF:-1 group-title="All",Elbekanal Schönebeck (576p)
-https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:elbe_high/playlist.m3u8
-#EXTINF:-1 group-title="All",ems TV Lingen (280p)
-https://5889e7d0d6e28.streamlock.net/ev1tv-live/mp4:livestream/playlist.m3u8
-#EXTINF:-1 group-title="All",eo TV (1080p)
-https://5856e1a25f71a.streamlock.net/easycast9-live/mp4:livestreamhd5/playlist.m3u8
-#EXTINF:-1 group-title="All",Erz-TV Stollberg (576p)
-https://5acade5fc0c29.streamlock.net/kabeljournal/live2020.stream/playlist.m3u8
-#EXTINF:-1 group-title="All",Euronews Deutsch (720p)
-https://rakuten-euronews-5-de.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="All",Filstalwelle (576p)
-http://62.113.210.2/filstalwelle-live/mp4:livestream/playlist.m3u8
-#EXTINF:-1 group-title="All",Handystar (404p)
-http://mediaspar-live.hls.adaptive.level3.net/ses/mediaspar/stream1/streamPlaylist.m3u8
-#EXTINF:-1 group-title="All",Hauptstadt.TV (Potsdam) (720p) [Not 24/7]
-https://live2.telvi.de/hls/hauptstadttv_hd720.m3u8
-#EXTINF:-1 group-title="All",Health TV (720p)
-http://62.67.13.53:1935/HealthTV/ghtv_live_master.stream/playlist.m3u8
-#EXTINF:-1 group-title="All",hr-fernsehen (1080p)
-https://hrhls.akamaized.net/hls/live/2024525/hrhls/index.m3u8
-#EXTINF:-1 group-title="All",HSE (1080p)
-https://hse24.akamaized.net/hls/live/2006663/hse24/playlist.m3u8
-#EXTINF:-1 group-title="All",HSE24 Extra (1080p)
-https://hse24extra.akamaized.net/hls/live/2006596/hse24extra/playlist.m3u8
-#EXTINF:-1 group-title="All",HSE24 Trend (576p)
-https://hse24trend.akamaized.net/hls/live/2006597/hse24trend/playlist.m3u8
-#EXTINF:-1 group-title="All",KulturMD (1080p)
-http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
-#EXTINF:-1 group-title="All",KW TV Wildau (720p) [Not 24/7]
-https://58af0c57eaf3e.streamlock.net/easycast11-live/mp4:livestream/playlist.m3u8
-#EXTINF:-1 group-title="All",Lausitzwelle (Fernsehen) (1080p)
-https://5856e1a25f71a.streamlock.net/easycast9-live/mp4:livestreamhd10/playlist.m3u8
-#EXTINF:-1 group-title="All",Light Channel (576p) [Not 24/7]
-http://streamer1.streamhost.org:1935/salive/lctvde/playlist.m3u8
-#EXTINF:-1 group-title="All",MavTV Europe (720p)
-https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 group-title="All",MDF.1 (1080p)
-https://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:mdf1_high/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/QUOxNbF.png" group-title="All", Muxx.tv (1080p) [Not 24/7]
-https://5856e1a25f71a.streamlock.net/easycast7-live/livestream/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9FPXcFY.jpg" group-title="All", n-tv Event (540p)
-https://ntvlivehls-lh.akamaihd.net/i/ntvlivehls_event1_1@409295/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BuirhUR.png" group-title="All", NDR Event 1 (720p)
-https://ndrevent-lh.akamaihd.net/i/ndrevent_1@409066/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BuirhUR.png" group-title="All", NDR Event 2 (720p)
-https://ndrevent-lh.akamaihd.net/i/ndrevent_2@429805/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild110_v-contentxl.jpg" group-title="All", NDR Fernsehen (720p) [Geo-blocked]
-https://ndrfs-lh.akamaihd.net/i/ndrfs_fs@430230/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild108_v-contentxl.jpg" group-title="All", NDR International (720p) [Geo-blocked]
-https://ndrfs-lh.akamaihd.net/i/ndrfs_int@430236/master.m3u8
-#EXTINF:-1 tvg-logo="https://www.ndr.de/fernsehen/livestreamteaserbild108_v-contentxl.jpg" group-title="All", NDR Weltweiter (720p) [Geo-blocked]
-https://ndrfs-lh.akamaihd.net/i/ndrfs_ww@430235/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RkF2Kmx.png" group-title="All", NRWision (1080p)
-https://fms.nrwision.de/live/livestreamHD.stream/playlist.m3u8
-#EXTINF:-1 group-title="All",NRWISION (1080p)
-https://fms.nrwision.de/live/livestreamHD.stream_source/playlist.m3u8
-#EXTINF:-1 group-title="All",Oberlausitz TV (1080p)
-http://5856e1a25f71a.streamlock.net:1935/easycast8-live/mp4:livestreamhd4/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/BmJaDT3.jpg" group-title="All", OF-TV Offenbach (720p)
-https://5864df9ceac85.streamlock.net/germanpictures-live/mp4:streamschedule/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okdessau.png" group-title="All", OK Dessau (1080p) [Not 24/7]
-http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okmagdeburg.png" group-title="All", OK Magdeburg (1080p)
-http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-magdeburg_high/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okmerseburg.png" group-title="All", OK Merseburg-Querfurt (1080p) [Not 24/7]
-http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-merseburg_high/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/oksalzwedel.png" group-title="All", OK Salzwedel (1080p) [Not 24/7]
-http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-salzwedel_high/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okstendal.png" group-title="All", OK Stendal (1080p)
-http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-stendal_high/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/jnk22/kodinerds-iptv/master/logos/tv/okwernigerode.png" group-title="All", OK Wernigerode (1080p)
-http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-wernigerode_high/playlist.m3u8
+
+
+
+
+
+
+
+
 
 
 
