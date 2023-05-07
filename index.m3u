@@ -195,6 +195,8 @@ http://ott-cdn.ucom.am/s15/index.m3u8
 http://37.193.18.15:81/udp/239.1.15.6:1234
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/tvmchannel.png" tvg-id="tvmchannel",TVM Channel
+http://cdn-01.bonus-tv.ru:8080/tvm_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/sbuSefI.png" tvg-id="",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvci",ТВ Центр
@@ -221,8 +223,14 @@ https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d1
 https://cdn.universmotri.ru/live/smil:mbr.smil/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/ZOcDGpB.png" tvg-id="che",Че!
 http://37.193.18.15:81/udp/239.1.15.14:1234
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",11 канал Полевской
+https://hjplb2qzsf8.a.trbcdn.net/livemaster/qm9inc7byc_stream1/playlist.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/12-omsk.png" tvg-id="12-omsk",12 канал (Омск)
+http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-id="360-int",360°
 https://edge2-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/8kanal-eu.png" tvg-id="8kanal-krasnoyarsk",8 канал Красноярск
+http://80.65.18.213/perviy_molodeginyi_3100kb.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/7Jo7UAf.png" tvg-id="",Aбаза TV
 http://clients.apsny.camera/tv_abaza_tv/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/CTFVEAb.png" tvg-id="aris24",Арис 24
@@ -237,6 +245,8 @@ http://xstream.afontovo.ru/afontovo_ya.m3u8
 https://bsttv.bonus-tv.ru/cdn/bst/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/EEirvyx.png" tvg-id="belgorod24",Белгород 24
 http://belnovosti.cdn.easyhoster.ru:8080/stream.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",БСТ24 Братск
+https://bst.bratsk.ru/hls/bst2/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/zKH1b5k.png" tvg-id="vetta24",Ветта 24
 http://serv24.vintera.tv:8081/vetta/vetta_office/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/KI1qZNc.png" tvg-id="vmeste-rf",Вместе-РФ
@@ -249,16 +259,22 @@ https://live-trc33.cdnvideo.ru/trc33/trc33.sdp/playlist.m3u8
 http://live.guberniatv.cdnvideo.ru/guberniatv/guberniatv.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/jumkRvc.png" tvg-id="rgvk-dagestan",Дагестан
 https://dagestan.mediacdn.ru/cdn/dagestan/playlist.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",ДимГрад 24 (Димитровоград)
+http://194.190.78.91:8080/dimgrad/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/4JUHIVS.png" tvg-id="evrasia",Евразия
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/57deE7f.png" tvg-id="enisey-region",Енисей
 http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/7tNDKHe.png" tvg-id="",К16
 http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",Красногорск ТВ
+http://live-krtv.cdnvideo.ru/krtv/krtv.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/rtuChZR.png" tvg-id="krik-tv",Крик ТВ
 http://cdn-01.bonus-tv.ru:8080/kriktv_edge/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/k4C0uvp.png" tvg-id="krym24",Крым 24
 http://mr2live.1tvcrimea.ru:8080/24tvcrimea.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",KTV (Кизилюрт)
+http://185.78.112.46:8077/KTV/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/gCmCRfe.png" tvg-id="ldpr-tv",ЛДПР ТВ
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/a42jk7b.png" tvg-id="lipeckoe-vremia",Липецкое время
@@ -269,8 +285,12 @@ http://92.245.103.126:1935/live/live.stream/playlist.m3u8
 http://212.77.128.179:8089/www_mezhdunet/mezhdunet/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/hUjLRLy.png" tvg-id="",Миллет
 http://live.trkmillet.ru/millet/index.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/ministerstvo-idey.png" tvg-id="ministerstvo-idey",Министерство идей (Екатеринбург)
+http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/mir-belogoria.png" tvg-id="mir-belogoria",Мир Белогорья
 http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/mordovia-24.png" tvg-id="mordovia-24",Мордовия 24
+https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/LVUHtnK.png" tvg-id="moskva-24",Москва 24
 http://185.23.80.28:8080/Moskva24/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/doverie.png" tvg-id="doverie",Москва Доверие
@@ -297,6 +317,10 @@ http://mrlive.1tvcrimea.ru:8080/1tvcrimea.m3u8
 http://194.190.78.91/pskov/rewind-10800.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/QdKKHXb.png" tvg-id="pervy-tulsky",Первый Тульский
 http://5.164.24.83/tula/1tv_low/index.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",Прибой ТВ (Махачкала)
+http://185.78.112.46:8077/priboy_tv/index.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/rgvk-dagestan.png" tvg-id="rgvk-dagestan",РГВК Дагестан
+https://dagestan.mediacdn.ru/cdn/dagestan/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/JqydEYN.png" tvg-id="",Родной канал
 https://n1.slavmir.tv/live/slavmir/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/2JYkoSa.png" tvg-id="rostov-papa",Ростов-папа
@@ -305,6 +329,8 @@ http://live-rostovpapa.cdnvideo.ru/rostovpapa/rostovpapa.sdp/playlist.m3u8
 http://185.186.142.16/streams.rs.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/chNBF5t.png" tvg-id="s1-surgut",С1 Сургут
 https://sitv.ru/hls/stv1024.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",Советск-Тильзит ТВ
+http://109.239.208.82:80/tilsit/mpegts
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/0dRS4Cb.pn" tvg-id="86-surgut",Сургут 86
 https://sitv.ru/hls/s86.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/FfULLr1.png" tvg-id="salam",Салям
@@ -319,6 +345,8 @@ http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 http://stream.efir24.tv:1935/live/efir24tv/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/tv-guberniya.png" tvg-id="tv-guberniya",TV Губерния
 http://185.23.80.28:8080/TVGuberniya/index.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/tverskoy-prospekt.png" tvg-id="tverskoy-prospekt",Тверской проспект
+http://stream.fastlnk.ru:88/Tverskojj_prospekt/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/rW1BeJC.png" tvg-id="tvk-krasnoyarsk",ТВК Красноярск
 http://air.tvk6.ru/tvk24/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/1zbcZ3p.png" tvg-id="",Телплюс ТВ (Астрахань)
@@ -331,10 +359,14 @@ https://stream.almaz-media.tv:8080/hls/576.m3u8
 http://live.tkr.cdnvideo.ru/tkr/tkr.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/JQZkxeA.png" tvg-id="",ТРК 555 (Алушта)
 http://trk555.tv:8888/live
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/ulianovskaya-pravda.png" tvg-id="ulianovskaya-pravda",Ульяновская правда
+http://194.190.78.91:8080/pravdatv/index.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/0us6l04.png" tvg-id="schelkovo",Щёлковское ТВ
 http://stream0.tv41.ru/live.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/YWKJA1O.png" tvg-id="echotv",Эхо TV (Рязань)
 https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/efir24-relax.png" tvg-id="efir24-relax	",Эфир-24 Релакс (Казань)
+http://stream.efir24.tv:1935/live/efirkazan/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/tHVc8on.png" tvg-id="",1+1 Спорт
 https://live-k2301-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/FH9HD9p.png" tvg-id="viasat-sport",Viasat Sport
@@ -407,6 +439,8 @@ http://194.50.51.34/playlist.m3u8
 http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-720p/playlist.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/bigudi.png" tvg-id="bigudi",Бігуді
 http://212.28.87.173:8000/play/a0z1/index.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",БІК
+http://194.50.51.34/playlist.m3u8?cur=tva.org.ua&key=3i277
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/otb-galychyna.png" tvg-id="otb-galychyna",Галичина
 http://portal.ott.pink/watch/116/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",ГІТ (Волинь)
@@ -523,7 +557,6 @@ https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
 http://portal.ott.pink/watch/236/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/fauna.png" tvg-id="fauna",Фауна
 http://212.28.87.173:8000/play/a0z8/index.m3u8
-
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/hiN166x.png" tvg-id="",43 Канал
 http://sochi-strk.ru:2015/43Kanal/mpegts
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/tHLmAvq.png" tvg-id="amedia1",A1
@@ -689,86 +722,11 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 #EXTINF:-1 group-title="All",PZN HD
 http://hls.goodgame.ru/manifest/180960_master.m3u8
 
-
-#EXTINF:-1 group-title="All",БІК
-http://194.50.51.34/playlist.m3u8?cur=tva.org.ua&key=3i277
-
-#EXTINF:-1 group-title="All",TVM Channel
-http://cdn-01.bonus-tv.ru:8080/tvm_edge/tracks-v1a1/index.m3u8
-
-#EXTINF:-1 group-title="All",12 канал
-http://12channel.bonus-tv.ru/cdn/omskchannel/playlist.m3u8
-
-#EXTINF:-1 group-title="All",12 канал HD
-http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",БІК
+#EXTINF:-1 group-title="Основные" tvg-logo="" tvg-id="",TVM Channel
+#EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="" tvg-id="",12 канал (Омск)
 
 
-#EXTINF:-1 group-title="All",11 канал Полевской
-https://hjplb2qzsf8.a.trbcdn.net/livemaster/qm9inc7byc_stream1/playlist.m3u8
-
-#EXTINF:-1 group-title="All",АТВ-Ставрополь
-http://hls.atvmedia.ru/atv800.m3u8
-
-#EXTINF:-1 group-title="All",УлПравда ТВ (Ульяновск)
-http://194.190.78.91:8080/pravdatv/index.m3u8
-
-#EXTINF:-1 group-title="All",ДимГрад 24 (Димитровоград)
-http://194.190.78.91:8080/dimgrad/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 group-title="All",Тверской проспект (Тверь)
-http://stream.fastlnk.ru:88/Tverskojj_prospekt/index.m3u8
-
-
-#EXTINF:-1 group-title="All",Щёлково ТВ (Щёлково)
-http://stream0.tv41.ru/live.m3u8
-
-
-#EXTINF:-1 group-title="All",НТМ (Мордовия)
-http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
-
-#EXTINF:-1 group-title="All",Мордовия 24
-https://live-mordovia24.cdnvideo.ru/mordovia24/streamtr/playlist.m3u8
-
-
-#EXTINF:-1 group-title="All",Советск-Тильзит ТВ
-http://109.239.208.82:80/tilsit/mpegts
-
-#EXTINF:-1 group-title="All",БСТ24 Братск
-https://bst.bratsk.ru/hls/bst2/index.m3u8
-
-#EXTINF:-1 group-title="All",Министерство идей (Екатеринбург)
-http://live-minidey.cdnvideo.ru/minidey/minidey.sdp/playlist.m3u8
-
-
-#EXTINF:-1 group-title="All",РГВК Дагестан HD (Махачкала)
-https://dagestan.mediacdn.ru/cdn/dagestan/playlist_hdhigh.m3u8
-
-#EXTINF:-1 group-title="All",KTV (Кизилюрт)
-http://185.78.112.46:8077/KTV/index.m3u8
-
-#EXTINF:-1 group-title="All",Прибой ТВ (Махачкала)
-http://185.78.112.46:8077/priboy_tv/index.m3u8
-
-
-#EXTINF:-1 group-title="All",Енисей HD
-http://hls-eniseytv.cdnvideo.ru/eniseytv/stream1/playlist.m3u8
-
-#EXTINF:-1 group-title="All",ТВК - 6 канал HD Красноярск
-https://air.tvk6.ru/tvk24/index.m3u8
-
-#EXTINF:-1 group-title="All",8 канал Красноярск
-http://80.65.18.213/perviy_molodeginyi_3100kb.m3u8
-
-
-#EXTINF:-1 group-title="All",Эфир (Казань)
-http://stream.efir24.tv:1935/live/efirkazan/playlist.m3u8
-
-
-#EXTINF:-1 group-title="All",ТРК Евразия (Орск)
-http://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
-
-#EXTINF:-1 group-title="All",Красногорск ТВ
-http://live-krtv.cdnvideo.ru/krtv/krtv.sdp/playlist.m3u8
 
 
 #EXTINF:-1 group-title="All",Noroc TV
