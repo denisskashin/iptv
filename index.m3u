@@ -637,45 +637,61 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-
-#EXTINF:-1 group-title="тест" tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ° HD
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
-https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdlow.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="tnt-4" tvg-logo="http://epg.it999.ru/img2/1649.png",Ğ¢Ğ�Ğ¢4 HD
+#EXTINF:-1 group-title="тест" tvg-id="tnt-4" tvg-logo="http://epg.it999.ru/img2/1649.png",ТНТ4
 https://bl.uma.media/live/317849/HLS/4614144_3/1/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="h2" tvg-logo="http://epg.it999.ru/img2/2356.png",H2 HD
-http://46.8.210.62/H2/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="national-geographic" tvg-logo="http://epg.it999.ru/img2/389.png",National Geographic
-http://195.189.60.181:312/143/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="nat-geo-wild" tvg-logo="http://epg.it999.ru/img2/807.png",Nat Geo Wild
-http://195.189.60.181:312/524/index.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="glazami-turista-4k" tvg-logo="http://epg.it999.ru/img2/2508.png",Ğ“Ğ»Ğ°Ğ·Ğ°Ğ¼Ğ¸ Ñ‚ÑƒÑ€Ğ¸Ñ�Ñ‚Ğ°
 https://livetv.mylifeisgood.ml/channels/glazamiturista
-#EXTINF:-1 group-title="тест" tvg-id="discovery-hd" tvg-logo="http://epg.it999.ru/img2/1612.png",Discovery HD
-https://livetv.mylifeisgood.ml/channels/discovery.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="discovery-science" tvg-logo="http://epg.it999.ru/img2/3067.png",Discovery Science HD
-https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="id-xtra-ru" tvg-logo="http://epg.it999.ru/img2/2507.png",Investigation Discovery HD
-https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="animal-planet" tvg-logo="http://epg.it999.ru/img2/990.png",Animal Planet HD
-https://livetv.mylifeisgood.ml/channels/animalplanethd.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="viasat-nature" tvg-logo="http://epg.it999.ru/img2/765.png",Viasat Nature HD
 https://bl.uma.media/live/485545/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="viasat-history" tvg-logo="http://epg.it999.ru/img2/3068.png",Viasat History HD
 https://bl.uma.media/live/485544/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="viasat-explore" tvg-logo="http://epg.it999.ru/img2/3296.png",Viasat Explore HD
 https://bl.uma.media/live/485546/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" ,Ğ”Ğ¾Ğ¼Ğ°ÑˆĞ½Ğ¸Ğµ Ğ¶Ğ¸Ğ²Ğ¾Ñ‚Ğ½Ñ‹Ğµ
-http://79.141.211.254:8000/DomashnieZhivotnye
-#EXTINF:-1 group-title="тест",Ğ�Ğ°ÑƒĞºĞ°
-http://79.141.211.254:8000/Nauka
-#EXTINF:-1 group-title="тест" tvg-logo="http://epg.it999.ru/img2/2350.png",ĞŸĞ¾ĞµÑ…Ğ°Ğ»Ğ¸!
-http://79.141.211.254:8000/Poehali
-#EXTINF:-1 group-title="тест" tvg-id="" tvg-logo="http://epg.it999.ru/img2/663.png",Ğ¡Ğ°Ñ€Ğ°Ñ„Ğ°Ğ½
-http://79.141.211.254:8000/Sarafan
 
 
+#EXTINF:-1 group-title="тест" tvg-id="no_epg_sport" tvg-logo="http://epg.it999.ru/img2/4678.png",Ğ¡Ğ¿Ğ¾Ñ€Ñ‚Ğ¸Ğ²Ğ½Ñ‹Ğ¹ HD
+https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
+#EXTINF:0 tvg-id="match-football1" tvg-logo="http://epg.it999.ru/img2/2729.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 1 (50)
+http://31.148.48.15/Match_Futbol_1_HD/index.m3u8
+#EXTINF:0 tvg-id="match-football2" tvg-logo="http://epg.it999.ru/img2/2742.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 2 (50)
+http://31.148.48.15/Match_Futbol_2_HD/index.m3u8
+#EXTINF:0 tvg-id="match-football3" tvg-logo="http://epg.it999.ru/img2/2730.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 3 (50)
+http://31.148.48.15/Match_Futbol_3_HD/index.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-football1" tvg-logo="http://epg.it999.ru/img/2729.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 1 HD
+http://bl.uma.media/live/126863/HLS/6866944_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-football2" tvg-logo="http://epg.it999.ru/img/2742.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 2 HD
+http://bl.uma.media/live/126864/HLS/6866944_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-football3" tvg-logo="http://epg.it999.ru/img/2730.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 3 HD
+http://bl.uma.media/live/126865/HLS/6866944_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-tv-hd-orig" tvg-logo="http://epg.it999.ru/img2/2735.png",ĞœĞ°Ñ‚Ñ‡! HD
+http://bl.uma.media/live/312119/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-premier" tvg-logo="http://epg.it999.ru/img2/2736.png",ĞœĞ°Ñ‚Ñ‡! ĞŸÑ€ĞµĞ¼ÑŒĞµÑ€ HD
+http://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-arena" tvg-logo="http://epg.it999.ru/img2/2049.png",ĞœĞ°Ñ‚Ñ‡! Ğ�Ñ€ĞµĞ½Ğ° HD
+http://bl.uma.media/live/126868/HLS/6866944_3/2/1/playlist.m3u8
+http://bl.uma.media/live/154036/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-boets" tvg-logo="http://epg.it999.ru/img2/2054.png",ĞœĞ°Ñ‚Ñ‡! Ğ‘Ğ¾ĞµÑ† HD
+http://bl.uma.media/live/132838/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-planeta" tvg-logo="http://epg.it999.ru/img2/2043.png",ĞœĞ°Ñ‚Ñ‡! ĞŸĞ»Ğ°Ğ½ĞµÑ‚Ğ° HD
+http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="match-nash-sport" tvg-logo="http://epg.it999.ru/img2/2042.png",ĞœĞ�Ğ¢Ğ§! Ğ¡Ğ¢Ğ Ğ�Ğ�Ğ� HD
+http://bl.uma.media/live/291661/HLS/4614144_3/1/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="kxl" tvg-logo="http://epg.it999.ru/img2/2048.png",KHL HD
+http://bl.uma.media/live/148307/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="kxl-hd" tvg-logo="http://epg.it999.ru/img2/1038.png",KHL Prime HD
+http://bl.uma.media/live/171748/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="konny-mir" tvg-logo="http://epg.it999.ru/img2/1679.png",ĞšĞ¾Ğ½Ğ½Ñ‹Ğ¹ Ğ¼Ğ¸Ñ€ HD
+http://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2004.png",Viasat Sport HD
+http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="setanta-sports" tvg-logo="http://epg.it999.ru/img2/2364.png",Setanta Sports 1
+https://livetv.mylifeisgood.ml/channels/setantahd.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="setanta-sports-plus" tvg-logo="http://epg.it999.ru/img2/2813.png",Setanta Sports 2
+https://livetv.mylifeisgood.ml/channels/setantaplus.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="eurosport1" tvg-logo="http://epg.it999.ru/img2/2052.png",Eurosport 1 HD
+https://livetv.mylifeisgood.ml/channels/eurosport1ru.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="eurosport2" tvg-logo="http://epg.it999.ru/img2/4313.png",Eurosport 2 HD
+https://livetv.mylifeisgood.ml/channels/eurosport2.m3u8
 
 
 
