@@ -689,13 +689,11 @@ http://94.230.240.17:8080/film_box/index.m3u8
 https://sc.id-tv.kz:443/NickJr_36_37.m3u8
 #EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="godno",Nickelodeon
 https://sc.id-tv.kz:443/Nickelodeon_34_35.m3u8
-
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",Ğ”Ğ�Ğ Ğ�ĞœĞ�
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="godno",Ğ”Ğ�Ğ Ğ�ĞœĞ�
 https://sc.id-tv.kz/dorama_hd_34_35.m3u8
-
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/608.png" group-title="тест",Hollywood
-https://sc.id-tv.kz:443/Hollywood_34_35.m3u8
-
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2285.png" group-title="тест",Ğ‘Ğ¾ĞºÑ� Ğ¢Ğ’
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2285.png" group-title="godno",Ğ‘Ğ¾ĞºÑ� Ğ¢Ğ’
 https://sc.id-tv.kz:443/BoksTV_36_37.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://karnei4.github.io/convert/index_files/dialogi-o-rybalke.png" group-title="тест", Диалоги о рыбалке
+http://api.peers.tv/timeshift/dialogi_o_rybalke/16/playlist.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJhY2N
