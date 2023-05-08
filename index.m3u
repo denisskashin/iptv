@@ -132,7 +132,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv7_2500/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/nastoiaschee-vremia.png" tvg-id="nastoyaschee-vremia",Настоящее время
 http://portal.ott.pink/watch/207/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/9r1BKzK.png" tvg-id="ntv",НТВ
-http://37.193.18.15:81/udp/239.1.15.4:1234
+https://livetv.mylifeisgood.ml/channels/ntv.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/3ChnWGg.png" tvg-id="ntv-pravo",НТВ Право
 http://188.143.128.22:30001/play/p143
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
@@ -629,12 +629,16 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 group-title="test" tvg-id="ntv" tvg-logo="http://epg.it999.ru/img2/2001.png",NTV
-https://ntv-hls-orig.cdnvideo.ru/ntv0_hd/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="test" tvg-id="ntv" tvg-logo="http://epg.it999.ru/img/2001.png",NTV
-https://livetv.mylifeisgood.ml/channels/ntv.m3u8
-#EXTINF:-1 group-title="test" tvg-id="ntv" tvg-logo="http://epg.it999.ru/img2/2001.png",NTV
-http://79.141.211.254:8000/NTV
+#EXTINF:-1 group-title="тест" tvg-id="rossia1" tvg-logo="http://epg.it999.ru/img/984.png",Россия 1
+https://livetv.mylifeisgood.ml/channels/russia1.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="pervy" tvg-logo="http://epg.it999.ru/img/983.png",Первый
+https://li group-title="тест"vetv.mylifeisgood.ml/channels/perviytest.m3u8
+#EXTINF:-1 tvg-id="rentv" tvg-logo="http://epg.it999.ru/img/18.png",РенТВ
+https://livetv.mylifeisgood.ml/channels/rentv.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="sts" tvg-logo="http://epg.it999.ru/img/79.png",СТС
+https://livetv.mylifeisgood.ml/channels/sts.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="domashny" tvg-logo="http://epg.it999.ru/img/304.png",Домашний
+https://livetv.mylifeisgood.ml/channels/domashnii.m3u8
 
 
 
