@@ -147,7 +147,7 @@ http://188.143.128.22:30001/play/p142
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/vm5sJHP.png" tvg-id="pervy-kanal-eurasia-kz",Первый канал Евразия
 https://sc.id-tv.kz/1KanalEvraziya.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="piatnica" tvg-logo="http://epg.it999.ru/img/1003.png",Пятница
+#EXTINF:-1 group-title="Основные" tvg-id="piatnica" tvg-logo="http://epg.it999.ru/img/1003.png",Пятница
 https://livetv.mylifeisgood.ml/channels/friday.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
@@ -555,8 +555,6 @@ https://sc.id-tv.kz/Astana.m3u8
 https://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/ySYKZ0Z.png" tvg-id="backustv-horror",Backus TV Horror
 https://stream.backustv.ru/live/btv2/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/bollywood-hd.png" tvg-id="bollywood-hd",Bollywood HD
-https://sc.id-tv.kz/bollywood_hd_34_35.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://uz-tv.net/storage/images/iptv/channels/1660.jpg?t=1607501789" tvg-id="",ВидеокассетА
 https://autopilot.catcast.tv/content/37925/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/9BFyzLo.png" tvg-id="vip-comedy",VIP Comedy
@@ -695,17 +693,22 @@ https://livetv.mylifeisgood.ml/channels/bridgerushittv.m3u8
 https://livetv.mylifeisgood.ml/channels/bridgetvshlyager.m3u8
 #EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="godno",Cinema Classic
 https://api.alpaca.t62a.com/hls/9114/stream0.m3u8
-
-
-
-
-#EXTINF:-1 tvg-logo="https://bem-media.de/wp-content/uploads/Kulinar.png" group-title="test",ĞšÑƒĞ»Ğ¸Ğ½Ğ°Ñ€ Ğ¢Ğ’
+#EXTINF:-1 tvg-logo="https://bem-media.de/wp-content/uploads/Kulinar.png" group-title="godno",ĞšÑƒĞ»Ğ¸Ğ½Ğ°Ñ€ Ğ¢Ğ’
 http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="test",Film Box
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="godno",Film Box
 http://94.230.240.17:8080/film_box/index.m3u8
 
-#EXTINF:-1 tvg-id="Пеpвый HD" tvg-name="Первый канал Европа" tvg-logo="http://Udashboard.vip:8080/images/iWcjy8keQKI52Fh6MKU1-1bwbIFPyW_uLmpUV9ELPItv9ptmdpQaElfcpjACEC65.png" group-title="test",Первый канал Европа
-http://udashboard.vip:8080/YmQNEne6X3/L7ExWZM8vJ/94745.ts
 
 
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title=“тест",VH1 Europe
+http://mfe.cliptv.az/dash/VH1_EUROPE_SD.ism/playlist.mpd
+
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",TBN BALTIA
+http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест“",Nick Jr
+https://sc.id-tv.kz:443/NickJr_36_37.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест“",Nickelodeon
+https://sc.id-tv.kz:443/Nickelodeon_34_35.m3u8
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест“",Ğ�Ğ¢Ğ’ (+2)
+https://zabava-htlive.cdn.ngenix.net/hls/CH_NTV_2/variant.m3u8?|User-agent=HlsWinkPlayer
