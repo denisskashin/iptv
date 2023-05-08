@@ -178,7 +178,7 @@ http://ott-cdn.ucom.am/s20/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/KDZvt0Q.png" tvg-id="yu",Ю
 http://31.40.149.157:9981/stream/channelid/1041884886?ticket=7F1F0E8C575DACCF18D30E894BFEBC2A47A968C1&profile=pass
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/fhQFLEl.png" tvg-id="2na2",2x2
-https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
+https://bl.uma.media/live/317805/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/AgX6qoz.png" tvg-id="sarafan",Сарафан
 http://37.193.18.15:81/udp/239.1.2.11:1234
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/YBVZoDd.png" tvg-id="sts-love",СТС Love
@@ -675,69 +675,67 @@ http://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2004.png",Viasat Sport HD
 http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
 
-#EXTINF:-1 group-title="тест" tvg-id="ostrosiuzhetnoe-hd" tvg-logo="http://epg.it999.ru/img2/1588.png",Ğ�Ñ�Ñ‚Ñ€Ğ¾Ñ�Ñ�Ğ¶ĞµÑ‚Ğ½Ğ¾Ğµ HD
-http://213.172.73.133:8081/nimble_live/9009_Ğ�Ñ�Ñ‚Ñ€Ğ¾Ñ�Ñ�Ğ¶ĞµÑ‚Ğ½Ğ¾Ğµ_HD/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="kinopremium-hd" tvg-logo="http://epg.it999.ru/img2/2876.png",ĞŸÑ€ĞµĞ¼Ğ¸Ğ°Ğ»ÑŒĞ½Ğ¾Ğµ HD
-http://213.172.73.133:8081/nimble_live/9008_ĞŸÑ€ĞµĞ¼Ğ¸Ğ°Ğ»ÑŒĞ½Ğ¾Ğµ_HD/playlist.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="trashtv" tvg-logo="http://epg.it999.ru/img2/3361.png",Trash HD
 http://livetv.mylifeisgood.ml/channels/trash.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="ultra-hd-cinema-4k" tvg-logo="http://epg.it999.ru/img2/2743.png",Ultra HD Cinema 4K
-#EXTVLCOPT:http-user-agent=Mozilla 5.0
-http://zabava-htlive.cdn.ngenix.net/hls/CH_ULTRAHDCINEMA/video_1920x1080_avc1/variant.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="vip-comedy" tvg-logo="http://epg.it999.ru/img2/2823.png",ViP Comedy HD
-https://bl.uma.media/live/485539/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="vip-megahit" tvg-logo="http://epg.it999.ru/img2/2824.png",VIP Megahit HD
-https://bl.uma.media/live/485537/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="vip-premiere" tvg-logo="http://epg.it999.ru/img2/2822.png",VIP Premiere HD
-https://bl.uma.media/live/485536/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="vip-serial" tvg-logo="http://epg.it999.ru/img2/2838.png",ViP Serial HD
-https://bl.uma.media/live/485540/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="tv1000" tvg-logo="http://epg.it999.ru/img2/3302.png",TV 1000 HD
-https://bl.uma.media/live/485542/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="tv1000-action" tvg-logo="http://epg.it999.ru/img2/3301.png",TV 1000 Action HD
-https://bl.uma.media/live/485541/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="tv1000-russkoe-kino" tvg-logo="http://epg.it999.ru/img2/3303.png",TV 1000 Ğ ÑƒÑ�Ñ�ĞºĞ¾Ğµ ĞºĞ¸Ğ½Ğ¾ HD
-https://bl.uma.media/live/485543/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="backustv" tvg-logo="http://epg.it999.ru/img2/4770.png",BackusTV
-https://stream.backustv.ru/live/btv/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="backustv-horror" tvg-logo="http://epg.it999.ru/img2/4662.png",BackusTV Ğ¡Ñ‚Ñ€Ğ°ÑˆĞ½Ğ¾Ğµ
-https://stream.backustv.ru/live/btv2/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="kinosvidanie" tvg-logo="http://epg.it999.ru/img2/3298.png",ĞšĞ¸Ğ½Ğ¾Ñ�Ğ²Ğ¸Ğ´Ğ°Ğ½Ğ¸Ğµ
-http://79.141.211.254:8000/KinoSvidanie
-#EXTINF:-1 group-title="тест" tvg-id="kinosemiya" tvg-logo="http://epg.it999.ru/img2/3297.png",ĞšĞ¸Ğ½Ğ¾Ñ�ĞµĞ¼ÑŒÑ�
-http://79.141.211.254:8000/KinoSemia
-#EXTINF:-1 group-title="тест" tvg-id="kinoxit" tvg-logo="http://epg.it999.ru/img2/542.png",ĞšĞ¸Ğ½Ğ¾Ñ…Ğ¸Ñ‚
-http://79.141.211.254:8000/Kinohit
-#EXTINF:-1 group-title="тест" tvg-id="muzhskoe-kino" tvg-logo="http://epg.it999.ru/img2/1584.png",ĞœÑƒĞ¶Ñ�ĞºĞ¾Ğµ ĞºĞ¸Ğ½Ğ¾
-http://79.141.211.254:8000/MuzhKino
-#EXTINF:-1 group-title="тест" tvg-id="amedia1" tvg-logo="http://epg.it999.ru/img2/1371.png",Amedia 1
-http://79.141.211.254:8000/Amedia1
-#EXTINF:-1 group-title="тест" tvg-id="amedia2" tvg-logo="http://epg.it999.ru/img2/918.png",Amedia 2
-http://79.141.211.254:8000/Amedia2
-#EXTINF:-1 group-title="тест" tvg-id="nst" tvg-logo="http://epg.it999.ru/img2/518.png",Ğ�Ğ¡Ğ¢
-http://79.141.211.254:8000/NST
-#EXTINF:-1 group-title="тест" tvg-id="evrokino" tvg-logo="http://epg.it999.ru/img2/352.png",Ğ•Ğ²Ñ€Ğ¾ĞºĞ¸Ğ½Ğ¾
-http://79.141.211.254:8000/Evrokino
-#EXTINF:-1 group-title="тест" tvg-id="kino-tv" tvg-logo="http://epg.it999.ru/img2/2506.png",ĞšĞ¸Ğ½Ğ¾ Ğ¢Ğ’
-http://79.141.211.254:8000/KinoTV
-#EXTINF:-1 group-title="тест" tvg-id="ntv-xit" tvg-logo="http://epg.it999.ru/img2/2041.png",Ğ�Ğ¢Ğ’-Ğ¥Ğ˜Ğ¢
-https://ntv-hls-orig.cdnvideo.ru/th_hit/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png",Ğ�Ğ¢Ğ’ Ğ¡ĞµÑ€Ğ¸Ğ°Ğ»
-https://ntv-hls-orig.cdnvideo.ru/th_serial/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="ntv-pravo" tvg-logo="http://epg.it999.ru/img2/1753.png",Ğ�Ğ¢Ğ’ ĞŸÑ€Ğ°Ğ²Ğ¾
-https://ntv-hls-orig.cdnvideo.ru/th_pravo/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="pobeda" tvg-logo="http://epg.it999.ru/img2/2771.png",ĞŸĞ¾Ğ±ĞµĞ´Ğ°
-http://79.141.211.254:8000/Victory
-#EXTINF:-1 group-title="тест" tvg-id="" tvg-logo="http://epg.it999.ru/img2/3357.png",ĞœĞ¾Ñ�Ñ„Ğ¸Ğ»ÑŒĞ¼. Ğ—Ğ¾Ğ»Ğ¾Ñ‚Ğ°Ñ� ĞºĞ¾Ğ»Ğ»ĞµĞºÑ†Ğ¸Ñ�
-http://79.141.211.254:8000/Mosfilm
-#EXTINF:-1 group-title="тест" tvg-id="domkino-premium" tvg-logo="http://epg.it999.ru/img2/2020.png",Ğ”Ğ¾Ğ¼ ĞºĞ¸Ğ½Ğ¾ ĞŸÑ€ĞµĞ¼Ğ¸ÑƒĞ¼ HD
-http://79.141.211.254:8000/DomKinoPremiumHD
-#EXTINF:-1 group-title="тест" tvg-id="russky-roman" tvg-logo="http://epg.it999.ru/img2/2496.png",Ğ ÑƒÑ�Ñ�ĞºĞ¸Ğ¹ Ñ€Ğ¾Ğ¼Ğ°Ğ½
-http://79.141.211.254:8000/RusRoman
-#EXTINF:-1 group-title="тест" tvg-id="russky-illuzion" tvg-logo="http://epg.it999.ru/img2/53.png",Ğ ÑƒÑ�Ñ�ĞºĞ¸Ğ¹ Ğ˜Ğ»Ğ»Ñ�Ğ·Ğ¸Ğ¾Ğ½
-http://79.141.211.254:8000/RusIllusion
-#EXTINF:-1 group-title="тест" tvg-id="no_epg" tvg-logo="https://smotret.tv/images/str-tv.jpg",STR TV
-https://strtv.at.ua/hls/index.m3u8
+
+#EXTINF:-1 group-title="тест2",Ğ�Ğ¾Ñ�Ñ‚Ğ°Ğ»ÑŒĞ³Ğ¸Ñ�
+https://m3ut.net/p/982815674/1/96
+#EXTINF:-1 group-title="тест2" tvg-id="tnt-music" tvg-logo="http://epg.it999.ru/img/680.png",Ğ¢Ğ�Ğ¢ Music
+https://bl.uma.media/live/619345/HLS/619345_3/1/1/playlist.m3u8
+#EXTINF:-1 group-title="тест2" tvg-id="ru-tv" tvg-logo="http://epg.it999.ru/img/2277.png",RU.TV
+https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Amedia Hit HD
+https://okkotv-live.cdnvideo.ru/channel/Amedia_Hit_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",ĞšĞ¸Ğ½ĞµĞºĞ¾ HD
+https://okkotv-live.cdnvideo.ru/channel/Fox_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ¡Ğ°Ğ¿Ñ„Ğ¸Ñ€ HD
+https://okkotv-live.cdnvideo.ru/channel/Fox_Life_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",START Air HD
+https://okkotv-live.cdnvideo.ru/channel/START_Air_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",START World HD
+https://okkotv-live.cdnvideo.ru/channel/START_World_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Star Cinema HD
+http://okkotv-live.cdnvideo.ru/channel/Star_Cinema_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Star Family HD
+http://okkotv-live.cdnvideo.ru/channel/Star_Family_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Bolt Ğ Ğ¾Ñ�Ñ�Ğ¸Ñ�
+http://okkotv-live.cdnvideo.ru/channel/Bolt_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",â€¢ black
+https://okkotv-live.cdnvideo.ru/channel/Sony_Turbo.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",â€¢ red
+https://okkotv-live.cdnvideo.ru/channel/Sony_ET.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",â€¢ sci-fi
+https://okkotv-live.cdnvideo.ru/channel/Sony_SciFi.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",TERRA HD
+https://okkotv-live.cdnvideo.ru/channel/NGC_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",ĞŸÑ�Ñ‚Ğ½Ğ¸Ñ†Ğ° HD
+https://okkotv-live.cdnvideo.ru/channel/Pyatnizza_OTT_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",ĞŸÑ�Ñ‚Ñ‹Ğ¹ ĞºĞ°Ğ½Ğ°Ğ»
+https://okkotv-live.cdnvideo.ru/channel/5_OTT.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ Ğ•Ğ� Ğ¢Ğ’ HD
+https://okkotv-live.cdnvideo.ru/channel/Rentv_HD_OTT/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ”Ğ¾Ğ¼Ğ°ÑˆĞ½Ğ¸Ğ¹ HD
+https://okkotv-live.cdnvideo.ru/channel/Dom_HD_OTT/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ Ğ¾Ñ�Ñ�Ğ¸Ñ� 1 HD
+https://okkotv-live.cdnvideo.ru/channel/Russia1HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ Ğ¾Ñ�Ñ�Ğ¸Ñ� 24
+https://okkotv-live.cdnvideo.ru/channel/Russia24.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ Ğ¾Ñ�Ñ�Ğ¸Ñ� Ğš
+https://okkotv-live.cdnvideo.ru/channel/Russia_K_SD.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ¡Ğ¢Ğ¡ HD
+https://okkotv-live.cdnvideo.ru/channel/CTC_HD_OTT/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ¡Ğ¢Ğ¡ Love
+https://okkotv-live.cdnvideo.ru/channel/CTC_Love_OTT_2.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ¢Ğ’ 3 HD
+https://okkotv-live.cdnvideo.ru/channel/TV3_OTT_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ¢Ğ�Ğ¢ HD
+https://okkotv-live.cdnvideo.ru/channel/TNT_OTT_HD/1080p.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ§Ğµ
+https://okkotv-live.cdnvideo.ru/channel/Che_OTT_2.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",Ğ®
+https://okkotv-live.cdnvideo.ru/channel/Yu_OTT.m3u8
+#EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",ĞœĞ°Ñ‚Ñ‡! HD
+https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD/1080p.m3u8
 
 
 
