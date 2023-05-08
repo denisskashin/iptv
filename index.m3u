@@ -107,6 +107,8 @@ https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/terra-ru.png" tvg-id="terra-ru",Terra
 http://176.222.190.76/btv/SWM/terra_hd/terra_hd.m3u8
+#EXTINF:-1 group-title="Новости" tvg-logo="http://epg.it999.ru/img2/4458.png",360 Новости
+https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
 #EXTINF:-1 group-title="Новости", tvg-logo="https://i.imgur.com/FwPWS8i.png" tvg-id="izvestia",Известия
 http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 group-title="Новости" tvg-logo="https://i.imgur.com/tKnSHEc.png" tvg-id="mir-24",МИР 24
@@ -145,6 +147,8 @@ https://sc.id-tv.kz/1KanalEvraziya.m3u8
 https://livetv.mylifeisgood.ml/channels/friday.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
+#EXTINF:-1 group-title="Основные" tvg-id="rbk" tvg-logo="http://epg.it999.ru/img2/743.png",РБК
+http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ
 https://livetv.mylifeisgood.ml/channels/rentv.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia1.png" tvg-id="rossia1",Россия 1
@@ -634,31 +638,42 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
 
-#EXTINF:-1 group-title="тест"  tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ° HD
+#EXTINF:-1 group-title="тест" tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ° HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
+#EXTINF:-1 group-title="тест" tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdlow.m3u8
-#EXTINF:-1 tvg-id="tnt-4" tvg-logo="http://epg.it999.ru/img2/1649.png",Ğ¢Ğ�Ğ¢4 HD
+#EXTINF:-1 group-title="тест" tvg-id="tnt-4" tvg-logo="http://epg.it999.ru/img2/1649.png",Ğ¢Ğ�Ğ¢4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3/1/1/playlist.m3u8
-#EXTINF:-1 group-title="тест"  tvg-id="tvcentr" tvg-logo="http://epg.it999.ru/img2/649.png",Ğ¢Ğ’ Ğ¦ĞµĞ½Ñ‚Ñ€
-http://79.141.211.254:8000/TVCH
-#EXTINF:-1 group-title="тест" tvg-id="ntv-style" tvg-logo="http://epg.it999.ru/img2/1755.png",Ğ�Ğ¢Ğ’ Ğ¡Ñ‚Ğ¸Ğ»ÑŒ
-https://ntv-hls-orig.cdnvideo.ru/th_style/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="rzhd-tv" tvg-logo="http://epg.it999.ru/img2/2471.png",Ğ Ğ–Ğ” Ğ¢Ğ’ HD
-http://hls.tva.cdnvideo.ru/tva/tvahd.sdp/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="moskva-24" tvg-logo="http://epg.it999.ru/img2/334.png",ĞœĞ¾Ñ�ĞºĞ²Ğ° 24
-http://79.141.211.254:8000/Moskva24
-#EXTINF:-1 group-title="тест" tvg-id="rossija24" tvg-logo="http://epg.it999.ru/img2/1683.png",Ğ Ğ¾Ñ�Ñ�Ğ¸Ñ�-24
-http://79.141.211.254:8000/Russia24
-#EXTINF:-1 group-title="тест" tvg-id="mir-24" tvg-logo="http://epg.it999.ru/img2/2078.png",ĞœĞ¸Ñ€ 24
-https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="izvestia" tvg-logo="http://epg.it999.ru/img2/2271.png",Ğ˜Ğ·Ğ²ĞµÑ�Ñ‚Ğ¸Ñ� HD
-http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="rbk" tvg-logo="http://epg.it999.ru/img2/743.png",Ğ Ğ‘Ğš Ğ¢Ğ’
-http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
-#EXTINF:-1 group-title="тест" tvg-logo="http://epg.it999.ru/img2/4458.png",360 Ğ�Ğ�Ğ’Ğ�Ğ¡Ğ¢Ğ˜
-https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
-
+#EXTINF:-1 group-title="тест" tvg-id="h2" tvg-logo="http://epg.it999.ru/img2/2356.png",H2 HD
+http://46.8.210.62/H2/index.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="national-geographic" tvg-logo="http://epg.it999.ru/img2/389.png",National Geographic
+http://195.189.60.181:312/143/index.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="nat-geo-wild" tvg-logo="http://epg.it999.ru/img2/807.png",Nat Geo Wild
+http://195.189.60.181:312/524/index.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="glazami-turista-4k" tvg-logo="http://epg.it999.ru/img2/2508.png",Ğ“Ğ»Ğ°Ğ·Ğ°Ğ¼Ğ¸ Ñ‚ÑƒÑ€Ğ¸Ñ�Ñ‚Ğ°
+https://livetv.mylifeisgood.ml/channels/glazamiturista
+#EXTINF:-1 group-title="тест" tvg-id="discovery-hd" tvg-logo="http://epg.it999.ru/img2/1612.png",Discovery HD
+https://livetv.mylifeisgood.ml/channels/discovery.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="discovery-science" tvg-logo="http://epg.it999.ru/img2/3067.png",Discovery Science HD
+https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="id-xtra-ru" tvg-logo="http://epg.it999.ru/img2/2507.png",Investigation Discovery HD
+https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="animal-planet" tvg-logo="http://epg.it999.ru/img2/990.png",Animal Planet HD
+https://livetv.mylifeisgood.ml/channels/animalplanethd.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="viasat-nature" tvg-logo="http://epg.it999.ru/img2/765.png",Viasat Nature HD
+https://bl.uma.media/live/485545/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="viasat-history" tvg-logo="http://epg.it999.ru/img2/3068.png",Viasat History HD
+https://bl.uma.media/live/485544/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="viasat-explore" tvg-logo="http://epg.it999.ru/img2/3296.png",Viasat Explore HD
+https://bl.uma.media/live/485546/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="тест" ,Ğ”Ğ¾Ğ¼Ğ°ÑˆĞ½Ğ¸Ğµ Ğ¶Ğ¸Ğ²Ğ¾Ñ‚Ğ½Ñ‹Ğµ
+http://79.141.211.254:8000/DomashnieZhivotnye
+#EXTINF:-1 group-title="тест",Ğ�Ğ°ÑƒĞºĞ°
+http://79.141.211.254:8000/Nauka
+#EXTINF:-1 group-title="тест" tvg-logo="http://epg.it999.ru/img2/2350.png",ĞŸĞ¾ĞµÑ…Ğ°Ğ»Ğ¸!
+http://79.141.211.254:8000/Poehali
+#EXTINF:-1 group-title="тест" tvg-id="" tvg-logo="http://epg.it999.ru/img2/663.png",Ğ¡Ğ°Ñ€Ğ°Ñ„Ğ°Ğ½
+http://79.141.211.254:8000/Sarafan
 
 
 
