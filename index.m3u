@@ -144,15 +144,15 @@ https://sc.id-tv.kz/1KanalEvraziya.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ
-http://flu.ttk.mx:9090/REN_TV/index.m3u8?token=orh6o
+https://livetv.mylifeisgood.ml/channels/rentv.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia1.png" tvg-id="rossia1",Россия 1
-http://radio-live-mg.rtr-vesti.ru/hls/russia1_plus1/playlist_2.m3u8
+https://livetv.mylifeisgood.ml/channels/russia1.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/rossia-24.png" tvg-id="rossia-24",Россия 24
 http://radio-live-mg.rtr-vesti.ru/hls/russia_24/playlist_3.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/ilUzAeb.png" tvg-id="sts",СТС
-http://37.193.18.15:81/udp/239.1.15.6:1234
+https://livetv.mylifeisgood.ml/channels/sts.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/tvmchannel.png" tvg-id="tvmchannel",TVM Channel
@@ -629,14 +629,8 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 group-title="тест" tvg-id="rossia1" tvg-logo="http://epg.it999.ru/img/984.png",Россия 1
-https://livetv.mylifeisgood.ml/channels/russia1.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="pervy" tvg-logo="http://epg.it999.ru/img/983.png",Первый
-https://li group-title="тест"vetv.mylifeisgood.ml/channels/perviytest.m3u8
-#EXTINF:-1 tvg-id="rentv" tvg-logo="http://epg.it999.ru/img/18.png",РенТВ
-https://livetv.mylifeisgood.ml/channels/rentv.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="sts" tvg-logo="http://epg.it999.ru/img/79.png",СТС
-https://livetv.mylifeisgood.ml/channels/sts.m3u8
+https://livetv.mylifeisgood.ml/channels/perviytest.m3u8
 #EXTINF:-1 group-title="тест" tvg-id="domashny" tvg-logo="http://epg.it999.ru/img/304.png",Домашний
 https://livetv.mylifeisgood.ml/channels/domashnii.m3u8
 
