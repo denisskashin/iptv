@@ -118,7 +118,7 @@ https://sc.id-tv.kz/31Kanal.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/tUF33HD.png" tvg-id="tro",БелРос
 http://uiptv.do.am/1ufc/116316122/playlist.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/XVRwgom.png" tvg-id="domashny",Домашний
-http://188.143.128.22:30001/play/p130
+https://livetv.mylifeisgood.ml/channels/domashnii.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/dumatv.png" tvg-id="dumatv",Дума ТВ
 https://dumatv.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
@@ -141,6 +141,8 @@ http://188.143.128.22:30001/play/p142
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/vm5sJHP.png" tvg-id="pervy-kanal-eurasia-kz",Первый канал Евразия
 https://sc.id-tv.kz/1KanalEvraziya.m3u8
+#EXTINF:-1 group-title="тест" tvg-id="piatnica" tvg-logo="http://epg.it999.ru/img/1003.png",Пятница
+https://livetv.mylifeisgood.ml/channels/friday.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/0Tu5lte.png" tvg-id="rentv",РЕН ТВ
@@ -161,6 +163,8 @@ http://cdn-01.bonus-tv.ru:8080/tvm_edge/tracks-v1a1/index.m3u8
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/fIkd01t.png" tvg-id="tvci",ТВ Центр
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
+#EXTINF:-1 group-title="Основные" tvg-id="tnt" tvg-logo="https://picon.ml/tnt.png",ТНТ
+https://livetv.mylifeisgood.ml/channels/tnt.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
@@ -629,23 +633,11 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 group-title="тест" tvg-id="pervy" tvg-logo="http://epg.it999.ru/img/983.png",Первый
-https://livetv.mylifeisgood.ml/channels/perviytest.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="domashny" tvg-logo="http://epg.it999.ru/img/304.png",Домашний
-https://livetv.mylifeisgood.ml/channels/domashnii.m3u8
 
-
-
-#EXTINF:-1 group-title="тест"  tvg-id="tnt" tvg-logo="http://epg.it999.ru/img/1767.png",Ğ¢Ğ�Ğ¢ HD
-https://livetv.mylifeisgood.ml/channels/tnt.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="piatnica" tvg-logo="http://epg.it999.ru/img/1003.png",ĞŸÑ�Ñ‚Ğ½Ğ¸Ñ†Ğ°! HD
-https://livetv.mylifeisgood.ml/channels/friday.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="tv3-ru" tvg-logo="http://epg.it999.ru/img/698.png",Ğ¢Ğ’3 HD
-https://livetv.mylifeisgood.ml/channels/tv3.m3u8
 #EXTINF:-1 group-title="тест"  tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ° HD
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="zvezda" tvg-logo="http://epg.it999.ru/img2/405.png",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
-https://tv group-title="тест" channelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdlow.m3u8
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdlow.m3u8
 #EXTINF:-1 tvg-id="tnt-4" tvg-logo="http://epg.it999.ru/img2/1649.png",Ğ¢Ğ�Ğ¢4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="тест"  tvg-id="tvcentr" tvg-logo="http://epg.it999.ru/img2/649.png",Ğ¢Ğ’ Ğ¦ĞµĞ½Ñ‚Ñ€
