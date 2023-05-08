@@ -97,8 +97,12 @@ http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 https://tis.catcast.tv/content/391/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png" tvg-id="shanson-tv",Шансон-ТВ
 http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/wRP9XA7.png" tvg-id="viasat-history",Viasat History
-http://ott-cdn.ucom.am/s23/index.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-id="viasat-explore" tvg-logo="http://epg.it999.ru/img2/3296.png",Viasat Explore
+https://bl.uma.media/live/485546/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-id="viasat-nature" tvg-logo="http://epg.it999.ru/img2/765.png",Viasat Nature
+https://bl.uma.media/live/485545/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-id="viasat-history" tvg-logo="http://epg.it999.ru/img2/3068.png",Viasat History
+https://bl.uma.media/live/485544/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/ege-tv.png" tvg-id="ege-tv",ЕГЭ
 http://146.158.0.56:80/EGETV/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/nat-geo-wild.png" tvg-id="nat-geo-wild",National Geographic Wild
@@ -169,6 +173,8 @@ http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/chunklist_b1703000.m3u8
 #EXTINF:-1 group-title="Основные" tvg-id="tnt" tvg-logo="https://picon.ml/tnt.png",ТНТ
 https://livetv.mylifeisgood.ml/channels/tnt.m3u8
+#EXTINF:-1 group-title="Основные" tvg-id="tnt4" tvg-logo="http://epg.it999.ru/img2/1649.png",ТНТ4
+https://bl.uma.media/live/317849/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
@@ -344,21 +350,31 @@ https://edgesport-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/eurosport2.png" tvg-id="eurosport2",Eurosport 2
 http://176.222.190.76/btv/SWM/Eurosport2/Eurosport2.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/X6otbK0.png" tvg-id="konny-mir",Конный мир
-http://cdn-01.bonus-tv.ru/konnyimir/playlist.m3u8
+http://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/q-sport-int.png" tvg-id="qsport-kz",Q Sport International
 http://176.222.190.76/btv/SWM/Qsport_international/Qsport_international.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/q-sport-ext.png" tvg-id="q-sport-ext",Q Sport League
 http://176.222.190.76/btv/SWM/Q/Q.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/kazsport.png" tvg-id="kazsport",Qazsport
 http://176.222.190.76/btv/SWM/Qazsport_HD/Qazsport_HD.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-tv-hd-orig" tvg-logo="http://epg.it999.ru/img2/2735.png",Матч!
+http://bl.uma.media/live/312119/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-arena" tvg-logo="http://epg.it999.ru/img2/2049.png",Матч! Арена
+http://bl.uma.media/live/126868/HLS/6866944_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-id="match-boets" tvg-logo="http://epg.it999.ru/img2/2054.png",Матч! Боец
+http://bl.uma.media/live/132838/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/vhyMb9D.png" tvg-id="match-planeta",Матч! Планета
 http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://matchpremier.ru/img/icon/app_icon.png" tvg-id="match-premier",Матч! Премьер
 https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/X02s2UE.png" tvg-id="match-nash-sport",Матч! Страна
-http://bl.uma.media/live/291663/HLS/4614144_3/2/1/playlist.m3u8
+http://bl.uma.media/live/291661/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/match-football1.png" tvg-id="match-football1",Матч! Футбол 1
 http://bl.uma.media/live/126863/HLS/6866944_4/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="http://epg.it999.ru/img/2742.png" tvg-id="match-football2",Матч! Футбол 2
+http://bl.uma.media/live/126864/HLS/6866944_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="http://epg.it999.ru/img/2730.png" tvg-id="match-football3",Матч! Футбол 3
+http://bl.uma.media/live/126865/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/BcN8B3D.png" tvg-id="",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/setanta-kz.png" tvg-id="setanta-kz",Setanta Qazaqstan
@@ -629,6 +645,8 @@ http://146.158.0.56/KuhnyaTV/mono.m3u8
 https://sc.id-tv.kz/poehali.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/teatr.png" tvg-id="teatr",Театр
 http://146.158.0.56:80/Teatr/index.m3u8
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-id="trashtv" tvg-logo="http://epg.it999.ru/img2/3361.png",Trash
+http://livetv.mylifeisgood.ml/channels/trash.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/mf13haG.png" tvg-id="usadba",Усадьба
 http://94.230.240.17:8080/usadba/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/fashionbox-hd.png" tvg-id="fashionbox-hd",FashionBox
@@ -636,47 +654,6 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
-
-#EXTINF:-1 group-title="тест" tvg-id="tnt-4" tvg-logo="http://epg.it999.ru/img2/1649.png",ТНТ4
-https://bl.uma.media/live/317849/HLS/4614144_3/1/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="glazami-turista-4k" tvg-logo="http://epg.it999.ru/img2/2508.png",Ğ“Ğ»Ğ°Ğ·Ğ°Ğ¼Ğ¸ Ñ‚ÑƒÑ€Ğ¸Ñ�Ñ‚Ğ°
-https://livetv.mylifeisgood.ml/channels/glazamiturista
-#EXTINF:-1 group-title="тест" tvg-id="viasat-nature" tvg-logo="http://epg.it999.ru/img2/765.png",Viasat Nature HD
-https://bl.uma.media/live/485545/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="viasat-history" tvg-logo="http://epg.it999.ru/img2/3068.png",Viasat History HD
-https://bl.uma.media/live/485544/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="viasat-explore" tvg-logo="http://epg.it999.ru/img2/3296.png",Viasat Explore HD
-https://bl.uma.media/live/485546/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-football1" tvg-logo="http://epg.it999.ru/img/2729.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 1 HD
-http://bl.uma.media/live/126863/HLS/6866944_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-football2" tvg-logo="http://epg.it999.ru/img/2742.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 2 HD
-http://bl.uma.media/live/126864/HLS/6866944_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-football3" tvg-logo="http://epg.it999.ru/img/2730.png",ĞœĞ°Ñ‚Ñ‡! Ğ¤ÑƒÑ‚Ğ±Ğ¾Ğ» 3 HD
-http://bl.uma.media/live/126865/HLS/6866944_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-tv-hd-orig" tvg-logo="http://epg.it999.ru/img2/2735.png",ĞœĞ°Ñ‚Ñ‡! HD
-http://bl.uma.media/live/312119/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-premier" tvg-logo="http://epg.it999.ru/img2/2736.png",ĞœĞ°Ñ‚Ñ‡! ĞŸÑ€ĞµĞ¼ÑŒĞµÑ€ HD
-http://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-arena" tvg-logo="http://epg.it999.ru/img2/2049.png",ĞœĞ°Ñ‚Ñ‡! Ğ�Ñ€ĞµĞ½Ğ° HD
-http://bl.uma.media/live/126868/HLS/6866944_3/2/1/playlist.m3u8
-http://bl.uma.media/live/154036/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-boets" tvg-logo="http://epg.it999.ru/img2/2054.png",ĞœĞ°Ñ‚Ñ‡! Ğ‘Ğ¾ĞµÑ† HD
-http://bl.uma.media/live/132838/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-planeta" tvg-logo="http://epg.it999.ru/img2/2043.png",ĞœĞ°Ñ‚Ñ‡! ĞŸĞ»Ğ°Ğ½ĞµÑ‚Ğ° HD
-http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="match-nash-sport" tvg-logo="http://epg.it999.ru/img2/2042.png",ĞœĞ�Ğ¢Ğ§! Ğ¡Ğ¢Ğ Ğ�Ğ�Ğ� HD
-http://bl.uma.media/live/291661/HLS/4614144_3/1/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="kxl" tvg-logo="http://epg.it999.ru/img2/2048.png",KHL HD
-http://bl.uma.media/live/148307/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="kxl-hd" tvg-logo="http://epg.it999.ru/img2/1038.png",KHL Prime HD
-http://bl.uma.media/live/171748/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="konny-mir" tvg-logo="http://epg.it999.ru/img2/1679.png",ĞšĞ¾Ğ½Ğ½Ñ‹Ğ¹ Ğ¼Ğ¸Ñ€ HD
-http://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
-#EXTINF:-1 group-title="тест" tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2004.png",Viasat Sport HD
-http://bl.uma.media/live/485548/HLS/4614144_3/2/1/playlist.m3u8
-
-#EXTINF:-1 group-title="тест" tvg-id="trashtv" tvg-logo="http://epg.it999.ru/img2/3361.png",Trash HD
-http://livetv.mylifeisgood.ml/channels/trash.m3u8
 
 #EXTINF:-1 group-title="тест2",Ğ�Ğ¾Ñ�Ñ‚Ğ°Ğ»ÑŒĞ³Ğ¸Ñ�
 https://m3ut.net/p/982815674/1/96
@@ -737,14 +714,185 @@ https://okkotv-live.cdnvideo.ru/channel/Yu_OTT.m3u8
 #EXTINF:-1 group-title="тест2" group-title="Ñ‚Ğ¾Ğ»ÑŒĞºĞ¾ Ğ Ğ¤ Ğ¸Ğ»Ğ¸ vpn",ĞœĞ°Ñ‚Ñ‡! HD
 https://okkotv-live.cdnvideo.ru/channel/Match_OTT_HD/1080p.m3u8
 
+#EXTINF:-1 group-title="тест2" tvg-name="2x2 HD", 2x2 HD
+https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
+
+#EXTINF:-1 group-title="тест2" tvg-name="ТВ-3 FHD", ТВ-3 FHD
+https://bl.uma.media/live/407373/HLS/6307840_7,4280320_6,2703360_5,1408000_4,1070080_3,732160_2,394240_1/1613013859/5fdc4b8080160a4e56933b0402133da4/playlist.m3u8
 
 
+#EXTINF:-1 group-title="тест3",Авто Плюс
+http://193.233.9.49/streams/media/Avto_Plus/index.m3u8
+
+#EXTINF:-1 group-title="тест3", Россия К
+https://livetv.mylifeisgood.ml/channels/russiak.m3u8
+
+#EXTINF:-1 group-title="тест3", DTX HD
+https://livetv.mylifeisgood.ml/channels/discoverydtx.m3u8
+
+#EXTINF:-1 group-title="тест3", Discovery Science HD
+https://livetv.mylifeisgood.ml/channels/discoveryscience.m3u8
+
+#EXTINF:-1 group-title="тест3", Моя Планета
+https://livetv.mylifeisgood.ml/channels/myplanet.m3u8
+
+#EXTINF:-1 group-title="тест3", Загородный Int
+https://livetv.mylifeisgood.ml/channels/zagorodint.m3u8
 
 
+#EXTINF:-1 group-title="тест3", HD Life
+https://livetv.mylifeisgood.ml/channels/hdlife.m3u8
+
+#EXTINF:-1 group-title="тест3", Приключения HD
+https://livetv.mylifeisgood.ml/channels/adventureshd.m3u8
+
+#EXTINF:-1 group-title="тест3", Первый Космический HD
+https://livetv.mylifeisgood.ml/channels/firstspace.m3u8
+
+#EXTINF:-1 group-title="тест3", Viasat Nature/History HD
+https://livetv.mylifeisgood.ml/channels/viasatnaturehistory.m3u8
 
 
+#EXTINF:-1 group-title="test3", Animal Planet HD
+https://livetv.mylifeisgood.ml/channels/animalplanethd.m3u8
 
+#EXTINF:-1 group-title="test3", Discovery channel HD
+https://livetv.mylifeisgood.ml/channels/discovery.m3u8
 
+#EXTINF:-1 group-title="test3", Investigation Discovery HD
+https://livetv.mylifeisgood.ml/channels/discoveryxtra.m3u8
+
+#EXTINF:-1 group-title="test3", Top Secret
+https://livetv.mylifeisgood.ml/channels/sovsec127.m3u8
+
+#EXTINF:-1 group-title="test3", Диалоги о Рыбалке
+http://2serv.mylifeisgood.ml:8080/channels/dialogiorybalke.m3u8
+
+#EXTINF:-1 group-title="test3", Оружие
+https://livetv.mylifeisgood.ml/channels/oruzhie.m3u8
+
+#EXTINF:-1 group-title="test3", Глазами Туриста
+https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
+
+#EXTINF:-1 group-title="test3", Живая природа
+https://livetv.mylifeisgood.ml/channels/jivyapriroda.m3u8
+
+#EXTINF:-1 group-title="test3", Наша Сибирь HD
+https://livetv.mylifeisgood.ml/channels/nashasibir4k.m3u8
+
+#EXTINF:-1 group-title="test3", ТВ3 HD
+https://livetv.mylifeisgood.ml/channels/tv3.m3u8
+
+#EXTINF:-1 group-title="test3", Звезда
+https://livetv.mylifeisgood.ml/channels/zvezda.m3u8
+
+#EXTINF:-1 group-title="test3", Кино ТВ
+https://livetv.mylifeisgood.ml/channels/kinotvst.m3u8
+
+#EXTINF:-1 group-title="test3", Кинеко
+https://livetv.mylifeisgood.ml/channels/fox.m3u8
+
+#EXTINF:-1 group-title="test3", Сапфир
+https://livetv.mylifeisgood.ml/channels/foxlife.m3u8
+
+#EXTINF:-1 group-title="test3", Start Air HD
+https://livetv.mylifeisgood.ml/channels/96d9a62bc619079db307c8fd067a1ab9.m3u8
+
+#EXTINF:-1 group-title="test3", Start World HD
+https://livetv.mylifeisgood.ml/channels/ccf149ef976cb08ffb31e2047772386a.m3u8
+
+#EXTINF:-1 group-title="test3", Феникс+Кино
+https://livetv.mylifeisgood.ml/channels/fenixkino.m3u8
+
+#EXTINF:-1 group-title="test3", Москва Доверие
+https://livetv.mylifeisgood.ml/channels/moscvadoverie.m3u8
+
+#EXTINF:-1 group-title="test3", Санкт-Петербург
+https://livetv.mylifeisgood.ml/channels/78saintpetersburg.m3u8
+
+#EXTINF:-1 group-title="test3", ЧЕ
+https://livetv.mylifeisgood.ml/channels/che.m3u8
+
+#EXTINF:-1 group-title="test3", Ю
+https://livetv.mylifeisgood.ml/channels/u_ott_tv.m3u8
+
+#EXTINF:-1 group-title="test3", Paramount Comedy
+https://livetv.mylifeisgood.ml/channels/paramount_comedy.m3u8
+
+#EXTINF:-1 group-title="test3", Paramount Channel
+https://livetv.mylifeisgood.ml/channels/paramount_channel.m3u8
+
+#EXTINF:-1 group-title="test3", 360°
+https://livetv.mylifeisgood.ml/channels/ch360.m3u8
+
+#EXTINF:-1 group-title="test3", 360 новости
+https://livetv.mylifeisgood.ml/channels/ch360news.m3u8
+
+#EXTINF:-1 group-title="test3", Анекдот ТВ
+https://livetv.mylifeisgood.ml/channels/anekdot.m3u8
+
+#EXTINF:-1 group-title="test3", Живи Активно HD
+https://livetv.mylifeisgood.ml/channels/jiviactivno.m3u8
+
+#EXTINF:-1 group-title="test3", Мир 24 HD
+http://2serv.mylifeisgood.ml:8080/channels/mirhdpremium.m3u8
+
+#EXTINF:-1 group-title="test3", Известия
+https://livetv.mylifeisgood.ml/channels/iz.m3u8
+
+#EXTINF:-1 group-title="test3", МузТВ
+https://livetv.mylifeisgood.ml/channels/muztvhd.m3u8
+
+#EXTINF:-1 group-title="test3", Russian Music Box
+http://2serv.mylifeisgood.ml:8080/channels/rusmusicbox.m3u8
+
+#EXTINF:-1 group-title="test3", ТНТ Music
+https://livetv.mylifeisgood.ml/channels/tntmusicru.m3u8
+
+#EXTINF:-1 group-title="test3", Европа Плюс ТВ
+https://livetv.mylifeisgood.ml/channels/europaplustv24.m3u8
+
+#EXTINF:-1 group-title="test3", 1HD
+https://livetv.mylifeisgood.ml/channels/1hdmusic.m3u8
+
+#EXTINF:-1 group-title="test3", Bridge TV
+https://livetv.mylifeisgood.ml/channels/bridgetv24h.m3u8
+
+#EXTINF:-1 group-title="test3", Bridge TV Classic
+https://livetv.mylifeisgood.ml/channels/bridgeclassictv.m3u8
+
+#EXTINF:-1 group-title="test3", Bridge TV Deluxe
+https://livetv.mylifeisgood.ml/channels/bridgedeluxetv.m3u8
+
+#EXTINF:-1 group-title="test3", Bridge TV Hits
+https://livetv.mylifeisgood.ml/channels/bridgehitstv.m3u8
+
+#EXTINF:-1 group-title="test3", Bridge TV Русский хит
+https://livetv.mylifeisgood.ml/channels/bridgerushittv.m3u8
+
+#EXTINF:-1 group-title="test3", Bridge TV Шлягер
+https://livetv.mylifeisgood.ml/channels/bridgetvshlyager.m3u8
+
+#EXTINF:-1 group-title="test3", Bridge TV Фрэш
+https://livetv.mylifeisgood.ml/channels/bridgetvshlyager.m3u8
+
+#EXTINF:-1 group-title="test3", Disney
+https://livetv.mylifeisgood.ml/channels/disney.m3u8
+
+#EXTINF:-1 group-title="test3", Nickelodeon HD
+https://livetv.mylifeisgood.ml/channels/nickelodeon-hd.m3u8
+
+#EXTINF:-1 group-title="test3", НТВ HD
+https://livetv.mylifeisgood.ml/channels/ntvhd.m3u8
+
+#EXTINF:-1 group-title="test3", TIJI
+https://livetv.mylifeisgood.ml/channels/tiji.m3u8
+
+#EXTINF:-1 group-title="test3", Рыжий
+https://livetv.mylifeisgood.ml/channels/ryjii.m3u8
+
+#EXTINF:-1 group-title="test3", Карусель
+https://livetv.mylifeisgood.ml/channels/karuselvgtrk.m3u8
 
 
 
