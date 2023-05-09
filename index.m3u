@@ -576,7 +576,7 @@ https://autopilot.catcast.tv/content/40381/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://img.catcast.tv/uploads/04062022/banners/39005-629ba53ce1357.png" tvg-id="",Киноклуб
 http://autopilot.catcast.tv/content/39005/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/lgvOVxm.png" tvg-id="kinopremiera-hd",Кинопремьера
-https://sc.id-tv.kz/Kinopremiera_hd.m3u8
+https://sc.id-tv.kz/Kinopremiera_hd_34_35.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/Ge8vkQM.png" tvg-id="kinoxit",Кинохит
 https://sc.id-tv.kz/Kinohit_hd.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Lava
@@ -701,21 +701,49 @@ https://sc.id-tv.kz:443/Eurosport_1HD_34_35.m3u8
 https://sc.id-tv.kz:443/Ribalka_Ohota_36_37.m3u8?token=iptv.org.ua
 #EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="godno",Ğ¢Ğ•Ğ¥Ğ�Ğ� 24
 https://sc.id-tv.kz:443/Tehno24_34_35.m3u8
-
-
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",H2
-https://sc.id-tv.kz:443/H2HD_36_37.m3u8
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",HDL
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="godno",HDL
 https://sc.id-tv.kz/hdl.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/1394.png" group-title="тест",History HD
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/1394.png" group-title="godno",History HD
 https://sc.id-tv.kz/HistoryHD_36_37.m3u8
-#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",ĞœÑƒĞ¶Ñ�ĞºĞ¾Ğ¹
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="godno",ĞœÑƒĞ¶Ñ�ĞºĞ¾Ğ¹
 https://sc.id-tv.kz/Mujskoi_34_35.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/icn/gulligirl.png" group-title="тест",Gulli
+#EXTINF:-1 tvg-logo="https://iptvx.one/icn/gulligirl.png" group-title="godno",Gulli
 https://sc.id-tv.kz:443/Gulli_34_35.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title="тест",Ğ‘Ğ¾Ğ±ĞµÑ€ (720p)
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title="godno",Ğ‘Ğ¾Ğ±ĞµÑ€ (720p)
 https://sc.id-tv.kz/bober.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/566.png" group-title="тест",ĞšĞ¸Ğ½Ğ¾Ğ¿Ñ€ĞµĞ¼ÑŒĞµÑ€Ğ° FHD
-https://sc.id-tv.kz/Kinopremiera_hd_34_35.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2493.png" group-title="тест",ĞšĞ¸Ğ½Ğ¾ÑƒĞ¶Ğ°Ñ� HD
-https://sc.id-tv.kz:443/Kinouzhas_hd_34_35.m3u8
+
+
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/30HzeQe.png" group-title="тест",Ğ�! (576p)
+https://sc.id-tv.kz/o.m3u8
+
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",Ğ¢ÑƒÑ€Ğ°Ğ½ Ğ¢Ğ’ (576p) [Not 24/7]
+https://sc.id-tv.kz/TuranTV.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2578.png" group-title="тест",Ğ¥Ğ°Ğ±Ğ°Ñ€ 24
+https://sc.id-tv.kz/Khabar_24.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2579.png" group-title="тест",Ğ�Ñ�Ñ‹Ğ» Ğ�Ñ€Ğ½Ğ°
+https://sc.id-tv.kz/ElArna.m3u8
+
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",Ğ’Ñ€ĞµĞ¼Ñ�
+https://sc.id-tv.kz:443/Vremya_36_37.m3u8?token=iptv.org.ua
+
+#EXTINF:-1 group-title="тест",ĞšĞ�Ğ—Ğ�Ğ¥ Ğ¢Ğ’ HD
+http://176.74.80.162:8099/KazakhTV/index.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2570.png" group-title="тест",ĞšĞ¢Ğš
+https://sc.id-tv.kz/KTK.m3u8
+
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",Ğ�Ğ¾Ğ²Ğ¾Ğµ Ñ‚ĞµĞ»ĞµĞ²Ğ¸Ğ´ĞµĞ½Ğ¸Ğµ
+https://sc.id-tv.kz/NovoeTelevidenie_34_35.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2447.png" group-title="тест",ĞŸĞ¾Ğ±ĞµĞ´Ğ°
+https://sc.id-tv.kz/Pobeda.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img/2641.png" group-title="тест",Ğ¡Ğ¢Ğ’ KZ
+https://sc.id-tv.kz/STV.m3u8
+
+#EXTINF:-1 tvg-logo="http://127.0.0.1/" group-title="тест",Ğ¢ĞµĞ»ĞµĞºĞ°Ñ„Ğµ
+https://sc.id-tv.kz:443/Telecafe_36_37.m3u8
+
+
