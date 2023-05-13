@@ -117,6 +117,8 @@ https://bl.uma.media/live/485546/HLS/4614144_3/2/1/playlist.m3u8
 https://bl.uma.media/live/485545/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-id="viasat-history" tvg-logo="http://epg.it999.ru/img2/3068.png",Viasat History
 https://bl.uma.media/live/485544/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/doktor.png" tvg-id="doktor",Доктор
+http://31.148.48.15:80/Doktor/index.m3u8?token=test
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/ege-tv.png" tvg-id="ege-tv",ЕГЭ
 http://146.158.0.56:80/EGETV/index.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/zhivaya-priroda.png" tvg-id="zhivaya-priroda",Живая природа
@@ -127,6 +129,8 @@ https://sc.id-tv.kz/NatGeoWildHD_34_35.m3u8
 https://livetv.mylifeisgood.ml/channels/nashasibir4k.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://i.imgur.com/uppFhhq.png" tvg-id="prosveschenie",Просвещение
 https://cdn-01.bonus-tv.ru/prosveschenie_edge/playlist.m3u8
+#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/rtg-hd.png" tvg-id="rtg-hd",RTG TV
+http://31.148.48.15:80/RTG/index.m3u8?token=test
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/terra-ru.png" tvg-id="terra-ru",Terra
 http://176.222.190.76/btv/SWM/terra_hd/terra_hd.m3u8
 #EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/hdl.png" tvg-id="hd-life",HDL
@@ -409,6 +413,8 @@ http://bl.uma.media/live/312119/HLS/4614144_3/2/1/playlist.m3u8
 http://bl.uma.media/live/126868/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-id="match-boets" tvg-logo="http://epg.it999.ru/img2/2054.png",Матч! Боец
 http://bl.uma.media/live/132838/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/match-igra.png" tvg-id="match-igra",Матч Игра
+http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/vhyMb9D.png" tvg-id="match-planeta",Матч! Планета
 http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://matchpremier.ru/img/icon/app_icon.png" tvg-id="match-premier",Матч! Премьер
@@ -691,6 +697,8 @@ https://sc.id-tv.kz/FlixSnip.m3u8
 https://sc.id-tv.kz/FOX_HD_34_35.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/hollywood.png" tvg-id="hollywood",HOLLYWOOD HD
 http://31.148.48.15:80/MGM_HD/index.m3u8?token=test
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/avto-plus.png" tvg-id="avto-plus",Авто Плюс
+http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/30HzeQe.png" tvg-id="bobior",Бобер
 https://sc.id-tv.kz/bober.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
@@ -705,6 +713,8 @@ http://82.209.197.187:8080/udp/239.0.100.93:1234
 https://livetv.mylifeisgood.ml/channels/jiviactivno.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/zvezda-plus.png" tvg-id="zvezda-plus",Звезда плюс
 http://146.158.0.56:80/ZvezdaPlus/index.m3u8
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/zdorovoe-tv.png" tvg-id="zdorovoe-tv",Здоровое ТВ
+http://31.148.48.15:80/Zdorovoe_TV/index.m3u8?token=test
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="" tvg-id="",Кулинар ТВ
 http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/kuhnia.png" tvg-id="kuxnia-tv",Кухня ТВ
@@ -732,34 +742,24 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
-
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/match-igra.png" tvg-id="match-igra",Матч Игра
-http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
-
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/rtg-hd.png" tvg-id="rtg-hd",RTG TV
-http://31.148.48.15:80/RTG/index.m3u8?token=test
-
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/avto-plus.png" tvg-id="avto-plus",Авто Плюс
-http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
-
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/doktor.png" tvg-id="doktor",Доктор
-http://31.148.48.15:80/Doktor/index.m3u8?token=test
-
-#EXTINF:-1 group-title="Наука и природа" tvg-logo="https://picon.ml/doktor.png" tvg-id="doktor",Доктор
+#EXTINF:-1 group-title="тест",ЧЧЧЧ
 http://31.148.48.15:80/Drive/index.m3u8?token=test
 
-EXTINF:-1 group-title="тест",Ğ–Ğ˜Ğ’Ğ�Ğ¯ ĞŸĞ›Ğ�Ğ�Ğ•Ğ¢Ğ�
+#EXTINF:-1 group-title="тест",Ğ–Ğ˜Ğ’Ğ�Ğ¯ ĞŸĞ›Ğ�Ğ�Ğ•Ğ¢Ğ�
 http://31.148.48.15:80/Zhivaya_Planeta/index.m3u8?token=test
+
 #EXTINF:-1 group-title="тест",Ğ–Ğ˜Ğ’Ğ˜
 http://31.148.48.15:80/Zhivi/index.m3u8?token=test
-#EXTINF:-1 group-title="тест",Ğ—Ğ”Ğ�Ğ Ğ�Ğ’Ğ�Ğ• Ğ¢Ğ’
-http://31.148.48.15:80/Zdorovoe_TV/index.m3u8?token=test
+
 #EXTINF:-1 group-title="тест",Ğ—Ğ¾Ğ¾ Ğ¢Ğ’
 http://31.148.48.15:80/Zoo_TV/index.m3u8?token=test
+
 #EXTINF:-1 group-title="тест",Ğ˜Ğ¡Ğ¢Ğ�Ğ Ğ˜Ğ¯
 http://31.148.48.15:80/Istoriya/index.m3u8?token=test
+
 #EXTINF:-1 group-title="тест",ĞšÑƒÑ…Ğ½Ñ� Ğ¢Ğ’
 http://31.148.48.15:80/Kuhnya_TV/index.m3u8?token=test
+
 #EXTINF:-1 group-title="тест",ĞœĞ¾Ñ� ĞŸĞ»Ğ°Ğ½ĞµÑ‚Ğ°
 http://31.148.48.15:80/Moya_Planeta/index.m3u8?token=test
 #EXTINF:-1 group-title="тест",ĞœĞ¾Ñ� ĞŸĞ»Ğ°Ğ½ĞµÑ‚Ğ°
