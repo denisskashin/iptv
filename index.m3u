@@ -169,6 +169,8 @@ https://livetv.mylifeisgood.ml/channels/ntv.m3u8
 http://188.143.128.22:30001/play/p143
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
 http://188.143.128.22:30001/play/p142
+#EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/otr.png" tvg-id="otr",ОТР
+http://31.148.48.15:80/OTR/index.m3u8?token=test
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/RUSX0rX.png" tvg-id="pervy",Первый канал
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/vm5sJHP.png" tvg-id="pervy-kanal-eurasia-kz",Первый канал Евразия
@@ -701,6 +703,8 @@ https://livetv.mylifeisgood.ml/channels/oruzhie.m3u8
 https://sc.id-tv.kz/poehali.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/rybalka-i-oxota.png" tvg-id="rybalka-i-oxota",Рыбалка и охота
 https://sc.id-tv.kz:443/Ribalka_Ohota_36_37.m3u8?token=iptv.org.ua
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/tdk.png" tvg-id="tdk-ru",TDK
+http://31.148.48.15:80/TDK/index.m3u8?token=test
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/teatr.png" tvg-id="teatr",Театр
 http://146.158.0.56:80/Teatr/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/texno-24.png" tvg-id="exno-24",Техно 24
@@ -715,14 +719,7 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
-#EXTINF:-1 group-title="тест",Ğ�Ğ¢Ğ 
-http://31.148.48.15:80/OTR/index.m3u8?token=test
-
-#EXTINF:-1 group-title="тест",TDK
-http://31.148.48.15:80/TDK/index.m3u8?token=test
-
-
-#EXTINF:-1 group-title="тест•",Ğ¡ÑƒĞ±Ğ±Ğ¾Ñ‚Ğ°!
+#EXTINF:-1 group-title="тест",Ğ¡ÑƒĞ±Ğ±Ğ¾Ñ‚Ğ°!
 http://31.148.48.15:80/Super/index.m3u8?token=test
 #EXTINF:-1 group-title="тест",ĞšĞ’Ğ� Ğ¢Ğ’
 http://31.148.48.15:80/KVN_TV/index.m3u8?token=test
@@ -734,14 +731,14 @@ http://31.148.48.15:80/Che/index.m3u8?token=test
 http://31.148.48.15:80/Pyatnica/index.m3u8?token=test
 #EXTINF:-1 group-title="тест",Ğ¡Ğ¢Ğ¡
 http://31.148.48.15:80/STS/index.m3u8?token=test
-#EXTINF:-1 group-title="тест•",Ğ®
+#EXTINF:-1 group-title="тест",Ğ®
 http://31.148.48.15:80/U/index.m3u8?token=test
 #EXTINF:-1 group-title="тест",Ğ¡Ğ¢Ğ¡ Love
 http://31.148.48.15:80/STS_Love/index.m3u8?token=test
 #EXTINF:-1 group-title="тест",Ğ§Ğ•
 http://31.148.48.15:80/Che/index.m3u8?token=test
 
-#EXTINF:-1 group-title="тест˜Ğ�Ğ�",ĞŸĞ�Ğ‘Ğ•Ğ”Ğ� HD
+#EXTINF:-1 group-title="тест",ĞŸĞ�Ğ‘Ğ•Ğ”Ğ� HD
 http://31.148.48.15:80/BBC_World_News/index.m3u8?token=test
 
 #EXTINF:-1 group-title="test",Ğ’Ğ Ğ•ĞœĞ¯
