@@ -149,6 +149,8 @@ http://uiptv.do.am/1ufc/116316122/playlist.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&
 https://livetv.mylifeisgood.ml/channels/domashnii.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/dumatv.png" tvg-id="dumatv",Дума ТВ
 https://dumatv.iptv2022.com/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/zvezda.png" tvg-id="zvezda",Звезда
+http://31.148.48.15:80/Zvezda/index.m3u8?token=test
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/i6JthjI.png" tvg-id="mir-pl2",Мир +2
@@ -710,15 +712,6 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="Zvezda",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
-http://188.191.160.238:9099/channel/Zvezda.ts
-#EXTINF:-1 group-title="Zvezda",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
-http://iptv.ktkru.ru:8017/index.m3u8
-#EXTINF:-1 group-title="Zvezda",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
-http://178.162.218.85:8081/rustv/zvezda.stream/playlist.m3u8
-#EXTINF:-1 group-title="Zvezda",Ğ—Ğ’Ğ•Ğ—Ğ”Ğ�
-http://178.159.112.198/zvezda/index.m3u8?token=test
-#EXTINF:-1 group-title="Zvezda",Ğ—Ğ²ĞµĞ·Ğ´Ğ°
-http://178.159.112.198:80/zvezda/index.m3u8?token=test
-#EXTINF:-1 group-title="Zvezda",Ğ—Ğ²ĞµĞ·Ğ´Ğ°Ğ—Ğ²ĞµĞ·Ğ´Ğ°
-http://31.148.48.15:80/Zvezda/index.m3u8?token=test
+
+#EXTINF:-1 group-title="тест",7 TV
+http://31.148.48.15:80/7TV/index.m3u8?token=test
