@@ -224,7 +224,7 @@ https://livetv.mylifeisgood.ml/channels/anekdot.m3u8
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://picon.ml/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ
 http://31.148.48.15:80/KVN_TV/index.m3u8?token=test
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/AgX6qoz.png" tvg-id="sarafan",Сарафан
-http://37.193.18.15:81/udp/239.1.2.11:1234
+http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://i.imgur.com/YBVZoDd.png" tvg-id="sts-love",СТС Love
 http://37.193.18.15:81/udp/239.1.3.8:1234
 #EXTINF:-1 group-title="Развлечения и юмор" tvg-logo="https://picon.ml/telekafe.png" tvg-id="telekafe",Телекафе
@@ -722,18 +722,6 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 
 
-
-
-#EXTINF:-1 group-title="тест",Ğ¡ÑƒĞ±Ğ±Ğ¾Ñ‚Ğ°!
-http://31.148.48.15:80/Super/index.m3u8?token=test
-#EXTINF:-1 group-title="тест",ĞšĞ’Ğ� Ğ¢Ğ’
-http://31.148.48.15:80/KVN_TV/index.m3u8?token=test
-#EXTINF:-1 group-title="тест",Ğ¡Ğ°Ñ€Ğ°Ñ„Ğ°Ğ½
-http://31.148.48.15:80/Sarafan/index.m3u8?token=test
-#EXTINF:-1 group-title="тест",ĞŸÑ�Ñ‚Ğ½Ğ¸Ñ†Ğ°
-http://31.148.48.15:80/Pyatnica/index.m3u8?token=test
-#EXTINF:-1 group-title="тест",Ğ¡Ğ¢Ğ¡
-http://31.148.48.15:80/STS/index.m3u8?token=test
 #EXTINF:-1 group-title="тест",Ğ®
 http://31.148.48.15:80/U/index.m3u8?token=test
 #EXTINF:-1 group-title="тест",Ğ¡Ğ¢Ğ¡ Love
