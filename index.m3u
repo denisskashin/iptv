@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/8by.png" tvg-id="8kanal-by",8 канал
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/8by.png" tvg-id="8kanal-by",8 канал
 http://82.209.197.187:8080/udp/239.0.100.124:1234
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/belarus1hd.png" tvg-id="belarus1",Беларусь 1
 http://37.17.12.124:8901/play/a003#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
@@ -11,17 +11,17 @@ http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 http://37.17.12.124:8901/play/a005#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus4.png" tvg-id="belarus4-vitebsk",Беларусь 4 Витебск
 https://flu.vtv.by/bt4-non-by/index.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
 http://82.209.197.187:8080/udp/239.0.100.9:1234
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belsat.png" tvg-id="belsat",Белсат TV (BY/RU)
 http://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/bobruysk360.png" tvg-id="bobruysk360",Бобруйск 360
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/bobruysk360.png" tvg-id="bobruysk360",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/vitebsk.png" tvg-id="vitebsk",Витебск
 https://flu.vtv.by/tvt-non-by/index.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/vtv-by.png" tvg-id="vtv",BTB
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/vtv-by.png" tvg-id="vtv",BTB
 http://82.209.197.187:8080/udp/239.0.100.26:1234
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/ont-by.png" tvg-id="ont-by",ОНТ
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/ont-by.png" tvg-id="ont-by",ОНТ
 http://82.209.197.187:8080/udp/239.0.100.4:1234
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/svetloe-tv.png" tvg-id="svetloe-tv",Светлое ТВ
 http://194.158.218.123:8880/SvetloeTV/index.m3u8
@@ -747,13 +747,13 @@ http://31.148.48.15:80/MGM_HD/index.m3u8?token=test
 http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/bober.png" tvg-id="bobior",Бобер
 https://sc.id-tv.kz/bober.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
 http://82.209.197.187:8080/udp/239.0.100.95:1234
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/GXJKWdy.png" tvg-id="glazami-turista",Глазами туриста
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/da-vinci.png" tvg-id="da-vinci",Da Vinci Learning
 https://sc.id-tv.kz:443/DaVinci_34_35.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye",Домашние животные
+#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye",Домашние животные
 http://82.209.197.187:8080/udp/239.0.100.93:1234
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/drive.png" tvg-id="drive",Драйв
 http://31.148.48.15:80/Drive/index.m3u8?token=test
@@ -795,10 +795,3 @@ http://94.230.240.17:8080/usadba/index.m3u8
 http://146.158.0.56:80/FashionBox/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
-
-
-#EXTINF:-1 group-title="test",Вопросы Ответы
-http://82.209.197.187:8080/udp/239.0.100.95:1234
-
-#EXTINF:-1 group-title="test",231. Пёс и Ко
-http://188.143.128.22:30001/play/p231
