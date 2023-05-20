@@ -197,8 +197,8 @@ http://31.148.48.15:80/Nostalgiya/index.m3u8?token=test
 https://livetv.mylifeisgood.ml/channels/ntv.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/3ChnWGg.png" tvg-id="ntv-pravo",НТВ Право
 http://188.143.128.22:30001/play/p143
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
-http://188.143.128.22:30001/play/p142
+#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
+http://ott-cdn.ucom.am/s77/04.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/otr.png" tvg-id="otr",ОТР
 http://31.148.48.15:80/OTR/index.m3u8?token=test
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/RUSX0rX.png" tvg-id="pervy",Первый канал
@@ -796,8 +796,5 @@ http://146.158.0.56:80/FashionBox/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
-#EXTINF:-1 group-title="test",НТВ Право
-https://my.teleelevidenie.com/play/hls-custom-c50-te548c4888657447f657fca2ade27cbdc2132cd1e11ac405e437d7141b876943a.m3u8
-
-#EXTINF:-1 group-title="test",НТВ Стиль
-http://ott-cdn.ucom.am/s77/04.m3u8
+#EXTINF:-1 group-title="тест",test
+http://edemiptv.iptvbot.biz/iptv/KEY/145/index.m3u8
