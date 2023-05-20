@@ -419,7 +419,7 @@ https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 https://edgesport-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="http://epg.it999.ru/img/2052.png" tvg-id="eurosport1",Eurosport 1
 https://sc.id-tv.kz:443/Eurosport_1HD_34_35.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/eurosport2.png" tvg-id="eurosport2",Eurosport 2
+#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/eurosport2.png" tvg-id="eurosport2",Eurosport 2
 http://176.222.190.76/btv/SWM/Eurosport2/Eurosport2.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/X6otbK0.png" tvg-id="konny-mir",Конный мир
 http://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
@@ -765,3 +765,7 @@ http://94.230.240.17:8080/usadba/index.m3u8
 http://146.158.0.56:80/FashionBox/index.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="test",EUROSPORT 1 HD
+http://51.89.67.79:25461/stalker348574985793/stalker348574985793/77
+
