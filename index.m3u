@@ -11,17 +11,17 @@ http://serv30.vintera.tv:8081/belarus24/belarus24/playlist.m3u8
 http://37.17.12.124:8901/play/a005#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus4.png" tvg-id="belarus4-vitebsk",Беларусь 4 Витебск
 https://flu.vtv.by/bt4-non-by/index.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
 http://82.209.197.187:8080/udp/239.0.100.9:1234
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/belsat.png" tvg-id="belsat",Белсат TV (BY/RU)
 http://portal.ott.pink/watch/149/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/bobruysk360.png" tvg-id="bobruysk360",Бобруйск 360
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/bobruysk360.png" tvg-id="bobruysk360",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/vitebsk.png" tvg-id="vitebsk",Витебск
 https://flu.vtv.by/tvt-non-by/index.m3u8#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/vtv-by.png" tvg-id="vtv",BTB
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/vtv-by.png" tvg-id="vtv",BTB
 http://82.209.197.187:8080/udp/239.0.100.26:1234
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/ont-by.png" tvg-id="ont-by",ОНТ
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/ont-by.png" tvg-id="ont-by",ОНТ
 http://82.209.197.187:8080/udp/239.0.100.4:1234
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/svetloe-tv.png" tvg-id="svetloe-tv",Светлое ТВ
 http://194.158.218.123:8880/SvetloeTV/index.m3u8
@@ -165,7 +165,7 @@ https://sc.id-tv.kz/HistoryHD_36_37.m3u8
 https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
 #EXTINF:-1 group-title="Новости", tvg-logo="https://i.imgur.com/FwPWS8i.png" tvg-id="izvestia",Известия
 https://livetv.mylifeisgood.ml/channels/iz.m3u8
-#EXTINF:-1 group-title="Новости" tvg-logo="https://picon.ml/russia-today.png" tvg-id="russia-today",RT
+#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/russia-today.png" tvg-id="russia-today",RT
 https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/7tv.png" tvg-id="7tv",7 TV
 http://31.148.48.15:80/7TV/index.m3u8?token=test
@@ -735,15 +735,15 @@ https://sc.id-tv.kz:443/Hollywood_34_35.m3u8?token=iptv.org.ua
 http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/bober.png" tvg-id="bobior",Бобер
 https://sc.id-tv.kz/bober.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
+#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
 http://82.209.197.187:8080/udp/239.0.100.95:1234
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/GXJKWdy.png" tvg-id="glazami-turista",Глазами туриста
 https://livetv.mylifeisgood.ml/channels/glazamiturista.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/da-vinci.png" tvg-id="da-vinci",Da Vinci Learning
 https://sc.id-tv.kz:443/DaVinci_34_35.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye",Домашние животные
+#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye",Домашние животные
 http://82.209.197.187:8080/udp/239.0.100.93:1234
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/drive.png" tvg-id="drive",Драйв
+#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/drive.png" tvg-id="drive",Драйв
 http://31.148.48.15:80/Drive/index.m3u8?token=test
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/zhivi.png" tvg-id="zhivi",Живи
 http://31.148.48.15:80/Zhivi/index.m3u8?token=test
@@ -751,7 +751,7 @@ http://31.148.48.15:80/Zhivi/index.m3u8?token=test
 https://livetv.mylifeisgood.ml/channels/jiviactivno.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/zvezda-plus.png" tvg-id="zvezda-plus",Звезда плюс
 http://146.158.0.56:80/ZvezdaPlus/index.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/zdorovoe-tv.png" tvg-id="zdorovoe-tv",Здоровое ТВ
+#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/zdorovoe-tv.png" tvg-id="zdorovoe-tv",Здоровое ТВ
 http://31.148.48.15:80/Zdorovoe_TV/index.m3u8?token=test
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/istoria.png" tvg-id="istoria",История
 http://31.148.48.15:80/Istoriya/index.m3u8?token=test
@@ -773,7 +773,7 @@ http://146.158.0.56:80/Teatr/index.m3u8
 http://31.148.48.15:80/Teleputeshestviya/index.m3u8?token=test
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/texno-24.png" tvg-id="exno-24",Техно 24
 https://sc.id-tv.kz:443/Tehno24_34_35.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/travel-adventure.png" tvg-id="travel-adventure",Travel+Adventure HD
+#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/travel-adventure.png" tvg-id="travel-adventure",Travel+Adventure HD
 http://31.148.48.15:80/Travel_Adventure_HD/index.m3u8?token=test
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/turan-tv.png" tvg-id="turan-tv",Туран ТВ
 https://sc.id-tv.kz/TuranTV.m3u8
