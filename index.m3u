@@ -1,4 +1,18 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
+
+#EXTINF:-1 group-title="Новости" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-id="360-int",360°
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
+
+#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
+
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/hiN166x.png" tvg-id="",43 Канал
+http://sochinskayatrk.ru/hdtv/hls/43Channel_hd/playlist.m3u8
+#EXTINF:-1 group-title="Фильмы и сериалы",Akudji
+http://hls.goodgame.ru/hls/5346.m3u8
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/mLZDuIF.png" tvg-id="strk",СТРК
+http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
+
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/8by.png" tvg-id="8kanal-by",8 канал
 http://82.209.197.187:8080/udp/239.0.100.124:1234
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/belarus1hd.png" tvg-id="belarus1",Беларусь 1
@@ -162,10 +176,8 @@ http://176.222.190.76/btv/SWM/terra_hd/terra_hd.m3u8
 http://31.148.48.15:80/HD_Life/index.m3u8?token=test
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/history-hd.png" tvg-id="history-ru",History
 https://sc.id-tv.kz/HistoryHD_36_37.m3u8
-#EXTINF:-1 group-title="Новости" tvg-logo="http://epg.it999.ru/img2/4458.png",360 Новости
-https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
 #EXTINF:-1 group-title="Новости", tvg-logo="https://i.imgur.com/FwPWS8i.png" tvg-id="izvestia",Известия
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
+http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/russia-today.png" tvg-id="russia-today",RT
 https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-30/ngrp:srak-wx8r_all/playlist.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/7tv.png" tvg-id="7tv",7 TV
@@ -180,8 +192,6 @@ https://livetv.mylifeisgood.ml/channels/domashnii.m3u8
 https://dumatv.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Основные" tvg-logo="https://picon.ml/zvezda.png" tvg-id="zvezda",Звезда
 http://31.148.48.15:80/Zvezda/index.m3u8?token=test
-#EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/i6JthjI.png" tvg-id="mir-pl2",Мир +2
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv2_2500/playlist.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/CrFWXTD.png" tvg-id="mir-pl4",Мир +4
@@ -266,8 +276,6 @@ https://livetv.mylifeisgood.ml/channels/che.m3u8
 https://hjplb2qzsf8.a.trbcdn.net/livemaster/qm9inc7byc_stream1/playlist.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/12-omsk.png" tvg-id="12-omsk",12 канал (Омск)
 http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-id="360-int",360°
-https://livetv.mylifeisgood.ml/channels/ch360.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://picon.ml/8kanal-eu.png" tvg-id="8kanal-krasnoyarsk",8 канал Красноярск
 http://80.65.18.213/perviy_molodeginyi_3100kb.m3u8
 #EXTINF:-1 group-title="Россия (Регионы)" tvg-logo="https://i.imgur.com/7Jo7UAf.png" tvg-id="",Aбаза TV
@@ -592,8 +600,6 @@ https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
 http://portal.ott.pink/watch/236/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/fauna.png" tvg-id="fauna",Фауна
 http://212.28.87.173:8000/play/a0z8/index.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/hiN166x.png" tvg-id="",43 Канал
-http://sochi-strk.ru:2015/43Kanal/mpegts
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/amedia1.png" tvg-id="amedia1",A1
 http://92.43.140.249/s45/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/amedia2.png" tvg-id="amedia2",A2
@@ -668,8 +674,6 @@ https://livetv.mylifeisgood.ml/channels/foxlife.m3u8
 http://flu.ttk.mx:9090/Cinema/index.m3u8?token=orh6o
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Cinema Classic
 https://api.alpaca.t62a.com/hls/9114/stream0.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/mLZDuIF.png" tvg-id="strk",СТРК
-http://sochi-strk.ru:2015/STRK/mpegts
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",SCR TV
 https://hls.goodgame.ru/hls/61358.m3u8?cur=tva.org.ua&key=3i277
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/1zbcZ3p.png" tvg-id="",T+
@@ -752,8 +756,6 @@ https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 https://hls.goodgame.ru/hls/187741.m3u8
 #EXTINF:-1 group-title="Недоступен",STR TV
 https://hls.goodgame.ru/hls/185110.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы",Akudji
-https://hls.goodgame.ru/hls/5346.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы",FILM TV
 http://hls.goodgame.ru/hls/163253.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы",Series TV
@@ -764,28 +766,9 @@ https://sc.id-tv.kz/Kinomix_hd_34_35.m3u8?token=iptv.org.ua
 https://sc.id-tv.kz:443/Avto24_36_37.m3u8?token=iptv.org.ua
 #EXTINF:-1 group-title="Хобби и увлечения",Nasa TV
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
-
-
-#EXTINF:-1 tvg-name="WORLD HD" group-title="HD", WORLD HD
+#EXTINF:-1 group-title="Релакс",World HD
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-name="Родной канал HD" group-title="HD", Родной канал HD
-https://n1.slavmir.tv/live/slavmir/playlist.m3u8
-#EXTINF:-1 tvg-name="12 Канал HD" group-title="HD", 12 Канал HD
-http://12channel.bonus-tv.ru/cdn/12channel/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-name="360 Новости HD" group-title="HD", 360 Новости HD
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
-#EXTINF:-1 tvg-name="43 канал HD" group-title="HD", 43 канал HD
-http://sochinskayatrk.ru/hdtv/hls/43Channel_hd/playlist.m3u8
-#EXTINF:-1 tvg-name="Известия ТВ HD" group-title="HD", Известия ТВ HD
-http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
-#EXTINF:-1 tvg-name="Мир HD" group-title="HD", Мир HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 tvg-name="СТРК HD" group-title="HD", СТРК HD
-http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
-#EXTINF:-1 tvg-name="AKUDJI TV HD" group-title="HD", AKUDJI TV HD
-http://hls.goodgame.ru/hls/5346.m3u8
-#EXTINF:-1 tvg-name="Sochi Live HD" group-title="HD", Sochi Live HD
-http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
+
 #EXTINF:-1 tvg-name="Brics TV HD" group-title="HD", Brics TV HD
 http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-name="7 Канал HD (Одесса)" group-title="HD", 7 Канал HD (Одесса)
@@ -818,8 +801,6 @@ http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 http://cdn1.live-tv.od.ua:8081/dumska/dumska-abr/playlist.m3u8
 #EXTINF:-1 tvg-name="Матур ТВ HD" group-title="HD", Матур ТВ HD
 http://providers.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-#EXTINF:-1 tvg-name="Мир 24 HD" group-title="HD", Мир 24 HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 #EXTINF:-1 tvg-name="НТМ HD" group-title="HD", НТМ HD
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #EXTINF:-1 tvg-name="Первый Городской HD (Одеса)" group-title="HD", Первый Городской HD (Одеса)
@@ -1550,8 +1531,6 @@ http://185.235.187.10:8888/play/kuhnya_tv/index.m3u8
 
 #EXTINF:-1 group-title="РЕЛАКС- расслабление",Loupe TV
 https://d2dw21aq0j0l5c.cloudfront.net/playlist_1920x1080.m3u8
-#EXTINF:-1 group-title="РЕЛАКС- расслабление",World HD
-http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="РЕЛАКС- расслабление",Deluxe Lounge HD
 https://stream.ads.ottera.tv/cl/231009cki5o24nsepl2jh7b2eg/1920x1080_5359200_5_f.m3u8
 #EXTINF:-1 group-title="РЕЛАКС- расслабление",Travel Guide TV
