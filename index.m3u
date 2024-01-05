@@ -1,23 +1,70 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
 
+#EXTINF:-1 group-title="Автомобили" tvg-logo="https://picon.ml/1auto.png" tvg-id="1auto",Перший автомобільний
+http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
+
+#EXTINF:-1 group-title="Кулинария" tvg-logo="https://picon.ml/kuhnia.png" tvg-id="kuxnia-tv",Кухня ТВ
+http://185.235.187.10:8888/play/kuhnya_tv/index.m3u8
+
 #EXTINF:-1 group-title="Новости" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-id="360-int",360°
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 
 #EXTINF:-1 group-title="Основные" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 
-#EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",World HD
+#EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",Deluxe Lounge
+https://stream.ads.ottera.tv/cl/231009cki5o24nsepl2jh7b2eg/1920x1080_5359200_5_f.m3u8
+#EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",Loupe
+https://d2dw21aq0j0l5c.cloudfront.net/playlist_1920x1080.m3u8
+#EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",Travel Guide
+http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
+#EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",World
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 group-title="Украина" tvg-logo="https://epgx.site/p/1plus1.png" tvg-id="1plus1",1+1 Марафон
+http://portal.ott.pink/watch/45/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/1plus1-ukraina.png" tvg-id="1plus1-ukraina",1+1 Україна
+http://185.235.187.10:8888/play/a034/index.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/2plus2.png" tvg-id="2plus2",2+2
+http://185.235.187.10:8888/play/2plus2/index.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://epgx.site/p/pro-vsio.png" tvg-id="pro-vsio",8 канал
+http://89.254.128.5:22280/8tv_hd/index.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/bigudi.png" tvg-id="bigudi",Бігуді
+http://185.235.187.10:8888/play/bigudi/index.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://epgx.site/p/enter-film.png" tvg-id="enter-film",Enter-фильм
+http://185.235.187.10:8888/play/a03h/index.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://epgx.site/p/ictv-ukraine.png" tvg-id="ictv-ukraine",ICTV 2
+http://lb.homeiptv.org/lb0/ICTV2/video.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://epgx.site/p/inter-plus-ua.png" tvg-id="inter-plus-ua",Inter+
+http://212.0.213.132:2302/Inter+/index.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/k1-ua.png" tvg-id="k1-ua",К1
+http://185.235.187.10:8888/play/k1/index.m3u
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/kvartal-tv.png" tvg-id="kvartal-tv",Квартал ТВ
+rtmp://93.189.60.202//932
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/mega-ua.png" tvg-id="mega-ua",Мега
+rtmp://93.189.60.202//929
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/ntn.png" tvg-id="ntn-ua",НТН
+rtmp://93.189.60.202//936
+#EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",Орбiта
+http://ftp.orbita.dn.ua/hls/orbita.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/ua-pershy.png" tvg-id="ua-pershy",Перший
+http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/stb-ua.png" tvg-id="stb-ua",СТБ
+http://lb.homeiptv.org/lb0/STB/video.m3u8
+#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/tet.png" tvg-id="tet-ua",ТЕТ
+http://31.43.48.248:7000/ch7/video.m3u8
 
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/hiN166x.png" tvg-id="",43 Канал
 http://sochinskayatrk.ru/hdtv/hls/43Channel_hd/playlist.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы",Akudji
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Akudji
 http://hls.goodgame.ru/hls/5346.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/mLZDuIF.png" tvg-id="strk",СТРК
 http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
 
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/8by.png" tvg-id="8kanal-by",8 канал
 http://82.209.197.187:8080/udp/239.0.100.124:1234
+
+
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/belarus1hd.png" tvg-id="belarus1",Беларусь 1
 http://37.17.12.124:8901/play/a003#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/belarus2hd.png" tvg-id="belarus2",Беларусь 2
@@ -469,12 +516,9 @@ https://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 https://alpha.tv.online.tm/legacyhls/ch004_720/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Horizon Sports
 https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/1plus1-ukraina.png" tvg-id="1plus1-ukraina",1+1 УКРАЇНА
-http://212.28.87.173:8000/play/a108/index.m3u8
+
 #EXTINF:-1 group-title="Украина" tvg-logo="https://i.imgur.com/wEou5az.png" tvg-id="",100% News
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/2plus2.png" tvg-id="2plus2",2+2
-http://212.28.87.173:8000/play/a0z3/index.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/24news-ua.png" tvg-id="24news-ua",24 канал
 http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://i.imgur.com/JtqdPlY.png" tvg-id="",4 канал
@@ -491,8 +535,6 @@ http://portal.ott.pink/watch/7485/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B3
 http://portal.ott.pink/watch/7572/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/bambarbia.png" tvg-id="bambarbia",Bambarbia
 http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-720p/playlist.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/bigudi.png" tvg-id="bigudi",Бігуді
-http://212.28.87.173:8000/play/a0z1/index.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",БІК
 http://194.50.51.34/playlist.m3u8?cur=tva.org.ua&key=3i277
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",ГІТ (Волинь)
@@ -525,18 +567,13 @@ http://portal.ott.pink/watch/13/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359
 http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="" tvg-id="",I-UA TV
 http://kie2.cdn.i-ua.tv/hlsme/iuatv_1080p.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/k1-ua.png" tvg-id="k1-ua",К1
-http://212.28.87.173:8000/play/a10w/index.m3u8
+
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",Круг (Одесса)
 http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr-lq/playlist.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/kvartal-tv.png" tvg-id="kvartal-tv",Квартал ТВ
-http://85.223.221.130:8000/play/a076
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/mason-tv.png" tvg-id="mason-tv",Масон
 https://stream.uagit.tv/gittv.m3u8?cur=&key=3i277
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/m1-ua.png" tvg-id="m1-ua",М1
 http://91.146.94.234:10001/play/a052
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/mega-ua.png" tvg-id="mega-ua",Мега
-http://91.146.94.234:10001/play/a04u
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",Надия/N.K.
 http://nadiya.home-net.com.ua/mob/mystream.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/nauka.png" tvg-id="nauka",Наука
@@ -547,18 +584,13 @@ http://159.224.232.27:1234
 http://91.146.94.234:10001/play/a04o
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",НТК
 https://stream.ntktv.ua/s/ntk/ntk.m3u8?cur=&key=3i277
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/ntn.png" tvg-id="ntn-ua",НТН
-http://212.28.87.173:8000/play/a10s/index.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="https://i.imgur.com/NvhLjXU.jpg" tvg-id="",ОНТ
 http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/pervy-gorodskoy-kryvrig.png" tvg-id="pervy-gorodskoy-kryvrig",Первый Городской (Кривой Рог)
 http://cdn1.live-tv.od.ua:8081/1tvkr/1tvkr/playlist.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/pervy-gorodskoy-odessa.png" tvg-id="pervy-gorodskoy-odessa",Первый Городской (Одесса)
 http://cdn1.live-tv.od.ua:8081/1tvod/1tvod/playlist.m3u8
-#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/ua-pershy.png" tvg-id="ua-pershy",Перший
-http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/1auto.png" tvg-id="1auto",Перший автомобільний
-http://95.67.12.89:9035
+
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/pixel.png" tvg-id="pixel",Піксель
 http://91.146.94.234:10001/play/a057
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",Полтавское ТВ
@@ -575,12 +607,8 @@ http://85.238.112.40:8810/hls_sec/239.33.116.26-.m3u8
 http://80.91.177.102:1935/live/live1/playlist.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",Simon TV Харьков
 http://hls.simon.ua/live-HD/live/playlist_dvr.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/stb-ua.png" tvg-id="stb-ua",СТБ
-http://91.146.94.234:10001/play/a04l
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/ua-kyiv.png" tvg-id="ua-kyiv",Суспільне Київ
 http://portal.ott.pink/watch/7592/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/ua-pershy.png" tvg-id="ua-pershy",Суспільне Перший
-http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="Украина" tvg-logo="" tvg-id="",Сфера
 http://cdn10.live-tv.od.ua:8081/sferarv/720p/playlist.m3u8
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/tva-ua.png" tvg-id="tva-ua",ТВА
@@ -589,8 +617,6 @@ http://hls.cdn.ua/tva.ua_live/_definst_/livestream/playlist.m3u8
 http://85.223.221.130:8000/play/a08c
 #EXTINF:-1 group-title="Украина" tvg-logo="https://picon.ml/ternopil1.png" tvg-id="ternopil1",Тернопiль 1
 http://ott.columbus.te.ua/ternopil1/index.m3u8?cur=&key=3i277
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/tet.png" tvg-id="tet-ua",ТЕТ
-http://91.146.94.234:10001/play/a04p
 #EXTINF:-1 group-title="Недоступен" tvg-logo="" tvg-id="",ТІМ Прилуки
 http://194.242.100.24:6666
 #EXTINF:-1 group-title="Украина" tvg-logo="https://i.imgur.com/OP8gFSB.png" tvg-id="",ТИС ТВ
@@ -729,8 +755,7 @@ http://31.148.48.15:80/Zdorovoe_TV/index.m3u8?token=test
 http://31.148.48.15:80/Istoriya/index.m3u8?token=test
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="" tvg-id="",Кулинар ТВ
 http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
-#EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://picon.ml/kuhnia.png" tvg-id="kuxnia-tv",Кухня ТВ
-http://31.148.48.15:80/Kuhnya_TV/index.m3u8?token=test
+
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/muzhskoy.png" tvg-id="muzhskoy",Мужской
 https://sc.id-tv.kz/Mujskoi_34_35.m3u8
 #EXTINF:-1 group-title="Хобби и увлечения" tvg-logo="https://i.imgur.com/c6oPeGF.png" tvg-id="poexali",Поехали!
@@ -832,8 +857,6 @@ http://80.91.177.102:1935/live/live1/playlist.m3u8
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
 #EXTINF:-1 tvg-name="Тернопіль 1 HD" group-title="HD", Тернопіль 1 HD
 http://ott.columbus.te.ua/ternopil1/index.m3u8
-#EXTINF:-1 tvg-name="ТЕТ HD" group-title="HD", ТЕТ HD
-http://31.43.48.248:7000/ch7/video.m3u8
 #EXTINF:-1 tvg-name="ТНТ4 HD" group-title="HD", ТНТ4 HD
 https://bl.uma.media/live/317849/HLS/4614144_3,2883584_2,1153024_1/1613027671/d161f37174905bc712e81b60d3411fc1/playlist.m3u8
 #EXTINF:-1 tvg-name="Хузур ТВ HD" group-title="HD", Хузур ТВ HD
@@ -995,40 +1018,8 @@ http://stream01.vnet.am/RusskiyRoman/mono.m3u8
 http://185.235.187.10:8888/play/a019/index.m3u8
 #EXTINF:-1 group-title="KINO+",Кинеко iptv*org*ua
 http://185.235.187.10:8888/play/1plus1_International/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",UA Перший 29.12.23 tva.in.ua
-http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="УКРАИНА", 1+1 Марафон HD
-http://portal.ott.pink/watch/45/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
-#EXTINF:-1 group-title="УКРАИНА",1+1 Ukraine HD
-http://185.235.187.10:8888/play/a034/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",2+2 sd
-http://185.235.187.10:8888/play/2plus2/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",STB
-http://lb.homeiptv.org/lb0/STB/video.m3u8
-#EXTINF:-1 group-title="УКРАИНА",ICTV 2
-http://lb.homeiptv.org/lb0/ICTV2/video.m3u8
-#EXTINF:-1 group-title="УКРАИНА",Inter+ HD
-http://212.0.213.132:2302/Inter+/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",НТН tva.org.ua
-rtmp://93.189.60.202//936
-#EXTINF:-1 group-title="УКРАИНА",Enter Film FUL HD
-http://185.235.187.10:8888/play/a03h/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",КВАРТАЛ ТВ
-rtmp://93.189.60.202//932
-#EXTINF:-1 group-title="УКРАИНА",Орбiта
-http://ftp.orbita.dn.ua/hls/orbita.m3u8
-#EXTINF:-1 group-title="УКРАИНА",ТЕТ HD
-rtmp://93.189.60.202//1009
-#EXTINF:-1 group-title="УКРАИНА",К1 HD
-http://185.235.187.10:8888/play/k1/index.m3u
-#EXTINF:-1 group-title="УКРАИНА",K1
-http://149.5.17.34:20041/play/a05m
-#EXTINF:-1 group-title="УКРАИНА",8 канал HD UA
-https://ext.cdn.nashnet.tv/228.0.0.138/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",8 канал HD
-http://89.254.128.5:22280/8tv_hd/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",БІГУДІ SD
-http://185.235.187.10:8888/play/bigudi/index.m3u8
+
+
 #EXTINF:-1 group-title="УКРАИНА",Мега tva.org.ua
 rtmp://93.189.60.202//929
 #EXTINF:-1 group-title="УКРАИНА",Фауна
@@ -1057,8 +1048,6 @@ https://freedom.cdn-01.cosmonova.net.ua/mobile-app/main/freedom/master.m3u8
 https://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8
 #EXTINF:-1 group-title="УКРАИНА",Суспільне КУЛЬТУРА
 https://ext.cdn.nashnet.tv/228.0.0.141/index.m3u8
-#EXTINF:-1 group-title="УКРАИНА",Суспільне Перший HD
-http://portal.ott.pink/watch/6972/video.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="УКРАИНА",Суспільне Київ HD
 http://portal.ott.pink/watch/7592/index.m3u8?geo=auto&token=CFEADF9789D77A45B3B359EE168CCCA6
 #EXTINF:-1 group-title="УКРАИНА",Київ HD
@@ -1166,8 +1155,6 @@ rtmp://93.189.60.202//968
 http://api.alpaca.t62a.com/hls/9113/stream0.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",24 ТЕХНО
 http://play6.flynettv.com/24tehno
-#EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Перший автомобільний
-http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Motorvision TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
 #EXTINF:-1 group-title="ПОЗНАВАТЕЛЬНЫЕ",Galaxy HD
@@ -1527,15 +1514,6 @@ https://i.mjh.nz/SamsungTVPlus/USBD3300008DG.m3u8
 #EXTINF:-1 group-title="МУЗЫКА",Rouge TV 720p
 http://event.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8
 
-#EXTINF:-1 group-title="Кухня",Кухня ТВ
-http://185.235.187.10:8888/play/kuhnya_tv/index.m3u8
-
-#EXTINF:-1 group-title="РЕЛАКС- расслабление",Loupe TV
-https://d2dw21aq0j0l5c.cloudfront.net/playlist_1920x1080.m3u8
-#EXTINF:-1 group-title="РЕЛАКС- расслабление",Deluxe Lounge HD
-https://stream.ads.ottera.tv/cl/231009cki5o24nsepl2jh7b2eg/1920x1080_5359200_5_f.m3u8
-#EXTINF:-1 group-title="РЕЛАКС- расслабление",Travel Guide TV
-http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:-1 group-title="ОБЩИЕ",Новый Мир
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
