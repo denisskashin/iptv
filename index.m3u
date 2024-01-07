@@ -273,6 +273,8 @@ https://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 http://31.148.48.15:80/Dom_Kino/index.m3u8?token=test
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/domkino-premium.png" tvg-id="domkino-premium",Дом кино Премиум
 http://31.148.48.15:80/Dom_Kino_Premium_HD/index.m3u8?token=test
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",FilmZone
+http://89.254.128.5:22280/film_zone/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="http://epg.it999.ru/img2/6258.png" tvg-id="kino1int-tviksel",Кино 1 International
 http://213.172.73.132:8081/nimble_live/kino_1_int/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://picon.ml/kino18plus-tviksel.png" tvg-id="kino18plus-tviksel",Кино 18+
@@ -305,8 +307,6 @@ http://31.148.48.15:80/Russkiy_Bestseller/index.m3u8?token=test
 http://hls.goodgame.ru/hls/186021.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",sci-fi
 http://stream01.vnet.am/Kinoseriya/mono.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Star Cinema UA
-rtmp://93.189.60.202//992
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/YBVZoDd.png" tvg-id="sts-love",СТС Love
 http://31.148.48.15:80/STS_Love/index.m3u8?token=test
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://i.imgur.com/mLZDuIF.png" tvg-id="strk",СТРК
@@ -372,8 +372,6 @@ http://autopilot.catcast.tv/content/39005/index.m3u8
 https://sc.id-tv.kz:443/RusIlluzion_34_35.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-id="trashtv" tvg-logo="http://epg.it999.ru/img2/3361.png",Trash
 http://livetv.mylifeisgood.ml/channels/trash.m3u8
-#EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/filmbox-ru.png" tvg-id="filmbox-ru",Film Box
-http://94.230.240.17:8080/film_box/index.m3u8
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/hollywood.png" tvg-id="hollywood",Hollywood
 https://sc.id-tv.kz:443/Hollywood_34_35.m3u8?token=iptv.org.ua
 #EXTINF:-1 group-title="Недоступен" tvg-logo="https://picon.ml/rybalka-i-oxota.png" tvg-id="rybalka-i-oxota",Рыбалка и охота
@@ -382,19 +380,7 @@ https://sc.id-tv.kz:443/Ribalka_Ohota_36_37.m3u8?token=iptv.org.ua
 https://sc.id-tv.kz:443/Tehno24_34_35.m3u8
 
 
-#EXTINF:-1 group-title="KINO+",Filmbox hd
-rtmp://93.189.60.202//1071
-#EXTINF:-1 group-title="KINO+",FilmZone
-http://45.159.74.13:80/Filmzone/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",FilmZone EE Baltic
-http://89.254.128.5:22280/film_zone/index.m3u8
-#EXTINF:-1 group-title="KINO+",Epic Drama
-rtmp://93.189.60.202//1048
-#EXTINF:-1 group-title="KINO+",Абаза ТВ
-https://watcher-node4.apsny.camera/tv_abaza_tv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",CBC
-rtmp://93.189.60.202//1050
-#EXTINF:-1 group-title="KINO+",1+2 iptv*org*ua
+#EXTINF:-1 group-title="KINO+",1+2
 http://89.254.128.5:22280/1_2/mono.m3u8
 #EXTINF:-1 group-title="KINO+",Kino 1 HD
 http://88.135.128.20:7272/i0yRlKi4YlfGtF6
