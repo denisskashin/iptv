@@ -232,6 +232,8 @@ http://api.alpaca.t62a.com/hls/9113/stream0.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
 
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Arena Premium 3
+http://185.6.22.6:8000/play/a04m
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",World Poker Tour
@@ -265,10 +267,18 @@ http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 http://bl.uma.media/live/291661/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",ММА-TV
 http://185.235.187.10:8888/play/a07v/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Prima Sport 1
+http://149.62.183.203:9981/stream/channelid/1188430449
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/qsport-kg.png" tvg-id="qsport-kg",Q Sport
 http://89.254.128.5:22280/qsport/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/BcN8B3D.png" tvg-id="",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",SK 1 HR
+http://185.6.22.6:8000/play/a040
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",SK 2 HR
+http://185.6.22.6:8000/play/a042
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",SK 3 HR
+http://185.6.22.6:8000/play/a041
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/suspilne-sport-ua.png" tvg-id="suspilne-sport-ua",Суспільне СПОРТ
 http://185.235.187.10:8888/play/a01n/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/zKWfwAw.png" tvg-id="",Turkmenistan
@@ -386,6 +396,8 @@ https://stream01.vnet.am/Fox/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Шокирующее
 http://data.homeiptv.org:8090/ShokirujucheHD/video.m3u8
 
+#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",Arena Premium 1
+http://185.6.22.6:8000/play/a03n
 #EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",Idman
 http://146.59.85.40:89/idman_az/index.m3u8
 #EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",IN Sport
@@ -411,39 +423,6 @@ http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://i.imgur.com/4GiD9xN.png" tvg-id="tnt4",ТНТ4
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
-
-#EXTINF:-1 group-title="СПОРТ 🏆",Premier Sports 5 HD
-http://202.21.104.6:88/sps-plus/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Premier Sports 3 HD
-http://202.21.104.6:88/sps-world/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Arena Premium 1 HD (PP)
-http://185.6.22.6:8000/play/a03n
-#EXTINF:-1 group-title="СПОРТ 🏆",Arena Premium 2 HD (PP)
-http://185.6.22.6:8000/play/a04l
-#EXTINF:-1 group-title="СПОРТ 🏆",Arena Premium 3 HD (PP)
-http://185.6.22.6:8000/play/a04m
-#EXTINF:-1 group-title="СПОРТ 🏆",SK 1 HR HD
-http://185.6.22.6:8000/play/a040
-#EXTINF:-1 group-title="СПОРТ 🏆",SK 2 HR HD
-http://185.6.22.6:8000/play/a042
-#EXTINF:-1 group-title="СПОРТ 🏆",SK 3 HR HD
-http://185.6.22.6:8000/play/a041
-#EXTINF:-1 group-title="СПОРТ 🏆",SK Fight (PP)
-http://185.6.22.6:8000/play/a02r
-#EXTINF:-1 group-title="СПОРТ 🏆", Prima Sport 1 HD
-http://149.62.183.203:9981/stream/channelid/1188430449
-#EXTINF:-1 group-title="СПОРТ 🏆", Prima Sport 2 HD
-http://149.62.183.203:9981/stream/channelid/1975540366
-#EXTINF:-1 group-title="СПОРТ 🏆",ESPN
-http://181.78.8.90:16123/play/ch16
-#EXTINF:-1 group-title="СПОРТ 🏆",ESPN 2
-http://181.78.8.90:16123/play/ch17
-#EXTINF:-1 group-title="СПОРТ 🏆",ESPN 3
-http://181.78.8.90:16123/play/ch18
-#EXTINF:-1 group-title="СПОРТ 🏆",ESPN 4
-http://181.78.8.90:16123/play/ch19
-#EXTINF:-1 group-title="СПОРТ 🏆",FOX SPORTS 2
-http://181.78.8.90:16123/play/ch20
 #EXTINF:-1 group-title="СПОРТ 🏆",FOX SPORTS 3
 http://181.78.8.90:16123/play/ch21
 #EXTINF:-1 group-title="СПОРТ 🏆",Tennis Channel HD (США)
