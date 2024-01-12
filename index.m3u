@@ -1,11 +1,13 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
 
-#EXTINF:-1 group-title="Автомобили" tvg-logo="https://picon.ml/1auto.png" tvg-id="1auto",Перший автомобільний
-http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
-#EXTINF:-1 group-title="Автомобили" tvg-logo="https://picon.ml/avto-plus.png" tvg-id="avto-plus",Авто Плюс
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://picon.ml/avto-plus.png" tvg-id="avto-plus",Авто Плюс
 http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
-#EXTINF:-1 group-title="Автомобили" tvg-logo="" tvg-id="",Motorvision TV
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Canal Motor
+http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Motorvision TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://picon.ml/1auto.png" tvg-id="1auto",Перший автомобільний
+http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
 
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/bobruysk360.png" tvg-id="bobruysk360",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
@@ -17,6 +19,17 @@ http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 #EXTINF:-1 group-title="Бизнес" tvg-logo="https://picon.ml/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
 http://31.148.48.15:80/Tochka_TV/index.m3u8?token=test
 
+#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="https://epgx.site/p/match-boec.png" tvg-id="match-boets",Матч! Боец
+http://bl.uma.media/live/132838/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",ММА-TV
+http://185.235.187.10:8888/play/a07v/index.m3u8
+#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",TNT Sports 5
+https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
+#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",TVS Boxing
+https://rpn1.bozztv.com/36bay2/gusa-tvsboxing/index.m3u8
+#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",Wrestling
+https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
+
 #EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/2na2.png" tvg-id="2na2",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
 #EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",Aladdin
@@ -25,6 +38,8 @@ https://autopilot.catcast.tv/content/34251/index.m3u8
 http://185.235.187.10:8888/play/a020/index.m3u8
 #EXTINF:-1 group-title="Дети" tvg-logo="https://epgx.site/p/cartoon-network.png" tvg-id="cartoon-network",Cartoon Network
 http://89.254.128.5:22280/cartoon_network/video.m3u8
+#EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",CHD TV
+http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:-1 group-title="Дети" tvg-logo="https://epgx.site/p/detsky-mir.png" tvg-id="detsky-mir",Детский мир
 http://play6.flynettv.com/detskimir
 #EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",Жара Kids TV
@@ -72,8 +87,16 @@ http://146.158.0.56:80/Teatr/index.m3u8
 #EXTINF:-1 group-title="Мода" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",4FUN
+https://stream.4fun.tv:8888/hls/4f.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Afrobeats
+https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://picon.ml/aiva.png" tvg-id="aiva",AIVA
 http://194.190.78.91:8080/aivaya/index.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Best of Dance TV
+https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",CHD-TV Rock
+https://stream1.servers.chd-tv.tk/chdtv-rock/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",V2 Beat
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/19R470V.png" tvg-id="zhar-ptica",Жар птица
@@ -84,6 +107,12 @@ https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 http://live.m2.tv/hls3/720/stream.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/Pg7K7eV.png" tvg-id="matur-tv",Матур ТВ
 http://providers.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",MTV 00
+http://89.254.128.5:22280/mtv_00/video.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",MTV 90
+https://tr003.androidtvbox.co.hu/tr3_MTVRocks_SD/index.m3u8?token=test
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",MUZZIK HIP-HOP
+https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/Puk1Bhx.png" tvg-id="muzsoyuz",МузCоюз
 http://146.158.0.56:80/MuzSouz/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Музыка 1 International
@@ -94,6 +123,8 @@ https://kino-1.catcast.tv/content/37742/index.m3u8
 https://kino-1.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://picon.ml/muzyka-pervogo.png" tvg-id="muzyka-pervogo",Музыка Первого
 http://31.148.48.15:80/Muzika_Pervogo/index.m3u8?token=test
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Ocko Star
+http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/YdyFJrl.png" tvg-id="onemuz",Первый Музыкальный
 http://hz1.teleport.cc/HLS/SD.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/YdyFJrl.png" tvg-id="onemuz",Первый Музыкальный HD
@@ -102,20 +133,32 @@ http://rtmp.one.by:1300
 http://rtmp.one.by:2200
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/YdyFJrl.png" tvg-id="onemuz",Первый Музыкальный Россия HD
 http://rtmp.one.by:2300
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Pop Star
+https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/lbqM3K2.png" tvg-id="radio-shanson",Радио Шансон
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Reload Radio Music Power
 http://web.onair-radio.eu:1935/video/video/chunklist_w1235825277.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",RETRO 80 HD
+https://autopilot.catcast.tv/content/38204/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Retro Music Television
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-id="ru-tv" tvg-logo="http://epg.it999.ru/img/2277.png",RU.TV
 https://hls-03-video.webcaramba.com/rutv/live_720/index.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Sonus FM
+http://www.sonus.fm:1935/public/stream_720p/chunklist_w514335426.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/WsPlKJJ.png" tvg-id="radio-strana-fm-tv",Страна FM
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Super TV
+http://iptv.supertv.ro:8000/play/a002/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/RenuH4S.png" tvg-id="tnt-music",ТНТ Music
-https://bl.uma.media/live/619345/HLS/619345_3/1/1/playlist.m3u8
+http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Trance is star
 https://tis.catcast.tv/content/391/index.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Trace Urban
+https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",TVM3
+https://tvm3.vedge.infomaniak.com/livecast/tvm3/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epg.iptvx.one/icn/shanson-tv.png" tvg-id="shanson-tv",Шансон-ТВ
 http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 
@@ -238,8 +281,6 @@ http://185.6.22.6:8000/play/a04m
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",World Poker Tour
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=1346
-#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Wrestling
-https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/edgesport-de.png" tvg-id="edgesport-de",Edge Sport
 https://edgesport-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/eurosport1.png" tvg-id="eurosport1",Eurosport 1
@@ -253,20 +294,18 @@ http://89.254.128.5:22280/tv3_sport_open_hd/video.m3u8
 http://78.130.250.2:8023/play/a02q/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/konny-mir.png" tvg-id="konny-mir",Конный мир
 https://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="", L'eqipe
+https://d3awaj0f2u3w26.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gy7euubgydp20-ssai-prd/8fd3efae-4468-4ca0-9486-c6cdcb7b65d7/2.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-tv.png" tvg-id="match-tv",Матч!
 http://bl.uma.media/live/126868/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-arena.png" tvg-id="match-arena",Матч! Арена
 http://bl.uma.media/live/126868/HLS/6866944_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-boec.png" tvg-id="match-boets",Матч! Боец
-http://bl.uma.media/live/132838/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-igra.png" tvg-id="match-igra",Матч! Игра
 http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-planeta.png" tvg-id="match-planeta",Матч! Планета
 http://bl.uma.media/live/126869/HLS/6866944_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-strana.png" tvg-id="match-nash-sport",Матч! Страна
 http://bl.uma.media/live/291661/HLS/4614144_3/1/1/playlist.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",ММА-TV
-http://185.235.187.10:8888/play/a07v/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Prima Sport 1
 http://149.62.183.203:9981/stream/channelid/1188430449
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/qsport-kg.png" tvg-id="qsport-kg",Q Sport
@@ -279,6 +318,10 @@ http://185.6.22.6:8000/play/a040
 http://185.6.22.6:8000/play/a042
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",SK 3 HR
 http://185.6.22.6:8000/play/a041
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Ski TV
+https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Sports Grid
+https://sportsgrid-tribal.amagi.tv/playlist1080p.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/suspilne-sport-ua.png" tvg-id="suspilne-sport-ua",Суспільне СПОРТ
 http://185.235.187.10:8888/play/a01n/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://i.imgur.com/zKWfwAw.png" tvg-id="",Turkmenistan
@@ -288,6 +331,8 @@ https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
 
 #EXTINF:-1 group-title="Теннис" tvg-logo="" tvg-id="",IN Tennis
 https://live.insporttv.kz:4023/insport/intennis/chunks.m3u8
+#EXTINF:-1 group-title="Теннис" tvg-logo="" tvg-id="",Tennis Channel
+http://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/1-2.png" tvg-id="1-2",1+2
 http://89.254.128.5:22280/1_2/mono.m3u8
@@ -402,8 +447,16 @@ http://185.6.22.6:8000/play/a03n
 http://146.59.85.40:89/idman_az/index.m3u8
 #EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",IN Sport
 https://live.insporttv.kz:4023/insport/nizh/chunks.m3u8
-#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",Лучшие моменты ЛЧ
+#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",TNT 1 Лучшие моменты ЛЧ
 https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8
+#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",TNT Sports 2
+https://glxlmn026c.singularcdn.net.br/playout_02/playlist-720p.m3u8
+#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",TNT Sports 3
+https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8
+#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",TNT Sports 3
+https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8
+#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",TNT Sports 4
+https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8
 #EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/match-premiere.png" tvg-id="match-premier",Матч! Премьер
 https://bl.uma.media/live/126866/HLS/6866944_4/1/1/playlist.m3u8
 #EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/match-football1.png" tvg-id="match-football1",Матч! Футбол 1
@@ -412,6 +465,8 @@ http://185.235.187.10:8888/play/match_futbol_1HD/index.m3u8
 http://185.235.187.10:8888/play/match_futbol2_HD/index.m3u8
 #EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/match-football3.png" tvg-id="match-football3",Матч! Футбол 3
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",Real Madrid
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
 
 #EXTINF:-1 group-title="Хоккей" tvg-logo="" tvg-id="",IN Hockey
 https://live.insporttv.kz:4023/insport/inhockey/chunks.m3u8
@@ -422,90 +477,3 @@ http://31.148.48.15:80/KVN_TV/index.m3u8?token=test
 http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://i.imgur.com/4GiD9xN.png" tvg-id="tnt4",ТНТ4
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
-
-#EXTINF:-1 group-title="СПОРТ 🏆",FOX SPORTS 3
-http://181.78.8.90:16123/play/ch21
-#EXTINF:-1 group-title="СПОРТ 🏆",Tennis Channel HD (США)
-http://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",TVS Boxing
-https://rpn1.bozztv.com/36bay2/gusa-tvsboxing/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Sports Grid
-https://sportsgrid-tribal.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Horizon Sports
-https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",CANAL MOTOR
-http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆", L'EQUIPE
-https://d3awaj0f2u3w26.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gy7euubgydp20-ssai-prd/8fd3efae-4468-4ca0-9486-c6cdcb7b65d7/2.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Real Madrid
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
-#EXTINF:-1 group-title="СПОРТ 🏆",MavTV
-https://mavtv-mavtvglobal-1-eu.rakuten.wurl.tv/playlist.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Ski TV
-https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",TNT Sports 1 Лучшие моменты ЛЧ
-https://glxlmn026c.singularcdn.net.br/playout_01/playlist-720p.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",TNT Sports 2
-https://glxlmn026c.singularcdn.net.br/playout_02/playlist-720p.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",TNT Sports 3
-https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",TNT Sports 4
-https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",TNT Sports 5
-https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
-
-#EXTINF:-1 group-title="Дети (1)",Союз Мультфильм
-http://194.26.229.213/souzmultfilm/index.m3u8
-#EXTINF:-1 group-title="Дети (1)",C
-http://185.235.187.10:8888/play/kinosemya/index.m3u8
-#EXTINF:-1 group-title="Дети (1)",Lale UA
-http://185.235.187.10:8888/play/a06p/index.m3u8
-
-#EXTINF:-1 group-title="МУЗЫКА",RETRO 80 HD
-https://autopilot.catcast.tv/content/38204/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",MTV 00
-http://89.254.128.5:22280/mtv_00/video.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",MTV 90
-https://tr003.androidtvbox.co.hu/tr3_MTVRocks_SD/index.m3u8?token=test
-#EXTINF:-1 group-title="МУЗЫКА",4Ever Music HD
-rtmp://93.189.60.202//970
-#EXTINF:-1 group-title="МУЗЫКА",EU Music HD
-rtmp://93.189.60.202//925
-#EXTINF:-1 group-title="МУЗЫКА",М1
-rtmp://93.189.60.202//931
-#EXTINF:-1 group-title="МУЗЫКА",Megogo live
-https://ext.cdn.nashnet.tv/228.0.2.214/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",4FUN
-https://stream.4fun.tv:8888/hls/4f.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Super TV
-http://iptv.supertv.ro:8000/play/a002/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",THT Music
-http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdlow.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",CHD-TV Rock
-https://stream1.servers.chd-tv.tk/chdtv-rock/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",MUZZIK HIP-HOP
-https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",POP STAR
-https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Trace Urban HD
-https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Trance is Star
-http://tis.catcast.tv/content/391/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Ocko Star
-http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Afrobeats
-https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",MN Music
-http://mntv.livebox.co.in/musichls/live.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",INRATING TV HD
-http://inrating-tv.cdn-04.cosmonova.net.ua/hls/inrating-tv_ua_hi/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",RTV Altea HD
-http://54.38.156.56/live/stream/index.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Music Reload TV HD
-http://web.onair-radio.eu:1935/video/video/chunklist.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Sonus FM
-http://www.sonus.fm:1935/public/stream_720p/chunklist_w514335426.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",TVM3
-https://tvm3.vedge.infomaniak.com/livecast/tvm3/playlist.m3u8
-#EXTINF:-1 group-title="МУЗЫКА",Best of Dance TV
-https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
