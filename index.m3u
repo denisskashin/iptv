@@ -1,29 +1,29 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
 
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://picon.ml/avto-plus.png" tvg-id="avto-plus",Авто Плюс
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/avto-plus.png" tvg-id="avto-plus",Авто Плюс
 http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Canal Motor
 http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Motorvision TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://picon.ml/1auto.png" tvg-id="1auto",Перший автомобільний
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/1auto.png" tvg-id="1auto",Перший автомобільний
 http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
 
-#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/bobruysk360.png" tvg-id="bobruysk360",Бобруйск 360
+#EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
-#EXTINF:-1 group-title="Беларусь" tvg-logo="https://picon.ml/stv-by.png" tvg-id="stv-by",СТВ
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://epgx.site/p/stv-by.png" tvg-id="stv-by",СТВ
 http://80.94.225.126:8080/STV/mono.m3u8
 
-#EXTINF:-1 group-title="Бизнес" tvg-id="rbk" tvg-logo="http://epg.it999.ru/img2/743.png",РБК
+#EXTINF:-1 group-title="Бизнес" tvg-logo="https://epgx.site/p/rbk.png" tvg-id="rbk",РБК
 http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
-#EXTINF:-1 group-title="Бизнес" tvg-logo="https://picon.ml/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
+#EXTINF:-1 group-title="Бизнес" tvg-logo="https://epgx.site/p/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
 http://31.148.48.15:80/Tochka_TV/index.m3u8?token=test
 
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="https://epgx.site/p/match-boec.png" tvg-id="match-boets",Матч! Боец
 http://bl.uma.media/live/132838/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",ММА-TV
 http://185.235.187.10:8888/play/a07v/index.m3u8
-#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",TNT Sports 5
+#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="https://epgx.site/p/bt-sport5.png" tvg-id="bt-sport5",TNT Sports 5
 https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",TVS Boxing
 https://rpn1.bozztv.com/36bay2/gusa-tvsboxing/index.m3u8
@@ -84,7 +84,7 @@ http://31.148.48.15:80/TDK/index.m3u8?token=test
 #EXTINF:-1 group-title="Культура" tvg-logo="https://picon.ml/teatr.png" tvg-id="teatr",Театр
 http://146.158.0.56:80/Teatr/index.m3u8
 
-#EXTINF:-1 group-title="Мода" tvg-logo="https://i.imgur.com/ucTh9tO.png" tvg-id="fashion-tv",Fashion TV
+#EXTINF:-1 group-title="Мода" tvg-logo="https://epgx.site/p/fashion-tv.png" tvg-id="fashion-tv",Fashion TV
 https://fashiontv-fashiontv-1-eu.rakuten.wurl.tv/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",4FUN
@@ -239,13 +239,13 @@ http://31.148.48.15:80/Moya_Planeta/index.m3u8?token=test
 http://185.235.187.10:8888/play/moya_planeta/index.m3u8
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/national-geographic.png" tvg-id="national-geographic",National Geographic
 http://45.159.74.13:80/NationalGeographic/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Путешествия" tvg-logo="https://i.imgur.com/c6oPeGF.png" tvg-id="poexali",Поехали!
+#EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/poexali.png" tvg-id="poexali",Поехали!
 http://31.148.48.15:80/Poehali/index.m3u8?token=test
-#EXTINF:-1 group-title="Путешествия" tvg-logo="https://picon.ml/rtg-hd.png" tvg-id="rtg-hd",RTG TV
+#EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/rtg-tv.png" tvg-id="rtg-tv",RTG TV
 http://31.148.48.15:80/RTG/index.m3u8?token=test
-#EXTINF:-1 group-title="Путешествия" tvg-logo="https://picon.ml/teleputeshestvia.png" tvg-id="teleputeshestvia",Телепутешествия
+#EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/teleputeshestvia.png" tvg-id="teleputeshestvia",Телепутешествия
 http://31.148.48.15:80/Teleputeshestviya/index.m3u8?token=test
-#EXTINF:-1 group-title="Путешествия" tvg-logo="https://picon.ml/travel-adventure.png" tvg-id="travel-adventure",Travel Adventure
+#EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/travel-adventure.png" tvg-id="travel-adventure",Travel Adventure
 http://194.33.181.28:9010/udp/238.255.51.17:1234
 
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/animal-planet-eu.png" tvg-id="animal-planet-eu",Animal Planet
@@ -477,3 +477,17 @@ http://31.148.48.15:80/KVN_TV/index.m3u8?token=test
 http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://i.imgur.com/4GiD9xN.png" tvg-id="tnt4",ТНТ4
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
+
+
+#EXTINF:-1 group-title="Test",Fashionbox
+http://mfe.cliptv.az/dash/Fishinbox_SD.ism/playlist.mpd
+#EXTINF:-1 group-title="Test",MTV Hits
+http://mfe.cliptv.az/dash/MTV_HITS_SD.ism/playlist.mpd
+#EXTINF:-1 group-title="Test",MTV Hits
+http://mfe.cliptv.az/dash/MTV_HITS_SD.ism/playlist.mpd
+#EXTINF:-1 group-title="Test",Nano TV
+http://mfe.cliptv.az/dash/Nano_TV_SD.ism/playlist.mpd
+#EXTINF:-1 group-title="Test",Aвто 24
+http://mfe.cliptv.az/dash/Avto_24_SD.ism/playlist.mpd
+#EXTINF:-1 group-title="Test",Бобёр
+http://mfe.cliptv.az/dash/Bobyor_TV_SD.ism_xxxz/playlist.mpd
