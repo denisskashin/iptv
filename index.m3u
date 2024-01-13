@@ -9,6 +9,8 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/1auto.png" tvg-id="1auto",Перший автомобільний
 http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
 
+#EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Беларусь 24
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://epgx.site/p/stv-by.png" tvg-id="stv-by",СТВ
@@ -97,8 +99,12 @@ http://194.190.78.91:8080/aivaya/index.m3u8
 https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",CHD-TV Rock
 https://stream1.servers.chd-tv.tk/chdtv-rock/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Deejay TV
+https://streamcdnm4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",V2 Beat
 https://abr.de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Europa Plus TV
+http://strm.yandex.ru/kal/europa_plus_tv/europa_plus_tv0.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/19R470V.png" tvg-id="zhar-ptica",Жар птица
 http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Kronehit
@@ -166,6 +172,8 @@ http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 #EXTINF:-1 group-title="Новости", tvg-logo="https://i.imgur.com/FwPWS8i.png" tvg-id="izvestia",Известия
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
+#EXTINF:-1 group-title="Новости" tvg-logo="" tvg-id="",Мир 24
+http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/7tv.png" tvg-id="7tv",7 TV
 http://31.148.48.15:80/7TV/index.m3u8?token=test
@@ -268,10 +276,12 @@ http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 #EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",World
 http://185.57.68.33:8091/232/tracks-v1a1/index.m3u8
 
-#EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Каббала
-http://edge2.uk.kab.tv/rtplive/kabtv-rus-medium.stream/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Астролог ТВ
 http://api.alpaca.t62a.com/hls/9113/stream0.m3u8
+#EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Каббала
+http://edge2.uk.kab.tv/rtplive/kabtv-rus-medium.stream/playlist.m3u8
+#EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Небеса ТВ7
+http://vod.tv7.fi:1935/tv7-ru/_definst_/smil:tv7-ru.smil/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
 
@@ -409,7 +419,7 @@ http://31.148.48.15:80/Russkiy_Bestseller/index.m3u8?token=test
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/russky-detektiv.png" tvg-id="russky-detektiv",Русский детектив
 http://185.235.187.10:8888/play/otb_galichina/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/russky-roman.png" tvg-id="russky-roman",Русский роман
-http://stream01.vnet.am/RusskiyRoman/mono.m3u8
+http://pl01.spr24.net/142/mpegts?token=7x66S3utpw9RfR
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Series TV
 http://hls.goodgame.ru/hls/186021.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",sci-fi
@@ -479,18 +489,6 @@ http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 
-#EXTINF:-1 group-title="Test",Небеса ТВ7
-http://vod.tv7.fi:1935/tv7-ru/_definst_/smil:tv7-ru.smil/playlist.m3u8
-#EXTINF:-1 group-title="Test",Новый Мир
-http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
-#EXTINF:-1 group-title="Test",Мир HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 group-title="Test",TV BRICS
-https://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Test",Мир 24
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 group-title="Test",Известия HD
-http://hls-igi.cdnvideo.ru/igi/igi_hq/playlist.m3u8
 #EXTINF:-1 group-title="Test",Новое Радио ТВ
 http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 #EXTINF:-1 group-title="Test",М2 HD
@@ -501,18 +499,82 @@ http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
 http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
 
+#EXTINF:0 group-title="Test3" tvg-id="4619" tvg-logo="http://epg.it999.ru/img/4619.png" tvg-rec="1",Шахтар HD
+http://iptv.prosto.tv:7000/ch112/video.m3u8
+#EXTINF:-1 group-title="Test3" tvg-logo="http://ottpink.network/picons/wlny55.png" tvg-name=,Динамо ТВ HD
+https://api-tv.ipnet.ua/api/v1/manifest/2118742592.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="5948" tvg-logo="http://epg.it999.ru/img2/5948.png" tvg-rec="0",MEGOGO 1
+https://vs823.vcdn.biz/806ddd125bdf2b258a6d46596e92100a_megogo/live/hls/b/700_2490/u_sid/0/o/109183111/u_uid/363613005/u_vod/3/u_device/cms_html5/u_devicekey/_site/lip/176.121.5.222*asn/u_did/MTozNjM2MTMwMDU6MTY0Njc0MDMwNDo6YWM3ZDQzZmUwZjA4M2QyYTdiZmQ2ZjA3YjkxMzUxNGE=/u_ccb/sport/type.live/playlist.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="5948" tvg-logo="http://epg.it999.ru/img2/5948.png" tvg-rec="0",MEGOGO 2
+https://vs823.vcdn.biz/498d587f5cf17af8978c9c44c1c28213_megogo/live/hls/b/700_2490/u_sid/0/o/110413581/u_uid/363613005/u_vod/3/u_device/cms_html5/u_devicekey/_site/lip/176.121.5.222*asn/u_did/MTozNjM2MTMwMDU6MTY0Njc0MDMwNDo6YWM3ZDQzZmUwZjA4M2QyYTdiZmQ2ZjA3YjkxMzUxNGE=/u_ccb/sport/type.live/playlist.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="5948" tvg-logo="http://epg.it999.ru/img2/5948.png" tvg-rec="0",MEGOGO 3
+https://vs846.vcdn.biz/8a6fca5daa0a6649296e0b00a4fb7814_megogo/live/hls/b/700_2490/u_sid/0/o/120223261/u_uid/363613005/u_vod/3/u_device/cms_html5/u_devicekey/_site/lip/176.121.5.222*asn/u_did/MTozNjM2MTMwMDU6MTY0Njc0MDMwNDo6YWM3ZDQzZmUwZjA4M2QyYTdiZmQ2ZjA3YjkxMzUxNGE=/u_ccb/sport/type.live/playlist.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="5948" tvg-logo="http://epg.it999.ru/img2/5948.png" tvg-rec="0",MEGOGO 4
+https://vs824.vcdn.biz/ef6e5baa0c8f0d7c97c299b9aeee82ae_megogo/live/hls/b/700_2490/u_sid/0/o/120481331/u_uid/363613005/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/176.121.5.222*asn/u_srvc/81235/u_did/MTozNjM2MTMwMDU6MTY0NzQzNjU3Nzo6Y2Y4YzYwMGM0Yjg5YTI0M2Q5MjJmZmVjZTIzZWFiNWE=/u_ccb/sport/type.live/playlist.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="5948" tvg-logo="http://epg.it999.ru/img2/5948.png" tvg-rec="0",MEGOGO ГОНГ
+https://vs828.vcdn.biz/79d01f24dd168c0e4cf136dfca75cfb5_megogo/live/hls/b/700_2490/u_sid/0/o/99186971/u_uid/363613005/u_vod/3/u_device/cms_html5/u_devicekey/_site/lip/176.121.5.222*asn/u_did/MTozNjM2MTMwMDU6MTY0Njc0MDMwNDo6YWM3ZDQzZmUwZjA4M2QyYTdiZmQ2ZjA3YjkxMzUxNGE=/u_ccb/sport/type.live/playlist.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="4630" tvg-logo="http://epg.it999.ru/img/4630.png" tvg-rec="0",Setanta Sports +
+https://bal.varcdn1.ru/lb/setantaplusukraina/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2370" tvg-logo="http://epg.it999.ru/img/2370.png" tvg-rec="3",Setanta Sports Ukraine
+https://bal.varcdn1.ru/lb/setantasport/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2364" tvg-logo="http://epg.it999.ru/img/2364.png" tvg-rec="3",Setanta Sports 1
+https://bal.varcdn1.ru/lb/setanta1/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2363" tvg-logo="http://epg.it999.ru/img/2363.png" tvg-rec="3",Setanta Sports 2
+https://bal.varcdn1.ru/lb/setanta2/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2189" tvg-logo="http://epg.it999.ru/img/2189.png" tvg-rec="3",Футбол 1 HD
+https://bal.varcdn1.ru/lb/ua1/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2190" tvg-logo="http://epg.it999.ru/img/2190.png" tvg-rec="3",Футбол 2 HD
+https://bal.varcdn1.ru/lb/ua2/index.m3u8?token=BroTV
+#EXTINF:0 group-title="Test3" tvg-id="2669" tvg-logo="http://epg.it999.ru/img/2669.png" tvg-rec="3",Футбол 3 HD
+https://bal.varcdn1.ru/lb/ua2/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="3317" tvg-logo="http://epg.it999.ru/img/3317.png" tvg-rec="3",Спорт-1 UA
+https://bal.varcdn1.ru/lb/sport1/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2541" tvg-logo="http://epg.it999.ru/img/2541.png" tvg-rec="3",Беларусь 5 HD
+http://82.209.197.187:8080/udp/239.0.100.9:1234
+#EXTINF:0 group-title="Test3" tvg-id="2051" tvg-logo="http://epg.it999.ru/img/2051.png" tvg-rec="3",Матч ТВ
+http://94.19.220.168:81/udp/239.239.1.66:5239
+#EXTINF:0 group-title="Test3" tvg-id="2050" tvg-logo="http://epg.it999.ru/img/2050.png" tvg-rec="7",Матч! Игра HD
+http://217.11.177.54/streams/media/match_igra_720x576/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2042" tvg-logo="http://epg.it999.ru/img/2042.png" tvg-rec="7",МАТЧ! СТРАНА
+http://217.11.177.54/streams/media/match_strana_720x576/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2003" tvg-logo="http://epg.it999.ru/img/2003.png" tvg-rec="7",Матч! Арена HD
+http://217.11.177.54/streams/media/match_arena_720x576/index.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2043" tvg-logo="http://epg.it999.ru/img/2043.png" tvg-rec="7",Матч! Планета
+https://sc.id-tv.kz:443/MatchPlaneta_36_37.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="4678" tvg-logo="http://epg.it999.ru/img/4678.png" tvg-rec="7",Спортивный HD
+https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2149" tvg-logo="http://epg.it999.ru/img/2149.png" tvg-rec="3",MostVideo.TV
+http://w4.mostvideo.tv/tv/ch1.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2243" tvg-logo="http://epg.it999.ru/img/2243.png" tvg-rec="3",XSPORT HD
+http://iptv.prosto.tv:7000/ch110/video.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2577" tvg-logo="http://epg.it999.ru/img/2577.png" tvg-rec="7",Qazsport KZ HD
+http://92.46.127.146:8080/qazsport/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="1038" tvg-logo="http://epg.it999.ru/img/1038.png" tvg-rec="0",КХЛ
+https://sc.id-tv.kz:443/FHD_KHL_34_35.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="1038" tvg-logo="http://epg.it999.ru/img/1038.png" tvg-rec="0",КХЛ HD
+http://91.185.3.218:4000/play/404
+#EXTINF:0 group-title="Test3" tvg-id="2055" tvg-logo="http://epg.it999.ru/img/2055.png" tvg-rec="3",Viasat Sport HD
+https://sc.id-tv.kz:443/ViasatSport_34_35.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2443" tvg-logo="http://epg.it999.ru/img/2443.png" tvg-rec="7",Red Booll
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="2285" tvg-logo="http://epg.it999.ru/img/2285.png" tvg-rec="3",БОКС
+http://91.185.3.218:4000/play/609
+#EXTINF:0 group-title="Test3" tvg-id="2285" tvg-logo="http://epg.it999.ru/img/2285.png" tvg-rec="3",БОКС ТВ
+https://sc.id-tv.kz:443/BoksTV_36_37.m3u8
+#EXTINF:0 group-title="Test3" tvg-id="850" tvg-logo="http://epg.it999.ru/img/850.png" tvg-rec="7",Eurosport 2 HD
+http://livetv.mylifeisgood.ml:8880/mfolive.m3u8?media=eurosport2
+#EXTINF:0 group-title="Test3" tvg-id="4678" tvg-logo="http://epg.it999.ru/img/4678.png" tvg-rec="7",Turkmen Sport
+http://217.174.225.146/hls/ch004_720/index.m3u8?checkedby:iptvcat.com
+#EXTINF:-1 group-title= tvg-logo="http://ottpink.network/picons/beinsportsxtrahd.png" tvg-name=, beIN Sports 1
+http://93.152.174.144:4000/play/bein1fr/index.m3u8
+#EXTINF:-1 group-title= tvg-logo="http://ottpink.network/picons/beinsportsxtrahd.png" tvg-name=, beIN Sports 2
+http://93.152.174.144:4000/play/bein2fr/index.m3u8
+#EXTINF:-1 group-title= tvg-logo="http://ottpink.network/picons/beinsportsxtrahd.png" tvg-name=, beIN Sports 3
+http://93.152.174.144:4000/play/bein3ar/index.m3u8
+#EXTINF:-1 group-title= tvg-logo="http://ottpink.network/picons/beinsportsxtrahd.png" tvg-name=, beIN Sports 4
+http://93.152.174.144:4000/play/bein4ar/index.m3u8
+#EXTINF:-1 group-title= tvg-logo="https://www.mavtv.com/site/assets/files/7271/mavtv-1200x628.jpg",MavTV Europe
+https://mavtv-mavtvglobal-1-eu.rakuten.wurl.com/manifest/playlist.m3u8
 
-#EXTINF:-1 group-title="Test2",Русский Роман
-http://stream01.vnet.am/RusskiyRoman/mono.m3u8
-#EXTINF:-1 group-title="Test2",Русский Роман HD
-http://pl01.spr24.net/142/mpegts?token=7x66S3utpw9RfR
-#EXTINF:-1 group-title="Test2",Сарафан
-http://86.57.211.182:32200/Sarafan/index.m3u8?auth=token:test
-#EXTINF:-1 group-title="Test2",Беларусь 24
-http://dmi3y-tv.ru/hls/blrus/CH_BELARUS24.m3u8
-#EXTINF:-1 group-title="Test2",Беларусь 24 HD
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1 group-title="Test2",Europa Plus TV (Беларусь)
-http://strm.yandex.ru/kal/europa_plus_tv/europa_plus_tv0.m3u8
-#EXTINF:-1 group-title="Test2",Deejay TV
-https://streamcdnm4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
+
+
