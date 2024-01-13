@@ -502,105 +502,17 @@ http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
 
 
-#EXTINF:-1,Русский Роман
-#EXTGRP:Кино и сериалы
+#EXTINF:-1 group-title="Test2",Русский Роман
 http://stream01.vnet.am/RusskiyRoman/mono.m3u8
-#EXTINF:-1,Русский Роман HD
-#EXTGRP:Кино и сериалы
+#EXTINF:-1 group-title="Test2",Русский Роман HD
 http://pl01.spr24.net/142/mpegts?token=7x66S3utpw9RfR
-#EXTINF:-1,Сарафан
-#EXTGRP:Развлекательные
+#EXTINF:-1 group-title="Test2",Сарафан
 http://86.57.211.182:32200/Sarafan/index.m3u8?auth=token:test
-#EXTINF:-1,Беларусь 24
-#EXTGRP:Беларусь
+#EXTINF:-1 group-title="Test2",Беларусь 24
 http://dmi3y-tv.ru/hls/blrus/CH_BELARUS24.m3u8
-#EXTINF:-1,Беларусь 24 HD
-#EXTGRP:Беларусь
+#EXTINF:-1 group-title="Test2",Беларусь 24 HD
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1,Телекафе
-#EXTGRP:Кино и сериалы
-http://stream01.vnet.am/Telekafe/mono.m3u8
-#EXTINF:-1,XITE HD
-#EXTGRP:Музыкальные
-https://xite-samsung-de.amagi.tv/playlist720-p.m3u8
-#EXTINF:-1,XITE 80s Flashback
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBB320000647.m3u8
-#EXTINF:-1,XITE 90s Throwback
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBB3200007AK.m3u8
-#EXTINF:-1,XITE Hits
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD3300004RH.m3u8
-#EXTINF:-1,XITE Country Today
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD3300006O3.m3u8
-#EXTINF:-1,XITE Country's Finest
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD3300011UT.m3u8
-#EXTINF:-1,XITE Nuevo Latino
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD3300007PB.m3u8
-#EXTINF:-1,XITE Siempre Latino
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD3300010L9.m3u8
-#EXTINF:-1,XITE R&B Classic Jams
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD330000948.m3u8
-#EXTINF:-1,XITE Rock On
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBB2300004KV.m3u8
-#EXTINF:-1,XITE Icons
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD3300005EX.m3u8
-#EXTINF:-1,XITE Just Chill
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBB2300003JZ.m3u8
-#EXTINF:-1,XITE Only Love
-#EXTGRP:Музыкальные
-https://i.mjh.nz/SamsungTVPlus/USBD3300008DG.m3u8
-#EXTINF:-1,DanceHits80
-#EXTGRP:Музыкальные
-http://dancehits80.denvs.ru:8080/index.m3u8
-#EXTINF:-1,Europa Plus TV (Беларусь)
-#EXTGRP:Музыкальные
+#EXTINF:-1 group-title="Test2",Europa Plus TV (Беларусь)
 http://strm.yandex.ru/kal/europa_plus_tv/europa_plus_tv0.m3u8
-#EXTINF:-1,Deejay TV
-#EXTGRP:Музыкальные
+#EXTINF:-1 group-title="Test2",Deejay TV
 https://streamcdnm4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
-#EXTINF:-1,Setanta Sports 1 HD
-#EXTGRP:Спорт
-http://pl01.spr24.net/933/mpegts?token=7x66S3utpw9RfR
-#EXTINF:-1,Setanta Sports 2 HD
-#EXTGRP:Спорт
-http://pl01.spr24.net/934/mpegts?token=7x66S3utpw9RfR
-#EXTINF:-1,Setanta Sports Moldova HD
-#EXTGRP:Спорт
-http://158.101.214.187:8080/channel/10c75807/index.m3u8?q=103bce48d8fe1dcdb5781d4d42123a60
-#EXTINF:-1,Setanta Sports Ukraine HD
-#EXTGRP:Спорт
-http://158.101.194.132:8888/channel/1a1ce12a/index.m3u8?q=f601bfe6ca637f5e7f8b0c32a2e23796
-#EXTINF:-1,Setanta Sport Plus Ukraine HD
-#EXTGRP:Спорт
-http://158.101.194.132:8888/channel/n1dcab8a5/index.m3u8?q=f601bfe6ca637f5e7f8b0c32a2e23796
-#EXTINF:-1,Setanta Sports Baltic HD
-#EXTGRP:Спорт
-http://cdn.klimedia.online/lb/SetantaBaltic/index.m3u8?token=klimedia.space:c2VtYTE5NzQ6c2VtYTE5NzQ=
-#EXTINF:-1,Setanta Sports 1 Baltic HD
-#EXTGRP:Спорт
-http://ec1df710.edmonst.net/iptv/KRCDUN5KDD3PLZ/20081/index.m3u8
-#EXTINF:-1,Setanta Sports Qazaqstan HD
-#EXTGRP:Спорт
-http://158.101.214.187:8080/channel/381a0bcc/index.m3u8?q=103bce48d8fe1dcdb5781d4d42123a60
-#EXTINF:-1,Setanta Sports 1 Qazaqstan
-#EXTGRP:Спорт
-http://ec1df710.edmonst.net/iptv/KRCDUN5KDD3PLZ/6543/index.m3u8
-#EXTINF:-1,Setanta Sports 1 Qazaqstan HD
-#EXTGRP:Спорт
-http://ec1df710.edmonst.net/iptv/KRCDUN5KDD3PLZ/6541/index.m3u8
-#EXTINF:-1,Setanta Sports 1 Qazaqstan HD
-#EXTGRP:Спорт
-http://ec1df710.edmonst.net/iptv/KRCDUN5KDD3PLZ/20065/index.m3u8
-#EXTINF:-1,Setanta Sports 2 Qazaqstan
-#EXTGRP:Спорт
-http://ec1df710.edmonst.net/iptv/KRCDUN5KDD3PLZ/6544/index.
