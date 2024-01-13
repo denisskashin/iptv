@@ -497,61 +497,51 @@ http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 http://live.m2.tv/hls3/720/stream.m3u8
 #EXTINF:-1 group-title="Test",Страна FM HD
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-
-
-
-#EXTINF:-1 group-title="Test2",Bambarbia TV HD
-http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-720p/playlist.m3u8
-#EXTINF:-1 group-title="Test2",Рыбалка и охота
-https://sc.id-tv.kz/Ribalka_Ohota_36_37.m3u8
-#EXTINF:-1 group-title="Test2",Рыбалка и охота HD
-https://sc.id-tv.kz:443/Ribalka_Ohota_36_37.m3u8?token=iptv.org.ua
-#EXTINF:-1 group-title="Test2",Reel life (рыбалка)
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=1039
-#EXTINF:-1 group-title="Test2",Тномер
-http://192.166.144.111:8008/play/a00m/index.m3u8
-#EXTINF:-1 group-title="Test2",ТВ Экстра
-http://194.190.78.91:8080/tvextra720b/index.m3u8
-#EXTINF:-1 group-title="Test2",ТЕХНО 24
-https://sc.id-tv.kz/Tehno24_34_35.m3u8
-#EXTINF:-1 group-title="Test2",Поехали!
-https://sc.id-tv.kz/poehali_34_35.m3u8
-#EXTINF:-1 group-title="Test2",Моя Планета
-https://sc.id-tv.kz/MoyaPlaneta_34_35.m3u8
-#EXTINF:-1 group-title="Test2",Discovery Science
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=discoveryscience
-#EXTINF:-1 group-title="Test2",DTX
-http://livetv.mylifeisgood.ml/mfolive.m3u8?media=discoverydtx
-#EXTINF:-1 group-title="Test2",Viasat History
-https://sc.id-tv.kz:443/ViasatHistory_34_35.m3u8
-#EXTINF:-1 group-title="Test2",Silence TV
-http://93.190.140.42:8081/SilenceTV/live/playlist.m3u8
-#EXTINF:-1 group-title="Test2",History 2 HD
-https://sc.id-tv.kz/H2HD_36_37.m3u8
-#EXTINF:-1 group-title="Test2",H2 History
-https://sc.id-tv.kz:443/H2HD_36_37.m3u8
-#EXTINF:-1 group-title="Test2",Доктор
-http://myott.top/stream/1VGPHYLZTH/80.m3u8
-#EXTINF:-1 group-title="Test2",Viasat Explore
-http://persik.by/stream/7504/377885/10280.m3u8
-#EXTINF:-1 group-title="Test2",Viasat Nature
-http://persik.by/stream/7504/377885/10279.m3u8
-#EXTINF:-1 group-title="Test2",Авто Плюс
-http://persik.by/stream/7504/377885/311.m3u8
-#EXTINF:-1 group-title="Test2",Тномер
-http://192.166.144.111:8008/play/a00m/index.m3u8
-#EXTINF:-1 group-title="Test2",National Geographic Abu Dhabi HD
-http://admdn2.cdn.mangomolo.com/nagtv/nagtv.stream_720p/chunklist.m3u8
-#EXTINF:-1 group-title="Test2",TRAVEL CHANNEL
-https://cdn1.mobiletv.bg/T5/travel_channel/travel_channel_794613_850k.m3u8
-#EXTINF:-1 group-title="Test2",Viasat Explorer
-http://212.115.255.196/Jfd85Hf/viasatexplorer.m3u8
-#EXTINF:-1 group-title="Test2",Viasat History
-http://212.115.255.196/Jfd85Hf/viasathistory.m3u8
-#EXTINF:-1 group-title="Test2",Viasat Nature
-http://212.115.255.196/Jfd85Hf/viasatnature.m3u8
-#EXTINF:-1 group-title="Test2",ZOO Stream
+#EXTINF:-1 group-title="Test",ZOO Stream
 http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
-#EXTINF:-1 group-title="Test2",Вкусное ТВ
-http://live-planetaonline.cdnvideo.ru:80/http/smil:channel_133.smil/chunklist_b2628000.m3u8
 
+
+#EXTINF:-1 group-title="ДЕТСКИЕ",Мульт
+https://autopilot.catcast.tv/content/38850/index.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Алладин
+https://v2.catcast.tv/content/34251/index.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",KINDER TV
+https://v2.catcast.tv/content/38144/index.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Univer TV
+http://cdn.universmotri.ru/live/mq.sdp/playlist.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Univer TV HD
+http://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Big Buck Bunny HD
+https://wowza.peer5.com/live/smil:bbb_abr.smil/playlist.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Мульт и музыка
+http://myott.top/stream/1VGPHYLZTH/82.m3u8
+#EXTINF:-1 tvg-logo="http://persik.tv/images/channels/logos/946.png" group-title="ДЕТСКИЕ",Nick Jr
+http://persik.by/stream/7504/377885/946.m3u8
+#EXTINF:-1 tvg-logo="http://persik.tv/images/channels/logos/597.png" group-title="ДЕТСКИЕ",TiJi
+http://persik.by/stream/7504/377885/597.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Nickelodeon HD
+http://persik.by/stream/7504/377885/10420.m3u8
+#EXTINF:-1 tvg-id="bcu-kids" tvg-logo="https://suzukantv.at.ua/LOGO-IPTV/bcu_multzal.png" group-title="ДЕТСКИЕ",BCU Мультзал
+https://v2.catcast.tv/content/38850/index.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",KINDER TV
+https://v2.catcast.tv/content/38144/index.m3u8
+#EXTINF:-1 tvg-id="lale" tvg-logo="http://epg.it999.ru/img/2086.png" group-title="ДЕТСКИЕ",Lale
+http://stream.atr.ua/lale/live/index.m3u8
+#EXTINF:-1 tvg-id="nickelodeon-ru" group-title="ДЕТСКИЕ",Nickelodeon PL
+http://193.32.37.17:8000/play/a00i/index.m3u8
+#EXTINF:-1 tvg-id="nicktoons" group-title="ДЕТСКИЕ",Nicktoons PL
+http://193.32.37.17:8000/play/a00b/index.m3u8
+#EXTINF:-1 tvg-id="retro-music-cz" group-title="ДЕТСКИЕ",RETRO Cartoon
+https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8
+#EXTINF:-1 tvg-id="3896" group-title="ДЕТСКИЕ",TRT COCUK HD
+http://tv-trtcocuk.live.trt.com.tr/master_720.m3u8
+#EXTINF:-1 group-title="ДЕТСКИЕ",Белки в деле 2016
+https://hls.kinokrad.co/hls/Belki.v.Dele2015.HDRip/playlist.m3u8
+#EXTINF:-1 tvg-id="detskoe-kino" group-title="ДЕТСКИЕ",Детское|Кино
+http://v2.catcast.me/content/38720/index.m3u8
+#EXTINF:-1 tvg-id="zhara" group-title="ДЕТСКИЕ",ЖАРА KIDS
+https://hls-zhara.cdnvideo.ru/zhara/zhara/chunklist.m3u8?hls_proxy_host=pub2.rtmp.s01.l.zhara
+#EXTINF:-1 tvg-id="mult" group-title="ДЕТСКИЕ",Мульт
+https://autopilot.catcast.tv/content/38850/index.m3u8
+#EXTINF:-1 tvg-id="no_epg_mult" tvg-logo="https://static.wixstatic.com/media/60bbc7_7624a8d42f9f4cbe9be5b50a9304878f~mv2.gif" group-title="ДЕТСКИЕ",МУЛЬТФИЛЬМ
+https://autopilot.catcast.tv/content/38144/index.m3u8
