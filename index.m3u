@@ -177,51 +177,55 @@ http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 #EXTINF:-1 group-title="Новости" tvg-logo="" tvg-id="",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
-#EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/7tv.png" tvg-id="7tv",7 TV
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/7tv.png" tvg-id="7tv",7 TV
 http://31.148.48.15:80/7TV/index.m3u8?token=test
-#EXTINF:-1 group-title="Общие" tvg-logo="" tvg-id="",Арис 24
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Abaza TV
+http://clients.apsny.camera:8080/tv_abaza_tv/index.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Арис 24
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="" tvg-id="",Brics TV HD
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Brics TV HD
 http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/index.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
 http://liveru.cgtn.com/1000r/prog_index.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/dumatv.png" tvg-id="dumatv",Дума ТВ
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/dumatv.png" tvg-id="dumatv",Дума ТВ
 https://dumatv.iptv2022.com/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/zvezda.png" tvg-id="zvezda",Звезда
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/zvezda.png" tvg-id="zvezda",Звезда
 http://31.148.48.15:80/Zvezda/index.m3u8?token=test
-#EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/zvezda-plus.png" tvg-id="zvezda-plus",Звезда плюс
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/zvezda-plus.png" tvg-id="zvezda-plus",Звезда плюс
 http://146.158.0.56:80/ZvezdaPlus/index.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="" tvg-id="",Mar TV
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Mar TV
 http://iptv.services.everywan.net:8080/martv-web/video.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/Murt4NK.png" tvg-id="mir",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://epgx.site/p/novy-mir.png" tvg-id="novy-mir",Новый мир
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/novy-mir.png" tvg-id="novy-mir",Новый мир
 http://stream.studio360.tv/nw/nw_576p/playlist.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/nostalgia.png" tvg-id="nostalgia",Ностальгия
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/nostalgia.png" tvg-id="nostalgia",Ностальгия
 http://31.148.48.15:80/Nostalgiya/index.m3u8?token=test
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/rX6K6qT.png" tvg-id="ntv-style",НТВ Стиль
 http://ott-cdn.ucom.am/s77/04.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="" tvg-id="",НТМ HD
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",НТМ HD
 http://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/otr.png" tvg-id="otr",ОТР
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",ОНТ
+http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/otr.png" tvg-id="otr",ОТР
 http://31.148.48.15:80/OTR/index.m3u8?token=test
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/RUSX0rX.png" tvg-id="pervy",Первый канал
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/RUSX0rX.png" tvg-id="pervy",Первый канал
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://epgx.site/p/sts.png" tvg-id="sts",СТС
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/sts.png" tvg-id="sts",СТС
 http://45.159.74.13:80/CTC/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
 https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/sbuSefI.png" tvg-id="",TV PRO
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/sbuSefI.png" tvg-id="",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://picon.ml/tnt.png" tvg-id="tnt",ТНТ
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/tnt.png" tvg-id="tnt",ТНТ
 https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
 http://ott-cdn.ucom.am/s19/04.m3u8
-#EXTINF:-1 group-title="Общие" tvg-logo="https://i.imgur.com/2Ydfgw4.png" tvg-id="centralnoye-tv",Центральное телевидение
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/2Ydfgw4.png" tvg-id="centralnoye-tv",Центральное телевидение
 http://ott-cdn.ucom.am/s20/index.m3u8
 
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://epgx.site/p/galaxy-tv.png" tvg-id="galaxy-tv",Galaxy
@@ -289,11 +293,14 @@ http://vod.tv7.fi:1935/tv7-ru/_definst_/smil:tv7-ru.smil/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
 
+
 #EXTINF:-1 group-title="Русская музыка",Новое Радио ТВ
 http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
 
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Arena Premium 3
 http://185.6.22.6:8000/play/a04m
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Астрахань.Ru Sport
+http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://picon.ml/belarus5hd.png" tvg-id="belarus5",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",World Poker Tour
@@ -310,7 +317,7 @@ http://89.254.128.5:22280/tv3_sport_open_hd/video.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Golf Channel
 http://78.130.250.2:8023/play/a02q/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/konny-mir.png" tvg-id="konny-mir",Конный мир
-https://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
+http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="", L'eqipe
 https://d3awaj0f2u3w26.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-gy7euubgydp20-ssai-prd/8fd3efae-4468-4ca0-9486-c6cdcb7b65d7/2.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-tv.png" tvg-id="match-tv",Матч!
@@ -429,6 +436,8 @@ http://31.148.48.15:80/Rodnoe_kino/index.m3u8?token=test
 http://31.148.48.15:80/Russkiy_Bestseller/index.m3u8?token=test
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/russky-detektiv.png" tvg-id="russky-detektiv",Русский детектив
 http://185.235.187.10:8888/play/otb_galichina/index.m3u8
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Русский иллюзион
+http://86.57.178.105:10823
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/russky-roman.png" tvg-id="russky-roman",Русский роман
 http://pl01.spr24.net/142/mpegts?token=7x66S3utpw9RfR
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Series TV
@@ -504,32 +513,6 @@ http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 
-#EXTINF:-1 group-title="All",Backustv Страшное HD
-http://stream.backustv.ru/live/btv2/index.m3u8
-#EXTINF:-1 group-title="All",FOX ABAZA TV
-http://clients.apsny.camera:8080/tv_abaza_tv/index.m3u8
-#EXTINF:-1 group-title="All",РУССКИЙ ИЛЛЮЗИОН
-http://86.57.178.105:10823
-#EXTINF:-1 group-title="All",ТВ ПРО
-http://rtmp.tvpro-online.ru/hls/ch1.m3u8
-#EXTINF:-1 group-title="All",МИР HD
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
-#EXTINF:-1 group-title="All",МИР 24
-http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
-#EXTINF:-1 group-title="All",Суббота! HD
-https://bl.uma.media/live/317845/HLS/4614144_3,2883584_2,1153024_1/1613109268/2fb2de98a984b4b86bc2cdd980da3430/playlist.m3u8
-#EXTINF:-1 group-title="All",1TV HD
-https://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/mono.m3u8?token=tva.org.ua
-#EXTINF:-1 group-title="All",Конный Мир 2
-http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="All",ОНТ
-http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
-#EXTINF:-1 group-title="All",Астрахань.Ru Sport HD
-http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
-#EXTINF:-1 group-title="All",FAN HD
-https://hls.goodgame.ru/manifest/157239_master.m3u8
-#EXTINF:-1 group-title="All",к16
-http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 #EXTINF:-1 group-title="All",Пятница!
 https://bl.uma.media/live/317843/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="All",ТНТ4
@@ -552,8 +535,6 @@ https://kino-1.catcast.tv/content/38617/index.m3u8
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="All",Бокс ТВ
 http://185.235.187.10:8888/play/boks_tv/index.m3u8
-#EXTINF:-1 group-title="All",Конный Мир
-https://bl.uma.media/live/400930/HLS/4614144_3/1/1/playlist.m3u8
 #EXTINF:-1 group-title="All",Детское Кино International
 https://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 group-title="All",Lime Gold TV
@@ -593,8 +574,6 @@ http://92.100.39.32:2289/play/VeremaDelako/index.m3u8
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2476.png" group-title="All",Красная линия
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="All",ОНТ
-https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="All",Пятый канал
 https://sirius.greenhosting.ru/5kanal/video.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="All",РЕН ТВ HD
@@ -812,8 +791,6 @@ http://45.159.74.13:80/AutoPlus/tracks-v1a1/mono.m3u8
 http://bl.uma.media/live/148307/HLS/148307_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/extreme-sports.png" group-title="All",Extreme Sports
 http://45.159.74.14:80/KXLTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/konny-mir.png" group-title="All",Конный Мир
-http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8
 #EXTINF:-1, tvg-logo="http://epg.it999.ru/img2/2530.png" group-title="All", Старт
 https://strm.yandex.ru/kal/start/start0.m3u8
 #EXTINF:-1 tvg-logo="https://epgx.site/p/match-tv.png" group-title="All",Матч! ТВ
