@@ -213,8 +213,12 @@ http://31.148.48.15:80/OTR/index.m3u8?token=test
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Пятница HD
+https://bl.uma.media/live/317843/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Россия 1
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-sd/index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/sts.png" tvg-id="sts",СТС
 http://45.159.74.13:80/CTC/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/nsk8PpB.png" tvg-id="super",Суббота!
@@ -513,10 +517,6 @@ http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 
-#EXTINF:-1 group-title="All",Пятница!
-https://bl.uma.media/live/317843/HLS/4614144_3/2/1/playlist.m3u8
-#EXTINF:-1 group-title="All",ТНТ4
-https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="All",Bridge
 http://185.235.187.10:8888/play/a01w/index.m3u8
 #EXTINF:-1 group-title="All",ТВ3
@@ -578,8 +578,6 @@ https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3
 https://sirius.greenhosting.ru/5kanal/video.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="All",РЕН ТВ HD
 https://rentv-live-megafon2.mediavitrina.ru/hls-livef1/ren-tv/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/984.png" group-title="All",Россия 1
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia1-sd/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/649.png" group-title="All",ТВЦ
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 
