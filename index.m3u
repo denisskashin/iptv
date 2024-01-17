@@ -80,6 +80,8 @@ http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 http://45.159.74.13/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",TiJi
 http://stream01.vnet.am/Tiji/mono.m3u8
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Уникум
+http://92.100.39.32:2289/play/a08v/index.m3u8
 
 #EXTINF:-1 group-title="Здоровье" tvg-logo="https://picon.ml/zhivi.png" tvg-id="zhivi",Живи
 http://31.148.48.15:80/Zhivi/index.m3u8?token=test
@@ -240,6 +242,8 @@ http://dmi3y-tv.ru/hls/CH_1RNKHD720.m3u8
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Пятница
 https://bl.uma.media/live/317843/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Радость моя
+http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",РЕН ТВ
 https://rentv-live-megafon2.mediavitrina.ru/hls-livef1/ren-tv/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
@@ -562,14 +566,6 @@ http://31.148.48.15:80/Sarafan/index.m3u8?token=test
 https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 
-
-
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2287.png" group-title="All",Радость моя
-http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2481.png" group-title="All",СТС Kids
-http://45.159.74.13:80/DisneyChannel/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/unikum.png" group-title="All",Уникум
-http://92.100.39.32:2289/play/a08v/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/323.png" group-title="All",2x2
 http://bl.uma.media/live/317805/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2497.png" group-title="All",Russian Extreme HD
