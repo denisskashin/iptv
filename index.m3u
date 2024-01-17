@@ -103,12 +103,16 @@ http://194.190.78.91:8080/aivaya/index.m3u8
 https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Bridge
 http://185.235.187.10:8888/play/a01w/index.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",VIVA RUSSIA
+https://hls.goodgame.ru/hls/180805.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",CHD-TV Rock
 https://stream1.servers.chd-tv.tk/chdtv-rock/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Deejay TV
 https://streamcdnm4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",V2 Beat
 https://abr.de1se01.v2beat.live/playlist.m3u8
+#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",EURODANCE90 YHD
+https://eurodance90.catcast.tv/content/36987/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Europa Plus TV
 http://strm.yandex.ru/kal/europa_plus_tv/europa_plus_tv0.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://i.imgur.com/19R470V.png" tvg-id="zhar-ptica",Жар птица
@@ -244,6 +248,8 @@ http://195.191.208.80:80/jwt/2e1072857bfd77c6959e9674455f0217d6105966-5633-0-24h
 http://146.158.0.56:80/EGETV/index.m3u8
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://epgx.site/p/idxtra.png" tvg-id="id-xtra-eu",ID Investigation Discovery
 http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
+#EXTINF:-1 group-title="Познавательные" tvg-logo="" tvg-id="",Viju History
+http://92.100.39.32:2289/play/a097/index.m3u8
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://picon.ml/istoria.png" tvg-id="istoria",История
 http://31.148.48.15:80/Istoriya/index.m3u8?token=test
 #EXTINF:-1 group-title="Познавательные" tvg-logo="" tvg-id="",Nasa TV
@@ -274,6 +280,8 @@ http://194.33.181.28:9010/udp/238.255.51.17:1234
 
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/animal-planet-eu.png" tvg-id="animal-planet-eu",Animal Planet
 http://31.148.48.15:80/Animal_Planet_HD/index.m3u8?token=test
+#EXTINF:-1 group-title="Природа" tvg-logo="" tvg-id="",Big Planet
+http://92.100.39.32:2289/play/a09h/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/zhivaya-planeta.png" tvg-id="zhivaya-planeta",Живая планета
 http://31.148.48.15:80/Zhivaya_Planeta/index.m3u8?token=tes
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/zootv.png" tvg-id="zootv",Зоо ТВ
@@ -282,6 +290,8 @@ http://31.148.48.15:80/Zoo_TV/index.m3u8?token=testё
 https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/LoveNature4K2-prod/playlist.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/nat-geo-wild.png" tvg-id="nat-geo-wild",National Geographic Wild
 http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Природа" tvg-logo="" tvg-id="",Viju Nature
+http://92.100.39.32:2289/play/a098/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="" tvg-id="",ZOO Stream
 http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
@@ -303,6 +313,8 @@ http://vod.tv7.fi:1935/tv7-ru/_definst_/smil:tv7-ru.smil/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
 
+#EXTINF:-1 group-title="Русский кинозал" tvg-logo="" tvg-id="",Детское Кино International
+https://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="http://epg.it999.ru/img2/6258.png" tvg-id="kino1int-tviksel",Кино 1 International
 https://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="" tvg-id="",ТВ3
@@ -530,20 +542,7 @@ https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 
 
-#EXTINF:-1 group-title="All",Детское Кино International
-https://autopilot.catcast.tv/content/38720/index.m3u8
-#EXTINF:-1 group-title="All",Lime Gold TV
-https://v2.catcast.tv/content/40546/index.m3u8
-#EXTINF:-1 group-title="All",VIVA RUSSIA
-https://hls.goodgame.ru/hls/180805.m3u8
-#EXTINF:-1 group-title="All",EURODANCE90 YHD
-https://eurodance90.catcast.tv/content/36987/index.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/big-planet.png" group-title="All",Big Planet
-http://92.100.39.32:2289/play/a09h/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="All",Viju History
-http://92.100.39.32:2289/play/a097/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/765.png" group-title="All",Viju Nature
-http://92.100.39.32:2289/play/a098/index.m3u8
+
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1035.png" group-title="All",Travel+Adventure
 http://92.100.39.32:2289/play/a05r/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/555.png" group-title="All",TiJi
