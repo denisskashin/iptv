@@ -11,6 +11,8 @@ http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
 
 #EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
+#EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",БелРос
+http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://epgx.site/p/stv-by.png" tvg-id="stv-by",СТВ
@@ -34,44 +36,50 @@ https://rpn1.bozztv.com/36bay2/gusa-tvsboxing/index.m3u8
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",Wrestling
 https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/2na2.png" tvg-id="2na2",2x2
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/2na2.png" tvg-id="2na2",2x2
 https://bl.uma.media/live/317805/HLS/4614144_3,2883584_2,1153024_1/1613019214/3754dbee773afc02014172ca26d3bb79/playlist.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",Aladdin
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Aladdin
 https://autopilot.catcast.tv/content/34251/index.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/ani.png" tvg-id="ani",Ani
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/ani.png" tvg-id="ani",Ani
 http://185.235.187.10:8888/play/a020/index.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://epgx.site/p/cartoon-network.png" tvg-id="cartoon-network",Cartoon Network
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/cartoon-network.png" tvg-id="cartoon-network",Cartoon Network
 http://89.254.128.5:22280/cartoon_network/video.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",CHD TV
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",CHD TV
 http://194.26.229.213/souzmultfilm/index.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://epgx.site/p/detsky-mir.png" tvg-id="detsky-mir",Детский мир
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/detsky-mir.png" tvg-id="detsky-mir",Детский мир
 http://stream01.vnet.am/CartoonNetwork/mono.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",Жара Kids TV
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Жара Kids TV
 http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/karusel.png" tvg-id="karusel",Карусель
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/karusel.png" tvg-id="karusel",Карусель
 http://178.124.179.122:8088/karusel/index.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",Кнопка ТВ
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Кнопка ТВ
 http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/gulli-girl.png" tvg-id="gulli-girl",Gulli Girl
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/gulli-girl.png" tvg-id="gulli-girl",Gulli Girl
 http://92.100.39.32:2289/play/a05v/index.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/mama.png" tvg-id="mama",Мама
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/mama.png" tvg-id="mama",Мама
 http://stream01.vnet.am/Mama/mono.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/mult.png" tvg-id="mult",Мульт
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/mult.png" tvg-id="mult",Мульт
 http://moobl.ru/hls/Mult_hd.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="" tvg-id="",Mult
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Mult
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=514
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/multimania.png" tvg-id="multimania",Мультимания
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/multimania.png" tvg-id="multimania",Мультимания
 https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/o_.png" tvg-id="o_",O!
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Мультимания (Латвия)
+https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/o_.png" tvg-id="o_",O!
 http://92.100.39.32:2289/play/a08x/index.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/pixel.png" tvg-id="pixel",Піксель
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/pixel.png" tvg-id="pixel",Піксель
 http://185.235.187.10:8888/play/pixel/index.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://i.imgur.com/hIlEfhl.png" tvg-id="",RETRO Cartoon
+#EXTINF:-1 group-title="Детские" tvg-logo="https://i.imgur.com/hIlEfhl.png" tvg-id="",RETRO Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://picon.ml/solnce.png" tvg-id="solnce",Солнце
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Рыжий
+http://ott-cdn.ucom.am/s57/04.m3u8
+#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/solnce.png" tvg-id="solnce",Солнце
 http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
-#EXTINF:-1 group-title="Дети" tvg-logo="https://epgx.site/p/sts-kids-hd.png" tvg-id="sts-kids-hd",СТС Kids
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/sts-kids-hd.png" tvg-id="sts-kids-hd",СТС Kids
 http://45.159.74.13/DisneyChannel/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",TiJi
+http://stream01.vnet.am/Tiji/mono.m3u8
 
 #EXTINF:-1 group-title="Здоровье" tvg-logo="https://picon.ml/zhivi.png" tvg-id="zhivi",Живи
 http://31.148.48.15:80/Zhivi/index.m3u8?token=test
@@ -191,8 +199,10 @@ http://31.148.48.15:80/7TV/index.m3u8?token=test
 http://clients.apsny.camera:8080/tv_abaza_tv/index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Арис 24
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Brics TV HD
-http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Brics TV
+http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Вместе-РФ
+https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/nDWkCmL.png" tvg-id="cctv-ru",CGTN Русский
 http://liveru.cgtn.com/1000r/prog_index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/dumatv.png" tvg-id="dumatv",Дума ТВ
@@ -221,6 +231,8 @@ http://85.238.112.40:8810/hls_sec/239.33.75.33-.m3u8
 http://31.148.48.15:80/OTR/index.m3u8?token=test
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/RUSX0rX.png" tvg-id="pervy",Первый канал
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Первый российский национальный канал HD
+http://dmi3y-tv.ru/hls/CH_1RNKHD720.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Пятница HD
@@ -276,7 +288,7 @@ http://31.148.48.15:80/RTG/index.m3u8?token=test
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/teleputeshestvia.png" tvg-id="teleputeshestvia",Телепутешествия
 http://31.148.48.15:80/Teleputeshestviya/index.m3u8?token=test
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/travel-adventure.png" tvg-id="travel-adventure",Travel Adventure
-http://194.33.181.28:9010/udp/238.255.51.17:1234
+http://92.100.39.32:2289/play/a05r/index.m3u8
 
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/animal-planet-eu.png" tvg-id="animal-planet-eu",Animal Planet
 http://31.148.48.15:80/Animal_Planet_HD/index.m3u8?token=test
@@ -313,6 +325,8 @@ http://vod.tv7.fi:1935/tv7-ru/_definst_/smil:tv7-ru.smil/playlist.m3u8
 #EXTINF:-1 group-title="Религия" tvg-logo="" tvg-id="",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
 
+#EXTINF:-1 group-title="Русский кинозал" tvg-logo="" tvg-id="",Время
+http://92.100.39.32:2289/play/VeremaDelako/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="" tvg-id="",Детское Кино International
 https://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="http://epg.it999.ru/img2/6258.png" tvg-id="kino1int-tviksel",Кино 1 International
@@ -543,27 +557,7 @@ https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1035.png" group-title="All",Travel+Adventure
-http://92.100.39.32:2289/play/a05r/index.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/555.png" group-title="All",TiJi
-http://stream01.vnet.am/Tiji/mono.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/multimania-lv.png" group-title="All",Мультимания (Латвия)
-https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2437.png" group-title="All",Рыжий
-http://ott-cdn.ucom.am/s57/04.m3u8
 
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/983.png" group-title="All",Первый канал HD
-http://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6029.png" group-title="All",Первый российский национальный канал HD
-http://dmi3y-tv.ru/hls/CH_1RNKHD720.m3u8
-#EXTINF:-1 tvg-logo="https://epgx.site/p/tv-brics.png" group-title="All",TV BRICS
-http://rusbrics.mediacdn.ru/cdn/brics/russian/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="All",БелРос
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2398.png" group-title="All",Вместе-РФ
-https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/669.png" group-title="All",Время
-http://92.100.39.32:2289/play/VeremaDelako/index.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4661.png" group-title="All",Звезда Плюс
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2476.png" group-title="All",Красная линия
