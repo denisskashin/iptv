@@ -193,6 +193,9 @@ http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 #EXTINF:-1 group-title="Новости" tvg-logo="" tvg-id="",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
+
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",5 канал
+https://sirius.greenhosting.ru/5kanal/video.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/7tv.png" tvg-id="7tv",7 TV
 http://31.148.48.15:80/7TV/index.m3u8?token=test
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Abaza TV
@@ -210,7 +213,7 @@ https://dumatv.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/zvezda.png" tvg-id="zvezda",Звезда
 http://31.148.48.15:80/Zvezda/index.m3u8?token=test
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/zvezda-plus.png" tvg-id="zvezda-plus",Звезда плюс
-http://146.158.0.56:80/ZvezdaPlus/index.m3u8
+http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Красная линия ТВ
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Mar TV
@@ -235,8 +238,10 @@ https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 http://dmi3y-tv.ru/hls/CH_1RNKHD720.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/N2z3EZC.png" tvg-id="piatnica-int",Пятница International
 http://ott-cdn.ucom.am/s50/index.m3u8
-#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Пятница HD
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Пятница
 https://bl.uma.media/live/317843/HLS/4614144_3/2/1/playlist.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",РЕН ТВ
+https://rentv-live-megafon2.mediavitrina.ru/hls-livef1/ren-tv/tracks-v5a1/mono.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/yOnSc4O.png" tvg-id="rtr-planeta-eu",РТР-Планета
 http://ott-cdn.ucom.am/s15/index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Россия 1
@@ -247,6 +252,8 @@ http://45.159.74.13:80/CTC/tracks-v1a1/mono.m3u8
 https://bl.uma.media/live/317845/HLS/4614144_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/sbuSefI.png" tvg-id="",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
+#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",ТВЦ
+http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/tnt.png" tvg-id="tnt",ТНТ
 https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://i.imgur.com/SjdOaya.png" tvg-id="tnt-int-eu",ТНТ International
@@ -556,18 +563,6 @@ https://livetv.mylifeisgood.net.ru/channels/tnt4.m3u8
 
 
 
-
-
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4661.png" group-title="All",Звезда Плюс
-http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2476.png" group-title="All",Красная линия
-https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="All",Пятый канал
-https://sirius.greenhosting.ru/5kanal/video.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="All",РЕН ТВ HD
-https://rentv-live-megafon2.mediavitrina.ru/hls-livef1/ren-tv/tracks-v5a1/mono.m3u8
-#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/649.png" group-title="All",ТВЦ
-http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2287.png" group-title="All",Радость моя
 http://radm.mediacdn.ru/cdn/radost/playlist_sdhigh.m3u8
