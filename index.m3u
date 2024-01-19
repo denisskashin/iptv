@@ -145,10 +145,6 @@ http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
 http://hz1.teleport.cc/HLS/SD.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epgx.site/p/1muz.png" tvg-id="onemuz",Первый Музыкальный HD
 http://rtmp.one.by:1300
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://epgx.site/p/1muz.png" tvg-id="onemuz",Первый Музыкальный Россия
-http://rtmp.one.by:2200
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://epgx.site/p/1muz.png" tvg-id="onemuz",Первый Музыкальный Россия HD
-http://rtmp.one.by:2300
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Pop Star
 https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",RETRO 80 HD
@@ -164,17 +160,17 @@ https://tis.catcast.tv/content/391/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epgx.site/p/trace-urban.png" tvg-id="trace-urban",Trace Urban
 https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
 
-#EXTINF:-1 group-title="Наука" tvg-logo="" tvg-id="",Приключения HD
+#EXTINF:-1 group-title="Наука" tvg-logo="https://epgx.site/p/prikluchenia-hd.png" tvg-id="prikluchenia-hd",Приключения HD
 http://ott-cdn.ucom.am/s99/04.m3u8
 
-#EXTINF:-1 group-title="Новости" tvg-logo="https://i.imgur.com/VTJqdoX.png" tvg-id="360-int",360°
+#EXTINF:-1 group-title="Новости" tvg-logo="https://epgx.site/p/360-int.png" tvg-id="360-int",360°
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
-#EXTINF:-1 group-title="Новости", tvg-logo="https://i.imgur.com/FwPWS8i.png" tvg-id="izvestia",Известия
+#EXTINF:-1 group-title="Новости", tvg-logo="https://epgx.site/p/izvestia.png" tvg-id="izvestia",Известия
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
-#EXTINF:-1 group-title="Новости" tvg-logo="" tvg-id="",Мир 24
+#EXTINF:-1 group-title="Новости" tvg-logo="https://epgx.site/p/mir24.png" tvg-id="mir-24",Мир 24
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
-#EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",5 канал
+#EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/5kanal-ru.png" tvg-id="5kanal-ru",5 канал
 https://sirius.greenhosting.ru/5kanal/video.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://picon.ml/7tv.png" tvg-id="7tv",7 TV
 http://31.148.48.15:80/7TV/index.m3u8?token=test
@@ -391,6 +387,10 @@ https://kino-1.catcast.tv/content/37742/index.m3u8
 https://kino-1.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="" tvg-id="",Новое Радио ТВ
 http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
+#EXTINF:-1 group-title="Русская музыка" tvg-logo="https://epgx.site/p/1muz.png" tvg-id="onemuz",Первый Музыкальный Россия
+http://rtmp.one.by:2200
+#EXTINF:-1 group-title="Русская музыка" tvg-logo="https://epgx.site/p/1muz.png" tvg-id="onemuz",Первый Музыкальный Россия HD
+http://rtmp.one.by:2300
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://i.imgur.com/lbqM3K2.png" tvg-id="radio-shanson",Радио Шансон
 http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://epgx.site/p/ru-tv.png" tvg-id="ru-tv",RU.TV
