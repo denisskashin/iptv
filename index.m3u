@@ -10,12 +10,10 @@ http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/1auto.png" tvg-id="1auto",Перший автомобільний
 http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/russky-ekstrim.png" tvg-id="russky-ekstrim",Russian Extreme
-http://91.221.201.2:7013/play/a00a/index.m3u8
 
-#EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Беларусь 24
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://epgx.site/p/belarus24.png" tvg-id="belarus24",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
-#EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",БелРос
+#EXTINF:-1 group-title="Беларусь" tvg-logo="https://epgx.site/p/belros.png" tvg-id="tro",БелРос
 http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
 #EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Бобруйск 360
 http://82.209.197.187:8080/udp/239.0.100.38:1234#sapp_flv2mpeg4=1&sapp_live_ts=1&sapp_progressive=1&sapp_tvgid=bobruysk360
@@ -660,6 +658,9 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
 https://live.insporttv.kz:4023/insport/inhockey/chunks.m3u8
 #EXTINF:-1 group-title="Хоккей" tvg-logo="" tvg-id="",KHL
 http://bl.uma.media/live/148307/HLS/148307_3/2/1/playlist.m3u8
+
+#EXTINF:-1 group-title="Экстрим" tvg-logo="https://epgx.site/p/russky-ekstrim.png" tvg-id="russky-ekstrim",Russian Extreme
+http://91.221.201.2:7013/play/a00a/index.m3u8
 
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ
 http://moobl.ru/hls/KVN.m3u8
