@@ -22,8 +22,6 @@ http://80.94.225.126:8080/STV/mono.m3u8
 
 #EXTINF:-1 group-title="Бизнес" tvg-logo="https://epgx.site/p/rbk.png" tvg-id="rbk",РБК
 http://92.50.128.180/utv/1358/index.m3u8
-#EXTINF:-1 group-title="Бизнес" tvg-logo="https://epgx.site/p/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
-http://31.148.48.15:80/Tochka_TV/index.m3u8?token=test
 
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",Бокс ТВ
 http://185.235.187.10:8888/play/boks_tv/index.m3u8
@@ -334,6 +332,8 @@ http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/muzhskoy.png" tvg-id="muzhskoy",Мужской
 http://195.26.83.96:7007/play/11/index.m3u8
+#EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
+http://31.148.48.15:80/Tochka_TV/index.m3u8?token=test
 
 #EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",Deluxe Lounge
 https://stream.ads.ottera.tv/cl/231009cki5o24nsepl2jh7b2eg/1920x1080_5359200_5_f.m3u8
