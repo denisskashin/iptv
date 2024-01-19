@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
 
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Авто 24
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/avto24.png" tvg-id="avto24",Авто 24
 http://stream01.vnet.am/Zagorodniy/mono.m3u8
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/avto-plus.png" tvg-id="avto-plus",Авто Плюс
 http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
@@ -8,11 +8,9 @@ http://31.148.48.15:80/Avto_Plus/index.m3u8?token=test
 http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Motorvision TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Мужской
-http://195.26.83.96:7007/play/11/index.m3u8
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/1auto.png" tvg-id="1auto",Перший автомобільний
 http://185.235.187.10:8888/play/1_avtomobil/index.m3u8
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Russian Extreme
+#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://epgx.site/p/russky-ekstrim.png" tvg-id="russky-ekstrim",Russian Extreme
 http://91.221.201.2:7013/play/a00a/index.m3u8
 
 #EXTINF:-1 group-title="Беларусь" tvg-logo="" tvg-id="",Беларусь 24
@@ -335,6 +333,9 @@ http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8
 http://92.100.39.32:2289/play/a098/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="" tvg-id="",ZOO Stream
 http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
+
+#EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/muzhskoy.png" tvg-id="muzhskoy",Мужской
+http://195.26.83.96:7007/play/11/index.m3u8
 
 #EXTINF:-1 group-title="Релакс" tvg-logo="" tvg-id="",Deluxe Lounge
 https://stream.ads.ottera.tv/cl/231009cki5o24nsepl2jh7b2eg/1920x1080_5359200_5_f.m3u8
