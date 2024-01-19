@@ -58,40 +58,38 @@ http://stream01.vnet.am/CartoonNetwork/mono.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Жара Kids TV
 http://hls-zhara.cdnvideo.ru/zhara/zhara/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/karusel.png" tvg-id="karusel",Карусель
-https://streaming.televizor-24-tochka.ru/live/11-req_offset_28000000-req_window_0-1k_v5.m3u
+http://178.124.179.122:8088/karusel/index.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Кнопка ТВ
 http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/gulli-girl.png" tvg-id="gulli-girl",Gulli Girl
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/mama.png" tvg-id="mama",Мама
 http://stream01.vnet.am/Mama/mono.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/mult.png" tvg-id="mult",Мульт
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/mult.png" tvg-id="mult",Мульт
 http://moobl.ru/hls/Mult_hd.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Mult
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=514
-#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/multimania.png" tvg-id="multimania",Мультимания
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Мультимания
 https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Мультимания (Латвия)
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/multimania-lv.png" tvg-id="multimania-lv",Мультимания (Латвия)
 https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/o_.png" tvg-id="o_",O!
-http://92.100.39.32:2289/play/a08x/index.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/pixel.png" tvg-id="pixel",Піксель
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="o_",O!
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/pixel.png" tvg-id="pixel",Піксель
 http://185.235.187.10:8888/play/pixel/index.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="https://i.imgur.com/hIlEfhl.png" tvg-id="",RETRO Cartoon
+#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",RETRO Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Рыжий
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/ryzhy.png" tvg-id="ryzhy",Рыжий
 http://ott-cdn.ucom.am/s57/04.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="https://picon.ml/solnce.png" tvg-id="solnce",Солнце
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/solnce.png" tvg-id="solnce",Солнце
 http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/sts-kids-hd.png" tvg-id="sts-kids-hd",СТС Kids
 http://45.159.74.13/DisneyChannel/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",TiJi
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/tiji.png" tvg-id="tiji",TiJi
 http://stream01.vnet.am/Tiji/mono.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Уникум
-http://92.100.39.32:2289/play/a08v/index.m3u8
 
-#EXTINF:-1 group-title="Здоровье" tvg-logo="https://picon.ml/zhivi.png" tvg-id="zhivi",Живи
+#EXTINF:-1 group-title="Здоровье" tvg-logo="https://epgx.site/p/zhivi.png" tvg-id="zhivi",Живи
 http://31.148.48.15:80/Zhivi/index.m3u8?token=test
-#EXTINF:-1 group-title="Здоровье" tvg-logo="https://picon.ml/doktor.png" tvg-id="doktor",Доктор
+#EXTINF:-1 group-title="Здоровье" tvg-logo="https://epgx.site/p/doktor.png" tvg-id="doktor",Доктор
 http://31.148.48.15:80/Doktor/index.m3u8?token=test
 
 #EXTINF:-1 group-title="Кулинария" tvg-logo="" tvg-id="",Кулинар ТВ
