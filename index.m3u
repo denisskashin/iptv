@@ -168,6 +168,8 @@ http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/5kanal-ru.png" tvg-id="5kanal-ru",5 канал
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/7tv.png" tvg-id="7tv",7 TV
 http://31.148.48.15:80/7TV/index.m3u8?token=test
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Abaza TV
