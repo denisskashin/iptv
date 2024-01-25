@@ -61,6 +61,7 @@ http://178.124.179.122:8088/karusel/index.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Кнопка ТВ
 http://api.alpaca.t62a.com/hls/9116/stream0.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/gulli-girl.png" tvg-id="gulli-girl",Gulli Girl
+http://135.181.115.81/russia/gulli_girl/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/mama.png" tvg-id="mama",Мама
 http://stream01.vnet.am/Mama/mono.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/mult.png" tvg-id="mult",Мульт
@@ -136,7 +137,7 @@ https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 http://89.254.128.5:22280/mtv_00/video.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="mtv-rocks",MTV 90
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epgx.site/p/muztv.png" tvg-id="muztv",Муз ТВ
-http://stream01.vnet.am/MuzTv/mono.m3u8
+https://streaming.televizor-24-tochka.ru/live/20-req_offset_28000000-req_window_0-1k_v5.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",MUZZIK HIP-HOP
 https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://epgx.site/p/muzyka-pervogo.png" tvg-id="muzyka-pervogo",Музыка Первого
@@ -170,6 +171,7 @@ http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/playlist.m3u8
 
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/5kanal-ru.png" tvg-id="5kanal-ru",5 канал
+https://tv5-live-megafon2.mediavitrina.ru/hls-livef2/tv-5/tracks-v3a1/mono.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://epgx.site/p/7tv.png" tvg-id="7tv",7 TV
 http://31.148.48.15:80/7TV/index.m3u8?token=test
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",Abaza TV
