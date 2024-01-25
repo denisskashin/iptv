@@ -86,7 +86,8 @@ http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 http://45.159.74.13/DisneyChannel/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/tiji.png" tvg-id="tiji",TiJi
 http://stream01.vnet.am/Tiji/mono.m3u8
-#EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Уникум
+#EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/unikum.png" tvg-id="detsky",Уникум
+http://86.57.211.182:32200/Unikum/index.m3u8
 
 #EXTINF:-1 group-title="Здоровье" tvg-logo="https://epgx.site/p/zhivi.png" tvg-id="zhivi",Живи
 http://31.148.48.15:80/Zhivi/index.m3u8?token=test
