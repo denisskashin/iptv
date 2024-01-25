@@ -73,6 +73,7 @@ https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/nickelodeon-ru.png" tvg-id="nickelodeon-ru",Nickelodeon
 http://135.181.115.81/russia/nickelodeon/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="o_",O!
+http://46.151.151.245:10007/play/a006
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/pixel.png" tvg-id="pixel",Піксель
 http://185.235.187.10:8888/play/pixel/index.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",RETRO Cartoon
@@ -478,12 +479,10 @@ http://82.209.197.187:8080/udp/239.0.100.124:1234
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",43 Канал
 http://sochinskayatrk.ru/hdtv/hls/43Channel_hd/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/amedia1.png" tvg-id="amedia1",Amedia 1
-http://176.222.190.11/btv/SWM/A1/A1.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/amedia2.png" tvg-id="amedia2",Amedia 2
 http://ott-cdn.ucom.am/s33/04.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Akudji
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/amedia-premium.png" tvg-id="amedia-premium",Amedia Premium
-http://91.207.115.228:5000/c58
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/backustv.png" tvg-id="backustv",Backus TV
 https://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/backustv-horror.png" tvg-id="backustv-horror",Backus TV Horror
