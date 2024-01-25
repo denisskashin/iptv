@@ -89,7 +89,7 @@ http://31.148.48.15:80/Doktor/index.m3u8?token=test
 #EXTINF:-1 group-title="Кулинария" tvg-logo="" tvg-id="",Кулинар ТВ
 http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 #EXTINF:-1 group-title="Кулинария" tvg-logo="https://epgx.site/p/kuxnia-tv.png" tvg-id="kuxnia-tv",Кухня ТВ
-http://185.235.187.10:8888/play/kuhnya_tv/index.m3u8
+http://stream01.vnet.am/KukhnyaTv/mono.m3u8
 
 #EXTINF:-1 group-title="Культура" tvg-logo="" tvg-id="",Культ Медиа
 http://213.108.175.226/telplushd/index.m3u8
@@ -234,6 +234,7 @@ http://livetv.mylifeisgood.net.ru/channels/che.m3u8
 
 
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://epgx.site/p/viasat-history.png" tvg-id="viasat-history",Viju History
+http://135.181.115.81/russia/viasat_history/playlist.m3u8
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://epgx.site/p/viasat-explore.png" tvg-id="viasat-explore",Viju Explore
 http://91.205.199.3:80/viasatexplorer/index.m3u8
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://epgx.site/p/galaxy-tv.png" tvg-id="galaxy-tv",Galaxy
@@ -282,6 +283,9 @@ http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/animal-planet-eu.png" tvg-id="animal-planet-eu",Animal Planet
 http://135.181.115.81/russia/animal_planet/playlist.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/big-planet.png" tvg-id="big-planet",Big Planet
+http://178.132.117.42:9999/ntv
+#EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye",Домашние Животные
+http://109.239.208.82:80/animals/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/zhivaya-planeta.png" tvg-id="zhivaya-planeta",Живая планета
 http://109.239.208.82:80/liveplanet/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="" tvg-id="",Зоопарк
@@ -293,6 +297,7 @@ https://d18dyiwu97wm6q.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/nat-geo-wild.png" tvg-id="nat-geo-wild",National Geographic Wild
 http://45.159.74.13:80/NatGeoWild/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/viasat-nature.png" tvg-id="viasat-nature",Viju Nature
+http://195.26.83.96:7013/play/37/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="" tvg-id="",ZOO Stream
 http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
@@ -341,9 +346,7 @@ http://91.221.201.2:7013/play/a009/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/vremia.png" tvg-id="vremia",Время
 http://46.151.151.245:10007/play/a002
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/tv1000-russkoe-kino.png" tvg-id="tv1000-russkoe-kino",Viju TV1000 Русское кино
-http://109.197.192.121:8080/tv1000ru/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="" tvg-id="",Cinema Classic
-https://api.alpaca.t62a.com/hls/9114/stream0.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское Кино International
 https://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/domashny-int.png" tvg-id="domashny-int",Домашний
