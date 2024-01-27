@@ -434,6 +434,8 @@ http://45.159.74.14:80/KXLTV/index.m3u8
 http://89.254.128.5:22280/tv3_sport_open_hd/video.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Golf Channel
 http://78.130.250.2:8023/play/a02q/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",KHL
+http://bl.uma.media/live/148307/HLS/148307_3/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/konny-mir.png" tvg-id="konny-mir",Конный мир
 http://cdn-01.bonus-tv.ru:80/konnyimir/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-tv.png" tvg-id="match-tv",Матч!
@@ -594,11 +596,6 @@ http://185.235.187.10:8888/play/match_futbol2_HD/index.m3u8
 http://bl.uma.media/live/126865/HLS/6866944_4/2/1/playlist.m3u8
 #EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",Real Madrid
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
-
-#EXTINF:-1 group-title="Хоккей" tvg-logo="" tvg-id="",IN Hockey
-https://live.insporttv.kz:4023/insport/inhockey/chunks.m3u8
-#EXTINF:-1 group-title="Хоккей" tvg-logo="" tvg-id="",KHL
-http://bl.uma.media/live/148307/HLS/148307_3/2/1/playlist.m3u8
 
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ
 http://moobl.ru/hls/KVN.m3u8
