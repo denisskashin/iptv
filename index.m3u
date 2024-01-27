@@ -454,13 +454,12 @@ http://89.254.128.5:22280/qsport/index.m3u8
 https://d2xeo83q8fcni6.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/SkiTV-SynapseTV/193.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/start.png" tvg-id="start",Старт
 https://strm.yandex.ru/kal/start/start0.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Tennis Channel
+http://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="" tvg-id="",Horizon Sports
 https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
 #EXTINF:0 ggroup-title="Спорт" tvg-logo="https://epgx.site/p/xsport-ua.png" tvg-id="xsport-ua",XSport
 http://iptv.prosto.tv:7000/ch110/video.m3u8
-
-#EXTINF:-1 group-title="Теннис" tvg-logo="" tvg-id="",Tennis Channel
-http://tennischannel-intl-samsung-uk.amagi.tv/playlist720_p.m3u8
 
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/1-2.png" tvg-id="1-2",1+2
 http://89.254.128.5:22280/1_2/mono.m3u8
