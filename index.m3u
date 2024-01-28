@@ -602,3 +602,49 @@ http://moobl.ru/hls/KVN.m3u8
 http://178.124.179.122:8088/Sarafan/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/tnt4.png" tvg-id="tnt4",ТНТ4
 https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png"" group-title="test",Discovery HD
+http://edge02.odtv.az/o5/discovery/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/NfnAiTR.png" group-title="test",365 Дней ТВ
+http://146.158.0.56:80/365dney/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/russky-bestseller.png" group-title="test",Русский бестселлер
+http://dmi3y-tv.ru/hls/CH_RUSSKIY_BESTSELLER.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="test",Охота и Рыбалка
+http://dmi3y-tv.ru/hls/CH_OHOTAIRYBALKA.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/ntv-amerika.png" group-title="test",НТВ Америка
+http://4.59.210.197:8815/udp/127.0.0.1:6003
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6261.png" group-title="test",Детское кино International
+https://v2.catcast.tv/content/38720/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2285.png" group-title="test",Бокс ТВ
+http://moobl.ru/hls/Boks_tv_hd.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="test",Discovery HD 2
+http://moobl.ru/hls/Discovery_Channel_hd.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/idxtra.png" group-title="test", ID Xtra Европа
+http://moobl.ru/hls/Investigation_Discovery_hd.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2283.png" group-title="test",Дикий
+http://moobl.ru/hls/Dikiy.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/oxotnik-i-rybolov.png" group-title="test", Охотник и Рыболов
+http://ott-cdn.ucom.am/s62/index.m3u8
+#EXTINF:-1 id="neizvestnaya-rosia" tvg-logo="https://epgx.site/p/neizvestnaya-rosia.png" group-title="test",Неизвестная Россия
+http://dmi3y-tv.ru/hls/CH_UNKNOWN_RUSSIAHD.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/euronews.png" group-title="test",EuroNews
+http://185.32.44.154/euronews/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="test",Первый Космический
+http://stream01.vnet.am/Evrika/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/311.png" group-title="test",.Red
+http://91.207.115.228:5000/c78
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/516.png" group-title="test",.Sci-Fi
+http://91.207.115.228:5000/c77
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/127.png" group-title="test",Viju TV1000
+http://moobl.ru/hls/TV1000_hd.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="test",Start World
+http://moobl.ru/hls/START_World_HD.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6241.png" group-title="test",Start Air
+http://moobl.ru/hls/START_Air_HD.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/sportivny.png" group-title="test",Спортивный
+http://moobl.ru/hls/Sportivny_hd.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/footbolny.png" group-title="test",Футбольный
+http://moobl.ru/hls/Futbolniy_hd.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/xokkejny.png" group-title="test",Хоккейный
+http://moobl.ru/hls/Hokkeyny_hd.m3u8
