@@ -36,7 +36,6 @@ http://ott-cdn.ucom.am/s31/04.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/boomerang.png" tvg-id="boomerang",Cartoonito
 http://135.181.115.81/russia/boomerang/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/cartoon-network.png" tvg-id="cartoon-network",Cartoon Network
-http://135.181.115.81/russia/cartoon/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",CHD TV
 http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/detsky-mir.png" tvg-id="detsky-mir",Детский мир
@@ -288,9 +287,7 @@ http://109.239.208.82:80/tochka/index.m3u8
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://epgx.site/p/travel-adventure.png" tvg-id="travel-adventure",Travel Adventure
 
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/animal-planet-eu.png" tvg-id="animal-planet-eu",Animal Planet
-http://135.181.115.81/russia/animal_planet/playlist.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/big-planet.png" tvg-id="big-planet",Big Planet
-http://178.132.117.42:9999/ntv
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye",Домашние Животные
 http://109.239.208.82:80/animals/index.m3u8
 #EXTINF:-1 group-title="Природа" tvg-logo="https://epgx.site/p/zhivaya-planeta.png" tvg-id="zhivaya-planeta",Живая планета
@@ -605,3 +602,100 @@ https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
 http://178.124.179.122:8088/Sarafan/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/tnt4.png" tvg-id="tnt4",ТНТ4
 https://bl.uma.media/live/317849/HLS/4614144_3/2/1/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1000.png" group-title="test",ОТР
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_OTR/variant.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/427.png" group-title="test",Пятый канал
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/18.png" group-title="test",РЕН ТВ HD
+http://185.37.150.40:8092/RenTV_HD/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="test",КВН ТВ
+https://strm.yandex.ru/kal/kvn_tv_belarus/kvn_tv_belarus0.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1011.png" group-title="test",Viju+ Comedy HD
+http://91.207.115.228:5000/c143
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1013.png" group-title="test",Viju+ Premiere HD
+http://91.207.115.228:5000/c145
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="test",Start World
+http://212.22.76.51:83/START_World/tracks-v1a1/mono.m3u
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7314.png" group-title="test",Кинеко
+http://217.25.80.15/FOX_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/644.png" group-title="test",Киномикс
+https://strm.yandex.ru/kal/kinomiks_belarus/kinomiks_belarus0.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/987.png" group-title="test",Киносемья
+https://strm.yandex.ru/kal/kinosemya_belarus/kinosemya_belarus0.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/462.png" group-title="test",Киносвидание
+https://strm.yandex.ru/kal/kinosvidanie_sd_belarus/kinosvidanie_sd_belarus0.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/267.png" group-title="test",Viju TV1000 Русское кино
+http://94.232.104.237:8000/play/041/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6241.png" group-title="test",Start Air
+http://212.22.76.51:83/START_Air/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2310.png" group-title="test",Первый Космический
+http://217.25.80.15/Eureka_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2011.png" group-title="test",Ani
+http://94.232.104.237:8000/play/123/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/410.png" group-title="test",Da Vinci
+http://212.22.76.51:83/davinci/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/gulli-girl.png" group-title="test",Gulli Girl
+http://212.22.76.51:83/Gulli_Girl/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="https://picon.pp.ua/liova.png"" group-title="test",Лёва HD
+http://strm.yandex.ru/kal/leva/leva0.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1332.png" group-title="test",Мульт
+https://strm.yandex.ru/kal/mult_belarus/mult_belarus0.m3u8
+#EXTINF:-1 tvg-logo="https://dvb.by/sources/logos/6870.png" group-title="test",Мультиландия
+http://91.207.115.228:5000/c67
+#EXTINF:-1 tvg-logo="https://picon.pp.ua/smaylik-tv.png" group-title="test",Смайлик ТВ
+https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2832.png" group-title="test",Блокбастер
+http://65.21.196.155/russia/blokbaster/playlist.m3u
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/304.png" group-title="test",Домашний HD
+http://109.239.138.241:8000/domashniyott
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/79.png" group-title="test",СТС
+http://109.239.138.241:8000/stsott
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/165.png" group-title="test",Жара
+http://94.232.104.237:8000/play/095/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2278.png" group-title="test",Шансон ТВ
+http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2838.png" group-title="test",Viju+ Serial HD
+http://31.148.6.4:10215/index.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/kino-24.png" group-title="test",Kino 24
+https://sirius.greenhosting.ru/Kino24Ru/video.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/477.png" group-title="test",Любимое Кино
+http://212.22.76.51:83/Lubimoe_kino/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2447.png" group-title="test",Победа
+http://hls.k-telecom.org:8081/kt/238/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2285.png" group-title="test",Бокс ТВ
+http://45.11.139.43:8081/stream/boks_tv/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/animal-planet-eu.png" group-title="test",Animal Planet HD
+http://91.207.115.228:5000/c147
+#EXTINF:-1 tvg-logo="https://epgx.site/p/big-planet.png" group-title="test",Big Planet
+http://91.207.115.228:5000/c94
+#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="test",Discovery HD
+http://45.159.74.14:80/InvestigationDiscovery/tracks-v1a2/mono.m3u8
+#EXTINF:-1 tvg-logo="https://epgx.site/p/idxtra.png" group-title="test", ID Xtra Европа
+http://94.232.104.237:8000/play/109/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/4826.png" group-title="test",Viju History
+http://31.131.136.4:8001/play/e00
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2012.png" group-title="test",Viju+ Planet
+http://31.131.136.4:8001/play/e006
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/7632.png" group-title="test",Terra
+http://hls.k-telecom.org:8081/kt/102/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/1035.png" group-title="test",Travel+Adventure
+http://212.22.76.51:83/Travel_Adventure/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/6031.png" group-title="test",Министерство идей
+http://hls.k-telecom.org:8081/kt/81/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2424.png" group-title="test",Телепутешествия
+http://94.232.104.237:8000/play/080/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2483.png" group-title="test",Дикая Охота HD
+http://hls.k-telecom.org:8081/kt/169/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="test",Дикая Рыбалка HD
+http://31.148.6.4:10243/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/2283.png" group-title="test",Дикий
+http://212.22.76.51:82/Dikij/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/113.png" group-title="test",ЖИВИ!
+http://94.228.204.166:8000/play/0097
+#EXTINF:-1 tvg-logo="https://epgx.site/p/zdorovoe-tv.png" group-title="test",Здоровое ТВ
+http://178.124.179.122:8088/ZdorovoeTV/index.m3u8
+#EXTINF:-1 tvg-logo="http://epg.it999.ru/img2/434.png" group-title="test",Усадьба
+http://94.232.104.237:8000/play/121/index.m3u8
