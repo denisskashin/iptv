@@ -640,3 +640,31 @@ https://strm.yandex.ru/kal/kvn_tv_belarus/kvn_tv_belarus0.m3u8
 http://86.57.178.105:10822
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/tnt4.png" tvg-id="tnt4",ТНТ4
 http://91.205.199.3:80/tnt4/index.m3u8
+
+
+#EXTINF:-1 tvg-id="vremia" tvg-logo="https://epgx.site/p/vremia.png" group-title="test",Время (EDTV 576p)
+http://92.242.110.52:9835/udp/238.1.11.25:1234
+#EXTINF:-1 tvg-id="multimania" tvg-logo="https://epgx.site/p/multimania.png" group-title="test",Мультиландия (EDTV 576p)
+http://92.242.110.52:9835/udp/238.1.7.22:1234
+#EXTINF:-1 tvg-id="detsky" tvg-logo="https://epgx.site/p/unikum.png" group-title="test",Уникум (EDTV 576p)
+http://86.57.211.182:32200/Unikum/index.m3u8
+#EXTINF:-1 tvg-id="domashny" tvg-logo="https://epgx.site/p/domashny.png" group-title="test",Домашний (EDTV 576p)
+http://91.205.199.3:80/domashni/index.m3u8
+#EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png" group-title="test",Домашний (FHD)
+https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="test",Пятница (EDTV 576p)
+http://31.148.6.9:10016/index.m3u8
+#EXTINF:-1 tvg-id="sarafan" tvg-logo="https://epgx.site/p/sarafan.png" group-title="test",Сарафан (EDTV 576p)
+http://178.124.179.122:8088/Sarafan/index.m3u8
+#EXTINF:-1 tvg-id="sony-scifi" tvg-logo="https://epgx.site/p/sony-scifi.png" group-title="test",.sci-fi (EDTV 576p)
+http://92.242.110.52:9835/udp/238.1.8.18:1234
+#EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://epgx.site/p/vip-premiere.png" group-title="test",Viju+ Premiere (EDTV 576p)
+http://188.113.190.15/201/tracks-v1a1/index.m3u
+#EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://epgx.site/p/russkaya-komedia.png" group-title="test",Комедия (EDTV 576p)
+http://91.142.158.107:8092/play/30/index.m3u8
+#EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.it999.ru/img2/2447.png" group-title="test",Победа  (480p)
+http://ott-cdn.ucom.am/s47/04.m3u8
+#EXTINF:-1 tvg-id="big-planet" tvg-logo="https://epgx.site/p/big-planet.png" group-title="test",Big Planet (EDTV 576p)
+http://92.242.110.52:9835/udp/238.1.8.20:1234
+#EXTINF:-1 tvg-logo="https://epgx.site/p/discovery-channel.png" group-title="test",Discovery (FHD)
+http://45.159.74.14/DiscoveryChannel/tracks-v1a2/mono.m3u8
