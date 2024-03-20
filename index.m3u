@@ -618,3 +618,13 @@ http://188.113.190.15/48/tracks-v1a1/index.m3u8
 http://178.124.179.122:8088/Sarafan/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/tnt4.png" tvg-id="tnt4",ТНТ4
 http://91.205.199.3:80/tnt4/index.m3u8
+
+
+#EXTINF:-1 tvg-id="eurosport1" tvg-logo="https://epgx.site/p/eurosport1.png" group-title="test",Eurosport 1 (HD)
+http://45.159.74.14:80/Eurosport/tracks-v1a2/mono.m3u8
+#EXTINF:-1 tvg-id="sarafan" tvg-logo="https://epgx.site/p/sarafan.png" group-title="test",Сарафан (EDTV 576p)
+http://178.124.179.122:8088/Sarafan/index.m3u
+#EXTINF:-1 tvg-id="detsky" tvg-logo="https://epgx.site/p/unikum.png" group-title="test",Уникум (EDTV 576p)
+http://188.113.190.15/41/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="viju-tv1000-novella" tvg-logo="https://epgx.site/p/viju-tv1000-novella.png" group-title="test",Viju TV1000 Новелла (HD)
+http://158.101.194.132:8080/channel/n51877d66/index.m3u8?q=5656d7c7c902657d3491c0330b58ec0e
