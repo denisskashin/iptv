@@ -626,5 +626,53 @@ http://45.159.74.14:80/Eurosport/tracks-v1a2/mono.m3u8
 http://178.124.179.122:8088/Sarafan/index.m3u
 #EXTINF:-1 tvg-id="detsky" tvg-logo="https://epgx.site/p/unikum.png" group-title="test",Уникум (EDTV 576p)
 http://188.113.190.15/41/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="test",Рен ТВ (HD)
+http://185.37.150.46:8092/RenTV_HD/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="gags-network" tvg-logo="https://epgx.site/p/gags-network.png" group-title="test",GagsNetwork (EDTV 576p)
+http://91.205.199.3:80/gagsnetwork/index.m3u8
+#EXTINF:-1 tvg-id="bridge-tv-rock" tvg-logo="https://epgx.site/p/bridge-tv-rock.png" group-title="test",Bridge Rock (HD)
+http://strm.yandex.ru/kal/bridge_tv_fresh/bridge_tv_fresh0.m3u8
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://epgx.site/p/bridge-tv-shlager.png" group-title="test",Bridge Шлягер (WSVGA)
+http://strm.yandex.ru/kal/bridgetv_shlyager/bridgetv_shlyager0.m3u8
+#EXTINF:-1 tvg-id="kinoxit" tvg-logo="https://epgx.site/p/kinoxit.png" group-title="test",Кинохит (EDTV 576p)
+http://109.248.236.21:4433/udp/238.1.1.53:1234
+#EXTINF:-1 tvg-id="okko-sport" tvg-logo="https://epgx.site/p/okko-sport.png" group-title="test",Okko.Спорт (HD)
+http://de.seetv.cc/play/7337/5EC8E8128D03C14/video.m3u8
+#EXTINF:-1 tvg-id="tlc" tvg-logo="https://epgx.site/p/tlc.png" group-title="test",TLC (EDTV 576p)
+http://45.15.43.12:80/tlc/video.m3u8?token=test
+#EXTINF:-1 tvg-id="neizvestnaya-rosia" tvg-logo="https://epgx.site/p/neizvestnaya-rosia.png" group-title="test",Неизвестная Россия (WSVGA)
+http://tv.tvip-media.net/nanohd/tracks-v1a0/time-0.m3u8
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://epgx.site/p/ntv.png" group-title="test",НТВ (WSVGA)
+https://streaming.televizor-24-tochka.ru/live/7-req_offset_28000000-req_window_0-1k_v5.m3u8
+#EXTINF:-1 tvg-id="karusel" tvg-logo="https://epgx.site/p/karusel.png" group-title="test",Карусель (WSVGA)
+https://player.smotrim.ru/iframe/stream/live_id/61126
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://epgx.site/p/piatnica.png" group-title="test",Пятница (WSVGA)
+https://streaming.televizor-24-tochka.ru/live/19-req_offset_28000000-req_window_0-1k_v5.m3u8
+#EXTINF:-1 tvg-id="super" tvg-logo="https://epgx.site/p/subbota.png" group-title="test",Суббота (EDTV 576p)
+http://91.205.199.7:8000/play/a0si
+#EXTINF:-1 tvg-id="tnt" tvg-logo="http://epg.it999.ru/img2/353.png" group-title="test",ТНТ (EDTV 576p)
+http://45.15.43.12:80/tnt/video.m3u8?token=test
 #EXTINF:-1 tvg-id="viju-tv1000-novella" tvg-logo="https://epgx.site/p/viju-tv1000-novella.png" group-title="test",Viju TV1000 Новелла (HD)
 http://158.101.194.132:8080/channel/n51877d66/index.m3u8?q=5656d7c7c902657d3491c0330b58ec0e
+#EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://epgx.site/p/russkaya-komedia.png" group-title="test",Комедия (EDTV 576p)
+http://188.113.190.15/214/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="test",НТВ Сериал (EDTV 576p)
+http://91.205.199.3:80/ntvserial/index.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="http://epg.it999.ru/img2/2041.png" group-title="test",НТВ Хит (EDTV 576p)
+http://92.242.110.52:9835/udp/238.1.7.27:1234
+#EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://epgx.site/p/russky-bestseller.png" group-title="test",Русский бестселлер (EDTV 576p)
+http://188.113.190.15/100/tracks-v1a1/index.m3u8
+#EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://epgx.site/p/russky-detektiv.png" group-title="test",Русский детектив (EDTV 576p)
+http://176.113.48.221:8986/45
+#EXTINF:-1 tvg-id="plan-b" tvg-logo="https://epgx.site/p/plan-b.png" group-title="test",Plan B (HD)
+http://88.85.172.243:7012/play/a028
+#EXTINF:-1 tvg-id="trashtv" tvg-logo="https://epgx.site/p/trashtv.png" group-title="test",Trash (HD)
+https://livetv.mylifeisgood.net.ru/channels/trash.m3u8
+#EXTINF:-1 tvg-id="star-family" tvg-logo="https://epgx.site/p/star-family.png" group-title="test",Star Family (Латвия, HD)
+http://88.135.128.20:7272/MTsnTXg1kReNwSf
+#EXTINF:-1 tvg-id="dikaya-oxota-hd" tvg-logo="http://epg.it999.ru/img2/2483.png" group-title="test,Дикая Охота (HD)
+http://88.85.172.243:7012/play/a027
+#EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="test",Дикая Рыбалка (HD)
+http://88.85.172.243:7012/play/a026
+#EXTINF:-1 tvg-id="zhivi-aktivno" tvg-logo="http://epg.it999.ru/img2/5881.png" group-title="test",Живи Активно (HD)
+https://livetv.mylifeisgood.net.ru/channels/jiviactivno.m3u8
