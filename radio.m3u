@@ -1,0 +1,34 @@
+#EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
+
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/avtoradio.png" tvg-id="avtoradio",Авторадио
+http://ic7.101.ru:8000/v3_1
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/dorozhnoe-radio.png" tvg-id="dorozhnoe-radio",Дорожное Радио
+http://emgregion.hostingradio.ru:8064/moscow.dorognoe.mp3
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-dfm.png" tvg-id="radio-dfm",Радио DFM
+http://dfm.hostingradio.ru/dfm128.mp3
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-mayak.png" tvg-id="radio-mayak",Радио Маяк
+http://icecast.vgtrk.cdnvideo.ru/mayakfm
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-mir.png" tvg-id="radio-mir",Радио Мир
+http://icecast-mirtv.cdnvideo.ru:8000/radio_mir_256
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-na7xolmax.png" tvg-id="radio-na7xolmax",Радио на семи холмах
+http://emgregion.hostingradio.ru:8064/moscow.radio7.mp3
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-romantika.png" tvg-id="radio-romantika",Радио Романтика
+http://ic7.101.ru:8000/v4_1
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-shanson.png" tvg-id="radio-shanson",Радио Шансон
+http://chanson.hostingradio.ru:8041/chanson256.mp3
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-vania.png" tvg-id="radio-vania",Радио Ваня
+http://icecast-radiovanya.cdnvideo.ru:8000/radiovanya
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/retro-fm.png" tvg-id="retro-fm",Ретро FM
+http://emgregion.hostingradio.ru:8064/moscow.retrofm.mp3
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/xit-fm.png" tvg-id="xit-fm",Хит FM
+http://hitfm.hostingradio.ru/hitfm128.mp3
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/yumor-fm.png" tvg-id="yumor-fm",Юмор FM
+http://ic7.101.ru:8000/v5_1
+#EXTINF:-1 group-title="Радио" tvg-logo="" tvg-id="",Новое Радио ТВ
+http://hls-video01.cdnvideo.ru/video01/smil:video01.smil/playlist.m3u8
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-shanson.png" tvg-id="radio-shanson",Радио Шансон
+http://chanson-video.hostingradio.ru:8080/hls/chansonabr/live.m3u8
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/radio-strana-fm-tv.png" tvg-id="radio-strana-fm-tv",Страна FM
+http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
+#EXTINF:-1 group-title="Радио" tvg-logo="https://epgx.site/p/shanson-tv.png" tvg-id="shanson-tv",Шансон ТВ
+http://hls-shansontv.cdnvideo.ru/shansontv/shansontv.sdp/playlist.m3u8

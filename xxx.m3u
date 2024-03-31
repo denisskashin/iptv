@@ -1,7 +1,14 @@
 #EXTM3U url-tvg="https://iptvx.one/EPG/epg.xml.gz"
 
-#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/brazzers.png" tvg-id="brazzers-tv-europe",Brazzers TV Europe (HD) #http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
-#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/kino18plus-tviksel.png" tvg-id="kino18plus-tviksel",Кино 18+ #https://autopilot.catcast.tv/content/40381/index.m3u8
-#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/sholk.png" tvg-id="sholk"",Шёлк (HD) #http://live-1.otcnet.ru/shelkhdmts/index.m3u8
-#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/extasytv.png" tvg-id="extasytv",Extasy (HD) #http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
-#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/passionxxx.png" tvg-id="passionxxx",PassionXXX (HD) #https://5f22d76e220e1.streamlock.net/canale9/canale9/playlist.m3u8
+#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/brazzers.png" tvg-id="brazzers-tv-europe",Brazzers TV Europe
+http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
+#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/kino18plus-tviksel.png" tvg-id="kino18plus-tviksel",Кино 18+
+https://autopilot.catcast.tv/content/40381/index.m3u8
+#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/sholk.png" tvg-id="sholk"",Шёлк
+http://live-1.otcnet.ru/shelkhdmts/index.m3u8
+#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/extasytv.png" tvg-id="extasytv",Extasy
+http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
+#EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/passionxxx.png" tvg-id="passionxxx",PassionXXX
+https://5f22d76e220e1.streamlock.net/canale9/canale9/playlist.m3u8
+#EXTINF:-1 tvg-id="playboy-tv" tvg-logo="https://epgx.site/p/playboy-tv.png" group-title="Для взрослых",Playboy
+http://190.11.225.124:5000/live/playboy_hd/playlist.m3u8
