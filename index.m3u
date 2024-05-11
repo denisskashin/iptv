@@ -18,7 +18,8 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="https://epgx.site/p/box-tv.png" tvg-id="box-tv",Бокс ТВ
 http://45.11.139.43:8081/stream/boks_tv/hls/playlist.m3u8
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="https://epgx.site/p/match-boec.png" tvg-id="match-boets",Матч! Боец
-#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",ММА-TV
+#EXTINF:-1 group-title="Бокс и единборства" tvgid="2326" tvg-logo="http://epg.it999.ru/img2/2326.png",MMA TV
+http://188.113.190.15/305/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",Wrestling
 https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 
@@ -111,6 +112,7 @@ http://188.113.190.15/136/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",RETRO Cartoon
 https://stmv1.srvif.com/retrotv/retrotv/playlist-480p.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/ryzhy.png" tvg-id="ryzhy",Рыжий
+https://strm.yandex.ru/kal/ryzhii_sd_belarus/ryzhii_sd_belarus0.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/smaylik-tv.png" tvg-id="smaylik-tv",Смайлик ТВ
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/ngrp:Smilik.stream-adaptive/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://epgx.site/p/solnce.png" tvg-id="solnce",Солнце
@@ -388,6 +390,7 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="" tvg-id="",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/russky-ekstrim.png" tvg-id="russky-ekstrim",Russian Extreme
+http://195.26.83.96:7029/play/a008
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/tvmchannel.png" tvg-id="tvmchannel",TVM Channel
 http://origin5.mediacdn.ru/live/tvm/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
@@ -457,7 +460,7 @@ http://176.113.48.221:8986/45
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/russky-illuzion.png" tvg-id="russky-illuzion",Русский иллюзион
 http://195.191.130.11:9000/play/a00u/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/russky-roman.png" tvg-id="russky-roman",Русский роман
-http://stream01.vnet.am/RusskiyRoman/mono.m3u8
+http://188.113.190.15/221/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/star-cinema.png" tvg-id="star-cinema",Star Cinema
 http://88.135.128.20:7272/szWljUvHlTAKXVa
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://epgx.site/p/star-family.png" tvg-id="star-family",Star Family
@@ -545,13 +548,15 @@ http://88.135.128.20:7272/qx4hiIaBoQlLK7f
 http://sochinskayatrk.ru/hdtv/hls/43Channel_hd/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/8by.png" tvg-id="8kanal-by",8 канал
 http://82.209.197.187:8080/udp/239.0.100.124:1234
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Akudji
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/amedia1.png" tvg-id="amedia1",Amedia 1
 http://158.101.222.193:88/vesti/play.php?channel_id=43
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/amedia2.png" tvg-id="amedia2",Amedia 2
 http://ott-cdn.ucom.am/s33/04.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Akudji
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/amedia-hit.png" tvg-id="amedia-hit",Amedia Hit (HD)
+http://stream01.vnet.am/Nauka/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/amedia-premium.png" tvg-id="amedia-premium",Amedia Premium
-http://92.242.110.52:9835/udp/238.1.11.4:1234
+http://stream01.vnet.am/AmediaPremium/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/backustv.png" tvg-id="backustv",Backus TV
 https://stream.backustv.ru/live/btv/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/backustv-horror.png" tvg-id="backustv-horror",Backus TV Horror
@@ -582,11 +587,13 @@ https://stream01.vnet.am/ZeeTV/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/kino-1-hd.png" tvg-id="kino-1-hd",Kino 1
 http://88.135.128.20:7272/i0yRlKi4YlfGtF6
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/kino-24.png" tvg-id="kino-24",Kino 24
+http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/kino7-lv.png" tvg-id="kino7-lv",Kino 7
 http://88.135.128.20:7272/Hdyt7wbXlSuwOpq
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/kinojam1.png" tvg-id="kinojam1",Kinojam 1
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/kinojam2.png" tvg-id="kinojam2",Kinojam 2
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/kinokomedia.png" tvg-id="kinokomedia",Кинокомедия
+https://strm.yandex.ru/kal/kinokomedia_belarus/kinokomedia_belarus0.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/kinoliving.png" tvg-id="kinoliving",KinoLiving
 http://92.242.110.52:9835/udp/238.1.8.1:1234
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Киноман
@@ -679,35 +686,3 @@ http://178.124.179.122:8088/Sarafan/index.m3u8
 http://91.205.199.3:80/tnt4/index.m3u8
 
 
-#EXTINF:-1 tvg-id="ryzhy" tvg-logo="https://epgx.site/p/ryzhy.png" group-title="test",Рыжий (WSVGA)
-https://strm.yandex.ru/kal/ryzhii_sd_belarus/ryzhii_sd_belarus0.m3u8
-#EXTINF:-1 tvg-id="amedia1" tvg-logo="https://epgx.site/p/amedia1.png" group-title="test",Amedia 1 (EDTV 576p)
-http://193.201.98.10:5000/c55
-#EXTINF:-1 tvg-id="amedia-hit" tvg-logo="https://epgx.site/p/amedia-hit.png" group-title="test",Amedia Hit (HD)
-http://stream01.vnet.am/Nauka/mono.m3u8
-#EXTINF:-1 tvg-id="amedia-premium" tvg-logo="https://epgx.site/p/amedia-premium.png" group-title="test",Amedia Premium (HD)
-http://stream01.vnet.am/AmediaPremium/mono.m3u8
-#EXTINF:-1 tvg-id="kino-24" tvg-logo="https://epgx.site/p/kino-24.png" group-title="test",Kino 24 (EDTV 576p)
-http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
-#EXTINF:-1 tvg-id="kinokomedia" tvg-logo="https://epgx.site/p/kinokomedia.png" group-title="test",Кинокомедия (WSVGA)
-https://strm.yandex.ru/kal/kinokomedia_belarus/kinokomedia_belarus0.m3u8
-#EXTINF:-1 tvg-id="kinosvidanie" tvg-logo="https://epgx.site/p/kinosvidanie.png" group-title="test",Киносвидание (WSVGA)
-https://strm.yandex.ru/kal/kinosvidanie_sd_belarus/kinosvidanie_sd_belarus0.m3u8
-#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="test",НТВ Сериал (WSVGA)
-http://cdn.ntv.ru/th_serial/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://epgx.site/p/russky-roman.png" group-title="test",Русский роман (HD)
-http://188.113.190.15/221/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvgid="2326" tvg-logo="http://epg.it999.ru/img2/2326.png" group-title="test",MMA TV (HD)
-http://188.113.190.15/305/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-id="match-igra" tvg-logo="https://epgx.site/p/match-igra.png" group-title="test",Матч! Игра (HD)
-http://193.201.98.10:5000/c104
-#EXTINF:-1 tvg-id="match-nash-sport" tvg-logo="https://epgx.site/p/match-strana.png" group-title="test",Матч! Страна (HD)
-http://193.201.98.10:5000/c106
-#EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="test",Совершенно Секретно (EDTV 576p)
-https://edge02.odtv.az/o1/sovershennosekretno/playlist.m3u8
-#EXTINF:-1 tvg-id="ont-by" tvg-logo="https://i.imgur.com/LbHdHEk.png" group-title="test",ОНТ (EDTV 576p)
-https://stream.dc.beltelecom.by/ont/ont/playlist.m3u8
-#EXTINF:-1 tvg-id="russky-ekstrim" tvg-logo="https://epgx.site/p/russky-ekstrim.png" group-title="test",SD REX (D1)
-http://195.26.83.96:7029/play/a008
-#EXTINF:-1 tvg-id="pro100" tvg-logo="https://epgx.site/p/pro100.png" group-title="test",Pro100 (EDTV 576p)
-https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
