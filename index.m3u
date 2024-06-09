@@ -677,3 +677,65 @@ http://178.124.179.122:8088/Sarafan/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/tnt4.png" tvg-id="tnt4",ТНТ4
 http://91.205.199.3:80/tnt4/index.m3u8
 
+
+#EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://epgx.site/p/nickelodeon-ru.png" group-title="test",Nickelodeon (HD)
+http://stream01.vnet.am/Channel_114/mono.m3u8
+#EXTINF:-1 tvg-id="nicktoons" tvg-logo="https://epgx.site/p/nicktoons.png" group-title="test",Nicktoons (HD)
+https://stream01.vnet.am/Boomerang/mono.m3u8
+#EXTINF:-1 tvg-id="paramount-comedy" tvg-logo="http://epg.it999.ru/img2/920.png" group-title="test",Comedy Central (EDTV 576p)
+http://5.153.180.133:8001/play/a09c
+#EXTINF:-1 tvg-id="tvoetv-humor" tvg-logo="https://epgx.site/p/tvoetv-humor.png" group-title="test",Твоё ТВ Юмор (HD)
+http://de.zigfreed.ru:8080/tvoetv_humor/video.m3u8?token=tvoetv
+#EXTINF:-1 tvg-id="la-minor" tvg-logo="https://epgx.site/p/la-minor.png" group-title="test",Ля-минор (EDTV 576p)
+https://flussonic.beeonline.az/lyaminor/index.m3u8?token=test
+#EXTINF:-1 tvg-id="amedia1" tvg-logo="https://epgx.site/p/amedia1.png" group-title="test",Amedia 1 (EDTV 576p)
+http://91.205.199.3/amedia1/index.m3u8
+#EXTINF:-1 tvg-id="pro100" tvg-logo="https://epgx.site/p/pro100.png" group-title="test",Pro100 (EDTV 576p)
+https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="test",Viju+megahit (HD)
+https://erlyvideo.beeonline.az/VIPMegahitHD/index.m3u8
+#EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://epgx.site/p/mir-seriala.png" group-title="test",Мир сериала (EDTV 576p)
+https://flussonic.beeonline.az/mirseriala/index.m3u8?token=test
+#EXTINF:-1 tvg-id="box-tv" tvg-logo="http://epg.it999.ru/img2/2285.png" group-title="test",Бокс (HD)
+http://stream01.vnet.am/BoksTv/mono.m3u8
+#EXTINF:-1 tvg-id="ege-tv" tvg-logo="https://epgx.site/p/ege-tv.png" group-title="test",ЕГЭ ТВ (EDTV 576p)
+http://146.158.0.56:80/EGETV/mono.m3u8
+#EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="test",Совершенно Секретно (EDTV 576p)
+https://flussonic.beeonline.az/sovershennosekretno/index.m3u8?token=test
+#EXTINF:-1 group-title="test" tvg-id="RRTVEU" tvg-logo="https://tv.taurer.org/iptv_content/logos/GROOVEZZO_TEMP.png",Groovezzo
+https://nl1.live-stream.plus.taurer.org:443/pbuPAuthGp/MDTTv32fbk/7.m3u8
+#EXTINF:-1 group-title="test" tvg-id="NINJA" tvg-logo="https://tv.taurer.org/iptv_content/logos/NINJA_TEMP.png",Ninja
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/3.m3u8
+#EXTINF:-1 group-title="test" tvg-id="KIDSPLANET" tvg-logo="https://tv.taurer.org/iptv_content/logos/KIDSPLANET_TEMP.png",KidsPlanet
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/4.m3u8
+#EXTINF:-1 group-title="test" tvg-id="KIDSPLANETPLUS" tvg-logo="https://tv.taurer.org/iptv_content/logos/KIDSPLANETPLUS_TEMP.png",KidsPlanet+
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/2.m3u8
+#EXTINF:-1 group-title="test" tvg-id="W1" tvg-logo="https://tv.taurer.org/iptv_content/logos/W1_TEMP.png",World-1
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/7.m3u8
+#EXTINF:-1 group-title="test" tvg-id="QUALITY" tvg-logo="https://tv.taurer.org/iptv_content/logos/QUALITYHD_TEMP.png",Quality HD
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/6.m3u8
+#EXTINF:-1 group-title="test" tvg-id="KULINAR" tvg-logo="https://tv.taurer.org/iptv_content/logos/KULINAR_TEMP.png",Кулинар HD
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/14.m3u8
+#EXTINF:-1 group-title="test" tvg-logo="https://i.postimg.cc/mrB527vG/1.png",Sunset Space
+https://stream.sunset-media.ru:443/Free/Free/3.m3u8
+#EXTINF:-1 group-title="test" tvg-logo="https://i.postimg.cc/G2BNZb0B/1.png",Sunset Movie
+https://stream.sunset-media.ru:443/Free/Free/1.m3u8
+#EXTINF:-1 group-title="test" tvg-logo="https://i.postimg.cc/d0ZjF31K/1.png",Sunset Music
+https://stream.sunset-media.ru:443/Free/Free/2.m3u8
+#EXTINF:-1 group-title="test" tvg-logo="https://stream.sunset-media.ru:443/images/AfE0MpsGM8EECV5bHCwLz405Nh5VXnPV-VdC2Z_4Pl-o8vmziUihdFw9YtuIlvK9.png",Sunset Kids
+https://stream.sunset-media.ru:443/Free/Free/4.m3u8
+#EXTINF:-1 group-title="test",Смотрим Мелодрамы
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-02.smil/playlist.m3u8
+#EXTINF:-1 group-title="test",Смотрим Радио
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-08.smil/playlist.m3u8
+#EXTINF:-1 group-title="test",Смотрим Тайны
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-07.smil/playlist.m3u8
+#EXTINF:-1 group-title="test",Смотрим Частный Детектив
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/playlist.m3u8
+#EXTINF:-1 group-title="test",Музыка Кино International
+http://autopilot.catcast.tv/content/37739/index.m3u8
+#EXTINF:-1 group-title="test",Музыка 1 International
+http://autopilot.catcast.tv/content/37745/index.m3u8
+#EXTINF:-1 group-title="test",Музыка 2 International
+http://autopilot.catcast.tv/content/37742/index.m3u8
+
