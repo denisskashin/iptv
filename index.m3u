@@ -16,7 +16,6 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="https://epgx.site/p/box-tv.png" tvg-id="box-tv",Бокс ТВ
 http://stream01.vnet.am/BoksTv/mono.m3u8
-#EXTINF:-1 group-title="Бокс и единборства" tvg-logo="https://epgx.site/p/match-boec.png" tvg-id="match-boets",Матч! Боец
 #EXTINF:-1 group-title="Бокс и единборства" tvgid="2326" tvg-logo="http://epg.it999.ru/img2/2326.png",MMA TV
 http://188.113.190.15/305/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Бокс и единборства" tvg-logo="" tvg-id="",Wrestling
@@ -150,6 +149,22 @@ http://213.108.175.226/telplushd/index.m3u8
 http://91.142.158.107:8092/play/36/index.m3u8
 #EXTINF:-1 group-title="Культура" tvg-logo="https://epgx.site/p/teatr.png" tvg-id="teatr",Театр
 http://188.113.190.15/180/tracks-v1a1/index.m3u8
+
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-arena.png" tvg-id="match-arena",Арена
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-boec.png" tvg-id="match-boets",Боец
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-igra.png" tvg-id="match-igra",Игра
+http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-tv.png" tvg-id="match-tv",Матч!
+http://194.143.148.28:8080/MatchHD/mpegts
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-planeta.png" tvg-id="match-planeta",Планета
+https://strm.yandex.ru/kal/match_planeta_belarus/match_planeta_belarus0.m3u8
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-premiere.png" tvg-id="match-premier",Премьер
+http://188.113.190.15/103/tracks-v1a1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-strana.png" tvg-id="match-nash-sport",Страна
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-football1.png" tvg-id="match-football1",Футбол 1
+http://194.143.148.28:8080/MatchFutbol1/mpegts
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-football2.png" tvg-id="match-football2",Футбол 2
+#EXTINF:-1 group-title="Матч!" tvg-logo="https://epgx.site/p/match-football3.png" tvg-id="match-football3",Футбол 3
 
 #EXTINF:-1 group-title="Мода" tvg-logo="https://epgx.site/p/fashion-tv.png" tvg-id="fashion-tv",Fashion TV
 http://91.247.68.229:8000/play/Fashion/index.m3u8
@@ -489,8 +504,11 @@ http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/belarus5-inet.png" tvg-id="belarus5-inet",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/eurosport1.png" tvg-id="eurosport1",Eurosport 1
-http://45.159.74.14:80/Eurosport/tracks-v1a2/mono.m3u8
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+http://edge02.odtv.az/o7/eurosport/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/eurosport2.png" tvg-id="eurosport2",Eurosport 2
+#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
+http://edge02.odtv.az/o3/eurosport2/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/extreme-sports.png" tvg-id="extreme-sports",Extreme Sports
 http://188.113.190.15/39/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/tv3-sport-open.png" tvg-id="tv3-sport-open",Go3 Sport Open
@@ -498,14 +516,6 @@ http://188.113.190.15/39/tracks-v1a1/index.m3u8
 https://strm.yandex.ru/kal/khl_belarus/khl_belarus0.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/konny-mir.png" tvg-id="konny-mir",Конный мир
 http://92.242.110.52:9835/udp/238.1.2.8:1234
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-tv.png" tvg-id="match-tv",Матч!
-http://91.142.158.107:8092/play/33/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-arena.png" tvg-id="match-arena",Матч! Арена
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-igra.png" tvg-id="match-igra",Матч! Игра
-http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-planeta.png" tvg-id="match-planeta",Матч! Планета
-https://strm.yandex.ru/kal/match_planeta_belarus/match_planeta_belarus0.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/match-strana.png" tvg-id="match-nash-sport",Матч! Страна
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/mir-basketbola.png" tvg-id="mir-basketbola", Мир баскетбола
 http://92.242.110.52:9835/udp/238.1.1.17:1234
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://epgx.site/p/okko-sport.png" tvg-id="okko-sport",Okko.Спорт
@@ -637,11 +647,6 @@ https://strm.yandex.ru/kal/hollywood_belarus/hollywood_belarus0.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/shokiruyushchee.png" tvg-id="shokiruyushchee",Шокирующее
 
 #EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/footbolny.png" tvg-id="footbolny",Футбольный
-#EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/match-premiere.png" tvg-id="match-premier",Матч! Премьер
-#EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/match-football1.png" tvg-id="match-football1",Матч! Футбол 1
-http://194.143.148.28:8080/MatchFutbol1/mpegts
-#EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/match-football2.png" tvg-id="match-football2",Матч! Футбол 2
-#EXTINF:-1 group-title="Футбол" tvg-logo="https://epgx.site/p/match-football3.png" tvg-id="match-football3",Матч! Футбол 3
 #EXTINF:-1 group-title="Футбол" tvg-logo="" tvg-id="",Real Madrid
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
 
@@ -699,20 +704,10 @@ http://flu.ttk.mx:9090/Futbol/index.m3u8?token=orh6o
 https://bl.webcaster.pro/media/playlist/free_4826041ac19d24905b2b303254662b17/33_94615152/720q/95829aead81db732e4cf1a7bb22ab598/4867406070.m3u8
 #EXTINF:-1tvg-id="sky-sports-football" tvg-logo="https://epgx.site/p/sky-sports-football.png"  group-title="тест",Sky Sports Football
 https://7pal.short.gy/ssportsfb
-#EXTINF:-1 tvg-id="" tvg-logo="https://tv.taurer.org/iptv_content/logos/GROOVEZZO_TEMP.png" group-title="тест",Groovezzo (HD)
-https://nl1.live-stream.plus.taurer.org:443/pbuPAuthGp/MDTTv32fbk/7.m3u8
 #EXTINF:-1 group-title="тест",LIVE:Полицейский с Рублевки
 https://nl2.live-stream.plus.taurer.org/RuCsPSXGYe/DgFExKzqEw/15.m3u8
 
 
-#EXTINF:-1 group-title="СПОРТ 🏆",Eurosport 1 HD
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-http://edge02.odtv.az/o7/eurosport/playlist.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Eurosport 2
-#EXTVLCOPT:http-user-agent=ExoPlayer2/2.37
-http://edge02.odtv.az/o3/eurosport2/playlist.m3u8
-#EXTINF:-1 group-title="СПОРТ 🏆",Матч!
-http://194.143.148.28:8080/MatchHD/mpegts
 #EXTINF:-1 group-title="СПОРТ 🏆",Премьер
 http://188.113.190.15/103/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="СПОРТ 🏆",Арена
@@ -1066,5 +1061,51 @@ https://ipv4.bozztv.com/dvrfl07/ushba63/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="KINO ZAL",Должное правосудие Палидо (2023)
 http://kinoleha.net/load/dolzhnoe-pravosudie-palido
+#EXTINF:-1 group-title="KINO ZAL",Темный шум 2023
+http://kinoleha.net/load/temnyj-shum
+#EXTINF:-1 group-title="KINO ZAL",Грохот во тьме 2023
+http://kinoleha.net/load/grohot-skvoz-tmu
+#EXTINF:-1 group-title="KINO ZAL",Рептилии 2023
+http://kinoleha.net/load/reptilii
 
 
+#EXTINF:-1 tvg-id="rentv" tvg-logo="https://epgx.site/p/rentv.png" group-title="test",Рен ТВ (HD)
+http://92.53.64.197:5050/Rentv_HD/video.m3u8?token=m3VIth-Rou_bM1
+#EXTINF:-1 tvg-id="smaylik-tv" tvg-logo="https://epgx.site/p/smaylik-tv.png" group-title="test",Смайлик ТВ (HD ready)
+https://5d23269b3ec0c.streamlock.net/WEB_Smilik/Smilik.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="kvn-tv" tvg-logo="https://epgx.site/p/kvn-tv.png" group-title="test",КВН ТВ (EDTV 576p)
+http://31.210.208.171:8080/kvn/index.m3u8?token=+W2MSER
+#EXTINF:-1 tvg-id="tnt-int-eu" tvg-logo="https://epgx.site/p/tnt-int-eu.png" group-title="test",ТНТ Int (Европа, 480p)
+http://85.187.13.40:18000/tntint
+#EXTINF:-1 tvg-id="backustv-music" tvg-logo="https://epgx.site/p/backustv-music.png" group-title="test",BackusTV Music (HD)
+https://gitlab.com/v1rtuoz/btv/-/raw/master/index.m3u8
+#EXTINF:-1 tvg-id="la-minor" tvg-logo="https://epgx.site/p/la-minor.png" group-title="test",Ля-минор (EDTV 576p)
+http://31.210.208.171:8080/la_minor/index.m3u8?token=+W2MSER
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://epgx.site/p/vip-megahit.png" group-title="test",Viju+megahit (HD)
+http://95.156.76.230:33001/udp/230.4.34.108:1234
+#EXTINF:-1 tvg-id="kinopokaz" tvg-logo="https://epgx.site/p/kinopokaz.png" group-title="test",Кинопоказ (EDTV 576p)
+http://31.210.208.171:8080/kinopokaz/index.m3u8?token=+W2MSER
+#EXTINF:-1 tvg-id="russky-illuzion" tvg-logo="https://epgx.site/p/russky-illuzion.png" group-title="test",Русский иллюзион (EDTV 576p)
+http://86.57.178.105:10823
+#EXTINF:-1 tvg-id="match-igra" tvg-logo="https://epgx.site/p/match-igra.png" group-title="test",Матч! Игра (EDTV 576p)
+http://31.210.208.171:8080/match_igra/index.m3u8?token=+W2MSER
+#EXTINF:-1 tvg-id="footbolny" tvg-logo="https://epgx.site/p/footbolny.png" group-title="test",Футбольный (HD)
+https://bl.webcaster.pro/media/playlist/free_4826041ac19d24905b2b303254662b17/33_94615152/720q/95829aead81db732e4cf1a7bb22ab598/4867406070.m3u8
+#EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="test",Совершенно Секретно (EDTV 576p)
+https://edge02.odtv.az/o1/sovershennosekretno/playlist.m3u8
+#EXTINF:-1 tvg-id="dikaya-oxota-hd" tvg-logo="http://epg.it999.ru/img2/2483.png" group-title="test",Дикая Охота (HD)
+http://stream01.vnet.am/Channel_127/mono.m3u8
+#EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-logo="http://epg.it999.ru/img2/2484.png" group-title="test",Дикая Рыбалка (HD)
+http://stream01.vnet.am/Channel_126/mono.m3u8
+#EXTINF:-1 tvg-id="drive" tvg-logo="https://epgx.site/p/drive.png" group-title="test",ДРАЙВ (EDTV 576p)
+http://109.239.208.82:80/drive/index.m3u8
+#EXTINF:-1 tvg-id="prikluchenia-hd" tvg-logo="http://epg.it999.ru/img2/2311.png" group-title="test",Приключения (HD)
+http://135.181.115.81:8000/play/a00k/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="RRTVEU" tvg-logo="https://tv.taurer.org/iptv_content/logos/GROOVEZZO_TEMP.png" group-title="test",Groovezzo
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/27.m3u8
+#EXTINF:-1 dsn-id="3715" group-title="test" tvg-name="LIVE_SCARY" tvg-logo="https://tv.taurer.org/iptv_content/logos/LVSCARY_TEMP.png",LIVE:ХБ-ШОУ
+https://nl2.live-stream.plus.taurer.org/RuCsPSXGYe/DgFExKzqEw/31.m3u8
+#EXTINF:-1 dsn-id="1842" group-title="test" tvg-name="LIVE_MOVIE" tvg-logo="https://tv.taurer.org/iptv_content/logos/LVMOVIE_TEMP.png",LIVE:Мылодрама
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/25.m3u8
+#EXTINF:-1 dsn-id="1958" group-title="test" tvg-name="LIVE_DRAMA" tvg-logo="https://tv.taurer.org/iptv_content/logos/LVDRAMA_TEMP.png",LIVE:Полицейский с Рублевки
+https://nl2.live-stream.plus.taurer.org:443/RuCsPSXGYe/DgFExKzqEw/15.m3u8
