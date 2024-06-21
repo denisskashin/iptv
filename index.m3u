@@ -149,6 +149,10 @@ http://stream01.vnet.am/KukhnyaTv/mono.m3u8
 http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:-1 group-title="Культура" tvg-logo="https://epgx.site/p/kultura.png" tvg-id="kultura",Россия Культура
 http://91.142.158.107:8092/play/36/index.m3u8
+#EXTINF:-1 group-title="Культура",Танцы 1
+https://ipv4.bozztv.com/dvrfl07/ushba17/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Культура",Танцы 2
+https://ipv4.bozztv.com/dvrfl07/ushba15/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Культура" tvg-logo="https://epgx.site/p/teatr.png" tvg-id="teatr",Театр
 http://188.113.190.15/180/tracks-v1a1/index.m3u8
 
@@ -390,6 +394,12 @@ http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/2na2.png" tvg-id="2na2",2x2
 http://strm.yandex.ru/kal/2x2_belarus/2x2_belarus0.m3u8
+#EXTINF:-1 group-title="Развлекательные",Документалка 1
+https://ipv4.bozztv.com/dvrfl07/ushba28/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Развлекательные",Документалка 2
+https://ipv4.bozztv.com/dvrfl07/ushba29/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Развлекательные",Документалка 3
+https://ipv4.bozztv.com/dvrfl07/ushba38/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/zal-suda.png" tvg-id="zal-suda",Зал суда
 http://95.156.76.230:33001/udp/230.4.34.6:1234
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://epgx.site/p/muzhskoy.png" tvg-id="muzhskoy",Мужской
@@ -669,6 +679,12 @@ http://5.153.180.133:8001/play/a09c
 http://91.205.199.3:80/gagsnetwork/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ
 https://woobl.ru/hls987/KVN.m3u8
+#EXTINF:-1 group-title="Юмор",Приколы 1
+https://ipv4.bozztv.com/dvrfl07/ushba11/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Юмор",Приколы 2
+https://ipv4.bozztv.com/dvrfl07/ushba20/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="Юмор",Приколы 3
+https://ipv4.bozztv.com/dvrfl07/ushba45/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/sarafan.png" tvg-id="sarafan",Сарафан
 http://178.124.179.122:8088/Sarafan/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://epgx.site/p/tvoetv-humor.png" tvg-id="tvoetv-humor",Твоё ТВ Юмор
@@ -859,48 +875,12 @@ http://85.209.248.3:8080/RaiSportHD/index.m3u8
 https://ipv4.bozztv.com/dvrfl07/ushba5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Usba TV",Украина 2
 https://ipv4.bozztv.com/dvrfl07/ushba12/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Военный
-https://ipv4.bozztv.com/dvrfl07/ushba16/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Ералаш
-https://ipv4.bozztv.com/dvrfl07/ushba8/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Приколы 1
-https://ipv4.bozztv.com/dvrfl07/ushba11/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Приколы 2
-https://ipv4.bozztv.com/dvrfl07/ushba20/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Приколы 3
-https://ipv4.bozztv.com/dvrfl07/ushba45/index.m3u8
-#EXTINF:-1 group-title="Usba TV",Документалка 1
-https://ipv4.bozztv.com/dvrfl07/ushba28/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Документалка 2
-https://ipv4.bozztv.com/dvrfl07/ushba29/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Документалка 3
-https://ipv4.bozztv.com/dvrfl07/ushba38/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Танцы 1
-https://ipv4.bozztv.com/dvrfl07/ushba17/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Танцы 2
-https://ipv4.bozztv.com/dvrfl07/ushba15/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Танцы 3
-https://ipv4.bozztv.com/dvrfl07/ushba56/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Gameplay
-https://ipv4.bozztv.com/dvrfl07/ushba31/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Gameplay трейлеры
-https://ipv4.bozztv.com/dvrfl07/ushba44/index.m3u8
 #EXTINF:-1 group-title="Usba TV",Спорт
 https://ipv4.bozztv.com/dvrfl07/ushba46/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Usba TV",Овертайм
 https://ipv4.bozztv.com/dvrfl07/ushba55/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Залипательное
-https://ipv4.bozztv.com/dvrfl07/ushba58/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Кинозалы 1
-https://ipv4.bozztv.com/dvrfl07/ushba13/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Usba TV",Кинозалы 2
 https://ipv4.bozztv.com/dvrfl07/ushba14/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Кинозалы 3
-https://ipv4.bozztv.com/dvrfl07/ushba24/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Кинозалы 4
-https://ipv4.bozztv.com/dvrfl07/ushba26/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Usba TV",Кинозалы 5
-https://ipv4.bozztv.com/dvrfl07/ushba-films-b/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Usba TV",Кинозалы 6
 https://ipv4.bozztv.com/dvrfl07/ushba-films-c/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Usba TV",Кинозалы 7
@@ -915,6 +895,7 @@ https://ipv4.bozztv.com/dvrfl07/ushba-films-g/tracks-v1a1/mono.m3u8
 https://ipv4.bozztv.com/dvrfl07/ushba-films-h/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Usba TV",Кинозалы 12
 https://ipv4.bozztv.com/dvrfl07/ushba-films-i/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1 group-title="Usba TV",Кинозалы 13
 https://ipv4.bozztv.com/dvrfl07/ushba-films-j/index.m3u8
 #EXTINF:-1 group-title="Usba TV",Кинозалы 14
