@@ -4,17 +4,16 @@
 http://88.212.7.11/live/test_brazzers_hd_hevc/playlist.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/vivid-red.png" tvg-id="vivid-red",Vivid Red
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="http://epg.one/img2/3233.png" tvg-id="3233",Vivid TV Europe
-http://31.131.136.4:8000/play/a00l
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/dorcel.png" tvg-id="dorcel",Dorcel TV
 http://88.212.7.11/live/test_dorcel_hd_hevc/playlist.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/dorcel.png" tvg-id="dorcel-xxx",Dorcel XXX
 http://31.131.136.4:8000/play/a00h
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/hustler-hd.png" tvg-id="hustler-hd",Hustler
-http://31.131.136.4:8000/play/a00g
+https://89.187.167.247/hustler.stream/chunks.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="http://epg.one/img2/3258.png" tvg-id="3258",Erotic
 https://webtvstream.bhtelecom.ba/pink_erotic1.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/eroxxxhd.png" tvg-id="eroxxxhd",Eroxxx
-http://31.131.136.4:8000/play/a00q
+http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/extasytv.png" tvg-id="extasytv",Extasy
 http://88.212.7.11/live/test_extasy_hd_hevc/playlist.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/kino18plus-tviksel.png" tvg-id="kino18plus-tviksel",Кино 18+
@@ -24,10 +23,11 @@ http://31.148.48.15/O-la-la/index.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/passionxxx.png" tvg-id="passionxxx",PassionXXX
 http://31.131.136.4:8000/play/a00k
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/penthouse-gold.png" tvg-id="penthouse-hd",Penthouse Gold
+http://78.130.250.2:8023/play/a005/index.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/penthouse-quickies.png" tvg-id="penthouse-quickies",Penthouse Reality TV
+http://78.130.250.2:8023/play/a006/index.m3u8
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/playboy-tv.png" tvg-id="playboy-tv",Playboy TV
 #EXTINF:-1 group-title="Для взрослых (18+)" tvg-logo="https://epgx.site/p/russkaya-noch.png" tvg-id="russkaya-noch",Русская ночь
-http://188.113.190.15/318/tracks-v1a1/index.m3u8
 
 
 
@@ -40,3 +40,8 @@ http://88.212.7.11/live/test_eroxxx_hd_hevc/playlist.m3u8
 #EXTINF:-1 group-title="18+",Desire HD
 http://88.212.7.11/live/test_desire_hd_hevc/playlist.m3u8
 #
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.cxctv.it/image/logo.png" group-title="18+",CENTOXCENTO (HD)
+http://pl.seetv.cc/play/6868/D591A450364592E/video.m3u8
+#EXTINF:-1 tvg-logo="http://loganet.ru/images/channels/FUUU-TV.png" group-title="18+",FUUU TV (HD)
+http://wellsee.gdn/live.m3u8
