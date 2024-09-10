@@ -771,6 +771,7 @@ http://188.113.190.15/166/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/start-world.png" tvg-id="start-world",Start World
 https://bkm.beetv.kz/btv/live/hls/000007818.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/start-air.png" tvg-id="start-air",Start Air
+http://188.190.222.48:8765/Start_Air/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",STR TV
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://epgx.site/p/sts-love.png" tvg-id="sts-love",СТС Love
 http://178.212.71.253:8002/play/a00r/index.m3u8
@@ -881,8 +882,6 @@ https://autopilot.catcast.tv/content/41327/index.m3u8
 https://autopilot.catcast.tv/content/46209/index.m3u8
 
 
-#EXTINF:-1 tvg-id="start-air" tvg-logo="https://epgx.site/p/start-air.png" group-title="test",Start Air (EDTV 576p)
-http://188.190.222.48:8765/Start_Air/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="start-air" tvg-logo="https://epgx.site/p/start-air.png" group-title="test",Start Air (HD)
 rtmp://5.182.229.90//7260
 #EXTINF:-1 tvg-id="arsenaltv" tvg-logo="http://epg.it999.ru/img2/2768.png" group-title="test",Арсенал (HD)
@@ -1119,3 +1118,47 @@ http://194.158.222.36:6101
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="tro" tvg-logo="http://epg.it999.ru/img2/2294.png" group-title="test",БелРос (WSVGA)
 http://live2.mediacdn.ru/sr1/tro/playlist_1.5M.m3u8
+#EXTINF:-1 tvg-id="tv1000-russkoe-kino" tvg-logo="https://epgx.site/p/tv1000-russkoe-kino.png" group-title="test",Viju TV1000 Русское (EDTV 576p)
+http://185.50.148.2:7703/TV1000RusKino/index.m3u8
+#EXTINF:-1 tvg-id="mosfilm" tvg-logo="https://epgx.site/p/mosfilm.png" group-title="test",Мосфильм. Золотая коллекция (EDTV 576p)
+http://hls127.homeiptv.org:8880/Mosfilm/video.m3u8
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="test",НТВ Сериал (EDTV 576p)
+http://91.205.199.3:80/ntvserial/index.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://epgx.site/p/ntv-xit.png" group-title="test",НТВ Хит (EDTV 576p)
+https://livetv.mylifeisgood.net.ru/channels/ntvhit24.m3u8
+#EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.it999.ru/img2/2447.png" group-title="test",Победа (EDTV 576p)
+http://91.205.199.3/pobeda/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/styles/large/public/tv-logo/tv-muzyka-kino-international_1.jpg?itok=2Br4kvdj" group-title="test",Музыка Кино Int (768×432)
+http://autopilot.catcast.tv/content/37739/index.m3u8
+#EXTINF:-1 tvg-logo="https://alltv.su/wp-content/uploads/2023/03/kino-1.jpg" group-title="test",Музыка 1 Int (768×432)
+http://autopilot.catcast.tv/content/37745/index.m3u8
+#EXTINF:-1 tvg-logo="https://tv2free.ru/sites/default/files/styles/medium/public/tv-logo/tv-muzyka-2-international.jpg?itok=QBzJqaoB" group-title="test",Музыка 2 Int (768×432)
+http://autopilot.catcast.tv/content/37742/index.m3u8
+#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://epgx.site/p/eurosport2.png" group-title="test",Eurosport 2 (HD)
+http://iptv-hls.idc.md:8200/hls/260/live1.m3u8
+#EXTINF:-1 tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="test",Viju+sport (EDTV 576p)
+http://edge02.odtv.az/o7/viasatsport/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Медальон [США/2012]
+http://dmi3y-tv.ru/hls/film/MEDALON.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Иностранец [США/2017]
+http://dmi3y-tv.ru/hls/film/INOSTRANETZ.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Репродукция [США/2018]
+http://dmi3y-tv.ru/hls/film/REPRODUKCIYA.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Ловушка времени [США/2017]
+http://dmi3y-tv.ru/hls/film/LOVUSHKA_VREMENI.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Морской бой [США/2012]
+http://dmi3y-tv.ru/hls/film/MORSKOY_BOY.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",После нашей эры [США/2013]
+http://dmi3y-tv.ru/hls/film/POSLE_NASHEY_ERY.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Разлом времени [США/2017]
+http://dmi3y-tv.ru/hls/film/RAZLOM_VREMENI.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Соник в кино [США/2020]
+http://dmi3y-tv.ru/hls/film/SONIC_V_KINO.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Сквозь снег [США/2013]
+http://dmi3y-tv.ru/hls/film/SKVOZ_SNEG.m3u8
+#EXTINF:-1 tvg-logo="https://static.tildacdn.com/tild3033-3864-4039-b435-653133623531/pngegg.png" group-title="10 случайных фильмов",Ван Хельсинг [США/2004]
+http://dmi3y-tv.ru/hls/film/VAN_HELSING.m3u8
