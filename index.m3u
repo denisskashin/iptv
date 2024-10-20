@@ -752,3 +752,16 @@ http://91.205.199.3:80/tnt4/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/start-air.png" group-title="test",Unknown
 rtmp://5.182.229.90//7260
+
+#EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://iptvx.one/picons/viasat-nature.png" group-title="тест",Viju NATURE (EDTV 576p)
+http://91.205.199.3/viasatnature/index.m3u8
+#EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/eurokino.png" group-title="тест",Еврокино (EDTV 576p)
+http://91.207.115.228:12000/play/a04e
+#EXTINF:-1 tvg-id="6646" tvg-logo="http://epg.one/img2/6646.png" group-title="тест",Рыболов (EDTV 576p)
+http://91.207.115.228:12000/play/a02x
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="тест",СТС Kids (HD)
+http://91.207.115.228:12000/play/a01w
+#EXTINF:-1 tvg-id="mir-uvlecheniy" tvg-logo="https://iptvx.one/picons/mir-uvlecheniy.png" group-title="тест",#КТОКУДА (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_KTOKUDA.m3u8
+#EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" group-title="тест",Усадьба (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_USADBA.m3u8
