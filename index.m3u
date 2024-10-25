@@ -93,6 +93,7 @@ http://stream01.vnet.am/DTX/mono.m3u8
 #EXTINF:-1 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodny-int.png" tvg-id="zagorodny-int",Загородный Int
 http://94.230.128.105:8080/Zagorodnyi/index.m3u8
 #EXTINF:-1 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/usadba.png" tvg-id="usadba",Усадьба
+http://dmi3y-tv.ru/hls/CH_USADBA.m3u8
 #EXTINF:-1 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/dacha.png" tvg-id="dacha",Дача HD
 
 #EXTINF:-1 group-title="Детские" tvg-logo="" tvg-id="",Aladdin
@@ -147,6 +148,7 @@ https://5d23269b3ec0c.streamlock.net/WEB_Smilik/Smilik.stream/playlist.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce",Солнце
 http://tv.mediacdn.ru/live/disney/playlist_3000k.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" tvg-id="sts-kids-hd",СТС Kids
+http://91.207.115.228:12000/play/a01w
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/malysh.png" tvg-id="malysh",СуперГерои
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/tiji.png" tvg-id="tiji",TiJi
 http://stream01.vnet.am/Tiji/mono.m3u8
@@ -343,6 +345,8 @@ http://91.207.115.228:12000/play/a04q
 http://stream01.vnet.am/Channel_124/mono.m3u8
 #EXTINF:-1 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/rybalka.png" tvg-id="rybalka",Рыбалка
 http://iptv.prosto.tv:7000/ch344/video.m3u8
+#EXTINF:-1 group-title="Охота и Рыбалка" tvg-logo="http://epg.one/img2/6646.png" tvg-id="6646",Рыболов (EDTV 576p)
+http://91.207.115.228:12000/play/a02x
 
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/365-dnej.png" tvg-id="365-dnej",365 дней
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel",Discovery
@@ -377,6 +381,7 @@ http://brodilo.tv/channel.php
 https://stream1.cinerama.uz/1423/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://i.imgur.com/tKgmhxh.png" tvg-id="hd-life",HD Life
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/mir-uvlecheniy.png" tvg-id="mir-uvlecheniy",Кто Куда
+http://dmi3y-tv.ru/hls/CH_KTOKUDA.m3u8
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/moya-planeta.png" tvg-id="moya-planeta",Моя Планета
 http://194.143.148.28:8080/Nauka20/mpegts
 #EXTINF:-1 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/morskoy.png" tvg-id="morskoy",Моя стихия
@@ -618,7 +623,7 @@ http://91.207.115.228:12000/play/a053
 http://95.67.12.82:9046
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/duo7ee.png" tvg-id="duo7ee",Duo7
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/eurokino.png" tvg-id="evrokino",Еврокино
-http://78.62.135.122:8082/evrokino/index.m3u8
+http://91.207.115.228:12000/play/a04e
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/epik-drama.png" tvg-id="epik-drama" audio-track="ru",Epic Drama
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/filmbox-ru.png" tvg-id="filmbox-ru",FilmBox
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/filmbox-arthouse.png" tvg-id="filmbox-arthouse",Filmbox Arthouse
@@ -752,16 +757,3 @@ http://91.205.199.3:80/tnt4/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/start-air.png" group-title="test",Unknown
 rtmp://5.182.229.90//7260
-
-#EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://iptvx.one/picons/viasat-nature.png" group-title="тест",Viju NATURE (EDTV 576p)
-http://91.205.199.3/viasatnature/index.m3u8
-#EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/eurokino.png" group-title="тест",Еврокино (EDTV 576p)
-http://91.207.115.228:12000/play/a04e
-#EXTINF:-1 tvg-id="6646" tvg-logo="http://epg.one/img2/6646.png" group-title="тест",Рыболов (EDTV 576p)
-http://91.207.115.228:12000/play/a02x
-#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="тест",СТС Kids (HD)
-http://91.207.115.228:12000/play/a01w
-#EXTINF:-1 tvg-id="mir-uvlecheniy" tvg-logo="https://iptvx.one/picons/mir-uvlecheniy.png" group-title="тест",#КТОКУДА (EDTV 576p)
-http://dmi3y-tv.ru/hls/CH_KTOKUDA.m3u8
-#EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" group-title="тест",Усадьба (EDTV 576p)
-http://dmi3y-tv.ru/hls/CH_USADBA.m3u8
