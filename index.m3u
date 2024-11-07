@@ -757,3 +757,148 @@ http://91.205.199.3:80/tnt4/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/start-air.png" group-title="test",Unknown
 rtmp://5.182.229.90//7260
+
+
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="тест",НТВ (HD)
+http://91.224.169.250:5000/c70
+#EXTINF:-1 tvg-id="ntv-belarus" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="тест",НТВ Беларусь (EDTV 576p)
+http://194.158.222.36:6107
+#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/stv-by.png" group-title="тест",ТВ3 (HD)
+https://livetv.mylifeisgood.net.ru/channels/tv3.m3u8
+#EXTINF:-1 tvg-id="v-gostiax-u-skazki" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" group-title="тест",В гостях у сказки (EDTV 576p)
+http://91.224.169.250:5000/c62
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="тест",СТС Kids (HD)
+https://livetv.mylifeisgood.net.ru/channels/stskids.m3u8
+#EXTINF:-1 tvg-id="domashny" tvg-logo="http://epg.it999.ru/img2/304.png" group-title="тест",Домашний (HD)
+https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="тест",ТНТ (HD)
+http://91.224.169.250:5000/c72
+#EXTINF:-1 tvg-id="2024" tvg-logo="http://epg.one/img2/2024.png" group-title="тест",Bridge Hits (EDTV 576p)
+http://91.224.169.250:5000/c55
+#EXTINF:-1 tvg-id="start-air" tvg-logo="https://iptvx.one/picons/start-air.png" group-title="тест",Start Air (EDTV 576p)
+http://77.235.1.17/start_air/index.m3u8
+#EXTINF:-1 tvg-id="start-world" tvg-logo="http://epg.it999.ru/img2/6240.png" group-title="тест",Start World (EDTV 576p)
+http://77.235.1.17/start_world/index.m3u8
+#EXTINF:-1 tvg-id="evrokino" tvg-logo="https://iptvx.one/picons/eurokino.png" group-title="тест",Еврокино (EDTV 576p)
+http://91.224.169.250:5000/c46
+#EXTINF:-1 tvg-id="illuzion-plus" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" group-title="тест",Иллюзион+ (EDTV 576p)
+http://91.224.169.250:5000/c47
+#EXTINF:-1 tvg-id="retro-tv" tvg-logo="https://iptvx.one/picons/retro-tv.png" group-title="тест",Ретро (EDTV 576p)
+http://91.224.169.250:5000/c37
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.it999.ru/img2/1754.png" group-title="тест",НТВ Сериал (EDTV 576p)
+http://77.235.1.17/ntv_serial/index.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="тест",НТВ Хит (EDTV 576p)
+http://77.235.1.17/ntv_hit/index.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="тест",НТВ Хит (HD)
+http://91.224.169.250:5000/c58
+#EXTINF:-1 tvg-id="pervy-info-by" tvg-logo="https://iptvx.one/picons/pervy-info-by.png" group-title="тест",Первый информационный (HD)
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist.m3u8
+#EXTINF:-1 tvg-id="texno24" tvg-logo="https://iptvx.one/picons/tonus-tv.png" group-title="тест",Т24
+http://91.224.169.250:5000/c15
+#EXTINF:-1 tvg-id="avto24" tvg-logo="http://epg.it999.ru/img2/2008.png" group-title="тест",АВТО 24 (EDTV 576p)
+http://91.224.169.250:5000/c42
+#EXTINF:-1 tvg-id="drive" tvg-logo="https://iptvx.one/picons/drive.png" group-title="тест",ДРАЙВ (EDTV 576p)
+http://91.224.169.250:5000/c41
+#EXTINF:-1 tvg-id="ntv-style" tvg-logo="http://epg.it999.ru/img2/1755.png" group-title="тест",НТВ Стиль (EDTV 576p)
+http://77.235.1.17/ntv_stile/index.m3u8
+#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="pervy" tvg-logo="https://epg.one/img2/146.png" group-title="тест",Первый (EDTV 480p)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_1TVSD/variant.m3u8
+#EXTINF:-1 tvg-id="mir" tvg-logo="https://iptvx.one/picons/mir.png" group-title="тест",Мир (HD)
+https://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="paramount-comedy" tvg-logo="http://epg.it999.ru/img2/920.png" group-title="тест",Comedy Central (EDTV 576p)
+http://193.242.204.28:10065/65
+#EXTINF:-1 tvg-id="ntv-belarus" tvg-logo="https://iptvx.one/picons/ntv-belarus.png" group-title="тест",НТВ Беларусь (HD)
+http://93.189.224.246:52900/play/a00i/index.m3u8
+#EXTINF:-1 tvg-id="rtr-belarus" tvg-logo="https://iptvx.one/picons/rtr-belarus.png" group-title="тест",РТР Беларусь (HD)
+http://93.189.224.246:52900/play/a00j/index.m3u8
+#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://iptvx.one/picons/boomerang.png" group-title="тест",Cartoonito (HD)
+http://stream01.vnet.am/Channel_120/tracks-v1a2/mono.m3u8
+#EXTINF:-1 tvg-id="da-vinci" tvg-logo="https://iptvx.one/picons/da-vinci.png" group-title="тест",Da Vinci (EDTV 576p)
+http://stream2.cinerama.uz/1231/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="o_" tvg-logo="https://iptvx.one/picons/o_.png" group-title="тест",О! (EDTV 576p)
+http://91.194.191.241:8081/chid405/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ryzhy" tvg-logo="https://iptvx.one/picons/ryzhy.png" group-title="тест",Рыжий (EDTV 576p)
+http://stream2.cinerama.uz/1407/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="rentv" tvg-logo="http://epg.one/img2/18.png" group-title="тест",Рен ТВ (EDTV 576p)
+http://93.189.224.246:52900/play/a00v/index.m3u8
+#EXTINF:-1 tvg-id="baby-time" tvg-logo="https://iptvx.one/picons/baby-time.png" group-title="тест",Baby Time (EDTV 576p)
+http://77.235.1.17/baby_time/index.m3u8
+#EXTINF:-1 tvg-id="familyjam" tvg-logo="https://iptvx.one/picons/familyjam.png" group-title="тест",FamilyJam (HD)
+http://88.218.242.237:8000/play/a00b
+#EXTINF:-1 tvg-id="detectivejam" tvg-logo="https://iptvx.one/picons/detectivejam.png" group-title="тест",DetectiveJam (HD)
+http://88.218.242.237:8000/play/a00a
+#EXTINF:-1 tvg-id="scream" tvg-logo="https://iptvx.one/picons/scream.png" group-title="тест",Scream (HD)
+http://88.218.242.237:8000/play/a00c
+#EXTINF:-1 tvg-id="big-planet" tvg-logo="https://iptvx.one/picons/big-planet.png" group-title="тест",Big Planet (HD)
+http://88.218.242.237:8000/play/a00k
+#EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="тест",Первый (HD)
+https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+#EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="тест",.black (EDTV 576p)
+http://91.205.199.3/black/index.m3u8
+#EXTINF:-1 tvg-id="sony-tv" tvg-logo="https://iptvx.one/picons/sony.png" group-title="тест",.red (HD)
+http://91.205.199.3/red/index.m3u8
+#EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://iptvx.one/picons/viasat-nature.png" group-title="тест",Viju NATURE (EDTV 576p)
+http://93.125.121.75:80/ViasatNature/index.m3u8?token=test
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="тест",Россия 1 (HD)
+http://91.224.169.250:5000/c68
+#EXTINF:-1 tvg-id="pervy" tvg-logo="https://epg.one/img2/146.png" group-title="тест",Первый (EDTV 576p)
+http://91.194.191.241:8081/chid1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ginger-hd" tvg-logo="https://iptvx.one/picons/capfantast.png" group-title="тест",Капитан Фантастика (HD)
+http://91.194.191.241:8081/chid292/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="multimuzyka" tvg-logo="https://iptvx.one/picons/multimuzyka.png" group-title="тест",МУЛЬТиМУЗЫКА (WSVGA)
+http://stv.mediacdn.ru/live/cdn/multimuzika/playlist_sdhigher.m3u8
+#EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://iptvx.one/picons/hollywood-hd.png" group-title="тест",HollywooD (EDTV 576p)
+http://stream2.cinerama.uz/1443/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="kinoliving" tvg-logo="https://iptvx.one/picons/kinoliving.png" group-title="тест",KinoLiving (HD)
+http://91.194.191.241:8081/chid413/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://iptvx.one/picons/vip-comedy.png" group-title="тест",Viju+comedy (HD)
+http://77.235.1.17/vip_comedy/index.m3u8
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="тест",Viju+megahit (HD)
+http://77.235.1.17/vip_megahit/index.m3u8
+#EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://iptvx.one/picons/vip-premiere.png" group-title="тест",Viju+premiere (HD)
+http://135.181.115.81:8000/play/a01a/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="vremia" tvg-logo="https://iptvx.one/picons/vremia.png" group-title="тест",Время (HD)
+https://cdn2.skygo.mn/live/disk1/Vremya/HLS-FTA/Vremya.m3u8
+#EXTINF:-1 tvg-id="sts-int" tvg-logo="https://iptvx.one/picons/sts-int.png" group-title="тест",СТС Int (EDTV 576p)
+https://cdn2.skygo.mn/live/disk1/STS/HLS-FTA/STS.m3u8
+#EXTINF:-1 tvg-id="zhivi-aktivno" tvg-logo="http://epg.it999.ru/img2/5881.png" group-title="тест",Живи Активно (EDTV 576p)
+http://stream2.cinerama.uz/1405/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="dorama" tvg-logo="https://iptvx.one/picons/dorama.png" group-title="тест",Дорама (EDTV 576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
+http://ott-cdn.ucom.am/s95/04.m3u8
+#EXTINF:-1 tvg-id="hollywood-hd" tvg-logo="https://iptvx.one/picons/hollywood-hd.png" group-title="тест",HollywooD (HD)
+http://91.194.191.241:8081/chid421/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="тест",Жара (EDTV 576p)
+http://109.200.130.123:7537/play/a02v
+#EXTINF:-1 tvg-id="dorama" tvg-logo="https://iptvx.one/picons/dorama.png" group-title="тест",Дорама (EDTV 576p)
+http://109.200.130.123:7537/play/a02n
+#EXTINF:-1 tvg-id="tancuj" tvg-logo="https://iptvx.one/picons/tancuj.png" group-title="тест",Танцуй! (EDTV 576p)
+http://109.200.130.123:7537/play/a02l
+#EXTINF:-1 tvg-id="morskoy" tvg-logo="https://iptvx.one/picons/morskoy.png" group-title="тест",Моя стихия (EDTV 576p)
+http://109.200.130.123:7537/play/a02f
+#EXTINF:-1 tvg-id="bollywood-hd" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" group-title="тест",BollywooD (HD)
+http://193.242.204.28:10083/83
+#EXTINF:-1 tvg-id="nst" tvg-logo="https://iptvx.one/picons/nst.png" group-title="тест",НСТ (EDTV 576p)
+http://193.242.204.28:10054/54
+#EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="тест",Дом кино Премиум (EDTV 576p)
+http://stream02.vnet.am/THT/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="тест",Дом кино Премиум (HD)
+http://193.242.204.28:10081/81
+#EXTINF:-1 tvg-id="pervy-info-by" tvg-logo="https://iptvx.one/picons/pervy-info-by.png" group-title="тест",Первый информационный (HD)
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="тест",СТС Kids (HD)
+http://stream2.cinerama.uz/1437/index.m3u8
+#EXTINF:-1 tvg-id="sony-scifi" tvg-logo="https://iptvx.one/picons/sony-scifi.png" group-title="тест",.sci-fi (EDTV 576p)
+http://91.205.199.3/scifi/index.m3u8
+#EXTINF:-1 tvg-id="karusel-int" tvg-logo="https://iptvx.one/picons/karusel.png" group-title="тест",Карусель Int (HD)
+https://cdn2.skygo.mn/live/disk1/Karusel/HLS-FTA/Karusel.m3u8
+#EXTINF:-1 tvg-id="tnt-kz" tvg-logo="https://iptvx.one/picons/tnt-kz.png" group-title="тест",ТНТ KZ (720x404)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
+#EXTINF:-1 tvg-id="tnt-kz" tvg-logo="https://iptvx.one/picons/tnt-kz.png" group-title="тест",ТНТ KZ (720x404)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
+http://sc.id-tv.kz/tntComedy.m3u8
+#EXTINF:-1 tvg-id="nick-jr" tvg-logo="https://iptvx.one/picons/nick-jr.png" group-title="тест",Nick Jr (EDTV 576p)
+rtmp://212.0.213.132//NickJr
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" group-title="тест",Bridge Шлягер (EDTV 576p)
+http://193.242.204.28:10197/197
