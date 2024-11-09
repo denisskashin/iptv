@@ -774,3 +774,46 @@ http://91.205.199.3:80/tnt4/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://iptvx.one/picons/start-air.png" group-title="test",Unknown
 rtmp://5.182.229.90//7260
+
+#EXTINF:-1 tvg-id="kinomult" tvg-logo="https://iptvx.one/picons/kinomult.png" group-title="test",КиноМульт (EDTV 576p)
+http://109.200.130.123:7537/play/a024
+#EXTINF:-1 tvg-id="ont-by" tvg-logo="https://iptvx.one/picons/ont-by.png" group-title="тест",ОНТ (EDTV 576p)
+http://194.158.222.36:6102ё
+#EXTINF:-1 tvg-id="v-gostiax-u-skazki" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" group-title="тест",В гостях у сказки (HD)
+https://stream2.cinerama.uz/1270/tracks-v1a1/mono.m3u8
+EXTINF:-1 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="тест",Russian MusicBox (EDTV 576p)
+http://94.230.128.105:8080/MUSIC/index.m3u8
+#EXTINF:-1 tvg-id="belarus2" tvg-logo="https://iptvx.one/picons/belarus2hd.png" group-title="тест",Беларусь 2 (HD)
+http://93.189.224.246:52900/play/a003/index.m3u8
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="https://iptvx.one/picons/piatnica.png" group-title="тест",Пятница! (HD)
+https://livetv.mylifeisgood.net.ru/channels/friday.m3u8
+#EXTINF:-1 tvg-id="bridge-tv-shlager" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" group-title="тест",Bridge Шлягер (EDTV 576p)
+https://livetv.mylifeisgood.net.ru/channels/bridgetvshlyager.m3u8
+#EXTINF:-1  tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="тест",Жара (EDTV 576p)
+http://31.210.208.171:8080/jara/index.m3u8?token=+W2MSER
+#EXTINF:-1 tvg-id="sony-turbo" tvg-logo="https://iptvx.one/picons/sony-turbo.png" group-title="тест",.black (EDTV 576p)
+http://91.194.191.241:8081/chid408/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="sony-tv" tvg-logo="https://iptvx.one/picons/sony.png" group-title="тест",.red (EDTV 576p)
+http://178.124.152.238:8088/sony
+#EXTINF:-1 tvg-id="sony-scifi" tvg-logo="https://iptvx.one/picons/sony-scifi.png" group-title="тест",.sci-fi (EDTV 576p)
+http://130.193.73.10:8937/play/a02q
+#EXTINF:-1 tvg-id="bollywood-hd" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" group-title="тест",BollywooD (HD)
+http://91.224.169.250:5000/c155
+#EXTINF:-1 tvg-id="2181" tvg-logo="http://epg.one/img2/2181.png" group-title="тест",Filmbox (EDTV 576p)
+http://130.193.73.10:8937/play/a03s
+#EXTINF:-1 tvg-id="trashtv" tvg-logo="https://iptvx.one/picons/trashtv.png" group-title="тест",Trash (HD)
+http://185.23.80.28:8080/TRASH/index.m3u8?token=test
+#EXTINF:-1 tvg-id="dorama" tvg-logo="https://iptvx.one/picons/dorama.png" group-title="тест",Дорама (EDTV 576p)
+https://stream1.cinerama.uz/1273/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="russkaya-komedia" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" group-title="тест",Комедия (EDTV 576p)
+http://130.193.73.10:8937/play/a03k
+#EXTINF:-1 tvg-id="kineko" tvg-logo="https://iptvx.one/picons/kineko.png" group-title="тест",Кинеко (HD)
+http://130.193.73.10:8937/play/a03d
+#EXTINF:-1 tvg-id="kino-tv" tvg-logo="https://iptvx.one/picons/kino-tv.png" group-title="тест",Кино ТВ (HD)
+http://s1.merlive.am:80/kinotvhd/index.m3u8
+#EXTINF:-1 tvg-id="lubimoe-kino" tvg-logo="https://iptvx.one/picons/lubimoe-kino.png" group-title="тест",Любимое кино (EDTV 576p)
+http://130.193.73.10:8937/play/a037
+#EXTINF:-1 tvg-id="nst" tvg-logo="https://iptvx.one/picons/nst.png" group-title="тест",НСТ (EDTV 576p)
+http://stream01.vnet.am/Channel_125/mono.m3u8
+#EXTINF:-1  tvg-id="sapfir" tvg-logo="https://iptvx.one/picons/sapfir.png" group-title="тест",Сапфир (EDTV 576p)
+http://130.193.73.10:8937/play/a01e
