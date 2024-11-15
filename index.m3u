@@ -862,3 +862,45 @@ http://ott.server-iptv.live/667/video.m3u8?token=M4f082ab4c
 #EXTINF:-1 tvg-id="tnt4-international" tvg-logo="https://iptvx.one/picons/tnt4-int.png" group-title="test",ТНТ4 International (EDTV 480p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
 http://sc.id-tv.kz/tnt4.m3u8
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="test",СТС Kids (HD)
+http://130.193.73.10:8937/play/a017
+#EXTINF:-1 tvg-id="super" tvg-logo="https://iptvx.one/picons/subbota.png" group-title="test",Суббота (EDTV 576p)
+http://130.193.73.10:8937/play/a03a
+#EXTINF:-1 tvg-id="flixsnip" tvg-logo="https://iptvx.one/picons/flixsnip.png" group-title="test",FlixSnip (EDTV 576p)
+http://130.193.73.10:8937/play/a02r
+#EXTINF:-1 tvg-id="filmbox-arthouse" tvg-logo="https://iptvx.one/picons/filmbox-arthouse.png" group-title="test",Filmbox Arthouse (EDTV 576p)
+http://130.193.73.10:8937/play/a03t
+#EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" group-title="test",Русский детектив (EDTV 576p)
+http://130.193.73.10:8937/play/a03o
+#EXTINF:-1 tvg-id="match-tv" tvg-logo="https://iptvx.one/picons/match-tv.png" group-title="test",Матч! (EDTV 576p)
+http://130.193.73.10:8937/play/a048
+#EXTINF:-1 tvg-id="match-tv" tvg-logo="https://iptvx.one/picons/match-tv.png" group-title="test",Матч! (HD)
+http://130.193.73.10:8937/play/a049
+#EXTINF:-1 tvg-id="travel-adventure" tvg-logo="https://iptvx.one/picons/travel-adventure.png" group-title="test",Travel+Adventure (EDTV 576p)
+http://130.193.73.10:8937/play/a026
+#EXTINF:-1 tvg-id="terra-ru" tvg-logo="https://iptvx.one/picons/terra-ru.png" group-title="test",TERRA (HD)
+http://130.193.73.10:8937/play/a01g
+#EXTINF:-1 tvg-id="viasat-nature-history-hd" tvg-logo="http://epg.it999.ru/img2/2012.png" group-title="test",Viju+planet (HD)
+http://130.193.73.10:8937/play/a01l
+#EXTINF:-1 tvg-id="morskoy" tvg-logo="https://iptvx.one/picons/morskoy.png" group-title="test",Моя стихия (EDTV 576p)
+http://130.193.73.10:8937/play/a02f
+#EXTINF:-1 tvg-id="ntv-pravo" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" group-title="test",НТВ Право
+http://130.193.73.10:8937/play/a01s
+#EXTINF:-1 tvg-id="kinomult" tvg-logo="https://iptvx.one/picons/kinomult.png" group-title="test",КиноМульт (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_KINOMULT.m3u8
+#EXTINF:-1 tvg-id="foxlife" tvg-logo="https://iptvx.one/picons/foxlife.png" group-title="test",FX Life (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_FOXLIFE.m3u8
+#EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="test",Дом кино Премиум (HD)
+http://dmi3y-tv.ru/hls/CH_DOMKINOPREMIUMHD.m3u8
+#EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="test",Мир сериала (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_MIRSERIALA.m3u8
+#EXTINF:-1 tvg-id="ege-tv" tvg-logo="https://iptvx.one/picons/ege-tv.png" group-title="test",ЕГЭ ТВ (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_EGETV.m3u8
+#EXTINF:-1 tvg-id="lot-47" tvg-logo="https://iptvx.one/picons/lot-47.png" group-title="test",Лен ТВ 24 (HD)
+http://130.193.73.10:8937/play/a00l
+#EXTINF:-1 tvg-id="kluch" tvg-logo="https://iptvx.one/picons/kluch.png" group-title="test",Ключ (EDTV 576p)
+http://185.23.80.28:8080/Klyuch/index.m3u8?token=test
+#EXTINF:-1 tvg-id="kino-bez-granic" tvg-logo="https://iptvx.one/picons/kino-bez-granic.png" group-title="test",Кино без границ (EDTV 576p)
+http://185.50.148.2:7703/Detskiy/index.m3u8
+#EXTINF:-1 tvg-id="moya-planeta"tvg-logo="http://epg.it999.ru/img2/675.png" group-title="test",Моя Планета (HD)
+http://91.194.191.241:8081/chid210/tracks-v1a1/mono.m3u8
