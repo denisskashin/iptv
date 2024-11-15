@@ -777,3 +777,51 @@ http://91.205.199.3:80/tnt4/index.m3u8
 
 #EXTINF:-1 group-title="test",Unknown
 rtmp://5.182.229.90//7260
+
+#EXTINF:-1 tvg-id="ont-by" tvg-logo="https://iptvx.one/picons/ont-by.png" group-title="test",ОНТ (HD)
+http://93.189.224.246:52900/play/a009/index.m3u8
+#EXTINF:-1 tvg-id="otr" tvg-logo="https://iptvx.one/picons/otr.png" group-title="test",ОТР (EDTV 576p)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="test",Пятый канал (EDTV 576p)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+#EXTINF:-1 tvg-id="2277" tvg-logo="http://epg.it999.ru/img2/2277.png" group-title="test",RU TV Беларусь (EDTV 576p)
+http://93.189.224.246:52900/play/a002/index.m3u8
+#EXTINF:-1 tvg-id="nashe-muzhskoe-hd" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe-hd.png" group-title="test",Наше Мужское (HD)
+http://65.21.85.175:8000/play/a00r/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.it999.ru/img2/2447.png" group-title="test",Победа (EDTV 576p)
+http://93.189.224.246:52900/play/a010/index.m3u8
+#EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" group-title="test",Русский бестселлер (EDTV 576p)
+http://65.21.85.175:8000/play/a00z/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="russky-detektiv" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" group-title=test",Русский детектив (EDTV 576p)
+http://ott.server-iptv.live/679/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="russky-roman" tvg-logo="https://iptvx.one/picons/russky-roman.png" group-title="test",Русский роман (HD)
+http://65.21.85.175:8000/play/a00y/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="viasat-sport" tvg-logo="http://epg.it999.ru/img2/2055.png" group-title="test",Viju+sport (EDTV 576p)
+http://edge02.odtv.az/o7/viasatsport/playlist.m3u8
+#EXTINF:-1 tvg-id="match-tv" tvg-logo="https://iptvx.one/picons/match-tv.png" group-title="test",Матч! (EDTV 480p)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+https://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
+#EXTINF:-1 tvg-id="start" tvg-logo="http://epg.it999.ru/img2/2530.png" group-title="test",Старт (HD)
+http://91.194.191.241:8081/chid231/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="tancuj" tvg-logo="https://iptvx.one/picons/tancuj.png" group-title="test",Танцуй! (EDTV 576p)
+http://109.200.130.123:7537/play/a02l
+#EXTINF:-1 tvg-id="2782" tvg-logo="http://epg.one/img2/2782.png" group-title="test",Футбол (EDTV 576p)
+http://185.23.80.28:8080/Football/index.m3u8?token=test
+#EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.it999.ru/img2/275.png" group-title="test",Top Secret (EDTV 576p)
+http://edge02.odtv.az/o1/sovershennosekretno/playlist.m3u8
+#EXTINF:-1 tvg-id="terra-ru" tvg-logo="https://iptvx.one/picons/terra-ru.png" group-title="test",TERRA (EDTV 576p)
+http://185.50.148.2:7707/NationalGeographic/index.m3u8
+#EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://iptvx.one/picons/viasat-nature.png" group-title="test",Viju NATURE (EDTV 576p)
+http://135.181.115.81:8000/play/a01j/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="zoopark" tvg-logo="http://epg.it999.ru/img2/367.png" group-title="test",ZOOПАРК (EDTV 576p)
+http://stream2.cinerama.uz/1417/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="belarus3" tvg-logo="https://iptvx.one/picons/belarus3hd.png" group-title="test",Беларусь 3 (HD)
+http://93.189.224.246:52900/play/a008/index.m3u8
+#EXTINF:-1 tvg-id="psixologia-21" tvg-logo="https://iptvx.one/picons/psixologia-21.png" group-title="test",Психология (EDTV 576p)
+http://91.194.191.241:8081/chid162/tracks-v1a1/mono.m3u8
+#EXTINF:-1 id="187" tvg-logo="http://epg.it999.ru/img2/187.png" group-title="test",Россия К (HD)
+https://player.smotrim.ru/iframe/stream/live_id/19201?43e=5.m3u8
+#EXTINF:-1 tvg-id="nasha-tema" tvg-logo="http://epg.it999.ru/img2/2433.png" group-title="test",Наша Тема (EDTV 576p)
+http://91.194.191.241:8081/chid301/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="oxota-i-rybalka" tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="test",ОХОТА И РЫБАЛКА (EDTV 576p)
+http://stream2.cinerama.uz/1038/tracks-v1a1/mono.m3u8
