@@ -904,3 +904,13 @@ http://185.23.80.28:8080/Klyuch/index.m3u8?token=test
 http://185.50.148.2:7703/Detskiy/index.m3u8
 #EXTINF:-1 tvg-id="moya-planeta"tvg-logo="http://epg.it999.ru/img2/675.png" group-title="test",Моя Планета (HD)
 http://91.194.191.241:8081/chid210/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="kino-tv" tvg-logo="https://iptvx.one/picons/kino-tv.png" group-title="test",Кино ТВ (HD)
+http://193.242.190.6:8099/88/index.m3u8
+#EXTINF:-1 tvg-id="national-geographic" tvg-logo="https://iptvx.one/picons/national-geographic.png" group-title="test",National Geographic (EDTV 576p)
+http://45.159.74.13:80/NationalGeographic/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ocean-tv" tvg-logo="https://iptvx.one/picons/ocean-tv.png" group-title="test",ОКЕАН (EDTV 576p)
+http://5.134.87.10:8000/play/a06i/index.m3u8
+#EXTINF:-1 tvg-id="viasat-explore" tvg-logo="http://epg.it999.ru/img2/521.png" group-title="test",Viju EXPLORE (EDTV 576p)
+http://82.215.111.227/1045/index.m3u8
+#EXTINF:-1 tvg-id="6646" tvg-logo="http://epg.one/img2/6646.png" group-title="test",Рыболов (EDTV 576p)
+http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
