@@ -825,3 +825,40 @@ https://player.smotrim.ru/iframe/stream/live_id/19201?43e=5.m3u8
 http://91.194.191.241:8081/chid301/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="oxota-i-rybalka" tvg-logo="http://epg.it999.ru/img2/2419.png" group-title="test",ОХОТА И РЫБАЛКА (EDTV 576p)
 http://stream2.cinerama.uz/1038/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="paramount-comedy" tvg-logo="http://epg.it999.ru/img2/920.png" group-title="test",Comedy Central (EDTV 576p)
+http://ott.server-iptv.live/645/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="2836" tvg-logo="http://epg.one/img2/2836.png" group-title="test",Камеди (HD)
+http://ott.server-iptv.live/676/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="sony-tv" tvg-logo="https://iptvx.one/picons/sony.png" group-title="test",.red (HD)
+http://ott.server-iptv.live/695/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="fox" tvg-logo="https://iptvx.one/picons/fox.png" group-title="test",FX (HD)
+http://ott.server-iptv.live/626/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="foxlife" tvg-logo="https://iptvx.one/picons/foxlife.png" group-title="test",FX Life (WSVGA)
+http://ott.server-iptv.live/646/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 audio-track="ru" tvg-id="tv1000-cee" tvg-logo="https://iptvx.one/picons/tv1000-cee.png" group-title="test",Viasat Kino (HD)
+http://ott.server-iptv.live/618/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="2832" tvg-logo="http://epg.one/img2/2832.png" group-title="test",Блокбастер (HD)
+http://ott.server-iptv.live/668/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="komedijnoe-hd" tvg-logo="https://iptvx.one/picons/komedijnoe.png" group-title="test",Комедийное (HD)
+http://ott.server-iptv.live/617/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="kinopokaz" tvg-logo="https://iptvx.one/picons/kinopokaz.png" group-title="test",Кинопоказ (HD)
+http://ott.server-iptv.live/611/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="ostrosiuzhetnoe-hd" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe-hd.png" group-title="test",Остросюжетное (HD)
+http://ott.server-iptv.live/604/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="2833" tvg-logo="https://epg.one/img2/2833.png" group-title="test",Хит (HD)
+http://ott.server-iptv.live/665/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://iptvx.one/picons/star-cinema.png" group-title="test",Star Cinema (HD)
+http://ott.server-iptv.live/643/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="star-family" tvg-logo="https://iptvx.one/picons/star-family.png" group-title="test",Star Family (HD)
+http://ott.server-iptv.live/673/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="test",Дом кино Премиум (HD)
+http://ott.server-iptv.live/603/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="test",Мир сериала (EDTV 576p)
+http://ott.server-iptv.live/627/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="2831" tvg-logo="http://epg.one/img2/2831.png" group-title="test",Наш кинопоказ (HD)
+http://ott.server-iptv.live/666/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="2829" tvg-logo="http://epg.one/img2/2829.png" group-title="test",Про любовь (HD)
+http://ott.server-iptv.live/667/video.m3u8?token=M4f082ab4c
+#EXTINF:-1 tvg-id="tnt4-international" tvg-logo="https://iptvx.one/picons/tnt4-int.png" group-title="test",ТНТ4 International (EDTV 480p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
+http://sc.id-tv.kz/tnt4.m3u8
