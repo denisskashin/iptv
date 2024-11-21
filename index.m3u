@@ -861,3 +861,11 @@ https://player.smotrim.ru/iframe/stream/live_id/19201
 #EXTINF:-1 tvg-id="prima" tvg-logo="https://iptvx.one/picons/prima.png" group-title="test",Прима (HD)
 #EXTVLCOPT:http-user-agent=WINK/1.44.1 (AndroidTV/9) HlsWinkPlayer
 https://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
+#EXTINF:-1 tvg-id="belarus1" tvg-logo="https://iptvx.one/picons/belarus1hd.png" group-title="test",Беларусь 1 (HD)
+http://93.189.224.246:52900/play/a006/index.m3u8
+#EXTINF:-1 tvg-id="fightbox-hd" tvg-logo="https://iptvx.one/picons/fightbox-hd.png" group-title="test",FightBox (EDTV 576p)
+http://stream01.vnet.am/Fightbox/mono.m3u8
+#EXTINF:-1 tvg-id="history" tvg-logo="https://iptvx.one/picons/history.png" group-title="test",History (HD)
+http://stream01.vnet.am/Channel_123/mono.m3u8
+#EXTINF:-1 tvg-id="nasha-sibir" tvg-logo="https://iptvx.one/picons/nasha-sibir.png" group-title="test",Наша Сибирь (HD)
+http://stream2.cinerama.uz/1424/tracks-v1a1/mono.m3u8
