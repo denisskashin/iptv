@@ -746,3 +746,52 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69
 http://sc.id-tv.kz/tnt4.m3u8
+
+#EXTINF:-1 tvg-id="baby-time" tvg-logo="https://iptvx.one/picons/baby-time.png" group-title="test",Baby Time (EDTV 576p)
+http://212.75.128.233:4022/udp/238.1.1.43:1234
+#EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" group-title="test",Nickelodeon (EDTV 576p)
+http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="kamedi" tvg-logo="https://iptvx.one/picons/kamedi.png" group-title="test",Камеди (EDTV 576p)
+http://185.23.80.28:8080/Camedi/index.m3u8?token=tva.in.ua
+#EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://iptvx.one/picons/vip-comedy.png" group-title="test",Viju+comedy (HD)
+http://135.181.115.81:8000/play/a019/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="test",Viju+megahit (HD)
+http://193.242.190.6:8099/201/index.m3u8
+#EXTINF:-1 tvg-id="vip-serial" tvg-logo="https://iptvx.one/picons/vip-serial.png" group-title="test",Viju+serial (HD)
+http://193.242.190.6:8099/204/index.m3u8
+#EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://iptvx.one/picons/star-cinema.png" group-title="test",Star Cinema (EDTV 576p)
+http://185.23.80.28:8080/StarCinema/index.m3u8?token=tva.in.ua
+#EXTINF:-1 tvg-id="star-family" tvg-logo="https://iptvx.one/picons/star-family.png" group-title="test",Star Family (EDTV 576p)
+http://185.23.80.28:8080/StarFamily/index.m3u8?token=tva.in.ua
+#EXTINF:-1 tvg-id="domkino-premium" tvg-logo="https://iptvx.one/picons/domkino-premium.png" group-title="test",Дом кино Премиум (HD)
+http://185.23.80.28:8080/DomKinoPremium/index.m3u8?token=tva.in.ua
+#EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="test",Мир сериала (EDTV 576p)
+http://185.23.80.28:8080/MirSeriala/index.m3u8?token=tva.in.ua
+#EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" group-title="test",Наш кинопоказ (HD)
+http://185.23.80.28:8080/NashKinopokaz/index.m3u8?token=tva.in.ua
+#EXTINF:-1 tvg-id="ntv-serial" tvg-logo="http://epg.one/img2/1754.png" group-title="test",НТВ Сериал (WSVGA)
+http://cdn2.ntv.ru/th_serial/playlist.m3u8
+#EXTINF:-1 tvg-id="ntv-xit" tvg-logo="https://iptvx.one/picons/ntv-xit.png" group-title="test",НТВ Хит (WSVGA)
+http://cdn2.ntv.ru/th_hit/playlist.m3u8
+#EXTINF:-1 tvg-id="pro-lyubov" tvg-logo="https://iptvx.one/picons/pro-lyubov.png" group-title="test",Про любовь (EDTV 576p)
+http://185.23.80.28:8080/ProLyubov/index.m3u8?token=test
+#EXTINF:-1 tvg-id="konny-mir" tvg-logo="https://iptvx.one/picons/konny-mir.png" group-title="test",Конный Мир (WSVGA)
+https://cdn-01.bonus-tv.ru/kmir/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="galaxy-tv" tvg-logo="https://iptvx.one/picons/galaxy-tv.png" group-title="test",Galaxy TV (EDTV 576p)
+http://185.23.80.28:8080/Galaxy/index.m3u8?token=test
+#EXTINF:-1 tvg-id="zhivi-aktivno" tvg-logo="http://epg.one/img2/5881.png" group-title="test",Живи Активно (WSVGA)
+http://stream2.cinerama.uz/1405/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ntv-style" tvg-logo="http://epg.one/img2/1755.png" group-title="test",НТВ Стиль (WSVGA)
+http://cdn2.ntv.ru/th_style/playlist.m3u8
+#EXTINF:-1 group-title="test",Nickelodeon East (HD ready)
+http://fl1.moveonjoy.com/NICKELODEON/index.m3u8
+#EXTINF:-1 group-title="test",Nicktoons EN (HD ready)
+http://fl1.moveonjoy.com/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="baby-tv" tvg-logo="https://iptvx.one/picons/baby-tv.png" group-title="test",Baby TV
+http://178.219.128.68:64889/BABYTV
+#EXTINF:-1 group-title="test",Nickelodeon Poland
+http://178.219.128.68:64889/NICK
+#EXTINF:-1 group-title="test",Nick Jr. CEE
+http://178.219.128.68:64888/NICKJR
+#EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" group-title="test",Nickelodeon (EDTV 576p)
+http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
