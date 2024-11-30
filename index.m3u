@@ -795,3 +795,27 @@ http://178.219.128.68:64889/NICK
 http://178.219.128.68:64888/NICKJR
 #EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" group-title="test",Nickelodeon (EDTV 576p)
 http://135.181.115.81:8000/play/a009/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="test",НТВ (HD)
+http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="rentv" tvg-logo="https://iptvx.one/picons/rentv.png" group-title="test",Рен ТВ (HD)
+http://185.23.80.28:8080/REN_HD/index.m3u8?token=test
+#EXTINF:-1 tvg-id="v-gostiax-u-skazki" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" group-title="test",В гостях у сказки (EDTV 576p)
+http://109.200.130.123:7537/play/a02m
+#EXTINF:-1 tvg-id="2128" tvg-logo="https://epg.one/img2/2128.png" group-title="test",CNBC (HD)
+http://stream2.cinerama.uz/1256/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="cnn" tvg-logo="https://iptvx.one/picons/cnn.png" group-title="test",CNN (HD)
+http://190.11.225.124:5000/live/cnn_hd/playlist.m3u8
+#EXTINF:-1 tvg-id="bbc" tvg-logo="https://iptvx.one/picons/bbc.png" group-title="test",BBC World News (EDTV 576p)
+http://stream2.cinerama.uz/1251/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="euronews" tvg-logo="https://iptvx.one/picons/euronews.png" group-title="test",Euronews (HD)
+https://stream01.vnet.am/Channel_119/mono.m3u8
+#EXTINF:-1 tvg-id="fox-news-us" tvg-logo="https://iptvx.one/picons/fox-news-us.png" group-title="test",Fox News Channel (HD)
+http://stream2.cinerama.uz/1252/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="france-24" tvg-logo="https://iptvx.one/picons/france24.png" group-title="test",France 24 (HD)
+http://stream2.cinerama.uz/1241/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="rt-news" tvg-logo="https://iptvx.one/picons/rt-news.png" group-title="test",Russia Today (HD)
+http://cdn-01.bonus-tv.ru:80/RussiaToday/index.m3u8
+#EXTINF:-1 tvg-id="917" tvg-logo="http://epg.one/img2/917.png" group-title="test",Nick Jr East (HD ready)
+https://fl5.moveonjoy.com/NICK_JR/index.m3u8
+#EXTINF:-1 tvg-id="nick-music" tvg-logo="https://iptvx.one/picons/nick-music.png" group-title="test",NickMusic (WSVGA)
+http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
