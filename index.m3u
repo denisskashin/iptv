@@ -1,10 +1,5 @@
 #EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz"
 
-#EXTINF:0 group-title="4ever" tvg-logo="https://iptvx.one/picons/4ever-drama.png" tvg-id="4ever-drama",Drama
-http://cdn.troya.one:80/ch384/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iIvQu2epyle4T20xmzBb8tWNUPS6t9sZEpFUPvCsXBdN
-#EXTINF:0 group-title="4ever" tvg-logo="https://iptvx.one/picons/4ever-theater.png" tvg-id="4ever-theater",Theater
-http://cdn.troya.one:80/ch385/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOrrs3UCjvrR7ifNrF7EO1RmOKYGCNMrhb2KkAjBQ627
-
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24",Авто 24
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-id="avto-plus",Авто Плюс
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Canal Motor
@@ -22,67 +17,6 @@ http://cdn.troya.one:80/ch515/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOg9_
 http://cdn.troya.one:80/ch032/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFeSkiISilpJmyZ0dOOTWBKopdtx4swo3Ykg-isYFdjd
 #EXTINF:-1 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium",Premium
 http://cdn.troya.one:80/ch065/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iEJLAI8cB_nbDRwFasWijo6jHzX7EgOiRlnjhKurYBBm
-
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-action.png" tvg-id="bcu-action",Action
-http://cdn.troya.one:80/ch769/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iAx7jL-IEzBMXDQLXcH8g1Lts5-piyi3yfpkGrTrikxK
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-catastrophe.png" tvg-id="bcu-catastrophe",Catastrophe
-http://cdn.troya.one:80/ch770/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iB1GGau1s_orvQQmpYrjB2CmSlye7xPoQ61N-eEIqpxv
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-cinema.png" tvg-id="bcu-cinema",Cinema
-http://cdn.troya.one:80/ch771/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLljQGKBLxf-G9YH6mQIrMkXg0Tzh_rxdsQAq3LVhPks
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-cinemaplus.png" tvg-id="bcu-cinemaplus",Cinema+
-http://cdn.troya.one:80/ch834/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJOZYZiHQJZdAsP9dNBHuEURO_GROPKa6kptSqJnluF_
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-comedy.png" tvg-id="bcu-comedy",Comedy
-http://cdn.troya.one:80/ch1000/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPX-7F8YLeZiotxg0AuQ4cdSBEQsaX46KRlQ6Dl3QFYj
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-cosmo.png" tvg-id="bcu-cosmo",Cosmo
-http://cdn.troya.one:80/ch1026/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBTT-Nt5PsfIa15Kt26I9R90Y6gHZFmIuTJ_V-xMeRkB
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-criminal.png" tvg-id="bcu-criminal",Criminal
-http://cdn.troya.one:80/ch827/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHs0jcnQBmngHZcseNDHZ_qeaZDsB83oq-jEoM0OcZ86
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-fantastic.png" tvg-id="bcu-fantastic",Fantastic
-http://cdn.troya.one:80/ch773/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iIpTyoq9sgcBrphw8dBY6Zk02TDWm1ED_TWbD7iWsKis
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-filmystic.png" tvg-id="bcu-filmystic",Filmystic
-http://cdn.troya.one:80/ch774/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iIqLvBbcXTrhAqAU2hhVsDdczr29Qa17UNHVpSZd_dPA
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-history.png" tvg-id="bcu-history",History
-http://cdn.troya.one:80/ch775/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKL9tkLfjF3iNAnBhX6n0v4e5qGHUCFnbTg9W7uLaIjn
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kids-plus.png" tvg-id="	bcu-kids-plus",Kids+
-http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=1148908&extension=ts&play_token=kCBouqjgzF
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinorating.png" tvg-id="bcu-kinorating",Kinorating
-http://cdn.troya.one:80/ch776/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCAL-8-JwxiIQtrWLoxY_h23bnsZ0Z8JYDo4KdMGsxsC
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-marvel.png" tvg-id="bcu-marvel",Marvel
-http://cdn.troya.one:80/ch311/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNaTuG1_Zry0iEswdmUOtRdL8Hg19ncAyvSzKnYlCP9g
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozakaz.png" tvg-id="bcu-media",Media
-http://cdn.troya.one:80/ch790/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iEc9z69dbINrjSiuMyyj5dgJ4Y1B9WzKYQAJNQz0UI1G
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-multserial.png" tvg-id="bcu-multserial",Multserial
-http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=1148902&extension=ts&play_token=e6hjW524eQ
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-premiere.png" tvg-id="bcu-premiere",Premiere
-http://cdn.troya.one:80/ch778/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iK4gsF41Wd2CEA6Fy2ez_carCnooRJn64OiQdKtSN5Md
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozal-prem-1.png" tvg-id="bcu-kinozal-prem-1",Premier 1
-http://cdn.troya.one:80/ch782/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBtrEpObrapvMTByjVy8wBgntMm4pYank1Na_dCAe7jZ
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozal-prem-2.png" tvg-id="bcu-kinozal-prem-1",Premier 2
-http://cdn.troya.one:80/ch783/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNOhE52Uw-ibyA7T4aDuvpX0pMqEZKtNgnOo_L0BDJa_
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozal-prem-3.png" tvg-id="bcu-kinozal-prem-1",Premier 3
-http://cdn.troya.one:80/ch784/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLbIuH5s1zRfF1-sVvWx_-8RkyC6_aFn4bpL7R46a56n
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-reality.png" tvg-id="bcu-reality",Reality
-http://cdn.troya.one:80/ch785/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBiRsj14-5fDBMm5bQ_tU70FJ68Ze5OMh4yBzyGCWubL
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-romantic.png" tvg-id="bcu-romantic",Romantic
-http://cdn.troya.one:80/ch779/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCXN4FY_PYFAWsZg-ynhBAi0-Ua_qHrwgNbvX62pYyFD
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s",Russia 90s
-http://cdn.troya.one:80/ch2744/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iArGe4rC9tAok6u_MgM_n4f8ht350JeXfdxYYXhqaWF1
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-russian.png" tvg-id="bcu-russian",Russian
-http://cdn.troya.one:80/ch780/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHEeciNkdHK_jIwn-ej4rYAIvXVvKihFS0nkpibEpGi2
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-ruserial.png" tvg-id="bcu-ruserial",Ruserial
-http://cdn.troya.one:80/ch788/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iIxAecZoLuqFwM9nyEdDhv2PtW_USzbrqoFoTcyGy1ku
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-svaty.png" tvg-id="bcu-svaty",Сваты
-http://cdn.troya.one:80/ch145/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHmixjk0OvnwL8noVOPGoloOMNRplDNb8TCc487byBMQ
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-sssr-hd.png" tvg-id="bcu-sssr",СССР
-http://cdn.troya.one:80/ch789/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iESYHi8H0mgxvHMU-NqwBZ45sRr27a62bo1FQ4ofdkv-
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-stars.png" tvg-id="bcu-stars",Stars
-http://cdn.troya.one:80/ch835/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iD7hUpnBKK_ZW16OS5FNQOXE2Vj7670SKPh_gpf8Gn6s
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-survival.png" tvg-id="bcu-survival",Survival
-http://cdn.troya.one:80/ch1444/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFkozp6IZyFkv5qy7C-JIPF6uOuGRCQpZTCaDhI0jhwd
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-trumotion.png" tvg-id="bcu-trumotion",TruMotion
-http://cdn.troya.one:80/ch1429/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iM4FwUadN64lPzI4bOAJvvJUVUEHGLAtPogljPQUYRNV
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-vhs-hd.png" tvg-id="bcu-vhs",VHS
-http://cdn.troya.one:80/ch781/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iAbv4fZ2Mt9rLPCpDx75u8i9WqPQoUJejuqGEF7ZV8qq
 
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1",Беларусь 1
 http://93.189.224.246:52900/play/a006/index.m3u8
@@ -131,52 +65,8 @@ http://213.226.137.140:81/tl/l322/index.m3u8
 http://stream01.vnet.am/Channel_115/mono.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" tvg-id="bridge-tv-shlager",Шлягер
 
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-action.png" tvg-id="cineman-action",Action
-http://cdn.troya.one:80/ch1032/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCGo7jRcckMVHH_pkH3fhFjHhwlMqXLp2AFQGCly-5xT
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-katastrofy.png" tvg-id="cineman-katastrofy",Катастрофы
-http://cdn.troya.one:80/ch1074/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJmaAIP7qK6MujoPlN3ESy6HJB8ii4Gwhgu61dZgjn7s
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman.png" tvg-id="cineman",CineMan
-http://cdn.troya.one:80/ch1030/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLzCUi6FZ_Xos5AByrZouJ2VBfxo8XW4y-Pedew9E6_b
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-comedy.png" tvg-id="cineman-comedy",Комедия
-http://cdn.troya.one:80/ch1037/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iIQanrMU2ExJExP5go4iSLlLO5WyWcJGzFMfLI7I8HWZ
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-komseri.png" tvg-id="cineman-komseri",Комедийные сериалы
-http://cdn.troya.one:80/ch2925/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iAKGpE1Vx5uti8bTN8VqmRpgX2V1fkQDeL4pIGq0KdVf
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-gluhar.png" tvg-id="cineman-gluhar",Криминальные Сериалы
-http://cdn.troya.one:80/ch2748/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDK-n8TSGQ2aOIqBRVznTqX6aPwWOTqAuds7DbnGi-xR
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-lesnik.png" tvg-id="cineman-lesnik",Лесник
-http://cdn.troya.one:80/ch1327/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBBrHFUB4M2Ls4PAWvz_iMRdIW5w5Qy5JPxu75fWk9Cq
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-marvel.png" tvg-id="cineman-marvel",Marvel
-http://cdn.troya.one:80/ch1035/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLOh5pb5lFLYOP27yfHGlyryl5GqM0HmW_JtL7qeNMdz
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-melodrama.png" tvg-id="cineman-melodrama",Melodrama
-http://cdn.troya.one:80/ch1034/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iGsbHM9NnSIWEEKmy__3wzFFFryTO2GO2lCEK7eVF63T
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-musw.png" tvg-id="cineman-musw",Ментовские войны
-http://cdn.troya.one:80/ch1325/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDFipywi4r98phkSyIuCSjCRAzNMFSjthpFKp-8eKIxl
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-miniseries.png" tvg-id="cineman-miniseries",Miniseries
-http://cdn.troya.one:80/ch2067/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iGFN7pdtxEvtqDZqq-X46Jn1nntS0vlkdug5YUvTl6I-
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-pes.png" tvg-id="cineman-pes",ПёС
-http://cdn.troya.one:80/ch1326/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMtgNVL4Y3ErRQZIZjZMMEBd1VzeIBEJIOKqJ9cm1stl
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-premium.png" tvg-id="cineman-premium",Premium
-http://cdn.troya.one:80/ch2142/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPt9xp-diNdEcW_ZCLED-sqqHlTyXM3bL-1Yb2aNIBP-
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-rukino.png" tvg-id="cineman-rukino",РуКино
-http://cdn.troya.one:80/ch1039/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iG4rU38fBOOooKcYnkanDHC26Py-dA3ycBsP3s5UKsY3
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-svaty.png" tvg-id="cineman-svaty",Сваты
-http://cdn.troya.one:80/ch1040/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNBMCWm9TVlr2i3Rg8bd2YtUozR9Ah-2TWvp78TmJfcs
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-skorpom.png" tvg-id="cineman-skorpom",Скорая помощь
-http://cdn.troya.one:80/ch1622/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCsSHdJiAFgU-AUWhEoAdCIZAbVgs2mFxgByna378bVD
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-top.png" tvg-id="cineman-top",Top
-http://cdn.troya.one:80/ch1031/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iAx-kPZmO7UXkGhnuClBIzXn6mbqXvWd9Sgo2RDgvOUR
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-thriller.png" tvg-id="cineman-thriller",Thriller
-http://cdn.troya.one:80/ch1033/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iAas2KUOTc9gjffQ87P2IEy0_pO8thgBRADgXsr1z88e
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-uzhasy.png" tvg-id="cineman-uzhasy",Ужасы
-http://cdn.troya.one:80/ch1036/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iEl8xZcm5VYU_xxemMJcSMz_FUcT2wF9vgeC6HZU0Gcn
-#EXTINF:-1 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-vhs.png" tvg-id="cineman-vhs",VHS
-http://cdn.troya.one:80/ch1038/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNZ8L0pombHcWRkI1Z4gFyIZn1bhKNSVFTTV3hAKBegs
-
-#EXTINF:0 group-title="C More" tvg-logo="" tvg-id="",Hits
-http://cdn.troya.one:80/ch1116/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBwokK0mIeHBSjP1JwltYmDiVjFGfhlyRqD7EeT_myci
-
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy",Comedy
-http://cdn.troya.one:80/ch058/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iGFUHAfpWXIwE6hdTyGoJEuOP7TJjiHIorqo2StIi5jx
+http://135.181.115.81:8000/play/a019/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore",Explore
 http://82.215.111.227/1045/index.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history",History
@@ -192,21 +82,21 @@ http://cdn.troya.one:80/ch651/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iD9hw
 http://cdn.troya.one:80/ch059/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iC8Rrbccei-xof3m8vEdq8PsaddpGcUi4NxO24crB192
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature",Nature
 http://stream2.cinerama.uz/1228/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viju-tv1000-novella.png" group-title="viju-tv1000-novella",TV1000 Новелла
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd",Planet
 http://130.193.73.10:8937/play/a01l
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere",Premiere
-http://cdn.troya.one:80/ch060/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCLofflkxA27_0hwptuE3_TDp5s10r0H0kgyfQ1AVcJu
-#EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" tvg-id="tv1000-russkoe-kino",Русское кино
-http://cdn.troya.one:80/ch013/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPQM2WVanEjbLZ_Dhik80V6pbSWwTWwh555YCOL5X1qE
+http://213.226.137.140:81/tl/l319/mpegts
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial",Serial
 http://cdn.troya.one:80/ch701/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPHLYdmMQ6Cg1mrZ1zD8Oq08PnkfLmZJ-jLVdoDkEQ8n
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",Sport
 http://213.226.137.140:81/tl/l97/mpegts
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000",TV1000
-http://cdn.troya.one:80/ch017/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iL4fx4rZ7F5HIFf_iX-32vK4WBWVSvKLF0x3xujnWiSw
+http://86.57.198.251:8181/play/1013/index.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action",TV1000 Action
-http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
+http://82.215.111.227/1225/index.m3u8?token=fas-tv.com
+#EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viju-tv1000-novella.png" group-title="viju-tv1000-novella",TV1000 Новелла
+#EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" tvg-id="tv1000-russkoe-kino",TV1000 Русское
+http://82.215.111.227/1059/index.m3u8?token=fas-tv.com
 
 #EXTINF:-1 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/bober.png" tvg-id="bobior",Бобер
 http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=300721&extension=ts&play_token=R4s9gS7eL7
@@ -941,7 +831,7 @@ http://cdn.troya.one:80/ch542/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ-_r
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinojam2.png" tvg-id="kinojam2",Kinojam 2
 http://cdn.troya.one:80/ch521/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMB3fvCzOGDcJK6oNB6-EW1RQEKvOEtklqaFI01ENUeI
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinokomedia.png" tvg-id="kinokomedia",Кинокомедия
-http://cdn.troya.one:80/ch460/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKmLn5QKwAlB-ygcGCU2EgJaDaLjwnbIF-l81IX5_-Cc
+http://82.215.111.227/1232/index.m3u8?token=iptv.org.ua
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinoliving.png" tvg-id="kinoliving",KinoLiving
 http://cdn.troya.one:80/ch2069/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCm6DS3i2MYkPHst_hHehM64f9Jdolp9KLkBicTlXA4H
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Киноман
@@ -951,25 +841,25 @@ http://45.159.74.13:80/Kinoman/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Кино Меню
 http://158.101.194.132:8080/channel/489a40cb/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinomiks.png" tvg-id="kinomiks",Киномикс
-http://cdn.troya.one:80/ch079/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iG9tNuRia04SuMtB8R9wvSxc0ltNEiNxXQQiO07-ewfT
+http://82.215.111.227/1233/index.m3u8?token=iptv.org.ua
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinopokaz.png" tvg-id="kinopokaz",Кинопоказ
 http://cdn.troya.one:80/ch466/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iAa8M7jfa4nF9DO16wjgdHj4x7lTIbuogcL9lXtVrZBi
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd",Кинопремьера
-http://cdn.troya.one:80/ch054/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJUGLyFpN9uXSJ5Q1rmSbK48ilLqM9D6-Sitm_K2JMj2
+http://stream02.vnet.am/Kinopremera/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinosat.png" tvg-id="kinosat",Киносат
 http://88.218.242.237:8000/play/a002
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie",Киносвидание
-http://cdn.troya.one:80/ch010/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iA69iY_4L6N49HV8_WeThZE4KqFQicbch3TETzsTuzRn
+http://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya",Киносемья
-http://cdn.troya.one:80/ch008/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iI9yC0dpkbR7fCo0NCxYz-79TMI15Wqd0DCFlVAbVeWT
+rtmp://5.182.229.90//7244
 #EXTINF:-1 group-title="Фильмы и сериалы",Киносерия
-http://cdn.troya.one:80/ch668/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iF8UtJdVLp9SLYQXChnVA3lTfs7cc_3LXowt2FUAJMz3
+http://stream1.cinerama.uz/1235/tracks-v2a1/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kino-tv.png" tvg-id="kino-tv",Кино ТВ
 http://cdn.troya.one:80/ch077/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMVLzLhaLVhmZOGmbO9Xq3z0K-x42w-bAjEsEwGtgy5a
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-id="kinouzhas",Киноужас
 http://cdn.troya.one:80/ch652/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCDoqxWfe02s3SvySGQm3cJyuXK8HHAGs1yPih6L_PdK
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinoxit.png" tvg-id="kinoxit",Кинохит
-http://cdn.troya.one:80/ch009/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ4rl0GVUrGKBHol93R0D-pI-MuDF8in9VE-aFeNbXx_
+http://45.159.74.13:80/Kinokhit/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kion-xit.png" tvg-id="kion-xit",KION Хит
 http://cdn.troya.one:80/ch382/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iEes2IaqWJ6orDchtbocWGnCGz0hbEOay5vXPW0ngNXI
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/komedijnoe.png" tvg-id="komedijnoe-hd",Комедийное ТВ
@@ -980,8 +870,7 @@ http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=132692&extens
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/lubimoe-kino.png" tvg-id="lubimoe-kino",Любимое Кино
 http://cdn.troya.one:80/ch463/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPoQCfx1pScOcS1Vtg3aN7LSaBjiV0mmBsVsPkNzJLsV
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/muzhskoe-kino.png" tvg-id="muzhskoe-kino",Мужское кино
-http://cdn.troya.one:80/ch112/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iH4CNF-RoyqQdWmApygU3knX9oJxIDdRvZ3iPdK3GBio
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Novella TV
+http://213.226.137.140:81/tl/l111/mpegts
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/nst.png" tvg-id="nst",НСТ
 http://cdn.troya.one:80/ch117/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDKg1TOXHkgnGWgYkCgH9dPSXzvESbjN66Dc5PfOCcxw
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe.png" tvg-id="ostrosiuzhetnoe",Остросюжетное
@@ -1083,140 +972,8 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 http://stream02.vnet.am/THTComedy/mono.m3u8
 
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-adrenalin.png" tvg-id="yosso-adrenalin",Adrenaline
-http://cdn.troya.one:80/ch1310/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFrrTaq6cAdIR2voDU4xdOt-aC0ZAoC3bVDiMOQUXX8r
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-adventure.png" tvg-id="yosso-adventure",Adventure
-http://cdn.troya.one:80/ch1312/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLhiAPBiVzFu5sVvXw33AblAF-c_ofE6w6MmcaBQZdvD
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-best.png" tvg-id="yosso-best",Best
-http://cdn.troya.one:80/ch1308/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBzw7coWokOTPkBJek09BilT_2QKAehDquoZC3ba2hH9
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-best60fps.png" tvg-id="yosso-best60fps",Best 60fps
-http://cdn.troya.one:80/ch2457/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ6Z9iZLF2HFt9WWgdCsKZn0yIz3b6ZbqFehb4zefp7F
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-comedy.png" tvg-id="c-comedy",C-Comedy
-http://cdn.troya.one:80/ch1002/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKR4vDf6mg8CmWVqSTer_U1wHz1LYGpqZoOTGHcFOY3c
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-history.png" tvg-id="c-history",C-History
-http://cdn.troya.one:80/ch1575/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKtjt0gLoyR9sF8aq2qzhSkMNHh1KAZnBNI4LgStQsSl
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-holiday.png" tvg-id="c-holiday",C-Holiday
-http://cdn.troya.one:80/ch394/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHGjOSX1cl1xznw2__yL_KkvmbXmeGYp4G1-_1NRW1Ah
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-inquest.png" tvg-id="c-inquest",C-Inquest
-http://cdn.troya.one:80/ch1001/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCCp3-Vgimo4pALBojw3BgkhaJ6b7z-LyRII-BxbnuZr
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-marvel.png" tvg-id="c-marvel",C-Marvel
-http://cdn.troya.one:80/ch1315/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iO9ET-KEW4Qil0TagQkIqqTOdsa058qPBwjuJpL---lt
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-vhs.png" tvg-id="yosso-vhs",VHS
-http://cdn.troya.one:80/ch1298/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOiZ7OTvM0Fwzw3m2l_1bGGQZXSh1-BDBpmN5VbGeW4Z
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-grand.png" tvg-id="yosso-grand",Grand
-http://cdn.troya.one:80/ch1297/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBLxVOU66TFx1L6J-lUGk2L_pjqoobN_gSaqEbt6Gm4W
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-zabavno.png" tvg-id="yosso-zabavno",Забавное
-http://cdn.troya.one:80/ch1307/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHbB9RB2sLq_kNWP898YdBguBridv0h5F0POLpvu-XQc
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-cowboy.png" tvg-id="yosso-cowboy",Ковбойское
-http://cdn.troya.one:80/ch1309/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ4q9WMkArLBhYl65JSCP0PtpM14C0Wl7Y9M1uSAx6wJ
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-melodrama.png" tvg-id="yosso-melodrama",Мелодрама
-http://cdn.troya.one:80/ch2062/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iB9ty2u2qv_PzbVhrFjsW8s5ffeMqrYLdeAy6oyPwytb
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-netflix.png" tvg-id="yosso-netflix",Netflix
-http://cdn.troya.one:80/ch2455/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMS1GCC_D4x57R3B8Hj6n4aPgz2th5C6zk1Fx19JQJLL
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-newkino.png" tvg-id="yosso-newkino",New Кино
-http://cdn.troya.one:80/ch1303/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOxH08HcXS9sQ6o_DjB5cCQnkBnlhFZPCwtzJCdtDkEM
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-oblivion.png" tvg-id="yosso-oblivion",Oblivion
-http://cdn.troya.one:80/ch1311/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFh3uAlpKMZ5uJs7gpwokrkJsq09Ujlcxw9LMz0qV5XV
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-rusfilm.png" tvg-id="yosso-rusfilm",Русские фильмы
-http://cdn.troya.one:80/ch1300/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNih27EYQ6OJkCyLuGuRMPkq8yxc1CJjzabJ3XTcVM6-
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-sovfilm.png" tvg-id="yosso-sovfilm",Советские фильмы
-http://cdn.troya.one:80/ch1301/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFkorfaRNB-RGTd1y243z8Dp_7v04D-TDrAgNpBPdq38
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-thriller.png" tvg-id="yosso-thriller",Thriller
-http://cdn.troya.one:80/ch1313/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDo0ZAWUmT-rM0t23LojRF2m2MmlnNruxJ7Pyfjz7Wb1
-#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-tragic.png" tvg-id="yosso-tragic",Трагичное
-http://cdn.troya.one:80/ch1306/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHN9EjVHXCo9lVfUwC9fQ8yheISnkcvIamqg7cEIDAff
 
 
-#EXTINF:-1 group-title="KINO+",viju+ COMEDY
-http://135.181.115.81:8000/play/a019/index.m3u8?token=livetv
-#EXTINF:-1 group-title="KINO+",viju+ PREMIERE
-http://135.181.115.81:8000/play/a01a/index.m3u8?token=livetv
-#EXTINF:-1 group-title="KINO+",viju+ PREMIERE HD
-http://213.226.137.140:81/tl/l319/mpegts
-#EXTINF:-1 group-title="KINO+",viju+ Comedy
-http://91.207.115.228:5000/c143
-#EXTINF:-1 group-title="KINO+",viju+ Megahit
-http://91.207.115.228:5000/c144
-#EXTINF:-1 group-title="KINO+",viju+ Megahit HD
-http://hls127.homeiptv.org:8880/ViP_Megahit/video.m3u8
-#EXTINF:-1 group-title="KINO+",viju TV1000 SD
-http://86.57.198.251:8181/play/1013/index.m3u8
-#EXTINF:-1 group-title="KINO+",viju TV1000 Action
-http://86.57.198.251:8181/play/1014/index.m3u8
-#EXTINF:-1 group-title="KINO+",TV 1000 [900x720]
-http://82.215.111.227/1058/index.m3u8?token=fas-tv.com
-#EXTINF:-1 group-title="KINO+",TV 1000 ACTION
-http://82.215.111.227/1225/index.m3u8?token=fas-tv.com
-#EXTINF:-1 group-title="KINO+",TV 1000 R
-http://82.215.111.227/1059/index.m3u8?token=fas-tv.com
-#EXTINF:-1 group-title="KINO+",viju TV1000 Action
-https://stream2.cinerama.uz/1225/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Viju TV1000
-https://stream2.cinerama.uz/1058/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",viju TV1000 Р
-https://stream2.cinerama.uz/1059/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",КП HD
-http://45.159.74.13:80/Kinopremera/index.m3u8
-#EXTINF:-1 group-title="KINO+",К=премьера
-http://stream02.vnet.am/Kinopremera/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Кинопремьера 1920x1080
-http://stream02.vnet.am/Kinopremera/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Кинопремьера
-https://stream2.cinerama.uz/1207/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",KINOHIT [720x576]
-http://82.215.111.227/1055/index.m3u8?token=fas-tv.com
-#EXTINF:-1 group-title="KINO+",КиноХит
-https://stream2.cinerama.uz/1055/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Кино Хит
-http://stream02.vnet.am/Kinokhit/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Kinohit
-rtmp://5.182.229.90//7250
-#EXTINF:-1 group-title="KINO+",Кинохит SD
-http://65.21.85.175:8000/play/a00p/index.m3u8?token=livetv
-#EXTINF:-1 group-title="KINO+",Кино хит sd
-http://45.159.74.13:80/Kinokhit/index.m3u8
-#EXTINF:-1 group-title="KINO+",Киносвидание SD
-rtmp://5.182.229.90//7245
-#EXTINF:-1 group-title="KINO+",Киносвидание
-https://stream2.cinerama.uz/1203/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Kinosvidanie
-http://sc.id-tv.kz/Kinosvidanie_hd_34_35.m3u8
-#EXTINF:-1 group-title="KINO+",Кинокомедия
-https://stream2.cinerama.uz/1232/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Кинокомедия SD
-rtmp://5.182.229.90//7248
-#EXTINF:-1 group-title="KINO+",Кинокомедия HD
-http://82.215.111.227/1232/index.m3u8?token=iptv.org.ua
-#EXTINF:-1 group-title="KINO+",КИНО Микс
-http://65.21.85.175:8000/play/a01c/index.m3u8?token=livetv
-#EXTINF:-1 group-title="KINO+",Киномикс
-https://stream2.cinerama.uz/1233/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Киномикс HD
-http://82.215.111.227/1233/index.m3u8?token=iptv.org.ua
-#EXTINF:-1 group-title="KINO+",Киносерия
-https://stream2.cinerama.uz/1235/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Киносерия HD
-http://stream1.cinerama.uz/1235/tracks-v2a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Киносемья UZ
-http://sc.id-tv.kz/Kinosemiya_hd_34_35.m3u8
-#EXTINF:-1 group-title="KINO+",Киносемья HD
-http://82.215.111.227/1234/index.m3u8?token=iptv.org.ua
-#EXTINF:-1 group-title="KINO+",Киносемья- HD
-rtmp://5.182.229.90//7244
-#EXTINF:-1 group-title="KINO+",Киносемья
-https://stream2.cinerama.uz/1234/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",МУЖСКОЕ КИНО HD
-http://82.215.111.227/1237/index.m3u8?token=iptv.org.ua
-#EXTINF:-1 group-title="KINO+",Мужское кино
-https://stream2.cinerama.uz/1237/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="KINO+",Мужское кино SD
-http://stream01.vnet.am/MujskoeKino/index.m3u8
-#EXTINF:-1 group-title="KINO+",Мужское Кино sd
-http://45.159.74.14:80/MujskoeKino/index.m3u8
-#EXTINF:-1 group-title="KINO+",Мужское Кино 720X576
-http://213.226.137.140:81/tl/l111/mpegts
-#EXTINF:-1 group-title="KINO+",Мужское Kino
-http://65.21.85.175:8000/play/a01o/index.m3u8?token=livetv
 #EXTINF:-1 group-title="KINO+",viju+ PREMIERE
 http://135.181.115.81:8000/play/a01a/index.m3u8?token=livetv
 #EXTINF:-1 group-title="KINO+",viju+ COMEDY
