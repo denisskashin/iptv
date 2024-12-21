@@ -123,6 +123,7 @@ http://195.26.83.96:7007/play/a00m/index.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" tvg-id="bridge-tv-classic",Classic
 http://stream01.vnet.am/BRIDGETVClassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd",Deluxe
+http://213.226.137.140:81/tl/l322/index.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" tvg-id="bridge-tv-fresh",Фрэш
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="http://epg.one/img2/2024.png" tvg-id="2024",Hits
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" tvg-id="bridge-tv-rock",Rock
@@ -190,7 +191,7 @@ http://cdn.troya.one:80/ch651/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iD9hw
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit",Megahit
 http://cdn.troya.one:80/ch059/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iC8Rrbccei-xof3m8vEdq8PsaddpGcUi4NxO24crB192
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature",Nature
-http://135.181.115.81:8000/play/a01j/index.m3u8?token=livetv
+http://stream2.cinerama.uz/1228/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viju-tv1000-novella.png" group-title="viju-tv1000-novella",TV1000 Новелла
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd",Planet
 http://130.193.73.10:8937/play/a01l
@@ -205,7 +206,7 @@ http://213.226.137.140:81/tl/l97/mpegts
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000",TV1000
 http://cdn.troya.one:80/ch017/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iL4fx4rZ7F5HIFf_iX-32vK4WBWVSvKLF0x3xujnWiSw
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action",TV1000 Action
-http://cdn.troya.one:80/ch018/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJIQaGRxTCnitcuPnFmhAdsTLA3lUZssgiiZ9fVbDiW5
+http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
 
 #EXTINF:-1 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/bober.png" tvg-id="bobior",Бобер
 http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=300721&extension=ts&play_token=R4s9gS7eL7
@@ -224,7 +225,7 @@ http://178.219.128.68:64889/BABYTV
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" tvg-id="v-gostiax-u-skazki",В гостях у сказки
 http://109.200.130.123:7537/play/a02m
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/boomerang.png" tvg-id="boomerang",Cartoonito
-http://stream01.vnet.am/Channel_120/tracks-v1a2/mono.m3u8
+http://135.181.115.81:8000/play/a01f/index.m3u8?token=livetv
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/cartoon-classics.png" tvg-id="cartoon-classics",Cartoon Classics
 http://88.218.242.237:8000/play/a00f
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/cartoon-network.png" tvg-id="cartoon-network",Cartoon Network
@@ -585,7 +586,7 @@ http://130.193.73.10:8937/play/a03a
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",TV PRO
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr",ТВЦ
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt",ТНТ
-https://livetv.mylifeisgood.net.ru/channels/tnthd.m3u8
+http://185.23.80.28:8080/TNT/index.m3u8?token=test
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt-int-eu.png" tvg-id="tnt-int-eu",ТНТ International
 http://85.187.13.40:18000/tntint
 #EXTINF:-1 group-title="Общественные" tvg-logo="http://epg.one/img2/353.png" tvg-id="tnt-int-cis",ТНТ International СНГ
@@ -714,6 +715,7 @@ http://195.26.83.96:7029/play/a008
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sapfir.png" tvg-id="sapfir",Сапфир
 http://cdn.troya.one:80/ch2077/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCPfPzRhe5k1LFn9W_1vktL69BUezYkHWywA7yFzj2H8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus",TLC
+http://80.245.93.242:9030/play/a01p/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvmchannel.png" tvg-id="tvmchannel",TVM Channel
 http://cdn-01.bonus-tv.ru/tvm_edge/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
@@ -748,7 +750,7 @@ http://cdn.troya.one:80/ch604/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJbPC
 https://cdn2.skygo.mn/live/disk1/Vremya/HLS-FTA/Vremya.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="" tvg-id="",Cinema Classic
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/denpobedy.png" tvg-id="denpobedy",День Победы
-http://cdn.troya.one:80/ch703/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLpqbFQudkTirqiIsspj5P2fnSlybcQRCOOALAJtglj9
+http://193.242.190.6:8099/37/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское Кино International
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/domashny.png" tvg-id="domashny",Домашний
 https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
@@ -774,8 +776,10 @@ http://cdn.troya.one:80/ch589/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iGzf-
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino",Наше Новое Кино
 http://cdn.troya.one:80/ch015/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHPm38WTVAO7P-QcKSZU6-RDR9MErJsp4N5lqhIw4M3N
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/pobeda.png" tvg-id="pobeda",Победа
-http://93.189.224.246:52900/play/a010/index.m3u8
+#EXTVLCOPT:http-referrer=https://pobeda.tv/
+https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/ratnik.png" tvg-id="ratnik",Ратник
+http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/retro-tv.png" tvg-id="retro-tv",Ретро
 http://cdn.troya.one:80/ch508/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iEcC_nYuQepp-OTFc4o-sC0dU9gQY1BYLb4LmFiDNfvO
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/rodnoe-kino.png" tvg-id="rodnoe-kino" user-agent="ExoPlayer2/2.37",Родное кино
@@ -1015,7 +1019,7 @@ http://cdn.troya.one:80/ch543/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iErdg
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/timeless-dizi.png" tvg-id="timeless-dizi",Timeless Dizi Channel
 http://cdn.troya.one:80/ch1878/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOxRRKUTFEGiFLul3ZmodlrXsSwIM7V6xDYA5ORUzyB0
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru",ТВ3
-http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=132746&extension=ts&play_token=0FIX49gOoY
+http://185.23.80.28:8080/TV3_HD/index.m3u8?token=test
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/trashtv.png" tvg-id="trashtv",Trash
@@ -1079,65 +1083,70 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 http://stream02.vnet.am/THTComedy/mono.m3u8
 
-#EXTINF:0 group-title="Yosso TV",Grand
-http://cdn.troya.one:80/ch1297/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBLxVOU66TFx1L6J-lUGk2L_pjqoobN_gSaqEbt6Gm4W
-#EXTINF:0 group-title="Yosso TV",VHS
-http://cdn.troya.one:80/ch1298/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOiZ7OTvM0Fwzw3m2l_1bGGQZXSh1-BDBpmN5VbGeW4Z
-#EXTINF:0 group-title="Yosso TV",Русские Фильмы
-http://cdn.troya.one:80/ch1300/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNih27EYQ6OJkCyLuGuRMPkq8yxc1CJjzabJ3XTcVM6-
-#EXTINF:0 group-title="Yosso TV",Советские Фильмы
-http://cdn.troya.one:80/ch1301/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFkorfaRNB-RGTd1y243z8Dp_7v04D-TDrAgNpBPdq38
-#EXTINF:0 group-title="Yosso TV",New Кино
-http://cdn.troya.one:80/ch1303/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOxH08HcXS9sQ6o_DjB5cCQnkBnlhFZPCwtzJCdtDkEM
-#EXTINF:0 group-title="Yosso TV",Трагичное
-http://cdn.troya.one:80/ch1306/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHN9EjVHXCo9lVfUwC9fQ8yheISnkcvIamqg7cEIDAff
-#EXTINF:0 group-title="Yosso TV",Забавное
-http://cdn.troya.one:80/ch1307/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHbB9RB2sLq_kNWP898YdBguBridv0h5F0POLpvu-XQc
-#EXTINF:0 group-title="Yosso TV",Best
-http://cdn.troya.one:80/ch1308/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBzw7coWokOTPkBJek09BilT_2QKAehDquoZC3ba2hH9
-#EXTINF:0 group-title="Yosso TV",Ковбойское
-http://cdn.troya.one:80/ch1309/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ4q9WMkArLBhYl65JSCP0PtpM14C0Wl7Y9M1uSAx6wJ
-#EXTINF:0 group-title="Yosso TV",Adrenaline
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-adrenalin.png" tvg-id="yosso-adrenalin",Adrenaline
 http://cdn.troya.one:80/ch1310/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFrrTaq6cAdIR2voDU4xdOt-aC0ZAoC3bVDiMOQUXX8r
-#EXTINF:0 group-title="Yosso TV",Oblivion
-http://cdn.troya.one:80/ch1311/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFh3uAlpKMZ5uJs7gpwokrkJsq09Ujlcxw9LMz0qV5XV
-#EXTINF:0 group-title="Yosso TV",Adventure
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-adventure.png" tvg-id="yosso-adventure",Adventure
 http://cdn.troya.one:80/ch1312/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLhiAPBiVzFu5sVvXw33AblAF-c_ofE6w6MmcaBQZdvD
-#EXTINF:0 group-title="Yosso TV",Thriller
-http://cdn.troya.one:80/ch1313/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDo0ZAWUmT-rM0t23LojRF2m2MmlnNruxJ7Pyfjz7Wb1
-#EXTINF:0 group-title="Yosso TV",Мелодрама
-http://cdn.troya.one:80/ch2062/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iB9ty2u2qv_PzbVhrFjsW8s5ffeMqrYLdeAy6oyPwytb
-#EXTINF:0 group-title="Yosso TV",Netflix
-http://cdn.troya.one:80/ch2455/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMS1GCC_D4x57R3B8Hj6n4aPgz2th5C6zk1Fx19JQJLL
-#EXTINF:0 group-title="Yosso TV",Best 60fps
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-best.png" tvg-id="yosso-best",Best
+http://cdn.troya.one:80/ch1308/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBzw7coWokOTPkBJek09BilT_2QKAehDquoZC3ba2hH9
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-best60fps.png" tvg-id="yosso-best60fps",Best 60fps
 http://cdn.troya.one:80/ch2457/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ6Z9iZLF2HFt9WWgdCsKZn0yIz3b6ZbqFehb4zefp7F
-#EXTINF:0 group-title="Yosso TV",C-Marvel
-http://cdn.troya.one:80/ch1315/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iO9ET-KEW4Qil0TagQkIqqTOdsa058qPBwjuJpL---lt
-#EXTINF:0 group-title="Yosso TV",C-Inquest
-http://cdn.troya.one:80/ch1001/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCCp3-Vgimo4pALBojw3BgkhaJ6b7z-LyRII-BxbnuZr
-#EXTINF:0 group-title="Yosso TV",C-Comedy
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-comedy.png" tvg-id="c-comedy",C-Comedy
 http://cdn.troya.one:80/ch1002/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKR4vDf6mg8CmWVqSTer_U1wHz1LYGpqZoOTGHcFOY3c
-#EXTINF:0 group-title="Yosso TV",C-History HD
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-history.png" tvg-id="c-history",C-History
 http://cdn.troya.one:80/ch1575/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKtjt0gLoyR9sF8aq2qzhSkMNHh1KAZnBNI4LgStQsSl
-#EXTINF:0 group-title="Yosso TV",C-Holiday
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-holiday.png" tvg-id="c-holiday",C-Holiday
 http://cdn.troya.one:80/ch394/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHGjOSX1cl1xznw2__yL_KkvmbXmeGYp4G1-_1NRW1Ah
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-inquest.png" tvg-id="c-inquest",C-Inquest
+http://cdn.troya.one:80/ch1001/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCCp3-Vgimo4pALBojw3BgkhaJ6b7z-LyRII-BxbnuZr
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-marvel.png" tvg-id="c-marvel",C-Marvel
+http://cdn.troya.one:80/ch1315/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iO9ET-KEW4Qil0TagQkIqqTOdsa058qPBwjuJpL---lt
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-vhs.png" tvg-id="yosso-vhs",VHS
+http://cdn.troya.one:80/ch1298/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOiZ7OTvM0Fwzw3m2l_1bGGQZXSh1-BDBpmN5VbGeW4Z
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-grand.png" tvg-id="yosso-grand",Grand
+http://cdn.troya.one:80/ch1297/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBLxVOU66TFx1L6J-lUGk2L_pjqoobN_gSaqEbt6Gm4W
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-zabavno.png" tvg-id="yosso-zabavno",Забавное
+http://cdn.troya.one:80/ch1307/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHbB9RB2sLq_kNWP898YdBguBridv0h5F0POLpvu-XQc
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-cowboy.png" tvg-id="yosso-cowboy",Ковбойское
+http://cdn.troya.one:80/ch1309/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ4q9WMkArLBhYl65JSCP0PtpM14C0Wl7Y9M1uSAx6wJ
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-melodrama.png" tvg-id="yosso-melodrama",Мелодрама
+http://cdn.troya.one:80/ch2062/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iB9ty2u2qv_PzbVhrFjsW8s5ffeMqrYLdeAy6oyPwytb
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-netflix.png" tvg-id="yosso-netflix",Netflix
+http://cdn.troya.one:80/ch2455/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMS1GCC_D4x57R3B8Hj6n4aPgz2th5C6zk1Fx19JQJLL
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-newkino.png" tvg-id="yosso-newkino",New Кино
+http://cdn.troya.one:80/ch1303/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOxH08HcXS9sQ6o_DjB5cCQnkBnlhFZPCwtzJCdtDkEM
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-oblivion.png" tvg-id="yosso-oblivion",Oblivion
+http://cdn.troya.one:80/ch1311/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFh3uAlpKMZ5uJs7gpwokrkJsq09Ujlcxw9LMz0qV5XV
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-rusfilm.png" tvg-id="yosso-rusfilm",Русские фильмы
+http://cdn.troya.one:80/ch1300/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNih27EYQ6OJkCyLuGuRMPkq8yxc1CJjzabJ3XTcVM6-
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-sovfilm.png" tvg-id="yosso-sovfilm",Советские фильмы
+http://cdn.troya.one:80/ch1301/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFkorfaRNB-RGTd1y243z8Dp_7v04D-TDrAgNpBPdq38
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-thriller.png" tvg-id="yosso-thriller",Thriller
+http://cdn.troya.one:80/ch1313/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDo0ZAWUmT-rM0t23LojRF2m2MmlnNruxJ7Pyfjz7Wb1
+#EXTINF:-1 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-tragic.png" tvg-id="yosso-tragic",Трагичное
+http://cdn.troya.one:80/ch1306/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHN9EjVHXCo9lVfUwC9fQ8yheISnkcvIamqg7cEIDAff
 
-#EXTINF:0 group-title="Magic",Action
+
+
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-action.png" tvg-id="magic-action",Action
 http://cdn.troya.one:80/ch1556/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMQcG2cWcUgY6wkvESPghU60ucSgO7CHqd3bAPwqHoRd
-#EXTINF:0 group-title="Magic",Adventure
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-adventure.png" tvg-id="magic-adventure",Adventure
 http://cdn.troya.one:80/ch2203/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJ1cgPWYxmdp1-vhnMgACCkG8yJZbtTuWCTALdU59D5H
-#EXTINF:0 group-title="Magic",Comedy
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-comedy.png" tvg-id="magic-comedy",Comedy
 http://cdn.troya.one:80/ch1557/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iFChsjfcnm_HEBFQD0B5fgKubR4ZQXC7_sxNCRQlzUET
-#EXTINF:0 group-title="Magic",Galaxy
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-galaxy.png" tvg-id="magic-galaxy",Galaxy
 http://cdn.troya.one:80/ch1559/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDFbZAPsv1mDO39TJ_Ds2w-pDpIb5_2DVQZTpObcqwuc
-#EXTINF:0 group-title="Magic",Horror
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-horror.png" tvg-id="magic-horror",Horror
 http://cdn.troya.one:80/ch1560/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iCFJS4eq_IAZGGx3WCIecHlu25MDP37oKIk1n51uLZnX
-#EXTINF:0 group-title="Magic",Russian
-http://cdn.troya.one:80/ch992/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPzeiZcnKP2iL_67OxClA3OCABlrhlPw2R-5vnhel4ue
-#EXTINF:0 group-title="Magic",Karate
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-karate.png" tvg-id="magic-karate",Karate
 http://cdn.troya.one:80/ch1561/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKa0Cno2U3Qwc5C7UlFp8iCi9sayEtelooPGtRUb9dA1
-#EXTINF:0 group-title="Magic",Thriller
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-russian.png" tvg-id="magic-russian",Russian
+http://cdn.troya.one:80/ch992/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPzeiZcnKP2iL_67OxClA3OCABlrhlPw2R-5vnhel4ue
+#EXTINF:-1 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-thriller.png" tvg-id="magic-thriller",Thriller
 http://cdn.troya.one:80/ch1562/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iNEdHmHLzrReXCqY_JOMMOxiLePv9nuGLKzXafmnD5F3
+
+
+
 #EXTINF:0 group-title="Magic",VHS
 http://cdn.troya.one:80/ch1563/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKmJYO-qC8zIgDrUk4FDtglix0cKIVQakjI3UtcjHBEZ
 #EXTINF:0 group-title="Magic",Love
@@ -2050,7 +2059,6 @@ http://ronaldo.tvfor.pro/SyhlUwtZuz/l6i55j264w9187bml44emph2
 http://ronaldo.tvfor.pro/FwvUiLwcqW/l6i55j264w9187bml44emph2
 
 
-
 #EXTINF:-1 group-title="KINO+",viju+ COMEDY
 http://135.181.115.81:8000/play/a019/index.m3u8?token=livetv
 #EXTINF:-1 group-title="KINO+",viju+ PREMIERE
@@ -2597,64 +2605,6 @@ http://82.215.111.227/1047/index.m3u8?token=fas-tv.com
 http://178.124.152.238:8088/nostalgia
 
 
-
-#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://iptvx.one/picons/boomerang.png" group-title="pups",Cartoonito (EDTV 576p)
-http://135.181.115.81:8000/play/a01f/index.m3u8?token=livetv
-#EXTINF:-1 tvg-id="nickelodeon-ru" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" group-title="pups",Nickelodeon (EDTV 576p)
-http://s5.merlive.am:80/Nickelodeon/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="7" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="tnt" tvg-logo="http://epg.one/img2/353.png" group-title="pups",ТНТ (EDTV 576p)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
-#EXTINF:-1 tvg-id="bridge-hd" tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="pups",Bridge Deluxe (EDTV 576p)
-http://213.226.137.140:81/tl/l322/index.m3u8
-#EXTINF:-1 tvg-id="tv1000-action" tvg-logo="https://iptvx.one/picons/tv1000-action.png" group-title="pups",Viju TV1000 Action (HD)
-http://65.21.85.175:8000/play/a011/index.m3u8?token=livetv
-#EXTINF:-1 tvg-id="viju-tv1000-novella" tvg-logo="https://iptvx.one/picons/viju-tv1000-novella.png" group-title="pups",Viju TV1000 Новелла (HD)
-http://45.151.69.10:8887/8973/video.m3u8
-#EXTINF:-1 tvg-id="denpobedy" tvg-logo="https://iptvx.one/picons/denpobedy.png" group-title="pups",День Победы (HD)
-http://193.242.190.6:8099/37/index.m3u8
-#EXTINF:-1 tvg-id="viasat-nature" tvg-logo="https://iptvx.one/picons/viasat-nature.png" group-title="pups",Viju NATURE (EDTV 576p)
-http://stream2.cinerama.uz/1228/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="tlc" tvg-logo="https://iptvx.one/picons/tlc.png" group-title="pups",TLC (HD)
-http://80.245.93.242:9030/play/a01p/index.m3u8
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="solnce" tvg-logo="https://iptvx.one/picons/solnce.png" group-title="pups",Солнце (EDTV 480p)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_DISNEY/variant.m3u8
-EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.one/img2/2447.png" group-title="pups",Победа (HD ready)
-#EXTVLCOPT:http-referrer=https://pobeda.tv/
-https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8
-#EXTINF:-1 tvg-id="sovsek" tvg-logo="http://epg.one/img2/275.png" group-title="pups",Top Secret (EDTV 576p)
-http://178.124.152.238:8088/sovsec
-#EXTVLCOPT:http-referrer=https://sovsekretno.tv/
-https://live-sovsec-ref.cdnvideo.ru/sovsec/sovsec.smil/playlist.m3u8?zoid=sref
-#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="pups",ТВ3 (HD)
-http://185.23.80.28:8080/TV3_HD/index.m3u8?token=test
-#EXTINF:-1 catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="karusel" tvg-logo="https://iptvx.one/picons/karusel.png" group-title="pups",Карусель (EDTV 480p)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-https://zabava-htlive.cdn.ngenix.net/hls/CH_KARUSEL/variant.m3u8
-#EXTINF:-1 tvg-id="ratnik" tvg-logo="https://iptvx.one/picons/ratnik.png" group-title="pups",Ратник (HD)
-http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-#EXTVLCOPT:http-referrer=https://peers.tv/
-https://hls.peers.tv/streaming/ratnik/126/copy/playlist.m3u8
-#EXTINF:-1 tvg-id="sskazki-zayki" tvg-logo="https://iptvx.one/picons/skazki-zayki.png" group-title="pups",Сказки Зайки (960x540)
-#EXTVLCOPT:http-referrer=https://peers.tv/
-https://hls.peers.tv/streaming/skazkizayki/16/variable.m3u8
-#EXTINF:-1 tvg-id="kinokult" tvg-logo="https://iptvx.one/picons/kinokult.png" group-title="pups",КиноКульт (HD)
-#EXTVLCOPT:http-referrer=https://peers.tv/
-https://hls.peers.tv/streaming/filmcult/16/copy_a/playlist.m3u8
-#EXTINF:-1 tvg-id="star-cinema" tvg-logo="https://iptvx.one/picons/star-cinema.png" group-title="pups",Star Cinema (HD)
-#EXTVLCOPT:http-referrer=https://peers.tv/
-https://hls.peers.tv/streaming/star_cinema_hd/16/variable.m3u8
-#EXTINF:-1 tvg-id="ege-tv" tvg-logo="https://iptvx.one/picons/ege-tv.png" group-title="pups", ЕГЭ ТВ (SDTV 540p)
-#EXTVLCOPT:http-referrer=https://peers.tv/
-https://hls.peers.tv/streaming/ege/16/vh1/playlist.m3u8
-#EXTINF:-1 tvg-id="ratnik" tvg-logo="https://iptvx.one/picons/ratnik.png" group-title="pups",Ратник (HD)
-http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="pobeda" tvg-logo="http://epg.one/img2/2447.png" group-title="pups",Победа (HD ready)
-#EXTVLCOPT:http-referrer=https://pobeda.tv/
-https://pkvc-hls3.cdnvideo.ru/Pobeda/smil:Pobeda.smil/chunklist_b5128000_slru.m3u8
-#EXTINF:-1 tvg-id="tnt" tvg-logo="http://epg.one/img2/353.png" group-title="pups",ТНТ (EDTV 576p)
-http://185.23.80.28:8080/TNT/index.m3u8?token=test
 
 
 
