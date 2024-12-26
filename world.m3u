@@ -1,0 +1,10 @@
+#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz"
+
+#EXTINF:-1 group-title="Children" tvg-logo="https://iptvx.one/picons/nickelodeon.png" tvg-id="nickelodeon",Nickelodeon
+https://d20opqftbkv2z0.cloudfront.net/live12/nickelodeon/bitrate1-clear.isml/live.m3u8
+#EXTINF:-1 group-title="Children" tvg-logo="https://iptvx.one/picons/nick-jr.png" tvg-id="nick-jr",Nick Jr
+https://d20opqftbkv2z0.cloudfront.net/live13/nickjr/bitrate1-clear.isml/live.m3u8
+#EXTINF:-1 group-title="Children" tvg-logo="https://iptvx.one/picons/nick-music.png" tvg-id="nick-music",NickMusic
+http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
+#EXTINF:-1 group-title="Children" tvg-logo="https://iptvx.one/picons/nicktoons.png" tvg-id="nicktoons",Nicktoons
+https://d20opqftbkv2z0.cloudfront.net/live13/nicktoons/bitrate1-clear.isml/live.m3u8
