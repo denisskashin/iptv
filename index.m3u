@@ -164,8 +164,10 @@ http://93.189.224.246:52900/play/a00i/index.m3u8
 #EXTINF:-1 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" tvg-id="ntv-pravo",Право
 http://130.193.73.10:8937/play/a01s
 #EXTINF:-1 group-title="НТВ" tvg-logo="http://epg.one/img2/1754.png" tvg-id="ntv-serial",Сериал
+https://as01.links-tv-channels.org/347/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-style.png" tvg-id="ntv-style",Стиль
 #EXTINF:-1 group-title="НТВ" tvg-logo="http://epg.one/img2/2041.png" tvg-id="ntv-xit",Хит
+https://as01.links-tv-channels.org/328/mpegts?token=n4WT46vRex83AH
 
 #EXTINF:-1 group-title="Новости" tvg-logo="https://iptvx.one/picons/360-int.png" tvg-id="360-int",360°
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
@@ -353,7 +355,6 @@ http://stream01.vnet.am/Perec/mono.m3u8
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="" tvg-id="",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.com
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/russky-ekstrim.png" tvg-id="russky-ekstrim",Russian Extreme
-#EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sapfir.png" tvg-id="sapfir",Сапфир
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus",TLC
 #EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvmchannel.png" tvg-id="tvmchannel",TVM Channel
 http://cdn-01.bonus-tv.ru/tvm_edge/tracks-v1a1/index.m3u8

@@ -1,13 +1,107 @@
 #EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz"
 
 #EXTINF:-1 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia1.png" tvg-id="amedia1",1
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529678&extension=ts
+https://as01.links-tv-channels.org/268/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia2.png" tvg-id="amedia2",2
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529681&extension=ts
+https://as01.links-tv-channels.org/269/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-hit.png" tvg-id="amedia-hit",Hit
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529682&extension=ts
+https://as01.links-tv-channels.org/270/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium",Premium
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529683&extension=ts
+https://as01.links-tv-channels.org/258/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Asia" tvg-logo="https://iptvx.one/picons/dorama.png" tvg-id="dorama",Дорама
+https://as01.links-tv-channels.org/6723/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Asia" tvg-logo="https://iptvx.one/picons/dorama.png" tvg-id="dorama2",Дорама 2
+http://95.67.12.82:9046
+#EXTINF:-1 group-title="Asia" tvg-logo="https://iptvx.one/picons/kineko.png" tvg-id="kineko",Кинеко
+https://as01.links-tv-channels.org/1350/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-action.png" tvg-id="bcu-action",Action
+https://as01.links-tv-channels.org/20810/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-catastrophe.png" tvg-id="bcu-catastrophe",Catastrophe
+https://as01.links-tv-channels.org/20811/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-cinema.png" tvg-id="bcu-cinema",Cinema
+https://as01.links-tv-channels.org/20812/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-cinemaplus.png" tvg-id="bcu-cinemaplus",Cinema+
+https://as01.links-tv-channels.org/20832/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-comedy.png" tvg-id="bcu-comedy",Comedy
+https://as01.links-tv-channels.org/20813/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-fantastic.png" tvg-id="bcu-fantastic",Fantastic
+https://as01.links-tv-channels.org/20814/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-filmystic.png" tvg-id="bcu-filmystic",Filmystic
+https://as01.links-tv-channels.org/20815/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-history.png" tvg-id="bcu-history",History
+https://as01.links-tv-channels.org/20816/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinorating.png" tvg-id="bcu-kinorating",Kinorating
+https://as01.links-tv-channels.org/20817/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-marvel.png" tvg-id="bcu-marvel",Marvel
+https://as01.links-tv-channels.org/20818/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozakaz.png" tvg-id="bcu-media",Media
+https://as01.links-tv-channels.org/20831/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-premiere.png" tvg-id="bcu-premiere",Premiere
+https://as01.links-tv-channels.org/20819/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-romantic.png" tvg-id="bcu-romantic",Romantic
+https://as01.links-tv-channels.org/20820/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-ruserial.png" tvg-id="bcu-ruserial",Ruserial
+https://as01.links-tv-channels.org/20836/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s",Russia 90s
+https://as01.links-tv-channels.org/21212/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-russian.png" tvg-id="bcu-russian",Russian
+https://as01.links-tv-channels.org/20821/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-stars.png" tvg-id="bcu-stars",Stars
+https://as01.links-tv-channels.org/20833/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-svaty.png" tvg-id="bcu-svaty",Сваты
+https://as01.links-tv-channels.org/20829/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-sssr-hd.png" tvg-id="bcu-sssr",СССР
+https://as01.links-tv-channels.org/20830/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-ultra4k.png" tvg-id="bcu-ultra4k",Ultra 4K
+https://as01.links-tv-channels.org/20835/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-vhs-hd.png" tvg-id="bcu-vhs",VHS
+https://as01.links-tv-channels.org/20822/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Bollywood" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" tvg-id="bollywood-hd",Bollywood
+https://as01.links-tv-channels.org/251/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Bollywood" tvg-logo="https://iptvx.one/picons/indijskoe-kino.png" tvg-id="indiyskoe-kino",Индийское кино
+http://82.215.111.227/1060/index.m3u8?token=fas-tv.com
+#EXTINF:-1 group-title="Bollywood" tvg-logo="https://iptvx.one/picons/zee-tv.png" tvg-id="zee-tv",Индия
+https://as01.links-tv-channels.org/7013/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Сomedy" tvg-logo="https://iptvx.one/picons/kamedi.png" tvg-id="kamedi",Камеди
+https://as01.links-tv-channels.org/20805/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Сomedy" tvg-logo="https://iptvx.one/picons/komedijnoe.png" tvg-id="komedijnoe-hd",Комедийное ТВ
+https://as01.links-tv-channels.org/120/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="FilmBox" tvg-logo="https://iptvx.one/picons/filmbox-ru.png" tvg-id="filmbox-ru",FilmBox
+https://as01.links-tv-channels.org/6888/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="FilmBox" tvg-logo="https://iptvx.one/picons/filmbox-arthouse.png" tvg-id="filmbox-arthouse",Filmbox Arthouse
+https://as01.links-tv-channels.org/6887/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Fox" tvg-logo="https://iptvx.one/picons/fox.png" tvg-id="fox",Fox
+https://as01.links-tv-channels.org/101/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Fox" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife",Fox Life
+https://as01.links-tv-channels.org/207/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Jam" tvg-logo="https://iptvx.one/picons/detectivejam.png" tvg-id="detectivejam",Detective
+https://as01.links-tv-channels.org/7311/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Jam" tvg-logo="https://iptvx.one/picons/kinojam1.png" tvg-id="kinojam1",Kinojam 1
+https://as01.links-tv-channels.org/7008/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Jam" tvg-logo="https://iptvx.one/picons/kinojam2.png" tvg-id="kinojam2",Kinojam 2
+https://as01.links-tv-channels.org/7009/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Киноклассика" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm",Мосфильм. Золотая коллекция
+https://as01.links-tv-channels.org/4429/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Киноклассика" tvg-logo="https://iptvx.one/picons/retro-tv.png" tvg-id="retro-tv",Ретро
+https://as01.links-tv-channels.org/6722/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Киноклассика" tvg-logo="https://iptvx.one/picons/sov-kinklass.png" tvg-id="sov-kinklass",Советская киноклассика
+https://as01.links-tv-channels.org/20797/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Криминальное" tvg-logo="https://iptvx.one/picons/kriminalnoe-hd.png" tvg-id="kriminalnoe-hd",Криминальное
+https://as01.links-tv-channels.org/20808/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Романтика" tvg-logo="https://iptvx.one/picons/lavstori-hd.png" tvg-id="lavstori-hd",Лавстори
+https://as01.links-tv-channels.org/7012/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Романтика" tvg-logo=""https://iptvx.one/picons/pro-lyubov.png" tvg-id="pro-lyubov",Про любовь
+https://as01.links-tv-channels.org/20804/mpegts?token=n4WT46vRex83AH
 
 #EXTINF:-1 group-title="Сити Эдем",Кино Комедия
 https://v2.catcast.tv/content/41331/index.m3u8
@@ -18,8 +112,28 @@ https://autopilot.catcast.tv/content/40783/index.m3u8
 #EXTINF:-1 group-title="Сити Эдем",Кино Детектив
 https://autopilot.catcast.tv/content/41327/index.m3u8
 
+#EXTINF:-1 group-title="Sony" tvg-logo="https://iptvx.one/picons/sony-turbo.png" tvg-id="sony-turbo",.black
+https://as01.links-tv-channels.org/227/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Sony" tvg-logo="https://iptvx.one/picons/sony.png" tvg-id="sony-tv",.red
+https://as01.links-tv-channels.org/140/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Sony" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi",.sci-fi
+https://as01.links-tv-channels.org/228/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Start" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air",Air
+https://as01.links-tv-channels.org/5770/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Start" tvg-logo="https://iptvx.one/picons/start-world.png" tvg-id="start-world",World
+https://as01.links-tv-channels.org/5771/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="UHD" tvg-logo="https://iptvx.one/picons/kino-ultra-hd.png" tvg-id="kino-ultra-hd",Кино
+https://as01.links-tv-channels.org/17372/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="UHD" tvg-logo="https://iptvx.one/picons/serial-ultrahd.png" tvg-id="serial-ultrahd",Сериал
+https://as01.links-tv-channels.org/17728/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Ultra" tvg-logo="https://iptvx.one/picons/ultra-hd-cinema.png tvg-id="ultra-hd-cinema",Cinema
+https://as01.links-tv-channels.org/20799/mpegts?token=n4WT46vRex83AH
+
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy",Comedy
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529674&extension=ts
+https://as01.links-tv-channels.org/102/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore",Explore
 http://82.215.111.227/1045/index.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-premium.png" tvg-id="tv1000-premium",Go3 Films
@@ -27,25 +141,25 @@ http://87.99.87.203:2020/channel/5023b065/index.m3u8?q=e329a8ed47aaa7d3d3187d570
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history",History
 http://86.57.198.251:8181/play/1017/index.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit",Megahit
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529671&extension=ts
+https://as01.links-tv-channels.org/103/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature",Nature
 http://213.226.137.140:81/tl/l96/index.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd",Planet
 http://130.193.73.10:8937/play/a01l
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere",Premiere
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529676&extension=ts
+https://as01.links-tv-channels.org/104/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial",Serial
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529677&extension=ts
+https://as01.links-tv-channels.org/109/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",Sport
 http://213.226.137.140:81/tl/l97/mpegts
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000",TV1000
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529673&extension=ts
+https://as01.links-tv-channels.org/320/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action",TV1000 Action
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529669&extension=ts
+https://as01.links-tv-channels.org/319/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/viju-tv1000-novella.png" group-title="viju-tv1000-novella",TV1000 Новелла
 http://live.admuspeh.my/8973/index.m3u8?token=4gPHp5ZVYqDAR4oz
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" tvg-id="tv1000-russkoe-kino",TV1000 Русское
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/6388/index.m3u8
+https://as01.links-tv-channels.org/318/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-cee.png" tvg-id="tv1000-cee" audio-track="ru",Viasat Kino
 http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/311/stream.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-action-cee.png" tvg-id="tv1000-action-cee",Viasat Kino Action
@@ -53,10 +167,10 @@ http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/12024/index.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" tvg-id="vip-comedy-cee",Viasat Kino Comedy
 http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/309/stream.m3u8
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-worldkino.png" tvg-id="tv1000-worldkino",Viasat Kino World
-http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4816/stream.m3u8
+https://as01.links-tv-channels.org/430/mpegts?token=n4WT46vRex83AH
 
-#EXTINF:-1 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/detectivejam.png" tvg-id="detectivejam",DetectiveJam
-http://88.218.242.237:8000/play/a00a
+
+
 
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/arsenaltv.png" tvg-id="arsenaltv",Арсенал
 http://45.143.108.104/arsenal/index.m3u8
@@ -66,51 +180,47 @@ http://cdn.troya.one:80/ch604/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iJbPC
 https://cdn2.skygo.mn/live/disk1/Vremya/HLS-FTA/Vremya.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="" tvg-id="",Cinema Classic
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/denpobedy.png" tvg-id="denpobedy",День Победы
-http://193.242.190.6:8099/37/index.m3u8
+https://as01.links-tv-channels.org/20807/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское Кино International
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/domashny.png" tvg-id="domashny",Домашний
 https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/domashny-int.png" tvg-id="domashny-int",Домашний Международный
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/dushevnoe.png" tvg-id="dushevnoe",Душевное
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/914/index.m3u8
+https://as01.links-tv-channels.org/107/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/7d7.png" tvg-id="7d7",Just tv
 http://185.236.229.62:9981/play/a08e
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/kino1int-tviksel.png" tvg-id="kino1int-tviksel",Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8
-#EXTINF:-1 group-title="Русский кинозал"  tvg-logo="https://iptvx.one/picons/kriminalnoe-hd.png" tvg-id="kriminalnoe-hd",Криминальное
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/14033/index.m3u8
-#EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala",Мир сериала
-http://cdn.troya.one:80/ch636/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iPwLwLjSH-j1YqKGkMocbkE6L-MTp_jFynKt7DU6IvqJ
-#EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm",Мосфильм. Золотая коллекция
-http://live.admuspeh.my/8707/index.m3u8?token=4gPHp5ZVYqDAR4oz
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" tvg-id="nash-kinopokaz-hd",Наш кинопоказ
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2434/index.m3u8
+https://as01.links-tv-channels.org/20800/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/nashehd.png" tvg-id="nashehd",Наше
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/9046/index.m3u8
+https://as01.links-tv-channels.org/123/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/nashe-lubimoe-hd.png" tvg-id="nashe-lubimoe-hd",Наше любимое
-http://cdn.troya.one:80/ch139/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iLXHqC86xYjLWKRCJSXFbkh9kwcJt-eaY3XWwb8pgRwk
+https://as01.links-tv-channels.org/139/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe-hd.png" tvg-id="nashe-muzhskoe-hd",Наше Мужское
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2440/index.m3u8
+https://as01.links-tv-channels.org/20802/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino",Наше Новое Кино
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/19231/index.m3u8
+#EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/okino.png" tvg-id="okino",О!Кино
+https://as01.links-tv-channels.org/394/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/pobeda.png" tvg-id="pobeda",Победа
-http://live.admuspeh.my/8391/index.m3u8?token=4gPHp5ZVYqDAR4oz
+https://as01.links-tv-channels.org/3084/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/ratnik.png" tvg-id="ratnik",Ратник
 http://live-ratnik.cdnvideo.ru/ratnik/ratnik.sdp/playlist.m3u8
-#EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/retro-tv.png" tvg-id="retro-tv",Ретро
-http://194.158.218.123:8880/Retrotv/index.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/rodnoe-kino.png" tvg-id="rodnoe-kino" user-agent="ExoPlayer2/2.37",Родное кино
 http://82.215.111.227/1052/index.m3u8?token=fas-tv.com
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/romance.png" tvg-id="romance",Romance
 http://88.218.242.237:8000/play/a004
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller",Русский бестселлер
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/905/index.m3u8
+https://as01.links-tv-channels.org/276/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-id="russky-detektiv",Русский детектив
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529662&extension=ts
+https://as01.links-tv-channels.org/277/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/russky-illuzion.png" tvg-id="russky-illuzion",Русский иллюзион
-http://86.57.178.105:10823
+https://as01.links-tv-channels.org/294/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman",Русский роман
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529660&extension=ts
+https://as01.links-tv-channels.org/142/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/sapfir.png" tvg-id="sapfir",Сапфир
+https://as01.links-tv-channels.org/6714/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema",Star Cinema
 http://185.23.80.28:8080/StarCinema/index.m3u8?token=tva.in.ua
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/star-family.png" tvg-id="star-family",Star Family
@@ -121,7 +231,13 @@ http://158.101.194.132:8080/channel/n4ef90b2b/index.m3u8?q=4965b2524bbd5b7c9cadb
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe",Телекафе
 http://stream01.vnet.am/Telekafe/mono.m3u8
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/feniks-plus-kino.png" tvg-id="feniks-plus-kino",Феникс плюс Кино
-http://88.218.242.237:8000/play/a007
+https://as01.links-tv-channels.org/350/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala",Мир сериала
+https://as01.links-tv-channels.org/5264/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Фантастика" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd",FAN
+https://as01.links-tv-channels.org/23562/mpegts?token=n4WT46vRex83AH
 
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/1-2.png" tvg-id="1-2",1+2
 http://rhsbjv7k.tvclub.xyz/iptv/MTVPP5C6UVG8RA3MVHMWV85Z/20082/index.m3u8
@@ -135,63 +251,41 @@ http://cdn.troya.one:80/ch623/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iC70j
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/atv-kinoman.png" tvg-id="atv-kinoman",ATV Kinoman
 http://stream01.vnet.am/Channel_118/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="http://epg.one/img2/2832.png" tvg-id="2832",Блокбастер
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2436/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" tvg-id="bollywood-hd",Bollywood
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529679&extension=ts
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/atv-bazmoc.png" tvg-id="atv-bazmoc",Բազմոց tv
-http://stream01.vnet.am/Channel_118/mono.m3u8
+https://as01.links-tv-channels.org/20801/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/backustv.png" tvg-id="backustv",Backus TV
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/backustv-horror.png" tvg-id="backustv-horror",Backus TV Horror
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/sony-turbo.png" tvg-id="sony-turbo",.black
-http://pars01.com:8080/play/live.php?mac=00:1A:79:10:E2:1E&stream=529667&extension=ts
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Видеокассета E-180
 https://132544.edgevideo.ru/streams/132544_806129/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/vhs-ka.png" tvg-id="vhs-ka",VHS-ка
 http://88.218.242.237:8000/play/a00x
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/cinema.png" tvg-id="cinema-ru",Cinema
-http://82.215.111.227/1227/index.m3u8?token=fas-tv.com
+https://as01.links-tv-channels.org/2223/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Cinema Космос ТВ
 http://178.124.152.238:8088/cinema
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/domkino.png" tvg-id="domkino",Дом кино
-http://185.50.148.2:7707/DomKino/index.m3u8
+https://as01.links-tv-channels.org/333/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/domkino-premium.png" tvg-id="domkino-premium",Дом кино Премиум
-http://213.226.137.140:81/tl/l75/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/dorama.png" tvg-id="dorama",Дорама
-http://82.215.111.227/1273/index.m3u8?token=fas-tv.com
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/dorama.png" tvg-id="dorama2",Dorama 2
-http://95.67.12.82:9046
+https://as01.links-tv-channels.org/108/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/duo7ee.png" tvg-id="duo7ee",Duo7
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/eurokino.png" tvg-id="evrokino",Еврокино
-http://185.23.80.28:8080/EuroKino/index.m3u8?token=test
+https://as01.links-tv-channels.org/275/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/epik-drama.png" tvg-id="epik-drama",Epic Drama
-http://cdn.troya.one:80/ch681/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMUl6VvPObXjvbE4SP4k5lPqlFV3T--EDtswNwgOkPaI
+https://as01.links-tv-channels.org/4992/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/familyjam.png" tvg-id="familyjam",FamilyJam
 http://88.218.242.237:8000/play/a00b
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/filmbox-ru.png" tvg-id="filmbox-ru",FilmBox
-http://130.193.73.10:8937/play/a03s
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/filmbox-arthouse.png" tvg-id="filmbox-arthouse",Filmbox Arthouse
-http://cdn.troya.one:80/ch684/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iH1xxUjFP-cCWjfFLAgkbZvupl3R-x-uQgGpCklk-cjJ
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/filmzone.png" tvg-id="filmzone",FilmZone
 http://45.159.74.13:80/Filmzone/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/flixsnip.png" tvg-id="flixsnip",FlixSnip
-http://cdn.troya.one:80/ch709/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKyCl88I29u8UWfZt6MwXy30cCIxu7rW0CNzLBflZtwk
+https://as01.links-tv-channels.org/1263/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/horrortv.png" tvg-id="horrortv",Horror TV
 http://158.101.194.132:8080/channel/d178d72/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" tvg-id="illuzion-plus",Иллюзион+
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/9079/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/indijskoe-kino.png" tvg-id="indiyskoe-kino",Индийское кино
-http://82.215.111.227/1060/index.m3u8?token=fas-tv.com
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/zee-tv.png" tvg-id="zee-tv",Индия
-http://stream01.vnet.am/ZeeTV/mono.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kamedi.png" tvg-id="kamedi",Камеди
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2441/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kineko.png" tvg-id="kineko",Кинеко
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/9135/index.m3u8
+https://as01.links-tv-channels.org/293/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kino-1-hd.png" tvg-id="kino-1-hd",Kino 1
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kino-24.png" tvg-id="kino-24",Kino 24
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kino7-lv.png" tvg-id="kino7-lv",Kino 7
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kino-bez-granic.png" tvg-id="kino-bez-granic",Кино без границ
-http://185.50.148.2:7703/Detskiy/index.m3u8
+https://as01.links-tv-channels.org/7005/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinoboevik-kz.png" tvg-id="kinoboevik-kz",Кинобоевик
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood",Kinowood
 http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4844/stream.m3u8
@@ -200,15 +294,13 @@ http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4844/stream.m3u8
 http://158.101.194.132:8080/channel/7e5a40bb/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://www.cityeden.info/logotv/logotip_siti_ehdem-kinokomedija.png" tvg-id="4780",КиноКомедия
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://www.cityeden.info/logotv/logotip_kinomostika.png" tvg-id="4780",КиноМистика
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id=",Кинопремиум
+https://as01.links-tv-channels.org/121/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://www.cityeden.info/logotv/logotip_siti_ehdem-kinoehkshen2.png" tvg-id="4780",КиноЭкшен
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinojam1.png" tvg-id="kinojam1",Kinojam 1
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7260/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinojam2.png" tvg-id="kinojam2",Kinojam 2
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7261/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinokomedia.png" tvg-id="kinokomedia",Кинокомедия
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7248/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinoliving.png" tvg-id="kinoliving",KinoLiving
-http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4805/stream.m3u8
+https://as01.links-tv-channels.org/7010/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Киноман
 http://45.159.74.13:80/Kinoman/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Кино Меню
@@ -216,11 +308,11 @@ http://158.101.194.132:8080/channel/489a40cb/index.m3u8?q=4965b2524bbd5b7c9cadb3
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinomiks.png" tvg-id="kinomiks",Киномикс
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7249/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinopokaz.png" tvg-id="kinopokaz",Кинопоказ
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2439/index.m3u8
+https://as01.links-tv-channels.org/20806/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd",Кинопремьера
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/9020/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinosat.png" tvg-id="kinosat",Киносат
-http://88.218.242.237:8000/play/a002
+https://as01.links-tv-channels.org/425/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie",Киносвидание
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7245/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya",Киносемья
@@ -228,22 +320,18 @@ http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7244/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы",Киносерия
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/19229/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kino-tv.png" tvg-id="kino-tv",Кино ТВ
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2097/index.m3u8
+https://as01.links-tv-channels.org/147/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-id="kinouzhas",Киноужас
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2056/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinoxit.png" tvg-id="kinoxit",Кинохит
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7250/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kion-xit.png" tvg-id="kion-xit",KION Хит
-http://cdn.troya.one:80/ch382/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iEes2IaqWJ6orDchtbocWGnCGz0hbEOay5vXPW0ngNXI
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/komedijnoe.png" tvg-id="komedijnoe-hd",Комедийное ТВ
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/912/index.m3u8
+https://as01.links-tv-channels.org/7310/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" tvg-id="russkaya-komedia",Комедия
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/733/index.m3u8
+https://as01.links-tv-channels.org/5089/mpegts?token=n4WT46vRex83AH
 http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=132692&extension=ts&play_token=isliuiZqdk
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/lavstori-hd.png" tvg-id="lavstori-hd",Лавстори
-http://88.218.242.237:8000/play/a00v
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/lubimoe-kino.png" tvg-id="lubimoe-kino",Любимое Кино
-http://86.57.198.251:8181/play/1031/index.m3u8
+https://as01.links-tv-channels.org/335/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Мегахит
 https://autopilot.catcast.tv/content/47689/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Movie Classic
@@ -252,34 +340,17 @@ http://158.101.194.132:8080/channel/n3b2f2768/index.m3u8?q=4965b2524bbd5b7c9cadb
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/10045/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/novellatv.png" tvg-id="novellatv",Novella TV
 http://158.101.194.132:8080/channel/7d3fabec/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/nst.png" tvg-id="nst",НСТ
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/726/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe.png" tvg-id="ostrosiuzhetnoe",Остросюжетное
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/9044/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/plan-b.png" tvg-id="plan-b",Plan B
-http://cdn.troya.one:80/ch459/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iMejCZkgfP6pQYPr-s8qj9Jwnp49jvK_9gQ0PaZ4HAf_
+https://as01.links-tv-channels.org/484/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/premialnoe.png" tvg-id="remialnoe-hd",Премиальное
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/10017/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo=""https://iptvx.one/picons/pro-lyubov.png" tvg-id="pro-lyubov",Про любовь
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2430/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/pro100.png" tvg-id="pro100",Pro100
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/sony.png" tvg-id="sony-tv",.red
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2062/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi",.sci-fi
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/9125/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/scream.png" tvg-id="scream",Scream
 http://88.218.242.237:8000/play/a00c
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/shot-tv.png" tvg-id="shot-tv",SHOT TV
-http://cdn.troya.one:80/ch712/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iEWtUOAD3DM4V2wXsqfSmholCHpAH39eSyhjqVi7wLdV
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/start-world.png" tvg-id="start-world",Start World
-http://95.156.76.230:33001/udp/230.4.34.66:1234
-http://cdn.troya.one:80/ch495/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKNXtOwoioYiLktdmDCr5KveN2w-cy37YOOSE7bMaiI-
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air",Start Air
-http://cdn.troya.one:80/ch506/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iDMzDZczeKri99V-ZhLnPb1Q6j7QIDdST43ITXd4PEiG
+https://as01.links-tv-channels.org/1150/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love",СТС Love
 http://185.23.80.28:8080/STSLove/index.m3u8?token=test
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/strashnoe-hd.png" tvg-id="strashnoe-hd",Страшное
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/7247/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/strk.png" tvg-id="strk",СТРК
 http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/super-plus.png" tvg-id="super-plus",Super+
@@ -291,27 +362,30 @@ http://cdn.troya.one:80/ch543/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iErdg
 http://cdn.troya.one:80/ch1878/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOxRRKUTFEGiFLul3ZmodlrXsSwIM7V6xDYA5ORUzyB0
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru",ТВ3
 http://stream01.vnet.am/Channel_121/mono.m3u8
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",ТВ-21
+https://as01.links-tv-channels.org/7014/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/trashtv.png" tvg-id="trashtv",Trash
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/6396/index.m3u8
+https://as01.links-tv-channels.org/4830/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/tvxxi.png" tvg-id="tvxxi",TV XXI
 http://cdn.troya.one:80/ch469/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iB24OmUVJsZ-IlTZ_GNQMo6Z8kUIQddsZlvxUT0kiN3t
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd",FAN
-http://hlss.goodgame.ru/hls/157239.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Фантастика HD
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/fox.png" tvg-id="fox",Fox
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/9018/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife",Fox Life
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/14003/index.m3u8
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/khit.png" tvg-id="khit-hd",Хит
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/2438/index.m3u8
+https://as01.links-tv-channels.org/20803/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/hollywood.png" tvg-id="hollywood",Hollywood
-http://82.215.111.227/1443/index.m3u8?token=fas-tv.com
+https://as01.links-tv-channels.org/5511/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/hollywood-hd.png" tvg-id="hollywood-hd",Hollywood HD
-http://109.200.130.123:7537/play/a02g
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/shokiruyushchee.png" tvg-id="shokiruyushchee",Шокирующее
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/6299/index.m3u8
+https://as01.links-tv-channels.org/127/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Ужасы" tvg-logo="https://iptvx.one/picons/nst.png" tvg-id="nst",НСТ
+https://as01.links-tv-channels.org/312/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Ужасы" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe.png" tvg-id="ostrosiuzhetnoe",Остросюжетное
+https://as01.links-tv-channels.org/122/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/strashnoe-hd.png" tvg-id="strashnoe-hd",Страшное
+https://as01.links-tv-channels.org/218/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="Ужасы" tvg-logo="https://iptvx.one/picons/shokiruyushchee.png" tvg-id="shokiruyushchee",Шокирующее
+https://as01.links-tv-channels.org/119/mpegts?token=n4WT46vRex83AH
 
 #EXTINF:-1 group-title="High Network Cinema" tvg-logo="" tvg-id="",Citkom
 http://ott.high-net.ru/High_Cinema_Citkom/index.m3u8?token=High_Network
@@ -326,254 +400,11 @@ http://ott.high-net.ru/High_Cinema_rukino/index.m3u8?token=High_Network
 #EXTINF:-1 group-title="High Network Cinema" tvg-logo="" tvg-id="",RU|Serial
 http://ott.high-net.ru/HighNetwork_cinema_ruserial/index.m3u8?token=High_Network
 
-#EXTINF:-1 group-title="test",START Air HD
-https://as01.links-tv-channels.org/5770/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",START World HD
-https://as01.links-tv-channels.org/5771/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Кино UHD
-https://as01.links-tv-channels.org/17372/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Сериал UHD
-https://as01.links-tv-channels.org/17728/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Комедия
-https://as01.links-tv-channels.org/5089/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",viju+ Premiere
-https://as01.links-tv-channels.org/104/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",viju+ Megahit
-https://as01.links-tv-channels.org/103/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",viju+ Comedy
-https://as01.links-tv-channels.org/102/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",viju+ Serial
-https://as01.links-tv-channels.org/109/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",TV 1000
-https://as01.links-tv-channels.org/320/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",viju TV1000 Action
-https://as01.links-tv-channels.org/319/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",viju TV1000 Русское
-https://as01.links-tv-channels.org/318/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",viju TV1000 romantica
-https://as01.links-tv-channels.org/20120/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Viasat Kino World
-https://as01.links-tv-channels.org/430/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",НСТ
-https://as01.links-tv-channels.org/312/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Кинопремиум HD
-https://as01.links-tv-channels.org/121/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Остросюжетное HD
-https://as01.links-tv-channels.org/122/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Шокирующее HD
-https://as01.links-tv-channels.org/119/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Страшное HD
-https://as01.links-tv-channels.org/218/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",КИНО ТВ
-https://as01.links-tv-channels.org/147/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Комедийное HD
-https://as01.links-tv-channels.org/120/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Наше Крутое HD
-https://as01.links-tv-channels.org/123/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Наш Кинороман
-https://as01.links-tv-channels.org/107/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Русский роман
-https://as01.links-tv-channels.org/142/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Дом Кино Премиум HD
-https://as01.links-tv-channels.org/108/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Дом Кино
-https://as01.links-tv-channels.org/333/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Любимое HD
-https://as01.links-tv-channels.org/139/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Любимое Кино
-https://as01.links-tv-channels.org/335/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Русский бестселлер
-https://as01.links-tv-channels.org/276/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Русский Иллюзион
-https://as01.links-tv-channels.org/294/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Иллюзион +
-https://as01.links-tv-channels.org/293/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Русский детектив
-https://as01.links-tv-channels.org/277/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Феникс Плюс Кино
-https://as01.links-tv-channels.org/350/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",.red
-https://as01.links-tv-channels.org/140/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",.black
-https://as01.links-tv-channels.org/227/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",.sci-fi
-https://as01.links-tv-channels.org/228/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Amedia Hit
-https://as01.links-tv-channels.org/270/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Amedia Premium
-https://as01.links-tv-channels.org/258/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",AMEDIA 1 HD
-https://as01.links-tv-channels.org/268/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Amedia 2
-https://as01.links-tv-channels.org/269/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Epic Drama HD
-https://as01.links-tv-channels.org/4992/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Fox HD
-https://as01.links-tv-channels.org/101/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Fox
-https://as01.links-tv-channels.org/5266/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Fox Life HD
-https://as01.links-tv-channels.org/207/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Fox Life
-https://as01.links-tv-channels.org/5668/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Comedy Central
-https://as01.links-tv-channels.org/220/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",КИНЕКО HD
-https://as01.links-tv-channels.org/1350/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",КИНЕКО
-https://as01.links-tv-channels.org/1266/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",САПФИР HD
-https://as01.links-tv-channels.org/6714/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",САПФИР
-https://as01.links-tv-channels.org/1668/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Bollywood HD
-https://as01.links-tv-channels.org/251/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Hollywood HD
-https://as01.links-tv-channels.org/127/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Hollywood
-https://as01.links-tv-channels.org/5511/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",ТВ-21
-https://as01.links-tv-channels.org/7014/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Еврокино
-https://as01.links-tv-channels.org/275/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",НТВ‑ХИТ
-https://as01.links-tv-channels.org/328/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",НТВ Сериал
-https://as01.links-tv-channels.org/347/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Мир Сериала
-https://as01.links-tv-channels.org/5264/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",FilmBox
-https://as01.links-tv-channels.org/6888/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Filmbox Arthouse
-https://as01.links-tv-channels.org/6887/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Дорама
-https://as01.links-tv-channels.org/6723/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Победа HD
-https://as01.links-tv-channels.org/3084/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Победа
-https://as01.links-tv-channels.org/3085/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",FAN
-https://as01.links-tv-channels.org/23562/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",О!Кино
-https://as01.links-tv-channels.org/394/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Советская киноклассика HD
-https://as01.links-tv-channels.org/20797/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Мосфильм. Золотая коллекция HD
-https://as01.links-tv-channels.org/4429/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Мосфильм. Золотая коллекция
-https://as01.links-tv-channels.org/429/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Ретро
-https://as01.links-tv-channels.org/6722/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Ultra HD Cinema
-https://as01.links-tv-channels.org/20799/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Наш Кинопоказ HD
-https://as01.links-tv-channels.org/20800/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Блокбастер HD
-https://as01.links-tv-channels.org/20801/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Наше Мужское HD
-https://as01.links-tv-channels.org/20802/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Хит HD
-https://as01.links-tv-channels.org/20803/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Про Любовь HD
-https://as01.links-tv-channels.org/20804/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Камеди HD
-https://as01.links-tv-channels.org/20805/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Кинопоказ HD
-https://as01.links-tv-channels.org/20806/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",День Победы
-https://as01.links-tv-channels.org/20807/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Романтичное HD
-https://as01.links-tv-channels.org/419/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Криминальное HD
-https://as01.links-tv-channels.org/20808/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",КиноСат
-https://as01.links-tv-channels.org/425/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Cinema HD
-https://as01.links-tv-channels.org/2223/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Cinema
-https://as01.links-tv-channels.org/22223/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Plan B
-https://as01.links-tv-channels.org/484/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",FlixSnip
-https://as01.links-tv-channels.org/1263/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Shot TV
-https://as01.links-tv-channels.org/1150/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Trash
-https://as01.links-tv-channels.org/4830/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Detective Jam HD
-https://as01.links-tv-channels.org/7311/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",KinoJam 1 HD
-https://as01.links-tv-channels.org/7008/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",KinoJam 2 HD
-https://as01.links-tv-channels.org/7009/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",KION ХИТ
-https://as01.links-tv-channels.org/7310/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",KINOLIVING
-https://as01.links-tv-channels.org/7010/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Кино без границ HD
-https://as01.links-tv-channels.org/7005/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Кино без границ
-https://as01.links-tv-channels.org/7006/mpegts?token=n4WT46vRex83AH
+
+
 #EXTINF:-1 group-title="test",Sumiko HD
 https://as01.links-tv-channels.org/7007/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Лавстори HD
-https://as01.links-tv-channels.org/7012/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",Индия
-https://as01.links-tv-channels.org/7013/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Action HD
-https://as01.links-tv-channels.org/20810/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Catastrophe HD
-https://as01.links-tv-channels.org/20811/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Cinema HD
-https://as01.links-tv-channels.org/20812/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Cinema+ HD
-https://as01.links-tv-channels.org/20832/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Comedy HD
-https://as01.links-tv-channels.org/20813/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Comedy OLD
-https://as01.links-tv-channels.org/20841/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Fantastic HD
-https://as01.links-tv-channels.org/20814/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Fantastic HD
-https://as01.links-tv-channels.org/21211/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU FilMystic HD
-https://as01.links-tv-channels.org/20815/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU History HD
-https://as01.links-tv-channels.org/20816/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Kinorating HD
-https://as01.links-tv-channels.org/20817/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Marvel HD
-https://as01.links-tv-channels.org/20818/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Marvel OLD
-https://as01.links-tv-channels.org/20840/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Premiere HD
-https://as01.links-tv-channels.org/20819/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Premiere HD
-https://as01.links-tv-channels.org/21210/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Romantic HD
-https://as01.links-tv-channels.org/20820/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Romantic OLD
-https://as01.links-tv-channels.org/20891/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Russian HD
-https://as01.links-tv-channels.org/20821/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Stars HD
-https://as01.links-tv-channels.org/20833/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU VHS HD
-https://as01.links-tv-channels.org/20822/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Сваты HD
-https://as01.links-tv-channels.org/20829/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU RUSERIAL HD
-https://as01.links-tv-channels.org/20836/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU СССР HD
-https://as01.links-tv-channels.org/20830/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCUMEDIA HD
-https://as01.links-tv-channels.org/20831/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCUMEDIA OLD
-https://as01.links-tv-channels.org/20839/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Ultra 4K
-https://as01.links-tv-channels.org/20835/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="test",BCU Russia 90s HD
-https://as01.links-tv-channels.org/21212/mpegts?token=n4WT46vRex83AH
+
 #EXTINF:-1 group-title="test",BCU Criminal HD
 https://as01.links-tv-channels.org/20837/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="test",BCU Кинозал Premiere 1 HD
