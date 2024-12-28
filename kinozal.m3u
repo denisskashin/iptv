@@ -573,8 +573,6 @@ https://as01.links-tv-channels.org/6714/mpegts?token=n4WT46vRex83AH
 http://185.23.80.28:8080/StarCinema/index.m3u8?token=tva.in.ua
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/star-family.png" tvg-id="star-family",Star Family
 http://cdn.troya.one:80/ch585/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iKWpzn0jgJpItCmYQbIoXaJxb-pAg67ywhBbcOLFnEzh
-#EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/sovkino.png" tvg-id="sovkino",Советское Кино
-http://158.101.194.132:8080/channel/n4ef90b2b/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/tv-extra.png" tvg-id="tv-extra",TV Extra
 #EXTINF:-1 group-title="Русский кинозал" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe",Телекафе
 http://stream01.vnet.am/Telekafe/mono.m3u8
@@ -583,6 +581,9 @@ https://as01.links-tv-channels.org/350/mpegts?token=n4WT46vRex83AH
 
 #EXTINF:-1 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala",Мир сериала
 https://as01.links-tv-channels.org/5264/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="Советское Кино" tvg-logo="https://iptvx.one/picons/sovkino.png" tvg-id="sovkino",Советское Кино
+http://158.101.194.132:8080/channel/n4ef90b2b/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 
 #EXTINF:-1 group-title="Фантастика" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd",FAN
 https://as01.links-tv-channels.org/23562/mpegts?token=n4WT46vRex83AH
@@ -748,3 +749,55 @@ http://ott.high-net.ru/High_Cinema_rukino/index.m3u8?token=High_Network
 #EXTINF:-1 group-title="High Network Cinema" tvg-logo="" tvg-id="",RU|Serial
 http://ott.high-net.ru/HighNetwork_cinema_ruserial/index.m3u8?token=High_Network
 
+
+#EXTINF:-1 group-title="test",LIBERTY ФАНТАСТИКА FHD
+https://as01.links-tv-channels.org/8030/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY ШОУ FHD
+https://as01.links-tv-channels.org/8016/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY АВТО ГИР FHD
+https://as01.links-tv-channels.org/8033/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY МАРВЕЛ  FHD
+https://as01.links-tv-channels.org/8034/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY СЕРИАЛЫ FHD
+https://as01.links-tv-channels.org/8047/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY ЛЕГЕНДА 4K
+https://as01.links-tv-channels.org/8017/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY РУС ФИЛЬМ 4K
+https://as01.links-tv-channels.org/8020/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY КИНО МИКС 4K
+https://as01.links-tv-channels.org/8021/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY ИНДИЯ 4K
+https://as01.links-tv-channels.org/8023/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY НЕТФЛИКС 4K
+https://as01.links-tv-channels.org/8024/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY КУБ 4K
+https://as01.links-tv-channels.org/8025/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY СЕМЕЙНЫЙ 4k
+https://as01.links-tv-channels.org/8026/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY СОЮЗ 4K
+https://as01.links-tv-channels.org/8029/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY КИНО ENG  4K
+https://as01.links-tv-channels.org/8031/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY ТРИЛЛЕРЫ 4K
+https://as01.links-tv-channels.org/8035/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY УЖАСЫ 4K
+https://as01.links-tv-channels.org/8036/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY СЕРИАЛЫ 4K
+https://as01.links-tv-channels.org/8039/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY КРИМИНАЛ 4K
+https://as01.links-tv-channels.org/8040/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY XX ВЕК 4K
+https://as01.links-tv-channels.org/8042/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY АВАНПОСТ 4K
+https://as01.links-tv-channels.org/8043/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY ТУРК ФИЛЬМ 4K
+https://as01.links-tv-channels.org/8046/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY ДРИМ ВОРКС 4K
+https://as01.links-tv-channels.org/8048/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",LIBERTY МЮЗИКЛ 4K
+https://as01.links-tv-channels.org/8049/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="test",ТВОЕ ТВ HD
+https://as01.links-tv-channels.org/8101/mpegts?token=n4WT46vRex83AH
+#EXTINF:-1 group-title="test",ТВОЕ ТВ ЮМОР HD
+https://as01.links-tv-channels.org/8102/mpegts?token=n4WT46vRex83AH
