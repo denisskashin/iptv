@@ -449,3 +449,74 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4
 #EXTINF:-1 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
+
+#EXTINF:-1 tvg-id="ducktv" tvg-logo="https://iptvx.one/picons/ducktv.png" group-title="test",Duck TV (WSVGA)
+http://stream2.cinerama.uz/1271/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="dorama" tvg-logo="https://iptvx.one/picons/dorama.png" group-title="test",Дорама (EDTV 576p)
+http://stream1.cinerama.uz/1273/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="nat-geo-wild" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" group-title="test",Nat Geo Wild (WSVGA)
+http://stream1.cinerama.uz/1042/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="v-mire-zhivotnyx-hd" tvg-logo="https://iptvx.one/picons/v-mire-zhivotnyx.png" group-title="test",В мире животных (HD ready)
+http://stream1.cinerama.uz/1404/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="glazami-turista" tvg-logo="https://iptvx.one/picons/glazami-turista.png" group-title="test",Глазами туриста (WSVGA)
+http://stream1.cinerama.uz/1423/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="zdorovoe-tv" tvg-logo="https://iptvx.one/picons/zdorovoe-tv.png" group-title="test",Здоровое ТВ (EDTV 576p)
+http://stream1.cinerama.uz/1428/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="prikluchenia-hd" tvg-logo="http://epg.one/img2/2311.png" group-title="test",Приключения (WSVGA)
+http://stream1.cinerama.uz/1420/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="nano-hd" tvg-logo="https://iptvx.one/picons/nano-hd.png" group-title="test",Nano (HD)
+http://185.23.80.28:8080/NANO_HD/index.m3u8?token=test
+#EXTINF:-1 tvg-id="belarus3" tvg-logo="https://iptvx.one/picons/belarus3hd.png" group-title="test",Беларусь 3 (HD ready)
+http://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="test",Наука (HD)
+http://stream1.cinerama.uz/1248/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="moya-planeta"tvg-logo="http://epg.one/img2/675.png" group-title="test",Моя Планета (EDTV 576p)
+http://86.57.198.251:8181/play/1033/index.m3u8
+#EXTINF:-1 tvg-id="moya-planeta"tvg-logo="http://epg.one/img2/675.png" group-title="test",Моя Планета (HD)
+http://stream1.cinerama.uz/1247/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="eureka-hd" tvg-logo="http://epg.one/img2/2310.png" group-title="test",Первый Космический (HD)
+http://stream01.vnet.am/Evrika/mono.m3u8
+#EXTINF:-1 tvg-id="dialogi-o-rybalke" tvg-logo="https://iptvx.one/picons/dialogi-o-rybalke.png" group-title="test",Диалоги о рыбалке (EDTV 576p)
+http://130.193.73.10:8937/play/a04q
+#EXTINF:-1 tvg-id="doktor" tvg-logo="https://iptvx.one/picons/doktor.png" group-title="test",Доктор (EDTV 576p)
+http://130.193.73.10:8937/play/a01q
+#EXTINF:-1 tvg-id="dikaya-oxota-hd" tvg-logo="http://epg.one/img2/2483.png" group-title="test",Дикая Охота (HD)
+http://stream01.vnet.am/Channel_127/mono.m3u8
+#EXTINF:-1 tvg-id="dikaya-rybalka-hd" tvg-logo="http://epg.one/img2/2484.png" group-title="test",Дикая Рыбалка (HD)
+http://stream01.vnet.am/Channel_126/mono.m3u8
+#EXTINF:-1 tvg-id="dikiy" tvg-logo="http://epg.one/img2/2283.png" group-title="test",Дикий (EDTV 576p)
+http://130.193.73.10:8937/play/a04s
+#EXTINF:-1 tvg-id="zagorodny" tvg-logo="http://epg.one/img2/2463.png" group-title="test",Загородный (EDTV 576p)
+http://stream1.cinerama.uz/1044/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="zagorodny-int" tvg-logo="https://iptvx.one/picons/zagorodny-int.png" group-title="test",Загородный Int (HD)
+http://livetv.mylifeisgood.net.ru/channels/zagorodint.m3u8
+#EXTINF:-1 tvg-id="tlc" tvg-logo="https://iptvx.one/picons/tlc.png" group-title="test",TLC (EDTV 576p)
+http://dmi3y-tv.ru/hls/CH_TLC.m3u8
+#EXTINF:-1 tvg-id="v-gostiax-u-skazki" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" group-title="test",В гостях у сказки (HD)
+http://stream2.cinerama.uz/1270/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="gags-network" tvg-logo="https://iptvx.one/picons/gags-network.png" group-title="test",GagsNetwork (EDTV 576p)
+http://s7.merlive.am/gagsnetwork/index.m3u8
+#EXTINF:-1 tvg-id="piatnica" tvg-logo="http://epg.one/img2/1003.png" group-title="test",Пятница! (EDTV 576p)
+http://185.23.80.28:8080/Pyatnica/index.m3u8?token=test
+#EXTINF:-1 tvg-id="tvoyo-tv-hd" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" group-title="test",Твоё ТВ (HD)
+http://tvoetv.space:8080/tvoetv/index.m3u8
+#EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://iptvx.one/picons/vip-comedy.png" group-title="test",Viju+ comedy (HD)
+http://135.181.115.81:8000/play/a019/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="test",Viju+ megahit (HD)
+http://cdntv.online/high/x4r6t9yfc3/105.m3u8
+#EXTINF:-1 tvg-id="vip-premiere" tvg-logo="https://iptvx.one/picons/vip-premiere.png" group-title="test",Viju+ premiere (HD)
+http://135.181.115.81:8000/play/a01a/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="abc-news-live-us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" group-title="test",ABC News Live (HD)
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
+#EXTINF:-1 tvg-id="cbs-news-us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" group-title="test",CBS News 24/7 (HD)
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62441d6ded1827000763dcda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc833037-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c76b19c9-a2e7-4ca7-bdfa-6632447d1e96
+#EXTINF:-1 tvg-id="2128" tvg-logo="https://epg.one/img2/2128.png" group-title="test",CNBC (HD)
+http://fl2.moveonjoy.com/CNBC/index.m3u8
+#EXTINF:-1 tvg-id="cnn" tvg-logo="https://iptvx.one/picons/cnn.png" group-title="test",CNN (HD)
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-id="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/512px-Fox_Business.svg.png" tvg-logo="fox-business-us" group-title="test",Fox Business (HD)
+http://41.205.93.154/FOXBUSINESS/index.m3u8
+#EXTINF:-1 tvg-id="nbc-news-now-us" tvg-logo="https://i.imgur.com/JZt2qh5.png" group-title="test",NBC News NOW (HD ready)
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/master.m3u8
+#EXTINF:-1 tvg-id="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/512px-Newsmax_logo.svg.png" tvg-logo="newsmax-tv-us" group-title="test",Newsmax TV (HD ready)
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
