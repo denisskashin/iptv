@@ -9,13 +9,25 @@ http://fl5.moveonjoy.com/NICK_MUSIC/index.m3u8
 #EXTINF:-1 group-title="Children" tvg-logo="https://iptvx.one/picons/nicktoons.png" tvg-id="nicktoons",Nicktoons
 https://d20opqftbkv2z0.cloudfront.net/live13/nicktoons/bitrate1-clear.isml/live.m3u8
 
+#EXTINF:-1 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" tvg-id="abc-news-live-us",ABC News Live
+https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://iptvx.one/picons/bbc.png" tvg-id="bbc",BBC World News
 http://stream2.cinerama.uz/1251/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" tvg-id="cbs-news-us",CBS News
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/62441d6ded1827000763dcda/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=bc833037-4b91-11ef-8a44-83c5e90e038f&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=c76b19c9-a2e7-4ca7-bdfa-6632447d1e96
 #EXTINF:-1 group-title="News" tvg-logo="https://epg.one/img2/2128.png" tvg-id="2128",CNBC
-http://stream2.cinerama.uz/1256/tracks-v1a1/mono.m3u8
+http://fl2.moveonjoy.com/CNBC/index.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://iptvx.one/picons/cnn.png" tvg-id="cnn",CNN
+https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://iptvx.one/picons/euronews.png" tvg-id="euronews",EuroNews
 https://stream01.vnet.am/Channel_119/mono.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/512px-Fox_Business.svg.png" tvg-id="fox-business-us",Fox Business
+http://41.205.93.154/FOXBUSINESS/index.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://iptvx.one/picons/fox-news-us.png" tvg-id="fox-news-us",Fox News Channel
 http://stream2.cinerama.uz/1252/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="News" tvg-logo="https://iptvx.one/picons/france24.png" tvg-id="france-24",France 24
 http://stream2.cinerama.uz/1241/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://i.imgur.com/JZt2qh5.png" tvg-id="nbc-news-now-us",NBC News NOW
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/master.m3u8
+#EXTINF:-1 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/512px-Newsmax_logo.svg.png" tvg-id="newsmax-tv-us",Newsmax TV
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
