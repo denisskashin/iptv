@@ -167,11 +167,7 @@ http://91.247.68.229:8000/play/Fashion/index.m3u8
 http://93.189.224.246:52900/play/a00i/index.m3u8
 #EXTINF:-1 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" tvg-id="ntv-pravo",Право
 http://130.193.73.10:8937/play/a01s
-#EXTINF:-1 group-title="НТВ" tvg-logo="http://epg.one/img2/1754.png" tvg-id="ntv-serial",Сериал
-https://as01.links-tv-channels.org/347/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-style.png" tvg-id="ntv-style",Стиль
-#EXTINF:-1 group-title="НТВ" tvg-logo="http://epg.one/img2/2041.png" tvg-id="ntv-xit",Хит
-https://as01.links-tv-channels.org/328/mpegts?token=n4WT46vRex83AH
 
 #EXTINF:-1 group-title="Новости" tvg-logo="https://iptvx.one/picons/360-int.png" tvg-id="360-int",360°
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
@@ -483,3 +479,51 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/19414/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/702/index.m3u8
 #EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/domashny.png" tvg-id="domashny",Домашний
 https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe",Телекафе
+http://stream01.vnet.am/Telekafe/mono.m3u8
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="test",Viju+ megahit (HD)
+http://91.205.199.3/vipmegahit/index.m3u8
+#EXTINF:-1 tvg-id="bolt-ru" tvg-logo="https://iptvx.one/picons/bolt.png" group-title="test",Bolt (EDTV 576p)
+http://185.23.80.28:8080/Bolt/index.m3u8?token=tva.in.ua
+#EXTINF:-1 tvg-id="pervy-kanal-eu" tvg-logo="https://iptvx.one/picons/pervy-kanal-eu.png" group-title="test",Первый канал Европа (WSVGA)
+https://streaming.thestream.cyou/live/210.m3u8
+#EXTINF:-1 tvg-id="detkinoint-tviksel" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" group-title="test",Детское кино Int (768×432)
+https://v2.catcast.tv/content/38720/index.m3u8
+#EXTINF:-1 tvg-id="ginger-hd" tvg-logo="https://iptvx.one/picons/capfantast.png" group-title="test",Капитан Фантастика (WSVGA)
+http://stream1.cinerama.uz/1406/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="karusel-int" tvg-logo="https://iptvx.one/picons/karusel.png" group-title="test",Карусель Int (EDTV 576p)
+http://stream02.vnet.am/Karusel/mono.m3u8
+#EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="test",Viju+ megahit (HD)
+http://91.205.199.3/vipmegahit/index.m3u8
+#EXTINF:-1 tvg-id="kino1int-tviksel" tvg-logo="http://epg.one/img2/6258.png" group-title="test",Кино 1 Int (768x432)
+http://kino-1.catcast.tv/content/38617/index.m3u8
+#EXTINF:-1 tvg-id="nashe-muzhskoe-hd" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe-hd.png" group-title="test",Наше Мужское (HD)
+http://65.21.85.175:8000/play/a00r/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="nash-kinopokaz-hd" tvg-logo="https://iptvx.one/picons/nash-kinopokaz.png" group-title="test",Наш кинопоказ (HD)
+http://185.23.80.28:8080/NashKinopokaz/index.m3u8?token=test
+#EXTINF:-1 tvg-id="eurosport2" tvg-logo="https://iptvx.one/picons/eurosport2.png" group-title="test",Eurosport 2 (HD)
+http://s7.merlive.am/eurosport2/index.m3u8
+#EXTINF:-1 tvg-id="history" tvg-logo="https://iptvx.one/picons/history.png" group-title="test",History (EDTV 576p)
+http://65.21.85.175:8000/play/a01s/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="belarus3" tvg-logo="https://iptvx.one/picons/belarus3hd.png" group-title="test",Беларусь 3 (HD)
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
+#EXTINF:-1 tvg-id="voprosy-i-otvety" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" group-title="test",Вопросы и ответы (EDTV 576p)
+http://stream1.cinerama.uz/1429/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="zagorodnaya-zhizn" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" group-title="test",Загородная Жизнь (EDTV 576p)
+http://195.26.83.96:7007/play/10/index.m3u8
+#EXTINF:-1 tvg-id="al-jazeera-int" group-title="test",Al Jazeera (HD ready)
+https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="CBS_News_247_logo.svg.png" group-title="test",CBS News 24/7 (HD)
+https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
+#EXTINF:-1 tvg-id="bloomberg" tvg-logo="https://iptvx.one/picons/bloomberg.png" group-title="test",Bloomberg (HD)
+http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
+#EXTINF:-1 tvg-id="Fox News" tvg-logo="https://iptvx.one/picons/fox-news-us.png" group-title="test",Fox News (HD)
+http://cdn1host.online:2999/live/venomj/EmoOmOskzq/267.m3u8
+#EXTINF:-1 tvg-id="fox-business-us" tvg-logo="https://foxcareers.com/Content/img2019/OurBrands/logo-lg-fox-business-network.png" group-title="test",Fox Business (HD)
+http://fl2.moveonjoy.com/FOX_Business_Network/index.m3u8
+#EXTINF:-1 tvg-id="msnbc-us" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" group-title="test",MSNBC (HD ready)
+http://cdn1host.online:2999/live/venomj/EmoOmOskzq/143.m3u8
+#EXTINF:-1 tvg-id="Newsnation" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91097/s91097_ll_h15_ae.png?w=512" group-title="test",NewsNation (HD)
+http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
+#EXTINF:-1 tvg-id="SKY News" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" group-title="test",Sky News (HD ready)
+https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
