@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz"
+#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24",Авто 24
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-id="avto-plus",Авто Плюс
@@ -559,3 +559,27 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13026/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13042/index.m3u8
 #EXTINF:-1 group-title="test",MM Smile HD
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13043/index.m3u8
+
+#EXTINF:-1 tvg-id="plex.tv.LiveNOW.from.FOX.plex" tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="test",LiveNOW from FOX (HD)
+https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/clarity4k-kinidetisssr.png" tvg-id="clarity4k-kinidetisssr",Kинодети СССР
+https://as01.links-tv-channels.org/20933/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="test" tvg-logo="" tvg-id="",[Clarity4K] RemasterWave
+https://as01.links-tv-channels.org/20945/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s",[BCU] Russia 90s
+https://as01.links-tv-channels.org/21212/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/box-remast-plus-4k.png" tvg-id="box-remast-plus-4k",[BOX] Remast+ 4K
+https://as01.links-tv-channels.org/20888/mpegts?token=n4WT46vRex83AH
+
+#EXTINF:-1 group-title="test",Minimax Walt Disney HD
+http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13064/index.m3u8
+
+#EXTINF:-1 group-title="test",Minimax Live Planet HD
+http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13095/index.m3u8
+
+#EXTINF:-1 group-title="test",VF Привет из 90х
+http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/17011/index.m3u8
