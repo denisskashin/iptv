@@ -596,5 +596,17 @@ http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
 #EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru",ТВ3
 http://stream01.vnet.am/Channel_121/mono.m3u8
 
-#EXTINF:-1 group-title="test tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твоё ТВ
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history",[Viju] History
+http://86.57.198.251:8181/play/1017/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature",[Viju] Nature
+http://213.226.137.140:81/tl/l96/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd",[Viju] Planet
+http://130.193.73.10:8937/play/a01l
+
+#EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
+http://213.226.137.140:81/tl/l97/mpegts
