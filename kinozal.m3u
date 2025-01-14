@@ -256,6 +256,13 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/17009/index.m3u8
 #EXTINF:0 group-title="Кунг-Фу" tvg-logo="https://iptvx.one/picons/minimax-kungfu.png" tvg-id="minimax-kungfu",[Minimax] Кунг-Фу
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13041/index.m3u8
 
+#EXTINF:0 group-title="Латиноамериканские сериалы" tvg-logo="https://iptvx.one/picons/vf-mylnoper.png" tvg-id="vf-mylnoper",[VF] Мыльные оперы
+http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13088/index.m3u8
+#EXTINF:0 group-title="Латиноамериканские сериалы" tvg-logo="https://iptvx.one/picons/novellatv.png" tvg-id="novellatv",Novella TV
+http://158.101.194.132:8080/channel/7d3fabec/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
+#EXTINF:0 group-title="Латиноамериканские сериалы",[Oasis] Латиноамериканские сериалы
+https://as01.links-tv-channels.org/20973/mpegts?token=n4WT46vRex83AH
+
 #EXTINF:0 group-title="Марвел & DC" tvg-logo="https://iptvx.one/picons/bcu-marvel.png" tvg-id="bcu-marvel",[BCU] Marvel
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/15025/index.m3u8
 #EXTINF:0 group-title="Марвел & DC" tvg-logo="https://iptvx.one/picons/vf-comics.png" tvg-id="vf-comics",[VF] Comics
@@ -471,8 +478,14 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/1071/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/20025/index.m3u8
 #EXTINF:0 group-title="Разные" tvg-logo="https://iptvx.one/picons/flixsnip.png" tvg-id="flixsnip",FlixSnip
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/10060/index.m3u8
+#EXTINF:0 group-title="Разные" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood",Kinowood
+http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4844/stream.m3u8
+#EXTINF:0 group-title="Разные",Кино Меню
+http://158.101.194.132:8080/channel/489a40cb/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:0 group-title="Разные" tvg-logo="https://iptvx.one/picons/minimax-kinofestival.png" tvg-id="minimax-kinofestival",[Minimax] Кинофестиваль
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/31621/index.m3u8
+#EXTINF:0 group-title="Разные" tvg-logo="https://iptvx.one/picons/minimax-translation.png" tvg-id="minimax-translation",[Minimax] Translation
+https://as01.links-tv-channels.org/20895/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Разные" tvg-logo="https://iptvx.one/picons/minimax-flip.png" tvg-id="minimax-flip",[Minimax] Flip UHD
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13057/index.m3u8
 #EXTINF:0 group-title="Разные",High Network Cinema
@@ -559,6 +572,8 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9133/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/11013/index.m3u8
 #EXTINF:0 group-title="Русские" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema",[Star] Cinema
 http://185.23.80.28:8080/StarCinema/index.m3u8?token=tva.in.ua
+#EXTINF:0 group-title="Русские" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love",СТС Love
+http://185.23.80.28:8080/STSLove/index.m3u8?token=test
 #EXTINF:0 group-title="Русские" tvg-logo="https://iptvx.one/picons/feniks-plus-kino.png" tvg-id="feniks-plus-kino",Феникс плюс Кино
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9153/index.m3u8
 #EXTINF:0 group-title="Русские",[High Network Cinema] RU|Kino
@@ -593,7 +608,7 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9129/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9233/index.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/amedia-hit.png" tvg-id="amedia-hit",[Amedia] Hit
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9234/index.m3u8
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/bcu-ruserial.png" tvg-id="bcu-ruserial",[BCU ]Ruserial
+#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/bcu-ruserial.png" tvg-id="bcu-ruserial",[BCU] Ruserial
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/11046/index.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/box-serial.png" tvg-id="box-serial",[BOX] Serial
 https://as01.links-tv-channels.org/20860/mpegts?token=n4WT46vRex83AH
@@ -607,8 +622,6 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/31640/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/10075/index.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/vf-kartochnydomik.png" tvg-id="vf-kartochnydomik",[VF] Карточный домик
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/14221/index.m3u8
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/vf-mylnoper.png" tvg-id="vf-mylnoper",[VF] Мыльные оперы
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13088/index.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/vf-sexcity.png" tvg-id="vf-sexcity",[VF] Секс в большом городе
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/14224/index.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/vf-serial.png" tvg-id="vf-serial",[VF] Сериал
@@ -637,8 +650,6 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9151/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9147/index.m3u8
 #EXTINF:0 group-title="Сериалы",[Oasis] Великобританские сериалы
 https://as01.links-tv-channels.org/21004/mpegts?token=n4WT46vRex83AH
-#EXTINF:0 group-title="Сериалы",[Oasis] Латиноамериканские сериалы
-https://as01.links-tv-channels.org/20973/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Сериалы",[Oasis] RUS Сериалы
 https://as01.links-tv-channels.org/20988/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Сериалы",[Oasis] RUS Сериалы Драма
@@ -672,6 +683,8 @@ http://ott.high-net.ru/HighNetwork_cinema_ruserial/index.m3u8?token=High_Network
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/17000/index.m3u8
 #EXTINF:0 group-title="Синематограф" tvg-logo="https://iptvx.one/picons/minimax-sinematograf.png" tvg-id="minimax-sinematograf",[Minimax] Синематограф
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13061/index.m3u8
+#EXTINF:0 group-title="Синематограф",Movie Classic
+http://158.101.194.132:8080/channel/n3b2f2768/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 
 #EXTINF:0 group-title="Ситком" tvg-logo="https://iptvx.one/picons/bcu-svaty.png" tvg-id="bcu-svaty",[BCU] Сваты
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/11047/index.m3u8
@@ -748,6 +761,8 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/17012/index.m3u8
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:0 group-title="Советское кино",Кинозал! СССР
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/11061/index.m3u8
+#EXTINF:0 group-title="Советское кино",Киноклассика
+http://158.101.194.132:8080/channel/7e5a40bb/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/clarity4k-komediasssr1.png" tvg-id="clarity4k-komediasssr1",[Clarity4K] Комедия СССР 1
 https://as01.links-tv-channels.org/20947/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/clarity4k-komediasssr2.png" tvg-id="clarity4k-komediasssr2",[Clarity4K] Комедия СССР 2
@@ -760,6 +775,8 @@ https://as01.links-tv-channels.org/8029/mpegts?token=n4WT46vRex83AH
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/16085/index.m3u8
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/minimax-ussr-1941-1945.png" tvg-id="minimax-ussr-1941-1945",[Minimax] СССР 1941-1945
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13018/index.m3u8
+#EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/minimax-ussr-fantastika.png" tvg-id="minimax-ussr-fantastika",СССР Драма
+https://as01.links-tv-channels.org/20732/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/minimax-ussr-detektiv.png" tvg-id="minimax-ussr-detektiv",[Minimax] СССР Детектив
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13096/index.m3u8
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/minimax-ussr-komedija.png" tvg-id="minimax-ussr-komedija",[Minimax] СССР Комедия
@@ -941,6 +958,8 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/31644/index.m3u8
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/7250/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/liberty-legenda.png" tvg-id="liberty-legenda",[Liberty] Легенда
 https://as01.links-tv-channels.org/8017/mpegts?token=n4WT46vRex83AH
+#EXTINF:0 group-title="Хиты",Мегахит
+https://autopilot.catcast.tv/content/47689/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/minimax-celebrity.png" tvg-id="minimax-celebrity",[Minimax] Celebrity
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/16084/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/premium-hd.png" tvg-id="premium-hd",Premium HD
@@ -948,39 +967,16 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/11095/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/cineman-top.png" tvg-id="cineman-top",[CineMan] Top
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/11005/index.m3u8
 
-#EXTINF:-1 group-title="Minimax" tvg-logo="https://iptvx.one/picons/minimax-translation.png" tvg-id="minimax-translation",Translation
-https://as01.links-tv-channels.org/20895/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="Minimax" tvg-logo="https://iptvx.one/picons/minimax-ussr-fantastika.png" tvg-id="minimax-ussr-fantastika",СССР Фантастика
-https://as01.links-tv-channels.org/20732/mpegts?token=n4WT46vRex83AH
+
+
+
+
 #EXTINF:-1 group-title="Minimax" tvg-logo="https://iptvx.one/picons/minimax-ms-prisons.png" tvg-id="minimax-ms-prisons",MS Prisons
 https://as01.links-tv-channels.org/20777/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Minimax" tvg-logo="https://iptvx.one/picons/minimax-ms-young-blood.png" tvg-id="minimax-ms-young-blood",MS Young Blood
 https://as01.links-tv-channels.org/20779/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Minimax" tvg-logo="https://iptvx.one/picons/minimax-ms-magic-4k.png" tvg-id="minimax-ms-magic-4k",MS Magic
 https://as01.links-tv-channels.org/20786/mpegts?token=n4WT46vRex83AH
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #EXTINF:-1 group-title="Viju" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy",Comedy
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/5080/index.m3u8
@@ -1023,39 +1019,16 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/31448/index.m3u8
 
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kino-bez-granic.png" tvg-id="kino-bez-granic",Кино без границ
 https://as01.links-tv-channels.org/7005/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood",Kinowood
-http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4844/stream.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Киноклассика
-http://158.101.194.132:8080/channel/7e5a40bb/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id=",Кинопремиум ?? Премиальное?
 https://as01.links-tv-channels.org/121/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Кино Меню
-http://158.101.194.132:8080/channel/489a40cb/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kinosat.png" tvg-id="kinosat",Киносат
 https://as01.links-tv-channels.org/425/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/kion-xit.png" tvg-id="kion-xit",KION Хит
 https://as01.links-tv-channels.org/7310/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Мегахит
-https://autopilot.catcast.tv/content/47689/index.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="" tvg-id="",Movie Classic
-http://158.101.194.132:8080/channel/n3b2f2768/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/novellatv.png" tvg-id="novellatv",Novella TV
-http://158.101.194.132:8080/channel/7d3fabec/index.m3u8?q=4965b2524bbd5b7c9cadb3719420c02c
 #EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/plan-b.png" tvg-id="plan-b",Plan B
 https://as01.links-tv-channels.org/484/mpegts?token=n4WT46vRex83AH
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love",СТС Love
-http://185.23.80.28:8080/STSLove/index.m3u8?token=test
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/strk.png" tvg-id="strk",СТРК
-http://sochinskayatrk.ru/hdtv/hls/strc_hd/playlist.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru",ТВ3
-http://stream01.vnet.am/Channel_121/mono.m3u8
-#EXTINF:-1 group-title="Фильмы и сериалы" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твоё ТВ
-http://tvoetv.space:8080/tvoetv/index.m3u8
-
-
 
 #EXTINF:0 group-title="Ситком" tvg-logo="https://iptvx.one/picons/vf-univer.png" tvg-id="vf-univer",[VF] Эльдар Рязанов
-
 #EXTINF:0 group-title="Ситком" tvg-logo="https://iptvx.one/picons/vf-univer.png" tvg-id="vf-univer",[VF] Ходячие мертвецы
 
 #EXTINF:-1 group-title="test2",VF Ходячие мертвецы
