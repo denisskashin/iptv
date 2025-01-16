@@ -1,7 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="1947",Эта замечательная жизнь
-https://m.cdntv.online/f/p9j41aun3x/Eta_zamechatelnaja_zhizn_1946.m3u8
-
 #EXTINF:-1 group-title="1953",Римские каникулы
 https://m.cdntv.online/f/p9j41aun3x/Roman_Holiday_1953.m3u8
 
@@ -19,6 +16,8 @@ https://m.cdntv.online/f/p9j41aun3x/Nivuniconnu.m3u8
 #EXTINF:-1 group-title="1959",В джазе только девушки
 https://m.cdntv.online/f/p9j41aun3x/V_dzhaze_tolko_devushki_1959.m3u8
 
+
+
 #EXTINF:-1 group-title="1960",Спартак
 http://vod.orgip.net/vod100/Spartacus/index.m3u8?token=Md7ac19a92
 
@@ -27,6 +26,7 @@ http://vod.orgip.net/vod100/007_DrNo_1962/index.m3u8?token=Md7ac19a92
 
 #EXTINF:-1 group-title="1963",Из России с любовью
 http://vod.orgip.net/vod100/007_From_Russia_With_Love_1963/index.m3u8?token=Md7ac19a92
+
 #EXTINF:-1 group-title="1963",Клеопатра
 http://vod.orgip.net/vod100/Cleopatra/index.m3u8?token=Md7ac19a92
 
@@ -2204,6 +2204,8 @@ https://m.cdntv.online/f/p9j41aun3x/The_Kid_1921.m3u8
 https://m.cdntv.online/f/p9j41aun3x/Ogni_Bolshogo_Goroda_1931.m3u8
 #EXTINF:0 group-title="Просмотренные",1939 - Унесённые ветром [29/250]
 https://m.cdntv.online/f/p9j41aun3x/Gone_with_the_Wind_1939.m3u8
+#EXTINF:0 group-title="Просмотренные",1947 - Эта замечательная жизнь [209/250]
+https://m.cdntv.online/f/p9j41aun3x/Eta_zamechatelnaja_zhizn_1946.m3u8
 #EXTINF:0 group-title="Просмотренные",1975 - Челюсти
 https://svd13.kvb.cool/video_mp4/films/1975/Jaws/3cde56047754adc3a20e02858a315907/Jaws1975.mp4
 #EXTINF:0 group-title="Просмотренные",1976 - Кинг-Конг
@@ -2295,11 +2297,12 @@ https://svd13.kvb.cool/video_mp4/films/1992/UnderSiege/3cde56047754adc3a20e02858
 #EXTINF:0 group-title="Просмотренные",2011 - Жизнь прекрасна
 https://vs54.vcdn.biz/8355cfa9e0c10ca846eb6acff70b136c_megogo/vod/hls/b/450_900_1350_1500_2000/u_sid/0/o/91171/u_uid/0/u_vod/3/u_device/cms_html5/a/1/type.amlst/playlist.m3u8
 
-#EXTINF:-1 group-title="История" tvg-logo="http://hom.orgip.net/logo/VnachaleSlavnyhDel.jpg", В начале славных дел (1980)
+#EXTINF:-1 group-title="История",В начале славных дел (1980)
 http://vod.orgip.net/vod100/VnachaleSlavnyhDel/index.m3u8?token=Md7ac19a92
-#EXTINF:-1 group-title="История" tvg-logo="http://hom.orgip.net/logo/YunostjPetra.jpg", Юность Петра (1980)
+#EXTINF:-1 group-title="История",Юность Петра (1980)
 http://vod.orgip.net/vod100/YunostjPetra/index.m3u8?token=Md7ac19a92
-#EXTINF:-1 group-title="Мелодрама" tvg-logo="http://hom.orgip.net/logo/DirtyDancing.jpg", Грязные танцы (1987)
+
+#EXTINF:-1 group-title="Мелодрама", Грязные танцы (1987)
 http://vod.orgip.net/vod100/Dirty_Dancing_1987/index.m3u8?token=Md7ac19a92
 
 #EXTINF:-1 group-title="Мелодрама" tvg-logo="http://hom.orgip.net/logo/ZaBortom.jpg", За бортом. (1987)

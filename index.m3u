@@ -464,11 +464,11 @@ https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
 #EXTINF:-1 group-title="test",LIBERTY АВТО ГИР FHD
 https://as01.links-tv-channels.org/8033/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="test",Liberty Дрим Воркс 4K
-https://as01.links-tv-channels.org/8048/mpegts?token=n4WT46vRex83AH
+http://4c714bd4.kazaktelekom.com/iptv/5RVQZMQGNELBF86P2RYFDRPV/31661/index.m3u8
 #EXTINF:-1 group-title="test",LIBERTY КУБ 4K
 https://as01.links-tv-channels.org/8025/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="test",BOX Remast+ 4K
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/31656/index.m3u8
+http://4c714bd4.kazaktelekom.com/iptv/5RVQZMQGNELBF86P2RYFDRPV/31656/index.m3u8
 #EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/okino.png" tvg-id="okino",О!Кино
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/20023/index.m3u8
 #EXTINF:-1 group-title="test",NOW Series HD
@@ -536,7 +536,7 @@ https://as01.links-tv-channels.org/8028/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/liberty-pixar.png" tvg-id="liberty-pixar",Пиксар
 https://as01.links-tv-channels.org/8002/mpegts?token=n4WT46vRex83AH
 #EXTINF:-1 group-title="test",KLI Millennium HD
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/31631/index.m3u8
+http://4c714bd4.kazaktelekom.com/iptv/5RVQZMQGNELBF86P2RYFDRPV/31631/index.m3u8
 #EXTINF:-1 group-title="test",VF Мультфильмы СССР
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/10086/index.m3u8
 #EXTINF:-1 group-title="test",Космо HD
@@ -610,3 +610,10 @@ http://130.193.73.10:8937/play/a01l
 
 #EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
 http://213.226.137.140:81/tl/l97/mpegts
+
+#EXTINF:-1 tvg-id="France.24.English.us" tvg-logo="https://iptvx.one/picons/france24.png" group-title="test",France 24 English (HD)
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+
+#EXTINF:-1 tvg-id="MSNBC.USA.us" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" group-title="test",MSNBC (HD ready)
+http://41.205.93.154/MSNBC/index.m3u8
+
