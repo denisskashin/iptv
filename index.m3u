@@ -2,12 +2,11 @@
 
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24",Авто 24
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-id="avto-plus",Авто Плюс
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Canal Motor
+#EXTINF:-1 group-title="Авто и мотоспорт",Canal Motor
 http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive",Драйв
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="" tvg-id="",Motorvision TV
+#EXTINF:-1 group-title="Авто и мотоспорт",Motorvision TV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=535
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/1auto.png" tvg-id="1auto",Перший автомобільний
 
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1",Беларусь 1
 http://93.189.224.246:52900/play/a006/index.m3u8
@@ -616,4 +615,19 @@ https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 
 #EXTINF:-1 tvg-id="MSNBC.USA.us" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" group-title="test",MSNBC (HD ready)
 http://41.205.93.154/MSNBC/index.m3u8
+
+#EXTINF:-1 group-title="test", BCU Christmas HD
+http://live.admuspeh.my/8886/video.m3u8?token=TestuspehTva
+
+#EXTINF:-1 group-title="test", BCU Мультсериал HD
+http://live.admuspeh.my/8874/index.m3u8?token=TestuspehTva
+
+#EXTINF:-1 group-title="test", BCU Kids+
+http://live.admuspeh.my/8454/index.m3u8?token=TestuspehTva
+
+#EXTINF:-1 group-title="test", BCU Little
+http://live.admuspeh.my/8979/index.m3u8?token=TestuspehTva
+
+#EXTINF:-1 group-title="test", BCU Russia 90s
+http://live.admuspeh.my/8980/index.m3u8?token=TestuspehTva
 
