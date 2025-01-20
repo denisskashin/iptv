@@ -1,9 +1,11 @@
 #EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz"
 
-#EXTINF:0 group-title="60FPS",[VeleS]
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31637/index.m3u8
 #EXTINF:0 group-title="60FPS" tvg-logo="https://iptvx.one/picons/bcu-trumotion.png" tvg-id="bcu-trumotion",[BCU] TruMotion
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17054/index.m3u8
+#EXTINF:0 group-title="60FPS",[VeleS]
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31637/index.m3u8
+#EXTINF:0 group-title="60FPS" tvg-logo="https://iptvx.one/picons/yosso-best60fps.png" tvg-id="yosso-best60fps",Best 60 FPS
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20165/index.m3u8
 
 #EXTINF:0 group-title="Азия" tvg-logo="https://iptvx.one/picons/dorama.png" tvg-id="dorama",Дорама
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/9239/index.m3u8
@@ -111,6 +113,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/5006/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15000/index.m3u8
 #EXTINF:0 group-title="VHS",Видеокассета E-180
 https://132544.edgevideo.ru/streams/132544_806129/playlist.m3u8
+#EXTINF:0 group-title="VHS",[Dosug TV] VHS
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14225/index.m3u8
 #EXTINF:0 group-title="VHS" tvg-logo="https://iptvx.one/picons/yosso-vhs.png" tvg-id="yosso-vhs",[Yosso TV] VHS
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14172/index.m3u8
 #EXTINF:0 group-title="VHS" tvg-logo="https://iptvx.one/picons/liberty-xxvek.png" tvg-id="liberty-xxvek",[Liberty] XX Век
@@ -132,6 +136,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13086/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13082/index.m3u8
 #EXTINF:0 group-title="Детектив" tvg-logo="https://iptvx.one/picons/detectivejam.png" tvg-id="detectivejam",DetectiveJam
 https://as01.links-tv-channels.org/7311/mpegts?token=n4WT46vRex83AH
+#EXTINF:0 group-title="Детектив" ,[Dosug TV] Detective
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14226/index.m3u8
 #EXTINF:0 group-title="Детектив" tvg-logo="https://iptvx.one/picons/minimax-agata.png" tvg-id="minimax-agata",[Minimax] Агата Кристи
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13024/index.m3u8
 #EXTINF:0 group-title="Детектив",[Oasis] Detective
@@ -176,6 +182,10 @@ https://as01.links-tv-channels.org/8023/mpegts?token=n4WT46vRex83AH
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11034/index.m3u8
 #EXTINF:0 group-title="История" tvg-logo="https://iptvx.one/picons/vf-istorya.png" tvg-id="vf-istorya",[VF] История
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13091/index.m3u8
+#EXTINF:0 group-title="История",[Dosug TV] History
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14211/index.m3u8
+#EXTINF:0 group-title="История" tvg-logo="https://iptvx.one/picons/c-history.png" tvg-id="c-history",[Yosso TV] C-History
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18139/index.m3u8
 #EXTINF:0 group-title="История" tvg-logo="https://iptvx.one/picons/minimax-istorija.png" tvg-id="minimax-istorija",[Minimax] История
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13033/index.m3u8
 
@@ -206,12 +216,16 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10055/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10003/index.m3u8
 #EXTINF:0 group-title="Комедия" tvg-logo="https://iptvx.one/picons/vf-nasharasha.png" tvg-id="vf-nasharasha",[VF] Наша Раша
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17010/index.m3u8
+#EXTINF:0 group-title="Комедия",[Dosug TV] Comedy
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14209/index.m3u8
 #EXTINF:0 group-title="Комедия",[Z!] Comedy
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14135/index.m3u8
 #EXTINF:0 group-title="Комедия",[Z!] Smile
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15142/index.m3u8
 #EXTINF:0 group-title="Комедия" tvg-logo="https://iptvx.one/picons/yosso-zabavno.png" tvg-id="yosso-zabavno",[Yosso TV] Забавное
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14234/index.m3u8
+#EXTINF:0 group-title="Комедия" tvg-logo="https://iptvx.one/picons/c-comedy.png" tvg-id="c-comedy",[Yosso TV] C-Comedy
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/16151/index.m3u8
 #EXTINF:0 group-title="Комедия" tvg-logo="https://iptvx.one/picons/kamedi.png" tvg-id="kamedi",Камеди
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/9091/index.m3u8
 #EXTINF:0 group-title="Комедия" tvg-logo="https://iptvx.one/picons/clarity4k-komedia.png" tvg-id="clarity4k-komedia",[Clarity4K] Комедия
@@ -294,6 +308,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15025/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13092/index.m3u8
 #EXTINF:0 group-title="Марвел & DC" tvg-logo="https://iptvx.one/picons/vf-marvel.png" tvg-id="vf-marvel",[VF] Marvel
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10081/index.m3u8
+#EXTINF:0 group-title="Марвел & DC",[Dosug TV] Marvel
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14215/index.m3u8
 #EXTINF:0 group-title="Марвел & DC",[KLI] Marvel
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31632/index.m3u8
 #EXTINF:0 group-title="Марвел & DC" tvg-logo="https://iptvx.one/picons/liberty-dc.png" tvg-id="liberty-dc",[Liberty] DC
@@ -335,6 +351,8 @@ http://4c714bd4.kazaktelekom.com/iptv/5RVQZMQGNELBF86P2RYFDRPV/31662/index.m3u8
 
 #EXTINF:0 group-title="Нетфликс" tvg-logo="https://iptvx.one/picons/vf-netflx.png" tvg-id="vf-netflx",[VF] Netflix
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19427/index.m3u8
+#EXTINF:0 group-title="Нетфликс" tvg-logo="https://iptvx.one/picons/yosso-netflix.png" tvg-id="yosso-netflix",[Yosso TV] Netflix
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20163/index.m3u8
 #EXTINF:0 group-title="Нетфликс" tvg-logo="https://iptvx.one/picons/clarity4k-netflix.png" tvg-id="clarity4k-netflix",[Clarity4K] Netflix
 https://as01.links-tv-channels.org/20900/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Нетфликс" tvg-logo="https://iptvx.one/picons/liberty-netflix.png" tvg-id="liberty-netflix",[Liberty] Нетфликс
@@ -379,6 +397,8 @@ http://213.226.137.140:81/tl/l319/mpegts
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10051/index.m3u8
 #EXTINF:0 group-title="Премьеры" tvg-logo="https://iptvx.one/picons/vf-premiere.png" tvg-id="vf-premiere",[VF] Premiere
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10052/index.m3u8
+#EXTINF:0 group-title="Премьеры",[Dosug TV] New
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14216/index.m3u8
 #EXTINF:0 group-title="Премьеры" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd",Кинопремьера
 http://213.226.137.140:81/tl/l303/mpegts
 #EXTINF:0 group-title="Премьеры" tvg-logo="https://iptvx.one/picons/yosso-newkino.png" tvg-id="yosso-newkino",[Yosso TV] New Кино
@@ -558,6 +578,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18052/index.m3u8
 http://live.admuspeh.my/8978/index.m3u8?token=TestuspehTva
 #EXTINF:0 group-title="Романтика" tvg-logo="https://iptvx.one/picons/vf-melodrama.png" tvg-id="vf-melodrama",[VF] Melodrama
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10006/index.m3u8
+#EXTINF:0 group-title="Романтика" tvg-logo="https://iptvx.one/picons/yosso-melodrama.png" tvg-id="yosso-melodrama",[Yosso TV] Мелодрама
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19434/index.m3u8
 #EXTINF:0 group-title="Романтика" tvg-logo="https://iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie",Киносвидание
 http://91.205.199.3:80/kinosvidanie/index.m3u8
 #EXTINF:0 group-title="Романтика" tvg-logo="https://iptvx.one/picons/lavstori-hd.png" tvg-id="lavstori-hd",Лавстори
@@ -591,6 +613,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/9227/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14222/index.m3u8
 #EXTINF:0 group-title="Русские" tvg-logo="https://iptvx.one/picons/domkino-premium.png" tvg-id="domkino-premium",Дом кино Премиум
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/5082/index.m3u8
+#EXTINF:0 group-title="Русские",[Dosug TV] Russian
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14217/index.m3u8
 #EXTINF:0 group-title="Русские" tvg-logo="https://iptvx.one/picons/dushevnoe.png" tvg-id="dushevnoe",Душевное
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10042/index.m3u8
 #EXTINF:0 group-title="Русские" tvg-logo="https://iptvx.one/picons/yosso-rusfilm.png" tvg-id="yosso-rusfilm",[Yosso TV] Русские Фильмы
@@ -695,6 +719,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11116/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19428/index.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/vf-chernobyl.png" tvg-id="vf-chernobyl",[VF] Чернобыль
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17001/index.m3u8
+#EXTINF:0 group-title="Сериалы",[Dosug TV] Сериал
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14227/index.m3u8
 #EXTINF:0 group-title="Сериалы",[Z!] Serial
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15140/index.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-id="kinoseria",Киносерия
@@ -783,6 +809,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15009/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13084/index.m3u8
 #EXTINF:0 group-title="Ситком" tvg-logo="https://iptvx.one/picons/vf-univernew.png" tvg-id="vf-univernew",[VF] Универ: новая общага
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17013/index.m3u8
+#EXTINF:0 group-title="Ситком",[Dosug TV] Сваты
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14228/index.m3u8
 #EXTINF:0 group-title="Ситком",[Z!] Sitcom
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15141/index.m3u8
 #EXTINF:0 group-title="Ситком",Кинозал! Интерны ТВ
@@ -842,8 +870,12 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18124/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10085/index.m3u8
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/vf-ryazanov.png" tvg-id="vf-ryazanov",[VF] Эльдар Рязанов
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17012/index.m3u8
+#EXTINF:0 group-title="Советское кино",[Dosug TV] СССР
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14218/index.m3u8
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/yosso-sovfilm.png" tvg-id="yosso-sovfilm",[Yosso TV] Советские Фильмы
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14175/index.m3u8
+#EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/yosso-sovfilm4k.png" tvg-id="yosso-sovfilm4k",[Yosso TV] Советские Фильмы 4K
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19435/index.m3u8
 #EXTINF:0 group-title="Советское кино" tvg-logo="https://iptvx.one/picons/kino1int-tviksel.png" tvg-id="kino1int-tviksel",Кино 1 International
 http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:0 group-title="Советское кино",Кинозал! СССР
@@ -891,6 +923,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11102/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13089/index.m3u8
 #EXTINF:0 group-title="Триллер" tvg-logo="https://iptvx.one/picons/yosso-adrenalin.png" tvg-id="yosso-adrenalin",[Yosso TV] Adrenaline
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15105/index.m3u8
+#EXTINF:0 group-title="Триллер" tvg-logo="https://iptvx.one/picons/c-inquest.png" tvg-id="c-inquest",[Yosso TV] C-Inquest
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/16152/index.m3u8
 #EXTINF:0 group-title="Триллер" tvg-logo="https://iptvx.one/picons/yosso-thriller.png" tvg-id="yosso-thriller",[Yosso TV] Thriller
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15168/index.m3u8
 #EXTINF:0 group-title="Триллер" tvg-logo="https://iptvx.one/picons/liberty-trillery.png" tvg-id="liberty-trillery",[Liberty] Триллеры
@@ -929,6 +963,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10008/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10010/index.m3u8
 #EXTINF:0 group-title="Ужасы" tvg-logo="https://iptvx.one/picons/vf-walkingdead.png" tvg-id="vf-walkingdead",[VF] Ходячие мертвецы
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17014/index.m3u8
+#EXTINF:0 group-title="Ужасы",[Dosug TV] Horror
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14213/index.m3u8
 #EXTINF:0 group-title="Ужасы",[Z!] Horror
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14137/index.m3u8
 #EXTINF:0 group-title="Ужасы",Кинозалы: ужасы
@@ -986,6 +1022,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11032/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17002/index.m3u8
 #EXTINF:0 group-title="Фантастика" tvg-logo="https://iptvx.one/picons/vf-fantastic.png" tvg-id="vf-fantastic",[VF] Fantastic
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11121/index.m3u8
+#EXTINF:0 group-title="Фантастика",[Dosug TV] Fantastic
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14210/index.m3u8
 #EXTINF:0 group-title="Фантастика" tvg-logo="https://iptvx.one/picons/yosso-oblivion.png" tvg-id="yosso-oblivion",[Yosso TV] Oblivion
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15509/index.m3u8
 #EXTINF:0 group-title="Фантастика" tvg-logo="https://iptvx.one/picons/clarity4k-galaxyfilms.png" tvg-id="clarity4k-galaxyfilms",[Clarity4K] Galaxy Films
@@ -1057,6 +1095,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11122/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31644/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit",[Viju+] Megahit
 http://91.205.199.3/vipmegahit/index.m3u8
+#EXTINF:0 group-title="Хиты",[Dosug TV] Hit
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14212/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/yosso-best.png" tvg-id="yosso-best",[Yosso TV] Best
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14236/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/kinoxit.png" tvg-id="kinoxit",Кинохит
@@ -1071,6 +1111,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/16084/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11095/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/cineman-top.png" tvg-id="cineman-top",[CineMan] Top
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11005/index.m3u8
+
+
 
 
 
@@ -1101,52 +1143,18 @@ https://as01.links-tv-channels.org/484/mpegts?token=n4WT46vRex83AH
 
 
 
-#EXTINF:-1 group-title="test3",[Yosso TV] Мелодрама
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19434/index.m3u8
-#EXTINF:-1 group-title="test3",[Yosso TV] Советские Фильмы 4K
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19435/index.m3u8
-#EXTINF:-1 group-title="test3",[Yosso TV] Netflix
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20163/index.m3u8
-#EXTINF:-1 group-title="test3",[Yosso TV] Disney
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20164/index.m3u8
-#EXTINF:-1 group-title="test3",[Yosso TV] Best 60 FPS
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20165/index.m3u8
-#EXTINF:-1 group-title="test3",Citrus Comedy
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/16151/index.m3u8
-#EXTINF:-1 group-title="test3",Citrus Inquest
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/16152/index.m3u8
-#EXTINF:-1 group-title="test3",Citrus History
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18139/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Comedy HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14209/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Fantastic HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14210/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV History HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14211/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Hit HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14212/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Horror HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14213/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Kids HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14214/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Marvel HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14215/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV New HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14216/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Russian HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14217/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV СССР HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14218/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV VHS
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14225/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Detective HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14226/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Сериал
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14227/index.m3u8
-#EXTINF:-1 group-title="test3",Dosug TV Сваты
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14228/index.m3u8
-#EXTINF:-1 group-title="test3",Твое ТВ HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14229/index.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
 #EXTINF:-1 group-title="test3",Magic Christmas
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14240/index.m3u8
 #EXTINF:-1 group-title="test3",Liberty Марвел FHD
