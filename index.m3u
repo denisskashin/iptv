@@ -199,7 +199,7 @@ http://iptv.services.everywan.net:8080/martv-web/video.m3u8
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/novy-mir.png" tvg-id="novy-mir",Новый мир
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia",Ностальгия
-http://178.124.152.238:8088/nostalgia
+http://91.205.199.3/nostalgia/index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/ntm.png" tvg-id="ntm",НТМ
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr",ОТР
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy",Первый канал
@@ -229,7 +229,7 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/tambov/russia24-sd/index.m3u8
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" tvg-id="solovjinypomiot",Соловьев.Live
 http://195.26.83.96:7029/play/a003
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts",СТС
-http://213.226.137.140:81/tl/l43/index.m3u8
+http://185.23.80.28:8080/STS/index.m3u8?token=test
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super",Суббота!
 http://130.193.73.10:8937/play/a03a
 #EXTINF:-1 group-title="Общественные" tvg-logo="" tvg-id="",TV PRO
@@ -481,7 +481,7 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19414/index.m3u8
 #EXTINF:-1 group-title="test",2x2
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/702/index.m3u8
 #EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/domashny.png" tvg-id="domashny",Домашний
-https://livetv.mylifeisgood.net.ru/channels/domashnii.m3u8
+http://stream02.vnet.am/Domashniy/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="test" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe",Телекафе
 http://stream01.vnet.am/Telekafe/mono.m3u8
 #EXTINF:-1 tvg-id="vip-megahit" tvg-logo="https://iptvx.one/picons/vip-megahit.png" group-title="test",Viju+ megahit (HD)
