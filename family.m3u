@@ -59,8 +59,10 @@ http://130.193.73.10:8937/play/a017
 http://stream01.vnet.am/Tiji/mono.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/unikum.png" tvg-id="detsky",Уникум
 
-#EXTINF0 group-title="Мульткомпании" tvg-logo="https://iptvx.one/picons/liberty-dreamworks.png" tvg-id="liberty-dreamworks",[Liberty] Дрим Воркс 4K
+#EXTINF:0 group-title="Мульткомпании" tvg-logo="https://iptvx.one/picons/liberty-dreamworks.png" tvg-id="liberty-dreamworks",[Liberty] Дрим Воркс 4K
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31661/index.m3u8
+#EXTINF:0 group-title="Мульткомпании" tvg-logo="https://iptvx.one/picons/liberty-pixar.png" tvg-id="liberty-pixar",Пиксар
+https://as01.links-tv-channels.org/8002/mpegts?token=n4WT46vRex83AH
 
 #EXTINF:0 group-title="Развлечения" tvg-logo="https://iptvx.one/picons/karusel.png" tvg-id="karusel-int",Карусель
 http://stream02.vnet.am/Karusel/mono.m3u8
@@ -72,9 +74,13 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31656/index.m3u8
 
 #EXTINF:0 group-title="Фильмы",[Eye] Family
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20216/index.m3u8
+#EXTINF:0 group-title="Фильмы" tvg-logo="https://iptvx.one/picons/clarity4k-kinidetisssr.png" tvg-id="clarity4k-kinidetisssr",[Clarity4K] Kинодети СССР
+https://as01.links-tv-channels.org/20933/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Фильмы" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",[Tviksel] Детское кино Internationa
 https://v2.catcast.tv/content/38720/index.m3u8
 
+#EXTINF:0 group-title="Франшизы" tvg-logo="https://iptvx.one/picons/liberty-kub.png" tvg-id="liberty-kub",[Liberty] Куб 4K
+https://as01.links-tv-channels.org/8025/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Франшизы" tvg-logo="https://iptvx.one/picons/liberty-mim.png" tvg-id="liberty-mim",[Liberty] Маша и медведь
 https://as01.links-tv-channels.org/8028/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Франшизы",[Minimax] Family Guy
