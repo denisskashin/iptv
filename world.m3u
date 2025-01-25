@@ -24,6 +24,10 @@ https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 http://stream2.cinerama.uz/1252/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/france24.png" tvg-id="france-24",France 24
 http://stream2.cinerama.uz/1241/tracks-v1a1/mono.m3u8
+#EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/france24.png" tvg-id="France.24.English.us",France 24 English
+https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
+#EXTINF:0 group-title="News" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" tvg-id="MSNBC.USA.us",MSNBC (HD ready)
+http://41.205.93.154/MSNBC/index.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://i.imgur.com/JZt2qh5.png" tvg-id="nbc-news-now-us",NBC News Now
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-xumo-nbcnewsnow/CDN/master.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/512px-Newsmax_logo.svg.png" tvg-id="newsmax-tv-us",Newsmax TV
@@ -32,4 +36,3 @@ https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 http://fl2.moveonjoy.com/NEWS_NATION/index.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" tvg-id="SKY News",Sky News
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
-

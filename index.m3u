@@ -297,6 +297,8 @@ http://95.156.76.230:33001/udp/230.4.34.6:1234
 http://185.23.80.28:8080/Klyuch/index.m3u8?token=test
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/muzhskoy.png" tvg-id="muzhskoy",Мужской
 http://185.23.80.28:8080/Muzhskoy/index.m3u8?token=test
+#EXTINF:0 group-title="Развлекательные",NOW Series
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15102/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/okino.png" tvg-id="okino",О!Кино
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20023/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/otkryty-mir.png" tvg-id="otkryty-mir",Открытый мир
@@ -316,6 +318,8 @@ http://dmi3y-tv.ru/hls/CH_TLC.m3u8
 http://cdn-01.bonus-tv.ru/tvm_edge/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
+#EXTINF:0 group-title="Развлекательные",TVRUS
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14022/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tochka-tv.png" tvg-id="tochka-tv",Точка ТВ
 http://94.230.128.105:8080/TochkaTV/mono.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tcb.png" tvg-id="tcb",ТСВ
@@ -341,6 +345,8 @@ http://hls.tv.3angels.ru/stream/HQ.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="" tvg-id="",Астрахань.Ru Sport
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
+http://213.226.137.140:81/tl/l97/mpegts
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1",Eurosport 1
 http://stream01.vnet.am/Eurosport/tracks-v1a2/mono.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2",Eurosport 2
@@ -432,10 +438,6 @@ https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
 
 
 
-
-
-#EXTINF:0 group-title="test",NOW Series HD
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/15102/index.m3u8
 #EXTINF:0 group-title="test",2x2
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/702/index.m3u8
 #EXTINF:0 group-title="test",2x2 orig
@@ -470,12 +472,6 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17011/index.m3u8
 https://as01.links-tv-channels.org/20964/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="test",[Oasis] Ufos and Aliens
 https://as01.links-tv-channels.org/20997/mpegts?token=n4WT46vRex83AH
-#EXTINF:0 group-title="test" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
-http://213.226.137.140:81/tl/l97/mpegts
-#EXTINF:0 tvg-id="France.24.English.us" tvg-logo="https://iptvx.one/picons/france24.png" group-title="test",France 24 English (HD)
-https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:0 tvg-id="MSNBC.USA.us" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" group-title="test",MSNBC (HD ready)
-http://41.205.93.154/MSNBC/index.m3u8
 #EXTINF:0 group-title="test", BCU Christmas HD
 http://live.admuspeh.my/8886/video.m3u8?token=TestuspehTva
 #EXTINF:0 group-title="test", BCU Мультсериал HD
@@ -484,59 +480,35 @@ http://live.admuspeh.my/8874/index.m3u8?token=TestuspehTva
 http://live.admuspeh.my/8454/index.m3u8?token=TestuspehTva
 #EXTINF:0 group-title="test", BCU Little
 http://live.admuspeh.my/8979/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", BCU Russia 90s
-http://live.admuspeh.my/8980/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test",NOW Series HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15102/index.m3u8
-#EXTINF:0 group-title="test",TVRUS
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14022/index.m3u8
-
 #EXTINF:0 group-title="test", [BOX] M.Serial
 http://live.admuspeh.my/8988/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test", [BOX] Memory
 http://live.admuspeh.my/8987/index.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test", [BOX] SportCast
 http://live.admuspeh.my/8447/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test", [BOX] Relax 4K
 http://live.admuspeh.my/8338/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test", [BOX] AutoTrend HD
 http://live.admuspeh.my/8440/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test", [BOX] Docu
 http://live.admuspeh.my/8424/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test", [BOX] Gurman HD
 http://live.admuspeh.my/8439/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test",[BOX] Kosmo 4K
 http://live.admuspeh.my/8448/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test",[BOX] Mayday
 http://live.admuspeh.my/8434/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test",[BOX] Music 4K
 http://live.admuspeh.my/8990/index.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test",[BOX] Travel
 http://live.admuspeh.my/8416/video.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test", Cartoons 90
 http://live.admuspeh.my/8812/index.m3u8?token=TestuspehTva
-
 #EXTINF:0 group-title="test",[CineMan] Air Crash
 http://live.admuspeh.my/8826/index.m3u8?token=TestuspehTva
-
-#EXTINF:0 group-title="test",[CineMan] Симпсоны
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/15101/index.m3u8
-
-#EXTINF:0 group-title="test", Cartoons Big
+#EXTINF:0 group-title="test",Cartoons Big
 http://live.admuspeh.my/8866/index.m3u8?token=TestuspehTva
-
-#EXTINF:0 group-title="test", Cartoons Short
+#EXTINF:0 group-title="test",Cartoons Short
 http://live.admuspeh.my/8867/index.m3u8?token=TestuspehTva
 
 #EXTINF:0 group-title="test",VF Cartoon
@@ -989,192 +961,3 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20140/index.m3u8
 
 #EXTINF:0 group-title="test",[BOX] Stories HD
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20155/index.m3u8
-
-#EXTINF:0 group-title="test2",CBS REALITY
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439475&extension=ts&play_token=AnYGKTG0tS
-#EXTINF:0 group-title="test2",DAVINCI LEARNING
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439474&extension=ts&play_token=VoqdsPZvjE
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DIKAYA-OKHOTA-HD.png\",RU: DIKAYA OKHOTA HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439473&extension=ts&play_token=UbhH85viNx
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DIKAYA-RYBALKA-HD.png\",RU: DIKAYA RYBALKA HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439472&extension=ts&play_token=b8jJDtJK1Y
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/discoverychannel.png\",RU: DISCOVERY CHANNEL
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439471&extension=ts&play_token=BhrzxwKdzc
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/discoverychannelhd.png\",RU: DISCOVERY CHANNEL HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439470&extension=ts&play_token=dS10u2M14I
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/discoveryscience.png\",RU: DISCOVERY SCIENCE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439469&extension=ts&play_token=aMwFoYFCwo
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/discoverysciencehd.png\",RU: DISCOVERY SCIENCE HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439468&extension=ts&play_token=n9XoovJitA
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/discoveryshowcasehd.png\",RU: DISCOVERY SHOWCASE HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439467&extension=ts&play_token=s8k2mngu6j
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DISCOVERY-DTX.png\",RU: DISCOVERY DTX
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439466&extension=ts&play_token=EfIMAyW2C0
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DISCOVERY-ID-XTRA-HD.png\",RU: DISCOVERY ID XTRA HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439465&extension=ts&play_token=uXctFM1Oa7
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/EDA-TV.png\",RU: EDA HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439464&extension=ts&play_token=xqE54jH5Xx
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/EGOIST-TV.jpg\",RU: EGOIST TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439463&extension=ts&play_token=ijH9UlwPw6
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/etv.png\",RU: E TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439462&extension=ts&play_token=fl6UCJFVFa
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/EUREKA-TV.jpeg\",RU: EUREKA HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439461&extension=ts&play_token=Oqjs9mYvCa
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/fashiontelevision.png\",RU: FASHION TELEVISION
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439460&extension=ts&play_token=py1G6iwFtD
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/GLAZAMI-TURISTA.png\",RU: GLAZAMI TURISTA
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439455&extension=ts&play_token=JCSLdhq4nF
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/GLAZELLA-.jpeg\",RU: GLAZELLA HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439454&extension=ts&play_token=5NH2IjtLyw
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/history.png\",RU: HISTORY
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439453&extension=ts&play_token=WUfPjacBI0
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/HISTORY-HD.jpg\",RU: HISTORY HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439452&extension=ts&play_token=SRVzsKdmP8
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/hollywood.png\",RU: HOLLYWOOD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439451&extension=ts&play_token=EL2jvxzmMx
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/iconcerts.png\",RU: ICONCERTS
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439450&extension=ts&play_token=v2cKXuB6aS
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/INVESTIGATION-DISCOVERY.png\",RU: ID INVESTIGATION DISCOVERY
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439449&extension=ts&play_token=2zrTcz8LsY
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/idxtra.png\",RU: ID XTRA
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439448&extension=ts&play_token=w5U98SC2JE
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/NOSTALGIJA.png\",RU: NOSTALGIJA
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439446&extension=ts&play_token=ojFnqNGygC
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/ISTORYA.png\",RU: ISTORIYA
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439445&extension=ts&play_token=6bzXOEkz24
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/JIVI-.jpeg\",RU: JIVI TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439444&extension=ts&play_token=iuuUZRrPb3
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/KRIK-TV.png\",RU: KRIK TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439443&extension=ts&play_token=T0B1DXR5oh
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/KUCHNIA-TV.jpg\",RU: KUCHNIA TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439442&extension=ts&play_token=tXGJhugogQ
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/KUHNYA-TV.png\",RU: KUHNYA TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439441&extension=ts&play_token=68nLXd4cuW
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/mezzo.png\",RU: MEZZO
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439440&extension=ts&play_token=7Eozw3jGIK
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/natgeowild.png\",RU: NAT GEO WILD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439439&extension=ts&play_token=n0pSfn759i
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/natgeowildhd.png\",RU: NAT GEO WILD HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439438&extension=ts&play_token=XqWEltPTPx
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/nationalgeographic.png\",RU: NATIONAL GEOGRAPHIC
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439437&extension=ts&play_token=327mHqrsCb
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/nationalgeographichd.png\",RU: NATIONAL GEOGRAPHIC HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439436&extension=ts&play_token=MO5uWTEmGY
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/NAUKA-2-0.png\",RU: NAUKA 2 0
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439435&extension=ts&play_token=RXNE0IgSQp
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/nst.png\",RU: NST TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439434&extension=ts&play_token=xtNOwbMw1Y
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/OHOTA-I-RYBALKA.png\",RU: OHOTA I RYBALKA
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439433&extension=ts&play_token=4j6viDw8Jq
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/OHOTNIK-I-RYBOLOV-HD.png\",RU: OHOTNIK I RYBOLOV HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439432&extension=ts&play_token=E9F3UCADUB
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/ORUZHIE.jpg\",RU: ORUZHIE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439431&extension=ts&play_token=3ZpanpOL5m
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/PRIKLYUCHENIYA-HD.png\",RU: PRIKLYUCHENIYA HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439428&extension=ts&play_token=VESrptESIK
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/PRODVIJENIE.jpg\",RU: PRODVIJENIE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439427&extension=ts&play_token=ydGv4GVkIZ
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/PSIHOLOGIA-21.png\",RU: PSIHOLOGIA 21
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439426&extension=ts&play_token=ZsvopLuyCb
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/PYATIT-KANAL.jpeg\",RU: PYATIT KANAL
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439425&extension=ts&play_token=UnpbYFgkQS
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/SOVERSHENNO-SEKRETNO.png\",RU: SOVERSHENNO SEKRETNO
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439414&extension=ts&play_token=bO4cgMREsF
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/tlc.png\",RU: TLC
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439412&extension=ts&play_token=OeFuSUeo8J
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/tlchd.png\",RU: TLC HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439411&extension=ts&play_token=M6fLB0awrR
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/travel.png\",RU: TRAVEL
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439409&extension=ts&play_token=HIXHT1hK2T
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/TRAVEL-+-ADVENTURE.jpeg\",RU: TRAVEL+ADVENTURE HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439408&extension=ts&play_token=FKS6TgmbD9
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/TRAVEL-+-ADVENTURE.jpeg\",RU: TRAVEL ADVENTURE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439407&extension=ts&play_token=LMadZZ4UUQ
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/travelhd.png\",RU: TRAVEL HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439406&extension=ts&play_token=01U1ILJsOl
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/worldfashionchannel.png\",RU: WORLD FASHION
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439398&extension=ts&play_token=I7uib7Sq78
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/ZAGORODNAYA-ZHIZN.jpeg\",RU: ZAGORODNAYA ZHIZN
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439397&extension=ts&play_token=qipnrbCk7v
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/ZAGORODNAYA-ZHIZN.jpeg\",RU: ZAGORODNOJA JIZN
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439396&extension=ts&play_token=MjEc0epK0U
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/ZAGORODNIY.png\",RU: ZAGORODNIY HD INT
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439395&extension=ts&play_token=4cEaYi8f6C
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/ZAGORODNIY.png\",RU: ZAGORODNIY
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439394&extension=ts&play_token=NEpJ2l3SDW
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/VIASAT-EXPLORER-HD.jpg\",RU: VIASAT EXPLORE HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439393&extension=ts&play_token=ryC9lIRwA2
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/VIASAT-EXPLORER.png\",RU: VIASAT EXPLORE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439392&extension=ts&play_token=R28jOPLXll
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/VIASAT-HISTORY.jpeg\",RU: VIASAT HISTORY
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439391&extension=ts&play_token=mDX1UmciM5
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/VIASAT-HISTORY-HD.jpg\",RU: VIASAT HISTORY HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439390&extension=ts&play_token=D3A7pd7cqO
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/VIASAT-NATURE-.jpg\",RU: VIASAT NATURE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439389&extension=ts&play_token=Yaops1s2ht
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/viasatsport.png\",RU: VIASAT SPORT
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439388&extension=ts&play_token=9Mcqnw95Rj
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/VIASAT-SPORT-HD.jpeg\",RU: VIASAT SPORT HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439387&extension=ts&play_token=qJHwTwim0E
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/ZOOPARK.png\",RU: ZOOPARK
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439381&extension=ts&play_token=1dj79VX2BO
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/utv.jpg\",RU: U TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439378&extension=ts&play_token=GqCZ6ipuLy
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/utv.jpg\",RU: U
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439377&extension=ts&play_token=Sofg9KhJvU
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/24-TECHNO-TV.png\",RU: 24 TECHNO
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439376&extension=ts&play_token=xne6VxU7j7
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/5kanal.png\",RU: 5 KANAL RU
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439375&extension=ts&play_token=tPMV4rc4Yb
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/BOBER-TV.jpeg\",RU: BOBER TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439372&extension=ts&play_token=UkghOtwdHO
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DOCTOR-TV.png\",RU: DOCTOR HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439370&extension=ts&play_token=QfpDuf84Yq
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DOJD-TV.jpg\",RU: DOJD HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439369&extension=ts&play_token=qDUnsdS6gd
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DOMASHNIY.jpg\",RU: DOMASHNIE JIVOTNIE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439367&extension=ts&play_token=eNIpM8Aczd
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/DOMASHNIY.jpg\",RU: DOMASHNIY +7
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439366&extension=ts&play_token=R69t9YDbSH
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/foodnetwork.png\",RU: FOOD NETWORK
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439364&extension=ts&play_token=E5Ppkhp87l
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/iconcerts.png\",RU: ICONCERTS
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439363&extension=ts&play_token=gVpSKJhwQd
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/KTN-TV.jpeg\",RU: KTNO TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439361&extension=ts&play_token=8QPXuCzUV2
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/kto.png\",RU: KTO EST KTO
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439360&extension=ts&play_token=34s0PNSzQG
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/LUXURI-WORLD.jpg\",RU: LUXURI WORLD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439359&extension=ts&play_token=A2peWGJ1rL
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/m1global.png\",RU: M1 GLOBAL
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439358&extension=ts&play_token=P0mOx2SUqc
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/perviykanal.png\",RU: PERVIY AVTOMOBILNIY HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439353&extension=ts&play_token=L5zQX2N7Y5
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/perviykanal.png\",RU: PERVIY KANAL EUROPE
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439352&extension=ts&play_token=a0CPnEBniO
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/PERVIY-OBRAZOVATELNIY.jpg\",RU: PERVIY OBRAZOVATELNIY
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439351&extension=ts&play_token=8s2OBTTea3
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/sts.png\",RU: STS BALTIC
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439347&extension=ts&play_token=J7gtuiMJ8A
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/SUPER!.png\",RU: SUPER
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439346&extension=ts&play_token=nV7VITV0Xy
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/USADBA-TV.png\",RU: USADBA TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439345&extension=ts&play_token=plevK2TnaL
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/VOPROSI-I-OTVETI.png\",RU: VOPROSI I OTVETI
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439344&extension=ts&play_token=hce9hC7vMk
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/H2--HD.jpg\",RU: H 2 HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439656&extension=ts&play_token=Vet9HIorYk
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/MOSKVA-24.jpg\",RU: MOSKVA 24
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439649&extension=ts&play_token=dxAtfI3wPX
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/SAINT-PETERBURG.jpg\",RU: SAINT PETERBURG
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439646&extension=ts&play_token=Qm2ABWeKn2
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/currenttime.png\",RU: CURRENTTIME HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439645&extension=ts&play_token=lEsecJLY2s
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/KVN-TV.jpeg\",RU: KVN TV
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439605&extension=ts&play_token=8ujSFYK9WL
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/MORSKOI.png\",RU: MORSKOI
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439572&extension=ts&play_token=Qm4NC4kUV8
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/sarafan.png\",RU: SARAFAN
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439611&extension=ts&play_token=vJOqrnahah
-#EXTINF:0 group-title="test2" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/LIFE-HD.png\",RU: LIFE HD
-http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439610&extension=ts&play_token=RVnk4NHHc5
