@@ -1078,7 +1078,20 @@ http://185.23.80.28:8080/Eda/index.m3u8?token=test
 #EXTINF:-1 tvg-id="plex.tv.NBC.News.NOW.plex" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1039.png" group-title="test",NBC News NOW (HD ready)
 https://livetv-fa.tubi.video/nbc-news-now/master.m3u8
 
+#EXTINF:-1 group-title="test",MS Animated HD
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17024/index.m3u8
 
+#EXTINF:-1 group-title="test",Citrus Cartoon
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/16050/index.m3u8
+
+#EXTINF:-1 group-title="test",Fresh Kids
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19288/index.m3u8
+
+#EXTINF:-1 group-title="test",[Tviksel] Детское кино HD
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18073/index.m3u8
+
+#EXTINF:-1 group-title="test",[Tviksel] Детское кино International
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18074/index.m3u8
 
 #EXTINF:-1 group-title=\"RU| RUSSIAN HD/4K\" tvg-logo=\"http://icon-tmdb.me/stalker_portal/logos/cbsreality.png\",RU: CBS REALITY
 http://cf.star4k.me:80/play/live.php?mac=00:1A:79:12:05:ED&stream=439475&extension=ts&play_token=AnYGKTG0tS
