@@ -89,15 +89,24 @@ http://93.189.224.246:52900/play/a002/index.m3u8
 https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
 
 
-#EXTINF:-1 group-title="test",VeleS Магнитофон
+#EXTINF:-1 group-title="test",[VeleS] Магнитофон
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31645/index.m3u8
 
-#EXTINF:-1 group-title="test",KLI Millennium HD
+#EXTINF:-1 group-title="test",[KLI] Millennium HD
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31631/index.m3u8
 
-#EXTINF:0 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="test",Russian MusicBox (EDTV 576p)
+#EXTINF:0 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="test",Russian MusicBox
 http://185.23.80.28:8080/RUSSIANMUSICBOX/index.m3u8?token=test
 
 #EXTINF:0 group-title="test",[Minimax] Квартирник HD
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13035/index.m3u8
+
+#EXTINF:0 group-title="test",[Minimax] Rock HD
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13015/index.m3u8
+
+#EXTINF:0 group-title="test",[Minimax] World Hits
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13023/index.m3u8
+
+#EXTINF:0 group-title="test",[VF] Привет из 90х
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17011/index.m3u8
 

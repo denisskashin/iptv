@@ -201,7 +201,7 @@ http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/365-dnej.png" tvg-id="365-dnej",365 дней
 #EXTINF:0 group-title="Познавательные",[VB] Назад в СССР HD
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20175/index.m3u8
-#EXTINF:0 group-title="Познавательные" tvg-logo="http://epg.one/img2/521.png" tvg-id="viasat-explore",[Viju] Explore
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore",[Viju] Explore
 http://213.226.137.140:81/tl/l94/mpegts
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history",[Viju] History
 http://185.50.148.2:7703/ViasatHistory/index.m3u8
@@ -274,6 +274,8 @@ http://brodilo.tv/channel.php
 http://91.205.199.3/glazamituristahd/index.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://i.imgur.com/tKgmhxh.png" tvg-id="hd-life",HD Life
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/mir-uvlecheniy.png" tvg-id="mir-uvlecheniy",Кто Куда
+#EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/minimax-live-planet.png" tvg-id="minimax-live-planet",[Minimax] Live Planet
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13095/index.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/moya-planeta.png" tvg-id="moya-planeta",Моя Планета
 http://194.143.148.28:8080/Nauka20/mpegts
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/morskoy.png" tvg-id="morskoy",Моя стихия
@@ -452,83 +454,6 @@ http://lime-pi.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
-
-
-
-
-
-
-#EXTINF:0 group-title="test",2x2
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/702/index.m3u8
-#EXTINF:0 group-title="test",2x2 orig
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/9139/index.m3u8
-#EXTINF:0 group-title="test",VF Cartoon
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/10002/index.m3u8
-#EXTINF:0 group-title="test",VF Мультфильмы СССР
-http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/10086/index.m3u8
-#EXTINF:0 group-title="test",MM Rock HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13015/index.m3u8
-#EXTINF:0 group-title="test",MM Tom and Jerry HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13016/index.m3u8
-#EXTINF:0 group-title="test",MM USSR Мультфильм HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13020/index.m3u8
-#EXTINF:0 group-title="test",MM USSR Сказки HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13021/index.m3u8
-#EXTINF:0 group-title="test" tvg-logo="https://iptvx.one/picons/minimax-family1.png" tvg-id="minimax-family1",[Minimax] World Hits
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13023/index.m3u8
-#EXTINF:0 group-title="test",MM Honey HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13026/index.m3u8
-#EXTINF:0 group-title="test",MM Lesson HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13042/index.m3u8
-#EXTINF:0 group-title="test",MM Smile HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13043/index.m3u8
-#EXTINF:0 group-title="test",Minimax Walt Disney HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13064/index.m3u8
-#EXTINF:0 group-title="test",Minimax Live Planet HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13095/index.m3u8
-#EXTINF:0 group-title="test",VF Привет из 90х
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17011/index.m3u8
-#EXTINF:0 group-title="test",[Oasis] Disney Classic
-https://as01.links-tv-channels.org/20964/mpegts?token=n4WT46vRex83AH
-#EXTINF:0 group-title="test",[Oasis] Ufos and Aliens
-https://as01.links-tv-channels.org/20997/mpegts?token=n4WT46vRex83AH
-#EXTINF:0 group-title="test", BCU Christmas HD
-http://live.admuspeh.my/8886/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", BCU Мультсериал HD
-http://live.admuspeh.my/8874/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", BCU Kids+
-http://live.admuspeh.my/8454/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", BCU Little
-http://live.admuspeh.my/8979/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", [BOX] M.Serial
-http://live.admuspeh.my/8988/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", [BOX] Memory
-http://live.admuspeh.my/8987/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", [BOX] SportCast
-http://live.admuspeh.my/8447/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", [BOX] Relax 4K
-http://live.admuspeh.my/8338/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", [BOX] AutoTrend HD
-http://live.admuspeh.my/8440/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", [BOX] Docu
-http://live.admuspeh.my/8424/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", [BOX] Gurman HD
-http://live.admuspeh.my/8439/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test",[BOX] Kosmo 4K
-http://live.admuspeh.my/8448/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test",[BOX] Mayday
-http://live.admuspeh.my/8434/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test",[BOX] Music 4K
-http://live.admuspeh.my/8990/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test",[BOX] Travel
-http://live.admuspeh.my/8416/video.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", Cartoons 90
-http://live.admuspeh.my/8812/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test",Cartoons Big
-http://live.admuspeh.my/8866/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test",Cartoons Short
-http://live.admuspeh.my/8867/index.m3u8?token=TestuspehTva
-
 
 
 
