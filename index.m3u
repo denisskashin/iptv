@@ -199,7 +199,11 @@ http://iptv.prosto.tv:7000/ch344/video.m3u8
 http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/365-dnej.png" tvg-id="365-dnej",365 дней
-#EXTINF:0 group-title="Познавательные",[VB] Назад в СССР HD
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/box-memory.png" tvg-id="box-memory",[BOX] Memory
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19279/index.m3u8
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/box-stories.png" tvg-id="box-stories",[BOX] Stories
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20155/index.m3u8
+#EXTINF:0 group-title="Познавательные",[VB] Назад в СССР
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20175/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore",[Viju] Explore
 http://213.226.137.140:81/tl/l94/mpegts
@@ -268,6 +272,8 @@ http://stream01.vnet.am/NatGeoWild/tracks-v1a1/mono.m3u8
 http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/bolshaya-azia.png" tvg-id="bolshaya-azia",Большая Азия
+#EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/box-travel.png" tvg-id="box-travel",[BOX] Travel
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19418/index.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="" tvg-id="",Brodilo TV HD
 http://brodilo.tv/channel.php
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/glazami-turista.png" tvg-id="glazami-turista",Глазами туриста
@@ -303,6 +309,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/9139/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/belmuztv.png" tvg-id="belmuztv",БелМузТВ
 #EXTINF:0 group-title="Развлекательные",[BOX] Mayday
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20159/index.m3u8
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/box-game.png" tvg-id="box-game",[BOX] Game
+http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19284/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s",[BCU] Russia 90s
 https://as01.links-tv-channels.org/21212/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
@@ -443,7 +451,7 @@ http://87.99.87.203:2020/channel/7a5e2ab5/index.m3u8?q=e329a8ed47aaa7d3d3187d570
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/tv6-ee.png" tvg-id="tv6-ee",TV6 EE
 http://rhsbjv7k.tvclub.xyz/iptv/MTVPP5C6UVG8RA3MVHMWV85Z/18004/index.m3u8
 
-#EXTINF:0 group-title="Юмор" tvg-logo="http://epg.one/img2/920.png" tvg-id="paramount-comedy",Comedy Central
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/paramount-comedy.png" tvg-id="paramount-comedy",Comedy Central
 http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/157/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/gags-network.png" tvg-id="gags-network",GagsNetwork
 http://s7.merlive.am/gagsnetwork/index.m3u8
@@ -454,26 +462,3 @@ http://lime-pi.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
-
-
-
-#EXTINF:0 group-title="test",[Tviksel] Детское кино HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18073/index.m3u8
-#EXTINF:0 group-title="test",[Tviksel] Детское кино International
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18074/index.m3u8
-#EXTINF:0 group-title="test",[BOX] Memory HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19279/index.m3u8
-#EXTINF:0 group-title="test",[BOX] M.Serial HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19280/index.m3u8
-#EXTINF:0 group-title="test",[BOX] Game
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19284/index.m3u8
-#EXTINF:0 group-title="test",[BOX] Travel HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19418/index.m3u8
-#EXTINF:0 group-title="test",[KLI] Club FHD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19319/index.m3u8
-#EXTINF:0 group-title="test" tvg-logo="https://iptvx.one/picons/c-live.png" tvg-id="c-live",[Yosso TV] Citrus Live HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19436/index.m3u8
-#EXTINF:0 group-title="test",[Liberty] Планктон FHD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20140/index.m3u8
-#EXTINF:0 group-title="test",[BOX] Stories HD
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20155/index.m3u8
