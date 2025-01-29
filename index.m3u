@@ -200,7 +200,7 @@ http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/365-dnej.png" tvg-id="365-dnej",365 дней
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/box-memory.png" tvg-id="box-memory",[BOX] Memory
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19279/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19279/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/box-stories.png" tvg-id="box-stories",[BOX] Stories
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20155/index.m3u8
 #EXTINF:0 group-title="Познавательные",[VB] Назад в СССР
@@ -308,13 +308,17 @@ http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/9139/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/belmuztv.png" tvg-id="belmuztv",БелМузТВ
 #EXTINF:0 group-title="Развлекательные",[BOX] Mayday
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20159/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/20159/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/box-game.png" tvg-id="box-game",[BOX] Game
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19284/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19284/index.m3u8
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/box-relax.png" tvg-id="box-relax",[BOX] Relax 4K
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19283/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s",[BCU] Russia 90s
 https://as01.links-tv-channels.org/21212/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety",Вопросы и ответы
 http://flu.ttk.mx:90/Voprosy_i_otvety/mono.m3u8?token=hs06e
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/vf-koncerty.png" tvg-id="vf-koncerty",[VF] Концерты
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/14159/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/extreme-sports.png" tvg-id="extreme-sports",Extreme Sports
 http://109.200.130.123:7537/play/a02p
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/fastfunbox-hd.png" tvg-id="fastfunbox-hd",Fast & FunBox
@@ -451,11 +455,13 @@ http://87.99.87.203:2020/channel/7a5e2ab5/index.m3u8?q=e329a8ed47aaa7d3d3187d570
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/tv6-ee.png" tvg-id="tv6-ee",TV6 EE
 http://rhsbjv7k.tvclub.xyz/iptv/MTVPP5C6UVG8RA3MVHMWV85Z/18004/index.m3u8
 
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/paramount-comedy.png" tvg-id="paramount-comedy",Comedy Central
-http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/157/index.m3u8
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/vf-odnazhdyvr.png" tvg-id="vf-odnazhdyvr",[VF] Однажды в России
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19286/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/gags-network.png" tvg-id="gags-network",GagsNetwork
 http://s7.merlive.am/gagsnetwork/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/paramount-comedy.png" tvg-id="paramount-comedy",Comedy Central
+http://rhsbjv7k.tvclub.xyz/iptv/WCKQ3HC3UMGVLG/157/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan",Сарафан
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvoetv-humor.png" tvg-id="tvoetv-humor",Твоё ТВ Юмор
 http://lime-pi.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
