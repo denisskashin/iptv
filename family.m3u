@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/ani.png" tvg-id="ani",Ani
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/baby-time.png" tvg-id="baby-time",Baby Time
@@ -30,8 +30,6 @@ http://185.50.148.2:7706/Multimania/index.m3u8
 https://void.greenhosting.ru/Multimania_Mpeg4/video.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimuzyka.png" tvg-id="multimuzyka",Мультимузыка
 http://stv.mediacdn.ru/live/cdn/multimuzika/playlist_sdhigher.m3u8
-#EXTINF:0 group-title="Детские",Ну погоди
-http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/o_.png" tvg-id="o_",O!
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/pixel.png" tvg-id="pixel",Піксель
 #EXTINF:0 group-title="Детские",RETRO Cartoon
@@ -45,7 +43,7 @@ http://130.193.73.10:8937/play/a017
 http://stream01.vnet.am/Tiji/mono.m3u8
 
 #EXTINF:0 group-title="Мульткомпании" tvg-logo="https://iptvx.one/picons/yosso-disney.png" tvg-id="yosso-disney",[Yosso TV] Disney
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20164/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/20164/index.m3u8
 #EXTINF:0 group-title="Мульткомпании" tvg-logo="https://iptvx.one/picons/liberty-dreamworks.png" tvg-id="liberty-dreamworks",[Liberty] Дрим Воркс 4K
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31661/index.m3u8
 #EXTINF:0 group-title="Мульткомпании" tvg-logo="https://iptvx.one/picons/liberty-pixar.png" tvg-id="liberty-pixar",[Liberty] Пиксар
@@ -142,6 +140,8 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/19414/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17024/index.m3u8
 #EXTINF:0 group-title="Франшизы" tvg-logo="https://iptvx.one/picons/minimax-tom-and-jerry.png" tvg-id="minimax-tom-and-jerry",[Minimax] Tom and Jerry
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13016/index.m3u8
+#EXTINF:0 group-title="Франшизы",Ну погоди
+http://194.26.229.213/souzmultfilm/index.m3u8
 #EXTINF:0 group-title="Франшизы" tvg-logo="https://iptvx.one/picons/cineman-simps.png" tvg-id="cineman-simps",[CineMan] Симпсоны
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/15101/index.m3u8
 

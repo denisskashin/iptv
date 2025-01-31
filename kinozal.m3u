@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
 
 #EXTINF:0 group-title="60FPS" tvg-logo="https://iptvx.one/picons/bcu-trumotion.png" tvg-id="bcu-trumotion",[BCU] TruMotion
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/17054/index.m3u8
@@ -26,6 +26,8 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/10001/index.m3u8
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/17029/index.m3u8
 #EXTINF:0 group-title="Аниме",[Oasis] Dororo + Demon Slayer
 https://as01.links-tv-channels.org/20962/mpegts?token=n4WT46vRex83AH
+#EXTINF:0 group-title="Аниме" tvg-logo="https://iptvx.one/picons/skyhigh-anime.png" tvg-id="skyhigh-anime",[Sky High] Anime
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19405/index.m3u8
 #EXTINF:0 group-title="Аниме" tvg-logo="https://iptvx.one/picons/sumiko.png" tvg-id="sumiko",Sumiko
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/2163/index.m3u8
 
@@ -218,7 +220,7 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/11034/index.m3u8
 #EXTINF:0 group-title="История" tvg-logo="https://iptvx.one/picons/vf-istorya.png" tvg-id="vf-istorya",[VF] История
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/13091/index.m3u8
 #EXTINF:0 group-title="История",[Dosug TV] History
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14211/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/14211/index.m3u8
 #EXTINF:0 group-title="История",[Eye] History
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20217/index.m3u8
 #EXTINF:0 group-title="История",[Z!] Biography
@@ -285,7 +287,7 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/10003/index.m3u8
 #EXTINF:0 group-title="Комедия" tvg-logo="https://iptvx.one/picons/vf-nasharasha.png" tvg-id="vf-nasharasha",[VF] Наша Раша
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/17010/index.m3u8
 #EXTINF:0 group-title="Комедия",[Dosug TV] Comedy
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14209/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/14209/index.m3u8
 #EXTINF:0 group-title="Комедия",[Z!] Comedy
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14135/index.m3u8
 #EXTINF:0 group-title="Комедия",[Z!] Smile
@@ -454,7 +456,7 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/17035/index.m3u8
 #EXTINF:0 group-title="Новогодний" tvg-logo="https://iptvx.one/picons/vf-snovymgodom.png" tvg-id="vf-snovymgodom",[VF] С новым годом!
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/15524/index.m3u8
 #EXTINF:0 group-title="Новогодний",[Magic] Christmas
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14240/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/14240/index.m3u8
 #EXTINF:0 group-title="Новогодний",[Minimax] Новогодний
 http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/13035/index.m3u8
 #EXTINF:0 group-title="Новогодний",Romance Новогодний
@@ -510,6 +512,8 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/13013/index.m3u8
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/13014/index.m3u8
 #EXTINF:0 group-title="Премьеры" tvg-logo="https://iptvx.one/picons/premiere-hd.png" tvg-id="premiere-hd",Premiere HD
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/11094/index.m3u8
+#EXTINF:0 group-title="Премьеры" tvg-logo="https://iptvx.one/picons/skyhigh-orig.png" tvg-id="skyhigh-orig",[Sky High] Orig
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19310/index.m3u8
 #EXTINF:0 group-title="Премьеры" tvg-logo="https://iptvx.one/picons/fresh-premiere.png" group-title="fresh-premiere",[Fresh] Premiere
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19290/index.m3u8
 #EXTINF:0 group-title="Премьеры" group-title="High Network Cinema",[High Network Cinema] Premiere
@@ -1055,6 +1059,8 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31717/index.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31718/index.m3u8
 #EXTINF:0 group-title="Ситком" tvg-logo="https://iptvx.one/picons/cineman-svaty.png" tvg-id="cineman-svaty",[CineMan] Сваты
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/11014/index.m3u8
+#EXTINF:0 group-title="Ситком" tvg-logo="https://iptvx.one/picons/skyhigh-standup.png" tvg-id="skyhigh-standup",[Sky High] Standup
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19311/index.m3u8
 #EXTINF:0 group-title="Ситком",[High Network Cinema] Citkom
 http://ott.high-net.ru/High_Cinema_Citkom/index.m3u8?token=High_Network
 
@@ -1194,7 +1200,7 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/10010/index.m3u8
 #EXTINF:0 group-title="Ужасы" tvg-logo="https://iptvx.one/picons/vf-walkingdead.png" tvg-id="vf-walkingdead",[VF] Ходячие мертвецы
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/17014/index.m3u8
 #EXTINF:0 group-title="Ужасы",[Dosug TV] Horror
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14213/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/14213/index.m3u8
 #EXTINF:0 group-title="Ужасы",[Z!] Horror
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14137/index.m3u8
 #EXTINF:0 group-title="Ужасы" tvg-logo="https://iptvx.one/picons/insomnia-hd.png" tvg-id="insomnia-hd",Insomnia HD
@@ -1263,7 +1269,7 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/17002/index.m3u8
 #EXTINF:0 group-title="Фантастика" tvg-logo="https://iptvx.one/picons/vf-fantastic.png" tvg-id="vf-fantastic",[VF] Fantastic
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/11121/index.m3u8
 #EXTINF:0 group-title="Фантастика",[Dosug TV] Fantastic
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14210/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/14210/index.m3u8
 #EXTINF:0 group-title="Фантастика",[Eye] Cyber
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20220/index.m3u8
 #EXTINF:0 group-title="Фантастика",[Z!] Fantastic
@@ -1362,7 +1368,7 @@ http://janina123.ucomist.net/iptv/5V9LQKCPT73W46/14141/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit",[Viju+] Megahit
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/201/index.m3u8
 #EXTINF:0 group-title="Хиты",[Dosug TV] Hit
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/14212/index.m3u8
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/14212/index.m3u8
 #EXTINF:0 group-title="Хиты",[Eye] Oscar
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/17065/index.m3u8
 #EXTINF:0 group-title="Хиты" tvg-logo="https://iptvx.one/picons/yosso-best.png" tvg-id="yosso-best",[Yosso TV] Best
@@ -1390,83 +1396,23 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/11005/index.m3u8
 
 
 
-
-
-
-
-#EXTINF:0 group-title="test2",[Yosso TV] Best 60 FPS
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/20165/index.m3u8
-#EXTINF:0 group-title="test2",[Yosso TV] Disney
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/20164/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH FRESH HDR
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/16066/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH SERIES HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14240/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH HEROES HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14242/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH EPOCH HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14243/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH MIX 4K
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/17025/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH FRESH HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14244/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH MIX 3D
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14246/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH SPIRIT HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14249/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH FUTURE HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/15103/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH RUSSIAN HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/16060/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH NOIR HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/16061/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH ЧБУ HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/16142/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH VHS UHD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/17058/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH UHD HDR
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/17059/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH BRAIN HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/19404/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH DOC HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/18172/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH NATURE FHD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/19309/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH ORIG HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/19310/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH STANDUP HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/19311/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH LO FI HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/19312/index.m3u8
-#EXTINF:0 group-title="test2",SKY HIGH ANIME HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/19405/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Comedy HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14209/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Fantastic HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14210/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV History HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14211/index.m3u8
-#EXTINF:0 group-title="test2",Dosug Hit HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14212/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Horror HD
-http://sharingplus.net/iptv/NR7VUB57KMRXBD/14213/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV New HD
+#EXTINF:0 group-title="test2",[Dosug TV] New HD
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14216/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Marvel HD
+#EXTINF:0 group-title="test2",[Dosug TV] Marvel HD
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14215/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Russian HD
+#EXTINF:0 group-title="test2",[Dosug TV] Russian HD
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14217/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV СССР HD
+#EXTINF:0 group-title="test2",[Dosug TV] СССР HD
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14218/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV VHS
+#EXTINF:0 group-title="test2",[Dosug TV] VHS
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14225/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Ходячие мертвецы
+#EXTINF:0 group-title="test2",[Dosug TV] Ходячие мертвецы
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14226/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Сериал
+#EXTINF:0 group-title="test2",[Dosug TV] Сериал
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14227/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV Сваты
+#EXTINF:0 group-title="test2",[Dosug TV] Сваты
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/14228/index.m3u8
-#EXTINF:0 group-title="test2",Dosug TV ER
+#EXTINF:0 group-title="test2",[Dosug TV] ER
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/20088/index.m3u8
 #EXTINF:0 group-title="test2",Новогодний Dosug TV
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/20087/index.m3u8

@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" tvg-id="abc-news-live-us",ABC News Live
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
@@ -10,7 +10,7 @@ http://stream2.cinerama.uz/1251/tracks-v1a1/mono.m3u8
 http://fl2.moveonjoy.com/BLOOMBERG/index.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" tvg-id="cbs-news-us",CBS News
 https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
-#EXTINF:0 group-title="News" tvg-logo="https://epg.one/img2/2128.png" tvg-id="2128",CNBC
+#EXTINF:0 group-title="News",CNBC
 http://fl2.moveonjoy.com/CNBC/index.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/cnn.png" tvg-id="cnn",CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8

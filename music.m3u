@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
 
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv.png" tvg-id="bridge-tv",Bridge
 http://195.26.83.96:7007/play/a00m/index.m3u8
@@ -7,7 +7,7 @@ http://stream01.vnet.am/BRIDGETVClassic/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd",Deluxe
 http://213.226.137.140:81/tl/l322/index.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" tvg-id="bridge-tv-fresh",Фрэш
-#EXTINF:-1 group-title="Bridge Music" tvg-logo="http://epg.one/img2/2024.png" tvg-id="2024",Hits
+#EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" tvg-id="bridge-tv-dance",Hits
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" tvg-id="bridge-tv-rock",Rock
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" tvg-id="bridge-tv-ruxit",Русский хит
 http://stream01.vnet.am/Channel_115/mono.m3u8
@@ -18,43 +18,43 @@ http://185.23.80.28:8080/BridgeTVShlyager/index.m3u8?token=test
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1hd-music.png" tvg-id="1hd",1HD
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/4fun.png" tvg-id="4fun",4FUN
 https://stream.4fun.tv:8888/hls/4f.m3u8
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Afrobeats
+#EXTINF:-1 group-title="Музыка",Afrobeats
 https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/aiva.png" tvg-id="aiva",AIVA
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/backustv-music.png" tvg-id="backustv-music",Backus TV Music
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Best of Dance TV
+#EXTINF:-1 group-title="Музыка",Best of Dance TV
 https://eu-nl-012.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" tvg-id="clubbing-tv",Clubbing TV
 https://clubbingtv-samsungnz.amagi.tv/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/viva-rus.png" tvg-id="viva-rus",VIVA Russia
 http://hlss.goodgame.ru/hls/180805.m3u8
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Deejay TV
+#EXTINF:-1 group-title="Музыка",Deejay TV
 https://streamcdnm4-4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv",Europa Plus TV
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Kronehit
+#EXTINF:-1 group-title="Музыка",Kronehit
 https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="mtv-rocks",MTV 90
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/muztv.png" tvg-id="muztv",Муз ТВ
 http://130.193.73.10:8937/play/a042
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",MUZZIK HIP-HOP
+#EXTINF:-1 group-title="Музыка",MUZZIK HIP-HOP
 https://muzzik-live.morescreens.com/mts-a4/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-id="muzyka-pervogo",Музыка Первого
 http://185.50.148.2:7707/MuzikaPervogo/index.m3u8
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Ocko Star
+#EXTINF:-1 group-title="Музыка",Ocko Star
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz",Первый Музыкальный
 http://hz1.teleport.cc/HLS/SD.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz",Первый Музыкальный HD
 http://rtmp.one.by:1300
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Pop Star
+#EXTINF:-1 group-title="Музыка",Pop Star
 https://muzzik-live.morescreens.com/mts-3/playlist.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/retro-music-cz.png" tvg-id="retro-music-cz",Retro Music Television
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Sonus FM
+#EXTINF:-1 group-title="Музыка",Sonus FM
 http://www.sonus.fm:1935/public/stream_720p/chunklist_w514335426.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/tnt-music.png" tvg-id="tnt-music",ТНТ Music
 http://tntmsmotr.mediacdn.ru/cdn/smotr/playlist_hdhigh.m3u8
-#EXTINF:-1 group-title="Музыка" tvg-logo="" tvg-id="",Trance is star
+#EXTINF:-1 group-title="Музыка",Trance is star
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/trace-urban.png" tvg-id="trace-urban",Trace Urban
 https://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
 
@@ -68,11 +68,11 @@ http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
 http://providers.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/m2-ua.png" tvg-id="m2-ua",M2
 http://live.m2.tv/hls3/720/stream.m3u8
-#EXTINF:-1 group-title="Русская музыка" tvg-logo="" tvg-id="",Музыка 1 International
+#EXTINF:-1 group-title="Русская музыка",Музыка 1 International
 http://autopilot.catcast.tv/content/37745/index.m3u8
-#EXTINF:-1 group-title="Русская музыка" tvg-logo="http://epg.one/img2/6268.png" tvg-id="6268",Музыка 2 International
+#EXTINF:-1 group-title="Русская музыка",Музыка 2 International
 http://autopilot.catcast.tv/content/37742/index.m3u8
-#EXTINF:-1 group-title="Русская музыка" tvg-logo="http://epg.one/img2/6270.png" tvg-id="6270",Музыка Кино International
+#EXTINF:-1 group-title="Русская музыка",Музыка Кино International
 http://autopilot.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/o2tv.png" tvg-id="o2tv",О2ТВ
 http://185.23.80.28:8080/O2/index.m3u8?token=test
@@ -84,8 +84,8 @@ http://rtmp.one.by:2300
 https://hls-03-video.webcaramba.com/rutv/live_1080/index.m3u8
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/ru-tv-by.png" tvg-id="ru-tv-by",RU.TV Беларусь
 http://93.189.224.246:52900/play/a002/index.m3u8
-#EXTINF:-1 group-title="Русская музыка" tvg-logo="http://epg.one/img2/2409.png" tvg-id="2409",Music Box Russia
-#EXTINF:-1 group-title="Русская музыка" tvg-logo="http://epg.one/img2/2278.png" tvg-id="shanson-tv",Шансон ТВ
+#EXTINF:-1 group-title="Русская музыка",Music Box Russia
+#EXTINF:-1 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/shanson-tv.png" tvg-id="shanson-tv",Шансон ТВ
 https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
 
 
@@ -95,7 +95,7 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31645/index.m3u8
 #EXTINF:-1 group-title="test",[KLI] Millennium HD
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31631/index.m3u8
 
-#EXTINF:0 tvg-id="2409" tvg-logo="http://epg.one/img2/2409.png" group-title="test",Russian MusicBox
+#EXTINF:0 group-title="test",Russian MusicBox
 http://185.23.80.28:8080/RUSSIANMUSICBOX/index.m3u8?token=test
 
 #EXTINF:0 group-title="test",[Minimax] Квартирник HD

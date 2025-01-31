@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="http://epg.one/ru2.xml.gz, https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24",Авто 24
 http://185.23.80.28:8080/AVTO24/index.m3u8?token=test
@@ -42,9 +42,8 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 http://stream01.vnet.am/BoksTv/index.m3u8
 #EXTINF:0 group-title="Бокс и единборства" tvg-logo="https://iptvx.one/picons/fightbox-hd.png" tvg-id="fightbox-hd",Fight Box
 http://stream01.vnet.am/Fightbox/mono.m3u8
-#EXTINF:0 group-title="Бокс и единборства" tvg-logo="http://epg.one/img2/2326.png" tvg-id="",MMA TV
 #EXTINF:0 group-title="Бокс и единборства" tvg-logo="https://iptvx.one/picons/ufc.png" tvg-id="ufc",Удар
-#EXTINF:0 group-title="Бокс и единборства" tvg-logo="" tvg-id="",Wrestling
+#EXTINF:0 group-title="Бокс и единборства"",Wrestling
 https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/bober.png" tvg-id="bobior",Бобер
@@ -60,7 +59,7 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/18200/index.m3u8
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/doktor.png" tvg-id="doktor",Доктор
 http://130.193.73.10:8937/play/a01q
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/zhivi.png" tvg-id="zhivi",Живи
-#EXTINF:0 group-title="Здоровье" tvg-logo="http://epg.one/img2/5881.png" tvg-id="zhivi-aktivno",Живи Активно
+#EXTINF:0 group-title="Здоровье" tvg-logo="https://epg.iptvx.one/picons/zhivi-aktivno.png" tvg-id="zhivi-aktivno",Живи Активно
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/zdorovoe-tv.png" tvg-id="zdorovoe-tv",Здоровое ТВ
 http://194.158.218.123:8880/ZdorovoeTV/index.m3u8
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/tonus-tv.png" tvg-id="tonus-tv",Тонус
@@ -76,12 +75,12 @@ http://stream01.vnet.am/Evrika/mono.m3u8
 
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/eda.png" tvg-id="eda",Еда
 http://185.23.80.28:8080/Eda/index.m3u8?token=test
-#EXTINF:0 group-title="Кулинария" tvg-logo="" tvg-id="",Кулинар ТВ
+#EXTINF:0 group-title="Кулинария",Кулинар ТВ
 http://api.alpaca.t62a.com/hls/9110/stream0.m3u8
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/kuxnia-tv.png" tvg-id="kuxnia-tv",Кухня ТВ
 http://stream01.vnet.am/KukhnyaTv/mono.m3u8
 
-#EXTINF:0 group-title="Культура" tvg-logo="" tvg-id="",Культ Медиа
+#EXTINF:0 group-title="Культура",Культ Медиа
 http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:0 group-title="Культура" tvg-logo="https://iptvx.one/picons/liberty-zanaves.png" tvg-id="liberty-zanaves",[Liberty] Занавес
 https://as01.links-tv-channels.org/8014/mpegts?token=n4WT46vRex83AH
@@ -127,7 +126,7 @@ http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist_hdhigh.m3u8
 http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" tvg-id="krasnaya-linia",Красная линия
 http://live.admuspeh.my/8390/index.m3u8?token=4gPHp5ZVYqDAR4oz
-#EXTINF:0 group-title="Общественные" tvg-logo="" tvg-id="",Mar TV
+#EXTINF:0 group-title="Общественные",Mar TV
 http://iptv.services.everywan.net:8080/martv-web/video.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
@@ -168,13 +167,13 @@ http://213.226.137.140:81/tl/l43/index.m3u8
 http://130.193.73.10:8937/play/a03a
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tv1-kg-hd.png" tvg-id="tv1-kg-hd",TV1 KG
 http://212.2.225.30:1935/live/site.stream/playlist.m3u8
-#EXTINF:0 group-title="Общественные" tvg-logo="" tvg-id="",TV PRO
+#EXTINF:0 group-title="Общественные",TV PRO
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr",ТВЦ
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt",ТНТ
 http://185.50.148.2:7710/TNT_HD/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt-int-eu.png" tvg-id="tnt-int-eu",ТНТ International
 http://85.187.13.40:18000/tntint
-#EXTINF:0 group-title="Общественные" tvg-logo="http://epg.one/img2/353.png" tvg-id="tnt-int-cis",ТНТ International СНГ
+#EXTINF:0 group-title="Общественные" tvg-logo="https://epg.iptvx.one/picons/tnt-int-cis.png" tvg-id="tnt-int-cis",ТНТ International СНГ
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/centralnoye-tv.png" tvg-id="centralnoye-tv",Центральное телевидение
 http://stream01.vnet.am/Channel_129/mono.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che",Че!
@@ -195,7 +194,7 @@ http://130.193.73.10:8937/play/a04s
 http://stream01.vnet.am/Channel_124/mono.m3u8
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/rybalka.png" tvg-id="rybalka",Рыбалка
 http://iptv.prosto.tv:7000/ch344/video.m3u8
-#EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="http://epg.one/img2/6646.png" tvg-id="6646",Рыболов
+#EXTINF:0 group-title="Охота и Рыбалка",Рыболов
 http://185.23.80.28:8080/OxotnikIRybolov/index.m3u8?token=test
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/365-dnej.png" tvg-id="365-dnej",365 дней
@@ -233,6 +232,8 @@ http://cdn-01.bonus-tv.ru/prosveschenie_edge/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/psixologia-21.png" tvg-id="psixologia-21",Психология 21
 #EXTINF:0 group-title="Познавательные",Репка
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/31719/index.m3u8
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/skyhigh-brain.png" tvg-id="skyhigh-brain",[Sky High] Brain
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19404/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/sovsek.png" tvg-id="sovsek",Совершенно Секретно
 http://178.124.152.238:8088/sovsec
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/univer-tv.png" tvg-id="univer-tv",Univer TV
@@ -259,8 +260,10 @@ http://130.193.73.10:8937/play/a02d
 http://130.193.73.10:8937/play/a01m
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zhivaya-priroda.png" tvg-id="zhivaya-priroda",Живая природа
 http://178.212.71.253:8002/play/a00o/index.m3u8
-#EXTINF:0 group-title="Природа" tvg-logo="http://epg.one/img2/367.png" tvg-id="zoopark",Зоопарк
+#EXTINF:0 group-title="Природа" tvg-logo="https://epg.iptvx.one/picons/zoopark.png" tvg-id="zoopark",Зоопарк
 http://s1.merlive.am/Zoopark/index.m3u8
+#EXTINF:0 group-title="Природа",ZOO Stream
+http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zootv.png" tvg-id="zootv",Зоо ТВ
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/lapki-live.png" tvg-id="lapki-live",Лапки Live
 http://91.247.68.229:8000/play/Lapki/index.m3u8
@@ -272,13 +275,13 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/18194/index.m3u8
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/18193/index.m3u8
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" tvg-id="nat-geo-wild",National Geographic Wild
 http://stream01.vnet.am/NatGeoWild/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="Природа" tvg-logo="" tvg-id="",ZOO Stream
-http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
+#EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/skyhigh-nature.png" tvg-id="skyhigh-nature",[Sky High] Nature
+http://sharingplus.net/iptv/NR7VUB57KMRXBD/19309/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/bolshaya-azia.png" tvg-id="bolshaya-azia",Большая Азия
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/box-travel.png" tvg-id="box-travel",[BOX] Travel
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/19418/index.m3u8
-#EXTINF:0 group-title="Путешествия" tvg-logo="" tvg-id="",Brodilo TV HD
+#EXTINF:0 group-title="Путешествия",Brodilo TV HD
 http://brodilo.tv/channel.php
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/glazami-turista.png" tvg-id="glazami-turista",Глазами туриста
 http://91.205.199.3/glazamituristahd/index.m3u8
@@ -305,7 +308,7 @@ http://31.148.48.15:80/Teleputeshestviya/index.m3u8?token=test
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-adventure.png" tvg-id="travel-adventure",Travel+Adventure
 http://130.193.73.10:8937/play/a026
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/russian-extreme-uhd.png" tvg-id="russian-extreme-uhd",ULTRA REX
-#EXTINF:0 group-title="Путешествия" tvg-logo="" tvg-id="",X-Stream
+#EXTINF:0 group-title="Путешествия",X-Stream
 http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/2na2.png" tvg-id="2na2",2x2
@@ -343,7 +346,7 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20023/index.m3u8
 http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/perec.png" tvg-id="perec-int",Перец
 http://stream01.vnet.am/Perec/mono.m3u8
-#EXTINF:0 group-title="Развлекательные" tvg-logo="" tvg-id="",Red Bull TV
+#EXTINF:0 group-title="Развлекательные",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?checkedby:iptvcat.com
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/russky-ekstrim.png" tvg-id="russky-ekstrim",Russian Extreme
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/strk.png" tvg-id="strk",СТРК
@@ -368,7 +371,7 @@ http://stream01.vnet.am/Channel_121/mono.m3u8
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/11071/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/angel-tv.png" tvg-id="angel-tv",Angel TV
-#EXTINF:0 group-title="Религия и изотерика" tvg-logo="" tvg-id="",Life TV
+#EXTINF:0 group-title="Религия и изотерика",Life TV
 http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/muzsoyuz.png" tvg-id="muzsoyuz",МузСоюз
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/nadezhda.png" tvg-id="nadezhda",Надежда
@@ -381,7 +384,7 @@ http://spas.mediacdn.ru/cdn/spas/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/tri-angela.png" tvg-id="tri-angela",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
 
-#EXTINF:0 group-title="Спорт" tvg-logo="" tvg-id="",Астрахань.Ru Sport
+#EXTINF:0 group-title="Спорт",Астрахань.Ru Sport
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
 http://213.226.137.140:81/tl/l97/mpegts
@@ -396,7 +399,7 @@ http://rhsbjv7k.tvclub.xyz/iptv/MTVPP5C6UVG8RA3MVHMWV85Z/18000/index.m3u8
 http://rhsbjv7k.tvclub.xyz/iptv/MTVPP5C6UVG8RA3MVHMWV85Z/18001/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/inhockey-kz.png" tvg-id="inhockey-kz",InHockey
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/insport-kz.png" tvg-id="insport-kz",InSport
-#EXTINF:0 group-title="Спорт" tvg-logo="" tvg-id="",KHL
+#EXTINF:0 group-title="Спорт",KHL
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/konny-mir.png" tvg-id="konny-mir",Конный мир
 https://cdn-01.bonus-tv.ru/kmir/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena",[Матч!] Арена
@@ -419,7 +422,7 @@ http://65.21.85.175:8000/play/a00c/index.m3u8?token=livetv
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/okko-sport.png" tvg-id="okko-sport",Okko.Спорт
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/qsport-kg.png" tvg-id="qsport-kg",Q Sport
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kazsport.png" tvg-id="kazsport",Qazsport
-#EXTINF:0 group-title="Спорт" tvg-logo="" tvg-id="",Real Madrid
+#EXTINF:0 group-title="Спорт",Real Madrid
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=1545
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sportivny.png" tvg-id="sportivny",Спортивный
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/start.png" tvg-id="start",Старт
@@ -431,7 +434,7 @@ http://iptv-hls.idc.md:8200/hls/77/live1.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/footbolny.png" tvg-id="footbolny",Футбольный
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/football-ru.png" tvg-id="football-ru",Футбол
 http://185.23.80.28:8080/Football/index.m3u8?token=test
-#EXTINF:0 group-title="Спорт" tvg-logo="" tvg-id="",Horizon Sports
+#EXTINF:0 group-title="Спорт",Horizon Sports
 https://dai.google.com/linear/hls/event/onG023gQQ22Tjm14B5yg1w/master.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/xokkejny.png" tvg-id="xokkejny",Хоккейный
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/xsport-ua.png" tvg-id="xsport-ua",XSport
@@ -474,3 +477,82 @@ http://lime-pi.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
+
+
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="test",Россия 1 (HD)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+#EXTINF:-1 tvg-id="rossia-24" tvg-logo="https://iptvx.one/picons/rossia-24.png" group-title="test",Россия 24 (WSVGA)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-sd/index.m3u8
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="test",СТС Kids (EDTV)
+http://stream02.vnet.am/DisneyChannel/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="187" tvg-logo="http://epg.one/img2/187.png" group-title="test",Россия К (HD)
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/kultura-hd/index.m3u8
+#EXTINF:-1 tvg-id="texno-24" tvg-logo="https://iptvx.one/picons/texno-24.png" group-title="test",Т24 (EDTV)
+https://flussonic.salomtv.uz/Tehno24/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="tvcentr" tvg-logo="https://iptvx.one/picons/tvcentr.png" group-title="test",ТВ Центр (FWVGA)
+http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="test",ТВ3 (WVGA)
+http://92.53.64.197:5050/tv3/video.m3u8?token=m3VIth-Rou_bM1
+#EXTINF:-1 tvg-id="2na2" tvg-logo="https://iptvx.one/picons/2na2.png" group-title="test",2x2 (EDTV)
+http://185.23.80.28:8080/2x2/index.m3u8?token=test
+#EXTINF:-1 tvg-id="yu" tvg-logo="https://iptvx.one/picons/yu.png" group-title="test",Ю (HD ready)
+http://92.53.64.197:5050/yu/video.m3u8?token=m3VIth-Rou_bM1
+#EXTINF:-1 tvg-id="nastoiaschee-vremia" tvg-logo="https://iptvx.one/picons/nastoiaschee-vremia.png" group-title="test",Настоящее время [18+ иногент] (HD)
+https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
+#EXTINF:-1 tvg-id="2136" tvg-logo="http://epg.one/img2/2136.png" group-title="test",Life TV (WVGA)
+http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
+#EXTINF:-1 tvg-id="baby-time" tvg-logo="https://iptvx.one/picons/baby-time.png" group-title="test",Baby Time (EDTV)
+http://46.17.41.254:2020/channel/37c47277/index.m3u8?q=c9a4efc12540f7d0eb46417ddc618c8b
+#EXTINF:-1 tvg-id="boomerang" tvg-logo="https://iptvx.one/picons/boomerang.png" group-title="test",Cartoonito (HD)
+http://dmi3y-tv.ru/hls/CH_CARTOONITOHD.m3u8
+#EXTINF:-1 tvg-id="detsky-mir" tvg-logo="https://iptvx.one/picons/detsky-mir.png" group-title="test",Детский мир (EDTV)
+http://91.205.199.3/detskimir/index.m3u8
+#EXTINF:-1 tvg-id="sts-kids-hd" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" group-title="test",СТС Kids (HD)
+http://130.193.73.10:8937/play/a017
+#EXTINF:-1 tvg-id="deviatka" tvg-logo="https://iptvx.one/picons/deviatka.png" group-title="test",Девятка (HD)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://rt-vlg-kirov-htlive.cdn.ngenix.net/hls/CH_R02_9TV/variant.m3u8
+#EXTINF:-1 tvg-id="prodvizhenie" tvg-logo="https://iptvx.one/picons/prodvizhenie.png" group-title="test",Продвижение (WSVGA)
+http://origin5.mediacdn.ru/live/prodvizhenie_new/index.m3u8
+#EXTINF:-1 tvg-id="tochka-tv" tvg-logo="https://iptvx.one/picons/tochka-tv.png" group-title="test",Точка ТВ (EDTV)
+http://185.23.80.28:8080/TochkaTV/index.m3u8?token=test
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="test",ТНТ (HD)
+http://185.50.148.2:7710/TNT_HD/index.m3u8
+#EXTINF:-1 tvg-id="zhar-ptica" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" group-title="test",Жар-Птица (EDTV)
+http://streamer.rtcommufa.ru:1935/ptica/ptica1/playlist.m3u8
+#EXTINF:-1 tvg-id="plan-b" tvg-logo="https://iptvx.one/picons/plan-b.png" group-title="test",Plan B (HD)
+http://live.admuspeh.my/8947/index.m3u8?token=iptvshared
+#EXTINF:-1 tvg-id="suspense" tvg-logo="https://iptvx.one/picons/suspense.png" group-title="test", Suspense (HD)
+http://live.admuspeh.my/8971/index.m3u8?token=iptvshared
+#EXTINF:-1tvg-id="vip-comedy-cee" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" group-title="test",Viasat Kino Comedy (HD ready)
+http://213.226.137.140:81/tl/l1243/mpegts
+#EXTINF:-1 tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/97/Viju_TV1000_Romantica.svg/revision/latest/scale-to-width-down/284?cb=20240928200507" tvg-id="viju-tv1000-romantica" group-title="test",Viju TV1000 romantica (HD)
+https://live-hls-viasat-secure-flus.cdnvideo.ru/viasat/Romantika_HD.smil/tracks-v1a1/mono.m3u8?filter.tracks=v1v2v3a1&md5=SROk_Ce-mN89NVb3Xx61Gw&e=1738467565&hls_proxy_host=e2c000defa6aa845b219ba5ca0db8ad5
+#EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://iptvx.one/picons/vip-comedy.png" group-title="test",Viju+ comedy (HD)
+http://91.205.199.3/vipcomedi/index.m3u8
+#EXTINF:-1 tvg-id="start-air" tvg-logo="https://iptvx.one/picons/start-air.png" group-title="test",Start Air (HD)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://live.admuspeh.my/8398/index.m3u8?token=iptvshared
+#EXTINF:-1 tvg-id="russky-bestseller" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" group-title="test",Русский бестселлер (EDTV)
+http://92.53.64.197:5050/russkiy_bestseller/video.m3u8?token=m3VIth-Rou_bM1
+#EXTINF:-1 tvg-id="russky-illuzion" tvg-logo="https://iptvx.one/picons/russky-illuzion.png" group-title="test",Русский иллюзион (EDTV)
+http://185.23.80.28:8080/RusIlluzion/index.m3u8?token=test
+#EXTINF:-1 tvg-id="match-tv" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-logo="https://iptvx.one/picons/match-tv.png" group-title="test",Матч! (WVGA)
+#EXTVLCOPT:http-user-agent=SmartTV
+http://zabava-htlive.cdn.ngenix.net/hls/CH_MATCHTV/variant.m3u8
+#EXTINF:-1 tvg-id="ufc" tvg-logo="https://iptvx.one/picons/ufc.png" group-title="test",Удар (HD)
+http://live.admuspeh.my/8319/index.m3u8?token=test
+#EXTINF:-1 tvg-id="2377" tvg-logo="https://iptvx.one/picons/hgtv.png" group-title="test",HGTV (HD)
+https://woobl.ru/stream/1084.m3u8
+#EXTINF:-1 tvg-id="arsenaltv" tvg-logo="http://epg.one/img2/2768.png" group-title="test",Арсенал (HD)
+http://185.23.80.28:8080/Arsenal_HD/index.m3u8?token=test
+#EXTINF:-1 tvg-id="ege-tv" tvg-logo="https://iptvx.one/picons/ege-tv.png" group-title="test", ЕГЭ ТВ (EDTV)
+http://tv.streams.baikal-telecom.net:8080/RT_DOC/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="appetitny" tvg-logo="https://epg.iptvx.one/picons/appetitny.png" group-title="test", Аппетитный (EDTV)
+http://185.50.148.2:7703/Motorsport/index.m3u8
+#EXTINF:-1 tvg-id="zhivi-aktivno" tvg-logo="http://epg.one/img2/5881.png" group-title="test",Живи Активно (HD)
+https://flussonic.salomtv.uz/JiviaktivnoHD/video.m3u8
+#EXTINF:-1 tvg-id="zagorodny-int" tvg-logo="https://iptvx.one/picons/zagorodny-int.png" group-title="test",Загородный Int (HD)
+https://livetv.mylifeisgood.net.ru/channels/zagorodint.m3u8
+#EXTINF:-1 tvg-logo="http://only4.tv/ch/8903.png" group-title="test",Кулинар ТВ (EDTV)
+https://api.alpaca.t62a.com/hls/9110/stream0.m3u8

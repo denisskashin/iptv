@@ -1,15 +1,15 @@
 #EXTINF:0 group-title="4ever" tvg-logo="https://iptvx.one/picons/4ever-theater.png" tvg-id="4ever-theater",Theater
 http://cdn.troya.one:80/ch385/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iOrrs3UCjvrR7ifNrF7EO1RmOKYGCNMrhb2KkAjBQ627
 
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kids-plus.png" tvg-id="	bcu-kids-plus",Kids+
-http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=1148908&extension=ts&play_token=kCBouqjgzF
-#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-multserial.png" tvg-id="bcu-multserial",Multserial
-http://line.protv.cc:80/play/live.php?mac=00:1A:79:00:01:3E&stream=1148902&extension=ts&play_token=e6hjW524eQ
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kids-plus.png" tvg-id="	bcu-kids-plus",[BCU] Kids+
+http://live.admuspeh.my/8454/index.m3u8?token=TestuspehTva
+#EXTINF:-1 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-multserial.png" tvg-id="bcu-multserial",[BCU] Multserial
+http://live.admuspeh.my/8874/index.m3u8?token=TestuspehTva
 
 #EXTINF:-1 group-title="Minimax" tvg-logo="https://iptvx.one/picons/minimax-ms-crime.png" tvg-id="minimax-ms-crime",MS Crime
 http://cdn.troya.one:80/ch1288/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBwzADH42lHdAHgG8rxxfaUSHDNfTzR24hk9C3WO_LPt
 
-#EXTINF:0 group-title="C More" tvg-logo="" tvg-id="",Hits
+#EXTINF:0 group-title="C More",Hits
 http://cdn.troya.one:80/ch1116/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iBwokK0mIeHBSjP1JwltYmDiVjFGfhlyRqD7EeT_myci
 
 #EXTINF:0 group-title="test",[VF] Cartoon
@@ -34,10 +34,6 @@ http://cdn.troya.one:80/ch394/mono.m3u8?token=rl_aadam.UdI0zA87jcz080oIulX2iHGjO
 https://as01.links-tv-channels.org/20964/mpegts?token=n4WT46vRex83AH
 #EXTINF:0 group-title="test",[Oasis] Ufos and Aliens
 https://as01.links-tv-channels.org/20997/mpegts?token=n4WT46vRex83AH
-#EXTINF:0 group-title="test", BCU Мультсериал HD
-http://live.admuspeh.my/8874/index.m3u8?token=TestuspehTva
-#EXTINF:0 group-title="test", BCU Kids+
-http://live.admuspeh.my/8454/index.m3u8?token=TestuspehTva
 #EXTINF:0 group-title="test", BCU Little
 http://live.admuspeh.my/8979/index.m3u8?token=TestuspehTva
 #EXTINF:0 group-title="test", [BOX] SportCast
