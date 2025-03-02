@@ -10,6 +10,7 @@ http://stream01.vnet.am/Kinosemya/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/da-vinci.png" tvg-id="da-vinci-eu",Da Vinci
 http://stream2.cinerama.uz/1231/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/detsky-mir.png" tvg-id="detsky-mir",Детский мир
+http://stream01.vnet.am/CartoonNetwork/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/ducktv.png" tvg-id="ducktv",Duck TV
 http://stream2.cinerama.uz/1271/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Детские",Жара Kids TV
@@ -55,9 +56,9 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/19280/index.m3u8
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/c-cartoon.png" tvg-id="c-cartoon",[Yosso TV] Citrus Cartoon
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/16050/index.m3u8
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/boomerang.png" tvg-id="boomerang",Cartoonito
-http://dmi3y-tv.ru/hls/CH_CARTOONITOHD.m3u8
+http://stream01.vnet.am/Channel_120/tracks-v1a2/mono.m3u8
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/capfantast.png" tvg-id="ginger-hd",Капитан Фантастика
-http://185.23.80.28:8080/KapitanFantastika/index.m3u8?token=test
+http://185.23.80.29:8080/KapitanFantastika/tracks-v1a1/mono.m3u8?token=test
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/minimax-lesson.png" group-title="minimax-lesson",[Minimax] Lesson
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13042/index.m3u8
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/minimax-ms-toons.png" group-title="minimax-ms-toons",[Minimax] MS Toons
@@ -69,11 +70,11 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13026/index.m3u8
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/nicktoons.png" tvg-id="nicktoons",Nicktoons
 http://stream01.vnet.am/Boomerang/mono.m3u8
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/ryzhy.png" tvg-id="ryzhy",Рыжий
-http://185.23.80.28:8080/Ryzhij/index.m3u8?token=test
+http://178.57.121.38:8080/ryzhiy/index.m3u8?token=test
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" tvg-id="sts-kids-hd",СТС Kids
 http://130.193.73.10:8937/play/a017
 #EXTINF:0 group-title="Мультсериалы" tvg-logo="https://iptvx.one/picons/unikum.png" tvg-id="detsky",Уникум
-http://185.23.80.28:8080/Unikum/index.m3u8?token=test
+http://130.193.73.10:8937/play/a015
 
 #EXTINF:0 group-title="Полнометражный" tvg-logo="https://iptvx.one/picons/vf-cartoon.png" tvg-id="vf-cartoon",[VF] Cartoon
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/10002/index.m3u8
@@ -97,7 +98,7 @@ http://stream02.vnet.am/Karusel/mono.m3u8
 #EXTINF:0 group-title="Развлечения" tvg-logo="https://iptvx.one/picons/familyjam.png" tvg-id="familyjam",FamilyJam
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/20210/index.m3u8
 #EXTINF:0 group-title="Развлечения" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru",Nickelodeon
-http://stream01.vnet.am/Channel_114/mono.m3u8
+http://135.181.115.81:8000/play/a03x/index.m3u8?token=livetv
 #EXTINF:0 group-title="Развлечения" tvg-logo="https://iptvx.one/picons/smaylik-tv.png" tvg-id="smaylik-tv",Смайлик ТВ
 https://5d23269b3ec0c.streamlock.net/WEB_Smilik/Smilik.stream/playlist.m3u8
 
@@ -131,7 +132,7 @@ http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/13021/index.m3u8
 #EXTINF:0 group-title="Фильмы" tvg-logo="https://iptvx.one/picons/detkino-tviksel.png" tvg-id="detkino-tviksel",[Tviksel] Детское кино
 http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18073/index.m3u8
 #EXTINF:0 group-title="Фильмы" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",[Tviksel] Детское кино International
-http://c70cda35.ottolok.net/iptv/HBLG55XAVS7AWW/18074/index.m3u8
+https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:0 group-title="Фильмы" tvg-logo="https://iptvx.one/picons/fresh-family.png" tvg-id="fresh-family",[Fresh] Family
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/19291/index.m3u8
 
@@ -160,8 +161,6 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/15101/index.m3u8
 
 #EXTINF:0 group-title="Семейный" tvg-logo="https://iptvx.one/picons/vf-family.png" tvg-id="vf-family",[VF] Family
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/10004/index.m3u8
-#EXTINF:0 group-title="Семейный" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское Кино International
-https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:0 group-title="Семейный" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya",Киносемья
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/7244/index.m3u8
 #EXTINF:0 group-title="Семейный" tvg-logo="https://iptvx.one/picons/clarity4k-semejny.png" tvg-id="clarity4k-semejny",[Clarity4K] Семейный

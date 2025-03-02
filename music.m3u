@@ -8,11 +8,13 @@ http://stream01.vnet.am/BRIDGETVClassic/tracks-v1a1/mono.m3u8
 http://213.226.137.140:81/tl/l322/index.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" tvg-id="bridge-tv-fresh",Фрэш
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" tvg-id="bridge-tv-dance",Hits
+http://45.159.74.14/NanoTv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" tvg-id="bridge-tv-rock",Rock
+http://185.23.80.29:8080/BRIDGE_ROCK/tracks-v1a1/mono.m3u8?token=test
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" tvg-id="bridge-tv-ruxit",Русский хит
 http://stream01.vnet.am/Channel_115/mono.m3u8
 #EXTINF:-1 group-title="Bridge Music" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" tvg-id="bridge-tv-shlager",Шлягер
-http://185.23.80.28:8080/BridgeTVShlyager/index.m3u8?token=test
+http://185.23.80.29:8080/BridgeTVShlyager/tracks-v1a1/mono.m3u8?token=test
 
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1hd-music.png" tvg-id="1hd",1HD
@@ -75,7 +77,7 @@ http://autopilot.catcast.tv/content/37742/index.m3u8
 #EXTINF:-1 group-title="Русская музыка",Музыка Кино International
 http://autopilot.catcast.tv/content/37739/index.m3u8
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/o2tv.png" tvg-id="o2tv",О2ТВ
-http://185.23.80.28:8080/O2/index.m3u8?token=test
+http://185.23.80.29:8080/O2/tracks-v1a1/mono.m3u8?token=test
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz",Первый Музыкальный Россия
 http://rtmp.one.by:2200
 #EXTINF:-1 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz",Первый Музыкальный Россия HD
@@ -133,3 +135,6 @@ http://sharingplus.net/iptv/NR7VUB57KMRXBD/20049/index.m3u8
 
 #EXTINF:0 group-title="test",[KLI] Шансон
 http://sharingplus.net/iptv/NR7VUB57KMRXBD/20142/index.m3u8
+
+#EXTINF:-1 tvg-id="russian-musicbox" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" group-title="test",Russian MusicBox (HD ready)
+https://livetv.mylifeisgood.net.ru/channels/rusmusicbox.m3u8
