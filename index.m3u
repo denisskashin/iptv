@@ -470,3 +470,36 @@ http://lime-pi.tlgx.ru:8987/CH_TVOETV_HUMOR/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4-int.png" tvg-id="tnt4-international",ТНТ4 International
 https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
+
+
+#EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="test",ТНТ (HD)
+http://185.23.80.29:8080/TNT_HD/tracks-v1a1/mono.m3u8?token=test
+#EXTINF:-1 tvg-id="romance" tvg-logo="https://iptvx.one/picons/romance.png" group-title="test",Romance (EDTV)
+http://130.193.73.10:8937/play/a01o
+#EXTINF:-1 tvg-id="viasat-explore" tvg-logo="https://iptvx.one/picons/viasat-explore.png" group-title="test",Viju EXPLORE (EDTV)
+http://130.193.73.10:8937/play/a01j
+
+#EXTINF:-1 tvg-id="vip-comedy" tvg-logo="https://iptvx.one/picons/vip-comedy.png" group-title="test",Viju+ comedy (HD)
+http://135.181.115.81:8000/play/a046/index.m3u8?token=livetv
+#EXTINF:-1 tvg-id="kinosat" tvg-logo="https://iptvx.one/picons/kinosat.png" group-title="test",Киноман (960x540)
+#EXTVLCOPT:http-referrer=https://peers.tv/
+https://hls.peers.tv/streaming/kinosat/16/tvrecw/playlist.m3u8
+#EXTINF:-1 tvg-id="nasha-tema" tvg-logo="https://iptvx.one/picons/nasha-tema.png" group-title="test",Наша Тема (HD)
+#EXTVLCOPT:http-referrer=https://peers.tv/
+https://hls.peers.tv/streaming/nasha_tema/16/h1080/playlist.m3u8
+#EXTINF:-1 tvg-id="newsnation-us" tvg-logo="https://iptvx.one/picons/newsnation-us.png" group-title="test",NewsNation (HD ready)
+#EXTVLCOPT:http-referrer=https://dokoplay.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 17_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1
+https://windnew.koskoros.ru/wind/premium292/mono.m3u8
+
+#EXTINF:-1 tvg-id="otr" tvg-logo="https://iptvx.one/picons/otr.png" group-title="test",ОТР (EDTV)
+https://bl.webcaster.pro/media/playlist/free_a6ff1058b1e52c442f85c8ecdcd989b2/5_2972636396/720p/b59c5b1d5829ff31577411f5d47de837/1742052890.m3u8?live=15&ref=https//otr-online.ru/
+
+#EXTINF:-1 tvg-id="ryzhy" tvg-logo="https://iptvx.one/picons/ryzhy.png" group-title="test",Рыжий (FWVGA)
+http://ott-cdn.ucom.am/s57/index.m3u8
+
+#EXTINF:-1 tvg-id="mir-seriala" tvg-logo="https://iptvx.one/picons/mir-seriala.png" group-title="test",Мир сериала (EDTV)
+http://45.82.13.48:8081/iptv/mir-seriala-channel/playlist.m3u8
+
+#EXTINF:-1 tvg-id="russky-illuzion" tvg-logo="https://iptvx.one/picons/russky-illuzion.png" group-title="test",Русский иллюзион (EDTV 404p)
+http://192.166.144.101:8000/play/a00b/index.m3u8
