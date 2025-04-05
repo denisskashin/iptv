@@ -16,8 +16,6 @@ https://m.cdntv.online/f/p9j41aun3x/Convoy.m3u8
 
 #EXTINF:-1 group-title="1979",Апокалипсис сегодня
 https://m.cdntv.online/f/p9j41aun3x/Apocalypse_Now_1979.m3u8
-#EXTINF:-1 group-title="1979",Безумный Макс
-https://m.cdntv.online/f/p9j41aun3x/Mad_Max_1979.m3u8
 #EXTINF:-1 group-title="1979",Лунный гонщик (007)
 https://m.cdntv.online/f/p9j41aun3x/007_Moonraker_1979.m3u8
 #EXTINF:-1 group-title="1979",Рокки 2
@@ -88,6 +86,8 @@ https://m.cdntv.online/f/p9j41aun3x/BeverlyHillsCop.m3u8
 #EXTINF:-1 group-title="1984",Терминатор [224/250]
 https://v1.kinotusa.ru/mp4/Terminator.hd.mp4
 
+#EXTINF:-1 group-title="1985",Американский ниндзя
+https://v1.kinotusa.ru/mp4/Amerikanskiy_nindzya_1985.hd.mp4
 #EXTINF:-1 group-title="1985",9 1/2 недель
 https://m.cdntv.online/f/p9j41aun3x/NineHalfWeeks.m3u8
 #EXTINF:-1 group-title="1985",Безумный Макс 3: Под куполом грома
@@ -2555,13 +2555,8 @@ https://o9.anwap.be/ohls/awVSYa6Hpa9QoUy0gsJZWA/1731490390/Hellboj_Proklyatie_Go
 https://s15.kvb.cool/video_mp4/films/2024/ThisMeNow/3cde56047754adc3a20e02858a315907/ThisMeNow2024.mp4
 
 
-#EXTINF:-1 group-title="KINO ZAL 4К",Ниндзя (1962)
-https://v1.kinotusa.ru/mp4/Nindzya_1962.hd.mp4
-#EXTINF:-1 group-title="KINO ZAL 4К",Корабль дураков (1965)
-https://v1.kinotusa.ru/mp4/Korabl_durakov_1965.hd.mp4
 #EXTINF:-1 group-title="KINO ZAL 4К",Радуга Финиана (1968)
 https://v1.kinotusa.ru/mp4/Raduga_Finiana_1968.hd.mp4
-
 #EXTINF:-1 group-title="KINO ZAL 4К",Дом на Гринэппл-роуд (1970)
 https://s2.kinotusa.ru/hls/House_on_Greenapple_Road_1970.mp4/index-v1-a1.m3u8
 #EXTINF:-1 group-title="KINO ZAL 4К",История любви (1970)
@@ -2594,14 +2589,25 @@ https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/YI8o3NtRk2uSBhW2pmT/ZX
 #EXTINF:-1 group-title="KINO ZAL 4К",Полицейский из Беверли-Хиллз 2 (1987)
 https://vod.plvideo.ru/xdhKhqAx/0GRdptsjAb/FP7MRNSW7dVXf-ebDaB/ZX
 
+#EXTINF:0, Американский ниндзя 2: Схватка (1987) @iptv_free_ru
+#EXTGRP: 🔥👉@iptv_free_ru👈🔥
+https://v1.kinotusa.ru/mp4/Amerikanskiy_nindzya_2_1987.hd.mp4
+#EXTINF:0, Американский ниндзя 3: Кровавая охота (1989) @iptv_free_ru
+#EXTGRP:🔥👉@iptv_free_ru👈🔥
+https://v1.kinotusa.ru/mp4/Amerikanskiy_nindzya_3_1989.hd.mp4
+
+#EXTINF:0, Инопланетянин (1982) @iptv_free_ru
+#EXTGRP:🔥👉@iptv_free_ru👈🔥
+https://v1.kinotusa.ru/mp4/Inoplanetyanin.hd.mp4
+
+
 #EXTINF:-1 group-title="KINO ZAL 4К",Чокнутый профессор (1996)
 https://s1.kinotusa.ru/hls/Choknutyy_professor_1963.hd.mp4/index-v1-a1.m3u8
 
-#EXTINF:0 group-title="test",Красное солнце (1971)
-https://vod.plvideo.ru/GMPb65uk/uknUrzHzQA/5jktNnXFgw-NCX91eIa/ZX
-
-#EXTINF:0 group-title="test",Безумный Макс (1979)
-https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSuJut8XkFvceV/ZX
+#EXTINF:-1  type="video" group-title="ТОП" tvg-logo="http://hom.orgip.net/logo/StarWars11.jpg", Соло. Звёздные войны: Истории (2018)
+http://vod.orgip.net/vod100/Solo_A_Star_Wars_Story_2018/index.m3u8?token=Md7ac19a92
+#EXTINF:-1  type="video" group-title="ТОП" tvg-logo="http://hom.orgip.net/logo/Capharnaum.jpg", Капернаум (2018)
+http://vod.orgip.net/vod100/Capharnaum_2018/index.m3u8?token=Md7ac19a92
 
 
 #EXTINF:0 group-title="Просмотренные",1921 - Малыш (Чарли Чаплин)
@@ -2625,6 +2631,7 @@ https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSuJut8XkFvceV/ZX
 #EXTINF:0 group-title="Просмотренные",1960 - Стреляйте в пианиста
 #EXTINF:0 group-title="Просмотренные",1961 - Ночь нежна
 #EXTINF:0 group-title="Просмотренные",1962 - Доктор Ноу (007)
+#EXTINF:0 group-title="Просмотренные",1962 - Ниндзя
 #EXTINF:0 group-title="Просмотренные",1963 - Из России с любовью (007)
 #EXTINF:0 group-title="Просмотренные",1963 - Клеопатра
 #EXTINF:0 group-title="Просмотренные",1963 - Пока, пташка
@@ -2635,6 +2642,7 @@ https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSuJut8XkFvceV/ZX
 #EXTINF:0 group-title="Просмотренные",1964 - За пригоршню долларов
 #EXTINF:0 group-title="Просмотренные",1965 - Большие гонки
 #EXTINF:0 group-title="Просмотренные",1965 - Жандарм в Нью-Йорке
+#EXTINF:0 group-title="Просмотренные",1965 - Корабль дураков
 #EXTINF:0 group-title="Просмотренные",1965 - На несколько долларов больше [132/250]i
 #EXTINF:0 group-title="Просмотренные",1965 - Разиня
 #EXTINF:0 group-title="Просмотренные",1965 - Шаровая молния (007)
@@ -2648,6 +2656,7 @@ https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSuJut8XkFvceV/ZX
 #EXTINF:0 group-title="Просмотренные",1970 - Рассеянный
 #EXTINF:0 group-title="Просмотренные",1971 - Бриллианты навсегда (007)
 #EXTINF:0 group-title="Просмотренные",1971 - Джо (Занятой человек)
+#EXTINF:0 group-title="Просмотренные",1971 - Красное солнце
 #EXTINF:0 group-title="Просмотренные",1971 - На древо взгромоздясь
 #EXTINF:0 group-title="Просмотренные",1972 - Злоключения Альфреда
 #EXTINF:0 group-title="Просмотренные",1972 - Крёстный отец [43/250]k [2/250]i
@@ -2671,6 +2680,7 @@ https://vod.plvideo.ru/GMPb65uk/AZAevqJa5r/zE2SWKSuJut8XkFvceV/ZX
 #EXTINF:0 group-title="Просмотренные",1978 - Жандарм и инопланетяне
 #EXTINF:0 group-title="Просмотренные",1978 - Пьяный мастер
 #EXTINF:0 group-title="Просмотренные",1978 - Челюсти 2
+#EXTINF:0 group-title="Просмотренные",1979 - Безумный Макс
 #EXTINF:0 group-title="Просмотренные",1979 - Чужой
 #EXTINF:0 group-title="Просмотренные",1980 - Боги наверное сошли с ума
 #EXTINF:0 group-title="Просмотренные",1980 - Укол зонтиком
