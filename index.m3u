@@ -453,20 +453,8 @@ https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
 
 
 
-#EXTINF:-1 tvg-id="otr" tvg-logo="https://iptvx.one/picons/otr.png" group-title="test",ОТР (EDTV)
-http://178.212.71.253:8000/play/9/index.m3u8
-
-#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="test",Пятый канал (EDTV)
-http://178.212.71.253:8000/play/5/index.m3u8
-
-#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="test",ТВ3 (FWVGA)
-http://62.113.114.202:8000/play/tv3
-
 #EXTINF:-1 tvg-id="vmeste-rf" tvg-logo="https://iptvx.one/picons/vmeste-rf.png" group-title="test",ВМЕСТЕ:РФ (HD)
 https://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
-
-#EXTINF:-1 tvg-id="karusel" tvg-logo="https://iptvx.one/picons/karusel.png" group-title="test",Карусель (EDTV)
-http://5.8.58.61:8080/Karusel/index.m3u8
 
 #EXTINF:-1 tvg-id="kinomult" tvg-logo="https://iptvx.one/picons/kinomult.png" group-title="test",Кино Мульт (EDTV)
 http://31.173.165.29:8000/play/a03q/index.m3u8
@@ -480,62 +468,14 @@ http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="ntv-pravo" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" group-title="test",НТВ Право (EDTV)
 http://130.193.73.10:8937/play/a01s
 
-#EXTINF:-1 tvg-id="sarafan" tvg-logo="https://iptvx.one/picons/sarafan.png" group-title="test",Сарафан (EDTV)
-http://178.212.71.253:8000/play/44/index.m3u8
-
-#EXTINF:-1 tvg-id="sts-love" tvg-logo="https://iptvx.one/picons/sts-love.png" group-title="test",СТС Love (EDTV)
-http://188.190.222.53/CTC_Love/index.m3u8
-
-#EXTINF:-1 tvg-id="super" tvg-logo="https://iptvx.one/picons/subbota.png" group-title="test",Суббота (EDTV)
-http://188.190.222.53/Super/index.m3u8
-
-#EXTINF:-1 tvg-id="tnt4" tvg-logo="https://iptvx.one/picons/tnt4.png" group-title="test",ТНТ4 (WSVGA)
-http://188.190.222.53/TNT4/index.m3u8
-
-#EXTINF:-1 tvg-id="che" tvg-logo="https://iptvx.one/picons/che.png" group-title="test",Че! (EDTV)
-http://188.190.222.53/Che/index.m3u8
-
-#EXTINF:-1 tvg-id="yu" tvg-logo="https://iptvx.one/picons/yu.png" group-title="test",Ю (HD ready)
-http://cdn-01.bonus-tv.ru/u/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1  tvg-id="zhara" tvg-logo="https://iptvx.one/picons/zhara.png" group-title="test",Жара (EDTV)
-http://178.212.71.253:8000/play/141/index.m3u8
-
-#EXTINF:-1 tvg-id="muztv" tvg-logo="https://iptvx.one/picons/muztv.png" group-title="test",МузТВ (EDTV)
-http://5.8.58.61:8080/muztv/index.m3u8
-
 #EXTINF:-1 tvg-id="cinema-ru" tvg-logo="https://iptvx.one/picons/cinema.png" group-title="test",Cinema (EDTV)
 http://185.46.48.18:80/cinema/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 tvg-id="sapfir" tvg-logo="https://iptvx.one/picons/sapfir.png" group-title="test",Сапфир (EDTV)
 http://31.173.165.29:8000/play/a04g/index.m3u8
 
-#EXTINF:-1 tvg-id="kineko" tvg-logo="https://iptvx.one/picons/kineko.png" group-title="test",Кинеко (EDTV)
-http://31.173.165.29:8000/play/a01e/index.m3u8
-
-#EXTINF:-1 tvg-id="illuzion-plus" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" group-title="test",Иллюзион+ (EDTV)
-http://188.190.222.53/Illuzion+/index.m3u8
-
 #EXTINF:-1 tvg-id="bobior" tvg-logo="https://iptvx.one/picons/bober.png" group-title="test",Бобёр (EDTV)
 http://178.212.71.253:8002/play/a00m/index.m3u8
-
-#EXTINF:-1 tvg-id="dikiy" tvg-logo="https://iptvx.one/picons/dikiy.png" group-title="test",Дикий (EDTV)
-http://188.190.222.53/Dikiy/index.m3u8
-
-#EXTINF:-1 tvg-id="usadba" tvg-logo="https://iptvx.one/picons/usadba.png" group-title="test",Усадьба (EDTV)
-http://194.158.218.123:8880/Usadba/index.m3u8
-
-#EXTINF:-1 tvg-id="tonus-tv" tvg-logo="https://iptvx.one/picons/tonus-tv.png" group-title="test",Тонус (D1)
-http://list.onlinetv-sochi.ru:8080/live/view55mod.php?name_id=Tonus
-
-#EXTINF:-1 tvg-id="viasat-explore" tvg-logo="https://iptvx.one/picons/viasat-explore.png" group-title="test",Viju EXPLORE (EDTV)
-http://109.70.186.70:9090/udp/239.185.1.5:1234
-
-#EXTINF:-1 tvg-id="istoria" tvg-logo="https://iptvx.one/picons/istoria.png" group-title="test",История (EDTV)
-http://188.190.222.53/History/index.m3u8
-
-#EXTINF:-1 tvg-id="zhivaya-planeta" tvg-logo="https://iptvx.one/picons/zhivaya-planeta.png" group-title="test",Живая Планета (EDTV)
-http://178.212.71.253:8000/play/114/index.m3u8
 
 #EXTINF:-1 tvg-id="terra-ru" tvg-logo="https://iptvx.one/picons/terra-ru.png" group-title="test",TERRA (HD)
 http://194.143.148.28:8080/RTG_HD/index.m3u8
