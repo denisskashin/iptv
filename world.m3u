@@ -31,7 +31,7 @@ http://stream2.cinerama.uz/1241/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/france24.png" tvg-id="France.24.English.us",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" tvg-id="MSNBC.USA.us",MSNBC
-http://41.205.93.154/MSNBC/index.m3u8
+https://v17.thetvapp.to/hls/MSNBC/index.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://i.imgur.com/JZt2qh5.png" tvg-id="nbc-news-now-us",NBC News Now
 https://livetv-fa.tubi.video/nbc-news-now/master.m3u8
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/512px-Newsmax_logo.svg.png" tvg-id="newsmax-tv-us",Newsmax TV
@@ -53,3 +53,9 @@ https://v1.thetvapp.to/hls/GolfChannel/index.m3u8
 
 #EXTINF:0 group-title="Movies" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18429_dark_360w_270h.png",HBO Comedy
 https://v1.thetvapp.to/hls/HBOComedyEast/index.m3u8
+#EXTINF:0 group-title="Movies" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png",HBO Zone
+https://v3.thetvapp.to/hls/HBOZoneEast/index.m3u8
+#EXTINF:0 group-title="Movies" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true",Showtime 2
+https://v14.thetvapp.to/hls/Showtime2East/index.m3u8
+#EXTINF:0 group-title="Movies" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true",Starz
+https://v12.thetvapp.to/hls/StarzEast/index.m3u8

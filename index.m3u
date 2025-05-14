@@ -395,6 +395,7 @@ http://130.193.73.10:8937/play/a04m
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/mlb-network-us.png" tvg-id="mlb-network-us",MLB Network
 http://fl2.moveonjoy.com/MLB_NETWORK/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nba-tv-us.png" tvg-id="nba-tv-us",NBA TV
+https://v4.thetvapp.to/hls/NBATV/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nfl-network-us.png" tvg-id="nfl-network-us",NFL Network
 http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nhl-network-us.png" tvg-id="nhl-network-us",NHL Network
@@ -457,20 +458,6 @@ https://cdn2.skygo.mn/live/disk1/TNT4/HLS-FTA/TNT4.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png" group-title="test",HBO Zone (HD ready)
-https://v3.thetvapp.to/hls/HBOZoneEast/index.m3u8
-
-#EXTINF:-1 tvg-id="msnbc-us" tvg-logo="https://epg.iptvx.one/picons/msnbc-us.png" group-title="test",MSNBC (HD ready)
-https://v17.thetvapp.to/hls/MSNBC/index.m3u8
-
-#EXTINF:-1 tvg-id="nba-tv-us" tvg-logo="https://epg.iptvx.one/picons/nba-tv-us.png" group-title="test",NBA TV (HD ready)
-https://v4.thetvapp.to/hls/NBATV/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true" group-title="test",Showtime 2 (HD ready)
-https://v14.thetvapp.to/hls/Showtime2East/index.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true" group-title="test",Starz (HD ready)
-https://v12.thetvapp.to/hls/StarzEast/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://epg.one/img2/423.png" group-title="test",Nickelodeon East (HD ready)
 https://v4.thetvapp.to/hls/NickelodeonEast/index.m3u8
