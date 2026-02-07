@@ -365,6 +365,8 @@ http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
 http://135.181.115.81:8000/play/a00f/index.m3u8?token=livetv
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1",Eurosport 1
+#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
+http://178.134.1.158:8081/eurosport/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2",Eurosport 2
 http://109.70.186.70:9090/udp/239.185.1.15:1234
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/fx-sports-1-us.png" tvg-id="fx-sports-1-us",FS1
@@ -402,7 +404,9 @@ http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/okko-sport.png" tvg-id="okko-sport",Okko.Спорт
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/qsport-kg.png" tvg-id="qsport-kg",Q Sport
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kazsport.png" tvg-id="kazsport",Qazsport
-#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sportivny.png" tvg-id="sportivny",Спортивный
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sportivny.png" tvg-id="sportivny",Спорт HD
+https://fl1001.bozztv.com/ushba46/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/start.png" tvg-id="start",Старт
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/start-triumf.png" tvg-id="start-triumf",Старт Триумф
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/tancuj.png" tvg-id="tancuj",Танцуй!
