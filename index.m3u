@@ -362,8 +362,9 @@ http://hls.tv.3angels.ru/stream/HD/HD.m3u8
 
 #EXTINF:0 group-title="Спорт",Астрахань.Ru Sport
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
-http://135.181.115.81:8000/play/a00f/index.m3u8?token=livetv
+http://de.seetv.cc/play/77/C19ADBD7A62F760/video.m3u8
 
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1",Eurosport 1
@@ -381,15 +382,22 @@ http://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8
 #EXTINF:0 group-title="Спорт",KHL
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/konny-mir.png" tvg-id="konny-mir",Конный мир
 https://cdn-01.bonus-tv.ru/kmir/tracks-v1a1/mono.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena",[Матч!] Арена
-http://194.143.148.28:8080/MatchArena/mpegts
+http://de.seetv.cc/play/136/C19ADBD7A62F760/video.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-boec.png" tvg-id="match-boets",[Матч] Боец
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra",[Матч!] Игра
 http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-tv.png" tvg-id="match-tv",[Матч!] Матч!
-http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
+http://de.seetv.cc/play/5/C19ADBD7A62F760/video.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-planeta.png" tvg-id="match-planeta",[Матч!] Планета
+http://de.seetv.cc/play/14/C19ADBD7A62F760/video.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-premiere.png" tvg-id="match-premier",[Матч!] Премьер
+http://de.seetv.cc/play/37/C19ADBD7A62F760/video.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-strana.png" tvg-id="match-nash-sport",[Матч!] Страна
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-football1.png" tvg-id="match-football1",[Матч!] Футбол 1
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-football2.png" tvg-id="match-football2",[Матч!] Футбол 2
@@ -403,7 +411,10 @@ https://v4.thetvapp.to/hls/NBATV/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nfl-network-us.png" tvg-id="nfl-network-us",NFL Network
 http://fl2.moveonjoy.com/NFL_NETWORK/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nhl-network-us.png" tvg-id="nhl-network-us",NHL Network
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/okko-sport.png" tvg-id="okko-sport",Okko.Спорт
+http://de.seetv.cc/play/7337/C19ADBD7A62F760/video.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/qsport-kg.png" tvg-id="qsport-kg",Q Sport
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kazsport.png" tvg-id="kazsport",Qazsport
 
