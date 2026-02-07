@@ -364,11 +364,13 @@ http://hls.tv.3angels.ru/stream/HD/HD.m3u8
 http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport",[Viju] Sport
 http://135.181.115.81:8000/play/a00f/index.m3u8?token=livetv
+
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1",Eurosport 1
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0
-http://178.134.1.158:8081/eurosport/index.m3u8
+http://de.seetv.cc/play/145/C19ADBD7A62F760/video.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2",Eurosport 2
-http://109.70.186.70:9090/udp/239.185.1.15:1234
+http://de.seetv.cc/play/361/C19ADBD7A62F760/video.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/fx-sports-1-us.png" tvg-id="fx-sports-1-us",FS1
 http://fl2.moveonjoy.com/FOX_Sports_1/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/tv3-sport-open.png" tvg-id="tv3-sport-open",Go3 Sport Open
