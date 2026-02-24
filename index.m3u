@@ -1581,6 +1581,36 @@ http://am02.plinks-pile.su/19229/index.m3u8?token=vTBiRZEaQ33izf
 #EXTINF:0 group-title="Эстония2",Kino 7 [Baltic]
 http://am02.plinks-pile.su/19230/index.m3u8?token=vTBiRZEaQ33izf
 
+
+#EXTINF:0 group-title="Эстония3" tvg-id="Xetv-ee" tvg-name="ETV" tvg-logo="[img]https://ip-tv.dev/images/epg/6402.png[/img]?v1743757928"  tvg-rec="5" timeshift="5", ETV
+http://pl.online24.pm/play/6402/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xetv2-ee" tvg-name="ETV 2" tvg-logo="[img]https://ip-tv.dev/images/epg/6403.png[/img]?v1743757937"  tvg-rec="5" timeshift="5", ETV 2
+http://pl.online24.pm/play/6403/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xetv-plus-ee" tvg-name="ETV+ HD" tvg-logo="[img]https://ip-tv.dev/images/epg/6973.png[/img]?v1743757947"  tvg-rec="5" timeshift="5", ETV+ HD
+http://pl.online24.pm/play/6973/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xkanal-2-ee" tvg-name="Kanal 2" tvg-logo="[img]https://ip-tv.dev/images/epg/6404.png[/img]?v1743757960"  tvg-rec="5" timeshift="5", Kanal 2
+http://pl.online24.pm/play/6404/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xtv3-ee" tvg-name="TV3" tvg-logo="[img]https://ip-tv.dev/images/epg/7000.png[/img]?v1743757992"  tvg-rec="5" timeshift="5", TV3
+http://pl.online24.pm/play/7000/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-name="3 Plus" tvg-logo="[img]https://ip-tv.dev/images/ico/tv3-plus-lt.png[/img]" , 3 Plus
+http://pl.online24.pm/play/6704/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xkidzone" tvg-name="Kidzone Mini HD" tvg-logo="[img]https://ip-tv.dev/images/epg/6974.png[/img]?v1743757972"  tvg-rec="5" timeshift="5", Kidzone Mini HD
+http://pl.online24.pm/play/6974/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-name="Nick Jr" tvg-logo="[img]https://ip-tv.dev/images/ico/nick-jr-baltic.png[/img]" , Nick Jr
+http://pl.online24.pm/play/6702/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-name="Nickelodeon" tvg-logo="[img]https://ip-tv.dev/images/ico/nickelodeon-baltic.png[/img]" , Nickelodeon
+http://pl.online24.pm/play/6701/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xkanal-12-ee" tvg-name="Duo 5 HD" tvg-logo="[img]https://ip-tv.dev/images/ico/kanal-12-ee.png[/img]"  tvg-rec="5" timeshift="5", Duo 5 HD
+http://pl.online24.pm/play/6703/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xtvplay-sports" tvg-name="Go3 Sport 1 HD" tvg-logo="[img]https://ip-tv.dev/images/ico/tvplay-sports.png[/img]"  tvg-rec="5" timeshift="5", Go3 Sport 1 HD
+http://pl.online24.pm/play/6713/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xtvplay-sports-plus" tvg-name="Go3 Sport 2 HD" tvg-logo="[img]https://ip-tv.dev/images/ico/tvplay-sports-plus.png[/img]"  tvg-rec="5" timeshift="5", Go3 Sport 2 HD
+http://pl.online24.pm/play/6714/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xtv3-sport-3" tvg-name="Go3 Sport 3 HD" tvg-logo="[img]https://ip-tv.dev/images/ico/tv3-sport-3.png[/img]"  tvg-rec="5" timeshift="5", Go3 Sport 3 HD
+http://pl.online24.pm/play/6715/BC28182177585B5/video.m3u8
+#EXTINF:0 group-title="Эстония3" tvg-id="Xgo3-sport4" tvg-name="Go3 Sport 4 HD" tvg-logo="[img]https://ip-tv.dev/images/ico/go3-sport4.png[/img]"  tvg-rec="5" timeshift="5", Go3 Sport 4 HD
+http://pl.online24.pm/play/6716/BC28182177585B5/video.m3u8
+
 #EXTINF:0 group-title="Эстония4",ETV
 http://gr.seetv.cc/play/6402/D70CC021CA87DF2/video.m3u8
 #EXTINF:0 group-title="Эстония4",ETV 2
@@ -1609,3 +1639,28 @@ http://gr.seetv.cc/play/6714/D70CC021CA87DF2/video.m3u8
 http://gr.seetv.cc/play/6715/D70CC021CA87DF2/video.m3u8
 #EXTINF:0 group-title="Эстония4",Go3 Sport 4 HD
 http://gr.seetv.cc/play/6716/D70CC021CA87DF2/video.m3u8
+
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="45892" tvg-logo="[img]http://epg.propg.net/img/channel_icons/45892.png[/img]" ,ETV HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/45892/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="53893" tvg-logo="[img]http://epg.propg.net/img/channel_icons/53893.png[/img]" ,ETV2 HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/53893/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="27564" tvg-logo="[img]http://epg.propg.net/img/channel_icons/27564.png[/img]" ,Eesti Kanal
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/27564/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="28457" tvg-logo="[img]http://epg.propg.net/img/channel_icons/28457.png[/img]" ,ETV Plus HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/28457/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="45274" tvg-logo="[img]http://epg.propg.net/img/channel_icons/45274.png[/img]" ,TV3 Estonia HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/45274/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="63284" tvg-logo="[img]http://epg.propg.net/img/channel_icons/63284.png[/img]" ,TV3 Life Eesti HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/63284/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="38753" tvg-logo="[img]http://epg.propg.net/img/channel_icons/38753.png[/img]" ,TV6 Estonia HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/38753/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="32342" tvg-logo="[img]http://epg.propg.net/img/channel_icons/32342.png[/img]" ,Kanal 2 Estonia HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/32342/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="34521" tvg-logo="[img]http://epg.propg.net/img/channel_icons/34521.png[/img]" ,DUO 4 EE HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/34521/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="23481" tvg-logo="[img]http://epg.propg.net/img/channel_icons/23481.png[/img]" ,DUO 5 EE HD
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/23481/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="1" group-title="Эстония5" tvg-id="63558" tvg-logo="[img]http://epg.propg.net/img/channel_icons/63558.png[/img]" ,TV3 Plus Estonia
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/63558/hls/pl.m3u8
+#EXTINF:-1 catchup-type="custom" catchup-template="{stream-url}?utc={utc}" tvg-rec="0" group-title="Эстония5" tvg-id="39118" tvg-logo="[img]http://epg.propg.net/img/channel_icons/39118.png[/img]" ,MyHits
+http://rr3.tvdosug.net/~201c530646afaf2b318ce39031c622e319c/39118/hls/pl.m3u8
