@@ -1,9 +1,21 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24",Авто 24
-https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
+http://158.101.222.193:88/georgia_play.php?id=auto24
+#https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
+#http://45.145.32.13:20440/avto24/index.m3u8?token=test
+#http://46.53.208.4:80/live/588.m3u8
+#http://188.225.31.197/bpk-tv/000000815/tve/index.m3u8
+#http://89.218.32.179:18000/play/a03d
+#http://213.230.65.254:8200/play/a01m
+#https://fs.uplink.kz/avto24/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive",Драйв
-http://193.25.8.59:8000/drive
+https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
+#https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
+#http://176.118.197.125/Draiv/index.m3u8
+#http://46.53.208.4:80/live/336.m3u8
+#http://85.117.37.41/drive/index.m3u8
+#https://mhd128.iptv2022.com/p/ryoT9EFOYIfjXBe60r-gnA,1777273293/streaming/drive/324/1/tracks-v5a1/mono.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1",Беларусь 1
 https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1460000_sleng.m3u8
@@ -37,29 +49,24 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #EXTINF:0 group-title="Бокс и единборства" tvg-logo="https://iptvx.one/picons/box-tv.png" tvg-id="box-tv",Бокс ТВ
 #EXTINF:0 group-title="Бокс и единборства" tvg-logo="https://iptvx.one/picons/fightbox-hd.png" tvg-id="fightbox-hd",Fight Box
 #EXTINF:0 group-title="Бокс и единборства" tvg-logo="https://iptvx.one/picons/ufc.png" tvg-id="ufc",Удар
-#EXTINF:0 group-title="Бокс и единборства"",Wrestling
-https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/bober.png" tvg-id="bobior",Бобер
-http://178.212.71.253:8002/play/a00m/index.m3u8
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" tvg-id="zagorodnaya-zhizn",Загородная Жизнь
+http://185.57.68.33/40/index.m3u8
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodny.png" tvg-id="zagorodny",Загородный
-http://ott-cdn.ucom.am/s31/04.m3u8
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodny-int.png" tvg-id="zagorodny-int",Загородный Int
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/usadba.png" tvg-id="usadba",Усадьба
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/dacha.png" tvg-id="dacha",Дача HD
 
-#EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/vf-bania.png" tvg-id="vf-bania",[VF] Баня
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/doktor.png" tvg-id="doktor",Доктор
-http://130.193.73.10:8937/play/a01q
-#EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/zhivi.png" tvg-id="zhivi",Живи
+http://45.11.139.43:8555/doctor/index.m3u8
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://epg.iptvx.one/picons/zhivi-aktivno.png" tvg-id="zhivi-aktivno",Живи Активно
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/zdorovoe-tv.png" tvg-id="zdorovoe-tv",Здоровое ТВ
-http://194.158.218.123:8880/ZdorovoeTV/index.m3u8
-#EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/tonus-tv.png" tvg-id="tonus-tv",Тонус
+http://31.148.48.15/Zdorovoe_TV/index.m3u8
+#EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/tonus-tv.png" tvg-id="tonus-tv",
+http://194.143.148.28:8080/Mir24/index.m3u8
 
 #EXTINF:0 group-title="Космос" tvg-logo="https://iptvx.one/picons/galaxy-tv.png" tvg-id="galaxy-tv",Galaxy TV
-http://31.173.165.29:8000/play/a024/index.m3u8
 #EXTINF:0 group-title="Космос" tvg-logo="https://iptvx.one/picons/nasa4k.png" tvg-id="nasa4k",Nasa TV
 #EXTINF:0 group-title="Космос" tvg-logo="https://iptvx.one/picons/kosmichesky.png" tvg-id="eureka-hd",Первый Космический
 
@@ -92,7 +99,7 @@ http://130.193.73.10:8937/play/a01s
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/360-int.png" tvg-id="360-int",360°
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
-#EXTINF:0 group-title="Новости", tvg-logo="https://iptvx.one/picons/izvestia.png" tvg-id="izvestia",Известия
+#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/izvestia.png" tvg-id="izvestia",Известия
 http://hls-igi.cdnvideo.ru/igi/igi_sq/playlist.m3u8
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/mir24.png" tvg-id="mir-24",Мир 24
 http://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
