@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
-#EXTINF:0 group-title="Авто и мотоспорт" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства." tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24",Авто 24
+#EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства.",Авто 24
 https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
 #http://45.145.32.13:20440/avto24/index.m3u8?token=test
 #http://46.53.208.4:80/live/588.m3u8
@@ -9,7 +9,7 @@ https://stream8.cinerama.uz/1430/tracks-v1a1/mono.m3u8
 #http://213.230.65.254:8200/play/a01m
 #https://fs.uplink.kz/avto24/tracks-v1a1/mono.ts.m3u8?token=onlinetv
 
-#EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive",Драйв
+#EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" tvg-description="«Драйв» — канал для тех, кто не мыслит своей жизни без автомобилей, мотоциклов и путешествий. Фанаты экстремального вождения и любители неторопливых автомобильных поездок по стране и миру, мотоциклисты и авто-антиквары, начинающие автолюбители и профессионалы со стажем, мужчины и женщины за рулем увидят на канале «Драйв» репортажи с выставок и автосалонов, тест-драйвы новинок мирового и отечественного автомобильного рынка, комментарии известных автоэкспертов, программы о культовых марках и тюнинге.",Драйв
 https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
 #https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
 #http://176.118.197.125/Draiv/index.m3u8
@@ -17,7 +17,7 @@ https://stream8.cinerama.uz/1421/tracks-v1a1/mono.m3u8
 #http://85.117.37.41/drive/index.m3u8
 #https://mhd128.iptv2022.com/p/ryoT9EFOYIfjXBe60r-gnA,1777273293/streaming/drive/324/1/tracks-v5a1/mono.m3u8
 
-#EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1",Беларусь 1
+#EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1" tvg-description="«Беларусь 1» — общенациональный телевизионный канал республики Беларусь. Входит в структуру Национальной государственной телерадиокомпании Республики Беларусь. Новости, публицистические, познавательные и развлекательные программы, а также сериалы и художественные фильмы. Начало своё вещание с 1 января 1956 года в 19:30 по минскому времени.",Беларусь 1
 https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1460000_sleng.m3u8
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus2hd.png" tvg-id="belarus2",Беларусь 2
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8
