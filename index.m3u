@@ -41,23 +41,17 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belros.png" tvg-id="tro" tvg-description="«БелРос» (до 24 сентября 2017 года — «ТРО») — именно это прочтение аббревиатуры, как считает бывший генеральный директор канала Игорь Угольников, является более точным в определении задач и идейной направленности телеканала.",БелРос
-http://168.119.58.242:80/play/lfQ0NR9r7DjAteII3sAp-Ep1AgKG_ZCP2l-3lmVE0MA/ts
-
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/ont-by.png" tvg-id="ont-by" tvg-description="«ОНТ» (ОбщеНациональное Телевидение, бел. Агульнанацыянальнае тэлебачанне) — общественный белорусский телеканал. Начало своё вещание с 25 июня 2002 года в 16:30 по минскому времени на частоте российского «Первого канала». Телеканал транслирует программы собственного производства и рейтинговые программы «Первого канала», а также программы и сериалы других российских телеканалов.",ОНТ
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/pervy-info-by.png" tvg-id="pervy-info-by" tvg-description="«Первый информационный» — первый информационный телеканал Республики Беларусь. Входит в структуру Белтелерадиокомпании. Начало своё вещание с 17 сентября 2024 года.",Первый информационный
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/rtr-belarus.png" tvg-id="rtr-belarus" tvg-description="«РТР-Беларусь» (официальное название телеканала — «Россия-Беларусь») — белорусский телеканал, является собственностью телекомпании «СТВ».",РТР Беларусь
-
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/svetloe-tv.png" tvg-id="svetloe-tv" tvg-description="«Светлое ТВ» — телеканал, где каждый, независимо от возраста и увлечений и профессии, найдет программу по своим интересам. Всему, что вы хотели бы сделать своими руками, но не решались, вас научат! Это «золотая жила» для рукодельников, кулинаров, молодых мам, садоводов и просто активных людей, которые стремятся сделать свою жизнь яркой и увлекательной. Мы предлагаем программы для женщин и мужчин, фильмы для детей и очень много путешествий.",Светлое ТВ
-http://46.53.208.4:80/live/973.m3u8
+#EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/stv-by.png" tvg-id="stv-by" tvg-description="«СТВ» — белорусский телеканал, один из трёх национальных телеканалов, вещающий на всю территорию Беларуси.",СТВ
+#EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/tv3-by.png" tvg-id="tv3-by" tvg-description="«ТВ-3 Беларусь» – белорусский познавательно-развлекательный телеканал. Основу сетки составляют российские и зарубежные телесериалы, документальные фильмы российского производства, фильмы и сериалы в жанре «фэнтези», затрагивающие самые сокровенные стороны неопознанного и мистического, развлекательные шоу.",ТВ-3 Беларусь
 
-#EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/stv-by.png" tvg-id="stv-by",СТВ
-
-#EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/tv3-by.png" tvg-id="tv3-by",ТВ3 Беларусь
-
-#EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk",РБК
+#EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk" tvg-description="«РБК» — российский бизнес-телеканал. На нём представлены экономические, финансовые и политические новости Российской Федерации и зарубежных стран.",РБК
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #https://flussonic.mkpnet.ru/tv-d76fe26181666459/video.m3u8
 #http://hls127.freeott.top:8080/RBK/mono.m3u8
@@ -76,7 +70,7 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #http://168.119.58.242:80/play/lfQ0NR9r7DjAteII3sAp-GvleNJ7H4DrOtSV8F_4_Ms/ts
 
 #EXTINF:0 group-title="Бокс и единборства" tvg-logo="https://iptvx.one/picons/box-tv.png" tvg-id="box-tv",Бокс ТВ
-#https://kino.zunotv.workers.dev/boks/index.m3u8
+https://kino.zunotv.workers.dev/boks/index.m3u8
 #https://a3569457567-s70378.cdn.ngenix.net/boks_tv/1/index.m3u8
 #http://46.32.176.50/bokstv/index.m3u8
 #http://77.245.98.18:8000/play/a017
