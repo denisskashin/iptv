@@ -1854,17 +1854,11 @@ https://flussonic.mkpnet.ru/tv-5f6d3cfda1af8989/video.m3u8
 #http://95.181.17.14/dvr02/mobile2/comedytv/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjYgNjo1ODo1NSBQTSZoYXNoX3ZhbHVlPXpSZWpVZkM4d1pISlh4bHA1a1dySGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 
 
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-05-03 23:49:39  (5 URLs in 5 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test",sport Футбол 1
-http://45.145.32.13:20440/match_football1/index.m3u8?token=test
-#EXTINF:-1 group-title="test",sport Футбол 2
-http://45.145.32.13:20440/match_football2/index.m3u8?token=test
-#EXTINF:-1 group-title="test",sport Футбол 3
-http://45.145.32.13:20440/match_football3/index.m3u8?token=test
-#EXTINF:-1 tvg-name="jk_only_murders" group-title="test",jk_Only_Murders
-http://pl.online24.pm/play/50083/F6E1DD42544DD10/video.m3u8
-#EXTINF:-1 tvg-name="jk_emeli" group-title="test",jk_Emeli
-http://pl.online24.pm/play/50124/F6E1DD42544DD10/video.m3u8
+#EXTINF:-1  group-title="test",Закон ТВᴴᴰ
+http://195.189.60.253/zakon_tv_hd/video.m3u8
+#EXTINF:-1 tvg-id="3-plus-ee" tvg-logo="https://iptvx.one/picons/3-plus-ee.png" group-title="test" ,TV3 Gold [EE]
+http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_OTT_31TVK_CHEL/variant.m3u8
+#EXTINF:-1 tvg-id="eda-hd-int" tvg-logo="https://iptvx.one/picons/eda-hd-int.png" group-title="test" ,Еда Премиум Int. HD
+https://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
+#EXTINF:-1 group-title="test",Окко Спорт 2
+http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
