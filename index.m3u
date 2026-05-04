@@ -1419,7 +1419,7 @@ https://flussonic.mkpnet.ru/tv-5f6d3cfda1af8989/video.m3u8
 #http://cdntv.online/high/6j95s4drt3/476.m3u8
 #http://95.181.17.14/dvr02/mobile2/comedytv/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9NS8zLzIwMjYgNjo1ODo1NSBQTSZoYXNoX3ZhbHVlPXpSZWpVZkM4d1pISlh4bHA1a1dySGc9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 
-#EXTINF:-1  group-title="candidate" tvg-description="Описание отсутствует",Закон ТВᴴᴰ
+#EXTINF:-1 group-title="candidate" tvg-description="Описание отсутствует",Закон ТВᴴᴰ
 http://195.189.60.253/zakon_tv_hd/video.m3u8
 
 #EXTINF:-1 group-title="candidate" tvg-description="Окко Спорт 2 — второй спортивный канал сервиса Okko.",Окко Спорт 2
@@ -1428,48 +1428,113 @@ http://185.221.213.254:8080/Okko/tracks-v1a1/index.m3u8
 #EXTINF:-1 group-title="candidate" tvg-description="M Sport — спортивный телеканал.",M Sport vpn
 http://5.188.159.128:8070/megogo_sport/index.m3u8
 
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-05-04 22:34:43  (2 URLs in 2 channel group(s))
-# ───────────────────────────────────────────────────
-
-#EXTINF:-1 tvg-logo="" group-title="test",ФутболТВ
+#EXTINF:-1 tvg-logo="" group-title="candidate",ФутболТВ
 https://live.teleradiocom.tj/8/3m.m3u8
 
+#EXTINF:-1 group-title="candidate",#КтоКуда
+https://kino.zunotv.workers.dev/kto_kuda/index.m3u8
+
+#EXTINF:-1 group-title="candidate",1 არხი განათლება
+http://tv.cdn.xsg.ge/gpb-2tv/tracks-v1a1/mono.m3u8
+
+
 
 
 # ── test ──────────────────────────────────────────
-# Added: 2026-05-04 23:16:27  (16 URLs in 16 channel group(s))
+# Added: 2026-05-04 23:28:13  (48 URLs in 47 channel group(s))
 # ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test" tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/28/29/2829eb8fb8255f87880c22269840dbd4.jpg", 100 000 ЗАХВАТЫВАЮЩИХ ПЕЙЗАЖЕЙ
-https://river-4-412.rtbcdn.ru/hls-vod/Y3LB98VMVduJs1CdRChmBQ/1778337939/1897/0x5000c500e4a15fac/15684d4035e5453dac85c2650f8e6dbd.mp4.m3u8?i=3840x2160_32513
-#EXTINF:-1 group-title="test",#КтоКуда
-https://kino.zunotv.workers.dev/kto_kuda/index.m3u8
-#EXTINF:-1 group-title="test",1 არხი განათლება
-http://tv.cdn.xsg.ge/gpb-2tv/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="test",  18+ Грязные люди на работе
-https://video1.tizam.cc/films/DirtyMenAtWork.mp4
-#EXTINF:-1 group-title="test",  18+ zamuzhnyaya_no_raskreposhchennaya
-https://video2.tizam.cc/files/2284674/zamuzhnyaya_no_raskreposhchennaya.mp4
-#EXTINF:-1 group-title="test",  18+ грязные_девушки
-https://video1.tizam.cc/files/2492463/filthy_girls.mp4
-#EXTINF:-1 group-title="test",1
-https://s2.ebacdn.net/videos_ssd3/pornhub/ph62111bd56a3d2/pornhub_ph62111bd56a3d2.mp4
-#EXTINF:-1 group-title="test",10
-https://s3.ebacdn.net/videos_ssd1/pornhub/68bf28621eddd/pornhub_68bf28621eddd.mp4
-#EXTINF:-1 group-title="test",11
-https://s2.ebacdn.net/videos_ssd2/pornhub/68e7fa1797469/pornhub_68e7fa1797469.mp4
-#EXTINF:-1 group-title="test",13
-https://s2.ebacdn.net/videos_ssd2/pornhub/68ba0134963cd/pornhub_68ba0134963cd.mp4
-#EXTINF:-1 group-title="test",12
-https://s4.ebacdn.net/videos_ssd1/pornhub/688f051571078/pornhub_688f051571078.mp4
-#EXTINF:-1 group-title="test",14
-https://s1.ebacdn.net/videos_ssd1/pornhub/68ca8261cd9b0/pornhub_68ca8261cd9b0.mp4
-#EXTINF:-1 group-title="test",15
-https://s3.ebacdn.net/videos_ssd1/pornhub/688f8dff61589/pornhub_688f8dff61589.mp4
-#EXTINF:-1 group-title="test",16
-https://s4.ebacdn.net/videos_ssd2/pornhub/68adc162bbcec/pornhub_68adc162bbcec.mp4
-#EXTINF:-1 group-title="test",17
-https://s4.ebacdn.net/videos_ssd1/pornhub/6885fe1a8fb13/pornhub_6885fe1a8fb13.mp4
-#EXTINF:-1 group-title="test",18
-https://s1.ebacdn.net/videos_ssd1/pornhub/64ef9b915ae87/pornhub_64ef9b915ae87.mp4
+#EXTINF:-1 group-title="test",360
+http://89.218.32.179:18000/play/a02d
+#EXTINF:0 tvg-id="275" tvg-logo="http://epg.cdntv.online/img/275.png" catchup="shift" catchup-days="3" timeshift="3" group-title="test", 360
+http://cdntv.online/high/6j95s4drt3/275.m3u8
+#EXTINF:0 tvg-id="363" tvg-logo="http://epg.cdntv.online/img/363.png" catchup="shift" catchup-days="3" timeshift="3" group-title="test", 360 HD
+http://cdntv.online/high/6j95s4drt3/363.m3u8
+#EXTINF:0 tvg-id="1686" tvg-logo="http://epg.cdntv.online/img/1686.png" group-title="test", EroLuxe Blondes
+http://cdntv.online/high/6j95s4drt3/1686.m3u8
+#EXTINF:0 tvg-id="1684" tvg-logo="http://epg.cdntv.online/img/1684.png" group-title="test", EroLuxe 60FPS
+http://cdntv.online/high/6j95s4drt3/1684.m3u8
+#EXTINF:0 tvg-id="1685" tvg-logo="http://epg.cdntv.online/img/1685.png" group-title="test", EroLuxe Anal
+http://cdntv.online/high/6j95s4drt3/1685.m3u8
+#EXTINF:0 tvg-id="1689" tvg-logo="http://epg.cdntv.online/img/1689.png" group-title="test", EroLuxe Cosplay
+http://cdntv.online/high/6j95s4drt3/1689.m3u8
+#EXTINF:0 tvg-id="1687" tvg-logo="http://epg.cdntv.online/img/1687.png" group-title="test", EroLuxe Blowjob
+http://cdntv.online/high/6j95s4drt3/1687.m3u8
+#EXTINF:0 tvg-id="1691" tvg-logo="http://epg.cdntv.online/img/1691.png" group-title="test", EroLuxe Gays
+http://cdntv.online/high/6j95s4drt3/1691.m3u8
+#EXTINF:0 tvg-id="1688" tvg-logo="http://epg.cdntv.online/img/1688.png" group-title="test", EroLuxe Cinema
+http://cdntv.online/high/6j95s4drt3/1688.m3u8
+#EXTINF:0 tvg-id="1690" tvg-logo="http://epg.cdntv.online/img/1690.png" group-title="test", EroLuxe Ebony
+http://cdntv.online/high/6j95s4drt3/1690.m3u8
+#EXTINF:0 tvg-id="1693" tvg-logo="http://epg.cdntv.online/img/1693.png" group-title="test", EroLuxe Henati
+http://cdntv.online/high/6j95s4drt3/1693.m3u8
+#EXTINF:0 tvg-id="1692" tvg-logo="http://epg.cdntv.online/img/1692.png" group-title="test", EroLuxe Gloryhole
+http://cdntv.online/high/6j95s4drt3/1692.m3u8
+#EXTINF:0 tvg-id="1694" tvg-logo="http://epg.cdntv.online/img/1694.png" group-title="test", EroLuxe Japanese
+http://cdntv.online/high/6j95s4drt3/1694.m3u8
+#EXTINF:0 tvg-id="1696" tvg-logo="http://epg.cdntv.online/img/1696.png" group-title="test", EroLuxe Massage
+http://cdntv.online/high/6j95s4drt3/1696.m3u8
+#EXTINF:0 tvg-id="1695" tvg-logo="http://epg.cdntv.online/img/1695.png" group-title="test", EroLuxe Lesbians
+http://cdntv.online/high/6j95s4drt3/1695.m3u8
+#EXTINF:0 tvg-id="1699" tvg-logo="http://epg.cdntv.online/img/1699.png" group-title="test", EroLuxe Orgy
+http://cdntv.online/high/6j95s4drt3/1699.m3u8
+#EXTINF:0 tvg-id="1697" tvg-logo="http://epg.cdntv.online/img/1697.png" group-title="test", EroLuxe Milf
+http://cdntv.online/high/6j95s4drt3/1697.m3u8
+#EXTINF:0 tvg-id="1700" tvg-logo="http://epg.cdntv.online/img/1700.png" group-title="test", EroLuxe Pregnant
+http://cdntv.online/high/6j95s4drt3/1700.m3u8
+#EXTINF:0 tvg-id="1698" tvg-logo="http://epg.cdntv.online/img/1698.png" group-title="test", EroLuxe Russian Teens
+http://cdntv.online/high/6j95s4drt3/1698.m3u8
+#EXTINF:0 tvg-id="1701" tvg-logo="http://epg.cdntv.online/img/1701.png" group-title="test", EroLuxe Shemales
+http://cdntv.online/high/6j95s4drt3/1701.m3u8
+#EXTINF:0 tvg-id="1702" tvg-logo="http://epg.cdntv.online/img/1702.png" group-title="test", EroLuxe Solo
+http://cdntv.online/high/6j95s4drt3/1702.m3u8
+#EXTINF:0 tvg-id="1705" tvg-logo="http://epg.cdntv.online/img/1705.png" group-title="test", EroLuxe VIP 4K 60FPS
+http://cdntv.online/high/6j95s4drt3/1705.m3u8
+#EXTINF:0 tvg-id="1703" tvg-logo="http://epg.cdntv.online/img/1703.png" group-title="test", EroLuxe Step Family
+http://cdntv.online/high/6j95s4drt3/1703.m3u8
+#EXTINF:0 tvg-id="1704" tvg-logo="http://epg.cdntv.online/img/1704.png" group-title="test", EroLuxe 4K UHD
+http://cdntv.online/high/6j95s4drt3/1704.m3u8
+#EXTINF:0 tvg-id="1707" tvg-logo="http://epg.cdntv.online/img/1707.png" group-title="test", EroLuxe BabySitter
+http://cdntv.online/high/6j95s4drt3/1707.m3u8
+#EXTINF:0 tvg-id="1706" tvg-logo="http://epg.cdntv.online/img/1706.png" group-title="test", EroLuxe BBW
+http://cdntv.online/high/6j95s4drt3/1706.m3u8
+#EXTINF:0 tvg-id="1708" tvg-logo="http://epg.cdntv.online/img/1708.png" group-title="test", EroLuxe BDSM
+http://cdntv.online/high/6j95s4drt3/1708.m3u8
+#EXTINF:0 tvg-id="1709" tvg-logo="http://epg.cdntv.online/img/1709.png" group-title="test", EroLuxe Big Cock
+http://cdntv.online/high/6j95s4drt3/1709.m3u8
+#EXTINF:0 tvg-id="1712" tvg-logo="http://epg.cdntv.online/img/1712.png" group-title="test", EroLuxe Cuckold
+http://cdntv.online/high/6j95s4drt3/1712.m3u8
+#EXTINF:0 tvg-id="1714" tvg-logo="http://epg.cdntv.online/img/1714.png" group-title="test", EroLuxe Fake Taxi
+http://cdntv.online/high/6j95s4drt3/1714.m3u8
+#EXTINF:0 tvg-id="1710" tvg-logo="http://epg.cdntv.online/img/1710.png" group-title="test", EroLuxe Brunette
+http://cdntv.online/high/6j95s4drt3/1710.m3u8
+#EXTINF:0 tvg-id="1711" tvg-logo="http://epg.cdntv.online/img/1711.png" group-title="test", EroLuxe CheerLeader
+http://cdntv.online/high/6j95s4drt3/1711.m3u8
+#EXTINF:0 tvg-id="1713" tvg-logo="http://epg.cdntv.online/img/1713.png" group-title="test", EroLuxe Creampie
+http://cdntv.online/high/6j95s4drt3/1713.m3u8
+#EXTINF:0 tvg-id="1715" tvg-logo="http://epg.cdntv.online/img/1715.png" group-title="test", EroLuxe Foot Fetish
+http://cdntv.online/high/6j95s4drt3/1715.m3u8
+#EXTINF:0 tvg-id="1716" tvg-logo="http://epg.cdntv.online/img/1716.png" group-title="test", EroLuxe Fisting
+http://cdntv.online/high/6j95s4drt3/1716.m3u8
+#EXTINF:0 tvg-id="1718" tvg-logo="http://epg.cdntv.online/img/1718.png" group-title="test", EroLuxe Parody
+http://cdntv.online/high/6j95s4drt3/1718.m3u8
+#EXTINF:0 tvg-id="1717" tvg-logo="http://epg.cdntv.online/img/1717.png" group-title="test", EroLuxe GangBang
+http://cdntv.online/high/6j95s4drt3/1717.m3u8
+#EXTINF:0 tvg-id="1719" tvg-logo="http://epg.cdntv.online/img/1719.png" group-title="test", EroLuxe POV
+http://cdntv.online/high/6j95s4drt3/1719.m3u8
+#EXTINF:0 tvg-id="1720" tvg-logo="http://epg.cdntv.online/img/1720.png" group-title="test", EroLuxe Public Agent
+http://cdntv.online/high/6j95s4drt3/1720.m3u8
+#EXTINF:0 tvg-id="1721" tvg-logo="http://epg.cdntv.online/img/1721.png" group-title="test", EroLuxe RedHeads
+http://cdntv.online/high/6j95s4drt3/1721.m3u8
+#EXTINF:0 tvg-id="1722" tvg-logo="http://epg.cdntv.online/img/1722.png" group-title="test", EroLuxe Schoolgirl
+http://cdntv.online/high/6j95s4drt3/1722.m3u8
+#EXTINF:0 tvg-id="1723" tvg-logo="http://epg.cdntv.online/img/1723.png" group-title="test", EroLuxe Asian
+http://cdntv.online/high/6j95s4drt3/1723.m3u8
+#EXTINF:0 tvg-id="1753" tvg-logo="http://epg.cdntv.online/img/1753.png" group-title="test", 360 TV
+http://cdntv.online/high/6j95s4drt3/1753.m3u8
+#EXTINF:0 tvg-id="1831" tvg-logo="http://epg.cdntv.online/img/1831.png" group-title="test", Ertsulovneba
+http://cdntv.online/high/6j95s4drt3/1831.m3u8
+#EXTINF:-1 group-title="test",EROXXX
+http://143.244.63.87/eroxxx/playlist.m3u8
+#http://212.102.38.45/live/test_eroxxx_hd_hevc/playlist.m3u8
+#EXTINF:-1 group-title="test",Erox
+http://212.102.38.45/live/test_erox_hd_hevc/playlist.m3u8
