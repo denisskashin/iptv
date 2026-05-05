@@ -64,7 +64,6 @@ http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk" tvg-description="«РБК» — российский бизнес-телеканал. На нём представлены экономические, финансовые и политические новости Российской Федерации и зарубежных стран.",РБК
 http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #http://hls127.freeott.top:8080/RBK/mono.m3u8
-#http://46.32.176.50/rbk/index.m3u8
 #http://37.46.49.14:18010/play/a01m/index.m3u8
 #http://89.218.32.179:18000/play/a02c
 #http://hls127.freeott.top:8080/RBK/video.m3u8
@@ -75,9 +74,10 @@ http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 
 #EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/uspex.png" tvg-id="uspex" tvg-description="Успех — российский тематический телеканал о бизнесе, успехе и личностном развитии.",Успех
 
+http://utv.iptv2022.com/tracks-v1a1/mono.m3u8
+
 #EXTINF:0 group-title="Бокс и единборства" tvg-logo="https://iptvx.one/picons/box-tv.png" tvg-id="box-tv" tvg-description="Телеканал «Бокс ТВ», начиная с 23 июля 2014 года, предлагает зрителю трансляции 90% всех мировых топ-боксёрских поединков.",Бокс ТВ
 https://kino.zunotv.workers.dev/boks/index.m3u8
-#http://46.32.176.50/bokstv/index.m3u8
 #http://185.46.16.239:8000/Eurosport_1
 #http://158.101.222.193:88/georgia_play.php?id=boxtv
 #https://kino.zunotv.workers.dev/boks_hd/index.m3u8
@@ -134,8 +134,7 @@ https://stream8.cinerama.uz/1427/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://epg.iptvx.one/picons/zhivi-aktivno.png" tvg-id="zhivi-aktivno" tvg-description="Живи Активно — российский тематический телеканал о здоровом образе жизни, спорте и фитнесе.",Живи Активно
 
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/zdorovoe-tv.png" tvg-id="zdorovoe-tv" tvg-description="Здоровое ТВ — российский тематический телеканал о здоровье, медицине и здоровом образе жизни.",Здоровое ТВ
-https://s04.watcher.uz/114/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1428/tracks-v1a1/mono.m3u8
 #http://193.25.8.59:8000/zdorovoetv
 
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/tonus-tv.png" tvg-id="tonus-tv",
@@ -166,7 +165,6 @@ https://kino.zunotv.workers.dev/eda/index.m3u8
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/kuxnia-tv.png" tvg-id="kuxnia-tv" tvg-description="Кухня ТВ — российский тематический телеканал, посвящённый кулинарии, рецептам и гастрономии.",Кухня ТВ
 https://kino.zunotv.workers.dev/kuhnja_tv/index.m3u8
 #http://hls127.freeott.top:8080/Kuhnya_TV/mono.m3u8
-#http://46.32.176.50/kuxnyatv/index.m3u8
 #http://hls127.freeott.top:8080/Kuhnya_TV/video.m3u8
 #https://stream8.cinerama.uz/1236/tracks-v1a1/mono.m3u8
 #https://kino.zunotv.workers.dev/kuhnya_hd/index.m3u8
@@ -203,10 +201,8 @@ https://stream8.cinerama.uz/1053/tracks-v1a1/mono.m3u8
 # НТВ
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv" tvg-description="НТВ — российский федеральный телеканал, один из крупнейших в стране. Специализируется на новостях, сериалах, документальном кино и развлекательных программах.",НТВ
-http://46.32.176.50/ntvplus/index.m3u8
-#http://37.46.49.14:18010/play/a024/index.m3u8
+http://37.46.49.14:18010/play/a024/index.m3u8
 #http://89.218.32.179:18000/play/a02q
-#http://31.131.141.195:8000/play/1040/index.m3u8
 #http://185.46.16.239:8000/NTV
 #https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8
 #http://95.47.155.244:8001/play/a004
@@ -243,9 +239,7 @@ https://igi-hls.cdnvideo.ru/igi/igi_tcode/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/mir24.png" tvg-id="mir-24" tvg-description="Мир 24 — круглосуточный информационный канал МТРК «Мир». Освещает события в России и странах СНГ.",Мир 24
 http://hls-mirtv.cdnvideo.ru/mirtv-parampublish/mir24_2500/tracks-v1a1/mono.m3u8
-#https://s04.watcher.uz/81/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #http://5.188.159.128:8070/mir_24/index.m3u8
-#http://46.32.176.50/mir24/index.m3u8
 #http://37.46.49.14:18010/play/a04m/index.m3u8
 #http://89.218.32.179:18000/play/a01t
 #https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8
@@ -279,9 +273,7 @@ https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda" tvg-description="Звезда — российский федеральный телеканал, учреждённый Министерством обороны РФ. Транслирует военно-патриотический контент, новости и художественные фильмы.",Звезда
 https://s05.watcher.uz/43/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#http://46.32.176.50/zvezda/index.m3u8
 #http://37.46.49.14:18010/play/a028/index.m3u8
-#http://31.131.141.195:8000/play/2070/index.m3u8
 #http://185.46.16.239:8000/Zvezda
 #https://stream8.cinerama.uz/1050/tracks-v1a1/mono.m3u8
 #http://95.47.155.244:8001/play/a017
@@ -310,10 +302,8 @@ https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir" tvg-description="Мир — межгосударственная телерадиокомпания стран СНГ. Транслирует новости, документальные фильмы и культурные программы для русскоязычной аудитории.",Мир
 http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #https://s03.watcher.uz/80/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#http://46.32.176.50/mir/index.m3u8
 #http://37.46.49.14:18010/play/a045/index.m3u8
 #http://89.218.32.179:18000/play/a003
-#http://31.131.141.195:8000/play/a003/index.m3u8
 #http://185.46.16.239:8000/Mir
 #https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8
 #http://95.47.155.244:8001/play/a018
@@ -329,9 +319,7 @@ http://hls.mirtv.cdnvideo.ru/mirtv-parampublish/mirtv_2500/playlist.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/novy-mir.png" tvg-id="novy-mir" tvg-description="Новый мир — российский телеканал, транслирующий позитивный контент о современной жизни.",Новый мир
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia" tvg-description="Ностальгия — российский телеканал, специализирующийся на советских и российских ретро-программах, фильмах и музыке.",Ностальгия
-http://46.32.176.50/nostalgiya/index.m3u8
-#http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
-#http://31.148.48.15:80/Nostalgiya/index.m3u8
+http://hls127.freeott.top:8080/Nostalgiya/video.m3u8
 https://kino.zunotv.workers.dev/nostalgiya/index.m3u8
 #http://hls127.freeott.top:8080/Nostalgiya/mono.m3u8
 
@@ -340,8 +328,7 @@ https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #http://rt-vlg-srnk-htlive.cdn.ngenix.net/hls/CH_R01_NTM/variant.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr" tvg-description="ОТР (Общественное телевидение России) — российский некоммерческий телеканал. Транслирует общественно-политические, культурные и образовательные программы.",ОТР
-#http://31.131.141.195:8000/play/1090/index.m3u8
-#http://185.46.16.239:8000/OTR
+http://185.46.16.239:8000/OTR
 #http://95.47.155.244:8001/play/a009
 #http://193.25.8.59:8000/otr
 #http://5.188.221.43:8080/play/otr
@@ -350,10 +337,8 @@ https://live-ntm13.cdnvideo.ru/ntm13/smil:ntm13.smil/playlist.m3u8
 #http://46.32.64.39:10009
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy" tvg-description="Первый канал — крупнейший федеральный телеканал России. Ведёт вещание с 1951 года. Показывает новости, художественные фильмы, сериалы и развлекательные программы.",Первый канал
-https://s04.watcher.uz/11/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#http://37.46.49.14:18010/play/a021/index.m3u8
+http://37.46.49.14:18010/play/a021/index.m3u8
 #http://89.218.32.179:18000/play/a03q
-#http://31.131.141.195:8000/play/1010/index.m3u8
 #https://stream8.cinerama.uz/1019/tracks-v1a1/mono.m3u8
 #http://95.47.155.244:8001/play/a001
 #http://5.188.221.43:8080/play/ort
@@ -379,10 +364,8 @@ https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Пятница! — российский развлекательный телеканал, ориентированный на молодёжную аудиторию. Показывает реалити-шоу, сериалы и лайфстайл-программы.",Пятница!
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",РЕН ТВ
-http://46.32.176.50/rentv/index.m3u8
-#http://37.46.49.14:18010/play/a026/index.m3u8
+http://37.46.49.14:18010/play/a026/index.m3u8
 #http://89.218.32.179:18000/play/a02s
-#http://31.131.141.195:8000/play/2010/index.m3u8
 #http://185.46.16.239:8000/REN_TV
 #http://95.47.155.244:8001/play/a011
 #http://193.25.8.59:8000/ren
@@ -399,9 +382,7 @@ http://46.32.176.50/rentv/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — общероссийский государственный телевизионный канал. Транслирует новости, художественные фильмы, сериалы и общественно-политические программы.",Россия 1
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
-#http://46.32.176.50/rossiya1/index.m3u8
 #http://37.46.49.14:18010/play/a054/index.m3u8
-#http://31.131.141.195:8000/play/1020/index.m3u8
 #http://185.46.16.239:8000/Rossiya_1
 #https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8
 #http://95.47.155.244:8001/play/a002
@@ -418,7 +399,6 @@ https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
 http://89.218.32.179:18000/play/a01k
-#http://31.131.141.195:8000/play/1070/index.m3u8
 #http://185.46.16.239:8000/Rossiya_24
 #https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8
 #https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia24-hd/index.m3u8
@@ -434,8 +414,7 @@ http://89.218.32.179:18000/play/a01k
 http://195.26.83.96:7029/play/a003
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts" tvg-description="СТС — российский развлекательный телеканал. Специализируется на комедийных сериалах, фильмах и молодёжных программах.",СТС
-http://31.131.141.195:8000/play/2030/index.m3u8
-#http://185.46.16.239:8000/STS
+http://185.46.16.239:8000/STS
 #http://95.47.155.244:8001/play/a013
 #http://193.25.8.59:8000/ESPN
 #http://5.188.221.43:8080/play/sts
@@ -456,8 +435,6 @@ http://217.114.191.150/Subbota/index.m3u8
 http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #https://s05.watcher.uz/41/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #https://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
-#http://46.32.176.50/tvc/index.m3u8
-#http://31.131.141.195:8000/play/1100/index.m3u8
 #https://stream8.cinerama.uz/1025/tracks-v1a1/mono.m3u8
 #http://95.47.155.244:8001/play/a010
 #http://5.188.221.43:8080/play/tv-centr
@@ -466,7 +443,6 @@ http://tvc-hls.cdnvideo.ru/tvc-res/smil:vd9221_2.smil/playlist.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 http://37.46.49.14:18010/play/a029/index.m3u8
 #http://89.218.32.179:18000/play/a00s
-#http://31.131.141.195:8000/play/2090/index.m3u8
 #http://185.46.16.239:8000/TNT
 #http://95.47.155.244:8001/play/a019
 #http://5.188.221.43:8080/play/tnt
@@ -488,6 +464,9 @@ http://37.46.49.14:18010/play/a029/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che" tvg-description="Описание отсутствует",Че!
 http://5.188.221.43:8080/play/che
+#http://89.218.32.179:18000/play/a04j
+#http://195.26.83.96:7009/play/89/index.m3u8
+#http://193.25.8.59:8000/perec
 
 # Охота и Рыбалка
 
@@ -498,7 +477,6 @@ http://5.188.221.43:8080/play/che
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/dikaya-rybalka-hd.png" tvg-id="dikaya-rybalka-hd" tvg-description="Дикая Рыбалка — российский тематический телеканал, посвящённый рыбалке в дикой природе.",Дикая Рыбалка
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/dikiy.png" tvg-id="dikiy" tvg-description="Дикий — российский тематический телеканал, специализирующийся на программах об охоте и рыбалке.",Дикий
-http://46.32.176.50/dikiy/index.m3u8
 #http://hls127.freeott.top:8080/Dikiy/video.m3u8
 #http://hls127.freeott.top:8080/Dikiy/mono.m3u8
 
@@ -506,7 +484,6 @@ http://46.32.176.50/dikiy/index.m3u8
 http://188.113.190.15/218/tracks-v1a1/index.m3u8
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/oxota-i-rybalka.png" tvg-id="oxota-i-rybalka" tvg-description="Охота и Рыбалка — российский тематический телеканал, посвящённый охоте и рыбалке.",Охота и Рыбалка
-http://46.32.176.50/oxotoiribalka/index.m3u8
 #https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8
 #http://193.25.8.59:8000/ohota
 #http://37.46.49.14:18010/play/a02u/index.m3u8
@@ -520,7 +497,6 @@ http://213.169.39.30:5262
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/oxotnik-i-rybolov-hd.png" tvg-id="oxotnik-i-rybolov-hd" tvg-description="Охотник и Рыболов — российский тематический телеканал для любителей охоты и рыбной ловли.",Охотник и Рыболов
 https://s06.watcher.uz/123/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #https://stream8.cinerama.uz/1413/tracks-v1a1/mono.m3u8
-#http://31.148.48.15:80/Dom_Kino_Premium_HD/index.m3u8
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/rybalka.png" tvg-id="rybalka" tvg-description="Рыбалка — российский тематический телеканал, посвящённый рыболовному спорту и любительской рыбалке.",Рыбалка
 http://iptv.prosto.tv:7000/ch344/video.m3u8
@@ -555,7 +531,6 @@ http://37.46.49.14:18010/play/a02e/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel" tvg-description="Discovery Channel — международный познавательный телеканал. Специализируется на документальных фильмах о науке, природе, технологиях и приключениях.",Discovery
 https://stream8.cinerama.uz/1039/tracks-v1a1/mono.m3u8
 #https://kino.zunotv.workers.dev/discovery_channel_hd/index.m3u8
-#http://46.32.176.50/discoverychannel/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-description="Докубокс — российский телеканал, специализирующийся на документальном кино.",Докубокс
 
@@ -567,7 +542,6 @@ https://stream8.cinerama.uz/1039/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/idxtra.png" tvg-id="id-xtra-eu" tvg-description="Investigation Discovery — международный тематический канал, специализирующийся на документальных программах о расследованиях преступлений.",Investigation Discovery
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/istoria.png" tvg-id="istoria" tvg-description="История — российский тематический телеканал, посвящённый историческим событиям и документальному кино.",История
-http://46.32.176.50/istoriya/index.m3u8
 #http://89.218.32.179:18000/play/a03a
 #http://hls127.freeott.top:8080/Istoriya/video.m3u8
 #https://stream8.cinerama.uz/1266/tracks-v1a1/mono.m3u8
@@ -579,7 +553,6 @@ http://46.32.176.50/istoriya/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-description="KLI Docu — документальный телеканал.",KLI Docu
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/kto-est-kto.png" tvg-id="kto-est-kto" tvg-description="Кто есть кто — российский телеканал, транслирующий биографические программы и документальные фильмы о знаменитостях.",Кто есть кто
-http://46.32.176.50/ktoestkto/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/liberty-nauka.png" tvg-id="liberty-nauka" tvg-description="Liberty Наука — научно-популярный телеканал медиагруппы Liberty.",Liberty Наука
 
@@ -588,8 +561,7 @@ http://46.32.176.50/ktoestkto/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nano-hd.png" tvg-id="nano-hd" tvg-description="Нано — российский научно-популярный телеканал о технологиях и инновациях.",Нано
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20" tvg-description="Наука — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о науке, технологиях и природе.",Наука
-http://46.32.176.50/nauka/index.m3u8
-#http://89.218.32.179:18000/play/a03h
+http://89.218.32.179:18000/play/a03h
 #http://hls127.freeott.top:8080/NAUKA/video.m3u8
 #https://stream8.cinerama.uz/1248/tracks-v1a1/mono.m3u8
 #http://178.134.1.158:8081/nauka/index.m3u8
@@ -640,14 +612,11 @@ https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8
 # Природа
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" tvg-id="animal-planet-eu" tvg-description="Animal Planet — международный телеканал о животных и природе. Транслирует документальные программы о дикой природе и домашних животных.",Animal Planet
-http://46.32.176.50/animalplanet/index.m3u8
-#https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1043/tracks-v1a1/mono.m3u8
 #https://kino.zunotv.workers.dev/animal_planet_hd/index.m3u8
 #http://93.84.115.174:10181/animalplanethd
-#http://31.148.48.15:80/Animal_Planet_HD/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/big-planet.png" tvg-id="big-planet" tvg-description="Big Planet — познавательный телеканал о природе и мире.",Big Planet
-http://46.32.176.50/bigplanet/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/v-mire-zhivotnyx.png" tvg-id="v-mire-zhivotnyx-hd" tvg-description="В мире животных — российский тематический телеканал о животных и природе, известный одноимённой телепередачей.",В мире животных
 https://s06.watcher.uz/118/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
@@ -656,14 +625,12 @@ https://s06.watcher.uz/118/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 #EXTINF:0 group-title="Природа"tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viju Nature — канал о природе балтийской медиагруппы Viju.",Viju Nature
 http://37.46.49.14:18010/play/a02g/index.m3u8
 #http://93.84.115.174:10181/nature
-#http://46.32.176.50/viasatnature/index.m3u8
 #http://89.218.32.179:18000/play/a02y
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye" tvg-description="Домашние Животные — российский телеканал о домашних питомцах и уходе за ними.",Домашние Животные
 https://stream8.cinerama.uz/1426/tracks-v1a1/mono.m3u8
 #http://93.84.115.174:10181/domjivot
 #https://kino.zunotv.workers.dev/domashnie_zhivotnye/index.m3u8
-#http://46.32.176.50/domashniejivotnie/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zhivaya-planeta.png" tvg-id="zhivaya-planeta" tvg-description="Живая планета — российский тематический телеканал о природе и окружающем мире.",Живая планета
 http://37.46.49.14:18010/play/a09k/index.m3u8
@@ -675,7 +642,6 @@ http://37.46.49.14:18010/play/a09k/index.m3u8
 #http://ott.watch/stream/6HAPZWKKG3/83.m3u8
 #http://188.113.190.15/89/tracks-v1a1/index.m3u8
 https://kino.zunotv.workers.dev/zhivaja_planeta/index.m3u8
-#http://46.32.176.50/jivayaplaneta/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zhivaya-priroda.png" tvg-id="zhivaya-priroda" tvg-description="Живая природа — российский тематический телеканал, транслирующий документальные фильмы о природе.",Живая природа
 https://s06.watcher.uz/119/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
@@ -684,14 +650,12 @@ https://s06.watcher.uz/119/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 https://stream8.cinerama.uz/1417/tracks-v1a1/mono.m3u8
 #http://193.25.8.59:8000/zoo
 #http://158.101.222.193:88/georgia_play.php?id=zoo
-#http://46.32.176.50/zoopark/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-description="ZOO Stream — телеканал, транслирующий прямые трансляции из зоопарков и программы о животных.",ZOO Stream
 http://iptv.prosto.tv:7000/ch319/video.m3u8?secret=7va3b5tb
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zootv.png" tvg-id="zootv" tvg-description="Зоо ТВ — российский тематический телеканал о животных и природе.",Зоо ТВ
-http://31.148.48.15/Zoo_TV/index.m3u8
-#http://31148.rafail1982.uz/Zoo_TV/index.m3u8
+http://31148.rafail1982.uz/Zoo_TV/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/lapki-live.png" tvg-id="lapki-live" tvg-description="Лапки Live — российский телеканал о домашних животных.",Лапки Live
 
@@ -731,7 +695,6 @@ http://193.33.233.109:9000/tv
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/moya-planeta.png" tvg-id="moya-planeta" tvg-description="Моя Планета — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о путешествиях, природе и культуре разных стран.",Моя Планета
 https://s06.watcher.uz/144/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#http://46.32.176.50/moyaplaneta/index.m3u8
 #https://stream8.cinerama.uz/1247/tracks-v1a1/mono.m3u8
 #http://193.25.8.59:8000/myplanet
 #http://5.188.221.43:8080/play/moya_planeta
@@ -741,8 +704,7 @@ https://s06.watcher.uz/144/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/morskoy.png" tvg-id="morskoy" tvg-description="Моя стихия — российский тематический телеканал для любителей активного отдыха и путешествий.",Моя стихия
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/national-geographic.png" tvg-id="national-geographic" tvg-description="National Geographic — международный познавательный телеканал. Транслирует документальные фильмы о природе, науке, истории и путешествиях.",National Geographic
-http://46.32.176.50/nationalgeographic/index.m3u8
-#https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1041/tracks-v1a1/mono.m3u8
 https://kino.zunotv.workers.dev/national_geographic/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/nasha-sibir.png" tvg-id="nasha-sibir" tvg-description="Наша Сибирь — российский региональный телеканал, посвящённый Сибири и её природе.",Наша Сибирь
@@ -756,7 +718,6 @@ http://hls127.freeott.top:8080/Ocean_TV/mono.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/poexali.png" tvg-id="poexali" tvg-description="Поехали! — российский телеканал о путешествиях, вдохновлённый знаменитой фразой Юрия Гагарина.",Поехали!
 http://5.188.159.128:8070/bridgetv/index.m3u8
-#http://46.32.176.50/poexali/index.m3u8
 #http://193.25.8.59:8000/360
 #https://stream-msk-05.ott.tricolor.tv:443/dtv/id367_MSKSG-PVR-1--Poehali/04/plst.m3u8?drmreq=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBfdHlwZSI6ImFwdHBfb3R0IiwiY2xhc3MiOiJCUk9XU0VSIiwiZHJlaWQiOiI1NDIxOTAwNzk1ODc0MiIsImV4cCI6MTc2MDc4MDAzMCwiaHdpZCI6IjI0MDEzMDg2NDk0MTJiNTQyZjViN2NlMzdkMWE3N2UwMjU0YWQzZTY0NDQ1YTkyZWVmYjhjYTNmOWI1M2VlZTEiLCJsYXN0X3JlcV9kYXRlIjoxNzYwMTc1MjMwLCJzZXNzaW9uX2lkIjoiODRiNmY0NGU1MDNiYWViZTE5MTAxN2MyOTNhYzg1MTUiLCJ0b2tlbl90eXBlIjoiQ29udGVudEFjY2Vzc1Rva2VuIiwidHlwZSI6Ik1PWklMTEEifQ.Ccsl9avktUTAxJDOvsUN_TLZdz9rKOJt8n27XWUDGXc
 
@@ -767,8 +728,7 @@ http://195.26.83.96:7007/play/a00n/index.m3u8
 #http://hls127.freeott.top:8080/RTG_TV/video.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/teleputeshestvia.png" tvg-id="teleputeshestvia" tvg-description="Телепутешествия — российский тематический телеканал о путешествиях по России и миру.",Телепутешествия
-http://31.148.48.15:80/Teleputeshestviya/index.m3u8?token=test
-#https://stream.teotv.ru/live/site360/playlist.m3u8
+https://stream.teotv.ru/live/site360/playlist.m3u8
 #http://31148.rafail1982.uz/Teleputeshestviya/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/terra-ru.png" tvg-id="terra-ru" tvg-description="Terra — познавательный телеканал о природе, географии и путешествиях.",Terra
@@ -792,8 +752,7 @@ http://iptv.prosto.tv:7000/ch313/video.m3u8?secret=cledwwov
 # Развлекательные
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/2na2.png" tvg-id="2na2" tvg-description="2×2 — российский федеральный телеканал, специализирующийся на анимации и молодёжном контенте. Показывает мультфильмы и аниме.",2x2
-http://46.32.176.50/2x2/index.m3u8
-#http://193.25.8.59:8000/2x2
+http://193.25.8.59:8000/2x2
 #http://5.188.221.43:8080/play/2x2
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/belmuztv.png" tvg-id="belmuztv" tvg-description="БелМузТВ — белорусский музыкальный телеканал. Транслирует клипы, концерты и музыкальные программы.",БелМузТВ
@@ -817,8 +776,7 @@ http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 #http://dmi3y-tv6.ru/hls/zabava/region/KIROV/CH_9TVHD.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/extreme-sports.png" tvg-id="extreme-sports" tvg-description="Extreme Sports — международный тематический телеканал, посвящённый экстремальным видам спорта.",Extreme Sports
-http://46.32.176.50/extremesport/index.m3u8
-#http://188.113.190.15/39/tracks-v1a1/index.m3u8
+http://188.113.190.15/39/tracks-v1a1/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/fastfunbox-hd.png" tvg-id="fastfunbox-hd" tvg-description="Fast & FunBox — развлекательный телеканал с динамичным и юмористическим контентом.",Fast & FunBox
 http://193.25.8.59:8000/Avto24
@@ -875,9 +833,7 @@ http://195.26.83.96:7029/play/a008
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love" tvg-description="СТС Love — российский развлекательный канал, ориентированный на женскую аудиторию. Показывает мелодрамы, ток-шоу и лирические сериалы.",CTC Love
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe" tvg-description="Телекафе — российский кулинарный телеканал. Транслирует кулинарные шоу, рецепты и программы о еде.",Телекафе
-https://s04.watcher.uz/27/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#http://46.32.176.50/telekafe/index.m3u8
-#http://193.25.8.59:8000/telecafe
+http://193.25.8.59:8000/telecafe
 #http://93.84.115.174:10181/telekafe
 #http://31148.rafail1982.uz/Telekafe/index.m3u8
 #https://stream8.cinerama.uz/1035/tracks-v1a1/mono.m3u8
@@ -886,8 +842,7 @@ https://s04.watcher.uz/27/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 #https://cdn4.skygo.mn/live/disk1/Telecafe/HLSv3-FTA/Telecafe.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus" tvg-description="TLC (The Learning Channel) — международный развлекательный телеканал. Специализируется на реалити-шоу, лайфстайл и документальных программах.",TLC
-http://46.32.176.50/tlc/index.m3u8
-#https://kino.zunotv.workers.dev/tlc_hd/index.m3u8
+https://kino.zunotv.workers.dev/tlc_hd/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvmchannel.png" tvg-id="tvmchannel" tvg-description="TVM Channel — тематический телеканал.",TVM Channel
 http://cdn-01.bonus-tv.ru/tvm_edge/tracks-v1a1/index.m3u8
@@ -899,16 +854,12 @@ http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-description="TVRUS — русскоязычный телеканал для зрителей в США и Канаде. Транслирует новости, сериалы и развлекательные программы.",TVRUS
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tochka-tv.png" tvg-id="tochka-tv" tvg-description="Точка ТВ — российский региональный телеканал.",Точка ТВ
-http://31.148.48.15/Tochka_TV/index.m3u8
-#http://rt-sib-bul-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_BUL_TOLK/variant.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tcb.png" tvg-id="tcb" tvg-description="ТСВ — российский региональный телеканал.",ТСВ
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" tvg-description="ТВ3 — российский федеральный телеканал. Специализируется на мистике, фантастике, ужасах и развлекательном контенте.",ТВ3
-http://46.32.176.50/tv3/index.m3u8
-#http://31.131.141.195:8000/play/a002/index.m3u8
-#http://185.46.16.239:8000/TV3
+http://185.46.16.239:8000/TV3
 #http://95.47.155.244:8001/play/a015
 #http://193.25.8.59:8000/tv3
 #http://5.188.221.43:8080/play/tv3
@@ -967,8 +918,7 @@ http://hls-tvsoyuz.cdnvideo.ru/tvsoyuz/soyuz/playlist.m3u8
 #http://95.181.17.18/dvr01/sd2/soyuz/playlist.m3u8?&wmsAuthSign=c2VydmVyX3RpbWU9NS81LzIwMjYgNjo1NDo1NiBBTSZoYXNoX3ZhbHVlPXlrQlFyeGpZRE5QRmVKeEZPSm5kbUE9PSZ2YWxpZG1pbnV0ZXM9NzIwJmlkPTc3Nw==
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/spas.png" tvg-id="spas" tvg-description="Спас — российский православный телеканал. Транслирует богослужения, проповеди, беседы о православной вере.",Спас
-http://31.131.141.195:8000/play/2020/index.m3u8
-#http://hls127.freeott.top:8080/Spas/video.m3u8
+http://hls127.freeott.top:8080/Spas/video.m3u8
 #http://185.46.16.239:8000/Spas
 #http://95.47.155.244:8001/play/a012
 #http://193.25.8.59:8000/spas
@@ -1000,13 +950,11 @@ https://kino.zunotv.workers.dev/viju_plus_sport_hd/index.m3u8
 #http://89.218.32.179:18000/play/a02z
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1" tvg-description="Eurosport 1 — европейский спортивный телеканал. Транслирует широкий спектр соревнований: теннис, велоспорт, лыжи, биатлон и другие виды спорта.",Eurosport 1
-http://46.32.176.50/eurosport/index.m3u8
-#https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
+https://stream8.cinerama.uz/1439/tracks-v1a1/mono.m3u8
 #https://kino.zunotv.workers.dev/eurosport_1_hd/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2" tvg-description="Eurosport 2 — второй канал сети Eurosport. Транслирует экстремальные виды спорта, а также дополнительные трансляции из сетки Eurosport.",Eurosport 2
-http://46.32.176.50/eurosport2/index.m3u8
-#https://kino.zunotv.workers.dev/eurosport_2_hd/index.m3u8
+https://kino.zunotv.workers.dev/eurosport_2_hd/index.m3u8
 #http://176.96.241.40/Eurosport2/index.m3u8
 #http://85.117.37.41/eurosport2/index.m3u8
 
@@ -1024,7 +972,6 @@ http://46.32.176.50/eurosport2/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="КХЛ (Kontinental Hockey League TV) — официальный телеканал Континентальной хоккейной лиги. Транслирует матчи КХЛ и хоккейные программы.",KHL
 http://85.117.37.41/khl/index.m3u8
-#http://46.32.176.50/kxltv/index.m3u8
 #https://stream8.cinerama.uz/1028/tracks-v1a1/mono.m3u8
 #https://stream8.cinerama.uz/1422/tracks-v1a1/mono.m3u8
 #https://kino.zunotv.workers.dev/KHL/index.m3u8
@@ -1044,17 +991,13 @@ https://kino.zunotv.workers.dev/match_arena/index.m3u8
 http://37.46.49.14:18010/play/a09g/index.m3u8
 #http://89.218.32.179:18000/play/a037
 #https://kino.zunotv.workers.dev/match_boets/index.m3u8
-#http://46.32.176.50/boets/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra" tvg-description="Матч! Игра — российский спортивный канал, специализирующийся на игровых видах спорта.",Матч! Игра
-http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
-#https://kino.zunotv.workers.dev/match_igra/index.m3u8
-#http://46.32.176.50/matchiqra/index.m3u8
+https://kino.zunotv.workers.dev/match_igra/index.m3u8
 #http://89.218.32.179:18000/play/a03b
 #http://185.46.16.239:8000/Match_Igra
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-tv.png" tvg-id="match-tv" tvg-description="Матч! — ведущий российский спортивный телеканал. Транслирует футбол, хоккей и другие популярные виды спорта.",Матч!
-http://catchup.videoline.ru/match/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-planeta.png" tvg-id="match-planeta" tvg-description="Матч! Планета — российский спортивный телеканал группы «Матч!», транслирующий международные соревнования.",Матч! Планета
 https://kino.zunotv.workers.dev/match_planeta/index.m3u8
@@ -1152,11 +1095,9 @@ http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
 #http://141.95.55.143/CH295/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Сарафан — российский телеканал с контентом о лайфстайле, кулинарии и домашнем уюте.",Сарафан
-http://31.148.48.15/Sarafan/tracks-v1a1/mono.m3u8
-#http://89.218.32.179:18000/play/a03k
+http://89.218.32.179:18000/play/a03k
 #https://stream8.cinerama.uz/1249/tracks-v1a1/mono.m3u8
 #http://93.84.115.174:10181/sarafan
-#http://31.148.48.15/Sarafan/index.m3u8
 #http://s8.rafail1982.uz/1249/tracks-v1a1a1/mono.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvoetv-humor.png" tvg-id="tvoetv-humor" tvg-description="Твоё ТВ Юмор — российский тематический телеканал с юмористическими программами.",Твоё ТВ Юмор
@@ -1188,12 +1129,6 @@ https://kino.zunotv.workers.dev/kto_kuda/index.m3u8
 #EXTINF:-1 group-title="candidate",1 არხი განათლება
 http://tv.cdn.xsg.ge/gpb-2tv/tracks-v1a1/mono.m3u8
 
-#EXTINF:-1 group-title="candidate",Матур ТВ
-https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-
-#EXTINF:-1 group-title="candidate",Fresh TV
-https://freshtv-live.ru/FreshTV/tracks-v1a1/mono.m3u8?token=livestream
-
 # Региональные
 
 #EXTINF:-1 group-title="candidate",Самара 24
@@ -1208,88 +1143,104 @@ http://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/tracks-v1a1/mono.m3u8
 #EXTINF:-1 group-title="candidate",Armount TV
 https://us1.ottstream.live:17071/C352/index.m3u8?token=GGfkFV4$TXeZjt3i
 
+#EXTINF:-1 group-title="candidate",Шахнавоз
+https://live.teleradiocom.tj/9/3m.m3u8
+
+#EXTINF:-1 group-title="candidate",Щелковское ТВ
+http://stream0.tv41.ru/live.m3u8
+
+#EXTINF:-1 group-title="candidate",Юнион
+https://streaming.televizor-24-tochka.ru/live/27-req_offset_28000000-req_window_0-1k_v5.m3u8
+
 # Фильмы и Сериалы
 
 #EXTINF:-1 group-title="candidate",Иллюзион +
 https://kino.zunotv.workers.dev/illyuzion_plus_hd/index.m3u8
 
-
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-05-05 20:55:28  (42 URLs in 32 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test",Югра
-https://live-ugratv.cdnvideo.ru/ugratv/ugratv/tracks-v1a1/mono.m3u8
-#https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R04_OTT_UGRA_URAL_SUR/variant.m3u8
-#EXTINF:-1 tvg-logo="" group-title="test",Шахнавоз
-https://live.teleradiocom.tj/9/3m.m3u8
-#EXTINF:-1 group-title="test",Эхо ТВ
+#EXTINF:-1 group-title="candidate",Эхо ТВ
 https://live-echotv.cdnvideo.ru/echotv/echotv.sdp/playlist.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://i.postimg.cc/BvqS8HVV/1.png",Чип и Дейл
+
+#EXTINF:-1 group-title="candidate",Эхо ТВ 24
+http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
+
+# Мультфильмы
+
+#EXTINF:-1 group-title="candidate" tvg-logo="https://i.postimg.cc/BvqS8HVV/1.png",Чип и Дейл
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
-#EXTINF:-1 group-title="test",Шансон ТВ
+
+# Музыка
+
+#EXTINF:-1 group-title="candidate",Матур ТВ
+https://public.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh TV
+https://freshtv-live.ru/FreshTV/tracks-v1a1/mono.m3u8?token=livestream
+
+#EXTINF:-1 group-title="candidate",Шансон ТВ
 http://185.46.48.18:80/shanson/mono.m3u8
-#http://46.32.176.50/shanson/index.m3u8
 #http://185.46.16.239:8000/Shanson
 #https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
 #http://195.26.83.96:7005/play/a00l/index.m3u8
 #http://193.25.8.59:8000/shanson
-#EXTINF:-1 group-title="test" tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/1e/99/1e99ee863752854d4a29ee44a1dc2a16.jpg", Швейцария Железная дорога Кур–Ароза
-https://river-4-414.rtbcdn.ru/hls-vod/HRglvuJ53RlRjP8p7g35cQ/1778337939/2470/0x5000c500e8840cd6/e236a89398014141b0076380d02f05a4.mp4.m3u8?i=2560x1440_46799
-#EXTINF:-1 group-title="test" tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/a7/a6/a7a6d6f4175f21e601515ee4a6cfcabf.jpg", Чили: Остров Пасхи 4K
-https://river-4-445.rtbcdn.ru/hls-vod/udB8Dy17B4p4yhTU5pI0gQ/1778337940/3334/0x5000c500e9dac121/64184e96d67f44c9b81953b97cdd1411.mp4.m3u8?i=3840x2160_21114
-#EXTINF:-1 group-title="test" tvg-logo="https://pic.rtbcdn.ru/video/2025-02-26/eb/db/ebdb900076c03be283ae82873d52c589.jpg", Эквадор 4K
-https://river-4-421.rtbcdn.ru/hls-vod/fIXkDdIYsTRJEV4Ldt7vig/1778337941/2564/0x5000039ce84025f5/247fa9a63c5041f0976a98ee16e29fa9.mp4.m3u8?i=3840x2160_16246
-#EXTINF:-1 group-title="test" tvg-logo="https://pic.rtbcdn.ru/video/2024-11-29/ae/c0/aec0da30c96e0bd6eb5ec073e7a2f036.jpg", Чехия 4K
-https://river-4-457.rtbcdn.ru/hls-vod/w64aXAsTEb9mlku66p1_Sw/1778337940/2652/0x5000039ce869848d/3588f69c0914469bbb3caeb52dea8be9.mp4.m3u8?i=3840x2160_20107
-#EXTINF:-1 group-title="test", Че
-http://46.32.176.50/ce/index.m3u8
-#http://89.218.32.179:18000/play/a04j
-#http://195.26.83.96:7009/play/89/index.m3u8
-#http://193.25.8.59:8000/perec
-#EXTINF:-1 group-title="test" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00302.png",ЭКО система
+
+# Пририда
+
+#EXTINF:-1 group-title="candidate" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00302.png",ЭКО система
 http://iptv.prosto.tv:7000/ch316/video.m3u8
-#EXTINF:-1 group-title="test" ,Честный детектив
+
+#EXTINF:-1 group-title="candidate",Честный детектив
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-01.smil/tracks-v5a1/mono.m3u8
-#EXTINF:-1 group-title="test" ,Эхо ТВ 24
-http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://lime-tv.ru/wp-content/uploads/2020/10/1532276954_shelkovskoe-tv.jpg",Щелковское ТВ
-http://stream0.tv41.ru/live.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://televizor24tochka.ru/logo/100/union.jpg",Юнион
-https://streaming.televizor-24-tochka.ru/live/27-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Югорск ТВ
-https://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_YUGORSKTV/variant.m3u8
-#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-id="express",Экспресс HD
-https://rt-vlg-penza-htlive.cdn.ngenix.net/hls/CH_R01_EXPRESS/variant.m3u8
-#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Юрган
-https://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
-#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Шаян ТВ
-https://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
-#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",ЮТВ Чебоксары
-https://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://images.live.vkvideo.ru/user/20745126/avatar?change_time=1746520742&croped=1&mh=140&mw=140",Эквилибриум
-http://kinowalk.hopto.org/equilibrium_live
-#EXTINF:-1 tvg-id="shayantv" tvg-logo="https://iptvx.one/picons/shayantv.png" group-title="test" ,Шаян ТВ (Татарстан)
-http://s45177.cdn.ngenix.net/hls/CH_R03_SHAYNTV/variant.m3u8
-#EXTINF:-1 tvg-id="yugra" tvg-logo="https://iptvx.one/picons/yugra.png" group-title="test" ,Югра
-https://live-ugratv.cdnvideo.ru/ugratv/ugratv/playlist.m3u8
-#EXTINF:-1 tvg-id="utv-cheboxary" tvg-logo="https://iptvx.one/picons/utv-cheboxary.png" group-title="test" ,ЮТВ Чебоксары
-http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_UTV/variant.m3u8
-#EXTINF:-1 tvg-id="chavash-en" tvg-logo="https://iptvx.one/picons/chavash-en.png" group-title="test" ,Чаваш ЕН
-http://rt-vlg-chr-htlive.cdn.ngenix.net/hls/CH_R01_NATIONALTV/variant.m3u8
-#EXTINF:-1 tvg-id="yurgan" tvg-logo="https://iptvx.one/picons/yurgan.png" group-title="test" ,Юрган
-http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
-#EXTINF:-1 tvg-id="chizhik" tvg-logo="https://iptvx.one/picons/chizhik.png" group-title="test" ,Чижик
-http://catchup.videoline.ru/cinema/playlist.m3u8
-#EXTINF:-1 tvg-id="eko-tv" tvg-logo="https://iptvx.one/picons/eko-tv.png" group-title="test" ,Эко-ТВ
-http://31.148.48.15:80/English_club_TV_HD/index.m3u8
-#EXTINF:-1 tvg-id="shokiruyushchee" tvg-logo="https://iptvx.one/picons/shokiruyushchee.png" group-title="test" ,Шокирующее SD
-http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
-#EXTINF:-1 tvg-id="yuvelirochka" tvg-logo="https://iptvx.one/picons/yuvelirochka.png" group-title="test" ,Ювелирочка
-http://live-uvelirochka.cdnvideo.ru/uvelirochka/uvelirochka_720p3/playlist.m3u8
-#EXTINF:-1  group-title="test",Ю (Санкт-Петербург)
-https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R03_U_SPB/variant.m3u8
-#https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R03_U/variant.m3u8
-#EXTINF:-1 group-title="test",Чернівецький Промінь HD
-http://langate.tv/promin/live_720/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-05-05 22:05:26  (27 URLs in 21 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 group-title="test",Феникс+ Кино
+https://kino.zunotv.workers.dev/feniks_plyus_kino/index.m3u8
+#EXTINF:-1 group-title="test" tvg-logo="https://pic.rtbcdn.ru/video/a3/3a/a33a36b9be68bc6b4ad150808171b434.jpg", Украина 4K
+https://river-4-415.rtbcdn.ru/hls-vod/G2fs5yDiyqCaVvbTNJzu6g/1778337940/1889/0x5000c500e4dc0b83/08414c457fec4d4a9cb5a38cacd30aee.mp4.m3u8?i=3840x2160_19592
+#EXTINF:-1 group-title="test" tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/59/2b/592b894cccb625aabb60742d9a9b3113.jpg", Фиджи 4K
+https://river-4-432.rtbcdn.ru/hls-vod/bLXxSn9pZ1O8PY5F_RaQGg/1778337940/2652/0x5000039ce869a495/943af4170c804868a4d741eb4a3ffd01.mp4.m3u8?i=3840x2160_18902
+#EXTINF:-1 group-title="test" ,Хабар 24
+http://37.46.49.14:18010/play/a04a/index.m3u8
+#https://stream8.cinerama.uz/1408/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="test" ,Хабар HD
+http://37.46.49.14:18010/play/a04d/index.m3u8
+#http://89.218.32.179:18000/play/a00a
+#EXTINF:-1 group-title="test",Уникум
+https://stream8.cinerama.uz/1033/tracks-v1a1/mono.m3u8
+#http://185.46.16.239:8000/Detskiy
+#http://217.114.191.150/Solnce/index.m3u8
+#http://158.101.222.193:88/georgia_play.php?id=unikum
+#EXTINF:-1 group-title="test" tvg-logo="https://img.prosto.tv/storage/channel/logo/ch00536.jpg",Флора
+http://iptv.prosto.tv:7000/ch346/video.m3u8
+#EXTINF:-1 group-title="test" ,Урал 24
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/index.m3u8
+#https://vgtrkregion-reg.cdnvideo.ru/vgtrk/chelyabinsk/ural24-hd/track_101_4e9e7e3b/chunklist.m3u8
+#EXTINF:-1 group-title="test" ,Хузур ТВ
+https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Хамдан
+http://rt-sth-elista-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_ELISTA_HAMDAN/variant.m3u8
+#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Удмуртия
+https://rt-vlg-izhsk-htlive.cdn.ngenix.net/hls/CH_R03_MYUDMURTIA/variant.m3u8
+#EXTINF:-1 group-title="test" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}",Ульяновская правда
+https://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
+#EXTINF:-1 tvg-id="ulianovskaya-pravda" tvg-logo="https://iptvx.one/picons/ulianovskaya-pravda.png" group-title="test" ,Ульяновская правда
+http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
+#EXTINF:-1 tvg-id="xabar24" tvg-logo="https://iptvx.one/picons/xabar24.png" group-title="test" ,Хабар 24
+http://live-saha.cdnvideo.ru/saha2/yak24rtmp_live.smil/tracks-v2a1/mono.m3u8
+#EXTINF:-1  group-title="test",упл тв 4
+https://s-footballive.pp.ua:8000/channel/65c83719/index.m3u8?q=1111e494ac105cde847d65bf36124f1b
+#EXTINF:-1  group-title="test",Фауна
+http://ott.watch/stream/6HAPZWKKG3/401.m3u8
+#EXTINF:-1  group-title="test",Хабаровск ТВ
+http://s97982.cdn.ngenix.net/hls/CH_R27_OTT_DV_HVSK_HABAROVSK/variant.m3u8
+#EXTINF:-1 group-title="test",фЕНИКС plus КИНО
+http://158.101.222.193:88/georgia_play.php?id=fenikspluskino
+#EXTINF:-1 group-title="test",Хит HD
+http://hls127.freeott.top:8080/XitHD/video.m3u8
+#EXTINF:-1 tvg-name="fantastika" group-title="test",Хіт Комедія
+http://pl.online24.pm/play/1952/F6E1DD42544DD10/video.m3u8
+#EXTINF:-1 tvg-name="fantastika" group-title="test",Хіт Бойовик
+http://pl.online24.pm/play/1951/F6E1DD42544DD10/video.m3u8
