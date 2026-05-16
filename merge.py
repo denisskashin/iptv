@@ -5,10 +5,18 @@
 
 Дополнительно: записи из filtered.m3u, чей заголовок совпадает с уже
 существующим фильмом в movies.m3u, добавляются как альтернативные источники
-(с комментарием # alt: <host> перед #EXTINF). Такие записи удаляются
-из filtered.m3u после обработки.
+(строка #url сразу после основного URL). Такие записи удаляются из filtered.m3u
+после обработки.
 
 Добавленные как primary фильмы также удаляются из filtered.m3u.
+
+Формат альт-источников в movies.m3u:
+    #EXTINF:-1 group-title="2013",Волк с Уолл-стрит
+    http://main-source.com/volk
+    #http://kinoleha.net/load/volk-s-uoll-strit
+
+При первом запуске старый формат (# alt: + дублирующий #EXTINF) автоматически
+мигрирует в новый.
 
 Использование:
     python3 merge.py <new.m3u> <movies.m3u>
@@ -20,7 +28,6 @@ import re
 import sys
 from collections import defaultdict
 from pathlib import Path
-from urllib.parse import urlparse
 
 
 def normalize(title: str) -> str:
@@ -40,23 +47,14 @@ def extract_year(title: str) -> str | None:
     return m.group(1) if m else None
 
 
-def url_source_comment(url: str) -> str:
-    """Извлекает имя хоста из URL для комментария."""
-    try:
-        host = urlparse(url).hostname or url
-        parts = host.split('.')
-        if len(parts) >= 2:
-            host = '.'.join(parts[-2:])
-        return f'# alt: {host}'
-    except Exception:
-        return '# alt source'
-
-
 # ---------------------------------------------------------------------------
 # Парсинг movies.m3u
-# Структура: year_entries[year] = [(title, url_or_None, comment_or_None)]
-# comment=None  → основная запись
-# comment=str   → альт-источник
+#
+# Структура: year_entries[year] = [{'title': str, 'url': str|None, 'alts': [str, ...]}]
+#
+# Поддерживает оба формата:
+#   Новый: строки #http... сразу после URL основной записи
+#   Старый: # alt: <host> + дублирующий #EXTINF (мигрирует в новый при записи)
 # ---------------------------------------------------------------------------
 
 def parse_movies(filepath: str):
@@ -73,43 +71,75 @@ def parse_movies(filepath: str):
         header_lines.append(lines[i])
         i += 1
 
+    # Первый проход: читаем все записи в плоский список
+    raw = []  # [{'kind': 'primary'|'alt', 'title', 'url', 'year', 'alts': [...]}]
+
     while i < len(lines):
         line = lines[i].strip()
-        # Alt-комментарий: следующий #EXTINF — это альт-источник, не основная запись
+
         if line.startswith('# alt:') or line == '# alt source':
-            comment = line
+            # Старый формат: следующая строка — #EXTINF альт-источника
             i += 1
             if i < len(lines) and lines[i].strip().startswith('#EXTINF'):
                 extinf = lines[i].strip()
                 ym = re.search(r'group-title="(\d{4})"', extinf)
                 year = ym.group(1) if ym else 'unknown'
                 title = extinf.split(',', 1)[-1].strip() if ',' in extinf else ''
-                next_line = lines[i + 1] if i + 1 < len(lines) else ''
-                has_url = next_line.strip().startswith('http')
-                url = next_line.strip() if has_url else None
-                year_entries[year].append((title, url, comment))
-                if year not in seen_years:
-                    year_order.append(year)
-                    seen_years.add(year)
+                next_line = lines[i + 1].strip() if i + 1 < len(lines) else ''
+                has_url = next_line.startswith('http')
+                url = next_line if has_url else None
+                raw.append({'kind': 'alt', 'title': title, 'url': url,
+                            'year': year, 'norm': normalize(title)})
                 i += 2 if has_url else 1
             # else: одинокий комментарий без EXTINF — пропускаем
+
         elif line.startswith('#EXTINF'):
             ym = re.search(r'group-title="(\d{4})"', line)
             year = ym.group(1) if ym else 'unknown'
             title = line.split(',', 1)[-1].strip() if ',' in line else ''
+            next_line = lines[i + 1].strip() if i + 1 < len(lines) else ''
+            has_url = next_line.startswith('http')
+            url = next_line if has_url else None
 
-            next_line = lines[i + 1] if i + 1 < len(lines) else ''
-            has_url = next_line.strip().startswith('http')
-            url = next_line.strip() if has_url else None
+            # Новый формат: собираем #http... строки сразу после URL
+            alts = []
+            j = i + (2 if has_url else 1)
+            while j < len(lines):
+                alt_line = lines[j].strip()
+                if alt_line.startswith('#http') or alt_line.startswith('#https'):
+                    alts.append(alt_line[1:])  # убираем ведущий #
+                    j += 1
+                else:
+                    break
 
-            year_entries[year].append((title, url, None))
+            raw.append({'kind': 'primary', 'title': title, 'url': url,
+                        'year': year, 'norm': normalize(title), 'alts': alts})
+            i = j
+
+        else:
+            i += 1
+
+    # Второй проход: строим итоговую структуру
+    # Старые alt-записи прикрепляем к соответствующим primary по нормализованному title
+    primary_index: dict[str, dict] = {}  # norm → entry dict (последний primary)
+
+    for entry in raw:
+        if entry['kind'] == 'primary':
+            year = entry['year']
+            e = {'title': entry['title'], 'url': entry['url'], 'alts': list(entry['alts'])}
             if year not in seen_years:
                 year_order.append(year)
                 seen_years.add(year)
-
-            i += 2 if has_url else 1
+            year_entries[year].append(e)
+            primary_index[entry['norm']] = e
         else:
-            i += 1
+            # Старый alt — прикрепляем к primary по совпадению title
+            n = entry['norm']
+            if n in primary_index and entry['url']:
+                p = primary_index[n]
+                if entry['url'] not in p['alts'] and entry['url'] != p['url']:
+                    p['alts'].append(entry['url'])
+            # Если primary не нашли — игнорируем (не должно случаться)
 
     return header_lines, year_entries, year_order
 
@@ -148,8 +178,8 @@ def parse_source(filepath: str):
 
 
 # ---------------------------------------------------------------------------
-# Запись movies.m3u
-# Сортировка: основные по алфавиту, альт-источники сразу за ними
+# Запись movies.m3u (новый формат)
+# Альт-источники: строки #url сразу после основного URL, без # alt: и без #EXTINF
 # ---------------------------------------------------------------------------
 
 def write_movies(filepath: str, header_lines, year_entries, year_order):
@@ -159,25 +189,14 @@ def write_movies(filepath: str, header_lines, year_entries, year_order):
 
         for year in sorted(year_order):
             entries = year_entries[year]
+            entries.sort(key=lambda e: e['title'].lower())
 
-            primaries = [(t, u, c) for t, u, c in entries if c is None]
-            alts      = [(t, u, c) for t, u, c in entries if c is not None]
-
-            primaries.sort(key=lambda e: e[0].lower())
-
-            alt_map = defaultdict(list)
-            for t, u, c in alts:
-                alt_map[normalize(t)].append((t, u, c))
-
-            for title, url, _ in primaries:
-                f.write(f'#EXTINF:-1 group-title="{year}",{title}\n')
-                if url:
-                    f.write(f'{url}\n')
-                for alt_title, alt_url, comment in alt_map.get(normalize(title), []):
-                    f.write(f'{comment}\n')
-                    f.write(f'#EXTINF:-1 group-title="{year}",{alt_title}\n')
-                    if alt_url:
-                        f.write(f'{alt_url}\n')
+            for entry in entries:
+                f.write(f'#EXTINF:-1 group-title="{year}",{entry["title"]}\n')
+                if entry['url']:
+                    f.write(f'{entry["url"]}\n')
+                for alt_url in entry['alts']:
+                    f.write(f'#{alt_url}\n')
 
 
 # ---------------------------------------------------------------------------
@@ -236,10 +255,9 @@ def merge(new_file: str, movies_file: str):
     print(f"Читаю {new_file}...")
     new_entries = parse_source(new_file)
 
-    existing_norm = set()
-    for entries in year_entries.values():
-        for title, _, _ in entries:
-            existing_norm.add(normalize(title))
+    existing_norm = {normalize(e['title'])
+                     for entries in year_entries.values()
+                     for e in entries}
 
     added = skipped_dup = 0
     added_norms = set()
@@ -248,7 +266,7 @@ def merge(new_file: str, movies_file: str):
         if n in existing_norm:
             skipped_dup += 1
         else:
-            year_entries[year].append((title, url, None))
+            year_entries[year].append({'title': title, 'url': url, 'alts': []})
             if year not in year_order:
                 year_order.append(year)
             existing_norm.add(n)
@@ -258,45 +276,37 @@ def merge(new_file: str, movies_file: str):
     # --- Ищем альт-источники в filtered.m3u ---
     filtered_path = str(Path(movies_file).parent / 'filtered.m3u')
     added_alt = skipped_alt = 0
-    alt_consumed_norms = set()  # titles из filtered, которые совпали с primary (для удаления)
+    alt_consumed_norms = set()
 
     if Path(filtered_path).exists():
         print(f"Ищу альт-источники в filtered.m3u...")
         filtered_entries = parse_source(filtered_path)
 
-        # Нормализованные title всех primary в movies.m3u (включая только что добавленные)
-        primary_norm = {normalize(t) for entries in year_entries.values()
-                        for t, _, c in entries if c is None}
-
-        # Уже существующие (norm_title, url) в alts и primaries — для дедупликации
-        existing_alt_keys: set[tuple[str, str | None]] = {
-            (normalize(t), u)
-            for entries in year_entries.values()
-            for t, u, c in entries
-            if c is not None
-        }
-        primary_keys: set[tuple[str, str | None]] = {
-            (normalize(t), u)
-            for entries in year_entries.values()
-            for t, u, c in entries
-            if c is None
-        }
+        # Индекс primary по norm для быстрого поиска
+        primary_index: dict[str, dict] = {}
+        for entries in year_entries.values():
+            for e in entries:
+                primary_index[normalize(e['title'])] = e
 
         for title, year, url in filtered_entries:
             n = normalize(title)
-            if n not in primary_norm:
+            if n not in primary_index:
                 continue  # нет основной записи → оставляем в filtered
 
-            # Помечаем для удаления из filtered независимо от результата
             alt_consumed_norms.add(n)
 
-            if (n, url) in existing_alt_keys or (n, url) in primary_keys:
+            if not url:
                 skipped_alt += 1
                 continue
 
-            comment = url_source_comment(url) if url else '# alt source'
-            year_entries[year].append((title, url, comment))
-            existing_alt_keys.add((n, url))
+            primary = primary_index[n]
+
+            # Дедупликация: URL не должен совпадать с primary URL или уже существующими alts
+            if url == primary['url'] or url in primary['alts']:
+                skipped_alt += 1
+                continue
+
+            primary['alts'].append(url)
             added_alt += 1
 
     write_movies(movies_file, header_lines, year_entries, year_order)
