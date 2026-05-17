@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Фильтрует source.m3u: пропускает записи, у которых название или ссылка
-уже есть в movies.m3u, watched.m3u, rus_movies.m3u или cartoons.m3u.
+уже есть в movies.m3u, watched.m3u, rus_movies.m3u или cartoons.m3u,
+а также записи, чья ссылка ведёт на сайты из blocked_sites.
 Сравнение названий — без учёта регистра и без года.
 
 Использование (полное):
@@ -11,10 +12,12 @@
     python3 filter.py <source.m3u> <output.m3u>
 
 filter.cfg — файл рядом со скриптом, формат:
-    movies     = movies.m3u
-    watched    = watched.m3u
-    rus_movies = rus_movies.m3u
-    cartoons   = cartoons.m3u
+    movies        = movies.m3u
+    watched       = watched.m3u
+    rus_movies    = rus_movies.m3u
+    cartoons      = cartoons.m3u
+    blocked_sites = ashdi.vip, somesite.com
+                    anothersite.net
 """
 
 import re
@@ -51,7 +54,21 @@ def extract_urls(filepath: str) -> set:
     return urls
 
 
-def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file: str, cartoons_file: str, output: str):
+def is_blocked_site(url: str, blocked_sites: set) -> bool:
+    """Возвращает True, если домен URL совпадает с одним из заблокированных сайтов."""
+    if not url or not blocked_sites:
+        return False
+    # Убираем схему (http://, https://) и берём хост
+    host = re.sub(r'^https?://', '', url).split('/')[0].split(':')[0].lower()
+    for site in blocked_sites:
+        site = site.lower()
+        # Совпадает точно или является субдоменом
+        if host == site or host.endswith('.' + site):
+            return True
+    return False
+
+
+def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file: str, cartoons_file: str, output: str, blocked_sites: set = None):
     movies_norm     = extract_normalized_titles(movies_file)
     watched_norm    = extract_normalized_titles(watched_file)
     rus_movies_norm = extract_normalized_titles(rus_movies_file)
@@ -64,8 +81,10 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
         extract_urls(cartoons_file)
     )
 
+    blocked_sites = blocked_sites or set()
+
     out_lines = ['#EXTM3U\n\n']
-    cnt_new = cnt_skip = 0
+    cnt_new = cnt_skip = cnt_blocked = 0
 
     with open(source, encoding='utf-8') as f:
         lines = f.readlines()
@@ -89,8 +108,11 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
                 n in cartoons_norm
             )
             url_known = url in known_urls if url else False
+            site_blocked = is_blocked_site(url, blocked_sites)
 
-            if title_known or url_known:
+            if site_blocked:
+                cnt_blocked += 1
+            elif title_known or url_known:
                 cnt_skip += 1
             else:
                 out_lines.append(lines[i])
@@ -105,9 +127,11 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
     with open(output, 'w', encoding='utf-8') as f:
         f.writelines(out_lines)
 
-    print(f"Источник: {source}  ({cnt_new + cnt_skip} фильмов)")
+    print(f"Источник: {source}  ({cnt_new + cnt_skip + cnt_blocked} фильмов)")
     print(f"  → Итого в {output}: {cnt_new}")
     print(f"  Пропущено (название или ссылка уже есть в файлах): {cnt_skip}")
+    if cnt_blocked:
+        print(f"  Пропущено (заблокированные сайты): {cnt_blocked}")
 
 
 def load_config() -> dict:
@@ -117,11 +141,21 @@ def load_config() -> dict:
     cfg = configparser.ConfigParser()
     cfg.read(cfg_path, encoding='utf-8')
     section = cfg['filter'] if 'filter' in cfg else cfg.defaults()
+
+    # Парсим blocked_sites: поддерживаем запятые и переносы строк
+    raw_blocked = section.get('blocked_sites', '')
+    blocked = set()
+    for part in re.split(r'[\n,]+', raw_blocked):
+        part = part.strip()
+        if part:
+            blocked.add(part.lower())
+
     return {
-        'movies':     section.get('movies'),
-        'watched':    section.get('watched'),
-        'rus_movies': section.get('rus_movies'),
-        'cartoons':   section.get('cartoons'),
+        'movies':        section.get('movies'),
+        'watched':       section.get('watched'),
+        'rus_movies':    section.get('rus_movies'),
+        'cartoons':      section.get('cartoons'),
+        'blocked_sites': blocked,
     }
 
 
@@ -134,7 +168,8 @@ if __name__ == '__main__':
             print(f"Ошибка: в filter.cfg не заданы: {', '.join(missing)}")
             print(__doc__)
             sys.exit(1)
-        filter_m3u(sys.argv[1], cfg['movies'], cfg['watched'], cfg['rus_movies'], cfg['cartoons'], sys.argv[2])
+        filter_m3u(sys.argv[1], cfg['movies'], cfg['watched'], cfg['rus_movies'], cfg['cartoons'], sys.argv[2],
+                   blocked_sites=cfg.get('blocked_sites', set()))
     elif len(sys.argv) == 7:
         filter_m3u(*sys.argv[1:])
     else:
