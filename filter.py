@@ -44,14 +44,57 @@ def extract_normalized_titles(filepath: str) -> set:
     return titles
 
 
+def _strip_comment(line: str) -> str:
+    """Убирает ведущий # у закомментированных ссылок вида #http://... и #https://..."""
+    return line.lstrip('#') if line.startswith('#http') else line
+
+
 def extract_urls(filepath: str) -> set:
     urls = set()
     with open(filepath, encoding='utf-8') as f:
         for line in f:
-            line = line.strip()
+            line = _strip_comment(line.strip())
             if line.startswith('http'):
                 urls.add(line)
     return urls
+
+
+# Домены, для которых совпадение идёт только по имени файла (токен пользователя игнорируется).
+# Паттерн URL: https://<domain>/f/<token>/<filename>
+CDN_TOKEN_DOMAINS = {'m.cdntv.online'}
+
+
+def cdn_filename(url: str) -> str | None:
+    """Для известных CDN-доменов возвращает только имя файла (последний сегмент пути).
+    Для остальных URL возвращает None."""
+    host = re.sub(r'^https?://', '', url).split('/')[0].split(':')[0].lower()
+    if host in CDN_TOKEN_DOMAINS:
+        return url.rstrip('/').split('/')[-1].lower()
+    return None
+
+
+def extract_cdn_filenames(filepath: str) -> set:
+    """Собирает имена файлов CDN-ссылок из m3u-файла."""
+    names = set()
+    with open(filepath, encoding='utf-8') as f:
+        for line in f:
+            line = _strip_comment(line.strip())
+            if line.startswith('http'):
+                name = cdn_filename(line)
+                if name:
+                    names.add(name)
+    return names
+
+
+def title_matches_any(n: str, *known_sets) -> bool:
+    """Возвращает True, если n содержит любое известное название или наоборот."""
+    if not n:
+        return False
+    for known in known_sets:
+        for k in known:
+            if k in n or n in k:
+                return True
+    return False
 
 
 def is_blocked_site(url: str, blocked_sites: set) -> bool:
@@ -81,13 +124,20 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
         extract_urls(cartoons_file)
     )
 
+    known_cdn_filenames = (
+        extract_cdn_filenames(movies_file) |
+        extract_cdn_filenames(watched_file) |
+        extract_cdn_filenames(rus_movies_file) |
+        extract_cdn_filenames(cartoons_file)
+    )
+
     blocked_sites = blocked_sites or set()
 
     out_lines = ['#EXTM3U\n\n']
     cnt_new = cnt_skip = cnt_blocked = 0
 
     with open(source, encoding='utf-8') as f:
-        lines = f.readlines()
+        lines = [l for l in f.readlines() if not l.strip().startswith('#EXTGRP')]
 
     i = 0
     while i < len(lines):
@@ -101,13 +151,12 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
 
             url = next_line.strip() if has_url else ''
 
-            title_known = (
-                n in movies_norm or
-                n in watched_norm or
-                n in rus_movies_norm or
-                n in cartoons_norm
-            )
-            url_known = url in known_urls if url else False
+            title_known = title_matches_any(n, movies_norm, watched_norm, rus_movies_norm, cartoons_norm)
+            url_cdn_name = cdn_filename(url) if url else None
+            url_known = (
+                (url in known_urls) or
+                (url_cdn_name is not None and url_cdn_name in known_cdn_filenames)
+            ) if url else False
             site_blocked = is_blocked_site(url, blocked_sites)
 
             if site_blocked:
