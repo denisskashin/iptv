@@ -52,7 +52,9 @@ SOURCE_URLS: list[str] = [
     "https://fas-tv.com/ip/avto.m3u",
     "https://psv4.vkuserphoto.ru/s/v1/d2/8HZfJQRJ_MeeobCju10KU0HtuRxCjT95DE_iFeuUxmODSc0pzgMyQrRvjqyATaaDlxhP-USCHBzUB8hmxTvoJjgi2JRJCFTHgA9IlqFIlMfQDLbCI9yOSsJ9lmIxsDwpPKpJHiH5kh72/N4V2MS99P39SMB.m3u8",
     "https://dl.dropboxusercontent.com/s/sbm8ttki12bhr9cuxs9oz/m3u?rlkey=ujn5573apcibg3foxhq2ja7tt",
-    "https://m3url.ru/LIst_9.m3u"
+    "https://dl.dropboxusercontent.com/s/ur595ef4cqmfst951kboh/m3u?rlkey=0cw1ficfrq0m6yg2udh16qn78",
+    "https://m3url.ru/LIst_9.m3u",
+    "https://m3u.ch/pl/402fdf5102aacfc997279fd904643392_78d493be9df8cf5d447946793758bfa6.m3u"
 ]
 
 # Channels to skip entirely (exact case-insensitive name match).
@@ -3655,7 +3657,7 @@ BLOCKLIST_PATTERNS: list[re.Pattern] = [
     re.compile(r'\bPenthouse\b', re.IGNORECASE),
     re.compile(r'18+', re.IGNORECASE),
     re.compile(r'Private', re.IGNORECASE),
-    re.compile(r'\Hustler\b', re.IGNORECASE),
+    re.compile(r'\bHustler\b', re.IGNORECASE),
 ]
 
 def _load_url_blocklist(path: str = "url_blocklist.txt") -> set[str]:
