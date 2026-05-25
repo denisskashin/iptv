@@ -54,7 +54,8 @@ SOURCE_URLS: list[str] = [
     "https://dl.dropboxusercontent.com/s/sbm8ttki12bhr9cuxs9oz/m3u?rlkey=ujn5573apcibg3foxhq2ja7tt",
     "https://dl.dropboxusercontent.com/s/ur595ef4cqmfst951kboh/m3u?rlkey=0cw1ficfrq0m6yg2udh16qn78",
     "https://m3url.ru/LIst_9.m3u",
-    "https://m3u.ch/pl/402fdf5102aacfc997279fd904643392_78d493be9df8cf5d447946793758bfa6.m3u"
+    "https://m3u.ch/pl/402fdf5102aacfc997279fd904643392_78d493be9df8cf5d447946793758bfa6.m3u",
+    "https://iptv.org.ua/iptv/kino-plus.m3u"
 ]
 
 # Channels to skip entirely (exact case-insensitive name match).
