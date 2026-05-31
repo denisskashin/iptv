@@ -998,11 +998,29 @@ https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
 #EXTINF:-1 group-title="candidate",Dancehits 80
 http://dancehits80.denvs.ru:8080/index.m3u8
 
+#EXTINF:-1 group-title="candidate",Energy DJ
+https://59ec5453559f0.streamlock.net/energytvDJ/smil:VIVALIVETV/chunklist_w850439264_b1896000.m3u8
+
+#EXTINF:-1 group-title="candidate",Energy Music
+https://59ec5453559f0.streamlock.net/energytvmusic/smil:VIVALIVETV/chunklist_w2089520607_b1896000.m3u8
+
 #EXTINF:-1 group-title="candidate",Fresh TV
 https://freshtv-live.ru/FreshTV/tracks-v1a1/mono.m3u8?token=livestream
 
 #EXTINF:-1 group-title="candidate",Gabbarit Anthem
 http://s.only4.tv/9425/video.m3u8?token=fWKpoaHaSj
+
+#EXTINF:-1 group-title="candidate",Mafi2a Music
+https://rpn3.bozztv.com/dvrfl07/ushba-mafia/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="candidate",Memorias Classic
+https://video.xtrematv.com:3576/live/memoriasclassiclive.m3u8
+
+#EXTINF:-1 group-title="candidate",Memorias Pop Latino
+https://video.xtrematv.com:3891/live/memoriaspoplatinolive.m3u8
+
+#EXTINF:-1 group-title="candidate",La Cantina de Memorias
+https://video.xtrematv.com:3208/live/memoriaslacantinalive.m3u8
 
 #EXTINF:-1 group-title="candidate",Муз Союз
 https://hls-tvsoyuz.cdnvideo.ru/tvsoyuz2/muzsoyuz.6fw0-58xp-acts-esy0/tracks-v1a1/mono.ts.m3u8
@@ -1027,7 +1045,6 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 
 #EXTINF:-1 group-title="candidate",Страна FM
 http://live.stranafm.cdnvideo.ru/stranafm/stranafm_hd.sdp/playlist.m3u8
-
 
 #EXTINF:-1 group-title="candidate",Шансон ТВ
 https://hls-shansontv.cdnvideo.ru/shansontv/shansontv-sd.smil/playlist.m3u8
@@ -1101,26 +1118,7 @@ http://185.78.112.47:8077/rus-extrim-hd/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/7NrtqRLF/image-2025-09-01-T164735-702.png" group-title="test", MixM TV
-http://89.179.247.144/hls/mixm.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/jmgCPJV/image-4.png" group-title="test", Energy Music
-https://59ec5453559f0.streamlock.net/energytvmusic/smil:VIVALIVETV/chunklist_w2089520607_b1896000.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/jmgCPJV/image-4.png" group-title="test", Energy DJ
-https://59ec5453559f0.streamlock.net/energytvDJ/smil:VIVALIVETV/chunklist_w850439264_b1896000.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/RT6L1F1M/image-4.png" group-title="test",Memorias Pop Latino
-https://video.xtrematv.com:3891/live/memoriaspoplatinolive.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/HDdHg2ks/image-9.png" group-title="test", Megogo Live HD
-https://video.xtrematv.com:3208/live/memoriaslacantinalive.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/hF4LyYQK/image-21.png" group-title="test", Mafi2a Music
-https://rpn3.bozztv.com/dvrfl07/ushba-mafia/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/RT6L1F1M/image-4.png" group-title="test",Memorias Classic
-https://video.xtrematv.com:3576/live/memoriasclassiclive.m3u8
 
 #EXTINF:-1 tvg-name="" tvg-logo="https://i.ibb.co/HfYXLCD7/image-16.png" group-title="test", Infinity
 https://rpn3.bozztv.com/dvrfl07/ushba-t2/tracks-v1a1/mono.ts.m3u8
