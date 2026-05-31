@@ -55,7 +55,8 @@ SOURCE_URLS: list[str] = [
     "https://dl.dropboxusercontent.com/s/ur595ef4cqmfst951kboh/m3u?rlkey=0cw1ficfrq0m6yg2udh16qn78",
     "https://m3url.ru/LIst_9.m3u",
     "https://m3u.ch/pl/402fdf5102aacfc997279fd904643392_78d493be9df8cf5d447946793758bfa6.m3u",
-    "https://iptv.org.ua/iptv/kino-plus.m3u"
+    "https://iptv.org.ua/iptv/kino-plus.m3u",
+    "https://pikniktv.info/download/file.php?id=127257"
 ]
 
 # Channels to skip entirely (exact case-insensitive name match).
