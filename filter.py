@@ -27,9 +27,17 @@ from pathlib import Path
 
 
 def normalize(title: str) -> str:
-    t = re.sub(r'\s*\(\d{4}\)\s*', ' ', title)
+    # убираем скобки с 4-значным годом: (2015), (США 2015), (US 2015), (1980)
+    t = re.sub(r'\s*\([^)]*\b\d{4}\b[^)]*\)\s*', ' ', title)
     t = re.sub(r'\s+(RU|EN|UA|VO)\s*$', '', t, flags=re.IGNORECASE)
-    return t.strip().lower()
+    return re.sub(r'\s+', ' ', t).strip().lower()
+
+
+def _usable_title(n: str) -> bool:
+    """Отсеивает мусорные «названия»: пустые и чисто числовые
+    (номера серий вроде 18, 20, 164 в cartoons.m3u), которые
+    по подстроке ложно совпадают с годами в названиях фильмов."""
+    return bool(n) and not n.isdigit()
 
 
 def extract_normalized_titles(filepath: str) -> set:
@@ -40,7 +48,9 @@ def extract_normalized_titles(filepath: str) -> set:
             if line.startswith('#EXTINF'):
                 title = line.split(',', 1)[-1].strip() if ',' in line else ''
                 if title:
-                    titles.add(normalize(title))
+                    n = normalize(title)
+                    if _usable_title(n):
+                        titles.add(n)
     return titles
 
 
@@ -56,7 +66,9 @@ def extract_titles_with_urls(filepath: str) -> set:
             if title and i + 1 < len(lines):
                 next_line = _strip_comment(lines[i + 1].strip())
                 if next_line.startswith('http'):
-                    titles.add(normalize(title))
+                    n = normalize(title)
+                    if _usable_title(n):
+                        titles.add(n)
     return titles
 
 
