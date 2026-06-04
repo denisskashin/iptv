@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """
-Фильтрует source.m3u: пропускает записи, у которых название или ссылка
-уже есть в movies.m3u, watched.m3u, rus_movies.m3u или cartoons.m3u,
-а также записи, чья ссылка ведёт на сайты из blocked_sites.
-Сравнение названий — без учёта регистра и без года.
+Формирует filtered — список кандидатов на добавление. Пропускает (НЕ кладёт в filtered):
+  • записи, чьё название ТОЧНО совпадает с названием в watched.m3u (фильм уже просмотрен);
+  • записи, чья ссылка уже есть в movies/watched/rus_movies/cartoons (точный дубль источника);
+  • записи, чья ссылка ведёт на сайты из blocked_sites.
+Наличие фильма в movies/rus_movies/cartoons (с источником или без) на отсев НЕ влияет —
+такая запись всё равно идёт в filtered как альтернативный источник.
+Сравнение названий — без учёта регистра и без года, точное (по нормализованной строке).
 
 Использование (полное):
     python3 filter.py <source.m3u> <movies.m3u> <watched.m3u> <rus_movies.m3u> <cartoons.m3u> <output.m3u>
@@ -54,24 +57,6 @@ def extract_normalized_titles(filepath: str) -> set:
     return titles
 
 
-def extract_titles_with_urls(filepath: str) -> set:
-    """Возвращает нормализованные названия только тех записей, у которых есть URL-источник."""
-    titles = set()
-    with open(filepath, encoding='utf-8') as f:
-        lines = f.readlines()
-    for i, line in enumerate(lines):
-        line = line.strip()
-        if line.startswith('#EXTINF') and ',' in line:
-            title = line.split(',', 1)[-1].strip()
-            if title and i + 1 < len(lines):
-                next_line = _strip_comment(lines[i + 1].strip())
-                if next_line.startswith('http'):
-                    n = normalize(title)
-                    if _usable_title(n):
-                        titles.add(n)
-    return titles
-
-
 def _strip_comment(line: str) -> str:
     """Убирает ведущий # у закомментированных ссылок вида #http://... и #https://..."""
     return line.lstrip('#') if line.startswith('#http') else line
@@ -114,17 +99,6 @@ def extract_cdn_filenames(filepath: str) -> set:
     return names
 
 
-def title_matches_any(n: str, *known_sets) -> bool:
-    """Возвращает True, если n содержит любое известное название или наоборот."""
-    if not n:
-        return False
-    for known in known_sets:
-        for k in known:
-            if k in n or n in k:
-                return True
-    return False
-
-
 def is_blocked_site(url: str, blocked_sites: set) -> bool:
     """Возвращает True, если домен URL совпадает с одним из заблокированных сайтов."""
     if not url or not blocked_sites:
@@ -140,15 +114,13 @@ def is_blocked_site(url: str, blocked_sites: set) -> bool:
 
 
 def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file: str, cartoons_file: str, output: str, blocked_sites: set = None):
-    # watched: пропускаем по названию всегда (вне зависимости от наличия источника)
+    # watched: пропускаем по названию (фильм уже просмотрен).
+    # Сравнение ТОЧНОЕ по нормализованному названию — без ложных совпадений по подстроке.
     watched_norm = extract_normalized_titles(watched_file)
 
-    # movies/cartoons/rus_movies: пропускаем по названию только если у записи есть URL-источник;
-    # если источника нет — оставляем в filtered (вдруг источник появится)
-    movies_with_url     = extract_titles_with_urls(movies_file)
-    rus_movies_with_url = extract_titles_with_urls(rus_movies_file)
-    cartoons_with_url   = extract_titles_with_urls(cartoons_file)
-
+    # Наличие фильма в movies/rus_movies/cartoons на отсев НЕ влияет: такие записи
+    # всё равно идут в filtered как альтернативный источник. Отсекаем только точные
+    # дубли самой ссылки (та же ссылка уже есть где-то) и заблокированные сайты.
     known_urls = (
         extract_urls(movies_file) |
         extract_urls(watched_file) |
@@ -183,10 +155,8 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
 
             url = next_line.strip() if has_url else ''
 
-            # watched — всегда пропускаем по названию
-            title_in_watched = title_matches_any(n, watched_norm)
-            # movies/cartoons/rus_movies — пропускаем по названию только если там есть источник
-            title_in_others  = title_matches_any(n, movies_with_url, rus_movies_with_url, cartoons_with_url)
+            # watched — пропускаем по ТОЧНОМУ совпадению нормализованного названия
+            title_in_watched = n in watched_norm
 
             url_cdn_name = cdn_filename(url) if url else None
             url_known = (
@@ -197,7 +167,7 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
 
             if site_blocked:
                 cnt_blocked += 1
-            elif title_in_watched or title_in_others or url_known:
+            elif title_in_watched or url_known:
                 cnt_skip += 1
             else:
                 out_lines.append(lines[i])

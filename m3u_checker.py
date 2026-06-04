@@ -3669,6 +3669,8 @@ def _load_url_blocklist(path: str = "url_blocklist.txt") -> set[str]:
     Each non-empty line that doesn't start with '#' is treated as a
     substring pattern (case-insensitive).  A bare host[:port] blocks
     every URL that contains that host, a full path blocks only that path.
+    A line may contain '*' as a wildcard for any run of characters, e.g.
+    '*.hh.ee' blocks any host ending in '.hh.ee'.
     """
     result: set[str] = set()
     try:
@@ -3680,6 +3682,16 @@ def _load_url_blocklist(path: str = "url_blocklist.txt") -> set[str]:
     except FileNotFoundError:
         pass
     return result
+
+def _wildcard_to_regex(pattern: str) -> re.Pattern:
+    """Compile a blocklist pattern containing '*' into a regex.
+
+    Every character except '*' is matched literally; '*' matches any run
+    of characters (including none).  Used with re.search, so a pattern
+    like '*.hh.ee' blocks any URL whose host ends in '.hh.ee', and
+    'rt-*-htlive.cdn.ngenix.net' blocks every such regional host.
+    """
+    return re.compile(".*".join(re.escape(part) for part in pattern.split("*")))
 
 URL_BLOCKLIST: set[str] = _load_url_blocklist()
 
@@ -3796,7 +3808,9 @@ ALIASES: dict[str, str] = {
     "Матч! Арена HD": "Матч! Арена",
     "Матч! Премьер HD": "Матч! Премьер",
     "Terra Incognita": "Terra",
-    "Муз союз": "Муз Союз"
+    "Муз союз": "Муз Союз",
+    "Продвижение (Ленинск-Кузнецкий)": "Продвижение",
+    "РБК ТВ (Краснодар)": "РБК"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
@@ -4643,14 +4657,21 @@ def main():
         stats.sources_ok += 1
         found = parse_source_m3u(content, url, log)
         blocklist_lower     = {b.lower() for b in BLOCKLIST}
-        url_blocklist_lower = {p.lower() for p in URL_BLOCKLIST}
         aliases_lower       = {k.lower(): v for k, v in ALIASES.items()}
 
+        # URL blocklist: plain substrings vs. wildcard ('*') patterns.
+        url_block_plain    = {p.lower() for p in URL_BLOCKLIST if "*" not in p}
+        url_block_wildcard = [
+            _wildcard_to_regex(p.lower()) for p in URL_BLOCKLIST if "*" in p
+        ]
+
         def _is_url_blocked(ch) -> bool:
-            if not url_blocklist_lower:
+            if not url_block_plain and not url_block_wildcard:
                 return False
             url_lc = ch.url.lower()
-            return any(pat in url_lc for pat in url_blocklist_lower)
+            if any(pat in url_lc for pat in url_block_plain):
+                return True
+            return any(rx.search(url_lc) for rx in url_block_wildcard)
 
         def _is_name_pattern_blocked(ch) -> bool:
             return any(p.search(ch.name) for p in BLOCKLIST_PATTERNS)
