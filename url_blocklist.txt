@@ -67,8 +67,28 @@ vcp*.myplaytv.com
 *.oktv.kz
 *.trbcdn.net
 *.tv41.ru
+*.qazcdn.com
+*.wotom.net
+*.online.tm
+*.arpinet.am
+*.cdn.xsg.ge
+*.cloudfront.net
+*.sofast.tv
+*.tricolor.tv
+*.ottgoods.ru
+*.dps.live
 
 # --- blocked hosts ---
+tjktv-live.tjk.org
+main.duckhunting.playout.vju.tv
+cdn3.wowza.com
+ciner-live.ercdn.net
+wz-kt.ktk.kz
+player.humorfm.by
+straume.vdtv.lv
+live.lietuvosryto.tv
+s1.dcdn.lt
+00ff00.latnet.media
 spb.rtsp.me
 sok.ath.cx
 www.omsk-kprf.ru
@@ -134,7 +154,6 @@ vd.obltv.ru
 line.tvdsz.cc
 osnmedia.servicecdn.ru
 stream-tv.ew21.ru
-stream-msk-05.ott.tricolor.tv
 stream.ntktv.ua
 nadiya.home-net.com.ua
 rfe-ingest.akamaized.net
@@ -151,7 +170,6 @@ stream.tvbelgorod.ru
 cdn.kubteltv.workers.dev
 de1.dstv.cx
 amaru.dyndns.org
-timeshift.arpinet.am
 liveplay.trovo.live
 livestream.galaxytv.ug
 s8.rafail1982.uz
@@ -173,7 +191,6 @@ s.only4.tv
 copacogen.desdeparaguay.net
 edge1-eu-west.picarto.tv
 arcast.net
-d3s7x6kmqcnb6b.cloudfront.net
 stream.sen-gt.com
 cdn.streamlane.tv
 mains.services
@@ -247,7 +264,6 @@ online.tvimpact.live
 hilandofinotv.essastream.com
 segment.yuppcdn.net
 server.asilivehd.com
-jireh-1-hls-video-cl-isp.dps.live
 best-str.umn.cdn.united.cloud
 stream.jurnalfm.md
 rtmp.info
@@ -280,7 +296,6 @@ cdamix.streaming.ws
 videoserver.tmcreativos.com
 7.innovatestream.pe
 goliveafrica.media
-d2ow8h651gs7dx.cloudfront.net
 ventdelnord.tv
 pegstudio.dyndns.tv
 mic.siar.us
@@ -289,7 +304,6 @@ stream.nasatv.com.mk
 nogoumtv.nrpstream.com
 ocko-live.ssl.cdn.cra.cz
 b01c02nl.mediatriple.net
-d6izdil55uftn.cloudfront.net
 tv02.zas.media
 oxygenmusic.hu
 livetv.streams.ovh
@@ -300,8 +314,6 @@ janus.xpbroadcasting.com
 s.emisoras.tv
 royalstarindia.co.in
 media2021.rtvweb.com
-d2lk5u59tns74c.cloudfront.net
-dotfvxkfj90ca.cloudfront.net
 otv.wotom.net
 radio.serv.si
 quahztv.akamaized.net
@@ -323,7 +335,6 @@ stream7.zivoli.it
 cloud37.ecuatel.com
 2-fss-2.themediacdn.com
 www.cloudscriptdog.cl
-dphwv2ufgnfsq.cloudfront.net
 server-67.stream-server.nl
 lon.rtsp.me
 stream.rdstv.radio
@@ -334,7 +345,6 @@ uni01rtmp.tulix.tv
 stream.mediawork.cz
 playlist.fasttvcdn.com
 stream.rtl.lu
-d2o8iss0ldenh4.cloudfront.net
 scl.edge.grupoz.cl
 www.streamecmsm.fr
 wowza.telvi.de
@@ -365,7 +375,6 @@ live.thaichaiyo.tv
 a-cdn.klowdtv.com
 us.streaminghd.cl
 189790-castr.akamaized.net
-pantera1-100gb-cl-movistar.dps.live
 cdn22.streampartner.nl
 stmv1.liveplushd.com.br
 isaocorp.cloudecast.com
@@ -393,8 +402,39 @@ st-stream.danpro.ru
 lifecam.sigma-ktv.ru
 video2.tvkkolpashevo.ru
 ctv7.ru
+centrfm.dc.beltelecom.by
+stream1.dc.beltelecom.by
+cachestar.privesc.eu
+tezaur.mlbfan.org
+tvr-moldova.lg.mncdn.com
+realitatealive.md
+stream.qazcdn.net
+streamer1.connectto.com
+stream.sstv.ge
+live.palitranews.ge
+a8.radyotelekom.com.tr
+video.rionitv.com
+str.yodacdn.net
+live1.giocabet.tv
+c.velestore.su
+cloud2.streaminglivehd.com
+kinoleha.net
+marionetka.com
+o8.anwap.be
+e12p.starlight.digital
+ashdi.vip
 
 # --- blocked IPs ---
+85.132.53.162
+85.132.78.122
+94.43.1.138
+95.142.86.181
+89.218.30.37
+120.70.60.179
+188.237.212.16
+5.56.77.9
+86.57.177.44
+89.28.25.122
 89.251.159.37
 185.185.69.62
 194.26.229.213
@@ -492,8 +532,9 @@ ctv7.ru
 81.30.52.114
 
 # --- blocked full URLs / paths ---
-https://s06.watcher.uz/133/video.m3u8
 https://s05.watcher.uz/95/video.m3u8
+https://s06.watcher.uz/131/video.m3u8
+https://s06.watcher.uz/133/video.m3u8
 http://217.114.191.150/Solnce/index.m3u8
 http://185.78.112.47:8077/Usadba/index.m3u8
 http://185.78.112.47:8077/che/index.m3u8
