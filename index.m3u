@@ -126,7 +126,6 @@ http://194.143.148.28:8080/Mir24/index.m3u8
 
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/eda.png" tvg-id="eda" tvg-description="Еда — российский тематический телеканал, посвящённый кулинарии и гастрономии.",Еда
 http://185.78.112.47:8077/eda_hd/index.m3u8
-#http://146.158.15.254:8000/play/a009/index.m3u8
 
 #EXTINF:0 group-title="Кулинария" tvg-description="Кулинар ТВ — российский телеканал о кулинарии и кулинарном искусстве.",Кулинар ТВ
 
@@ -192,6 +191,7 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 http://185.78.112.47:8077/mir-24/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
+http://178.124.153.123:44400/5kanal
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/7tv.png" tvg-id="7tv" tvg-description="7ТВ — российский федеральный телеканал, транслирующий спортивные программы, фитнес и активный образ жизни.",7 TV
 
@@ -227,7 +227,6 @@ http://185.78.112.47:8077/kaleydoskop/index.m3u8
 https://s03.watcher.uz/80/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #http://185.78.112.47:8077/mir/index.m3u8
 #http://93.84.105.184:443/mirhd
-#http://146.158.15.254:8000/play/a004/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nastoiaschee-vremia.png" tvg-id="nastoyaschee-vremia" tvg-description="Настоящее время — русскоязычный новостной телеканал, совместный проект Радио Свобода и Радио Свободная Европа.",Настоящее время
 
@@ -357,8 +356,6 @@ http://mfe02.cliptv.az/dash/Viasat_History_SD78905ty.ism/playlist.mpd
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel" tvg-description="Discovery Channel — международный познавательный телеканал. Специализируется на документальных фильмах о науке, природе, технологиях и приключениях.",Discovery
 
-http://146.158.15.254:8000/play/a017/index.m3u8
-
 #EXTINF:0 group-title="Познавательные" tvg-description="Докубокс — российский телеканал, специализирующийся на документальном кино.",Докубокс
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/ege-tv.png" tvg-id="ege-tv" tvg-description="ЕГЭ — российский образовательный телеканал, помогающий школьникам готовиться к Единому государственному экзамену.",ЕГЭ
@@ -423,9 +420,7 @@ https://s05.watcher.uz/29/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 # Природа
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" tvg-id="animal-planet-eu" tvg-description="Animal Planet — международный телеканал о животных и природе. Транслирует документальные программы о дикой природе и домашних животных.",Animal Planet
-
 http://185.78.112.47:8077/AnimalPlanetRussiaHD/index.m3u8
-#http://146.158.15.254:8000/play/a016/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/big-planet.png" tvg-id="big-planet" tvg-description="Big Planet — познавательный телеканал о природе и мире.",Big Planet
 
@@ -497,8 +492,6 @@ https://s06.watcher.uz/128/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 http://185.78.112.47:8077/OceanTV/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/poexali.png" tvg-id="poexali" tvg-description="Поехали! — российский телеканал о путешествиях, вдохновлённый знаменитой фразой Юрия Гагарина.",Поехали!
-
-http://146.158.15.254:8000/play/a01b/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv" tvg-description="RTG TV — российский телеканал о туризме и путешествиях.",RTG TV
 http://178.124.153.123:44400/rtg
@@ -909,7 +902,6 @@ https://stitch.teletarget.ru/vintera/movieclassic/1769345728421a8ea6e51c8383dc93
 
 #EXTINF:-1 group-title="candidate",Наш кинопоказ
 http://185.78.112.47:8077/nash_kinopokaz_hd/index.m3u8
-#http://tv.woobl.ru/nash_kinopokaz_hd/video.m3u8?token=woobliptvz
 
 #EXTINF:-1 group-title="candidate",Наше новое кино
 http://185.78.112.47:8077/nashe-novoe-kino/index.m3u8
@@ -977,9 +969,6 @@ https://streamer3.connectto.com/372/mono.m3u8
 #EXTINF:-1 group-title="candidate",О!
 http://185.78.112.47:8077/o_/index.m3u8
 #http://93.84.105.184:443/O
-
-#EXTINF:-1 group-title="candidate",Пингвин Лоло
-http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="candidate",Рыжий
 http://185.78.112.47:8077/ryzhiy/index.m3u8
@@ -1239,144 +1228,45 @@ http://185.78.112.47:8077/bridge_hd/index.m3u8
 #EXTINF:-1 group-title="candidate",Старт Live
 http://185.78.112.47:8077/start_hd/index.m3u8
 
-
-#EXTINF:-1 tvg-id="kongresstv" tvg-logo="https://iptvx.one/picons/kongresstv.png" group-title="test" ,Конгресс ТВ
+#EXTINF:-1 tvg-id="kongresstv" tvg-logo="https://iptvx.one/picons/kongresstv.png" group-title="candidate",Конгресс ТВ
 https://live-4.otcnet.ru/504/135/480p/index.m3u8
-#EXTINF:-1 tvg-id="kinosezon" tvg-logo="https://iptvx.one/picons/kinosezon.png" group-title="test" ,КиноСезон
+#https://live-4.otcnet.ru/504/135/1080p/index.m3u8
+#https://stitch.teletarget.ru/api/v1/hls/504/135/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
+
+#EXTINF:-1 tvg-id="kinosezon" tvg-logo="https://iptvx.one/picons/kinosezon.png" group-title="candidate",КиноСезон
 http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
-#EXTINF:-1 tvg-id="3-plus-ee" tvg-logo="https://iptvx.one/picons/3-plus-ee.png" group-title="test" ,TV3 Gold [EE]
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
-#EXTINF:-1 tvg-id="krik-tv" tvg-logo="https://iptvx.one/picons/krik-tv.png" group-title="test" ,Крик ТВ
+
+#EXTINF:-1 tvg-id="krik-tv" tvg-logo="https://iptvx.one/picons/krik-tv.png" group-title="candidate",Крик ТВ
 http://cdn-01.bonus-tv.ru/kriktv_edge/index.m3u8
-#EXTINF:-1 tvg-id="multimania" tvg-logo="https://iptvx.one/picons/multimania.png" group-title="test" ,Мультиландия
+
+#EXTINF:-1 tvg-id="multimania" tvg-logo="https://iptvx.one/picons/multimania.png" group-title="candidate",Мультиландия
 http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
-#EXTINF:-1 tvg-id="kriminalnoe-hd" tvg-logo="https://iptvx.one/picons/kriminalnoe-hd.png" group-title="test" ,Криминальное HD
-http://80.245.112.27:8787/
-#EXTINF:-1  group-title="test",BT Sport 9 HD
-https://streamfi-alphadgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
-#EXTINF:-1  group-title="test",Das Erste HD
-https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
-#EXTINF:-1 tvg-id="muzwar" tvg-logo="https://iptvx.one/picons/muzwar.png" group-title="test" ,Музвар
-https://streams.adapto.kz/hls/live/muzzone/main_stream.m3u8
-#EXTINF:-1  group-title="test",Das Erste Ⓖ
-https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
-#EXTINF:-1  group-title="test",Vajeu
+
+#EXTINF:-1 group-title="candidate",Vajeu
 http://136723.edgevideo.ru/streams/136723_657205/480n/index.m3u8
-#EXTINF:-1  group-title="test",SPOTV
+
+#EXTINF:-1 group-title="candidate",SPOTV
 http://primestreams.tv:826/live/mookie22/49aV7nBsK4/119515.m3u8
-#EXTINF:-1  group-title="test",Канал International
+
+#EXTINF:-1 group-title="candidate",8tv
 http://v4.proofix.ru:80/8tv-europe/index.m3u8
-#EXTINF:-1  group-title="test",Конгресс ТВ HD
-https://live-4.otcnet.ru/504/135/1080p/index.m3u8
-#EXTINF:-1  group-title="test",КОНГРЕСС ТВ SD
-https://stitch.teletarget.ru/api/v1/hls/504/135/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
-#EXTINF:-1  group-title="test",Мир сериала HD
-http://tv.woobl.ru/mir_seriala_hd/video.m3u8?token=woobliptvz
-#EXTINF:-1  group-title="test",Матур ТВ
+
+#EXTINF:-1 group-title="candidate",Матур ТВ
 http://213.59.128.165:8080/Matur_TV/index.m3u8
-#EXTINF:-1  group-title="test",КРЫМ 24
-http://iptv.crimea.net:8787
-#EXTINF:-1  group-title="test",Патриот
-http://146.158.15.254:8000/play/a00i/index.m3u8
-#EXTINF:-1  group-title="test",Пингвин
+
+#EXTINF:-1 group-title="candidate",Пингвин
 https://sirius.greenhosting.ru/PingvinRu/video.m3u8
-#EXTINF:-1  group-title="test",Пятый канал Int.
-http://178.124.153.123:44400/5kanal
-#EXTINF:-1  group-title="test",Хит
-http://hitfm.hostingradio.ru/hitfm128.mp3
-#EXTINF:-1 group-title="test",Xəzər TV HD
-http://176.65.146.189:8701/play/a09n
-#EXTINF:-1 group-title="test",Ushba-Films
+#http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="candidate",Ushba-Films
 https://stream.ushba.tv/akamaiushba/ushba-films-qr/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="test",Mədəniyyət TV HD
-http://176.65.146.189:8701/play/a09k
-#EXTINF:-1 group-title="test",SPACE TV HD
-http://176.65.146.189:8701/play/a09p
-#EXTINF:-1 group-title="test",Azad Azərbaycan TV HD
-http://176.65.146.189:8701/play/a09m
-#EXTINF:-1 group-title="test",Idman Azərbaycan TV HD
-http://176.65.146.189:8701/play/a09j
-#EXTINF:-1 group-title="test",Cinemax HD
-http://81.15.109.89:8001/play/Cinemax
-#EXTINF:-1 group-title="test",Disney Channel HD
-http://81.15.109.89:8001/play/DisneyChannel2
-#http://81.15.109.89:8001/play/DisneyChannel
-#EXTINF:-1 group-title="test",GünAZ TV HD
-http://176.65.146.189:8701/play/a09x
-#EXTINF:-1 group-title="test",Disco Polo Music
-http://81.15.109.89:8001/play/DiscoPoloMusic2
-#http://81.15.109.89:8001/play/DiscoPoloMusic
-#EXTINF:-1 group-title="test",Eska TV Extra HD
-http://81.15.109.89:8001/play/EskaTVExtra
-#EXTINF:-1 group-title="test",Eska Rock HD
-http://81.15.109.89:8001/play/EskaRock
-#EXTINF:-1 group-title="test",Film Cafe
-http://81.15.109.89:8001/play/FilmCafe
-#EXTINF:-1 group-title="test",Dla Ciebie TV
-http://81.15.109.89:8001/play/DlaCiebieTV
-#EXTINF:-1 group-title="test",Fightklub HD
-http://81.15.109.89:8001/play/Fightklub
-#EXTINF:-1 group-title="test",ID Poland HD
-http://81.15.109.89:8001/play/IDPoland
-#EXTINF:-1 group-title="test",HBO HD
-http://81.15.109.89:8001/play/HBO
-#EXTINF:-1 group-title="test",Mango
-http://81.15.109.89:8001/play/Mango
-#EXTINF:-1 group-title="test",Polsat Rodzina HD
-http://81.15.109.89:8001/play/PolsatRodzina
-#EXTINF:-1 group-title="test",Polsat News Polityka HD
-http://81.15.109.89:8001/play/PolsatNewsPolityka
-#EXTINF:-1 group-title="test",Nat Geo People HD
-http://81.15.109.89:8001/play/NatGeoPeople
-#EXTINF:-1 group-title="test",Mezzo TV
-http://81.15.109.89:8001/play/MezzoTV
-#EXTINF:-1 group-title="test",HOME TV
-http://81.15.109.89:8001/play/HomeTV
-#EXTINF:-1 group-title="test",Science Poland HD
-http://81.15.109.89:8001/play/SciencePoland
-#EXTINF:-1 group-title="test",Novela Tv
-http://81.15.109.89:8001/play/a02n
-#http://81.15.109.89:8001/play/NovelaTV
-#EXTINF:-1 group-title="test",Polsat Jim Jam
-http://81.15.109.89:8001/play/PolsatJimJam
-#EXTINF:-1 group-title="test",Sportklub HD
-http://81.15.109.89:8001/play/Sportklub
-#EXTINF:-1 group-title="test",Polsat Viasat Nature HD
-http://81.15.109.89:8001/play/PolsatViasatNature
-#EXTINF:-1 group-title="test",SZLAGIER TV
-http://81.15.109.89:8001/play/SzlagierTV
-#EXTINF:-1 group-title="test",Turbo Xtra Poland HD
-http://81.15.109.89:8001/play/TurboXtraPoland
-#EXTINF:-1 group-title="test",NOVELAS+
-http://81.15.109.89:8001/play/Novelas
-#EXTINF:-1 group-title="test",Polsat Seriale HD
-http://81.15.109.89:8001/play/PolsatSeriale
-#EXTINF:-1 group-title="test",TVC SUPER
-http://81.15.109.89:8001/play/TVCSuper
-#EXTINF:-1 group-title="test",Polsat Viasat Explore HD
-http://81.15.109.89:8001/play/PolsatViasatExplore
-#EXTINF:-1 group-title="test",Wydarzenia 24 HD
-http://81.15.109.89:8001/play/Wydarzenia24
-#EXTINF:-1 group-title="test",teleTOON+ HD
-http://81.15.109.89:8001/play/Teletoon
-#EXTINF:-1 group-title="test",Vox Music TV HD
-http://81.15.109.89:8001/play/VoxMusicTV
-#EXTINF:-1 group-title="test",Polsat X HD
-http://81.15.109.89:8001/play/PolsatX
-#EXTINF:-1 group-title="test",NUTA GOLD
-http://81.15.109.89:8001/play/NutaGold
-#EXTINF:-1 group-title="test",TV Okazje
-http://81.15.109.89:8001/play/TVOkazje
+
 #EXTINF:-1 group-title="test",Sportska TV HD
 https://srv1.adriatelekom.com/SportskaTV/index.m3u8
 #EXTINF:-1 group-title="test",Кино- Последний концерт в Лужниках
 https://v2.catcast.tv/videos/ch40908/171120210453_112762/video.mp4
-#EXTINF:-1 group-title="test",Water Planet
-http://81.15.109.89:8001/play/WaterPlanet
 #EXTINF:-1 group-title="test",Каббала
 http://edge2.uk.kab.tv/rtplive/kabtv-rus-medium.stream/playlist.m3u8
-#EXTINF:-1 group-title="test",MTV 90s
-http://81.15.109.89:8001/play/MTV90s
 #EXTINF:-0 tvg-id="no_epg_cinema" group-title="test" tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png",СТРК HD
 http://sochinskayatrk.ru/hdtv/hls/CTPK_400/playlist.m3u8
 #EXTINF:-1 tvg-id="RBKTV.ru" tvg-name="" tvg-logo="https://i.ibb.co/tThbynk3/image-51.png" group-title="test", СТВ (Тулун)
