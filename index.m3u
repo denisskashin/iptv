@@ -3,10 +3,8 @@
 # Авто и мотоспорт
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства.",Авто 24
-http://mfe02.cliptv.az/dash/Avto_Plus_SDngbg23480d.ism/playlist.mpd
-#http://185.78.112.47:8077/avto24/index.m3u8
-#http://62.89.17.130:4451/play/a00r/index.m3u8
-#http://gr.seetv.cc/play/256/D70CC021CA87DF2/video.m3u8
+http://185.78.112.47:8077/avto24/index.m3u8
+#http://mfe02.cliptv.az/dash/Avto_Plus_SDngbg23480d.ism/playlist.mpd
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" tvg-description="«Драйв» — канал для тех, кто не мыслит своей жизни без автомобилей, мотоциклов и путешествий. Фанаты экстремального вождения и любители неторопливых автомобильных поездок по стране и миру, мотоциклисты и авто-антиквары, начинающие автолюбители и профессионалы со стажем, мужчины и женщины за рулем увидят на канале «Драйв» репортажи с выставок и автосалонов, тест-драйвы новинок мирового и отечественного автомобильного рынка, комментарии известных автоэкспертов, программы о культовых марках и тюнинге.",Драйв
 
@@ -161,17 +159,27 @@ https://s06.watcher.uz/154/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 # НТВ
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv" tvg-description="НТВ — российский федеральный телеканал, один из крупнейших в стране. Специализируется на новостях, сериалах, документальном кино и развлекательных программах.",НТВ
-http://185.78.112.47:8077/ntv_fed/index.m3u8
+http://185.78.112.47:8077/ntv_hd/index.m3u8
+#http://185.78.112.47:8077/ntv_fed/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-amerika.png" tvg-id="ntv-amerika" tvg-description="НТВ Америка — русскоязычный телеканал для зрителей в США и Канаде, транслирует программы НТВ и российский контент.",НТВ Америка
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-belarus.png" tvg-id="ntv-belarus" tvg-description="НТВ Беларусь — версия российского телеканала НТВ, адаптированная для белорусской аудитории.",НТВ Беларусь
 
+#EXTINF:0 group-title="НТВ",НТВ Мир
+https://streaming.thestream.cyou/live/213-req_offset_28000000-req_window_0-1k_v5.m3u8
+
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" tvg-id="ntv-pravo" tvg-description="НТВ Право — российский тематический канал, посвящённый юридической тематике, правовым вопросам и криминальным историям.",НТВ Право
 http://185.78.112.47:8077/ntv_pravo/index.m3u8
 
+#EXTINF:0 group-title="НТВ",НТВ Сериал
+http://185.78.112.47:8077/ntv_serial/index.m3u8
+
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-style.png" tvg-id="ntv-style" tvg-description="НТВ Стиль — российский развлекательный канал, ориентированный на тематику стиля, моды, красоты и жизни.",НТВ Стиль
 http://185.78.112.47:8077/ntv_stil/index.m3u8
+
+#EXTINF:0 group-title="НТВ",НТВ Хит
+http://185.78.112.47:8077/ntv_hit/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/360-int.png" tvg-id="360-int" tvg-description="360° — российский федеральный новостной телеканал. Транслирует актуальные новости, аналитику и репортажи в режиме реального времени.",360°
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
@@ -206,7 +214,6 @@ https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 https://s05.watcher.uz/43/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #https://streaming.thestream.cyou/live/748-req_offset_28000000-req_window_0-1k_v5.m3u8
 #http://185.78.112.47:8077/zvezda/index.m3u8
-#http://62.89.17.130:4451/play/a006/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-id="zvezda-plus" tvg-description="Звезда Плюс — дополнительный канал телеканала «Звезда», транслирующий военно-исторические и документальные программы.",Звезда плюс
 http://185.78.112.47:8077/zvezda_plus_hd/index.m3u8
@@ -235,9 +242,9 @@ http://185.78.112.47:8077/nostalgia/index.m3u8
 http://185.78.112.47:8077/otr/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy" tvg-description="Первый канал — крупнейший федеральный телеканал России. Ведёт вещание с 1951 года. Показывает новости, художественные фильмы, сериалы и развлекательные программы.",Первый канал
-https://streaming.goodstream.icu/live/210-req_offset_28000000-req_window_0-2k_v5.m3u8
+http://185.78.112.47:8077/ort_hd/index.m3u8
+#https://streaming.goodstream.icu/live/210-req_offset_28000000-req_window_0-2k_v5.m3u8
 #https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#https://edge1.1internet.tv/dash-live2/streams/1tv/1tvdash.mpd
 #https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #http://185.78.112.47:8077/ort_msk/index.m3u8
 
@@ -250,7 +257,8 @@ https://streaming.thestream.cyou/live/210-req_offset_28000000-req_window_0-1k_v5
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica-int.png" tvg-id="piatnica-int" tvg-description="Пятница International — международная версия российского телеканала Пятница! для зрителей за рубежом.",Пятница International
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Пятница! — российский развлекательный телеканал, ориентированный на молодёжную аудиторию. Показывает реалити-шоу, сериалы и лайфстайл-программы.",Пятница!
-http://185.78.112.47:8077/Pyatnica/index.m3u8
+http://185.78.112.47:8077/pyatnica_hd/index.m3u8
+#http://185.78.112.47:8077/Pyatnica/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",РЕН ТВ
 
@@ -373,10 +381,11 @@ http://185.78.112.47:8077/kto-est-kto/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/ministerstvo-idey.png" tvg-id="ministerstvo-idey" tvg-description="Министерство идей — российский познавательный телеканал, посвящённый инновациям и творческим проектам.",Министерство идей
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nano-hd.png" tvg-id="nano-hd" tvg-description="Нано — российский научно-популярный телеканал о технологиях и инновациях.",Нано
+http://185.78.112.47:8077/nano_hd/index.m3u8
+#http://185.78.112.47:8077/nano-tv/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20" tvg-description="Наука — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о науке, технологиях и природе.",Наука
-http://62.89.17.130:4451/play/a01b/index.m3u8
-#http://93.84.105.184:443/nauka
+http://93.84.105.184:443/nauka
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/prikluchenia-hd.png" tvg-id="prikluchenia-hd" tvg-description="Приключения — российский тематический телеканал с документальными фильмами о приключениях и путешествиях.",Приключения
 https://s06.watcher.uz/140/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
@@ -474,11 +483,9 @@ https://s06.watcher.uz/127/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 https://s06.watcher.uz/144/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #http://185.78.112.47:8077/moya_planeta/index.m3u8
 #http://185.78.112.47:8077/planeta_hd/index.m3u8
-#http://62.89.17.130:4451/play/a00y/index.m3u8
 #http://93.84.105.184:443/myplanet
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/morskoy.png" tvg-id="morskoy" tvg-description="Моя стихия — российский тематический телеканал для любителей активного отдыха и путешествий.",Моя стихия
-http://62.89.17.130:4451/play/a00z/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/national-geographic.png" tvg-id="national-geographic" tvg-description="National Geographic — международный познавательный телеканал. Транслирует документальные фильмы о природе, науке, истории и путешествиях.",National Geographic
 http://185.78.112.47:8077/natgeo/index.m3u8
@@ -508,12 +515,8 @@ http://stitch.teletarget.ru/vintera/terra/index.m3u8
 #http://185.78.112.47:8077/natgeo/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/tochka-otryva.png" tvg-id="tochka-otryva" tvg-description="Точка Отрыва — российский телеканал об экстремальном туризме и приключениях.",Точка Отрыва
-http://62.89.17.130:4451/play/a00l/index.m3u8
-#http://gr.seetv.cc/play/601/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-adventure.png" tvg-id="travel-adventure" tvg-description="Travel+Adventure — тематический телеканал о путешествиях и приключениях.",Travel+Adventure
-http://62.89.17.130:4451/play/a009/index.m3u8
-
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/russian-extreme-uhd.png" tvg-id="russian-extreme-uhd" tvg-description="ULTRA REX — телеканал о природе и дикой жизни.",ULTRA REX
 
@@ -539,9 +542,7 @@ http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 #http://dmi3y-tv6.ru/hls/zabava/region/KIROV/CH_9TVHD.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/extreme-sports.png" tvg-id="extreme-sports" tvg-description="Extreme Sports — международный тематический телеканал, посвящённый экстремальным видам спорта.",Extreme Sports
-#http://185.78.112.47:8077/ExtremeSports/index.m3u8
-#http://62.89.17.130:4451/play/a00s/index.m3u8
-#http://gr.seetv.cc/play/53/D70CC021CA87DF2/video.m3u8
+http://185.78.112.47:8077/ExtremeSports/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/fastfunbox-hd.png" tvg-id="fastfunbox-hd" tvg-description="Fast & FunBox — развлекательный телеканал с динамичным и юмористическим контентом.",Fast & FunBox
 
@@ -660,17 +661,12 @@ http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v2a1/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Viju+ Sport — спортивный канал балтийской медиагруппы Viju.",Viju+ Sport
 http://109.70.186.82:9090/udp/239.185.1.8:1234
-#http://gr.seetv.cc/play/77/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1" tvg-description="Eurosport 1 — европейский спортивный телеканал. Транслирует широкий спектр соревнований: теннис, велоспорт, лыжи, биатлон и другие виды спорта.",Eurosport 1
-
-http://62.89.17.130:4451/play/a01d/index.m3u8
-#http://86.87.15.10:8005/play/a00e/index.m3u8
+http://86.87.15.10:8005/play/a00e/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2" tvg-description="Eurosport 2 — второй канал сети Eurosport. Транслирует экстремальные виды спорта, а также дополнительные трансляции из сетки Eurosport.",Eurosport 2
 #http://176.96.241.40/Eurosport2/index.m3u8
-http://62.89.17.130:4451/play/a01m/index.m3u8
-#http://gr.seetv.cc/play/43/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/fx-sports-1-us.png" tvg-id="fx-sports-1-us" tvg-description="FS1 (Fox Sports 1) — американский спортивный телеканал сети Fox. Транслирует широкий спектр спортивных соревнований.",FS1
 
@@ -692,57 +688,42 @@ http://185.78.112.47:8077/khl/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena" tvg-description="Матч! Арена — российский спортивный телеканал группы «Матч!». Специализируется на трансляциях крупных спортивных событий.",Матч! Арена
 http://185.78.112.47:8077/arena_hd/index.m3u8
 #http://185.78.112.47:8077/arena/index.m3u8
-#http://gr.seetv.cc/play/146/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-boec.png" tvg-id="match-boets" tvg-description="Матч! Боец — российский спортивный телеканал, посвящённый боевым видам спорта: боксу, MMA, борьбе и единоборствам.",Матч! Боец
-http://62.89.17.130:4451/play/a00q/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra" tvg-description="Матч! Игра — российский спортивный канал, специализирующийся на игровых видах спорта.",Матч! Игра
 http://185.78.112.47:8077/match_igra_hd/index.m3u8
 #http://185.78.112.47:8077/match-igra/index.m3u8
-#http://gr.seetv.cc/play/153/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-tv.png" tvg-id="match-tv" tvg-description="Матч! — ведущий российский спортивный телеканал. Транслирует футбол, хоккей и другие популярные виды спорта.",Матч!
 http://185.78.112.47:8077/match/index.m3u8
 #http://185.78.112.47:8077/match_hd/index.m3u8
 #https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#http://gr.seetv.cc/play/5/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-planeta.png" tvg-id="match-planeta" tvg-description="Матч! Планета — российский спортивный телеканал группы «Матч!», транслирующий международные соревнования.",Матч! Планета
-
-http://gr.seetv.cc/play/14/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-premiere.png" tvg-id="match-premier" tvg-description="Матч! Премьер — российский спортивный канал для трансляции матчей Российской Премьер-лиги по футболу.",Матч! Премьер
 http://185.78.112.47:8077/nash_football_hd/index.m3u8
 #http://185.78.112.47:8077/nash-football/index.m3u8
-#http://gr.seetv.cc/play/37/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-strana.png" tvg-id="match-nash-sport" tvg-description="Матч! Страна — российский спортивный телеканал группы «Матч!», посвящённый региональному и отечественному спорту.",Матч! Страна
 http://ukr.ukrainske.tv/134/keytvainua/video.m3u8
 #http://185.78.112.47:8077/strana/index.m3u8
-#http://62.89.17.130:4451/play/a00p/index.m3u8
-#http://gr.seetv.cc/play/134/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-football1.png" tvg-id="match-football1" tvg-description="Матч! Футбол 1 — российский спортивный канал, специализирующийся на трансляциях европейского футбола.",Матч! Футбол 1
 http://185.78.112.47:8077/football1_hd/index.m3u8
-#http://gr.seetv.cc/play/260/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-football2.png" tvg-id="match-football2" tvg-description="Матч! Футбол 2 — второй футбольный канал медиагруппы «Матч!». Транслирует матчи ведущих европейских лиг.",Матч! Футбол 2
 http://185.78.112.47:8077/football2_hd/index.m3u8
-#http://gr.seetv.cc/play/271/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-football3.png" tvg-id="match-football3" tvg-description="Матч! Футбол 3 — третий футбольный канал медиагруппы «Матч!». Транслирует международные и российские футбольные соревнования.",Матч! Футбол 3
 http://185.78.112.47:8077/football3_hd/index.m3u8
-#http://gr.seetv.cc/play/329/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/mir-basketbola.png" tvg-id="mir-basketbola" tvg-description="Мир баскетбола — российский тематический телеканал, посвящённый баскетболу. Транслирует матчи и программы о баскетболе.",Мир баскетбола
-http://gr.seetv.cc/play/8831/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/mlb-network-us.png" tvg-id="mlb-network-us" tvg-description="MLB Network — официальный телеканал Главной лиги бейсбола. Транслирует матчи, новости и аналитику бейсбола.",MLB Network
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nba-tv-us.png" tvg-id="nba-tv-us" tvg-description="NBA TV — официальный телеканал Национальной баскетбольной ассоциации США. Транслирует матчи, новости и аналитику NBA.",NBA TV
-
-http://gr.seetv.cc/play/9984/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nfl-network-us.png" tvg-id="nfl-network-us" tvg-description="NFL Network — официальный телеканал Национальной футбольной лиги США. Транслирует матчи, новости и аналитику американского футбола.",NFL Network
 
@@ -753,8 +734,6 @@ http://gr.seetv.cc/play/9984/D70CC021CA87DF2/video.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/qsport-kg.png" tvg-id="qsport-kg" tvg-description="Q Sport — казахстанский спортивный телеканал.",Q Sport
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kazsport.png" tvg-id="kazsport" tvg-description="Qazsport — официальный спортивный телеканал Казахстана. Транслирует казахстанские и международные спортивные соревнования.",Qazsport
-
-http://gr.seetv.cc/play/1841/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sportivny.png" tvg-id="sportivny" tvg-description="Спорт HD — российский спортивный телеканал в высоком разрешении. Транслирует разнообразные соревнования.",Спорт HD
 
@@ -772,13 +751,10 @@ http://185.78.112.47:8077/football/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/football-ru.png" tvg-id="football-ru" tvg-description="Футбол — тематический спортивный телеканал, транслирующий футбольные матчи и программы.",Футбол
 http://185.78.112.47:8077/football/index.m3u8
-#http://gr.seetv.cc/play/171/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Horizon Sports — спортивный телеканал, транслирующий разнообразные соревнования.",Horizon Sports
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/xokkejny.png" tvg-id="xokkejny" tvg-description="Хоккейный — российский тематический телеканал, посвящённый хоккею. Транслирует матчи и программы о хоккее.",Хоккейный
-
-http://gr.seetv.cc/play/6160/D70CC021CA87DF2/video.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/xsport-ua.png" tvg-id="xsport-ua" tvg-description="XSport — спортивный телеканал, специализирующийся на трансляции разнообразных соревнований.",XSport
 
@@ -818,8 +794,6 @@ http://185.78.112.47:8077/DiscoveryChannelHD/index.m3u8
 #EXTINF:-1 tvg-id="neizvestnaya-planeta" tvg-logo="https://iptvx.one/picons/neizvestnaya-planeta.png" group-title="candidate",Неизвестная Планета
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8
 
-#EXTINF:-1 group-title="candidate",НТВ Мир
-https://streaming.thestream.cyou/live/213-req_offset_28000000-req_window_0-1k_v5.m3u8
 
 #EXTINF:-1 group-title="candidate",Наш Дом
 http://85.234.33.63/stream/c11.m3u8
@@ -943,14 +917,10 @@ http://185.78.112.47:8077/nashe-novoe-kino/index.m3u8
 #EXTINF:-1 group-title="candidate",НСТ
 http://185.78.112.47:8077/nstv/index.m3u8
 
-#EXTINF:-1 group-title="candidate",НТВ Сериал
-http://185.78.112.47:8077/ntv_serial/index.m3u8
-
-#EXTINF:-1 group-title="candidate",НТВ Хит
-http://185.78.112.47:8077/ntv_hit/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Победа
-https://streaming.thestream.cyou/live/43.m3u8
+http://185.78.112.47:8077/pobeda_hd/index.m3u8
+#https://streaming.thestream.cyou/live/43.m3u8
 #https://streaming.thestream.cyou/live/43-req_offset_28000000-req_window_0-1k_v5.m3u8
 #http://93.84.105.184:443/pobeda
 
@@ -989,8 +959,8 @@ http://185.78.112.47:8077/malish/index.m3u8
 http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="candidate",Мульт
-http://185.78.112.47:8077/mult/index.m3u8
-#http://62.89.17.130:4451/play/a00g/index.m3u8
+http://185.78.112.47:8077/thlum_hd/index.m3u8
+#http://185.78.112.47:8077/mult/index.m3u8
 
 #EXTINF:-1 tvg-id="multimania-lv" tvg-logo="https://iptvx.one/picons/multimania-lv.png" group-title="candidate",Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
@@ -1026,7 +996,6 @@ http://185.78.112.47:8077/detskiy/index.m3u8
 #EXTINF:-1 group-title="candidate",Муз ТВ
 https://streaming.thestream.cyou/live/618-req_offset_28000000-req_window_0-3k_v5.m3u8
 #http://185.78.112.47:8077/muz_tv/index.m3u8
-#http://62.89.17.130:4451/play/a012/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Музыка первого
 https://s03.watcher.uz/54/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
@@ -1200,91 +1169,77 @@ http://185.78.112.47:8077/kinoujas/index.m3u8
 #EXTINF:-1 group-title="candidate",Русский Бестселлер
 http://185.78.112.47:8077/rus-bestseller/index.m3u8
 
-]#EXTINF:-1 group-title="test",Русский Детектив
+#EXTINF:-1 group-title="candidate",Русский Детектив
 http://185.78.112.47:8077/rus-detective/index.m3u8
 
-#EXTINF:-1 group-title="test",Русский Иллюзион
+#EXTINF:-1 group-title="candidate",Русский Иллюзион
 http://185.78.112.47:8077/RusskiyIllusion/index.m3u8
 
-#EXTINF:-1 group-title="test",Москва 24
+#EXTINF:-1 group-title="candidate",Москва 24
 http://185.78.112.47:8077/moskva_24/index.m3u8
 
-#EXTINF:-1 group-title="test",Русский Роман
+#EXTINF:-1 group-title="candidate",Русский Роман
 http://185.78.112.47:8077/rus-roman/index.m3u8
 
-#EXTINF:-1 group-title="test",МАТЧ ПРЕМЬЕР HD
-http://gr.seetv.cc/play/250/D70CC021CA87DF2/video.m3u8
-
-#EXTINF:-1 group-title="test",Карусель
+#EXTINF:-1 group-title="candidate",Карусель
 http://185.78.112.47:8077/karusel/index.m3u8
-
 #https://streaming.thestream.cyou/live/232-req_offset_28000000-req_window_0-1k_v5.m3u8
-#EXTINF:-1 group-title="test",Москва Доверие
 
+#EXTINF:-1 group-title="candidate",Москва Доверие
 http://185.78.112.47:8077/moskva_doverie/index.m3u8
-#EXTINF:-1 group-title="test",НТВ HD
 
-http://185.78.112.47:8077/ntv_hd/index.m3u8
-#EXTINF:-1 group-title="test",Нано ТВ
-
-http://185.78.112.47:8077/nano-tv/index.m3u8
-#EXTINF:-1 group-title="test",КИНОСВИДАНИЕ
+#EXTINF:-1 group-title="candidate",Киносвидание
 http://185.78.112.47:8077/kinosvidanie/index.m3u8
-#EXTINF:-1 group-title="test",Мульт HD
-http://185.78.112.47:8077/thlum_hd/index.m3u8
-#EXTINF:-1 group-title="test",Первый HD
-http://185.78.112.47:8077/ort_hd/index.m3u8
-#http://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 group-title="test",Мир вокруг
+
+#EXTINF:-1 group-title="candidate",Мир вокруг
 http://185.78.112.47:8077/MirVokrugHD/index.m3u8
-#EXTINF:-1 group-title="test",Матч Премьер
-http://62.89.17.130:4451/play/a019/index.m3u8
-#EXTINF:-1 group-title="test",Оружие
+
+#EXTINF:-1 group-title="candidate",Оружие
 http://185.78.112.47:8077/oruzhie/index.m3u8
-#EXTINF:-1 group-title="test",Тайна
+
+#EXTINF:-1 group-title="candidate",Тайна
 http://185.78.112.47:8077/taina/index.m3u8
-#EXTINF:-1 group-title="test",Fan
+
+#EXTINF:-1 group-title="candidate",Fan
 http://185.78.112.47:8077/fan/index.m3u8
-#EXTINF:-1 group-title="test",Кинопремьера
+
+#EXTINF:-1 group-title="candidate",Кинопремьера
 http://185.78.112.47:8077/premiera/index.m3u8
-#EXTINF:-1 group-title="test",Кинопоказ
+
+#EXTINF:-1 group-title="candidate",Кинопоказ
 http://185.78.112.47:8077/kinopokaz/index.m3u8
-#EXTINF:-1 group-title="test",Life 78
+
+#EXTINF:-1 group-title="candidate",Life 78
 http://185.78.112.47:8077/life78/index.m3u8
-#EXTINF:-1 group-title="test",RT Doc
+
+#EXTINF:-1 group-title="candidate",ЕГЭ ТВ
 http://185.78.112.47:8077/rt-doc/index.m3u8
-#EXTINF:-1 group-title="test",Мой мир
+
+#EXTINF:-1 group-title="candidate",Мой мир
 http://185.78.112.47:8077/topshop/index.m3u8
-#EXTINF:-1 group-title="test",Нано ТВ HD
-http://185.78.112.47:8077/nano_hd/index.m3u8
-#EXTINF:-1 group-title="test",Победа HD
-http://185.78.112.47:8077/pobeda_hd/index.m3u8
-#EXTINF:-1 group-title="test",Про любовь
+
+#EXTINF:-1 group-title="candidate",Про любовь
 http://185.78.112.47:8077/pro_lubov_hd/index.m3u8
-#EXTINF:-1 group-title="test",Прибой ТВ
+
+#EXTINF:-1 group-title="candidate",Прибой ТВ
 http://185.78.112.47:8077/priboy_tv_hd/index.m3u8
-#EXTINF:-1 group-title="test",Пятница HD
-http://185.78.112.47:8077/pyatnica_hd/index.m3u8
-#EXTINF:-1 group-title="test",Ратник
+
+#EXTINF:-1 group-title="candidate",Ратник
 http://185.78.112.47:8077/ratnik_hd/index.m3u8
-#EXTINF:-1 group-title="test",ТВ3 HD
-http://185.78.112.47:8077/tv3_hd/index.m3u8
-#EXTINF:-1 group-title="test",Aiva HD
+
+#EXTINF:-1 group-title="candidate",Aiva
 http://185.78.112.47:8077/aiva_hd/index.m3u8
-#EXTINF:-1 group-title="test",MCM Top Russia
+
+#EXTINF:-1 group-title="candidate",MCM Top Russia
 http://185.78.112.47:8077/MCMTopRussia/index.m3u8
-#EXTINF:-1 group-title="test",Bridge HD
+
+#EXTINF:-1 group-title="candidate",Bridge
 http://185.78.112.47:8077/bridge_hd/index.m3u8
-#EXTINF:-1 group-title="test",Старт Live
+
+#EXTINF:-1 group-title="candidate",Старт Live
 http://185.78.112.47:8077/start_hd/index.m3u8
-#EXTINF:-1 group-title="test",Кино ТВ
-http://62.89.17.130:4451/play/a001/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.postimg.cc/GmdQmMDF/Shams-TVava-(2).jpg" tvg-name="Telegram  @Shamil_bro" group-title="test",ПОДПИШИСЬ
-https://shamilbro.ucoz.net/introsham.mp4
-#EXTINF:-1 tvg-logo="https://shamilbro.ucoz.net/ustanovka.jpg" tvg-name="Telegram  @Shamil_bro" group-title="test",УСТАНОВКА
-https://shamilbro.ucoz.net/ustanovka.mp4
-#EXTINF:-1 tvg-id="ldpr-tv" tvg-logo="https://iptvx.one/picons/ldpr-tv.png" group-title="test" ,ЛДПР ТВ
-http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
+
+
 #EXTINF:-1 tvg-id="kongresstv" tvg-logo="https://iptvx.one/picons/kongresstv.png" group-title="test" ,Конгресс ТВ
 https://live-4.otcnet.ru/504/135/480p/index.m3u8
 #EXTINF:-1 tvg-id="kinosezon" tvg-logo="https://iptvx.one/picons/kinosezon.png" group-title="test" ,КиноСезон
@@ -1315,9 +1270,6 @@ http://v4.proofix.ru:80/8tv-europe/index.m3u8
 https://live-4.otcnet.ru/504/135/1080p/index.m3u8
 #EXTINF:-1  group-title="test",КОНГРЕСС ТВ SD
 https://stitch.teletarget.ru/api/v1/hls/504/135/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
-#EXTINF:-1  group-title="test",ЛДПР ТВ
-http://46.46.143.222:1935/live/mp4:ldpr.stream_480p/playlist.m3u8
-#http://46.46.143.222:1935/live/ldpr.stream_480p/playlist.m3u8
 #EXTINF:-1  group-title="test",Мир сериала HD
 http://tv.woobl.ru/mir_seriala_hd/video.m3u8?token=woobliptvz
 #EXTINF:-1  group-title="test",Матур ТВ
@@ -1433,14 +1385,10 @@ http://stvserver.sibaytv.ru:10082/canals/canal1/stream.m3u8
 https://premiumiptv.bykerimoff.workers.dev/stream/nowmusic.m3u8
 #EXTINF:-1 group-title="test",Амедиа 1
 http://185.78.112.47:8077/amedia/index.m3u8
-#EXTINF:-1 group-title="test",VIP Мегахит
-http://62.89.17.130:4451/play/a01a/index.m3u8
 #EXTINF:-1 group-title="test",Амедиа 2
 http://185.78.112.47:8077/amedia-2/index.m3u8
 #EXTINF:-1 group-title="test",Кино
 http://185.78.112.47:8077/cinema_hd/index.m3u8
-#EXTINF:-1 group-title="test",VIP Премьера
-http://62.89.17.130:4451/play/a00f/index.m3u8
 #EXTINF:-1 group-title="test",План б
 http://185.78.112.47:8077/planb/index.m3u8
 #EXTINF:-1 group-title="test",Начать эфир
@@ -1453,20 +1401,6 @@ http://185.78.112.47:8077/ani/index.m3u8
 http://185.78.112.47:8077/music-box-ru/index.m3u8
 #EXTINF:-1 group-title="test",КХЛ HD
 http://185.78.112.47:8077/khl_hd/index.m3u8
-#EXTINF:-1 group-title="test",Классика мультфильмов
-http://62.89.17.130:4451/play/a00i/index.m3u8
-#EXTINF:-1 group-title="test",Звездная Семья
-#http://gr.seetv.cc/play/9907/D70CC021CA87DF2/video.m3u8
-#EXTINF:-1 group-title="test",МАТЧ! HD
-#http://gr.seetv.cc/play/397/D70CC021CA87DF2/video.m3u8
-#EXTINF:-1 group-title="test",МАТЧ! БОЕЦ HD
-#http://gr.seetv.cc/play/30/D70CC021CA87DF2/video.m3u8
-#EXTINF:-1 group-title="test",МАТЧ! СТРАНА HD
-#http://gr.seetv.cc/play/212/D70CC021CA87DF2/video.m3u8
-#EXTINF:-1 group-title="test",МАТЧ! ИГРА HD
-#http://gr.seetv.cc/play/268/D70CC021CA87DF2/video.m3u8
-#EXTINF:-1 group-title="test",СТАРТ ТРИУМФ HD
-#http://gr.seetv.cc/play/7375/D70CC021CA87DF2/video.m3u8
 #EXTINF:-1 group-title="test",001 H1
 http://37.186.70.39:40/play/1/index.m3u8
 #EXTINF:-1 group-title="test",002  Shoghakat
@@ -1761,252 +1695,8 @@ http://88.212.15.19/live/test_ctsport_25p/playlist.m3u8
 http://88.212.15.19/live/test_sport1_25p/playlist.m3u8
 #EXTINF:-1 group-title="test",SPORT 2 HD
 http://88.212.15.19/live/test_sport_2/playlist.m3u8
-#EXTINF:0 tvg-name="Eurosport HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Eurosport HD
-http://gr.seetv.cc/play/145/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Матч Арена" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Матч Арена
-http://gr.seetv.cc/play/136/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Матч! 50fps" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Матч! 50fps
-http://gr.seetv.cc/play/680/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Megogo Спорт HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",M Спорт HD
-http://gr.seetv.cc/play/1001/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Setanta Sports HD MD" group-title="test",Setanta Sports HD MD
-http://gr.seetv.cc/play/11008/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Матч Футбол 1" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Матч Футбол 1
-http://gr.seetv.cc/play/54/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Суспільне Спорт" group-title="test",Суспільне Спорт
-http://gr.seetv.cc/play/316/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Megogo Футбол 5 HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",M Футбол 5 HD
-http://gr.seetv.cc/play/10011/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Setanta Sports+ Ukraine" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Setanta Sports+ Ukraine
-http://gr.seetv.cc/play/9957/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Setanta Sports Ukraine" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Setanta Sports Ukraine
-http://gr.seetv.cc/play/1434/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Dynamo Kyiv TV" group-title="test",Dynamo Kyiv TV
-http://gr.seetv.cc/play/8797/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Setanta Sports Premium HD" group-title="test",Setanta Sports Premium HD
-http://gr.seetv.cc/play/1650/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Футбол HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Футбол HD
-http://gr.seetv.cc/play/3920/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Viju+ Sport HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Viju+ Sport HD
-http://gr.seetv.cc/play/198/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Окко Спорт HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Окко Спорт HD
-http://gr.seetv.cc/play/7337/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name=" Окко.Прайм Спорт" catchup="shift" timeshift="5" catchup-days="5" group-title="test", Окко.Прайм Спорт
-http://gr.seetv.cc/play/1833/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Окко Футбол HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Окко Футбол HD
-http://gr.seetv.cc/play/7338/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Конный мир HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Конный мир HD
-http://gr.seetv.cc/play/394/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Старт HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Старт HD
-http://gr.seetv.cc/play/9946/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Sport 2 UA" group-title="test",Sport 2 UA
-http://gr.seetv.cc/play/2639/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="КХЛ" catchup="shift" timeshift="5" catchup-days="5" group-title="test",КХЛ
-http://gr.seetv.cc/play/149/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Sport 3 UA HD" group-title="test",Sport 3 UA HD
-http://gr.seetv.cc/play/2640/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Sport 1 UA" group-title="test",Sport 1 UA
-http://gr.seetv.cc/play/2638/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Спортивный" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Спортивный
-http://gr.seetv.cc/play/6159/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="MMA-TV HD" group-title="test",MMA-TV HD
-http://gr.seetv.cc/play/3795/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="UFC ТВ HD" group-title="test",UFC ТВ HD
-http://gr.seetv.cc/play/1777/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Мяч" group-title="test",Мяч
-http://gr.seetv.cc/play/1763/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Sport 4 UA" group-title="test",Sport 4 UA
-http://gr.seetv.cc/play/2641/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Equalympic HD" group-title="test",Equalympic HD
-http://gr.seetv.cc/play/8788/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Русский Экстрим" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Р Экстрим
-http://gr.seetv.cc/play/345/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Cars & Stars TV HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Cars & Stars TV HD
-http://gr.seetv.cc/play/9904/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="MAINCAST SPORT " group-title="test",MAINCAST SPORT
-http://gr.seetv.cc/play/1994/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="UPL.TV HD" catchup="shift" timeshift="5" catchup-days="5" group-title="test",U.TV HD
-http://gr.seetv.cc/play/523/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Fast&FunBox" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Fast&FunBox
-http://gr.seetv.cc/play/8792/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Q Arena" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Q Arena
-http://gr.seetv.cc/play/1842/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Sport+ Qazaqstan" catchup="shift" timeshift="5" catchup-days="5" group-title="test",Sport+ Qazaqstan
-http://gr.seetv.cc/play/1844/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_4_HD" group-title="test",BOX_SPORT_LIVE_4_HD
-http://gr.seetv.cc/play/51016/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_2_HD" group-title="test",BOX_SPORT_LIVE_2_HD
-http://gr.seetv.cc/play/51014/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_3_HD" group-title="test",BOX_SPORT_LIVE_3_HD
-http://gr.seetv.cc/play/51015/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_1_HD" group-title="test",BOX_SPORT_LIVE_1_HD
-http://gr.seetv.cc/play/51013/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_6_HD" group-title="test",BOX_SPORT_LIVE_6_HD
-http://gr.seetv.cc/play/51018/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_4K" group-title="test",BOX_SPORT_LIVE_4K
-http://gr.seetv.cc/play/51022/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_5_HD" group-title="test",BOX_SPORT_LIVE_5_HD
-http://gr.seetv.cc/play/51017/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_9_HD" group-title="test",BOX_SPORT_LIVE_9_HD
-http://gr.seetv.cc/play/51021/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_8_HD" group-title="test",BOX_SPORT_LIVE_8_HD
-http://gr.seetv.cc/play/51020/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BeIN Sport 1 HD" group-title="test",BeIN Sport 1 HD
-http://gr.seetv.cc/play/1101/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX_SPORT_LIVE_7_HD" group-title="test",BOX_SPORT_LIVE_7_HD
-http://gr.seetv.cc/play/51019/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BeIN Sport 2 HD" group-title="test",BeIN Sport 2 HD
-http://gr.seetv.cc/play/1102/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BeIN Sport 3 HD" group-title="test",BeIN Sport 3 HD
-http://gr.seetv.cc/play/1103/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BeIN Sport 4 HD" group-title="test",BeIN Sport 4 HD
-http://gr.seetv.cc/play/1104/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="TNT Sport 2 HD" group-title="test",TNT Sport 2 HD
-http://gr.seetv.cc/play/923/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="TNT Sport 1 HD" group-title="test",TNT Sport 1 HD
-http://gr.seetv.cc/play/922/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="DAZN 1 DE" group-title="test",DAZN 1 DE
-http://gr.seetv.cc/play/803/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="TNT Sport 3 HD" group-title="test",TNT Sport 3 HD
-http://gr.seetv.cc/play/934/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="DAZN 2 DE" group-title="test",DAZN 2 DE
-http://gr.seetv.cc/play/809/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Movistar Formula 1" group-title="test",Movistar Formula 1
-http://gr.seetv.cc/play/1121/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Sky Sport Bundesliga HD" group-title="test",Sky Sport Bundesliga HD
-http://gr.seetv.cc/play/836/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Live Sport 1" group-title="test",Live Sport 1
-http://gr.seetv.cc/play/1580/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Live Sport 2" group-title="test",Live Sport 2
-http://gr.seetv.cc/play/1581/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 2" group-title="test",Football Live 2
-http://gr.seetv.cc/play/1705/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 1" group-title="test",Football Live 1
-http://gr.seetv.cc/play/1704/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 3" group-title="test",Football Live 3
-http://gr.seetv.cc/play/1706/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 5" group-title="test",Football Live 5
-http://gr.seetv.cc/play/1708/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 9" group-title="test",Football Live 9
-http://gr.seetv.cc/play/1712/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 6" group-title="test",Football Live 6
-http://gr.seetv.cc/play/1709/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 8" group-title="test",Football Live 8
-http://gr.seetv.cc/play/1711/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 7" group-title="test",Football Live 7
-http://gr.seetv.cc/play/1710/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 10" group-title="test",Football Live 10
-http://gr.seetv.cc/play/1713/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 11" group-title="test",Football Live 11
-http://gr.seetv.cc/play/1714/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 12" group-title="test",Football Live 12
-http://gr.seetv.cc/play/1715/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 13" group-title="test",Football Live 13
-http://gr.seetv.cc/play/1716/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 1" group-title="test",VIP Sport 1
-http://gr.seetv.cc/play/5009/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 2" group-title="test",VIP Sport 2
-http://gr.seetv.cc/play/5010/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 3" group-title="test",VIP Sport 3
-http://gr.seetv.cc/play/5011/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 4" group-title="test",VIP Sport 4
-http://gr.seetv.cc/play/5012/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 7" group-title="test",VIP Sport 7
-http://gr.seetv.cc/play/5014/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 5" group-title="test",VIP Sport 5
-http://gr.seetv.cc/play/5013/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 8" group-title="test",VIP Sport 8
-http://gr.seetv.cc/play/5016/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 9" group-title="test",VIP Sport 9
-http://gr.seetv.cc/play/5017/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 6" group-title="test",VIP Sport 6
-http://gr.seetv.cc/play/5015/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 11" group-title="test",VIP Sport 11
-http://gr.seetv.cc/play/5019/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 10" group-title="test",VIP Sport 10
-http://gr.seetv.cc/play/5018/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 13" group-title="test",VIP Sport 13
-http://gr.seetv.cc/play/5021/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="VIP Sport 12" group-title="test",VIP Sport 12
-http://gr.seetv.cc/play/5020/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name=" ViP Sport 14" group-title="test",ViP Sport 14
-http://gr.seetv.cc/play/5022/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="ViP Sport 16" group-title="test",ViP Sport 16
-http://gr.seetv.cc/play/5024/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="ViP Sport 17" group-title="test",ViP Sport 17
-http://gr.seetv.cc/play/5025/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="ViP Sport 15" group-title="test",ViP Sport 15
-http://gr.seetv.cc/play/5023/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="betking live 1" group-title="test",betking live 1
-http://gr.seetv.cc/play/5026/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="FintGa 1" group-title="test",FintGa 1
-http://gr.seetv.cc/play/5028/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="FintGa 2" group-title="test",FintGa 2
-http://gr.seetv.cc/play/5029/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="betking live 2" group-title="test",betking live 2
-http://gr.seetv.cc/play/5027/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="FintGa 3" group-title="test",FintGa 3
-http://gr.seetv.cc/play/5030/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="FintGa 4" group-title="test",FintGa 4
-http://gr.seetv.cc/play/5031/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Pimple 2" group-title="test",Pimple 2
-http://gr.seetv.cc/play/5033/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Pimple 1" group-title="test",Pimple 1
-http://gr.seetv.cc/play/5032/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Pimple 4" group-title="test",Pimple 4
-http://gr.seetv.cc/play/5035/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Pimple 3" group-title="test",Pimple 3
-http://gr.seetv.cc/play/5034/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Pimple 5" group-title="test",Pimple 5
-http://gr.seetv.cc/play/5036/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Football Live 4" group-title="test",Football Live 4
-http://gr.seetv.cc/play/1707/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Pimple 6" group-title="test",Pimple 6
-http://gr.seetv.cc/play/5037/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX SportCast Live 4 HD" group-title="test",BOX SportCast Live 4 HD
-http://gr.seetv.cc/play/4227/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX SportCast Live 7 HD" group-title="test",BOX SportCast Live 7 HD
-http://gr.seetv.cc/play/4233/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="BOX SportCast Live 8 HD" group-title="test",BOX SportCast Live 8 HD
-http://gr.seetv.cc/play/4234/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="MMA Junkie" group-title="test",MMA Junkie
-http://gr.seetv.cc/play/5718/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Dubai Sports 2" group-title="test",Dubai Sports 2
-http://gr.seetv.cc/play/5406/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Diema Sport 3 HD" group-title="test",Diema Sport 3 HD
-http://gr.seetv.cc/play/51004/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Dubai Sports 3" group-title="test",Dubai Sports 3
-http://gr.seetv.cc/play/5407/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Diema Sport 2 4K" group-title="test",Diema Sport 2 4K
-http://gr.seetv.cc/play/51001/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="Diema Sport 3 4K" group-title="test",Diema Sport 3 4K
-http://gr.seetv.cc/play/51000/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="SPORT TV 1 PT" group-title="test",SPORT TV 1 PT
-http://gr.seetv.cc/play/1968/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="SPORT TV 2 PT" group-title="test",SPORT TV 2 PT
-http://gr.seetv.cc/play/1969/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="SPORT TV + PT" group-title="test",SPORT TV + PT
-http://gr.seetv.cc/play/1967/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="SPORT TV 4 PT" group-title="test",SPORT TV 4 PT
-http://gr.seetv.cc/play/1971/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="SPORT TV 3 PT" group-title="test",SPORT TV 3 PT
-http://gr.seetv.cc/play/1970/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="SPORT TV 5 PT" group-title="test",SPORT TV 5 PT
-http://gr.seetv.cc/play/1972/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="SPORT TV 6 PT" group-title="test",SPORT TV 6 PT
-http://gr.seetv.cc/play/1973/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="DAZN 2 PT" group-title="test",DAZN 2 PT
-http://gr.seetv.cc/play/1979/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="DAZN 1 PT" group-title="test",DAZN 1 PT
-http://gr.seetv.cc/play/1978/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="DAZN 1 ESPANA " group-title="test",DAZN 1 ESPANA
-http://gr.seetv.cc/play/1980/D70CC021CA87DF2/video.m3u8
-#EXTINF:0 tvg-name="DAZN 2 ESPAÑA" group-title="test",DAZN 2 ESPAÑA
-http://gr.seetv.cc/play/1981/D70CC021CA87DF2/video.m3u8
 #EXTINF:-1 tvg-id="Astrahan24.ru@SD" group-title="test",Астрахань 24 (720p)
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-#EXTINF:-1 tvg-id="LDPRTV.ru@SD" group-title="test",ЛДПР ТВ (720p)
-http://46.46.143.222:1935/live/mp4:ldpr.stream_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="Kino24.ru@SD" group-title="test",Kino 24 (720p)
 http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #EXTINF:-1 tvg-id="AstrahanRuTV.ru@SD" group-title="test",Астрахань.Ru TV (480p)
