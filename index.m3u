@@ -1191,21 +1191,21 @@ https://ilglobotv-live.akamaized.net/channels/InterTV/Live.m3u8
 #EXTINF:-1 group-title="candidate",Китай ТВ
 https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 
-
-
-
-
-#EXTINF:-1 group-title="test",Любимое кино
+#EXTINF:-1 group-title="candidate",Любимое кино
 http://185.78.112.47:8077/LubimoeKino/index.m3u8
 
-#EXTINF:-1 group-title="test",Киноужас
+#EXTINF:-1 group-title="candidate",Киноужас
 http://185.78.112.47:8077/kinoujas/index.m3u8
-#EXTINF:-1 group-title="test",Русский Бестселлер
+
+#EXTINF:-1 group-title="candidate",Русский Бестселлер
 http://185.78.112.47:8077/rus-bestseller/index.m3u8
+
 ]#EXTINF:-1 group-title="test",Русский Детектив
 http://185.78.112.47:8077/rus-detective/index.m3u8
+
 #EXTINF:-1 group-title="test",Русский Иллюзион
 http://185.78.112.47:8077/RusskiyIllusion/index.m3u8
+
 #EXTINF:-1 group-title="test",Москва 24
 http://185.78.112.47:8077/moskva_24/index.m3u8
 #EXTINF:-1 group-title="test",Русский Роман
