@@ -78,8 +78,12 @@ vcp*.myplaytv.com
 *.ottgoods.ru
 *.dps.live
 *.bonus-tv.ru
+*.seetv.cc
+*.trkeurasia.ru
 
 # --- blocked hosts ---
+live.chechensoft.ru
+video.govoritmoskva.ru
 tjktv-live.tjk.org
 main.duckhunting.playout.vju.tv
 cdn3.wowza.com
@@ -120,7 +124,6 @@ iptv.prosto.tv
 hls.cdn.ua
 tv.tuva.ru
 cdn4.skygo.mn
-infochhdcdn.trkeurasia.ru
 rtsp.cdn.ua
 amtv.tulixcdn.com
 stream8.cinerama.uz
@@ -163,7 +166,6 @@ filmtvgroup.hopto.org
 novoe.top
 netplus.zappr.stream
 calypso.tortuga.tw
-ua.seetv.cc
 tvcdn01.esilnet.kz
 mirbelogorya.ru
 stream.tvbelgorod.ru
@@ -426,7 +428,6 @@ ashdi.vip
 streaming.toutech.net
 hms.pfs.gdn
 vidartv2.todostreaming.es
-gr.seetv.cc
 streamfi-alphadgtl1.zettawiseroutes.com
 streams.adapto.kz
 tv.woobl.ru
@@ -438,8 +439,13 @@ v2.catcast.tv
 premiumiptv.bykerimoff.workers.dev
 belnovosti.cdn.easyhoster.ru
 srv1.adriatelekom.com
+ikomg-kazakh.akamaized.net
+tv.samaragis.ru
+v.mover.uz
 
 # --- blocked IPs ---
+86.87.15.10
+88.212.15.19
 81.15.109.89
 176.65.146.189
 146.158.15.254
@@ -555,6 +561,7 @@ srv1.adriatelekom.com
 171.22.212.250
 91.214.48.158
 81.30.52.114
+99.27.51.147
 
 # --- blocked full URLs / paths ---
 https://s05.watcher.uz/95/video.m3u8
@@ -624,3 +631,8 @@ http://37.186.70.39:40/play/95/index.m3u8
 http://37.186.70.39:40/play/99/index.m3u8
 http://37.186.70.39:40/play/106/index.m3u8
 http://37.186.70.39:40/play/114/index.m3u8
+http://37.186.70.39:40/play/117/index.m3u8
+http://37.186.70.39:40/play/119/index.m3u8
+http://37.186.70.39:40/play/120/index.m3u8
+http://37.186.70.39:40/play/122/index.m3u8
+https://streaming.astrakhan.ru/telplushd/playlist.m3u8
