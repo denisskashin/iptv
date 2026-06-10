@@ -81,15 +81,22 @@ vcp*.myplaytv.com
 *.seetv.cc
 *.trkeurasia.ru
 *.hdvbua.pro
+*.akamaized.net
+*.edgenextcdn.net
+*.ercdn.net
+*.skygo.mn
+*.tvbelgorod.ru
+*.hostingradio.ru
 
 # --- blocked hosts ---
+s5.alltvfree.com
+tvr-2.lg.mncdn.com
 wurlcheddar.global.transmit.live
 live.chechensoft.ru
 video.govoritmoskva.ru
 tjktv-live.tjk.org
 main.duckhunting.playout.vju.tv
 cdn3.wowza.com
-ciner-live.ercdn.net
 wz-kt.ktk.kz
 player.humorfm.by
 straume.vdtv.lv
@@ -125,7 +132,6 @@ stream.fastlnk.ru
 iptv.prosto.tv
 hls.cdn.ua
 tv.tuva.ru
-cdn4.skygo.mn
 rtsp.cdn.ua
 amtv.tulixcdn.com
 stream8.cinerama.uz
@@ -143,9 +149,7 @@ starcius-cinema.com
 bloomberg.com
 api-tv.ipnet.ua
 n1.slavmir.tv
-chanson-video.hostingradio.ru
 pl.online24.pm
-pb-ehs1glsha1juy.akamaized.net
 31148.rafail1982.uz
 cdn1.live-tv.cloud
 kino.zunotv.workers.dev
@@ -161,7 +165,6 @@ osnmedia.servicecdn.ru
 stream-tv.ew21.ru
 stream.ntktv.ua
 nadiya.home-net.com.ua
-rfe-ingest.akamaized.net
 live.zhanafm.kz
 stream.trafjam.ru
 filmtvgroup.hopto.org
@@ -170,7 +173,6 @@ netplus.zappr.stream
 calypso.tortuga.tw
 tvcdn01.esilnet.kz
 mirbelogorya.ru
-stream.tvbelgorod.ru
 cdn.kubteltv.workers.dev
 de1.dstv.cx
 amaru.dyndns.org
@@ -208,7 +210,6 @@ giganet.mk
 live.albavision.net
 tv.beatfm.nl
 live.azstartv.com
-bel-live-hls.akamaized.net
 tls-cl.cdnz.cl
 server.bellaradio.it
 mcncdndigital.com
@@ -223,16 +224,13 @@ tnt-television.com
 tv.city.bg
 movil.ejeserver.com
 cloud.fastchannel.es
-classicarts.akamaized.net
 capomo01-enitv.eninetworks.com
 livestream.telvue.com
 stream.arcast.com.ar
 stream.cmctv.hr
 canal.mediaserver.com.co
 cdn2.invivo.bg
-rtsc3video.akamaized.net
 rst2.saiuzwebnetwork.it
-swrdasdingvr-hls.akamaized.net
 livestream2.bokradio.co.za
 m2b2.worldcast.tv
 live.obslivestream.com
@@ -320,13 +318,10 @@ royalstarindia.co.in
 media2021.rtvweb.com
 otv.wotom.net
 radio.serv.si
-quahztv.akamaized.net
 w1.mediastreaming.it
-contact-live-hls.akamaized.net
 stream14.polskieradio.pl
 live.radiocapri.it
 stream.ontvmx.com
-radioitaliatv.akamaized.net
 streaming05.stream.delivery
 peer2.tdiradio.com
 media.velcom.it
@@ -361,7 +356,6 @@ iptv.supertv.ro
 galaxyott.live
 fffffff110156200.tvustream.com
 livetv.tarangplus.in
-livechannel.mdc.akamaized.net
 live.teamfm.nl
 mdstrm.com
 tezaurtv.md
@@ -378,7 +372,6 @@ hls.tmacaraibes.com
 live.thaichaiyo.tv
 a-cdn.klowdtv.com
 us.streaminghd.cl
-189790-castr.akamaized.net
 cdn22.streampartner.nl
 stmv1.liveplushd.com.br
 isaocorp.cloudecast.com
@@ -396,7 +389,6 @@ stream.vivotv.uy
 gjirafa-video-live.gjirafa.net
 zfmzoetermeer.nl
 streaming.televizor-24-tochka.ru
-shd-gcp-live.edgenextcdn.net
 tvservices.fullhd-streaming.com
 tv.radiobussola.it
 dvhome.ru
@@ -434,14 +426,12 @@ streamfi-alphadgtl1.zettawiseroutes.com
 streams.adapto.kz
 tv.woobl.ru
 iptv.crimea.net
-hitfm.hostingradio.ru
 srv1.adriatelekom.com
 edge2.uk.kab.tv
 v2.catcast.tv
 premiumiptv.bykerimoff.workers.dev
 belnovosti.cdn.easyhoster.ru
 srv1.adriatelekom.com
-ikomg-kazakh.akamaized.net
 tv.samaragis.ru
 v.mover.uz
 cdn-evacoder-tv.facecast.io
@@ -460,13 +450,31 @@ live-hls-apps-aja-fa.getaj.net
 jmp2.uk
 owrcovcrpy.gpcdn.net
 shls-cartoon-net-prod-dub.shahid.net
-rnttwmjcin.turknet.ercdn.net
 tvsen6.aynaott.com
 saveukraine.1ce.xyz
 bozztv.com
 owrcovcrpy.gpcdn.net
+edge2.roarzone.net
+cdn0-03837-liveedge0.dna.ip-only.net
+streaming-1.eltorotv.com
+ert-ucdn.broadpeak-aas.com
+tvsen7.aynaott.com
+maxotts.maxdigitaltv.com
+live24.1tvcrimea.ru
+live.katun24.ru
+github.com
+ic7.101.ru
+yellow.garant.tv
+tinyurl.com
+bst.bratsk.ru
+svd.kvb.cool
+rpprod.hbbtv.cdn.cra.cz
 
 # --- blocked IPs ---
+85.25.46.88
+141.95.55.143
+92.176.119.180
+151.80.18.177
 93.84.105.184
 78.108.244.134
 103.157.248.140
@@ -589,6 +597,8 @@ owrcovcrpy.gpcdn.net
 91.214.48.158
 81.30.52.114
 99.27.51.147
+194.50.51.34
+85.238.112.69
 
 # --- blocked full URLs / paths ---
 https://s05.watcher.uz/95/video.m3u8
@@ -665,3 +675,7 @@ http://37.186.70.39:40/play/122/index.m3u8
 https://streaming.astrakhan.ru/telplushd/playlist.m3u8
 http://185.78.112.47:8077/DikayaRybalkaHD/index.m3u8
 http://185.78.112.47:8077/Detskiy_Mir/index.m3u8
+http://185.78.112.47:8077/rossia_hd/index.m3u8
+https://s03.watcher.uz/74/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
+https://s03.watcher.uz/57/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
+
