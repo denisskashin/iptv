@@ -306,7 +306,6 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/mir24.png" tvg-id="mir-24" tvg-description="Мир 24 — круглосуточный информационный канал МТРК «Мир». Освещает события в России и странах СНГ.",Мир 24
 http://185.78.112.47:8077/mir-24/index.m3u8
-#http://62.32.84.50:18000/play/a0ke/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
 http://178.124.153.123:44400/5kanal
@@ -354,7 +353,6 @@ https://s03.watcher.uz/80/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.
 #http://185.78.112.47:8077/mir/index.m3u8
 #http://37.186.70.39:40/play/43/index.m3u8
 #http://37.186.70.39:40/play/44/index.m3u8
-#http://62.32.84.50:18000/play/a02n/index.m3u8
 #http://94.230.128.107:8080/MIR/video.m3u8
 #http://tchaikovsky.af-stream.com:8080/s/agvha3rn/mir-hd/video.m3u8
 
@@ -1285,7 +1283,6 @@ http://185.78.112.47:8077/detskiy/index.m3u8
 https://streaming.thestream.cyou/live/618-req_offset_28000000-req_window_0-3k_v5.m3u8
 #http://185.78.112.47:8077/muz_tv/index.m3u8
 #http://37.186.70.39:40/play/94/index.m3u8
-#http://62.32.84.50:18000/play/a0h1/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Музыка первого
 https://s03.watcher.uz/54/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
@@ -1754,196 +1751,17 @@ https://tvsen5.aynaott.com/willowhd/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Viasat Kino Comedy
 http://ukr.ukrainske.tv/493/keytvainua/video.m3u8
+#http://ukr2.ukrainske.tv/493/video.m3u8
 
 #EXTINF:-1 group-title="candidate",Al Jazeera English
 https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
 
-#EXTINF:-1  group-title="test",Viju+ Megahit
-http://109.70.186.82:9090/udp/239.185.1.11:1234
-#EXTINF:-1  group-title="test",Viju+ Premiere HD
-http://109.70.186.82:9090/udp/239.185.1.10:1234
-#EXTINF:-1  group-title="test",Sadhna Plus News
-https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
-#EXTINF:-1  group-title="test",Мир Белогорья
-https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
-#EXTINF:-1 group-title="test",V2BEAT
+#EXTINF:-1 group-title="candidate",V2BEAT
 https://de1se01.v2beat.live/playlist.m3u8
-#EXTINF:-1 group-title="test",Vzpravy TV HD
-https://stream.polar.cz/vctv/vctvlive-1/playlist.m3u8
-#EXTINF:-1 group-title="test",XVTV
-https://cloudfront44.lexanetwork.com:1344/relay01/HDE051.sdp/playlist.m3u8
-#EXTINF:-1  group-title="test",ТВ 21
-http://tv.ttk.mx:9067
-#EXTINF:-1 group-title="test",UFC Network
+
+#EXTINF:-1 group-title="candidate",UFC Network
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
-#EXTINF:-1 group-title="test", Veronica Leal ЖМЖ(30min)
-https://v88188.cdn-d1.com/a98567b9b4cfb4e139bf41c7c22d28c28498a1a0/video.drive-movie.com/contents/videos/2000/2795/2795.mp4
-#EXTINF:-1 group-title="test",XYplus
-http://94.156.59.233:8899/udp/239.10.3.17:30000
-#EXTINF:-1 group-title="test",XY Plus 2
-http://94.156.59.233:8899/udp/239.10.3.18:30000
-#EXTINF:-1 group-title="test" tvg-logo="https://worcester.vod.castus.tv/wccalive.png",WCCA-TV (Worcester)
-https://worcester.vod.castus.tv/live/ch1.m3u8
-#EXTINF:-1 group-title="test",XY MAX
-http://79.124.21.250:8199/play/DiemaSport/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" ,Viasat Kino Comedy HD
-http://ukr2.ukrainske.tv/493/video.m3u8
-#EXTINF:-1 tvg-name="Кизилюрт ТВ HD" tvg-logo="https://i.ibb.co/gFhsJChf/image-15.png" group-title="test", Кизилюрт ТВ HD
-http://iptv46.mcx-ix.ru:8077/KTV/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://i.ibb.co/DfxtcKmd/image-36.png" group-title="test", МТВ Столица (Дагестан)
-http://iptv46.mcx-ix.ru:8077/mtv-stolitca/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://i.ibb.co/DD1Dfq2v/image-4.png" group-title="test",АТВ АМОС
-http://iptv46.mcx-ix.ru:8077/atv/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/xt3c3KWD/image-11.png" group-title="test",Сосновоборская ТРК (СТВ)
-http://188.134.7.215:4022/udp/235.10.10.153:1234
-#EXTINF:-1 group-title="test",ARIRANG HD
-http://62.32.84.50:18000/play/a0lq/index.m3u8
-#EXTINF:-1 group-title="test",ATAMEKEN BUSINESS
-http://62.32.84.50:18000/play/a0dv/index.m3u8
-#EXTINF:-1 group-title="test",ASTANA TV
-http://62.32.84.50:18000/play/a02k/index.m3u8
-#EXTINF:-1 group-title="test",Al Jazeera English HD
-http://62.32.84.50:18000/play/a09w/index.m3u8
-#EXTINF:-1 group-title="test",BBC Arabic HD
-http://62.32.84.50:18000/play/a0m8/index.m3u8
-#EXTINF:-1 group-title="test",BBC News Europe
-http://62.32.84.50:18000/play/a0jj/index.m3u8
-#EXTINF:-1 group-title="test",Bloomberg European TV
-http://62.32.84.50:18000/play/a09v/index.m3u8
-#EXTINF:-1 group-title="test",CCTV 4E
-http://62.32.84.50:18000/play/a0lx/index.m3u8
-#EXTINF:-1 group-title="test",CNBC HD
-http://62.32.84.50:18000/play/a0lw/index.m3u8
-#EXTINF:-1 group-title="test",Euronews English
-http://62.32.84.50:18000/play/a0mt/index.m3u8
-#EXTINF:-1 group-title="test",France 24 HD (en Francais)
-http://62.32.84.50:18000/play/a0a0/index.m3u8
-#EXTINF:-1 group-title="test",CGTN Documentary
-http://62.32.84.50:18000/play/a0lz/index.m3u8
-#EXTINF:-1 group-title="test",DW English HD
-http://62.32.84.50:18000/play/a0a9/index.m3u8
-#EXTINF:-1 group-title="test",Jibek Joly
-http://62.32.84.50:18000/play/a0k7/index.m3u8
-#EXTINF:-1 group-title="test",NHK WORLD-JAPAN
-http://62.32.84.50:18000/play/a09x/index.m3u8
-#EXTINF:-1 group-title="test",Turkistan
-http://62.32.84.50:18000/play/a0k9/index.m3u8
-#EXTINF:-1 group-title="test",TV5MONDE EUROPE
-http://62.32.84.50:18000/play/a0ef/index.m3u8
-#EXTINF:-1 group-title="test",Алматы
-http://62.32.84.50:18000/play/a02o/index.m3u8
-#EXTINF:-1 group-title="test",КТК
-http://62.32.84.50:18000/play/a095/index.m3u8
-#EXTINF:-1 group-title="test",НТК
-http://62.32.84.50:18000/play/a02c/index.m3u8
-#EXTINF:-1 group-title="test",Первый канал Евразия
-http://62.32.84.50:18000/play/a0ka/index.m3u8
-#EXTINF:-1 group-title="test",Седьмой канал
-http://62.32.84.50:18000/play/a0k0/index.m3u8
-#EXTINF:-1 tvg-id="bear_tv_velykyy_ekran" tvg-name="Bear TV Великий Екран" group-title="test",Bear TV Великий Екран
-http://bear-tv.net:2095/bear_tv_velykyy_ekran/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinohvylya" tvg-name="Bear TV КіноХвиля" group-title="test",Bear TV КіноХвиля
-http://bear-tv.net:2095/bear_tv_kinohvylya/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_filmovyy_den" tvg-name="Bear TV Фільмовий День" group-title="test",Bear TV Фільмовий День
-http://bear-tv.net:2095/bear_tv_filmovyy_den/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinozal" tvg-name="Bear TV Кінозал" group-title="test",Bear TV Кінозал
-http://bear-tv.net:2095/bear_tv_kinozal/video.m3u8?token=@beartvmove
-#EXTINF:-1 group-title="test",Телекомпания MZ
-http://62.32.84.50:18000/play/a0jt/index.m3u8
-#EXTINF:-1 tvg-id="bear_tv_svit_kino" tvg-name="Bear TV Світ Кіно" group-title="test",Bear TV Світ Кіно
-http://bear-tv.net:2095/bear_tv_svit_kino/video.m3u8?token=@beartvmove
-#EXTINF:-1 group-title="test",Хабар HD
-http://62.32.84.50:18000/play/a06c/index.m3u8
-#EXTINF:-1 tvg-id="bear_tv_kinonastriy" tvg-name="Bear TV КіноНастрій" group-title="test",Bear TV КіноНастрій
-http://bear-tv.net:2095/bear_tv_kinonastriy/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinoklub" tvg-name="Bear TV КіноКлуб" group-title="test",Bear TV КіноКлуб
-http://bear-tv.net:2095/bear_tv_kinoklub/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_zolota_kolektsiya" tvg-name="Bear TV Золота Колекція" group-title="test",Bear TV Золота Колекція
-http://bear-tv.net:2095/bear_tv_zolota_kolektsiya/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_domashniy_kinozal" tvg-name="Bear TV Домашній Кінозал" group-title="test",Bear TV Домашній Кінозал
-http://bear-tv.net:2095/bear_tv_domashniy_kinozal/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_simeynyy_vechir" tvg-name="Bear TV Сімейний Вечір" group-title="test",Bear TV Сімейний Вечір
-http://bear-tv.net:2095/bear_tv_simeynyy_vechir/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinoplyus" tvg-name="Bear TV КіноПлюс" group-title="test",Bear TV КіноПлюс
-http://bear-tv.net:2095/bear_tv_kinoplyus/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_hit_film" tvg-name="Bear TV Хіт Фільм" group-title="test",Bear TV Хіт Фільм
-http://bear-tv.net:2095/bear_tv_hit_film/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_legendy_kino" tvg-name="Bear TV Легенди Кіно" group-title="test",Bear TV Легенди Кіно
-http://bear-tv.net:2095/bear_tv_legendy_kino/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_dobirka_filmiv" tvg-name="Bear TV Добірка Фільмів" group-title="test",Bear TV Добірка Фільмів
-http://bear-tv.net:2095/bear_tv_dobirka_filmiv/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinosvit" tvg-name="Bear TV КіноСвіт" group-title="test",Bear TV КіноСвіт
-http://bear-tv.net:2095/bear_tv_kinosvit/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_nichnyy_seans" tvg-name="Bear TV Нічний Сеанс" group-title="test",Bear TV Нічний Сеанс
-http://bear-tv.net:2095/bear_tv_nichnyy_seans/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_prem_yera" tvg-name="Bear TV Прем’єра" group-title="test",Bear TV Прем’єра
-http://bear-tv.net:2095/bear_tv_prem_yera/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_vybir_glyadacha" tvg-name="Bear TV Вибір Глядача" group-title="test",Bear TV Вибір Глядача
-http://bear-tv.net:2095/bear_tv_vybir_glyadacha/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinotaym" tvg-name="Bear TV КіноТайм" group-title="test",Bear TV КіноТайм
-http://bear-tv.net:2095/bear_tv_kinotaym/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_film_za_filmom" tvg-name="Bear TV Фільм за Фільмом" group-title="test",Bear TV Фільм за Фільмом
-http://bear-tv.net:2095/bear_tv_film_za_filmom/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_seans_24" tvg-name="Bear TV Сеанс 24" group-title="test",Bear TV Сеанс 24
-http://bear-tv.net:2095/bear_tv_seans_24/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinoliniya" tvg-name="Bear TV КіноЛінія" group-title="test",Bear TV КіноЛінія
-http://bear-tv.net:2095/bear_tv_kinoliniya/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_top_kino" tvg-name="Bear TV Топ Кіно" group-title="test",Bear TV Топ Кіно
-http://bear-tv.net:2095/bear_tv_top_kino/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_megafilm" tvg-name="Bear TV МегаФільм" group-title="test",Bear TV МегаФільм
-http://bear-tv.net:2095/bear_tv_megafilm/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinobezperervy" tvg-name="Bear TV КіноБезПерерви" group-title="test",Bear TV КіноБезПерерви
-http://bear-tv.net:2095/bear_tv_kinobezperervy/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinovechir" tvg-name="Bear TV Кіновечір" group-title="test",Bear TV Кіновечір
-http://bear-tv.net:2095/bear_tv_kinovechir/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_filmovyy_miks" tvg-name="Bear TV Фільмовий Мікс" group-title="test",Bear TV Фільмовий Мікс
-http://bear-tv.net:2095/bear_tv_filmovyy_miks/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinoplaneta" tvg-name="Bear TV КіноПланета" group-title="test",Bear TV КіноПланета
-http://bear-tv.net:2095/bear_tv_kinoplaneta/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_ulyubleni_filmy" tvg-name="Bear TV Улюблені Фільми" group-title="test",Bear TV Улюблені Фільми
-http://bear-tv.net:2095/bear_tv_ulyubleni_filmy/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinokolektsiya" tvg-name="Bear TV КіноКолекція" group-title="test",Bear TV КіноКолекція
-http://bear-tv.net:2095/bear_tv_kinokolektsiya/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_velyke_kino" tvg-name="Bear TV Велике Кіно" group-title="test",Bear TV Велике Кіно
-http://bear-tv.net:2095/bear_tv_velyke_kino/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_filmmaniya" tvg-name="Bear TV ФільмМанія" group-title="test",Bear TV ФільмМанія
-http://bear-tv.net:2095/bear_tv_filmmaniya/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinomarafon" tvg-name="Bear TV КіноМарафон" group-title="test",Bear TV КіноМарафон
-http://bear-tv.net:2095/bear_tv_kinomarafon/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_zal" tvg-name="Bear TV Мультзал" group-title="test",Bear TV Мультзал
-http://bear-tv.net:2095/bear_tv_mult_zal/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_24" tvg-name="Bear TV Мультики 24" group-title="test",Bear TV Мультики 24
-http://bear-tv.net:2095/bear_tv_mult_24/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_dytyachyy_svit" tvg-name="Bear TV Дитячий Світ" group-title="test",Bear TV Дитячий Світ
-http://bear-tv.net:2095/bear_tv_mult_dytyachyy_svit/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_animatsiya" tvg-name="Bear TV Анімація" group-title="test",Bear TV Анімація
-http://bear-tv.net:2095/bear_tv_mult_animatsiya/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_svit" tvg-name="Bear TV МультСвіт" group-title="test",Bear TV МультСвіт
-http://bear-tv.net:2095/bear_tv_mult_svit/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_simeyni" tvg-name="Bear TV Сімейні Мульти" group-title="test",Bear TV Сімейні Мульти
-http://bear-tv.net:2095/bear_tv_mult_simeyni/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_hit" tvg-name="Bear TV МультХіт" group-title="test",Bear TV МультХіт
-http://bear-tv.net:2095/bear_tv_mult_hit/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_kids_kino" tvg-name="Bear TV Kids Кіно" group-title="test",Bear TV Kids Кіно
-http://bear-tv.net:2095/bear_tv_mult_kids_kino/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinopotik" tvg-name="Bear TV КіноПотік" group-title="test",Bear TV КіноПотік
-http://bear-tv.net:2095/bear_tv_kinopotik/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_miks" tvg-name="Bear TV МультМікс" group-title="test",Bear TV МультМікс
-http://bear-tv.net:2095/bear_tv_mult_miks/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_ukrayinskyy_seans" tvg-name="Bear TV Український Сеанс" group-title="test",Bear TV Український Сеанс
-http://bear-tv.net:2095/bear_tv_ukrayinskyy_seans/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_filmy_24" tvg-name="Bear TV Фільми 24" group-title="test",Bear TV Фільми 24
-http://bear-tv.net:2095/bear_tv_filmy_24/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinomiks" tvg-name="Bear TV КіноМікс" group-title="test",Bear TV КіноМікс
-http://bear-tv.net:2095/bear_tv_kinomiks/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_vechirnye_kino" tvg-name="Bear TV Вечірнє Кіно" group-title="test",Bear TV Вечірнє Кіно
-http://bear-tv.net:2095/bear_tv_vechirnye_kino/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_kinoatmosfera" tvg-name="Bear TV КіноАтмосфера" group-title="test",Bear TV КіноАтмосфера
-http://bear-tv.net:2095/bear_tv_kinoatmosfera/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_movie_ua" tvg-name="Bear TV Movie UA" group-title="test",Bear TV Movie UA
-http://bear-tv.net:2095/bear_tv_movie_ua/video.m3u8?token=@beartvmove
-#EXTINF:-1 tvg-id="bear_tv_mult_malyy_ekran" tvg-name="Bear TV Малий Екран" group-title="test",Bear TV Малий Екран
-http://bear-tv.net:2095/bear_tv_mult_malyy_ekran/video.m3u8?token=@beartvmove
+
 #EXTINF:-1 group-title="test",Wydarzenia 24
 http://91.246.72.88:8000/play/a009/index.m3u8
 #EXTINF:-1  group-title="test"  tvg-id="echotv24"  tvg-logo="http://epg.one/img2/6776.png" ,ЭХО ТВ 24 (Новоуральск)

@@ -3017,7 +3017,8 @@ ALIASES: dict[str, str] = {
     "Океан ТВ": "Океан",
     "Willow HD": "Willow",
     "Советское Кино SD": "Советское Кино",
-    "Channel 8 International (576p)": "8tv"
+    "Channel 8 International (576p)": "8tv",
+    "Viasat Kino Comedy HD": "Viasat Kino Comedy"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
