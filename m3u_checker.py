@@ -60,6 +60,10 @@ SOURCE_URLS: list[str] = [
     "https://dl.dropboxusercontent.com/scl/fi/thsjb093g6wkqdnpjdc82/Sport.m3u?rlkey=cixvxk8337i11u2h6vswjepvt&st=3a9a8qym&dl=0",
     "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru.m3u",
     "https://mater.com.ua/ip/avto-full.m3u",
+    "https://www.mylist.at/pRVGWXL.m3u",
+    "https://tva.org.ua/ip/sam/iptv.m3u",
+    "https://tva.org.ua/ip/sam/avto-full.m3u",
+    "https://tva.org.ua/ip/sam/avto-iptv-tva.m3u"
 ]
 
 # Channels to skip entirely (exact case-insensitive name match).
@@ -3372,7 +3376,8 @@ ALIASES: dict[str, str] = {
     "ТВ3 HD": "ТВ3",
     "Дождь HD": "Дождь",
     "Истоки Орёл": "Истоки",
-    "БСТ Братск": "БСТ"
+    "БСТ Братск": "БСТ",
+    "CARTOON NETWORK HD": "Cartoon Network"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"

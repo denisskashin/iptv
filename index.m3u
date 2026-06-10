@@ -43,8 +43,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/ont-by.png" tvg-id="ont-by" tvg-description="«ОНТ» (ОбщеНациональное Телевидение, бел. Агульнанацыянальнае тэлебачанне) — общественный белорусский телеканал. Начало своё вещание с 25 июня 2002 года в 16:30 по минскому времени на частоте российского «Первого канала». Телеканал транслирует программы собственного производства и рейтинговые программы «Первого канала», а также программы и сериалы других российских телеканалов.",ОНТ
 
-http://93.84.105.184:443/onthd
-
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/pervy-info-by.png" tvg-id="pervy-info-by" tvg-description="«Первый информационный» — первый информационный телеканал Республики Беларусь. Входит в структуру Белтелерадиокомпании. Начало своё вещание с 17 сентября 2024 года.",Первый информационный
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
@@ -57,17 +55,13 @@ https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunkli
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #https://edge53.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist_w1093126388.m3u8
 #https://edge50.dc.beltelecom.by/ctv/ctv.stream/chunklist_b5160000_sleng.m3u8
-#http://93.84.105.184:443/stvhd
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/tv3-by.png" tvg-id="tv3-by" tvg-description="«ТВ-3 Беларусь» – белорусский познавательно-развлекательный телеканал. Основу сетки составляют российские и зарубежные телесериалы, документальные фильмы российского производства, фильмы и сериалы в жанре «фэнтези», затрагивающие самые сокровенные стороны неопознанного и мистического, развлекательные шоу.",ТВ-3 Беларусь
 
 # Бизнес
 
 #EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk" tvg-description="«РБК» — российский бизнес-телеканал. На нём представлены экономические, финансовые и политические новости Российской Федерации и зарубежных стран.",РБК
-http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-#http://online.video.rbc.ru/online2/rbctv_1080p/index.m3u8
-#http://reg.fmplay.ru:8000/rbc-48.aac
-#http://92.50.128.180/utv/1358/index.m3u8
+http://92.50.128.180/utv/1358/index.m3u8
 #http://online-video.rbc.ru/chr/index.m3u8
 #http://185.78.112.47:8077/rbc/index.m3u8
 #http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
@@ -185,8 +179,6 @@ http://185.78.112.47:8077/ntv_hd/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-belarus.png" tvg-id="ntv-belarus" tvg-description="НТВ Беларусь — версия российского телеканала НТВ, адаптированная для белорусской аудитории.",НТВ Беларусь
 
-http://93.84.105.184:443/ntvbelarussd
-
 #EXTINF:0 group-title="НТВ",НТВ Мир
 https://streaming.thestream.cyou/live/213-req_offset_28000000-req_window_0-1k_v5.m3u8
 #http://37.186.70.39:40/play/39/index.m3u8
@@ -255,7 +247,6 @@ http://185.78.112.47:8077/kaleydoskop/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir" tvg-description="Мир — межгосударственная телерадиокомпания стран СНГ. Транслирует новости, документальные фильмы и культурные программы для русскоязычной аудитории.",Мир
 https://s03.watcher.uz/80/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #http://185.78.112.47:8077/mir/index.m3u8
-#http://93.84.105.184:443/mirhd
 #http://37.186.70.39:40/play/43/index.m3u8
 #http://37.186.70.39:40/play/44/index.m3u8
 
@@ -426,8 +417,7 @@ http://185.78.112.47:8077/nano_hd/index.m3u8
 #http://s1.tv-nano.com/Nano_rec/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20" tvg-description="Наука — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о науке, технологиях и природе.",Наука
-http://93.84.105.184:443/nauka
-#https://s06.watcher.uz/141/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
+https://s06.watcher.uz/141/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/prikluchenia-hd.png" tvg-id="prikluchenia-hd" tvg-description="Приключения — российский тематический телеканал с документальными фильмами о приключениях и путешествиях.",Приключения
 https://s06.watcher.uz/140/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
@@ -524,7 +514,6 @@ https://s06.watcher.uz/127/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 https://s06.watcher.uz/144/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #http://185.78.112.47:8077/moya_planeta/index.m3u8
 #http://185.78.112.47:8077/planeta_hd/index.m3u8
-#http://93.84.105.184:443/myplanet
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/morskoy.png" tvg-id="morskoy" tvg-description="Моя стихия — российский тематический телеканал для любителей активного отдыха и путешествий.",Моя стихия
 
@@ -612,8 +601,6 @@ http://v4.proofix.ru/0mir/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/perec.png" tvg-id="perec-int" tvg-description="Перец — российский развлекательный телеканал. Специализируется на юморе, комедийных программах и скрытой камере.",Перец
 http://37.186.70.39:40/play/43/index.m3u8
-
-http://93.84.105.184:443/perets
 #http://178.124.153.123:44400/peretz
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/prodvizhenie.png" tvg-id="prodvizhenie" tvg-description="Продвижение — российский тематический телеканал о бизнесе и маркетинге.",Продвижение
@@ -635,7 +622,6 @@ http://185.78.112.47:8077/sts-love/index.m3u8
 #http://109.70.186.82:9090/udp/239.185.1.19:1234
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe" tvg-description="Телекафе — российский кулинарный телеканал. Транслирует кулинарные шоу, рецепты и программы о еде.",Телекафе
-http://93.84.105.184:443/telecafe
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus" tvg-description="TLC (The Learning Channel) — международный развлекательный телеканал. Специализируется на реалити-шоу, лайфстайл и документальных программах.",TLC
 
@@ -980,7 +966,6 @@ http://185.78.112.47:8077/nstv/index.m3u8
 http://185.78.112.47:8077/pobeda_hd/index.m3u8
 #https://streaming.thestream.cyou/live/43.m3u8
 #https://streaming.thestream.cyou/live/43-req_offset_28000000-req_window_0-1k_v5.m3u8
-#http://93.84.105.184:443/pobeda
 #http://37.186.70.39:40/play/49/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Про100
@@ -989,7 +974,6 @@ https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 
 #EXTINF:-1 group-title="candidate",Ретро
 https://s05.watcher.uz/39/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#http://93.84.105.184:443/retro
 #http://europaplus.hostingradio.ru:8014/retro320.mp3
 #http://37.186.70.39:40/play/46/index.m3u8
 
@@ -1039,7 +1023,6 @@ https://streamer3.connectto.com/372/mono.m3u8
 
 #EXTINF:-1 group-title="candidate",О!
 http://185.78.112.47:8077/o_/index.m3u8
-#http://93.84.105.184:443/O
 
 #EXTINF:-1 group-title="candidate",Рыжий
 http://185.78.112.47:8077/ryzhiy/index.m3u8
@@ -1471,26 +1454,11 @@ http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 #EXTINF:-1 group-title="candidate",ATG Live
 https://kanal75xto-llhls.akamaized.net/live/Data/atg-kanal-15-02a-rr/HLS-Legacy-HL/atg-kanal-15-02a-rr.m3u8
 
-#EXTINF:-1  group-title="test",BLACK HD
-http://saveukraine.1ce.xyz/9011/video.m3u8?token=99jkYSXX7E
-#EXTINF:-1  group-title="test",Cartoon Network BG
-http://78.108.244.134:8899/cn
-#EXTINF:-1  group-title="test",Channel 24
-https://bozztv.com/rongo/rongo-Channel24HD/index.m3u8
-#https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/1703-audio_113332_eng=113200-video=1692000.m3u8
-#EXTINF:-1  group-title="test",Cheddar News
-https://wurlcheddar.global.transmit.live/hls/689ceac9301c34d3919676f3/v1/Cheddar/samsung_us/latest/main/hls/playlist.m3u8
-#https://jmp2.uk/stvp-USAJ3504714A
-#EXTINF:-1  group-title="test",CARTOON NETWORK HD
+#EXTINF:-1  group-title="test",Cartoon Network
 https://edge2.roarzone.net:8447/roarzone/edge3/cartoon_network_sd/index.m3u8?token=f217ce1b9d7e81ba7a8e51c58db0b84bb3e1015a-0cf15f2f5de85c507bd26e24fb34b5d2-1780994697-1780983897
-#EXTINF:-1  group-title="test",Channel 24 HD
-https://owrcovcrpy.gpcdn.net/bpk-tv/1703/output/index.m3u8
-#EXTINF:-1  group-title="test",Channel 9
-#https://owrcovcrpy.gpcdn.net/bpk-tv/1729/output/index.m3u8
+
 #EXTINF:-1  group-title="test",Channel I
-https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/index.m3u8
-#https://owrcovcrpy.gpcdn.net/bpk-tv/1723/output/1723-audio_113532_eng=113200-video=1692000.m3u8
-#https://edge2.roarzone.net:8447/roarzone/edge3/channel_i/index.m3u8?token=6a3d61c8457059a6c6c24f86924e5ffa7061a1f1-dd537e673a8268b672ec0eda79db2e58-1780994693-1780983893
+https://edge2.roarzone.net:8447/roarzone/edge3/channel_i/index.m3u8?token=6a3d61c8457059a6c6c24f86924e5ffa7061a1f1-dd537e673a8268b672ec0eda79db2e58-1780994693-1780983893
 #EXTINF:-1  group-title="test",Disney Jr.
 http://151.80.18.177:86/Disney_Junior_HD/index.m3u8
 #EXTINF:-1  group-title="test",Divinity
@@ -1516,8 +1484,6 @@ http://103.175.73.12:8080/live/143/143_0.m3u8
 #EXTINF:-1  group-title="test",Disney JR
 https://tvsen7.aynaott.com/disneyjr/index.m3u8?e=1780987541&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=132652cb519a104c793a9347eed6997f
 #https://tvsen7.aynaott.com/disneyjr/index.m3u8?e=1780971023&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=1bf507e39ea54689397c7de7b0f626b0
-#EXTINF:-1  group-title="test",Estrella TV
-https://jmp2.uk/rok-91dff2b8a62b5fe1bdf64de721032cba.m3u8
 #EXTINF:-1  group-title="test",HBO Signature
 https://qp-pldt-live-bpk-02-prod.akamaized.net/bpk-tv/cg_hbosign/default/index.mpd
 #EXTINF:-1  group-title="test",Movies Action
@@ -1546,8 +1512,6 @@ https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w_b
 http://maxotts.maxdigitaltv.com/x-media/C168/master.m3u8
 #EXTINF:-1  group-title="test",Travel Channel
 https://qp-pldt-live-bpk-01-prod.akamaized.net/bpk-tv/travel_channel_sd/default/index.mpd
-#EXTINF:-1  group-title="test",Беларусь 2 HD
-http://93.84.105.184:443/belarus5hd
 #EXTINF:-1  group-title="test",Fox Sports 2
 https://tvsen7.aynaott.com/foxsports2/index.m3u8?e=1780971019&u=78be6644-0a65-48ec-81a4-089ac65a2619&token=a730ee540069cb6f1b0c50b01808e15f
 #EXTINF:-1  group-title="test",КиноСезонᴴᴰ
@@ -1575,8 +1539,6 @@ https://vg-zeefta.akamaized.net/ptnr-yupptv/title-zeebiharjharkhand/v1/master/61
 https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 #EXTINF:-1  group-title="test",Неизвестная планета HD
 http://stitch.teletarget.ru/api/v1/hls/vintera/neplaneta/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
-#EXTINF:-1  group-title="test",TV9 Gujarati
-https://jmp2.uk/stvp-INBD1300012GJ
 #EXTINF:-1  group-title="test",ИНФОКАНАЛ
 https://github.com/CrocoUser/files/raw/refs/heads/main/infokanal.m3u8
 #EXTINF:-1  group-title="test",T Sports HD
@@ -1608,7 +1570,5 @@ https://tinyurl.com/2cll3x5l
 https://tinyurl.com/25sx26nj
 #EXTINF:-1 tvg-id="Channel8International.ru@SD" group-title="test",Channel 8 International (576p)
 https://v4.proofix.ru/8tv-europe/index.m3u8
-#EXTINF:-1 group-title="test",Водій для копа 2019 США|Комедія|Трилер|Кримінал|Бойовик
-https://s10.hdvbua.pro/media1/content/stream/films/stuber_2019_bdrip_1080p_ukr_eng_hurtom_1514/hls/1080/index.m3u8
 #EXTINF:-1 tvg-id="BST.ru@SD" group-title="test",БСТ 24 (Братск)
 http://bst.bratsk.ru/hls/bst2/index.m3u8
