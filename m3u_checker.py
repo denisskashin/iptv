@@ -3018,7 +3018,14 @@ ALIASES: dict[str, str] = {
     "Willow HD": "Willow",
     "Советское Кино SD": "Советское Кино",
     "Channel 8 International (576p)": "8tv",
-    "Viasat Kino Comedy HD": "Viasat Kino Comedy"
+    "Viasat Kino Comedy HD": "Viasat Kino Comedy",
+    "ЭХО ТВ 24 (Новоуральск)": "ЭХО ТВ 24",
+    "360.RU НОВОСТИᴴᴰ": "360°",
+    "360.RU SD": "360°",
+    "Al Jazeera English": "Al Jazeera",
+    "Al Jazeeraᴴᴰ (Arabic)": "Al Jazeera (Arabic)",
+    "BBC World Newsᴴᴰ": "BBC World News",
+    "CCTV4ᴴᴰ": "CCTV4",
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
