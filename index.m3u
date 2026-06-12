@@ -248,9 +248,7 @@ https://s06.watcher.uz/154/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
 # НТВ
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv" tvg-description="НТВ — российский федеральный телеканал, один из крупнейших в стране. Специализируется на новостях, сериалах, документальном кино и развлекательных программах.",НТВ
-http://85.192.10.131/hls/NtvRuM9/playlist.m3u8
-#http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
-
+http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-amerika.png" tvg-id="ntv-amerika" tvg-description="НТВ Америка — русскоязычный телеканал для зрителей в США и Канаде, транслирует программы НТВ и российский контент.",НТВ Америка
 
@@ -281,7 +279,6 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
 http://37.186.70.39:40/play/37/index.m3u8
 #http://94.230.128.107:8080/5_kanal/index.m3u8
-#http://85.192.10.131/hls/5kanal/playlist.m3u8
 
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/7tv.png" tvg-id="7tv" tvg-description="7ТВ — российский федеральный телеканал, транслирующий спортивные программы, фитнес и активный образ жизни.",7 TV
@@ -305,7 +302,6 @@ https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda" tvg-description="Звезда — российский федеральный телеканал, учреждённый Министерством обороны РФ. Транслирует военно-патриотический контент, новости и художественные фильмы.",Звезда
 https://s05.watcher.uz/43/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-#http://85.192.10.131/hls/zvezda/playlist.m3u8
 #http://94.230.128.107:8080/Zvezda/video.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-id="zvezda-plus" tvg-description="Звезда Плюс — дополнительный канал телеканала «Звезда», транслирующий военно-исторические и документальные программы.",Звезда плюс
@@ -331,8 +327,7 @@ https://dash3.antik.sk/live/test_current_time_atktv/playlist.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/ntm.png" tvg-id="ntm" tvg-description="НТМ — независимый телеканал, транслирующий разнообразный развлекательный и информационный контент.",НТМ
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr" tvg-description="ОТР (Общественное телевидение России) — российский некоммерческий телеканал. Транслирует общественно-политические, культурные и образовательные программы.",ОТР
-http://85.192.10.131/hls/OTR/playlist.m3u8
-#http://peers.tv-live-669.workers.dev/?ID=http://api.peers.tv/timeshift/otvrus/16/playlist.m3u8
+http://peers.tv-live-669.workers.dev/?ID=http://api.peers.tv/timeshift/otvrus/16/playlist.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy" tvg-description="Первый канал — крупнейший федеральный телеканал России. Ведёт вещание с 1951 года. Показывает новости, художественные фильмы, сериалы и развлекательные программы.",Первый канал
 #https://streaming.goodstream.icu/live/210-req_offset_28000000-req_window_0-2k_v5.m3u8
@@ -350,12 +345,10 @@ https://streaming.goodstream.icu/live/210-req_offset_28000000-req_window_0-2k_v5
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica-int.png" tvg-id="piatnica-int" tvg-description="Пятница International — международная версия российского телеканала Пятница! для зрителей за рубежом.",Пятница International
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Пятница! — российский развлекательный телеканал, ориентированный на молодёжную аудиторию. Показывает реалити-шоу, сериалы и лайфстайл-программы.",Пятница!
-http://85.192.10.131/hls/pjatnica/playlist.m3u8
-#http://94.230.128.107:8080/Friday/video.m3u8
+http://94.230.128.107:8080/Friday/video.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",РЕН ТВ
 http://37.186.70.39:40/play/30/index.m3u8
-#http://85.192.10.131/hls/rentv/playlist.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv-int.png" tvg-id="rentv-int" tvg-description="РЕН ТВ International — международная версия российского телеканала РЕН ТВ для зрителей за рубежом.",Рен ТВ International
 
@@ -367,12 +360,10 @@ http://37.186.70.39:40/play/25/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — общероссийский государственный телевизионный канал. Транслирует новости, художественные фильмы, сериалы и общественно-политические программы.",Россия 1
 http://109.207.243.18/2/index.m3u8
 #http://91.210.192.13:1000/russia-1
-#http://85.192.10.131/hls/RossijaM9/playlist.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
 http://91.210.192.13:1000/russia-24
 #http://gtrk-volga.ru/media/hr24/stream1.m3u8
-#http://85.192.10.131/hls/ortrum9/playlist.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" tvg-id="solovjinypomiot" tvg-description="Соловьёв Live — российский политический YouTube-канал и телеканал журналиста Владимира Соловьёва. Транслирует ток-шоу, дебаты и политическую аналитику.",Соловьев.Live
 
@@ -392,12 +383,10 @@ http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr" tvg-description="ТВЦ (Телевизионный центр) — российский федеральный телеканал, ориентированный на московскую аудиторию. Транслирует новости, политические и культурные программы.",ТВЦ
 https://s05.watcher.uz/41/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 #http://stitch.teletarget.ru/vintera/tvcsd/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
-#http://85.192.10.131/hls/TvciRu/playlist.m3u8
 #http://stitch.teletarget.ru/vintera/tvcsd/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
-http://85.192.10.131/hls/tnt/playlist.m3u8
-#http://94.230.128.107:8080/THT/video.m3u8
+http://94.230.128.107:8080/THT/video.m3u8
 #http://line.team-tv.link:80/jLKLjOvdU/beAi6ilBrs/2073
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt-int-eu.png" tvg-id="tnt-int-eu" tvg-description="ТНТ International — международная версия российского телеканала ТНТ для русскоязычной аудитории за рубежом.",ТНТ International
@@ -719,7 +708,6 @@ http://tvoetv.space:8080/tvoetv/index.m3u8
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" tvg-description="ТВ3 — российский федеральный телеканал. Специализируется на мистике, фантастике, ужасах и развлекательном контенте.",ТВ3
-http://85.192.10.131/hls/tv3/playlist.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-id="yu" tvg-logo="https://iptvx.one/picons/yu.png" tvg-id="yu" tvg-description="Ю — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает мелодрамы, лайфстайл и реалити-шоу.",Ю
 
@@ -798,7 +786,6 @@ https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a
 #http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
 #http://dijital.rafail1982.uz/hls/matchtvrum9/playlist.m3u8
 #http://94.230.250.141:8080/machtv/index.m3u8
-#http://85.192.10.131/hls/matchtvrum9/playlist.m3u8
 #http://cdn.balelbrus.com/bigteisti9/M_HD/index.m3u8?token=eG1lbnRzMnx8ZVhWeWVYZzRPVEE0TVRNek16QTJOWGc9
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-planeta.png" tvg-id="match-planeta" tvg-description="Матч! Планета — российский спортивный телеканал группы «Матч!», транслирующий международные соревнования.",Матч! Планета
@@ -1015,7 +1002,6 @@ http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
 #http://dmi3y-tv6.ru/hls/CH_MAMONTENOK.m3u8
 #https://sirius.greenhosting.ru/MamontRu/index.m3u8
 #http://85.192.10.173/MamontRu/mono.m3u8
-#http://85.192.10.131/hls/MamonRu/playlist.m3u8
 #http://dijital.rafail1982.uz/hls/MamonRu/playlist.m3u8
 
 #EXTINF:-1 group-title="candidate",Мульт
@@ -1027,7 +1013,6 @@ http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 #http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
 #https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 #http://dijital.rafail1982.uz/hls/MultimaniaRu/playlist.m3u8
-#http://85.192.10.131/hls/MultimaniaRu/playlist.m3u8
 #http://dmi3y-tv6.ru/hls/CH_MULTIMANIYA.m3u8
 
 #EXTINF:-1 group-title="candidate",Мама
@@ -1215,7 +1200,6 @@ http://213.141.224.226:4022/udp/238.1.1.171:1234
 #EXTINF:-1 group-title="candidate",Карусель
 http://37.186.70.39:40/play/98/index.m3u8
 #http://dijital.rafail1982.uz/hls/Karusel/playlist.m3u8
-#http://85.192.10.131/hls/Karusel/playlist.m3u8
 
 #EXTINF:-1 group-title="candidate",Москва Доверие
 http://37.110.54.93:4022/udp/225.77.32.173:5000
@@ -1272,7 +1256,6 @@ http://213.59.128.165:8080/Matur_TV/index.m3u8
 #EXTINF:-1 group-title="candidate",Пингвин
 https://sirius.greenhosting.ru/PingvinRu/video.m3u8
 #http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
-#http://85.192.10.131/hls/pingvinru/playlist.m3u8
 #http://dijital.rafail1982.uz/hls/pingvinru/playlist.m3u8
 #http://dmi3y-tv6.ru/hls/CH_PINGVIN_LOLO.m3u8
 
