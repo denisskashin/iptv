@@ -607,13 +607,11 @@ http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/minimax-ms-crime.png" tvg-id="minimax-ms-crime" tvg-description="Minimax MS Crime — детективный тематический телеканал медиагруппы Minimax.",Minimax MS Crime
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/muzhskoy.png" tvg-id="muzhskoy" tvg-description="Мужской — российский тематический телеканал, ориентированный на мужскую аудиторию.",Мужской
-http://ottlinks.club/hls/v6rf4syijn/269.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-description="NOW Series — телеканал, транслирующий актуальные телесериалы.",NOW Series
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/okino.png" tvg-id="okino" tvg-description="О!Кино — российский кинотеатральный телеканал. Транслирует художественные фильмы и кинопремьеры.",О!Кино
-http://v4.proofix.ru/okino-tv/index.m3u8
-#http://212.233.98.62/okino-tv/index.m3u8
+http://212.233.98.62/okino-tv/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/otkryty-mir.png" tvg-id="otkryty-mir" tvg-description="Открытый мир — российский познавательный телеканал о культуре, путешествиях и международных событиях.",Открытый мир
 https://v4.proofix.ru/0mir/index.m3u8
@@ -742,9 +740,7 @@ http://37.186.70.39:40/play/112/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra" tvg-description="Матч! Игра — российский спортивный канал, специализирующийся на игровых видах спорта.",Матч! Игра
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-tv.png" tvg-id="match-tv" tvg-description="Матч! — ведущий российский спортивный телеканал. Транслирует футбол, хоккей и другие популярные виды спорта.",Матч!
-https://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#http://bl.video.matchtv.ru/media/playlist/free_d46d0cf1712c0542ec7fd4f0808f600a_hd/17_89756005/1080/e6bef86de8a133cd7b27deb040758a00/4796141934.m3u8
-#http://dijital.rafail1982.uz/hls/matchtvrum9/playlist.m3u8
+http://dijital.rafail1982.uz/hls/matchtvrum9/playlist.m3u8
 #http://94.230.250.141:8080/machtv/index.m3u8
 #http://cdn.balelbrus.com/bigteisti9/M_HD/index.m3u8?token=eG1lbnRzMnx8ZVhWeWVYZzRPVEE0TVRNek16QTJOWGc9
 
@@ -1360,8 +1356,13 @@ http://193.239.187.97:80/BBC2/index.m3u8
 #EXTINF:-1 group-title="candidate",CCTV4
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 
+#EXTINF:-1 group-title="candidate",Радио Город FM
+https://live.novoeradio.by:444/live/novoeradio_1080p/chunks.m3u8
+#https://sokfm.ru/listen/online/320
+
+
 #EXTINF:-1  group-title="test"  tvg-id="no_epg"  tvg-logo="https://i.postimg.cc/NjkMFwq9/security-camera-sign.jpg" ,Полевской 1
-#http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
+http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
 #http://85.238.112.40:8810/hls_sec/online/list-100.m3u8
 #http://85.238.112.40:8810/hls_sec/online/list-renome.m3u8
 #http://85.238.112.40:8810/hls_sec/239.33.116.26-.m3u8
@@ -1374,30 +1375,16 @@ https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #http://glorystartv.live/Impact/index.m3u8
 #http://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/chunks.m3u8
 
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_radio"  tvg-logo="https://dl.dropboxusercontent.com/s/vuebqxj8rldcig9/gorod-fm.gif" ,РАДИО ГОРОД FMᴴᴰ
-http://listen.radiogora.ru:8000/hiphop128
-#https://stream.skymedia.ee/live/NRJ
-#http://radio.nrcu.gov.ua:8000/tysafm-mp3
-#https://live.novoeradio.by:444/live/novoeradio_1080p/chunks.m3u8
-#https://sokfm.ru/listen/online/320
-
-#EXTINF:-1  group-title="test"  tvg-id="france24-en"  tvg-logo="https://iptvx.one/picons/france24.png" ,France 24ᴴᴰ English
-https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8
 #EXTINF:-1  group-title="test"  tvg-logo="https://iptvx.one/picons/cnn.png"   tvg-name="CNN Espanol",CNN Espanol
 http://179.1.146.22:8000/play/a0hx/index.m3u8
+
 #EXTINF:-1  group-title="test"  tvg-id="cnn"  tvg-logo="http://epg.one/img2/2270.png" ,CNN LIVEᴴᴰ
 http://190.11.225.124:5000/live/cnn_hd/playlist.m3u8
 #http://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #http://turnerlive.warnermediacdn.com/hls/live/586497/cnngo/cnni/VIDEO_0_3564000.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="france24-fr"  tvg-logo="https://iptvx.one/picons/france24.png" ,France 24ᴴᴰ France
-http://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="france-24"  tvg-logo="https://iptvx.one/picons/france24.png"   tvg-name="France 24 Espanol",France 24ᴴᴰ Espanol
-http://live.france24.com/hls/live/2037220/F24_ES_HI_HLS/master_5000.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="nst"  tvg-logo="https://iptvx.one/picons/france24.png"   tvg-name="France 24 Arabic",France 24ᴴᴰ Arabic
-http://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_5000.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/IiiRmrf.png"   $ExtFilter="ГЕДЕМ",CCTV+ SD
+#
+EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/IiiRmrf.png"   $ExtFilter="ГЕДЕМ",CCTV+ SD
 https://cd-live-stream.news.cctvplus.com/live/smil:CHANNEL2.smil/playlist.m3u8
 #EXTINF:-1  group-title="test"  tvg-logo="http://img.vintera.tv/img/ico/rt_.png" ,RT Franceᴴᴰ
 http://rt-fra.rttv.com/dvr/rtfrance/playlist_4500Kb.m3u8
