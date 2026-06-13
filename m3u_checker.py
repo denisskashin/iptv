@@ -3027,7 +3027,8 @@ ALIASES: dict[str, str] = {
     "BBC World Newsᴴᴰ": "BBC World News",
     "CCTV4ᴴᴰ": "CCTV4",
     "Первый канал Европа": "Первый канал",
-    "РАДИО ГОРОД FMᴴᴰ": "Радио Город FM"
+    "РАДИО ГОРОД FMᴴᴰ": "Радио Город FM",
+    "Культ Медиа ТВ": "Культ Медиа"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
