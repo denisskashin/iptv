@@ -844,6 +844,7 @@ https://tosnotv.ru/hlsshare/video.m3u8
 
 #EXTINF:-1 group-title="candidate",312 Сериал
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
+#http://176.126.166.43:1935/live/312musik/chunklist_w1516016500.m3u8
 
 #EXTINF:-1 group-title="candidate",Индия
 http://37.186.70.39:40/play/75/index.m3u8
@@ -1075,6 +1076,7 @@ http://37.186.70.39:40/play/42/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Арсенал
 http://37.186.70.39:40/play/48/index.m3u8
+#http://178.218.204.217/1414/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="candidate",Amedia Hit
 http://37.186.70.39:40/play/54/index.m3u8
@@ -1142,6 +1144,7 @@ https://ngtrk.dc.beltelecom.by/vtv/_definst_/bt4.stream/playlist.m3u8
 #EXTINF:-1 group-title="candidate",Астрахань 24
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #https://streaming.astrakhan.ru/astrakhan24/tracks-v2a1/mono.m3u8
+#http://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 
 #EXTINF:-1 group-title="candidate",Kino 24
 http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
@@ -1210,64 +1213,25 @@ http://80.72.179.162:8086/index.m3u8
 #EXTINF:-1 group-title="candidate",Iran Press TV
 https://live.presstv.ir/hls/presstv_5_482/index.m3u8
 
-#EXTINF:-1  group-title="test" ,CCTN 47ᴴᴰ
-http://122.55.252.134:8443/live/bba5b536faeacb9b56a3239f1ee8e3b3/1.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="vip-megahit"  tvg-logo="https://i.imgur.com/IFpAmvW.png" ,RCTV1 综合
-http://183.64.181.25:40023/rongchang01.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="vip-comedy"  tvg-logo="https://i.imgur.com/PHlj84Q.png" ,MNB Worldᴴᴰ
+#EXTINF:-1 group-title="candidate",MNB Worldᴴᴰ
 https://live.mnb.mn/hls/mnb_world.stream.m3u8
 #https://live.mnb.mn/hls/mn2.stream.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="russky-illuzion"  tvg-logo="https://i.imgur.com/tRFnV9M.png"   $ExtFilter="ГЕДЕМ",Top News SD
-https://live.topnews.co.th/hls/topnews_a_720.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="astraxan24" ,Астрахань 24 SD
-http://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="arirang"  tvg-logo="http://epg.one/img2/2461.png" ,Arirang Koreaᴴᴰ
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="otse"  tvg-logo="https://oktv.uz/Channels/ch_3472.png" ,ОЦЕᴴᴰ
+
+#EXTINF:-1 group-title="candidate",Ош ТВ
 http://212.42.117.34:8080/hls/OshTV.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="pervy-gorodskoy-odessa"  tvg-logo="https://iptvx.one/picons/pervy-gorodskoy-odessa.png" ,Перший міський (Одеса)
-http://91.194.79.46:8081/stream2/channel2/chunks.m3u8
-#http://91.194.79.46:8081/stream2/channel2/playlist.m3u8
-#http://91.194.79.46:8081/stream1/channel1/chunks.m3u8
-#http://91.194.79.46:8081/stream1/channel1/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="312-kino"  tvg-logo="https://iptvx.one/picons/312-kino.png" ,312 Кино 🇰🇬
+
+#EXTINF:-1 group-title="candidate" tvg-id="312-kino" tvg-logo="https://iptvx.one/picons/312-kino.png",312 Кино
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
 #http://176.126.166.43:1935/live/312kino/chunklist_w164832369.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="312-serial"  tvg-logo="https://iptvx.one/picons/312-serial.png" ,312 Сериал 🇰🇬
-http://176.126.166.43:1935/live/312musik/chunklist_w1516016500.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="tv15-kg"  tvg-logo="https://iptvx.one/picons/tv15-kg.png"   $ExtFilter="ГЕДЕМ",TV15ᴴᴰ 🇰🇬
-http://213.109.64.248:8086/0.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="http://1lot.tv/ch/9979.png"   $ExtFilter="ГЕДЕМ",Regionᴴᴰ 🇰🇬
+
+#EXTINF:-1 group-title="candidate",Region
 http://31.192.249.68:8080/0.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://orken-media.kz/wp-content/uploads/2023/02/Logo_Orken.png" ,Orken Live TVᴴᴰ 🇰🇿
-https://orken-media.kz/live/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://dl.dropbox.com/scl/fi/h30ihvgh7b0fcrz1kus6d/2026-04-05-203426.png?rlkey=j54occzam6zwo8vbaf3ua2w19&dl=0" ,TMedia SD 🇰🇬
-http://92.62.68.29:8086/0.m3u8
-#http://92.62.68.29:8086/0.ts
-#EXTINF:-1  group-title="test"  tvg-logo="https://www.utrk.kg/utrk/img/channels/utrk-zhalalabad.svg"   $ExtFilter="ГЕДЕМ",УТРК Жалал-Абад 🇰🇬
-http://80.72.179.162:8086/0.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://dl.dropbox.com/scl/fi/1sblc795p0iuouoay3znu/2026-04-05-205323.png?rlkey=vvgs10h9f0sxoai3qz647anq2&dl=0" ,7 канал SD 🇰🇬
-http://212.112.106.117:8086/0.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="evrokino" ,ЕВРОКИНО
-#http://94.230.250.140/eurokino/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="klassika-kino"  tvg-logo="https://iptvx.one/picons/klassika-kino.png" ,Классика Кино SD
+
+#EXTINF:-1 group-title="candidate",Классика Кино SD
 http://stitch.teletarget.ru/vintera/movieclassic/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
-#EXTINF:-1  group-title="test"  tvg-logo="https://dl.dropbox.com/scl/fi/59013hqnkxesgy8wumvpb/2026-04-14-100340.png?rlkey=6gy2qiw201pjerzajfx4gy2n9&dl=0" ,УТРК Таласᴴᴰ 🇰🇬
-http://34.92.173.115/utrk_talas/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="dorama" ,Дорама
-http://109.248.236.51/dorama/video.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="arsenaltv" ,Арсенал FD
-http://178.218.204.217/1414/tracks-v1a1/mono.m3u8
+
 #EXTINF:-1  group-title="test"  tvg-id="no_epg_cinema"  tvg-logo="https://iptvcinema.ru/channels/ntvshef.png"   tvg-name="НТВ Шеф",НТВ Шефᴴᴰ
-http://cdn.iptvcinema.ru/lb1/shef.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#http://cdn.iptvcinema.ru/lb1/pyos.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#http://cdn.iptvcinema.ru/lb1/nevskiy.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#http://cdn.iptvcinema.ru/lb1/5minut.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#http://cdn.iptvcinema.ru/lb1/balabol.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#http://cdn.iptvcinema.ru/lb1/skorayapomosh.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#http://cdn.iptvcinema.ru/lb1/perviyotdel.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#http://cdn.iptvcinema.ru/lb1/sledstvie.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZERFeU13PT0=
-#https://s.catcast.tv/content/43064/index.m3u8?token=12e9b4b3f3c1a94794e26197460d95c6
+https://s.catcast.tv/content/43064/index.m3u8?token=12e9b4b3f3c1a94794e26197460d95c6
 #https://stream.mknews24.ru/hls/stream.m3u8?DVR
 #http://162.212.179.43/ushba-films-i/tracks-v1a1/mono.m3u8
 #http://162.212.179.43/ushba-films-g/tracks-v1a1/mono.m3u8
@@ -1288,14 +1252,15 @@ http://cdn.iptvcinema.ru/lb1/shef.m3u8?/index.m3u8?token=SGFja2VlZWVkfHxkR1Z6ZER
 #https://autopilot.catcast.tv/content/41333/index.m3u8?password=promolive
 #https://autopilot.catcast.tv/content/45268/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/41333/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test"  tvg-logo="http://img.vintera.tv/img/ico/livetvaz.png" ,LIVETV SD
+
+#EXTINF:-1 group-title="candidate",LIVETV SD
 http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
 #http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://tv.mobyservice.ru/livetv/index.m3u8
+
 #EXTINF:-1  group-title="test"  tvg-id="tv-rus-plus"  tvg-logo="https://dl.dropbox.com/scl/fi/w8wfjrt2oe0klw12j4pls/2026-04-10-171543.png?rlkey=arj1138by7k7rjnbswk51tb4s&dl=0" ,TVRUS+ HD
 http://217.154.10.99:2020/channel/n7ae3dc73/index.m3u8?q=ac8328a8c05870646c45caa253710a85
-#EXTINF:-1  group-title="test"  tvg-logo="https://dl.dropbox.com/scl/fi/0bhx6c2ob8aaj6xzgxhe3/2026-04-04-212814.png?rlkey=q0bdr63o5s6zinjnf1yxplt63&dl=0" ,8 каналᴴᴰ 🇰🇬
-http://77.235.31.197:8080/0.m3u8
+
 #EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/ozEqob9.png"   tvg-name="Сити Эдем Плей",Сити Эдем Плей
 https://autopilot.catcast.tv/content/34100/index.m3u8?password=loganet
 #EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/V3MTfyc.png"   tvg-name="Сити Эдем — СиртакиТВ",Сиртаки ТВ
@@ -1761,3 +1726,5 @@ http://162.212.179.43/ushba38/tracks-v1a1/mono.m3u8
 http://162.212.179.43/ushba28/tracks-v1a1/mono.m3u8
 #EXTINF:-1  group-title="test",ГОРДОСТЬ РОССИИ SD
 http://162.212.179.43/ushba29/tracks-v1a1/mono.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="evrokino" ,ЕВРОКИНО
+http://94.230.250.140/eurokino/index.m3u8
