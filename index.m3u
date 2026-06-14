@@ -1219,8 +1219,7 @@ http://31.192.249.68:8080/0.m3u8
 http://stitch.teletarget.ru/vintera/movieclassic/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 
 #EXTINF:-1  group-title="test"  tvg-id="no_epg_cinema"  tvg-logo="https://iptvcinema.ru/channels/ntvshef.png"   tvg-name="НТВ Шеф",НТВ Шефᴴᴰ
-https://stream.mknews24.ru/hls/stream.m3u8?DVR
-#http://162.212.179.43/ushba-films-i/tracks-v1a1/mono.m3u8
+http://162.212.179.43/ushba-films-i/tracks-v1a1/mono.m3u8
 #http://162.212.179.43/ushba-films-g/tracks-v1a1/mono.m3u8
 #http://162.212.179.43/ushba-films-b/tracks-v1a1/mono.m3u8
 #https://stream.mknews24.ru/hls/stream.m3u8
@@ -1239,6 +1238,7 @@ https://stream.mknews24.ru/hls/stream.m3u8?DVR
 #https://autopilot.catcast.tv/content/41333/index.m3u8?password=promolive
 #https://autopilot.catcast.tv/content/45268/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/41333/index.m3u8?password=loganet
+https://stream.mknews24.ru/hls/stream.m3u8?DVR
 
 #EXTINF:-1 group-title="candidate",LIVETV SD
 http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
@@ -1378,92 +1378,32 @@ http://cdn.wfc.tv/cdn/stream-eng-1080p.m3u8
 #EXTINF:-1 group-title="candidate",Fashion TV Paris L'Original
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/lzQsVfn.png" ,ВИТРИНА ТВ FD
-http://v4.proofix.ru:80/vitrina-live/index.m3u8
-#http://v4.proofix.ru:80/vitrina-live/tracks-v1a1/mono.m3u8
-#https://v4.proofix.ru/vitrina-live/tracks-v1a1/mono.m3u8
-#https://v4.proofix.ru/vitrina-live/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="luxury-hd"  tvg-logo="http://1lot.tv/ch/9681.png" ,LUXURYᴴᴰ
-http://s1.tv-nano.com/Luxury_rec/video.m3u8
-#http://s1.tv-nano.com/Luxury_rec/video.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
-#http://s1.tv-nano.com/Luxury_rec/tracks-v1a1/mono.ts.m3u8
-#http://s1.tv-nano.com/Luxury_rec/video.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
-#EXTINF:-1  group-title="test"  tvg-id="magnat"  tvg-logo="http://1lot.tv/ch/9656.png" ,МАГНАТᴴᴰ
-http://s1.tv-nano.com/Magnat/tracks-v1a1/mono.m3u8
-#https://s1.tv-nano.com/Magnat_HD_5119705/video.m3u8
-#http://s1.tv-nano.com/Magnat/tracks-v3a1/mono.m3u8
-#http://s1.tv-nano.com/Magnat_HD_5339725/video.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
-#EXTINF:-1  group-title="test"  tvg-id="domashny-magazin" ,Leomax 24
-http://91.247.68.229:8000/play/leomax/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="http://www.tbnbaltia.eu/img/tbn-baltia-2-white-trans.png" ,TBN BALTIAᴴᴰ
+#EXTINF:-1 group-title="candidate",TBN Baltia
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="tbn-baltia"  tvg-logo="https://i.imgur.com/rKBaK56.png" ,TBN BALTIAᴴᴰ
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="tbn-armenia"  tvg-logo="https://oktv.uz/Channels/ch_4442.png" ,TBN Armeniaᴴᴰ
+
+#EXTINF:-1 group-title="candidate",TBN Armenia
 https://164475.gvideo.io/mpegts/164475_650646/master_mpegts.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://www.lyngsat.com/logo/tv/bb/bogblag-tv-us.png"   tvg-name="бог благ тв",Бог Благ ТВᴴᴰ
+
+#EXTINF:-1 group-title="candidate",Бог Благ ТВ
 http://67.218.111.36/BogBlagTV/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/XzAYOFK.png" ,TV ХРАМ
+#https://glorystarplus.tv/BogBlagTV/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 group-title="candidate",Храм
 https://vod1.laki.eu/live/hram/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/fACHqmY.png" ,ТВ МАНА ВАШᴴᴰ
+
+#EXTINF:-1 group-title="candidate",ТВ Мана Ваш
 https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/KuuODMM.png" ,Пловдивска Православна ТВᴴᴰ
+
+#EXTINF:-1 group-title="candidate",Пловдивска Православна ТВ
 http://tv.plovdivskamitropolia.bg:1935/live/pptv.stream/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/EK75DMJ.png" ,MISA TV SD
-https://vidl.misatv.ro:5050/MSTV/hungarian/playlist.m3u8
-#https://vidl.misatv.ro:5050/MSTV/french/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="MakkahTV.sa"  tvg-logo="https://i.imgur.com/PRPcOi0.png" ,Makkah TV
-https://media2.streambrothers.com:1936/8122/8122/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="http://epg.one/img2/2452.png" ,The Shopping Channel SD
-http://tscstreaming-lh.akamaihd.net/i/TSCLiveStreaming_1@91031/master.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/WmRPREu.jpg" ,БогБлагТВᴴᴰ
-https://glorystarplus.tv/BogBlagTV/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://volna.top/logoradio/zvuki.svg?v=404" ,ЗВУКИ ПРИРОДЫ
-https://hls.volna.top/radio/zvuki.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/awa4oas.png"   tvg-name="Radio Rocafuerte",Rocafuerte
-https://online.hechosecuador.com:5443/WebRTCApp/streams/Rocafuerte.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png" ,Praia do Vau
-https://video-auth1.iol.pt/beachcam/bcvauportimao/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://raw.githubusercontent.com/LITUATUI/M3UPT/main/logos/Meo-Beachcam.png" ,Costa de Caparica
-https://video-auth1.iol.pt/beachcam/bcnovapraia/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/10/17/1017237de47e769c39708710bb89d188.jpg" ,STARDUST
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809414&extension=ts&play_token=bldhF9Pnge
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/73/f5/73f5b3cfdc98158045f76038a018b75b.jpg" ,FOREST AMERICAN
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809423&extension=ts&play_token=Mw1ztKUjie
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/08/d0/08d0485c5371f760f1f46986054dde80.jpg" ,NATURE RELAXATION
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809419&extension=ts&play_token=6kBZOPRsST
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/0f/c5/0fc5980685a33c9259252135090c2a7a.jpg" ,SNOW WINTER
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809415&extension=ts&play_token=cOhTyUpMxT
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/34/f6/34f6507b30ae4a747b11821304e6f1f0.jpg" ,MORNING RELAXING
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809420&extension=ts&play_token=mAgj8avirK
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/ce/01/ce01d4f2b1984d8dc9468e192f5816e9.jpg" ,THE OCEAN
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809413&extension=ts&play_token=kLqYwz5vPu
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/78/e6/78e6107c83f9930a03e48fd0240859a1.jpg" ,FLOWER
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809417&extension=ts&play_token=qFqzqqH1x7
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/28/29/2829eb8fb8255f87880c22269840dbd4.jpg" ,EARTH NATURE
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809418&extension=ts&play_token=fGU5uSmroS
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/2d/8a/2d8a8c907dbb73073599001bc8c9b4d8.jpg" ,EUROPE TOWNS
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809422&extension=ts&play_token=7AAYrveZI9
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-06/9d/4d/9d4db32c1fccd887099050905e6ca7a2.jpg" ,ICELAND
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809430&extension=ts&play_token=FxyC4h8Y8T
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-24/1a/fa/1afaefabdaa0b6180082adac8e6e2efb.jpg" ,AUSTRALIA
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809428&extension=ts&play_token=vKhRQTM0Iv
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/29/31/29318086e00da1c865da25131f866d4f.jpg" ,MOROCCO
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809431&extension=ts&play_token=c2VfStrqPK
+
 #EXTINF:-1  group-title="test"  tvg-logo="http://46.17.41.254:2020/logos/fashion-and-lifestyle-hd.png" ,Global Fashionᴴᴰ
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/2024-09-29/1e/99/1e99ee863752854d4a29ee44a1dc2a16.jpg" ,SWITZERLAND
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809426&extension=ts&play_token=otmGk6stNZ
 #EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/dJeNehc.png"   $ExtFilter="ГЕДЕМ",Home & Shopping SD
 https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/2024-11-26/15/53/15532340cc15ab3f3bf363f040896708.jpg" ,TURKEY
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809425&extension=ts&play_token=pkndDGcyb0
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/74/6d/746d5d1ba9c1c3a1259d166b73dec7a9.jpg" ,VIETNAM
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809424&extension=ts&play_token=RF00XLfesJ
 #EXTINF:-1  group-title="test"  tvg-id="trt4k-tr"  tvg-logo="https://iptvx.one/picons/trt4k-tr.png"   tvg-name="TR: TRT 4K",TRT 4K
 http://ha1.159843.xyz:80/live/01nuri01/01082023nri/324437.ts
-#EXTINF:-1  group-title="test"  tvg-logo="https://pic.rtbcdn.ru/video/ec/62/ec62a116bb2e1320fbd89fb433eea909.jpg" ,INSPIRATIONAL MOTIVATIONAL
-http://line.tivi-one.net:80/play/live.php?mac=A0:BB:3E:00:13:F8&stream=809421&extension=ts&play_token=DaeFuEqjVJ
 #EXTINF:-1  group-title="test"  tvg-logo="https://sibexpo.ru/upload/iblock/dc7/лого МсМ Улан-Удэ.jpg" ,MCM (Иркутск) SD
 #http://tv.streams.baikal-telecom.net/MCM/index.m3u8
 #EXTINF:-1  group-title="test"  tvg-id="atv-stavropol"  tvg-logo="https://iptvx.one/picons/atv-stavropol.png" ,АТВ (Ставрополь)

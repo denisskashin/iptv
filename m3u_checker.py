@@ -3068,6 +3068,15 @@ ALIASES: dict[str, str] = {
     "World Fashion Channel SD": "World Fashion Channel",
     "World Fashion Channelᴴᴰ": "World Fashion Channel",
     "Fashion TV Paris L'Originalᴴᴰ": "Fashion TV Paris L'Original",
+    "ВИТРИНА ТВ FD": "Витрина ТВ",
+    "LUXURYᴴᴰ": "Luxury",
+    "TBN BALTIAᴴᴰ": "TBN Baltia",
+    "TBN Armeniaᴴᴰ": "TBN Armenia",
+    "Бог Благ ТВᴴᴰ": "Бог Благ ТВ",
+    "БогБлагТВᴴᴰ": "Бог Благ ТВ",
+    "TV ХРАМ": "Храм",
+    "ТВ МАНА ВАШᴴᴰ": "ТВ Мана Ваш",
+    "Пловдивска Православна ТВᴴᴰ": "Пловдивска Православна ТВ"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
