@@ -1231,8 +1231,7 @@ http://31.192.249.68:8080/0.m3u8
 http://stitch.teletarget.ru/vintera/movieclassic/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 
 #EXTINF:-1  group-title="test"  tvg-id="no_epg_cinema"  tvg-logo="https://iptvcinema.ru/channels/ntvshef.png"   tvg-name="НТВ Шеф",НТВ Шефᴴᴰ
-https://s.catcast.tv/content/43064/index.m3u8?token=12e9b4b3f3c1a94794e26197460d95c6
-#https://stream.mknews24.ru/hls/stream.m3u8?DVR
+https://stream.mknews24.ru/hls/stream.m3u8?DVR
 #http://162.212.179.43/ushba-films-i/tracks-v1a1/mono.m3u8
 #http://162.212.179.43/ushba-films-g/tracks-v1a1/mono.m3u8
 #http://162.212.179.43/ushba-films-b/tracks-v1a1/mono.m3u8
@@ -1258,36 +1257,34 @@ http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwM
 #http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://tv.mobyservice.ru/livetv/index.m3u8
 
-#EXTINF:-1  group-title="test"  tvg-id="tv-rus-plus"  tvg-logo="https://dl.dropbox.com/scl/fi/w8wfjrt2oe0klw12j4pls/2026-04-10-171543.png?rlkey=arj1138by7k7rjnbswk51tb4s&dl=0" ,TVRUS+ HD
+#EXTINF:-1 group-title="candidate",TVRUS+ HD
 http://217.154.10.99:2020/channel/n7ae3dc73/index.m3u8?q=ac8328a8c05870646c45caa253710a85
-
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/ozEqob9.png"   tvg-name="Сити Эдем Плей",Сити Эдем Плей
+#EXTINF:-1 group-title="candidate",Сити Эдем Плей
 https://autopilot.catcast.tv/content/34100/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/V3MTfyc.png"   tvg-name="Сити Эдем — СиртакиТВ",Сиртаки ТВ
+#EXTINF:-1 group-title="candidate",Сиртаки ТВ
 https://autopilot.catcast.tv/content/46421/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test"  tvg-logo="https://www.cityeden.info/logotv/logotip_avtogid1.png" ,АвтоГид
+#EXTINF:-1 group-title="candidate",АвтоГид
 https://autopilot.catcast.tv/content/47515/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test"  tvg-logo="https://www.cityeden.info/logotv/logotip_receptygurmana1.png" ,РецептыГурмана
+#EXTINF:-1 group-title="candidate",РецептыГурмана
 https://autopilot.catcast.tv/content/47516/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test"  tvg-logo="https://www.cityeden.info/logotv/logotip_medzdrav1.png" ,МедЗдрав
+#EXTINF:-1 group-title="candidate",МедЗдрав
 https://autopilot.catcast.tv/content/47519/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test"  tvg-id="tv-rus"  tvg-logo="https://dl.dropbox.com/scl/fi/hn9b6e3el8f4bnk3s73op/2026-04-10-171421.png?rlkey=e8dyv25971reryjutrbqh228s&dl=0" ,TVRUS HD
+#EXTINF:-1 group-title="candidate",TVRUS HD
 http://217.154.10.99:2020/channel/4e9dab20/index.m3u8?q=ac8328a8c05870646c45caa253710a85
-#EXTINF:-1  group-title="test"  tvg-logo="https://i123.fastpic.org/big/2024/0707/8d/07172bb838000bcf26b24fa953d53c8d.png?md5=K7ruKF7nnNMiAAjZtsluWg&expires=1727773200" ,КиноКлассика SD
+#EXTINF:-1 group-title="candidate",КиноКлассика
 https://autopilot.catcast.tv/content/34185/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/34185/index.m3u8?password=promolive
-#EXTINF:-1  group-title="test"  tvg-logo="https://www.cityeden.info/logotv/logotip_kinomostika.png" ,КиноМистика
+#EXTINF:-1 group-title="candidate",КиноМистика
 https://autopilot.catcast.tv/content/40783/index.m3u8?password=promolive
-#EXTINF:-1  group-title="test"  tvg-logo="https://i123.fastpic.org/big/2024/0707/65/fbf0da54ae81671db61b3ec6cb71cd65.png?md5=LKi3wbIXy_YKTLwZ1rkpeg&expires=1730887200" ,ТелеНовелла SD
+#EXTINF:-1 group-title="candidate",ТелеНовелла
 http://autopilot.catcast.tv/content/46209/index.m3u8?password=promolive
-#EXTINF:-1  group-title="test"  tvg-id="9kanal-israel"  tvg-logo="https://i123.fastpic.org/big/2024/0707/65/fbf0da54ae81671db61b3ec6cb71cd65.png?md5=LKi3wbIXy_YKTLwZ1rkpeg&expires=1730887200" ,ТелеНовелла SD
 https://autopilot.catcast.tv/content/46209/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test"   tvg-name="Сити Эдем — БирмаПлей",БирмаПлей
+#EXTINF:-1 group-title="candidate",БирмаПлей
 https://autopilot.catcast.tv/content/34364/index.m3u8?password=loganet
-#EXTINF:-1  group-title="test" ,КиноДок SD*
+#EXTINF:-1 group-title="candidate",КиноДок
 https://autopilot.catcast.tv/content/38354/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/38354/index.m3u8?password=promolive
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_music"  tvg-logo="https://i.imgur.com/HPWevWb.png" ,Meditation Music SD*
+#EXTINF:-1 group-title="candidate",Meditation Music
 https://autopilot.catcast.tv/content/47410/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/47400/index.m3u8?password=loganet
 #https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist.m3u8
@@ -1314,10 +1311,11 @@ https://autopilot.catcast.tv/content/47410/index.m3u8?password=loganet
 #https://a7.radioheart.io:9025/RH57075
 #http://aachd.stream.tb-group.fm:80/clt-hd.aac
 #http://aachd.stream.tb-group.fm:80/rp-hd.aac
-#EXTINF:-1  group-title="test"  tvg-logo="https://i123.fastpic.org/big/2024/0707/b3/ffe9bcb9e22ba24237d5b55f2c916bb3.png?md5=Dk0MaXO4P5l3ihytmGAfMQ&expires=1737648000" ,Сити Эдем ТВ SD
+
+#EXTINF:-1 group-title="candidate",Сити Эдем ТВ
 https://autopilot.catcast.tv/content/34246/index.m3u8?password=promolive
-#EXTINF:-1  group-title="test"  tvg-logo="https://i123.fastpic.org/big/2024/0707/b3/ffe9bcb9e22ba24237d5b55f2c916bb3.png?md5=Dk0MaXO4P5l3ihytmGAfMQ&expires=1737648000" ,Сити Эдем ТВ
 https://autopilot.catcast.tv/content/34246/index.m3u8?password=loganet
+
 #EXTINF:-1  group-title="test"  tvg-id="terra-inkognita"  tvg-logo="https://iptvx.one/picons/terra-inkognita.png" ,Terra Incognitaᴴᴰ
 http://stitch.teletarget.ru/vintera/terra/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #http://stitch.teletarget.ru/vintera/terra/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
