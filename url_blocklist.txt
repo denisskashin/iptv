@@ -93,6 +93,7 @@ vcp*.myplaytv.com
 *.rttv.com
 *.rafail1982.uz
 *.aynaott.com
+*.watcher.uz
 
 # --- blocked hosts ---
 s06.wsbof.com
@@ -127,7 +128,6 @@ live-3.otcnet.ru
 arbiter.bolshoe.tv
 vod.tuva.ru
 iptv.itv.uz
-s04.watcher.uz
 kinowalk.hopto.org
 catchup.videoline.ru
 langate.tv
@@ -187,7 +187,6 @@ foxkids-online.ru
 getfile.dokpub.com
 video.xtrematv.com
 songtv.hls.iptvdc.com
-dmitry-tv.ddns.net
 dl.dropbox.com
 cdn.global.elektamedia.com
 live.15plusmg.ru
@@ -506,8 +505,19 @@ amdlive-ch01.ctnd.com.edgesuite.net
 orken-media.kz
 cdn.iptvcinema.ru
 s.catcast.tv
+tvrlive.susu.ru
+user10573.clients-cdnnow.ru
+*.ddns.net
+s.rocketdns.info
+ua.online24.pm
+andro.2385437.xyz
+old.rn-tv.com
 
 # --- blocked IPs ---
+185.98.211.8
+181.205.130.194
+91.201.172.14
+193.169.178.29
 77.235.31.197
 109.248.236.51
 34.92.173.115
@@ -678,11 +688,10 @@ s.catcast.tv
 109.70.186.82
 85.88.175.48
 185.78.112.47
+162.212.179.43
+77.106.252.178
 
 # --- blocked full URLs / paths ---
-https://s05.watcher.uz/95/video.m3u8
-https://s06.watcher.uz/131/video.m3u8
-https://s06.watcher.uz/133/video.m3u8
 http://217.114.191.150/Solnce/index.m3u8
 http://185.78.112.47:8077/Usadba/index.m3u8
 http://185.78.112.47:8077/che/index.m3u8
@@ -748,11 +757,6 @@ http://37.186.70.39:40/play/119/index.m3u8
 http://37.186.70.39:40/play/120/index.m3u8
 http://37.186.70.39:40/play/122/index.m3u8
 https://streaming.astrakhan.ru/telplushd/playlist.m3u8
-
-https://s03.watcher.uz/74/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-https://s03.watcher.uz/57/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-https://s03.watcher.uz/6/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
-https://s07.watcher.uz/170/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MjcwMTc3LCJsb2dpbiI6InR2LTI3MDE3NyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNjUwMjgzMDI3fQ.LadLj4b6plIxTGCWntQQqsQGZ3R9EsvwhaXQd1sur2g%3A15
 
 http://streaming.astrakhan.ru/astrakhan24/tracks-v1a1/mono.ts.m3u8
 http://v4.proofix.ru/okino-tv/index.m3u8
