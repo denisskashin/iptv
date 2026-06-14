@@ -1048,9 +1048,6 @@ https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
 http://v4.proofix.ru/okino-tv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
 http://v4.proofix.ru/okino-tv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
 
-#EXTINF:-1 group-title="candidate",Матур ТВ
-http://213.59.128.165:8080/Matur_TV/index.m3u8
-
 #EXTINF:-1 group-title="candidate",Пингвин
 https://sirius.greenhosting.ru/PingvinRu/video.m3u8
 #http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
@@ -1219,14 +1216,7 @@ http://31.192.249.68:8080/0.m3u8
 http://stitch.teletarget.ru/vintera/movieclassic/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 
 #EXTINF:-1  group-title="test"  tvg-id="no_epg_cinema"  tvg-logo="https://iptvcinema.ru/channels/ntvshef.png"   tvg-name="НТВ Шеф",НТВ Шефᴴᴰ
-http://162.212.179.43/ushba-films-i/tracks-v1a1/mono.m3u8
-#http://162.212.179.43/ushba-films-g/tracks-v1a1/mono.m3u8
-#http://162.212.179.43/ushba-films-b/tracks-v1a1/mono.m3u8
-#https://stream.mknews24.ru/hls/stream.m3u8
-#http://162.212.179.43/ushba26/tracks-v1a1/mono.m3u8
-#http://162.212.179.43/ushba-films-e/tracks-v1a1/mono.m3u8
-#http://162.212.179.43/ushba-films-qr/tracks-v1a1/mono.m3u8
-#https://autopilot.catcast.tv/content/34393/index.m3u8?password=promolive
+https://autopilot.catcast.tv/content/34393/index.m3u8?password=promolive
 #https://autopilot.catcast.tv/content/34393/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/38398/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/41327/index.m3u8?password=loganet
@@ -1275,7 +1265,6 @@ https://autopilot.catcast.tv/content/38354/index.m3u8?password=loganet
 #EXTINF:-1 group-title="candidate",Meditation Music
 https://autopilot.catcast.tv/content/47410/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/47400/index.m3u8?password=loganet
-#https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist.m3u8
 #https://kisstv.siliconweb.com/kissfm/kisstv/chunks.m3u8
 #http://songtvam.ru:8060/hd/playlist.m3u8
 #https://dash3.antik.sk/live/test_rebel/playlist.m3u8
@@ -1398,61 +1387,21 @@ https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
 #EXTINF:-1 group-title="candidate",Пловдивска Православна ТВ
 http://tv.plovdivskamitropolia.bg:1935/live/pptv.stream/playlist.m3u8
 
-#EXTINF:-1  group-title="test"  tvg-logo="http://46.17.41.254:2020/logos/fashion-and-lifestyle-hd.png" ,Global Fashionᴴᴰ
+#EXTINF:-1 group-title="candidate",Global Fashion
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/dJeNehc.png"   $ExtFilter="ГЕДЕМ",Home & Shopping SD
-https://s28.qtcdn.co.kr/media/liveM3U8/idx/518045142/enc/1860408350/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="trt4k-tr"  tvg-logo="https://iptvx.one/picons/trt4k-tr.png"   tvg-name="TR: TRT 4K",TRT 4K
-http://ha1.159843.xyz:80/live/01nuri01/01082023nri/324437.ts
-#EXTINF:-1  group-title="test"  tvg-logo="https://sibexpo.ru/upload/iblock/dc7/лого МсМ Улан-Удэ.jpg" ,MCM (Иркутск) SD
-#http://tv.streams.baikal-telecom.net/MCM/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="atv-stavropol"  tvg-logo="https://iptvx.one/picons/atv-stavropol.png" ,АТВ (Ставрополь)
-http://hls.atvmedia.ru/atv800.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://iptvx.one/picons/atv-stavropol.png" ,АТВ (Ставрополь) HD
-http://hls.atvmedia.ru/atv.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="musicbox"  tvg-logo="http://epg.one/img2/5368.png" , Music Box Gold
-http://77.106.252.178:4022/udp/233.33.210.70:5050
-#EXTINF:-1  group-title="test"  tvg-id="zhara"  tvg-logo="http://epg.one/img2/165.png" ,Жара ТВ
-http://77.106.252.178:4022/udp/233.33.210.161:5050
-#EXTINF:-1  group-title="test"  tvg-id="matur-tv"  tvg-logo="https://iptvx.one/picons/matur-tv.png" ,Матур ТВᴴᴰ
-http://providers.streaming.matur-tv.ru/hls/h264_aac/stream.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="dstv-bg"  tvg-logo="https://iptvx.one/picons/dstv-bg.png" ,DSTVᴴᴰ
-http://46.249.95.140:8081/hls/data.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://oktv.uz/Channels/ch_2831.png" ,Kronehitᴴᴰ
-http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/dQJQv1X.png" ,Kronehit SD
-http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1628000.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/IiiRmrf.png" ,CCTV LIVE CHINA SD
-https://gctxyhwc.liveplay.myqcloud.com/gc/ljgcszsnkgc_1/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="kuneltv"  tvg-logo="https://dl.dropbox.com/scl/fi/bsc68tdjwd2uxah7a5q3e/_-2021-_-_.webp?rlkey=slxgtpboanvdqjzi1426u6yku&dl=0" ,Күңел ТВ HD
+
+#EXTINF:-1 group-title="candidate" tvg-id="kuneltv",Күңел ТВ
 http://217.154.10.99:2020/channel/n499c27fe/index.m3u8?q=ac8328a8c05870646c45caa253710a85
-#EXTINF:-1  group-title="test"  tvg-id="Kronehit HD"  tvg-logo="http://epg.one/img2/4653.png" ,Kronehit
-https://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b1228000.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="ocko-star-cz"  tvg-logo="http://1lot.tv/ch/8845.png" ,Óčko Starᴴᴰ
-https://dash3.antik.sk/live/test_ocko_star/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="ocko-expres-cz"  tvg-logo="http://1lot.tv/ch/8846.png" ,Óčko Expresᴴᴰ
-https://dash3.antik.sk/live/test_ocko_expres/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="http://1lot.tv/ch/8844.png" ,Óčko Blackᴴᴰ
-https://dash3.antik.sk/live/test_ocko_black/playlist.m3u8
-#EXTINF:-1  group-title="test" ,KISSᴴᴰ
-http://livestream.siliconweb.com/live/kissfm/index.m3u8
-#EXTINF:-1  group-title="test" ,M TV Kosovaᴴᴰ
-http://cm1.portaltv.info:777/5R0Tqhz7bC/8biAnmNHif/262
+
 #EXTINF:-1  group-title="test"  tvg-id="rap-deluxe-de"  tvg-logo="https://deluxemusic.de/wp-content/uploads/sites/4/2023/01/DLX_RAP_LOGO_RGB-1.png" ,Deluxe Rapᴴᴰ
 http://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
 #EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/nyVlZeL.png"   tvg-name="Radio JND",Radio JNDᴴᴰ
 http://media4.hostin.cc/radiojnd/radiojnd/chunklist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="iconcerts"  tvg-logo="http://epg.one/img2/4042.png" ,Stingray Iconcerts HD
-https://dash3.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
 #EXTINF:-1  group-title="test"  tvg-id="power-turk-tr"  tvg-logo="https://cdn.powergroup.com.tr/image/360x360/powerapp/channels/v3/logo_35.png" ,POWER TÜRKᴴᴰ
 http://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/playlist.m3u8
 #http://livetv.powerapp.com.tr/powerturkTV/powerturkhd.smil/chunklist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="http://epg.one/img2/6799.png"   $ExtFilter="ГЕДЕМ",HAYAT MUSIC BOX HD
-http://cm1.portaltv.info:777/5R0Tqhz7bC/8biAnmNHif/2866
 #EXTINF:-1  group-title="test" ,Euro Indie Music Chart TV HD
 http://178.33.224.197:1935/euroindiemusic/euroindiemusic/playlist.m3u8
-#EXTINF:-1  group-title="test" ,Dark Festive 1 HD
-http://cm1.portaltv.info:777/5R0Tqhz7bC/8biAnmNHif/6006
 #EXTINF:-1  group-title="test"  tvg-logo="https://pic.rutube.ru/video/08/d0/08d0485c5371f760f1f46986054dde80.jpg" ,浙江-乌镇西市河 SD
 https://gcalic.v.myalicdn.com/gc/zjwzbblh_1/index.m3u8?contentid=2820180516001
 #EXTINF:-1  group-title="test"   tvg-name="Activa TV",ACTIVA TV SD
