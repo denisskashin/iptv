@@ -510,6 +510,7 @@ http://37.186.70.39:40/play/110/index.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/minimax-live-planet.png" tvg-id="minimax-live-planet" tvg-description="Minimax Live Planet — детский телеканал медиагруппы Minimax с живыми трансляциями из природы.",Minimax Live Planet
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/moya-planeta.png" tvg-id="moya-planeta" tvg-description="Моя Планета — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о путешествиях, природе и культуре разных стран.",Моя Планета
+https://watcher.uz/149/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/morskoy.png" tvg-id="morskoy" tvg-description="Моя стихия — российский тематический телеканал для любителей активного отдыха и путешествий.",Моя стихия
 
@@ -1217,7 +1218,7 @@ http://31.192.249.68:8080/0.m3u8
 http://stitch.teletarget.ru/vintera/movieclassic/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 #https://stitch.teletarget.ru/vintera/movieclassic/1769345728421a8ea6e51c8383dc93762a02d599036121e311be997503169eb5/lvl1.m3u8
 
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_cinema"  tvg-logo="https://iptvcinema.ru/channels/ntvshef.png"   tvg-name="НТВ Шеф",НТВ Шефᴴᴰ
+#EXTINF:-1 group-title="candidate",НТВ Шеф
 https://autopilot.catcast.tv/content/34393/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/38398/index.m3u8?password=loganet
 #https://autopilot.catcast.tv/content/41327/index.m3u8?password=loganet
@@ -1401,33 +1402,12 @@ http://217.154.10.99:2020/channel/n499c27fe/index.m3u8?q=ac8328a8c05870646c45caa
 #EXTINF:-1 group-title="candidate" tvg-id="evrokino",ЕВРОКИНО
 http://94.230.250.140/eurokino/index.m3u8
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-06-14 23:55:54  (120 URLs in 104 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test",Satranç TV
-http://139.162.182.79/live/test/index.m3u8
-#EXTINF:-1 group-title="test",TRT Haber TV
-https://tv-trthaber.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 group-title="test",TRT Turk TV
-https://tv-trtturk.medya.trt.com.tr/master_720.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="http://sarkor.tv/static/images/channels/Моя планета SD.png",Моя планета SD
-https://watcher.uz/149/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
-#EXTINF:-1 group-title="test",TRT Cocuk
-https://tv-trtcocuk.medya.trt.com.tr/master_720.m3u8
 #EXTINF:-1 group-title="test",Тарихий Кинолар 24/7
 https://pub-a5ac3ba55f1c4209a5424fbc0f48ed67.r2.dev/hls/stream.m3u8
-#EXTINF:-1 group-title="test",Sat7turk
-https://svs.itworkscdn.net/sat7turklive/sat7turk.smil/playlist.m3u8
-#EXTINF:-1 group-title="test",TruckFm
-http://fm.truckfm.uz:8000/128
+
 #EXTINF:-1 group-title="test",Таржима Кинолар 24/7
 https://pub-4eb1081a88bf41e0a9513e818ad14e15.r2.dev/hls/stream.m3u8
-#EXTINF:-1 group-title="test",Radio Grand
-https://str1.tvcom.uz/RADIO-GRAND/shoutcast
-#EXTINF:-1 group-title="test",Super Radio
-https://stream.zeno.fm/b7ye4q0k3zhvv
+
 #EXTINF:-1 group-title="test" tvg-logo="https://www.coolstreaming.us/img/ch/image70939143654.jpg",RADIO STUDIO ONE VISUAL TV
 https://cp1.server89.com:19360/radiostudioonelive/radiostudioonelive.m3u8
 #EXTINF:-1 group-title="test" tvg-logo="https://sat.kharkiv.ua/images/Strani/evropa/north%20macedonia/sky%20folk%20tv.jpg",SKY Folk TV
