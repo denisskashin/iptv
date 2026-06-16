@@ -63,13 +63,18 @@ SOURCE_URLS: list[str] = [
     "https://www.mylist.at/pRVGWXL.m3u",
     "https://tva.org.ua/ip/sam/iptv.m3u",
     "https://tva.org.ua/ip/sam/avto-full.m3u",
-    "https://tva.org.ua/ip/sam/avto-iptv-tva.m3u"
+    "https://tva.org.ua/ip/sam/avto-iptv-tva.m3u",
+    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/neisvesmokto.m3u8",
+    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/logavnet.m3u8",
+    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/ilook.m3u8",
+    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/iedem.m3u8",
+    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/fawlok_iptv.m3u8"
 ]
 
 # Channels to skip entirely (exact case-insensitive name match).
 # Add any unwanted channel names here.
 BLOCKLIST: set[str] = {
- }
+}
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
 # Канал блокируется, если его имя содержит хотя бы один совпадающий паттерн.
@@ -434,7 +439,8 @@ ALIASES: dict[str, str] = {
     "PRO100": "Про100",
     "ОТР HD": "ОТР",
     "019 NUR": "ТВ Спорт",
-    "КиноМенюᴴᴰ": "КиноМеню"
+    "КиноМенюᴴᴰ": "КиноМеню",
+    "BBC WN": "BBC World News",
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
