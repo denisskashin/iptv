@@ -2370,7 +2370,17 @@ ALIASES: dict[str, str] = {
     "Global Fashionᴴᴰ": "Global Fashion",
     "Күңел ТВ HD": "Күңел ТВ",
     "Моя планета SD": "Моя планета",
-    "НТВ Шефᴴᴰ": "НТВ Шеф"
+    "НТВ Шефᴴᴰ": "НТВ Шеф",
+    "Viju+ Serial HD": "Viju+ Serial",
+    "KiKA HD": "KiKA",
+    "Алмазный край HD": "Алмазный край",
+    "360.RU НОВОСТИ": "360.RU Новости",
+    "Fox News SD": "Fox News",
+    "BBC News Europe HD": "BBC News Europe",
+    "Trashᴴᴰ": "Trash",
+    "Sport UZ HD": "Sport UZ",
+    "PX SPORTS": "PX Sports",
+    "AFROBEATSᴴᴰ": "Afrobeats",
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"

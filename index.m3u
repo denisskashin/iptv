@@ -1144,7 +1144,8 @@ https://streaming.astrakhan.ru/astrakhanrulivehd/playlist.m3u8
 #http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
 
 #EXTINF:-1 group-title="candidate",Алмазный край
-https://stream.almaz-media.tv:8080/hls/720.m3u8
+http://stream.almaz-media.tv:8081/hls/720.m3u8
+#https://stream.almaz-media.tv:8080/hls/720.m3u8
 
 #EXTINF:-1 group-title="candidate",Арт
 #http://89.104.114.24:8080/art/index.m3u8?token=test
@@ -1408,199 +1409,58 @@ https://pub-a5ac3ba55f1c4209a5424fbc0f48ed67.r2.dev/hls/stream.m3u8
 #EXTINF:-1 group-title="test",Таржима Кинолар 24/7
 https://pub-4eb1081a88bf41e0a9513e818ad14e15.r2.dev/hls/stream.m3u8
 
-#EXTINF:-1 group-title="test" tvg-logo="https://www.coolstreaming.us/img/ch/image70939143654.jpg",RADIO STUDIO ONE VISUAL TV
-https://cp1.server89.com:19360/radiostudioonelive/radiostudioonelive.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://sat.kharkiv.ua/images/Strani/evropa/north%20macedonia/sky%20folk%20tv.jpg",SKY Folk TV
-http://eu.live.skyfolk.mk/live.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://myspirit.tv/wp-content/uploads/2017/01/SpiritLogoFull244x86.png",Spirit TV
-https://cdnlive.myspirit.tv/LS-ATL-43240-2/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="2377" tvg-logo="http://epg.one/img2/2377.png" group-title="test" ,HGTV HD US
-https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
-#EXTINF:-1 tvg-id="2838" tvg-logo="http://epg.one/img2/2838.png" group-title="test" ,Viju+ Serial HD
+#EXTINF:-1 group-title="candidate",Viju+ Serial
 https://stream2.somon.tv/vipserial/index.m3u8
-#EXTINF:-1 tvg-id="6617" tvg-logo="http://epg.one/img2/6617.png" group-title="test" ,Polo TV HD PL
-https://test.946985.filegear-sg.me/proxy/a23981548880f405
-#EXTINF:-1 tvg-id="801" tvg-logo="http://epg.one/img2/801.png" group-title="test" ,Mezzo Live HD
-https://test.946985.filegear-sg.me/proxy/749755700e4ed9c6
-#EXTINF:-1  group-title="test",KiKA HD
+
+#EXTINF:-1 group-title="candidate",KiKA
 https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
-#EXTINF:-1  group-title="test",kabel eins
+
+#EXTINF:-1 group-title="candidate",kabel eins
 https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
-#EXTINF:-1  group-title="test",Minimax
+
+#EXTINF:-1 group-title="candidate",Minimax
 https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
-#EXTINF:-1  group-title="test",Polsat Sport Premium 1
-https://test.946985.filegear-sg.me/proxy/2d01a86f2b919823
-#EXTINF:-1  group-title="test",T Sports HD
-http://rgkkw.live/live/1Aoen7elp5/IgMJ60tmAa/130714.ts
-#EXTINF:-1  group-title="test",Sadhna Plus News
-https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
-#EXTINF:-1  group-title="test",TVR 1
-https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/chunklist_b5160000.m3u8
-#EXTINF:-1  group-title="test",TV9 Gujarati
-https://vg-tv9yupp.vgcdn.net/vglive-sk-351920/v1/019e018231cd15fc600b774ea53cd/019e0182b06415fc600b774ea53d0/main.m3u8?hdnts=st%3D1781343917~exp%3D1781365517~acl%3D%21%2A%2Fvglive-sk-351920%2Fv1%2F019e018231cd15fc600b774ea53cd%2F019e0182b06415fc600b774ea53d0%2F%2A%21%2Fpayload%2Fyupptvott_5_-1_7c03c72952b44aa4_US_13.83.162.34_yuppfast_2_channel_12_-1%2F%2A~data%3Dyupptvott_5_-1_7c03c72952b44aa4_US_13.83.162.34_yuppfast_2_channel_12_-1~hmac%3D4ee741d8bead8ac011030cadfff9227bad89d32ac211da8baaf5f55ed0668a28
-#EXTINF:-1  group-title="test",Алмазный край HD
-http://stream.almaz-media.tv:8081/hls/720.m3u8
-#EXTINF:-1  group-title="test",Mix Hollywood
+
+#EXTINF:-1 group-title="candidate",Mix Hollywood
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
-#EXTINF:-1  group-title="test",Мир Белогорья
+
+#EXTINF:-1 group-title="candidate",Мир Белогорья
 https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
-#EXTINF:-1  group-title="test",Русский хит
-http://stream2.ruhit.fm:9000/19_ruhit_128_reg_1
-#EXTINF:-1  group-title="test",YOSHLAR
+
+#EXTINF:-1 group-title="candidate",YOSHLAR
 https://stream9.itv.uz/t/7KC1fr88vE2F48JkjhyFeA/e/1759836511/1002/tracks-v1a1/timeshift_rel-512.m3u8
-#EXTINF:-1  group-title="test",Чаваш Ен
-https://mhd122.iptv2022.com/ntrk/chavashen/324/1/tracks-v3a1/mono.m3u8
-#EXTINF:-1 group-title="test",TV Net
-http://player.tvnet.lv/stream/amlst:61659/chunklist_w1822312625_b528000_pd892000.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://i.imgur.com/r4rlHUt.png",Tvnet
-https://player.tvnet.lv/stream/amlst:61659/playlist.m3u8
-#EXTINF:-1 group-title="test",TV Kujawy
-http://stream.tvkujawy.pl:8080/live/broadcast.m3u8
-#EXTINF:-1 group-title="test",Re TV
-https://retv2132.cloudycdn.services/slive/_definst_/retv_retv_channel_5k7_42787_default_891_hls.smil/playlist.m3u8
-#EXTINF:-1 group-title="test",TV Torun
-http://217.173.176.107:1935/live/ngrp:tvk.stream_all/master.m3u8
-#EXTINF:-1 group-title="test",Stopklatka TV
-http://91.246.72.88:8000/play/a007/index.m3u8
-#EXTINF:-1 group-title="test",Super Polsat
-http://91.246.72.88:8000/play/a00i/index.m3u8
-#EXTINF:-1 group-title="test",TVT Zgorzelec
-http://gargoyle.tomkow.pl/hls/tvt.m3u8
-#EXTINF:-1 group-title="test",Televízia OSEM
-http://109.74.145.11:1935/tv8/ngrp:tv8.stream_all/playlist.m3u8
-#EXTINF:-1 group-title="test",RIMEX TV
-https://transcoder1.bitcare.eu/streaming/rimextv/rmtv.m3u8
-#EXTINF:-1 group-title="test",TVPlus Suceava
-http://85.186.146.34:8080
-#EXTINF:-1 group-title="test",Sonnenklar.TV
-http://euvia.cdn.ses-ps.com/HLS-Live/index.m3u8
-#EXTINF:-1 group-title="test" ,Tele Elx HD
-https://tvdirecto.teleelx.es/stream/teleelx.m3u8
-#EXTINF:-1 group-title="test",STV HD
-https://vysilani.zaktv.cz/broadcast/hls/utv/index.m3u8
-#EXTINF:-1 group-title="test",TeleRomagna24
-http://livetr.teleromagna.it/mia/live/playlist.m3u8
-#EXTINF:-1 group-title="test",Ran TV Israel
-https://streaminglive.co.il:3730/live/raniamranilive.m3u8
-#EXTINF:-1 group-title="test",Reality Kings
-http://185.246.209.181/RealityKings/index.m3u8
-#EXTINF:-1 group-title="test",Brazzers TV Europa
-http://193.239.186.231/BRAZZERS/index.m3u8
-#EXTINF:-1 group-title="test",CENTOXCENTO
-http://94.236.201.122/CENTOXCENTO/index.m3u8
-#EXTINF:-1 group-title="test",Rough
-http://cdn.adultiptv.net/rough.m3u8
-#EXTINF:-1 group-title="test",Russian
-http://cdn.adultiptv.net/russian.m3u8
-#EXTINF:-1 group-title="test",Russian r
-http://live.redtraffic.xyz/russian.m3u8
-#EXTINF:-1 group-title="test",Threesome
-http://cdn.adultiptv.net/threesome.m3u8
-#EXTINF:-1 group-title="test",Teen
-http://cdn.adultiptv.net/teen.m3u8
-#EXTINF:-1 tvg-name="ОТВ Екатеринбург (Нижний Тагил)" tvg-logo="https://i.ibb.co/twRPHTvS/image-32.png" group-title="test", ОТВ Екатеринбург (Нижний Тагил)
-http://46.48.96.88:81/udp/239.255.3.82:1234
-#EXTINF:-1 tvg-name="" tvg-logo="https://i.ibb.co/mrFMND9x/image-47.png" group-title="test", Компас ТВ (Каменск-Уральский)
-http://46.48.96.88:81/udp/239.255.3.172:1234
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="test",Mahni TV AZ
-https://hls.mahnitv.az/TV_AZE_MahniTV/video.m3u8
-#EXTINF:-1 group-title="test",VIP Comedy HD
-https://stream2.somon.tv/vipcomedy/index.m3u8
-#EXTINF:-1 group-title="test",VIP Megahit HD
-https://stream2.somon.tv/vipmegahit/index.m3u8
-#EXTINF:-1 group-title="test",VIP Premiere HD
-https://stream2.somon.tv/vippremiera/index.m3u8
-#EXTINF:-1 group-title="test",TTV
-http://91.246.72.88:8000/play/a003/index.m3u8
-#EXTINF:-1 group-title="test",TVP Dokument
-http://91.246.72.88:8000/play/a01x/index.m3u8
-#EXTINF:-1 group-title="test",TVP Historia
-http://91.246.72.88:8000/play/a00o/index.m3u8
-#EXTINF:-1 group-title="test",TV4
-http://91.246.72.88:8000/play/a00d/index.m3u8
-#EXTINF:-1 group-title="test",TVN 7
-http://91.246.72.88:8000/play/a00f/index.m3u8
-#EXTINF:-1 group-title="test",TVN
-http://91.246.72.88:8000/play/a00c/index.m3u8
-#EXTINF:-1 group-title="test",TVP Info
-http://91.246.72.88:8000/play/a00q/index.m3u8
-#EXTINF:-1 group-title="test",TV Puls
-http://91.246.72.88:8000/play/a00e/index.m3u8
-#EXTINF:-1 group-title="test",TV Trwam
-http://91.246.72.88:8000/play/a006/index.m3u8
-#EXTINF:-1 group-title="test",TV6
-http://91.246.72.88:8000/play/a00h/index.m3u8
-#EXTINF:-1 group-title="test",TVP ABC
-http://91.246.72.88:8000/play/a00r/index.m3u8
-#EXTINF:-1 group-title="test",TVP1
-http://91.246.72.88:8000/play/a00k/index.m3u8
-#EXTINF:-1 group-title="test",TVP Kultura
-http://91.246.72.88:8000/play/a00n/index.m3u8
-#EXTINF:-1 group-title="test",TVP Rozrywka
-http://91.246.72.88:8000/play/a01y/index.m3u8
-#EXTINF:-1 group-title="test",Wydarzenia 24
-http://91.246.72.88:8000/play/a009/index.m3u8
-#EXTINF:-1 group-title="test",TVP3 Rzeszow
-http://91.246.72.88:8000/play/a00m/index.m3u8
-#EXTINF:-1 group-title="test",TVP Nauka
-http://91.246.72.88:8000/play/a01z/index.m3u8
-#EXTINF:-1 group-title="test",TVP2
-http://91.246.72.88:8000/play/a00l/index.m3u8
-#EXTINF:-1 group-title="test",TVP Sport
-http://91.246.72.88:8000/play/a00p/index.m3u8
-#EXTINF:-1 group-title="test",TVP World
-http://91.246.72.88:8000/play/a020/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="360-news" ,360.RU НОВОСТИ SD
+
+#EXTINF:-1 group-title="candidate" tvg-id="360-news",360.RU Новости
 https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
 #http://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m3u8
-#EXTINF:-1 group-title="test",TV 264
-https://mc1.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="cbc-az" ,CBC HD
-http://ru2.tvtm.one/ch1533/mono.m3u8?token=ruslan35.v2__9NT6yMkoq_xb-essMfa-s_rMjh31qyJRBcugBSjqXc2717QRNqYdUR5dOie_r5XHkMi4T7cuezW0g
-#EXTINF:-1 group-title="test",TVP Polonia
-http://91.246.72.88:8000/play/a01u/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="fox-news-us"  tvg-logo="https://iptvx.one/picons/fox-news-us.png" ,Fox News SD
+
+#EXTINF:-1 group-title="candidate",Fox News
 http://ru2.tvtm.one/ch2093/mono.m3u8?token=ruslan35.v2_ydVj22Dv-rIMsys6KV-d3FRANNRn6w5opFCe0gxaz-g_QczDWHMcEBwYxpaE7CmHXzSRRg3vd-EBEw
-#EXTINF:-1  group-title="test"  tvg-id="bbc"  tvg-logo="http://1lot.tv/ch/8120.png" ,BBC News Europe HD
+
+#EXTINF:-1 group-title="candidate",BBC News Europe
 http://ru2.tvtm.one/ch499/mono.m3u8?token=ruslan35.v2_yxGhmXduXEPzDIpVEEKeqOYn2uegqA30LoZfuZUZTo5PCZekRcJBPRcPfB37jgWn1KacmSwujVjn
-#EXTINF:-1  group-title="test"  tvg-id="vip-megahit"  tvg-logo="https://i.imgur.com/ff3KQXp.png" ,Guangzhou TV SD
-https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="reportior"  tvg-logo="https://iptvx.one/picons/reportior.png" ,Репортер (Одеса) SD
-http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/playlist.m3u8?|User-Agent=http-user-agent=Lavf/56.15.102
-#http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/playlist.m3u8
-#http://cdn1.live-tv.od.ua:8081/31chod/31chod/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="ck1-ua"  tvg-logo="http://1lot.tv/ch/8122.png"   $ExtFilter="ГЕДЕМ",СК1 (Житомир) SD
-http://cdn1.live-tv.od.ua:8081/sk1zt/sk1zt-abr/playlist.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/CCxEt0w.png"   $ExtFilter="ГЕДЕМ",ТРК Круг (Одеса)
-http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr/playlist.m3u8
-#http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr-lq/playlist.m3u8
-#http://cdn1.live-tv.od.ua:8081/krugod/krugod-abr/krugod/krugod/playlist.m3u8
-#http://cdn1.live-tv.od.ua:8081/krugod/krugod/playlist.m3u8
+
 #EXTINF:-1  group-title="test"  tvg-id="no_epg"  tvg-logo="https://iptvx.one/picons/kazsport.png" ,Qazsport HD
-http://217.154.10.99:2020/channel/2b15f108/index.m3u8?q=ac8328a8c05870646c45caa253710a85
-#http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
+http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 #http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #http://pop.uniquetv.com.br/supergeek/tracks-v1a1/mono.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="trashtv"  tvg-logo="http://epg.one/img2/3361.png" ,Trashᴴᴰ
+
+#EXTINF:-1 group-title="candidate" tvg-id="trashtv",Trash
 https://woobl.ru/platform24.php?id=4830&p=index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="saga-tv"  tvg-logo="https://iptvx.one/picons/saga-tv.png" ,Saga TV
-http://46.175.123.164:4022/udp/239.195.65.56:1234
-#EXTINF:-1  group-title="test"  tvg-id="uzsport"  tvg-logo="https://files.itv.uz/uploads/iptv/channels/2020/06/17//f79dce2ae2bd9ef84b6888f226fbb293-q-500x500.jpeg" ,Sport UZ HD
+
+#EXTINF:-1 group-title="candidate" tvg-id="uzsport" tvg-logo="https://files.itv.uz/uploads/iptv/channels/2020/06/17//f79dce2ae2bd9ef84b6888f226fbb293-q-500x500.jpeg",Sport UZ
 https://stream9.itv.uz/t/EbO9UWuxHhEUHe_q9Bj_0Q/e/1759836672/1004/tracks-v1a1/timeshift_rel-74.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="cbc-sport"  tvg-logo="https://iptvx.one/picons/cbc-sport.png" ,CBC Sport HD
-http://ru2.tvtm.one/ch1534/mono.m3u8?token=ruslan35.v2_miwK0EHlFZmLT_fncXIx6CnH0jNk6QX3bztO4LawQfFbLih2uZJWid7KeDwCeGjbnKpRdKUfhhXVfA
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_sport" ,PX SPORTS
+
+#EXTINF:-1 group-title="candidate",PX SPORTS
 http://181.78.109.48:9998/play/a03q/index.m3u8
 #http://181.78.109.48:9998/play/a03r/index.m3u8
 #http://200.10.30.241:8000/play/a01r/index.m3u8
 #http://181.78.109.48:9998/play/a06r/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="trt-muzik-tr"  tvg-logo="https://iptvx.one/picons/trt-muzik-tr.png" ,TRT Müzik HD
-http://ru2.tvtm.one/ch1415/mono.m3u8?token=ruslan35.v2_c5ebdZ43EIaEeCH947HyjsnjtKnGvKk3OHpuVwAd0sAqtgPon9F7i3-1scpLUrpUPxnW0ROa6V8cMw
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_music"  tvg-logo="http://1lot.tv/ch/9885.png" ,AFROBEATSᴴᴰ
+
+#EXTINF:-1 group-title="candidate" tvg-logo="http://1lot.tv/ch/9885.png",Afrobeats
 https://stream.ecable.tv/afrobeats/tracks-v1a1/mono.m3u8
 #https://stream.ecable.tv/afrobeats/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-logo="https://radiopotok.ru/f/station_webp/512/2500.webp" ,DANCE FM
-https://listen3.myradio24.com/dmfm
+
 #EXTINF:-1  group-title="test"  tvg-logo="https://i.ibb.co/Lzv1LQs/LaRock22.jpg" ,LaROCK 22 HD
 http://cootv.cootel.com.ni:8075/channel22/playlist.m3u8
 #EXTINF:-1  group-title="test"  tvg-id="simpleTVFakeEpgId"  tvg-logo="http://sarkor.tv/static/images/channels/Уникум.png" ,Уникум
