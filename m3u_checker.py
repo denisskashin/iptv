@@ -74,6 +74,28 @@ SOURCE_URLS: list[str] = [
 # Channels to skip entirely (exact case-insensitive name match).
 # Add any unwanted channel names here.
 BLOCKLIST: set[str] = {
+    "1+1",
+    "24 Канал",
+    "33 канал",
+    "Al Zahra TV",
+    "Aleph News",
+    "Az TV",
+    "Azstar TV",
+    "Baden TV",
+    "Balaton TV",
+    "Bibel TV Musik",
+    "Бирма Play",
+    "Brazzers TV",
+    "CGTN",
+    "Das Erste",
+    "Delta Tv",
+    "Deutsche Welle",
+    "Dorcel",
+    "Elektrika TV",
+    "Finest TV",
+    "FTV",
+    "JC1",
+    "Храм"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -397,6 +419,7 @@ ALIASES: dict[str, str] = {
     "Телеканал ОК": "8tv",
     "NikNik.TV SD": "NikNik.TV",
     "ASTRAKHAN.RU SPORTᴴᴰ": "Астрахань.Ru Sport",
+    "ASTRAKHAN.RU SPORT": "Астрахань.Ru Sport",
     "ACI Sport SD": "ACI Sport",
     "Fun Roads SD": "Fun Roads",
     "Invivo Extreme SD": "Invivo Extreme",
@@ -441,6 +464,25 @@ ALIASES: dict[str, str] = {
     "019 NUR": "ТВ Спорт",
     "КиноМенюᴴᴰ": "КиноМеню",
     "BBC WN": "BBC World News",
+    "33 канал (Хмельницький)": "33 канал",
+    "1+1 UA": "1+1",
+    "1+1 Україна": "1+1",
+    "1+1 Україна (UA)": "1+1",
+    "JC1 HD": "JC1",
+    "Elektrika TV HD": "Elektrika TV",
+    "Eurosport1HD": "Eurosport 1",
+    "Eurosport2HD": "Eurosport 2",
+    "Dorcel HD": "Dorcel",
+    "CGTN SD": "CGTN",
+    "КиноЭкшен SD*": "КиноЭкшен",
+    "Afrobeats TV": "Afrobeats",
+    "Meditation Musicᴴᴰ": "Meditation Music",
+    "Мульт SD": "Мульт",
+    "РецептыГурмана": "Рецепты Гурмана",
+    "Сити Эдем Бирма Play": "Бирма Play",
+    "КиноКлассика HD": "КиноКлассика",
+    "Deutsche Welle HD": "Deutsche Welle",
+    "Зал Суда HD": "Зал суда",
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
