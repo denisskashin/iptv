@@ -3,7 +3,6 @@
 # Авто и мотоспорт
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства.",Авто 24
-
 http://91.204.123.202:80/78/index.m3u8
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" tvg-description="«Драйв» — канал для тех, кто не мыслит своей жизни без автомобилей, мотоциклов и путешествий. Фанаты экстремального вождения и любители неторопливых автомобильных поездок по стране и миру, мотоциклисты и авто-антиквары, начинающие автолюбители и профессионалы со стажем, мужчины и женщины за рулем увидят на канале «Драйв» репортажи с выставок и автосалонов, тест-драйвы новинок мирового и отечественного автомобильного рынка, комментарии известных автоэкспертов, программы о культовых марках и тюнинге.",Драйв
@@ -1494,10 +1493,11 @@ http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3Rp
 #http://pop.uniquetv.com.br/supergeek/tracks-v1a1/mono.m3u8
 #http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8
 
-#EXTINF:-1 group-title="candidate",Ля минор
+#EXTINF:-1 group-title="candidate",Ля-минор
 https://watcher.uz:443/97/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
 #https://watcher.uz:443/105/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
 #https://watcher.uz:443/152/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
+#http://91.204.123.202:80/303/index.m3u8
 
 #EXTINF:-1 group-title="candidate",BBC World News
 https://watcher.uz:443/104/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
@@ -1586,11 +1586,13 @@ http://91.204.123.202:80/266/index.m3u8
 #EXTINF:-1 group-title="candidate",Хит
 http://91.204.123.202:80/363/index.m3u8
 
-
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_sport" ,MAX SPORT 1
+#EXTINF:-1 group-title="candidate",Мотодрайв
 http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 #http://stitch.teletarget.ru/vintera/motodrive/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
-#https://cdn8.1internet.tv/dash-live3/streams/sport-1/sport-1.mpd
+
+
+#EXTINF:-1  group-title="test"  tvg-id="no_epg_sport" ,MAX SPORT 1
+https://cdn8.1internet.tv/dash-live3/streams/sport-1/sport-1.mpd
 #http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #http://181.78.109.48:9998/play/a03r/index.m3u8
 #http://181.118.156.46:8000/play/a04g/index.m3u8
@@ -1602,9 +1604,6 @@ http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
 #https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #https://live.mnb.mn/hls/mnb_sport.stream.m3u8
-
-
-
 
 #EXTINF:-1 group-title="candidate",НТК
 http://91.204.123.202:80/389/index.m3u8
@@ -1718,19 +1717,16 @@ http://91.204.123.202:80/475/index.m3u8
 #EXTINF:-1 group-title="candidate",BCU СССР HD
 http://91.204.123.202:80/488/index.m3u8
 
-#EXTINF:-1 group-title="test",О!
+#EXTINF:-1 group-title="candidate",О!
 http://91.204.123.202:80/60/index.m3u8
 
-#EXTINF:-1 group-title="test",Солнце
+#EXTINF:-1 group-title="candidate",Солнце
 http://91.204.123.202:80/118/index.m3u8
 
-#EXTINF:-1 group-title="test",Ля-минор
-http://91.204.123.202:80/303/index.m3u8
-
-#EXTINF:-1 group-title="test",Stingray Iconcerts
+#EXTINF:-1 group-title="candidate",Stingray Iconcerts
 http://91.204.123.202:80/267/index.m3u8
 
-#EXTINF:-1 group-title="test",Russian Music Box
+#EXTINF:-1 group-title="candidate",Russian Music Box
 http://91.204.123.202:80/319/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Classic Music HD
@@ -1745,10 +1741,3 @@ http://91.204.123.202:80/235/index.m3u8
 #EXTINF:-1 group-title="candidate",Viasat Sport
 http://91.204.123.202:80/333/index.m3u8
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-06-18 00:06:43  (1 URLs in 1 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test" tvg-logo="http://sarkor.tv/static/images/channels/МУЗ-ТВ УЗ.png",МУЗ-ТВ УЗ
-https://watcher.uz:443/105/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8

@@ -503,7 +503,8 @@ ALIASES: dict[str, str] = {
     "Start air": "Start Air",
     "Наше HD": "Наше",
     "Хит HD": "Хит",
-    "Bridge HD": "Bridge TV"
+    "Bridge HD": "Bridge TV",
+    "Ля минор": "Ля-минор"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
