@@ -84,6 +84,8 @@ BLOCKLIST: set[str] = {
     "Azstar TV",
     "Baden TV",
     "Balaton TV",
+    "Banovina TV",
+    "Baraza TV Hits",
     "Bibel TV Musik",
     "Бирма Play",
     "Brazzers TV",
@@ -97,7 +99,10 @@ BLOCKLIST: set[str] = {
     "Finest TV",
     "FTV",
     "JC1",
-    "Храм"
+    "Kuwait Sport Plus",
+    "Храм",
+    "Гродно Плюс",
+    "Qazaqstan Teatr KZ",
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -151,6 +156,7 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "Точка отрыва SD": "Точка отрыва",
     "TPO": "БелРос",
     "Суббота": "Суббота!",
     "Пятнитца!": "Пятница!",
@@ -485,6 +491,19 @@ ALIASES: dict[str, str] = {
     "КиноКлассика HD": "КиноКлассика",
     "Deutsche Welle HD": "Deutsche Welle",
     "Зал Суда HD": "Зал суда",
+    "City Eden Birma Play HD": "Бирма Play",
+    "TV Centr (1080p)": "ТВЦ",
+    "REN TV HD (1080p)": "РЕН ТВ",
+    "Friday! (1080p)": "Пятница!",
+    "365 дней ТВ": "365 дней",
+    "RTG HD": "RTG TV",
+    "Инсайт ТВ UHD": "Инсайт ТВ",
+    "Седьмой канал KZ": "Седьмой канал",
+    "Fashion & Lifestyle HD": "Fashion & Lifestyle",
+    "Start air": "Start Air",
+    "Наше HD": "Наше",
+    "Хит HD": "Хит",
+    "Bridge HD": "Bridge TV"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"

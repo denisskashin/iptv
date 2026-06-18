@@ -318,9 +318,11 @@ http://37.186.70.39:40/play/28/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica-int.png" tvg-id="piatnica-int" tvg-description="Пятница International — международная версия российского телеканала Пятница! для зрителей за рубежом.",Пятница International
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Пятница! — российский развлекательный телеканал, ориентированный на молодёжную аудиторию. Показывает реалити-шоу, сериалы и лайфстайл-программы.",Пятница!
+https://cdn.telecloud.tv/CH4419/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",РЕН ТВ
 http://37.186.70.39:40/play/30/index.m3u8
+#https://cdn.telecloud.tv/CH189/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv-int.png" tvg-id="rentv-int" tvg-description="РЕН ТВ International — международная версия российского телеканала РЕН ТВ для зрителей за рубежом.",Рен ТВ International
 
@@ -352,6 +354,7 @@ http://217.114.191.150/Subbota/index.m3u8
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr" tvg-description="ТВЦ (Телевизионный центр) — российский федеральный телеканал, ориентированный на московскую аудиторию. Транслирует новости, политические и культурные программы.",ТВЦ
+https://cdn.telecloud.tv/CH4603/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 #http://line.team-tv.link:80/jLKLjOvdU/beAi6ilBrs/2073
@@ -397,6 +400,7 @@ http://91.204.123.202:80/264/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/365-dnej.png" tvg-id="365-dnej" tvg-description="365 дней ТВ — российский телеканал, транслирующий документальное кино, исторические программы и познавательный контент.",365 дней
 http://37.186.70.39:40/play/115/index.m3u8
 #https://watcher.uz:443/98/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
+#https://watcher.uz:443/98/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/box-memory.png" tvg-id="box-memory" tvg-description="BOX Memory — тематический телеканал, специализирующийся на ретро-контенте и фильмах прошлых лет.",BOX Memory
 
@@ -548,6 +552,7 @@ http://37.186.70.39:40/play/105/index.m3u8
 http://37.186.70.39:40/play/36/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv" tvg-description="RTG TV — российский телеканал о туризме и путешествиях.",RTG TV
+http://91.204.123.202:80/164/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/teleputeshestvia.png" tvg-id="teleputeshestvia" tvg-description="Телепутешествия — российский тематический телеканал о путешествиях по России и миру.",Телепутешествия
 http://37.186.70.39:40/play/53/index.m3u8
@@ -556,6 +561,8 @@ http://37.186.70.39:40/play/53/index.m3u8
 http://stitch.teletarget.ru/vintera/terra/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/tochka-otryva.png" tvg-id="tochka-otryva" tvg-description="Точка Отрыва — российский телеканал об экстремальном туризме и приключениях.",Точка Отрыва
+https://watcher.uz/148/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
+#https://watcher.uz:443/148/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-adventure.png" tvg-id="travel-adventure" tvg-description="Travel+Adventure — тематический телеканал о путешествиях и приключениях.",Travel+Adventure
 
@@ -709,12 +716,10 @@ https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 #https://digicom.hls.iptvdc.com/motorstv/tracks-v1a1/mono.m3u8
-#http://77.46.130.252:99/maxsport3
 #http://181.118.156.46:8000/play/a04g/index.m3u8
 #https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
-#http://77.46.130.252:99/maxsport2
 #https://stream1.sersat.com/hls/garagetv.m3u8
 #http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v3a1/mono.ts.m3u8
@@ -1168,6 +1173,7 @@ http://37.186.70.39:40/play/103/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Bridge TV
 http://37.186.70.39:40/play/107/index.m3u8
+#http://91.204.123.202:80/92/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Зоо ТВ
 http://37.186.70.39:40/play/110/index.m3u8
@@ -1535,28 +1541,54 @@ https://cityeden.catcast.tv/content/34393/index.m3u8
 #EXTINF:-1 group-title="candidate",КиноКлассика
 http://cityeden.catcast.tv/content/34185/index.m3u8
 
+#EXTINF:-1 group-title="candidate",Живи!
+https://watcher.uz:443/110/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
 
+#EXTINF:-1 group-title="candidate",Точка РФ
+http://91.204.123.202:80/161/index.m3u8
 
-# ── test ──────────────────────────────────────────
-# Added: 2026-06-17 00:23:40  (7 URLs in 6 channel group(s))
-# ───────────────────────────────────────────────────
+#EXTINF:-1 group-title="candidate",Инсайт ТВ
+http://91.204.123.202:80/361/index.m3u8
 
-#EXTINF:-1 group-title="test",Can TV
-http://canbroadcast.com:7000/canlican/tv.m3u8
+#EXTINF:-1 group-title="candidate",Седьмой канал
+http://91.204.123.202:80/27/index.m3u8
 
-#EXTINF:-1 group-title="test",Al-Zahra TV Turkic
-https://live.al-zahratv.com/live/playlist.m3u8
+#EXTINF:-1 group-title="candidate",КТК
+http://91.204.123.202:80/26/index.m3u8
 
-#EXTINF:-1 group-title="test" tvg-logo="https://barazaradio.com/wp-content/uploads/2022/12/logo-300x300.png",Baraza TV Hits
-https://eco.streams.ovh:8081/barazatv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="candidate",Комедия
+http://91.204.123.202:80/68/index.m3u8
 
-#EXTINF:-1  group-title="test" ,Kuwait Sport Plus HD
-https://kwtsplta.cdn.mangomolo.com/spl/smil:spl.stream.smil/chunklist_b8000000_t64MTA4MHA=.m3u8
+#EXTINF:-1 group-title="candidate",Fashion & Lifestyle
+http://91.204.123.202:80/119/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Start Air
+http://91.204.123.202:80/128/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fox Life
+http://91.204.123.202:80/129/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Русский бестселлер
+http://91.204.123.202:80/208/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Русский Детектив
+http://91.204.123.202:80/204/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Наше
+http://91.204.123.202:80/217/index.m3u8
+
+#EXTINF:-1 group-title="candidate",.Black
+http://91.204.123.202:80/263/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Русский роман
+http://91.204.123.202:80/266/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Хит
+http://91.204.123.202:80/363/index.m3u8
+
 
 #EXTINF:-1  group-title="test"  tvg-id="no_epg_sport" ,MAX SPORT 1
-http://77.46.130.252:99/maxsport1
-#http://77.46.130.252:99/maxsport4
-#http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
+http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 #http://stitch.teletarget.ru/vintera/motodrive/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 #https://cdn8.1internet.tv/dash-live3/streams/sport-1/sport-1.mpd
 #http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
@@ -1564,8 +1596,6 @@ http://77.46.130.252:99/maxsport1
 #http://181.118.156.46:8000/play/a04g/index.m3u8
 #http://200.10.30.241:8000/play/a01r/index.m3u8
 #https://stream1.sersat.com/hls/garagetv.m3u8
-#http://77.46.130.252:99/maxsport2
-#http://77.46.130.252:99/maxsport3
 #https://digicom.hls.iptvdc.com/motorstv/tracks-v1a1/mono.m3u8
 #http://181.78.109.48:9998/play/a06r/index.m3u8
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
@@ -1573,166 +1603,152 @@ http://77.46.130.252:99/maxsport1
 #https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 
-#EXTINF:-1  group-title="test" ,City Eden Birma Play HD
-http://cityeden.catcast.tv/content/34364/index.m3u8
 
 
-#EXTINF:-1 group-title="test" tvg-logo="http://sarkor.tv/static/images/channels/Точка отрыва SD.png",Точка отрыва SD
-https://watcher.uz/148/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
-#https://watcher.uz:443/148/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
 
-#EXTINF:-1 group-title="test" tvg-logo="https://www.radio-banovina.hr/wp-content/uploads/2015/01/logo-120_00000.png",Banovina TV
-http://video.radio-banovina.hr:1935/live/myStream/chunklist_w1164976177.m3u8
+#EXTINF:-1 group-title="candidate",НТК
+http://91.204.123.202:80/389/index.m3u8
 
-#EXTINF:-1  group-title="test",ATV HD
-http://212.186.45.34:9981/stream/channelid/692531719?profile=pass
+#EXTINF:-1 group-title="candidate",Fan
+http://91.204.123.202:80/420/index.m3u8
 
-#EXTINF:-1 tvg-id="TVCentr.ru@SD" group-title="test",TV Centr (1080p)
-https://cdn.telecloud.tv/CH4603/index.m3u8
+#EXTINF:-1 group-title="candidate",Премиальное
+http://91.204.123.202:80/421/index.m3u8
 
-#EXTINF:-1 tvg-id="RENTV.ru@HD" group-title="test",REN TV HD (1080p)
-https://cdn.telecloud.tv/CH189/index.m3u8
+#EXTINF:-1 group-title="candidate",Fresh Rating
+http://91.204.123.202:80/422/index.m3u8
 
-#EXTINF:-1 tvg-id="Friday.ru@SD" group-title="test",Friday! (1080p)
-https://cdn.telecloud.tv/CH4419/index.m3u8
+#EXTINF:-1 group-title="candidate",Relax
+http://91.204.123.202:80/459/index.m3u8
 
+#EXTINF:-1 group-title="candidate",Fresh Cinema
+http://91.204.123.202:80/423/index.m3u8
 
-#EXTINF:-1 group-title="test" tvg-logo="http://sarkor.tv/static/images/channels/365 дней ТВ.png",365 дней ТВ
-https://watcher.uz:443/98/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
+#EXTINF:-1 group-title="candidate",Fresh Kids
+http://91.204.123.202:80/425/index.m3u8
 
-#EXTINF:-1  group-title="test"  tvg-id="simpleTVFakeEpgId"  tvg-logo="http://sarkor.tv/static/images/channels/Живи.png" ,Живи!
-https://watcher.uz:443/110/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6NDQ3MzUzLCJsb2dpbiI6InR2LTQ0NzM1MyIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzUyNDAzNDM2fQ.tf_qQXH-Bv0TZXdTuK5CJmQIjPTMfNvk0W2WCt1zzQg:20
+#EXTINF:-1 group-title="candidate",Fresh Premiere
+http://91.204.123.202:80/424/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Comedy
+http://91.204.123.202:80/426/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Family
+http://91.204.123.202:80/427/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh VHS
+http://91.204.123.202:80/428/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Fantastic
+http://91.204.123.202:80/429/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Series
+http://91.204.123.202:80/430/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Horror
+http://91.204.123.202:80/431/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Adventure
+http://91.204.123.202:80/432/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Romantic
+http://91.204.123.202:80/433/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Fresh Thriller
+http://91.204.123.202:80/434/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Катастрофы
+http://91.204.123.202:80/471/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Top
+http://91.204.123.202:80/350/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Мелодрама
+http://91.204.123.202:80/472/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan VHS
+http://91.204.123.202:80/474/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan
+http://91.204.123.202:80/349/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Cartoons Big
+http://91.204.123.202:80/348/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan MiniSeries
+http://91.204.123.202:80/122/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Action
+http://91.204.123.202:80/351/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Thriller
+http://91.204.123.202:80/352/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Marvel
+http://91.204.123.202:80/candidate/index.m3u8
+#http://91.204.123.202:80/354/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Cartoons Short
+http://91.204.123.202:80/347/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Ужасы
+http://91.204.123.202:80/355/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Сваты
+http://91.204.123.202:80/359/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Cartoons 90
+http://91.204.123.202:80/484/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Симпсоны
+http://91.204.123.202:80/476/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Ментовские войны
+http://91.204.123.202:80/477/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Комедия
+http://91.204.123.202:80/356/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Лесник
+http://91.204.123.202:80/115/index.m3u8
+
+#EXTINF:-1 group-title="candidate",CineMan Скорая Помощь
+http://91.204.123.202:80/475/index.m3u8
+
+#EXTINF:-1 group-title="candidate",BCU СССР HD
+http://91.204.123.202:80/488/index.m3u8
+
+#EXTINF:-1 group-title="test",О!
+http://91.204.123.202:80/60/index.m3u8
+
+#EXTINF:-1 group-title="test",Солнце
+http://91.204.123.202:80/118/index.m3u8
+
+#EXTINF:-1 group-title="test",Ля-минор
+http://91.204.123.202:80/303/index.m3u8
+
+#EXTINF:-1 group-title="test",Stingray Iconcerts
+http://91.204.123.202:80/267/index.m3u8
+
+#EXTINF:-1 group-title="test",Russian Music Box
+http://91.204.123.202:80/319/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Classic Music HD
+http://91.204.123.202:80/312/index.m3u8
+
+#EXTINF:-1 group-title="candidate",KHL Prime
+http://91.204.123.202:80/178/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Setanta Sports 2
+http://91.204.123.202:80/235/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Viasat Sport
+http://91.204.123.202:80/333/index.m3u8
 
 
 
 # ── test ──────────────────────────────────────────
-# Added: 2026-06-17 22:45:04  (64 URLs in 64 channel group(s))
+# Added: 2026-06-18 00:06:43  (1 URLs in 1 channel group(s))
 # ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test",RTG HD
-http://91.204.123.202:80/164/index.m3u8
-#EXTINF:-1 group-title="test",Точка РФ
-http://91.204.123.202:80/161/index.m3u8
-#EXTINF:-1 group-title="test",Инсайт ТВ UHD
-http://91.204.123.202:80/361/index.m3u8
-#EXTINF:-1 group-title="test",Седьмой канал KZ
-http://91.204.123.202:80/27/index.m3u8
-#EXTINF:-1 group-title="test",КТК
-http://91.204.123.202:80/26/index.m3u8
-#EXTINF:-1 group-title="test",Комедия
-http://91.204.123.202:80/68/index.m3u8
-#EXTINF:-1 group-title="test",Fashion & Lifestyle HD
-http://91.204.123.202:80/119/index.m3u8
-#EXTINF:-1 group-title="test",Start air
-http://91.204.123.202:80/128/index.m3u8
-#EXTINF:-1 group-title="test",Fox Life
-http://91.204.123.202:80/129/index.m3u8
-#EXTINF:-1 group-title="test",Русский бестселлер
-http://91.204.123.202:80/208/index.m3u8
-#EXTINF:-1 group-title="test",Русский Детектив
-http://91.204.123.202:80/204/index.m3u8
-#EXTINF:-1 group-title="test",Наше HD
-http://91.204.123.202:80/217/index.m3u8
-#EXTINF:-1 group-title="test",.Black
-http://91.204.123.202:80/263/index.m3u8
-#EXTINF:-1 group-title="test",Русский роман
-http://91.204.123.202:80/266/index.m3u8
-#EXTINF:-1 group-title="test",Хит HD
-http://91.204.123.202:80/363/index.m3u8
-#EXTINF:-1 group-title="test",НТК
-http://91.204.123.202:80/389/index.m3u8
-#EXTINF:-1 group-title="test",Fan
-http://91.204.123.202:80/420/index.m3u8
-#EXTINF:-1 group-title="test",Премиальное
-http://91.204.123.202:80/421/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Rating
-http://91.204.123.202:80/422/index.m3u8
-#EXTINF:-1 group-title="test",Relax
-http://91.204.123.202:80/459/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Cinema
-http://91.204.123.202:80/423/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Kids
-http://91.204.123.202:80/425/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Premiere
-http://91.204.123.202:80/424/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Comedy
-http://91.204.123.202:80/426/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Family
-http://91.204.123.202:80/427/index.m3u8
-#EXTINF:-1 group-title="test",Fresh VHS
-http://91.204.123.202:80/428/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Fantastic
-http://91.204.123.202:80/429/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Series
-http://91.204.123.202:80/430/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Horror
-http://91.204.123.202:80/431/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Adventure
-http://91.204.123.202:80/432/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Romantic
-http://91.204.123.202:80/433/index.m3u8
-#EXTINF:-1 group-title="test",Fresh Thriller
-http://91.204.123.202:80/434/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Катастрофы
-http://91.204.123.202:80/471/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Top
-http://91.204.123.202:80/350/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Мелодрама
-http://91.204.123.202:80/472/index.m3u8
-#EXTINF:-1 group-title="test",CineMan VHS
-http://91.204.123.202:80/474/index.m3u8
-#EXTINF:-1 group-title="test",CineMan
-http://91.204.123.202:80/349/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Cartoons Big
-http://91.204.123.202:80/348/index.m3u8
-#EXTINF:-1 group-title="test",CineMan MiniSeries
-http://91.204.123.202:80/122/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Action
-http://91.204.123.202:80/351/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Thriller
-http://91.204.123.202:80/352/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Marvel
-http://91.204.123.202:80/354/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Cartoons Short
-http://91.204.123.202:80/347/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Ужасы
-http://91.204.123.202:80/355/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Сваты
-http://91.204.123.202:80/359/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Cartoons 90
-http://91.204.123.202:80/484/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Симпсоны
-http://91.204.123.202:80/476/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Ментовские войны
-http://91.204.123.202:80/477/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Комедия
-http://91.204.123.202:80/356/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Лесник
-http://91.204.123.202:80/115/index.m3u8
-#EXTINF:-1 group-title="test",CineMan Скорая Помощь
-http://91.204.123.202:80/475/index.m3u8
-#EXTINF:-1 group-title="test",BCU СССР HD
-http://91.204.123.202:80/488/index.m3u8
-#EXTINF:-1 group-title="test",О!
-http://91.204.123.202:80/60/index.m3u8
-#EXTINF:-1 group-title="test",Солнце
-http://91.204.123.202:80/118/index.m3u8
-#EXTINF:-1 group-title="test",Ля-минор
-http://91.204.123.202:80/303/index.m3u8
-#EXTINF:-1 group-title="test",Stingray Iconcerts
-http://91.204.123.202:80/267/index.m3u8
-#EXTINF:-1 group-title="test",Russian Music Box
-http://91.204.123.202:80/319/index.m3u8
-#EXTINF:-1 group-title="test",Classic Music HD
-http://91.204.123.202:80/312/index.m3u8
-#EXTINF:-1 group-title="test",KHL Prime
-http://91.204.123.202:80/178/index.m3u8
-#EXTINF:-1 group-title="test",Bridge HD
-http://91.204.123.202:80/92/index.m3u8
-#EXTINF:-1 group-title="test",Setanta Sports 2
-http://91.204.123.202:80/235/index.m3u8
-#EXTINF:-1 group-title="test",Viasat Sport
-http://91.204.123.202:80/333/index.m3u8
-#EXTINF:-1 tvg-id="" catchup="append" catchup-days="3" catchup-source="?offset=-${offset}&utcstart=${timestamp}" tvg-name="" tvg-logo="https://i.ibb.co/p6r2hG1S/image-20.png" group-title="test", Гродно Плюс
-http://82.209.219.165:1234/gp
-#EXTINF:-1 group-title="test",Qazaqstan Teatr KZ
-https://stream.qaztv.kz/live/stream10/index.m3u8
+#EXTINF:-1 group-title="test" tvg-logo="http://sarkor.tv/static/images/channels/МУЗ-ТВ УЗ.png",МУЗ-ТВ УЗ
+https://watcher.uz:443/105/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
