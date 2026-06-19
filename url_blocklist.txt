@@ -101,8 +101,10 @@ vcp*.myplaytv.com
 *.usite.pro
 *.r2.dev
 *.1internet.tv
+*.catcast.tv
 
 # --- blocked hosts ---
+watcher.uz
 s06.wsbof.com
 feeds.intoday.in
 hubtv.ru
@@ -433,7 +435,6 @@ tv.woobl.ru
 iptv.crimea.net
 srv1.adriatelekom.com
 edge2.uk.kab.tv
-v2.catcast.tv
 belnovosti.cdn.easyhoster.ru
 tv.samaragis.ru
 v.mover.uz
@@ -506,7 +507,6 @@ live.topnews.co.th
 amdlive-ch01.ctnd.com.edgesuite.net
 orken-media.kz
 cdn.iptvcinema.ru
-s.catcast.tv
 tvrlive.susu.ru
 user10573.clients-cdnnow.ru
 *.ddns.net
@@ -641,8 +641,12 @@ tv.mediacp.eu
 streams.radio.co
 user91229.clients-cdnnow.ru
 v.viplime.fun
+ma.anixa.tv
+pop.uniquetv.com.br
+stream.ushba.tv
 
 # --- blocked IPs ---
+93.170.254.17
 94.230.128.107
 79.127.207.193
 181.224.255.210
@@ -848,6 +852,7 @@ v.viplime.fun
 213.59.128.165
 77.46.130.252
 212.186.45.34
+46.53.208.4
 
 # --- blocked full URLs / paths ---
 http://217.114.191.150/Solnce/index.m3u8
@@ -926,13 +931,12 @@ http://v4.proofix.ru:80/vitrina-live/tracks-v1a1/mono.m3u8
 https://v4.proofix.ru/vitrina-live/tracks-v1a1/mono.m3u8
 https://v4.proofix.ru/vitrina-live/index.m3u8
 
-https://autopilot.catcast.tv/content/34393/index.m3u8?password=promolive
 http://ru2.tvtm.one/ch1533/mono.m3u8?token=ruslan35.v2__9NT6yMkoq_xb-essMfa-s_rMjh31qyJRBcugBSjqXc2717QRNqYdUR5dOie_r5XHkMi4T7cuezW0g
 http://ru2.tvtm.one/ch1534/mono.m3u8?token=ruslan35.v2_miwK0EHlFZmLT_fncXIx6CnH0jNk6QX3bztO4LawQfFbLih2uZJWid7KeDwCeGjbnKpRdKUfhhXVfA
 http://ru2.tvtm.one/ch1415/mono.m3u8?token=ruslan35.v2_c5ebdZ43EIaEeCH947HyjsnjtKnGvKk3OHpuVwAd0sAqtgPon9F7i3-1scpLUrpUPxnW0ROa6V8cMw
 
-https://watcher.uz:443/105/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
-
 http://stitch.teletarget.ru/vintera/tvcsd/index.m3u8
-http://autopilot.catcast.tv/content/46209/index.m3u8
 http://ukr.ukrainske.tv/493/keytvainua/video.m3u8
+
+http://91.204.123.202:80/78/index.m3u8
+http://91.204.123.202:80/488/index.m3u8

@@ -103,6 +103,7 @@ BLOCKLIST: set[str] = {
     "Храм",
     "Гродно Плюс",
     "Qazaqstan Teatr KZ",
+    "Ushba-Films"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -506,6 +507,9 @@ ALIASES: dict[str, str] = {
     "Bridge HD": "Bridge TV",
     "Ля минор": "Ля-минор",
     "Бирма Плей": "Бирма Play",
+    "Классика Кино SD": "Классика Кино",
+    "Movie Classic": "Классика Кино",
+    "Fashion TV Paris L'Original": "Fashion TV"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
