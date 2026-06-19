@@ -1,29 +1,95 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
+# International
+
+#EXTINF:-1 group-title="International",Ош ТВ
+http://212.42.117.34:8080/hls/OshTV.m3u8
+
+#EXTINF:-1 group-title="International",Сиртаки ТВ
+https://autopilot.catcast.tv/content/46421/index.m3u8?password=loganet
+#https://cityeden.catcast.tv/content/46421/index.m3u8
+
+#EXTINF:-1 group-title="International",ТВ Мана Ваш
+https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
+
+#EXTINF:-1 group-title="International" tvg-logo="http://1lot.tv/ch/9885.png",Afrobeats
+https://stream.ecable.tv/afrobeats/tracks-v1a1/mono.m3u8
+#https://stream.ecable.tv/afrobeats/index.m3u8
+#https://stream.ecable.tv/afrobeats/tracks-v1a1a1/mono.m3u8
+
+#EXTINF:-1 group-title="International",Food Food
+http://103.175.73.12:8080/live/143/143_0.m3u8
+
+#EXTINF:-1 group-title="International",kabel eins
+https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
+
+#EXTINF:-1 group-title="International",Paideuma TV
+https://paideuma.tv:1443/live/Channel2728/chunklist.m3u8
+
+# Movies
+
+#EXTINF:0 group-title="Movies" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18429_dark_360w_270h.png",HBO Comedy
+
+#EXTINF:0 group-title="Movies" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png",HBO Zone
+
+#EXTINF:0 group-title="Movies" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true",Showtime 2
+
+#EXTINF:0 group-title="Movies" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true",Starz
+
+# News
+
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/ABC_News_Live_logo_2021.svg/512px-ABC_News_Live_logo_2021.svg.png" tvg-id="abc-news-live-us",ABC News Live
+
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/al-jazeera-int.png" tvg-id="al-jazeera-int",Al Jazeera
+https://live-hls-web-aje-gcp.thehlive.com/AJE/01.m3u8
+
+#EXTINF:-1 group-title="News",BBC News Europe
+http://ru2.tvtm.one/ch499/mono.m3u8?token=ruslan35.v2_yxGhmXduXEPzDIpVEEKeqOYn2uegqA30LoZfuZUZTo5PCZekRcJBPRcPfB37jgWn1KacmSwujVjn
+
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/bbc.png" tvg-id="bbc",BBC World News
+https://watcher.uz:443/104/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjb250cmFjdF9pZCI6MTg1MTUwLCJsb2dpbiI6InR2LTE4NTE1MCIsInRlbXBvcmFyeSI6ZmFsc2UsImlzX29hdXRoIjpmYWxzZSwiY3JlYXRlZF90aW1lIjoxNzgwNjk3NTc4fQ.bXNxmt2iOlX4qQ8TitFHFzmB2Kxh7DkhMjEQXb-aEgc%3A8
+
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/bloomberg.png" tvg-id="bloomberg",Bloomberg
 
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/CBS_News_247_logo.svg/560px-CBS_News_247_logo.svg.png" tvg-id="cbs-news-us",CBS News
 https://dai.google.com/linear/hls/event/Sid4xiTQTkCT1SLu6rjUSQ/master.m3u8
 
+#EXTINF:-1 group-title="News",CCTV4
+https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+
 #EXTINF:0 group-title="News",CNBC
+
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/cnn.png" tvg-id="cnn",CNN
 
 #EXTINF:0 group-title="News" tvg-logo="https://epg.iptvx.one/picons/espn2-us.png" tvg-id="espn2-us",ESPN 2
+
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/euronews.png" tvg-id="euronews",EuroNews
+
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Fox_Business.svg/512px-Fox_Business.svg.png" tvg-id="fox-business-us",Fox Business
+
 #EXTINF:0 group-title="News" tvg-logo="https://i.imgur.com/1JnyzHv.png" tvg-id="plex.tv.LiveNOW.from.FOX.plex",Fox LiveNOW
+
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/fox-news-us.png" tvg-id="fox-news-us",Fox News Channel
+http://ru2.tvtm.one/ch2093/mono.m3u8?token=ruslan35.v2_ydVj22Dv-rIMsys6KV-d3FRANNRn6w5opFCe0gxaz-g_QczDWHMcEBwYxpaE7CmHXzSRRg3vd-EBEw
+
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/france24.png" tvg-id="france-24",France 24
 
 #EXTINF:0 group-title="News" tvg-logo="https://iptvx.one/picons/france24.png" tvg-id="France.24.English.us",France 24 English
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
 
+#EXTINF:-1 group-title="News",Iran Press TV
+https://live.presstv.ir/hls/presstv_5_482/index.m3u8
+
+#EXTINF:-1 group-title="News",MNB Worldᴴᴰ
+https://live.mnb.mn/hls/mnb_world.stream.m3u8
+#https://live.mnb.mn/hls/mn2.stream.m3u8
+
 #EXTINF:0 group-title="News" tvg-logo="https://i.postimg.cc/fW1gZgJj/msnbc-us.png" tvg-id="MSNBC.USA.us",MSNBC
+
 #EXTINF:0 group-title="News" tvg-logo="https://i.imgur.com/JZt2qh5.png" tvg-id="nbc-news-now-us",NBC News Now
+
 #EXTINF:0 group-title="News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Newsmax_logo.svg/512px-Newsmax_logo.svg.png" tvg-id="newsmax-tv-us",Newsmax TV
+
 #EXTINF:0 group-title="News" tvg-logo="https://zap2it.tmsimg.com/h3/NowShowing/91097/s91097_ll_h15_ae.png?w=512" tvg-id="newsnation-us",NewsNation
 
 #EXTINF:0 group-title="News" tvg-logo="https://i.imgur.com/W0Jvi5o.png",Scripps News
@@ -35,11 +101,9 @@ https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Liv
 #EXTINF:0 group-title="News" tvg-logo="https://i.imgur.com/37K0AZX.png",USA Today
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00731-gannettcoinc-usatodaynews-plex/playlist.m3u8
 
-#EXTINF:0 group-title="Movies" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18429_dark_360w_270h.png",HBO Comedy
-#EXTINF:0 group-title="Movies" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s18431_dark_360w_270h.png",HBO Zone
-#EXTINF:0 group-title="Movies" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/showtime-2-us.png?raw=true",Showtime 2
-#EXTINF:0 group-title="Movies" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/united-states/starz-us.png?raw=true",Starz
+# test
 
 #EXTINF:-1 group-title="test",Das Erste HD
 https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8
 #https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8
+
