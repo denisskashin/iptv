@@ -532,6 +532,9 @@ http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 
 # Музыка
 
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/vostok-tv.png" tvg-id="vostok-tv" tvg-description="Музыка и культура Востока.",Восток ТВ
+http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/la-minor.png" tvg-id="la-minor" tvg-description="Российский музыкальный телеканал шансона и авторской песни.",Ля-минор
 http://91.204.123.202:80/303/index.m3u8
 
@@ -1136,9 +1139,6 @@ http://stream.almaz-media.tv:8081/hls/720.m3u8
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #https://streaming.astrakhan.ru/astrakhan24/tracks-v2a1/mono.m3u8
 #http://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-
-#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/vostok-tv.png" tvg-id="vostok-tv" tvg-description="Региональный телеканал.",Восток ТВ
-http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/rentv-istoki.png" tvg-id="rentv-istoki" tvg-description="Региональный телеканал Орловской области.",Истоки
 https://istoki.tv//live/stream1/chunklist.m3u8
