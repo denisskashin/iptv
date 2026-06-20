@@ -111,7 +111,8 @@ BLOCKLIST: set[str] = {
     "Motorvision",
     "Радио Город FM",
     "Новое радио (Беларусь)",
-    "Мамонтёнок"
+    "Мамонтёнок",
+    "Film UA Drama"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -520,7 +521,8 @@ ALIASES: dict[str, str] = {
     "Fashion TV Paris L'Original": "Fashion TV",
     "LIVETV SD": "LIVETV",
     "ЕВРОКИНО": "Еврокино",
-    "Love Nature 4k": "Love Nature"
+    "Love Nature 4k": "Love Nature",
+    "ACI Sport TV": "ACI Sport"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"

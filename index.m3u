@@ -109,6 +109,9 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/svetloe-tv.png" tvg-id="svetloe-tv" tvg-description="«Светлое ТВ» — телеканал, где каждый, независимо от возраста и увлечений и профессии, найдет программу по своим интересам. Всему, что вы хотели бы сделать своими руками, но не решались, вас научат! Это «золотая жила» для рукодельников, кулинаров, молодых мам, садоводов и просто активных людей, которые стремятся сделать свою жизнь яркой и увлекательной. Мы предлагаем программы для женщин и мужчин, фильмы для детей и очень много путешествий.",Светлое ТВ
 
+#EXTINF:0 group-title="Беларусь" tvg-description="Городской телеканал Слуцка (Беларусь).",Слуцк ТВ
+https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b5160000_sleng.m3u8
+
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/stv-by.png" tvg-id="stv-by" tvg-description="«СТВ» — белорусский телеканал, один из трёх национальных телеканалов, вещающий на всю территорию Беларуси.",СТВ
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #http://86.57.147.236/HLS/ctvby/playlist.m3u8
@@ -788,8 +791,7 @@ http://37.186.70.39:40/play/48/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/ege-tv.png" tvg-id="ege-tv" tvg-description="ЕГЭ — российский образовательный телеканал, помогающий школьникам готовиться к Единому государственному экзамену.",ЕГЭ
 
-#EXTINF:0 group-title="Познавательные" tvg-description="Познавательный телеканал о приключениях, путешествиях и экстриме (Insight TV).",Инсайт ТВ
-http://91.204.123.202:80/361/index.m3u8
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/insight-tv-hd.png" tvg-id="insight-tv-hd" tvg-description="Познавательный телеканал о приключениях, путешествиях и экстриме (Insight TV).",Инсайт ТВ
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/istoria.png" tvg-id="istoria" tvg-description="История — российский тематический телеканал, посвящённый историческим событиям и документальному кино.",История
 
@@ -1075,7 +1077,7 @@ http://tvoetv.space:8080/tvoetv/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tochka-tv.png" tvg-id="tochka-tv" tvg-description="Точка ТВ — российский региональный телеканал.",Точка ТВ
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tcb.png" tvg-id="tcb" tvg-description="ТСВ — российский региональный телеканал.",ТСВ
-https://tsv.md/stream/hls/tsv-online/index.m3u8
+https://tsv.md/stream/hls/tsv-online/index.m3u8F
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/yu.png" tvg-id="yu" tvg-description="Ю — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает мелодрамы, лайфстайл и реалити-шоу.",Ю
 http://91.204.123.202:80/230/index.m3u8
@@ -1158,17 +1160,14 @@ http://live1.trkcrimea.ru/1tvcrimea.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pro-zhizn.png" tvg-id="pro-zhizn" tvg-description="Региональный телеканал о людях и повседневной жизни.",Про жизнь
 https://27trk.iptv2022.com/tracks-v1a1/mono.m3u8
 
-#EXTINF:0 group-title="Региональные" tvg-description="Региональный телеканал (Красноярск).",Седьмой канал
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/7kanal-kz.png" tvg-id="7kanal-kz" tvg-description="«Седьмо́й кана́л» — казахстанский республиканский развлекательный телеканал. Штаб-квартира находится в Астане. Вещание происходит на казахском и русском языках.",Седьмой канал
 http://91.204.123.202:80/27/index.m3u8
-
-#EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Слуцка (Беларусь).",Слуцк ТВ
-https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Тосно (Ленинградская область).",Тосно ТВ
 https://tosnotv.ru/hlsshare/video.m3u8
 #http://tosnotv.ru/hlsshare/video.m3u8
 
-#EXTINF:0 group-title="Региональные" tvg-description="Региональный телеканал.",Region
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/regiontv-kg.png" tvg-id="regiontv-kg" tvg-description="Региональный телеканал Казахстана.",Region
 http://31.192.249.68:8080/0.m3u8
 
 # Религия и изотерика
@@ -1193,7 +1192,6 @@ http://tv.plovdivskamitropolia.bg:1935/live/pptv.stream/playlist.m3u8
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/spas.png" tvg-id="spas" tvg-description="Спас — российский православный телеканал. Транслирует богослужения, проповеди, беседы о православной вере.",Спас
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/tbn-ru.png" tvg-id="tbn-ru" tvg-description="Христианский религиозно-просветительский телеканал (ТБН).",ТБН Россия
-https://tsv.md/stream/hls/tsv-online/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/tri-angela.png" tvg-id="tri-angela" tvg-description="Три Ангела — христианский телеканал адвентистской церкви, транслирующий религиозные программы.",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
@@ -1262,9 +1260,6 @@ http://91.204.123.202:80/476/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/cineman-skorpom.png" tvg-id="cineman-skorpom" tvg-description="Телеканал, посвящённый сериалу «Скорая помощь» (CineMan).",CineMan Скорая Помощь
 http://91.204.123.202:80/475/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/filmua-drama.png" tvg-id="filmua-drama" tvg-description="Телеканал драматических сериалов (FILM.UA).",Film UA Drama
-http://88.99.215.227/FilmUADrama/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife" tvg-description="Телеканал зарубежных сериалов и lifestyle (Fox Life).",Fox Life
 http://91.204.123.202:80/129/index.m3u8
@@ -1344,9 +1339,6 @@ http://37.186.70.39:40/play/19/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://guidatv.sky.it/logo/445sporttv_Light_Fit.png?tr=n-logo_80" tvg-id="ACI.Sport.Tv.it" tvg-description="Автоспортивный телеканал (ACI Sport).",ACI Sport
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
 #http://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
-
-#EXTINF:0 group-title="Спорт" tvg-logo="https://guidatv.sky.it/logo/445sporttv_Light_Fit.png?tr=n-logo_80" tvg-id="ACI.Sport.Tv.it" tvg-description="Автоспортивный телеканал (ACI Sport).",ACI Sport TV
-https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8_output_0.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Теннисный телеканал (ATP Tour).",ATP Tennis
 
