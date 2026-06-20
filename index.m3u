@@ -123,6 +123,7 @@ http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #https://ngtrk.dc.beltelecom.by/ctv/_definst_/ctv.stream/playlist.m3u8
 #http://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8
 #https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
+#https://edge50.dc.beltelecom.by/ctv/ctv.stream/chunklist_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/tv3-by.png" tvg-id="tv3-by" tvg-description="«ТВ-3 Беларусь» – белорусский познавательно-развлекательный телеканал. Основу сетки составляют российские и зарубежные телесериалы, документальные фильмы российского производства, фильмы и сериалы в жанре «фэнтези», затрагивающие самые сокровенные стороны неопознанного и мистического, развлекательные шоу.",ТВ-3 Беларусь
 
@@ -193,6 +194,7 @@ http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania-lv.png" tvg-id="multimania-lv" tvg-description="Детский телеканал с мультфильмами и анимацией.",Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
 #http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
+#https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/o_.png" tvg-id="o_" tvg-description="Российский детский познавательно-развивающий телеканал для дошкольников.",О!
 http://91.204.123.202:80/60/index.m3u8
@@ -234,11 +236,9 @@ https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/Minimax.png" tvg-id="Minimax.cz" tvg-description="Детский телеканал мультфильмов (Центральная и Восточная Европа).",Minimax
 https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
-#http://5.57.74.130:8000/play/a0bd/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru" tvg-description="Международный детский развлекательный телеканал с популярными мультсериалами.",Nickelodeon
 http://91.204.123.202:80/443/index.m3u8
-#http://5.57.74.130:8000/play/a0ba/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-description="Детский телеканал с анимацией и развивающим контентом.",NikNik.TV
 https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
@@ -513,7 +513,6 @@ http://91.204.123.202:80/119/index.m3u8
 
 #EXTINF:0 group-title="Мода" tvg-logo="https://iptvx.one/picons/fashion-tv.png" tvg-id="fashion-tv" tvg-description="Fashion TV — международный телеканал о моде и индустрии красоты. Транслирует показы мод, репортажи о трендах и стиле жизни.",Fashion TV
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
-#http://5.57.74.130:8000/play/a0e2/index.m3u8
 #https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_480854_p_0.m3u8
 
 #EXTINF:0 group-title="Мода" tvg-description="Телеканал о моде и индустрии стиля.",Global Fashion
@@ -1046,6 +1045,7 @@ http://37.186.70.39:40/play/43/index.m3u8
 http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #http://83.166.243.97:8081/ltv1TNT/1/playlist.m3u8
 #http://188.113.190.13/25/video.m3u8
+#https://tvn-tv.ru:81/hls/stream.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
 http://91.204.123.202:80/118/index.m3u8
@@ -1121,8 +1121,7 @@ https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/russky-ekstrim.png" tvg-id="russky-ekstrim" tvg-description="Russian Extreme — российский телеканал, посвящённый экстремальным видам спорта и приключениям.",Russian Extreme
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus" tvg-description="TLC (The Learning Channel) — международный развлекательный телеканал. Специализируется на реалити-шоу, лайфстайл и документальных программах.",TLC
-http://5.57.74.130:8000/play/a0cj/index.m3u8
-#http://8.243.126.131:8000/play/a0gc/index.m3u8
+http://8.243.126.131:8000/play/a0gc/index.m3u8
 #http://8.243.126.131:8000/play/a0ja/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvmchannel.png" tvg-id="tvmchannel" tvg-description="TVM Channel — тематический телеканал.",TVM Channel
@@ -1354,8 +1353,8 @@ http://88.212.7.11/live/test_ctsport_25p/playlist.m3u8
 http://190.117.20.37:8000/play/a08d/index.m3u8
 
 #EXTINF:0 group-title="Спорт",ESPN 2
-#http://200.10.30.241:8000/play/a01r/index.m3u8
-http://8.243.126.131:8000/play/a0ge/index.m3u8
+http://200.10.30.241:8000/play/a01r/index.m3u8
+#http://8.243.126.131:8000/play/a0ge/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1" tvg-description="Eurosport 1 — европейский спортивный телеканал. Транслирует широкий спектр соревнований: теннис, велоспорт, лыжи, биатлон и другие виды спорта.",Eurosport 1
 http://37.186.70.39:40/play/111/index.m3u8
@@ -1413,14 +1412,6 @@ https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist_b900000.m3u8
 #http://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist.m3u8
 
-#EXTINF:0 group-title="Спорт" tvg-description="Итальянский региональный спортивный телеканал.",Primokanale Sport
-https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
-
-#EXTINF:0 group-title="Спорт" tvg-description="Спортивный телеканал.",PX SPORTS
-http://181.78.109.48:9998/play/a03q/index.m3u8
-#http://181.78.109.48:9998/play/a03r/index.m3u8
-#http://181.78.109.48:9998/play/a06r/index.m3u8
-
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/qsport-kg.png" tvg-id="qsport-kg" tvg-description="Q Sport — казахстанский спортивный телеканал.",Q Sport
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kazsport.png" tvg-id="kazsport" tvg-description="Qazsport — официальный спортивный телеканал Казахстана. Транслирует казахстанские и международные спортивные соревнования.",Qazsport
@@ -1429,10 +1420,8 @@ http://91.204.123.202:80/72/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/setanta-sports-plus.png" tvg-id="setanta-sports-plus" tvg-description="Спортивный телеканал Setanta Sports.",Setanta Sports 2
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/spotv.png" tvg-id="spotv" tvg-description="Азиатский спортивный телеканал SPOTV.",SPOTV
-http://primestreams.tv:826/live/mookie22/49aV7nBsK4/119515.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Спортивный телеканал.",TVR Sport
-https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/chunklist_b5160000.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Телеканал смешанных единоборств UFC.",UFC Network
 https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
@@ -1479,23 +1468,6 @@ http://37.186.70.39:40/play/33/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/gags-network.png" tvg-id="gags-network" tvg-description="GagsNetwork — международный развлекательный канал, известный видеороликами со скрытой камерой и розыгрышами.",GagsNetwork
 
-# test
-
-#EXTINF:0 group-title="test" tvg-logo="https://iptvx.one/picons/no_epg_sport.png" tvg-id="no_epg_sport",MAX SPORT 1
-http://181.78.109.48:9998/play/a03r/index.m3u8
-#http://181.118.156.46:8000/play/a04g/index.m3u8
-#http://200.10.30.241:8000/play/a01r/index.m3u8
-#https://stream1.sersat.com/hls/garagetv.m3u8
-#https://digicom.hls.iptvdc.com/motorstv/tracks-v1a1/mono.m3u8
-#http://181.78.109.48:9998/play/a06r/index.m3u8
-#http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
-#http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
-#https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-#https://live.mnb.mn/hls/mnb_sport.stream.m3u8
-#http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
-#http://stitch.teletarget.ru/vintera/motodrive/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
-#http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
-
 # candidate
 
 #EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/ktk-kz.png" tvg-id="ktk-kz" tvg-description="Казахстанский телеканал общей тематики: новости и документальные программы, вещание на казахском и русском.",КТК
@@ -1537,287 +1509,29 @@ https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
 #EXTINF:0 group-title="candidate",Paideuma TV
 https://paideuma.tv:1443/live/Channel2728/chunklist.m3u8
 
-#EXTINF:0  group-title="test",Мультимания (576p)
-https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-
-#EXTINF:0 tvg-id="Prodvizhenie.ru" tvg-name="Продвижение" tvg-logo="https://i.ibb.co/C3fSzY4D/image-50.png" group-title="test", Продвижение (Новокузнецк)
-https://tvn-tv.ru:81/hls/stream.m3u8
-
-#EXTINF:0 group-title="test",СТВ HD
-https://edge50.dc.beltelecom.by/ctv/ctv.stream/chunklist_b5160000_sleng.m3u8
-
-#EXTINF:0 tvg-id="" tvg-logo="" group-title="test",Mahni TV AZ
-https://stream.yayim.az/MahniTV/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:0 group-title="test",068 Кинокомедия
+#EXTINF:0 group-title="candidate",Кинокомедия
 http://37.186.70.39:40/play/68/index.m3u8
 
-#EXTINF:0 group-title="test",AMC Balkan HD
-http://5.57.74.130:8000/play/a0au/index.m3u8
 
-#EXTINF:0 group-title="test",AXN
-http://5.57.74.130:8000/play/a0at/index.m3u8
-#EXTINF:0 group-title="test",AXN Spin
-http://5.57.74.130:8000/play/a0ar/index.m3u8
-#EXTINF:0 group-title="test",BBC Earth
-http://5.57.74.130:8000/play/a0bl/index.m3u8
-#EXTINF:0 group-title="test",Baby TV
-http://5.57.74.130:8000/play/a0be/index.m3u8
-#EXTINF:0 group-title="test",ATV
-http://5.57.74.130:8000/play/a0cz/index.m3u8
-#EXTINF:0 group-title="test",B1
-http://5.57.74.130:8000/play/a0c2/index.m3u8
-#EXTINF:0 group-title="test",CNN
-http://5.57.74.130:8000/play/a0d9/index.m3u8
+# test
+
+#EXTINF:0 group-title="test" tvg-logo="https://iptvx.one/picons/no_epg_sport.png" tvg-id="no_epg_sport",MAX SPORT 1
+http://181.118.156.46:8000/play/a04g/index.m3u8
+#http://200.10.30.241:8000/play/a01r/index.m3u8
+#https://stream1.sersat.com/hls/garagetv.m3u8
+#https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+
+
 #EXTINF:0 group-title="test",Cartoon Network
-http://5.57.74.130:8000/play/a0b8/index.m3u8
 #http://8.243.126.131:8000/play/a0f2/index.m3u8
-#EXTINF:0 group-title="test",Cinemax 2
-http://5.57.74.130:8000/play/a0cm/index.m3u8
-#EXTINF:0 group-title="test",Desire TV
-http://5.57.74.130:8000/play/a0c4/index.m3u8
-#EXTINF:0 group-title="test",Dankos Plus
-http://5.57.74.130:8000/play/a0ae/index.m3u8
-#EXTINF:0 group-title="test",Current Time TV
-http://5.57.74.130:8000/play/a0d4/index.m3u8
-#EXTINF:0 group-title="test",DaVinci Learning
-http://5.57.74.130:8000/play/a0bh/index.m3u8
-#EXTINF:0 group-title="test",Dexy TV HD
-http://5.57.74.130:8000/play/a0cv/index.m3u8
 #EXTINF:0 group-title="test",Cinemax
-http://5.57.74.130:8000/play/a0cl/index.m3u8
 #http://8.243.126.131:8000/play/a0gv/index.m3u8
-#EXTINF:0 group-title="test",Disney
-http://5.57.74.130:8000/play/a0bg/index.m3u8
-#EXTINF:0 group-title="test",Disney Junior
-http://5.57.74.130:8000/play/a0bf/index.m3u8
 #EXTINF:0 group-title="test",E!
-http://5.57.74.130:8000/play/a0do/index.m3u8
 #http://8.243.126.131:8000/play/a0g7/index.m3u8
-#EXTINF:0 group-title="test",Diva
-http://5.57.74.130:8000/play/a0ad/index.m3u8
-#EXTINF:0 group-title="test",Docubox
-http://5.57.74.130:8000/play/a0bu/index.m3u8
-#EXTINF:0 group-title="test",DW English
-http://5.57.74.130:8000/play/a0dc/index.m3u8
-#EXTINF:0 group-title="test",Euronews
-http://5.57.74.130:8000/play/a0db/index.m3u8
-#EXTINF:0 group-title="test",FREEDOM TV
-http://5.57.74.130:8000/play/a0d6/index.m3u8
-#EXTINF:0 group-title="test",Fast and fun Box
-http://5.57.74.130:8000/play/a0ak/index.m3u8
-#EXTINF:0 group-title="test",FilmBox Extra
-http://5.57.74.130:8000/play/a0ac/index.m3u8
-#EXTINF:0 group-title="test",Face TV
-http://5.57.74.130:8000/play/a0d8/index.m3u8
-#EXTINF:0 group-title="test",Filmbox Arthouse
-http://5.57.74.130:8000/play/a09w/index.m3u8
-#EXTINF:0 group-title="test",Filmbox Premium
-http://5.57.74.130:8000/play/a0aa/index.m3u8
-#EXTINF:0 group-title="test",Filmbox Stars
-http://5.57.74.130:8000/play/a0ab/index.m3u8
-#EXTINF:0 group-title="test",Fox News
-http://5.57.74.130:8000/play/a0dh/index.m3u8
-#EXTINF:0 group-title="test",Gametoon
-http://5.57.74.130:8000/play/a0e1/index.m3u8
-#EXTINF:0 group-title="test",France 24
-http://5.57.74.130:8000/play/a0dd/index.m3u8
-#EXTINF:0 group-title="test",FashionBOX
-http://5.57.74.130:8000/play/a0dw/index.m3u8
-#EXTINF:0 group-title="test",HBO 3 HD
-http://5.57.74.130:8000/play/a0cy/index.m3u8
-#EXTINF:0 group-title="test",HBO 2 HD
-http://5.57.74.130:8000/play/a0cx/index.m3u8
 #EXTINF:0 group-title="test",Discovery Channel HD
-http://5.57.74.130:8000/play/a0ag/index.m3u8
 #http://8.243.126.131:8000/play/a0d9/index.m3u8
-#EXTINF:0 group-title="test",HGTV HD
-http://5.57.74.130:8000/play/a0bp/index.m3u8
-#EXTINF:0 group-title="test",Happy Reality 2
-http://5.57.74.130:8000/play/a0dq/index.m3u8
-#EXTINF:0 group-title="test",HISTORY HD
-http://5.57.74.130:8000/play/a0bq/index.m3u8
-#EXTINF:0 group-title="test",Happy Reality 1
-http://5.57.74.130:8000/play/a0dp/index.m3u8
-#EXTINF:0 group-title="test",Hayatovci
-http://5.57.74.130:8000/play/a0bc/index.m3u8
-#EXTINF:0 group-title="test",ID
-http://5.57.74.130:8000/play/a0bt/index.m3u8
-#EXTINF:0 group-title="test",Jim Jam
-http://5.57.74.130:8000/play/a0bi/index.m3u8
-#EXTINF:0 group-title="test",K3
-http://5.57.74.130:8000/play/a0d1/index.m3u8
-#EXTINF:0 group-title="test",LH TV HD
-http://5.57.74.130:8000/play/a0br/index.m3u8
-#EXTINF:0 group-title="test",MOSTNET HD
-http://5.57.74.130:8000/play/a0e6/index.m3u8
-#EXTINF:0 group-title="test",Nat Geo Wild HD
-http://5.57.74.130:8000/play/a0ai/index.m3u8
-#EXTINF:0 group-title="test",National Geographic HD
-http://5.57.74.130:8000/play/a0am/index.m3u8
-#EXTINF:0 group-title="test",Nick Jr
-http://5.57.74.130:8000/play/a0b7/index.m3u8
-#EXTINF:0 group-title="test",Nickelodeon HD
-http://5.57.74.130:8000/play/a0bb/index.m3u8
-#EXTINF:0 group-title="test",Nicktoons
-http://5.57.74.130:8000/play/a0b9/index.m3u8
-#EXTINF:0 group-title="test",OBN
-http://5.57.74.130:8000/play/a0d3/index.m3u8
-#EXTINF:0 group-title="test",Pink Classic
-http://5.57.74.130:8000/play/a0a7/index.m3u8
-#EXTINF:0 group-title="test",Pink Comedy
-http://5.57.74.130:8000/play/a09y/index.m3u8
-#EXTINF:0 group-title="test",Pink Extra
-http://5.57.74.130:8000/play/a0dx/index.m3u8
-#EXTINF:0 group-title="test",Pink Crime and Mistery
-http://5.57.74.130:8000/play/a0ao/index.m3u8
-#EXTINF:0 group-title="test",Pink Family
-http://5.57.74.130:8000/play/a0a5/index.m3u8
-#EXTINF:0 group-title="test",HISTORY 2
-http://5.57.74.130:8000/play/a0aj/index.m3u8
-#EXTINF:0 group-title="test",Pink Film
-http://5.57.74.130:8000/play/a0a4/index.m3u8
-#EXTINF:0 group-title="test",Pink Fashion
-http://5.57.74.130:8000/play/a0dv/index.m3u8
-#EXTINF:0 group-title="test",Pink Horror
-http://5.57.74.130:8000/play/a09z/index.m3u8
-#EXTINF:0 group-title="test",Pink Haha
-http://5.57.74.130:8000/play/a0dm/index.m3u8
-#EXTINF:0 group-title="test",Pink Koncert
-http://5.57.74.130:8000/play/a0az/index.m3u8
-#EXTINF:0 group-title="test",Pink Kids
-http://5.57.74.130:8000/play/a0b3/index.m3u8
-#EXTINF:0 group-title="test",Pink Kuvar
-http://5.57.74.130:8000/play/a0e0/index.m3u8
-#EXTINF:0 group-title="test",Pink LoL
-http://5.57.74.130:8000/play/a0dn/index.m3u8
-#EXTINF:0 group-title="test",Pink Music
-http://5.57.74.130:8000/play/a0b2/index.m3u8
-#EXTINF:0 group-title="test",Pink Movies
-http://5.57.74.130:8000/play/a0aq/index.m3u8
-#EXTINF:0 group-title="test",Pink Plus
-http://5.57.74.130:8000/play/a0di/index.m3u8
-#EXTINF:0 group-title="test",Pink Music 2
-http://5.57.74.130:8000/play/a0b4/index.m3u8
-#EXTINF:0 group-title="test",Pink Pedia
-http://5.57.74.130:8000/play/a0bj/index.m3u8
-#EXTINF:0 group-title="test",Pink Reality
-http://5.57.74.130:8000/play/a0dj/index.m3u8
-#EXTINF:0 group-title="test",Pink Romance
-http://5.57.74.130:8000/play/a0ap/index.m3u8
-#EXTINF:0 group-title="test",Pink SciFi and Fantasy
-http://5.57.74.130:8000/play/a09x/index.m3u8
-#EXTINF:0 group-title="test",Pink Serije
-http://5.57.74.130:8000/play/a0a8/index.m3u8
-#EXTINF:0 group-title="test",Pink Show
-http://5.57.74.130:8000/play/a0dz/index.m3u8
-#EXTINF:0 group-title="test",Pink Super Kids
-http://5.57.74.130:8000/play/a0b6/index.m3u8
-#EXTINF:0 group-title="test",Pink Soap
-http://5.57.74.130:8000/play/a0cc/index.m3u8
-#EXTINF:0 group-title="test",Pink Style
-http://5.57.74.130:8000/play/a0dy/index.m3u8
-#EXTINF:0 group-title="test",Pink Thriller
-http://5.57.74.130:8000/play/a0an/index.m3u8
-#EXTINF:0 group-title="test",Pink Western
-http://5.57.74.130:8000/play/a0a6/index.m3u8
-#EXTINF:0 group-title="test",Pink World Cinema
-http://5.57.74.130:8000/play/a0a9/index.m3u8
-#EXTINF:0 group-title="test",Pink Zabava
-http://5.57.74.130:8000/play/a0dl/index.m3u8
-#EXTINF:0 group-title="test",Pink World
-http://5.57.74.130:8000/play/a0dk/index.m3u8
-#EXTINF:0 group-title="test",Pink Action
-http://5.57.74.130:8000/play/a0a3/index.m3u8
-#EXTINF:0 group-title="test",Playboy TV HD
-http://5.57.74.130:8000/play/a0c8/index.m3u8
-#EXTINF:0 group-title="test",Prva Files HD
-http://5.57.74.130:8000/play/a0cp/index.m3u8
-#EXTINF:0 group-title="test",Prva Kick HD
-http://5.57.74.130:8000/play/a0ca/index.m3u8
-#EXTINF:0 group-title="test",Prva Life HD
-http://5.57.74.130:8000/play/a0co/index.m3u8
-#EXTINF:0 group-title="test",Prva Plus HD
-http://5.57.74.130:8000/play/a0cn/index.m3u8
-#EXTINF:0 group-title="test",RT Doc
-http://5.57.74.130:8000/play/a0bs/index.m3u8
-#EXTINF:0 group-title="test",RT Balkan HD
-http://5.57.74.130:8000/play/a0c5/index.m3u8
-#EXTINF:0 group-title="test",RTG int
-http://5.57.74.130:8000/play/a0bn/index.m3u8
-#EXTINF:0 group-title="test",RT
-http://5.57.74.130:8000/play/a0dg/index.m3u8
-#EXTINF:0 group-title="test",RTL Kockica
-http://5.57.74.130:8000/play/a0b0/index.m3u8
-#EXTINF:0 group-title="test",RTS Poletarac
-http://5.57.74.130:8000/play/a0cr/index.m3u8
-#EXTINF:0 group-title="test",RTS Zivot
-http://5.57.74.130:8000/play/a0a0/index.m3u8
-#EXTINF:0 group-title="test",RTS Trezor
-http://5.57.74.130:8000/play/a0a1/index.m3u8
-#EXTINF:0 group-title="test",RTV 101
-http://5.57.74.130:8000/play/a0cb/index.m3u8
-#EXTINF:0 group-title="test",Radio Karolina TV
-http://5.57.74.130:8000/play/a0bw/index.m3u8
-#EXTINF:0 group-title="test",RTV Kiss
-http://5.57.74.130:8000/play/a0a2/index.m3u8
-#EXTINF:0 group-title="test",Radio Lola
-http://5.57.74.130:8000/play/a0c1/index.m3u8
-#EXTINF:0 group-title="test",Sky News
-http://5.57.74.130:8000/play/a0da/index.m3u8
-#EXTINF:0 group-title="test",Sci Fi
-http://5.57.74.130:8000/play/a0ch/index.m3u8
-#EXTINF:0 group-title="test",Star Crime HD
-http://5.57.74.130:8000/play/a0ax/index.m3u8
-#EXTINF:0 group-title="test",Star HD
-http://5.57.74.130:8000/play/a0ay/index.m3u8
-#EXTINF:0 group-title="test",Star Life HD
-http://5.57.74.130:8000/play/a0av/index.m3u8
-#EXTINF:0 group-title="test",Star Movies HD
-http://5.57.74.130:8000/play/a0aw/index.m3u8
-#EXTINF:0 group-title="test",TOP TV
-http://5.57.74.130:8000/play/a0cd/index.m3u8
-#EXTINF:0 group-title="test",TV 4S
-http://5.57.74.130:8000/play/a0e3/index.m3u8
-#EXTINF:0 group-title="test",TV 5 Monde
-http://5.57.74.130:8000/play/a0d5/index.m3u8
-#EXTINF:0 group-title="test",TV Front HD
-http://5.57.74.130:8000/play/a0bv/index.m3u8
-#EXTINF:0 group-title="test",TV Kanal M
-http://5.57.74.130:8000/play/a0bx/index.m3u8
-#EXTINF:0 group-title="test",TV Kraljevo
-http://5.57.74.130:8000/play/a0e4/index.m3u8
-#EXTINF:0 group-title="test",TV Sokobanja
-http://5.57.74.130:8000/play/a0e8/index.m3u8
-#EXTINF:0 group-title="test",TV Trstenik
-http://5.57.74.130:8000/play/a0by/index.m3u8
-#EXTINF:0 group-title="test",TVCG 1
-http://5.57.74.130:8000/play/a0af/index.m3u8
-#EXTINF:0 group-title="test",TVCG 2
-http://5.57.74.130:8000/play/a0c6/index.m3u8
-#EXTINF:0 group-title="test",TVCG 3
-http://5.57.74.130:8000/play/a0c7/index.m3u8
 #EXTINF:0 group-title="test",TVE
-http://5.57.74.130:8000/play/a0ci/index.m3u8
 #http://8.243.126.131:8000/play/a0gx/index.m3u8
-#EXTINF:0 group-title="test",TV Diskos
-http://5.57.74.130:8000/play/a0bz/index.m3u8
-#EXTINF:0 group-title="test",Turizam Plus TV
-http://5.57.74.130:8000/play/a0cq/index.m3u8
-#EXTINF:0 group-title="test",TravelXP
-http://5.57.74.130:8000/play/a0bk/index.m3u8
-#EXTINF:0 group-title="test",Viasat History HD
-http://5.57.74.130:8000/play/a0al/index.m3u8
-#EXTINF:0 group-title="test",Viasat Kino
-http://5.57.74.130:8000/play/a0as/index.m3u8
-#EXTINF:0 group-title="test",Viasat Explore HD
-http://5.57.74.130:8000/play/a0ah/index.m3u8
-#EXTINF:0 group-title="test",Zelena TV Zdravlje
-http://5.57.74.130:8000/play/a0cg/index.m3u8
-#EXTINF:0 group-title="test",Viasat Nature HD
-http://5.57.74.130:8000/play/a0bm/index.m3u8
-#EXTINF:0 group-title="test",TV Kazbuka HD
-http://5.57.74.130:8000/play/a0cs/index.m3u8
 #EXTINF:0 group-title="test",02-AMERICA HD
 http://8.243.126.131:8000/play/a01q/index.m3u8
 #EXTINF:0 group-title="test",01-LATINA HD
