@@ -207,13 +207,13 @@ http://37.186.70.39:40/play/97/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/detsky.png" tvg-id="detsky" tvg-description="Детский развлекательно-познавательный телеканал для детей 6–12 лет.",Уникум
 
-#EXTINF:0 group-title="Детские" tvg-description="Канал мультфильмов 90-х из пакета CineMan.",CineMan Cartoons 90
+#EXTINF:0 group-title="Детские" tvg-id="cartoons-90" tvg-description="Канал мультфильмов 90-х из пакета CineMan.",CineMan Cartoons 90
 http://91.204.123.202:80/484/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-description="Канал полнометражных мультфильмов из пакета CineMan.",CineMan Cartoons Big
+#EXTINF:0 group-title="Детские" tvg-id="cartoons-big" tvg-description="Канал полнометражных мультфильмов из пакета CineMan.",CineMan Cartoons Big
 http://91.204.123.202:80/348/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-description="Канал короткометражных мультфильмов из пакета CineMan.",CineMan Cartoons Short
+#EXTINF:0 group-title="Детские" tvg-id="cartoons-short" tvg-description="Канал короткометражных мультфильмов из пакета CineMan.",CineMan Cartoons Short
 http://91.204.123.202:80/347/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/fresh-kids.png" tvg-id="fresh-kids" tvg-description="Детский телеканал мультфильмов из пакета Fresh.",Fresh Kids
