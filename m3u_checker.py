@@ -107,7 +107,9 @@ BLOCKLIST: set[str] = {
     "Гродно Плюс",
     "Qazaqstan Teatr KZ",
     "Ushba-Films",
-    "Motorvision"
+    "Motorvision",
+    "Радио Город FM",
+    "Новое радио (Беларусь)"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).

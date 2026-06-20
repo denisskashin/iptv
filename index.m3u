@@ -91,8 +91,8 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/ont-by.png" tvg-id="ont-by" tvg-description="«ОНТ» (ОбщеНациональное Телевидение, бел. Агульнанацыянальнае тэлебачанне) — общественный белорусский телеканал. Начало своё вещание с 25 июня 2002 года в 16:30 по минскому времени на частоте российского «Первого канала». Телеканал транслирует программы собственного производства и рейтинговые программы «Первого канала», а также программы и сериалы других российских телеканалов.",ОНТ
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/pervy-info-by.png" tvg-id="pervy-info-by" tvg-description="«Первый информационный» — первый информационный телеканал Республики Беларусь. Входит в структуру Белтелерадиокомпании. Начало своё вещание с 17 сентября 2024 года.",Первый информационный
-#https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
-https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
 #https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b1010000_sleng.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w707519564_b1460000_sleng.m3u8
 #https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b5160000_sleng.m3u8
@@ -123,12 +123,12 @@ http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/chunklist.m3u8
 
 #EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk" tvg-description="«РБК» — российский бизнес-телеканал. На нём представлены экономические, финансовые и политические новости Российской Федерации и зарубежных стран.",РБК
-#http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
+http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 #http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
 #http://37.186.70.39:40/play/34/index.m3u8
 #http://online.video.rbc.ru/online2/rbctv_1080p/index.m3u8
 #http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-http://reg.fmplay.ru:8000/rbc-48.aac
+#http://reg.fmplay.ru:8000/rbc-48.aac
 #http://92.50.128.180/utv/1358/index.m3u8
 #http://92.50.128.180/utv/1358/index.m3u8?checkedby:iptvcat.com
 #http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
@@ -543,15 +543,9 @@ http://37.186.70.39:40/play/94/index.m3u8
 http://37.186.70.39:40/play/79/index.m3u8
 #http://91.204.123.202:80/153/index.m3u8
 
-#EXTINF:-1 group-title="Музыка" tvg-description="Музыкальный канал «Новое радио».",Новое радио (Беларусь)
-http://live.novoeradio.by:8081/live/novoeradio_1080p/chunks.m3u8
-
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/onemuz.png" tvg-id="onemuz" tvg-description="Музыкальный телеканал с клипами.",Первый музыкальный
 http://hz1.teleport.cc/HLS/HD.m3u8
 #http://hz1.teleport.cc/HLS/SD.m3u8
-
-#EXTINF:-1 group-title="Музыка" tvg-description="Музыкальный радиоканал.",Радио Город FM
-https://live.novoeradio.by:444/live/novoeradio_1080p/chunks.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/shanson-tv.png" tvg-id="shanson-tv" tvg-description="Музыкальный телеканал шансона.",Шансон ТВ
 http://37.186.70.39:40/play/86/index.m3u8
