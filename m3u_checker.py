@@ -515,6 +515,7 @@ ALIASES: dict[str, str] = {
     "Movie Classic": "Классика Кино",
     "Fashion TV Paris L'Original": "Fashion TV",
     "LIVETV SD": "LIVETV",
+    "ЕВРОКИНО": "Еврокино"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"

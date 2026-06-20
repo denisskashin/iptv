@@ -276,11 +276,11 @@ http://37.186.70.39:40/play/76/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/domkino-premium.png" tvg-id="domkino-premium" tvg-description="Телеканал лучших российских фильмов и сериалов.",Дом Кино Премиум
 http://37.186.70.39:40/play/77/index.m3u8
 
-#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/evrokino.png" tvg-id="evrokino" tvg-description="Телеканал европейского авторского и фестивального кино.",ЕВРОКИНО
+#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/eurokino.png" tvg-id="evrokino" tvg-description="Телеканал европейского авторского и фестивального кино.",Еврокино
 http://94.230.250.140/eurokino/index.m3u8
 #http://91.204.123.202:80/385/index.m3u8
 
-#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/indiyskoe-kino.png" tvg-id="indiyskoe-kino" tvg-description="Телеканал индийского кино — фильмы Болливуда на русском языке.",Индийское кино
+#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/indijskoe-kino.png" tvg-id="indiyskoe-kino" tvg-description="Телеканал индийского кино — фильмы Болливуда на русском языке.",Индийское кино
 http://37.186.70.39:40/play/74/index.m3u8
 #http://188.113.190.12/329/tracks-v1a1/mono.m3u8
 #http://188.113.190.12/329/index.m3u8
@@ -296,7 +296,7 @@ http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3Rp
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinomiks.png" tvg-id="kinomiks" tvg-description="Киноканал с фильмами разных жанров.",Киномикс
 #http://37.186.70.39:40/play/64/index.m3u8
 
-#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinopremiera-hd.png" tvg-id="kinopremiera-hd" tvg-description="Телеканал кинопремьер и новинок проката.",Кинопремьера
+#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd" tvg-description="Телеканал кинопремьер и новинок проката.",Кинопремьера
 http://37.186.70.39:40/play/69/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie" tvg-description="Телеканал романтического кино и мелодрам.",Киносвидание
@@ -308,7 +308,7 @@ http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
 #http://stitch.teletarget.ru/vintera/movieseason/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://stitch.teletarget.ru/vintera/movieseason/1764950731551101ef187a38512cd3d3db48c1eca37527e836ab81636ac589b9/lvl1.m3u8
 
-#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosemiya.png" tvg-id="kinosemiya" tvg-description="Телеканал семейного кино.",Киносемья
+#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya" tvg-description="Телеканал семейного кино.",Киносемья
 http://37.186.70.39:40/play/66/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-id="kinoseria" tvg-description="Киноканал художественных фильмов и киносериалов.",Киносерия
@@ -397,7 +397,7 @@ http://91.204.123.202:80/471/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/cineman-comedy.png" tvg-id="cineman-comedy" tvg-description="Телеканал комедийных фильмов (пакет CineMan).",CineMan Комедия
 http://91.204.123.202:80/356/index.m3u8
 
-#EXTINF:-1 group-title="Кино" tvg-description="Телеканал мелодрам (пакет CineMan).",CineMan Мелодрама
+#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/cineman-comedy.png" tvg-id="cineman-melodrama" tvg-description="Телеканал мелодрам (пакет CineMan).",CineMan Мелодрама
 http://91.204.123.202:80/472/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/cineman-uzhasy.png" tvg-id="cineman-uzhasy" tvg-description="Телеканал фильмов ужасов (пакет CineMan).",CineMan Ужасы
@@ -918,9 +918,6 @@ http://91.204.123.202:80/83/index.m3u8
 #http://91.204.123.202:80/225/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zootv.png" tvg-id="zootv" tvg-description="Зоо ТВ — российский тематический телеканал о животных и природе.",Зоо ТВ
-http://37.186.70.39:40/play/110/index.m3u8
-
-#EXTINF:-1 group-title="Природа" tvg-logo="https://iptvx.one/picons/zootv.png" tvg-id="zootv" tvg-description="Телеканал о животных и уходе за домашними питомцами.",Зоо ТВ
 http://37.186.70.39:40/play/110/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://epg.iptvx.one/picons/zoopark.png" tvg-id="zoopark" tvg-description="Зоопарк — российский тематический телеканал о животных.",Зоопарк
