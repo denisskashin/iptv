@@ -4,38 +4,63 @@
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства.",Авто 24
 
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-id="avto-plus" tvg-description="Телеканал об автомобилях: тест-драйвы, автоновости, тюнинг и советы автолюбителям.",Авто Плюс
+#EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-id="avto-plus" tvg-description="Телеканал об автомобилях: тест-драйвы, автоновости, тюнинг и советы автолюбителям.",Авто Плюс
 http://37.186.70.39:40/play/103/index.m3u8
 #http://91.204.123.202:80/186/index.m3u8
 
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-description="Автомобильный телеканал: обзоры машин, тест-драйвы и помощь в выборе авто.",АвтоГид
+#EXTINF:0 group-title="Авто и мотоспорт" tvg-description="Автомобильный телеканал: обзоры машин, тест-драйвы и помощь в выборе авто.",АвтоГид
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" tvg-description="«Драйв» — канал для тех, кто не мыслит своей жизни без автомобилей, мотоциклов и путешествий. Фанаты экстремального вождения и любители неторопливых автомобильных поездок по стране и миру, мотоциклисты и авто-антиквары, начинающие автолюбители и профессионалы со стажем, мужчины и женщины за рулем увидят на канале «Драйв» репортажи с выставок и автосалонов, тест-драйвы новинок мирового и отечественного автомобильного рынка, комментарии известных автоэкспертов, программы о культовых марках и тюнинге.",Драйв
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/moto-drive.png" tvg-id="moto-drive" tvg-description="Телеканал о мотоциклах, мотоспорте и культуре байкеров.",Мото Драйв
 http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-description="Телеканал об автомобилях, мотоциклах и автоспорте.",Canal Motor
-http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
-
-#EXTINF:-1 group-title="Авто и мотоспорт" tvg-id="Motorvision.pl" tvg-description="Международный телеканал об автомобилях, мотоциклах и автоспорте.",Motorvision
-https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8
-
 # Беларусь
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1" tvg-description="«Беларусь 1» — общенациональный телевизионный канал республики Беларусь. Входит в структуру Национальной государственной телерадиокомпании Республики Беларусь. Новости, публицистические, познавательные и развлекательные программы, а также сериалы и художественные фильмы. Начало своё вещание с 1 января 1956 года в 19:30 по минскому времени.",Беларусь 1
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1/playlist.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1.smil/playlist.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus1.smil/chunklist_b5160000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus1.smil/chunklist_b1010000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1010000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1460000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w1244197741_b1460000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8
+#https://edge53.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1/chunklist_w749522209_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus2hd.png" tvg-id="belarus2" tvg-description="«Беларусь 2» — общественный телеканал. Канал входит в структуру Национальной государственной телерадиокомпании Республики Беларусь.",Беларусь 2
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b1010000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w_b1010000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w_b1460000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w684715497_b1460000_sleng.m3u8
+#https://edge51.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2/chunklist_w486063721_b5160000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w695777312_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus24.png" tvg-id="belarus24" tvg-description="«Беларусь 24» — это государственный некоммерческий телеканал, обеспечивающий информационную связь этнических белорусов с исторической родиной.",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/playlist.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1008231497_b5160000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus24.smil/chunklist_b5160000_sleng.m3u8
+#http://178.124.179.122:8080/Belarus24/index.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus24.smil/chunklist_b1010000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b1010000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b1460000_sleng.m3u8
+#https://clck.ru/3F6ZUK
+#https://edge53.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1873224608_b5160000_sleng.m3u8
+#https://edge53.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
+#https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1873224608_b5160000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/index.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus3hd.png" tvg-id="belarus3" tvg-description="«Беларусь 3» — культурно-просветительский телеканал Белтелерадиокомпании, первый цифровой телеканал Республики Беларусь. Вещает на двух языках — белорусском и русском.",Беларусь 3
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w_b1460000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b5160000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/chunklist_b1010000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w_b1010000_sleng.m3u8
+#https://edge56.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3/chunklist_w1793694951_b5160000_sleng.m3u8
 
 #EXTINF:-1 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus4-vitebsk.png" tvg-id="belarus4-vitebsk" tvg-description="Региональный канал Белтелерадиокомпании для Витебской области.",Беларусь 4 Витебске
 https://ngtrk.dc.beltelecom.by/vtv/_definst_/bt4.stream/playlist.m3u8
@@ -45,6 +70,21 @@ http://46.56.85.151:8080/0.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus5-inet.png" tvg-id="belarus5" tvg-description="«Беларусь 5» — первый спортивный телеканал Республики Беларусь. Канал входит в структуру Белтелерадиокомпании.",Беларусь 5
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
+#http://91.204.123.202:80/33/index.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w1496692200_b1460000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus5.smil/chunklist_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus5.smil/chunklist_b1010000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w_b1010000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w_b1460000_sleng.m3u8
+#https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w342334170_b1460000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:belarus5.smil/chunklist_b2660000_sleng.m3u8
+#https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w1485261529_b2660000_sleng.m3u8
+#https://edge53.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/chunklist_w1049318557_b2660000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w654405596_b2660000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belros.png" tvg-id="tro" tvg-description="«БелРос» (до 24 сентября 2017 года — «ТРО») — именно это прочтение аббревиатуры, как считает бывший генеральный директор канала Игорь Угольников, является более точным в определении задач и идейной направленности телеканала.",БелРос
 
@@ -52,6 +92,12 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/pervy-info-by.png" tvg-id="pervy-info-by" tvg-description="«Первый информационный» — первый информационный телеканал Республики Беларусь. Входит в структуру Белтелерадиокомпании. Начало своё вещание с 17 сентября 2024 года.",Первый информационный
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
+https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w868240704_b5160000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b1010000_sleng.m3u8
+#https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w707519564_b1460000_sleng.m3u8
+#https://edge50.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/chunklist_b5160000_sleng.m3u8
+#https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xNy8yMDI0IDEwOjA0OjA4IEFNJmhhc2hfdmFsdWU9SDJKZTBvbkthK0M0RG14b3JWdkNzZz09JnZhbGlkbWludXRlcz0xMjA%3D
+#https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/rtr-belarus.png" tvg-id="rtr-belarus" tvg-description="«РТР-Беларусь» (официальное название телеканала — «Россия-Беларусь») — белорусский телеканал, является собственностью телекомпании «СТВ».",РТР Беларусь
 
@@ -60,6 +106,14 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/stv-by.png" tvg-id="stv-by" tvg-description="«СТВ» — белорусский телеканал, один из трёх национальных телеканалов, вещающий на всю территорию Беларуси.",СТВ
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #http://86.57.147.236/HLS/ctvby/playlist.m3u8
+#https://edge53.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist_w1093126388.m3u8
+#http://edge50.dc.beltelecom.by/ctv/ctv.stream/chunklist_b5160000_sleng.m3u8
+#https://edge55.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist_w1789650572.m3u8
+#https://edge56.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist_w357074489.m3u8
+#http://edge59.dc.beltelecom.by/ctv/_definst_/ctv.stream/playlist.m3u8
+#https://ngtrk.dc.beltelecom.by/ctv/_definst_/ctv.stream/playlist.m3u8
+#http://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8
+#https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/tv3-by.png" tvg-id="tv3-by" tvg-description="«ТВ-3 Беларусь» – белорусский познавательно-развлекательный телеканал. Основу сетки составляют российские и зарубежные телесериалы, документальные фильмы российского производства, фильмы и сериалы в жанре «фэнтези», затрагивающие самые сокровенные стороны неопознанного и мистического, развлекательные шоу.",ТВ-3 Беларусь
 
@@ -74,6 +128,20 @@ https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/chunklist.m3u8
 #http://37.186.70.39:40/play/34/index.m3u8
 #http://online.video.rbc.ru/online2/rbctv_1080p/index.m3u8
 #http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
+http://reg.fmplay.ru:8000/rbc-48.aac
+#http://92.50.128.180/utv/1358/index.m3u8
+#http://92.50.128.180/utv/1358/index.m3u8?checkedby:iptvcat.com
+#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
+#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8
+#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
+#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
+#http://e6.online.video.rbc.ru/online2/rbctv_480p/index.m3u8?checkedby:iptvcat.com
+#http://e6.online.video.rbc.ru/online2/rbctv_480p/index.m3u8
+#http://e3.online.video.rbc.ru/online2/rbctv_576p/index.m3u8?checkedby:iptvcat.com
+#http://e8.online.video.rbc.ru/online2/rbctv_576p/index.m3u8
+#http://e3.online.video.rbc.ru/online2/rbctv_576p/index.m3u8
+#http://online.video.rbc.ru/online/rbctv_576p/index.m3u8?checkedby:iptvcat.com
+#http://online.video.rbc.ru/online/rbctv_720p/index.m3u8
 
 #EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/uspex.png" tvg-id="uspex" tvg-description="Успех — российский тематический телеканал о бизнесе, успехе и личностном развитии.",Успех
 
@@ -111,20 +179,23 @@ http://37.186.70.39:40/play/98/index.m3u8
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/mamonttv.png" tvg-id="mamonttv" tvg-description="Детский телеканал с мультфильмами для самых маленьких.",Мамонтёнок
 https://sirius.greenhosting.ru/MamontRu/index.m3u8
 #http://85.192.10.173/MamontRu/mono.m3u8
+#http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/mult.png" tvg-id="mult" tvg-description="Российский детский телеканал с отечественными мультсериалами.",Мульт
 
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania.png" tvg-id="multimania" tvg-description="Детский телеканал мультфильмов.",Мультиландия
 http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
+#http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania-lv.png" tvg-id="multimania-lv" tvg-description="Детский телеканал с мультфильмами и анимацией.",Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
+#http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/o_.png" tvg-id="o_" tvg-description="Российский детский познавательно-развивающий телеканал для дошкольников.",О!
 http://91.204.123.202:80/60/index.m3u8
 #http://37.186.70.39:40/play/100/index.m3u8
 
-#EXTINF:-1 group-title="Детские" tvg-description="Детский телеканал с мультфильмами.",Пингвин
+#EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/pingvin-lolo.png" tvg-id="pingvin-lolo" tvg-description="Детский телеканал с мультфильмами.",Пингвин
 https://sirius.greenhosting.ru/PingvinRu/video.m3u8
 #http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
 
@@ -160,9 +231,11 @@ https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/Minimax.png" tvg-id="Minimax.cz" tvg-description="Детский телеканал мультфильмов (Центральная и Восточная Европа).",Minimax
 https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
+#http://5.57.74.130:8000/play/a0bd/index.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru" tvg-description="Международный детский развлекательный телеканал с популярными мультсериалами.",Nickelodeon
 http://91.204.123.202:80/443/index.m3u8
+#http://5.57.74.130:8000/play/a0ba/index.m3u8
 
 #EXTINF:-1 group-title="Детские" tvg-description="Детский телеканал с анимацией и развивающим контентом.",NikNik.TV
 https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
@@ -217,6 +290,8 @@ http://37.186.70.39:40/play/75/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-description="Киноканал с подборкой художественных фильмов.",КиноМеню
 #http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8
+http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
+#http://stitch.teletarget.ru/vintera/kinomenu/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinomiks.png" tvg-id="kinomiks" tvg-description="Киноканал с фильмами разных жанров.",Киномикс
 #http://37.186.70.39:40/play/64/index.m3u8
@@ -229,6 +304,9 @@ http://37.186.70.39:40/play/67/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosezon.png" tvg-id="kinosezon" tvg-description="Киноканал с художественными фильмами.",КиноСезон
 http://stitch.teletarget.ru/vintera/movieseason/index.m3u8
+#http://stitch.teletarget.ru/vintera/movieseason/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
+#http://stitch.teletarget.ru/vintera/movieseason/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
+#https://stitch.teletarget.ru/vintera/movieseason/1764950731551101ef187a38512cd3d3db48c1eca37527e836ab81636ac589b9/lvl1.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosemiya.png" tvg-id="kinosemiya" tvg-description="Телеканал семейного кино.",Киносемья
 http://37.186.70.39:40/play/66/index.m3u8
@@ -246,6 +324,7 @@ http://37.186.70.39:40/play/70/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/klassika-kino.png" tvg-id="klassika-kino" tvg-description="Телеканал классического кинематографа.",Классика Кино
 http://stitch.teletarget.ru/vintera/movieclassic/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
+#https://stitch.teletarget.ru/vintera/movieclassic/1769345728421a8ea6e51c8383dc93762a02d599036121e311be997503169eb5/lvl1.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" tvg-id="russkaya-komedia" tvg-description="Телеканал комедийных фильмов.",Комедия
 http://91.204.123.202:80/68/index.m3u8
@@ -268,6 +347,7 @@ http://91.204.123.202:80/421/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/pro100.png" tvg-id="pro100" tvg-description="Семейный телеканал художественного кино: зарубежная и отечественная киноклассика, детские и познавательные программы.",Про100
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #http://85.192.10.173/Pro100tvRu/video.m3u8
+#http://sirius.greenhosting.ru/Pro100tvRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/retro-tv.png" tvg-id="retro-tv" tvg-description="Телеканал ретро-кино, музыки и передач прошлых лет.",Ретро
 http://37.186.70.39:40/play/46/index.m3u8
@@ -284,6 +364,9 @@ http://37.186.70.39:40/play/72/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/sovkino.png" tvg-id="sovkino" tvg-description="Телеканал фильмов советского кинематографа.",Советское кино
 http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
+#http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
+#https://stitch.teletarget.ru/vintera/sovietmovie/17696847156167dd9935fac28723490766c9879588bc1d723892ef11c0282861/lvl1.m3u8
+#http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/khit.png" tvg-id="khit" tvg-description="Телеканал популярного зарубежного и отечественного кино.",Хит
 http://91.204.123.202:80/363/index.m3u8
@@ -363,6 +446,7 @@ http://91.204.123.202:80/428/index.m3u8
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/kino-24.png" tvg-id="kino-24" tvg-description="Круглосуточный киноканал художественных фильмов.",Kino 24
 http://sirius.greenhosting.ru/Kino24Ru/video.m3u8
 #http://85.192.10.173/Kino24Ru/video.m3u8
+#http://sirius.greenhosting.ru/Kino24Ru/tracks-v1a1/mono.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-description="Телеканал голливудского кино.",Mix Hollywood
 https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
@@ -372,6 +456,7 @@ https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air" tvg-description="Киноканал фильмов и сериалов онлайн-кинотеатра START.",Start Air
 http://91.204.123.202:80/128/index.m3u8
+#https://live.presstv.ir/hls/presstv_5_482/index.m3u8
 
 #EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/trashtv.png" tvg-id="trashtv" tvg-description="Российский киноканал жанра «треш»: боевики, ужасы и чёрные комедии, 18+.",Trash
 https://woobl.ru/platform24.php?id=4830&p=index.m3u8
@@ -411,6 +496,7 @@ http://89.104.114.24:8080/art/index.m3u8?token=test
 #EXTINF:0 group-title="Культура" tvg-description="Культ Медиа — российский культурный телеканал, транслирующий программы об искусстве и культуре.",Культ Медиа
 http://213.108.175.226/telplushd/index.m3u8
 #http://streaming.astrakhan.ru/telplushd/tracks-v1a1/mono.ts.m3u8
+#https://streaming.astrakhan.ru/telplushd/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Культура" tvg-logo="https://iptvx.one/picons/kultura.png" tvg-id="kultura" tvg-description="Россия Культура — общероссийский государственный телеканал, посвящённый культуре, искусству, театру, кино и образованию.",Россия Культура
 http://37.186.70.39:40/play/26/index.m3u8
@@ -428,6 +514,8 @@ http://91.204.123.202:80/119/index.m3u8
 
 #EXTINF:0 group-title="Мода" tvg-logo="https://iptvx.one/picons/fashion-tv.png" tvg-id="fashion-tv" tvg-description="Fashion TV — международный телеканал о моде и индустрии красоты. Транслирует показы мод, репортажи о трендах и стиле жизни.",Fashion TV
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
+#http://5.57.74.130:8000/play/a0e2/index.m3u8
+#https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_480854_p_0.m3u8
 
 #EXTINF:-1 group-title="Мода" tvg-description="Телеканал о моде и индустрии стиля.",Global Fashion
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
@@ -453,7 +541,6 @@ http://37.186.70.39:40/play/94/index.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-id="muzyka-pervogo" tvg-description="Музыкальный телеканал с клипами от Первого канала.",Музыка первого
 http://37.186.70.39:40/play/79/index.m3u8
-#http://rr2.73mtv.org/~109e1a3c05fcad5b22d13b9453dc0db5122/81/hls/pl.m3u8
 #http://91.204.123.202:80/153/index.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-description="Музыкальный канал «Новое радио».",Новое радио (Беларусь)
@@ -465,7 +552,6 @@ http://hz1.teleport.cc/HLS/HD.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-description="Музыкальный радиоканал.",Радио Город FM
 https://live.novoeradio.by:444/live/novoeradio_1080p/chunks.m3u8
-#https://sokfm.ru/listen/online/320
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/shanson-tv.png" tvg-id="shanson-tv" tvg-description="Музыкальный телеканал шансона.",Шансон ТВ
 http://37.186.70.39:40/play/86/index.m3u8
@@ -480,26 +566,20 @@ http://37.186.70.39:40/play/93/index.m3u8
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Телеканал классической музыки.",Classic Music HD
 http://91.204.123.202:80/312/index.m3u8
 
-#EXTINF:-1 group-title="Музыка" tvg-description="Канал релакс- и медитативной музыки.",Meditation Music
-https://kisstv.siliconweb.com/kissfm/kisstv/chunks.m3u8
-#http://songtvam.ru:8060/hd/playlist.m3u8
-#http://dygvideo.dygdigital.com/live/hls/kralpop?m3u8
-#https://dogus.daioncdn.net/kralpoptv/kralpoptv.m3u8?app=f38a38b4-ce55-4040-8676-9826937d6128
-#http://de1se01.v2beat.live/playlist.m3u8?kizugtv.m3u8
-#http://217.79.184.52/Nostalgia/index.m3u8
+#EXTINF:-1 group-title="Музыка",Classic
 #https://dash4.antik.sk/live/mb_classic/index.m3u8
-#https://stream.e2is.in/hls/7xMusic.m3u8
-#https://rds3gen.desdeparaguay.net/aspentv/aspentv/chunklist_w358589676.m3u8
-#http://lunar.pm:8080/o59Lu8kZbb/J20KRhskrY/120358
-#https://a7.radioheart.io:9025/RH57075
-#http://aachd.stream.tb-group.fm:80/clt-hd.aac
-#http://aachd.stream.tb-group.fm:80/rp-hd.aac
+
+#EXTINF:-1 group-title="Музыка",Kiss
+https://kisstv.siliconweb.com/kissfm/kisstv/chunks.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-description="Канал релакс-музыки и спокойных видеопейзажей.",Relax
 http://91.204.123.202:80/459/index.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Музыкальный телеканал с клипами.",Russian Music Box
 http://91.204.123.202:80/319/index.m3u8
+
+#EXTINF:-1 group-title="Музыка",Song TV
+#http://songtvam.ru:8060/hd/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/iconcerts.png" tvg-id="iconcerts" tvg-description="Телеканал концертов и живой музыки (Stingray).",Stingray Iconcerts
 http://91.204.123.202:80/267/index.m3u8
@@ -528,6 +608,9 @@ http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
 https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
 #http://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/2.m3u8
 #https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
+#https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
+#https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
+#http://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 
 #EXTINF:-1 group-title="Новости" tvg-description="Информационный телеканал.",News Front TV
 https://tv.2kita.com/stream/index.m3u8
@@ -567,7 +650,6 @@ http://37.186.70.39:40/play/39/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
 http://37.186.70.39:40/play/37/index.m3u8
-#http://194.106.112.211:9981/stream/channelid/1875523149?profile=pass
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/aris24.png" tvg-id="aris24" tvg-description="Арис 24 — региональный новостной телеканал, транслирующий актуальные события.",Арис 24
 
@@ -582,7 +664,6 @@ http://37.186.70.39:40/play/37/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" tvg-id="krasnaya-linia" tvg-description="Красная линия — российский общественно-политический телеканал левой направленности.",Красная линия
 
 #EXTINF:-1 group-title="Общественные" tvg-logo="https://iptvx.one/picons/krik-tv.png" tvg-id="krik-tv" tvg-description="Российский информационно-патриотический телеканал: новости регионов и передачи об обществе.",Крик ТВ
-http://cdn-01.bonus-tv.ru/kriktv_edge/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir" tvg-description="Мир — межгосударственная телерадиокомпания стран СНГ. Транслирует новости, документальные фильмы и культурные программы для русскоязычной аудитории.",Мир
 #http://37.186.70.39:40/play/43/index.m3u8
@@ -670,6 +751,7 @@ https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 #http://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rtvi.png" tvg-id="rtvi" tvg-description="RTVi — независимый русскоязычный телеканал. Транслирует новости, аналитику и общественно-политические программы для аудитории в России и за рубежом.",RTVi
+http://91.146.94.234:10001/play/a090
 
 #EXTINF:0 group-title="Общественные" tvg-description="TV PRO — телеканал, специализирующийся на профессиональном образовании и бизнес-контенте.",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
@@ -847,6 +929,7 @@ http://37.186.70.39:40/play/110/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" tvg-id="animal-planet-eu" tvg-description="Animal Planet — международный телеканал о животных и природе. Транслирует документальные программы о дикой природе и домашних животных.",Animal Planet
 http://37.186.70.39:40/play/113/index.m3u8
+#http://8.243.126.131:8000/play/a0ga/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/big-planet.png" tvg-id="big-planet" tvg-description="Big Planet — познавательный телеканал о природе и мире.",Big Planet
 
@@ -854,6 +937,7 @@ http://37.186.70.39:40/play/113/index.m3u8
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/love-nature-4k.png" tvg-id="love-nature-4k" tvg-description="Love Nature — международный телеканал о природе в формате 4K. Транслирует высококачественные документальные фильмы о дикой природе.",Love Nature 4k
+http://91.146.94.234:10001/play/a0ac
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/minimax-makromir.png" tvg-id="minimax-makromir" tvg-description="Minimax Макромир — телеканал детской медиагруппы Minimax, транслирующий программы о большом мире.",Minimax Макромир
 
@@ -1054,10 +1138,14 @@ https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/russky-ekstrim.png" tvg-id="russky-ekstrim" tvg-description="Russian Extreme — российский телеканал, посвящённый экстремальным видам спорта и приключениям.",Russian Extreme
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus" tvg-description="TLC (The Learning Channel) — международный развлекательный телеканал. Специализируется на реалити-шоу, лайфстайл и документальных программах.",TLC
+http://5.57.74.130:8000/play/a0cj/index.m3u8
+#http://8.243.126.131:8000/play/a0gc/index.m3u8
+#http://8.243.126.131:8000/play/a0ja/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvmchannel.png" tvg-id="tvmchannel" tvg-description="TVM Channel — тематический телеканал.",TVM Channel
 
 #EXTINF:0 group-title="Развлекательные" tvg-description="TVRUS — русскоязычный телеканал для зрителей в США и Канаде. Транслирует новости, сериалы и развлекательные программы.",TVRUS
+http://91.146.94.234:10001/play/a06n
 
 # Региональные
 
@@ -1306,6 +1394,10 @@ http://88.212.7.11/live/test_ctsport_25p/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-description="Спортивный телеканал DSports.",DSPORTS 1
 http://190.117.20.37:8000/play/a08d/index.m3u8
 
+#EXTINF:-1 group-title="Спорт",ESPN 2
+#http://200.10.30.241:8000/play/a01r/index.m3u8
+http://8.243.126.131:8000/play/a0ge/index.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1" tvg-description="Eurosport 1 — европейский спортивный телеканал. Транслирует широкий спектр соревнований: теннис, велоспорт, лыжи, биатлон и другие виды спорта.",Eurosport 1
 http://37.186.70.39:40/play/111/index.m3u8
 
@@ -1368,7 +1460,6 @@ https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-description="Спортивный телеканал.",PX SPORTS
 http://181.78.109.48:9998/play/a03q/index.m3u8
 #http://181.78.109.48:9998/play/a03r/index.m3u8
-#http://200.10.30.241:8000/play/a01r/index.m3u8
 #http://181.78.109.48:9998/play/a06r/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/qsport-kg.png" tvg-id="qsport-kg" tvg-description="Q Sport — казахстанский спортивный телеканал.",Q Sport
@@ -1377,7 +1468,6 @@ http://181.78.109.48:9998/play/a03q/index.m3u8
 http://91.204.123.202:80/72/index.m3u8
 
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/setanta-sports-plus.png" tvg-id="setanta-sports-plus" tvg-description="Спортивный телеканал Setanta Sports.",Setanta Sports 2
-http://91.204.123.202:80/235/index.m3u8
 
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/spotv.png" tvg-id="spotv" tvg-description="Азиатский спортивный телеканал SPOTV.",SPOTV
 http://primestreams.tv:826/live/mookie22/49aV7nBsK4/119515.m3u8
@@ -1443,6 +1533,10 @@ http://181.78.109.48:9998/play/a03r/index.m3u8
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
 #https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #https://live.mnb.mn/hls/mnb_sport.stream.m3u8
+#http://91.146.94.234:10001/play/max-sport-1
+#http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
+#http://stitch.teletarget.ru/vintera/motodrive/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
+#http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 
 # candidate
 
@@ -1466,3 +1560,1100 @@ http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwM
 #http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://tv.mobyservice.ru/livetv/index.m3u8
 
+#EXTINF:-1 group-title="candidate",Ош ТВ
+http://212.42.117.34:8080/hls/OshTV.m3u8
+
+#EXTINF:-1 group-title="candidate",Сиртаки ТВ
+https://autopilot.catcast.tv/content/46421/index.m3u8?password=loganet
+#https://cityeden.catcast.tv/content/46421/index.m3u8
+
+#EXTINF:-1 group-title="candidate",ТВ Мана Ваш
+https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
+
+#EXTINF:-1 group-title="candidate",Food Food
+http://103.175.73.12:8080/live/143/143_0.m3u8
+
+#EXTINF:-1 group-title="candidate",kabel eins
+https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
+
+#EXTINF:-1 group-title="candidate",Paideuma TV
+https://paideuma.tv:1443/live/Channel2728/chunklist.m3u8
+
+#EXTINF:-1  group-title="test",Мультимания (576p)
+https://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1 tvg-id="Prodvizhenie.ru" tvg-name="Продвижение" tvg-logo="https://i.ibb.co/C3fSzY4D/image-50.png" group-title="test", Продвижение (Новокузнецк)
+https://tvn-tv.ru:81/hls/stream.m3u8
+
+#EXTINF:-1 group-title="test",СТВ HD
+https://edge50.dc.beltelecom.by/ctv/ctv.stream/chunklist_b5160000_sleng.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="test",Mahni TV AZ
+https://stream.yayim.az/MahniTV/tracks-v1a1/mono.ts.m3u8
+
+#EXTINF:-1 group-title="test",068 Кинокомедия
+http://37.186.70.39:40/play/68/index.m3u8
+
+#EXTINF:-1 group-title="test",AMC Balkan HD
+http://5.57.74.130:8000/play/a0au/index.m3u8
+
+#EXTINF:-1 group-title="test",AXN
+http://5.57.74.130:8000/play/a0at/index.m3u8
+#EXTINF:-1 group-title="test",AXN Spin
+http://5.57.74.130:8000/play/a0ar/index.m3u8
+#EXTINF:-1 group-title="test",BBC Earth
+http://5.57.74.130:8000/play/a0bl/index.m3u8
+#EXTINF:-1 group-title="test",Baby TV
+http://5.57.74.130:8000/play/a0be/index.m3u8
+#http://91.146.94.234:10001/play/a08q
+#EXTINF:-1 group-title="test",ATV
+http://5.57.74.130:8000/play/a0cz/index.m3u8
+#EXTINF:-1 group-title="test",B1
+http://5.57.74.130:8000/play/a0c2/index.m3u8
+#EXTINF:-1 group-title="test",CNN
+http://5.57.74.130:8000/play/a0d9/index.m3u8
+#EXTINF:-1 group-title="test",Cartoon Network
+http://5.57.74.130:8000/play/a0b8/index.m3u8
+#http://8.243.126.131:8000/play/a0f2/index.m3u8
+#EXTINF:-1 group-title="test",Cinemax 2
+http://5.57.74.130:8000/play/a0cm/index.m3u8
+#EXTINF:-1 group-title="test",Desire TV
+http://5.57.74.130:8000/play/a0c4/index.m3u8
+#EXTINF:-1 group-title="test",Dankos Plus
+http://5.57.74.130:8000/play/a0ae/index.m3u8
+#EXTINF:-1 group-title="test",Current Time TV
+http://5.57.74.130:8000/play/a0d4/index.m3u8
+#EXTINF:-1 group-title="test",DaVinci Learning
+http://5.57.74.130:8000/play/a0bh/index.m3u8
+#EXTINF:-1 group-title="test",Dexy TV HD
+http://5.57.74.130:8000/play/a0cv/index.m3u8
+#EXTINF:-1 group-title="test",Cinemax
+http://5.57.74.130:8000/play/a0cl/index.m3u8
+#http://8.243.126.131:8000/play/a0gv/index.m3u8
+#EXTINF:-1 group-title="test",Disney
+http://5.57.74.130:8000/play/a0bg/index.m3u8
+#EXTINF:-1 group-title="test",Disney Junior
+http://5.57.74.130:8000/play/a0bf/index.m3u8
+#EXTINF:-1 group-title="test",E!
+http://5.57.74.130:8000/play/a0do/index.m3u8
+#http://8.243.126.131:8000/play/a0g7/index.m3u8
+#EXTINF:-1 group-title="test",Diva
+http://5.57.74.130:8000/play/a0ad/index.m3u8
+#EXTINF:-1 group-title="test",Docubox
+http://5.57.74.130:8000/play/a0bu/index.m3u8
+#EXTINF:-1 group-title="test",DW English
+http://5.57.74.130:8000/play/a0dc/index.m3u8
+#EXTINF:-1 group-title="test",Euronews
+http://5.57.74.130:8000/play/a0db/index.m3u8
+#EXTINF:-1 group-title="test",FREEDOM TV
+http://5.57.74.130:8000/play/a0d6/index.m3u8
+#EXTINF:-1 group-title="test",Fast and fun Box
+http://5.57.74.130:8000/play/a0ak/index.m3u8
+#EXTINF:-1 group-title="test",FilmBox Extra
+http://5.57.74.130:8000/play/a0ac/index.m3u8
+#EXTINF:-1 group-title="test",Face TV
+http://5.57.74.130:8000/play/a0d8/index.m3u8
+#EXTINF:-1 group-title="test",Filmbox Arthouse
+http://5.57.74.130:8000/play/a09w/index.m3u8
+#EXTINF:-1 group-title="test",Filmbox Premium
+http://5.57.74.130:8000/play/a0aa/index.m3u8
+#EXTINF:-1 group-title="test",Filmbox Stars
+http://5.57.74.130:8000/play/a0ab/index.m3u8
+#EXTINF:-1 group-title="test",Fox News
+http://5.57.74.130:8000/play/a0dh/index.m3u8
+#EXTINF:-1 group-title="test",Gametoon
+http://5.57.74.130:8000/play/a0e1/index.m3u8
+#EXTINF:-1 group-title="test",France 24
+http://5.57.74.130:8000/play/a0dd/index.m3u8
+#EXTINF:-1 group-title="test",FashionBOX
+http://5.57.74.130:8000/play/a0dw/index.m3u8
+#EXTINF:-1 group-title="test",HBO 3 HD
+http://5.57.74.130:8000/play/a0cy/index.m3u8
+#EXTINF:-1 group-title="test",HBO 2 HD
+http://5.57.74.130:8000/play/a0cx/index.m3u8
+#EXTINF:-1 group-title="test",Discovery Channel HD
+http://5.57.74.130:8000/play/a0ag/index.m3u8
+#http://8.243.126.131:8000/play/a0d9/index.m3u8
+#EXTINF:-1 group-title="test",HGTV HD
+http://5.57.74.130:8000/play/a0bp/index.m3u8
+#EXTINF:-1 group-title="test",Happy Reality 2
+http://5.57.74.130:8000/play/a0dq/index.m3u8
+#EXTINF:-1 group-title="test",HISTORY HD
+http://5.57.74.130:8000/play/a0bq/index.m3u8
+#EXTINF:-1 group-title="test",Happy Reality 1
+http://5.57.74.130:8000/play/a0dp/index.m3u8
+#EXTINF:-1 group-title="test",Hayatovci
+http://5.57.74.130:8000/play/a0bc/index.m3u8
+#EXTINF:-1 group-title="test",ID
+http://5.57.74.130:8000/play/a0bt/index.m3u8
+#EXTINF:-1 group-title="test",Jim Jam
+http://5.57.74.130:8000/play/a0bi/index.m3u8
+#EXTINF:-1 group-title="test",K3
+http://5.57.74.130:8000/play/a0d1/index.m3u8
+#EXTINF:-1 group-title="test",LH TV HD
+http://5.57.74.130:8000/play/a0br/index.m3u8
+#EXTINF:-1 group-title="test",MOSTNET HD
+http://5.57.74.130:8000/play/a0e6/index.m3u8
+#EXTINF:-1 group-title="test",Nat Geo Wild HD
+http://5.57.74.130:8000/play/a0ai/index.m3u8
+#EXTINF:-1 group-title="test",National Geographic HD
+http://5.57.74.130:8000/play/a0am/index.m3u8
+#EXTINF:-1 group-title="test",Nick Jr
+http://5.57.74.130:8000/play/a0b7/index.m3u8
+#EXTINF:-1 group-title="test",Nickelodeon HD
+http://5.57.74.130:8000/play/a0bb/index.m3u8
+#EXTINF:-1 group-title="test",Nicktoons
+http://5.57.74.130:8000/play/a0b9/index.m3u8
+#EXTINF:-1 group-title="test",OBN
+http://5.57.74.130:8000/play/a0d3/index.m3u8
+#EXTINF:-1 group-title="test",Pink Classic
+http://5.57.74.130:8000/play/a0a7/index.m3u8
+#EXTINF:-1 group-title="test",Pink Comedy
+http://5.57.74.130:8000/play/a09y/index.m3u8
+#EXTINF:-1 group-title="test",Pink Extra
+http://5.57.74.130:8000/play/a0dx/index.m3u8
+#EXTINF:-1 group-title="test",Pink Crime and Mistery
+http://5.57.74.130:8000/play/a0ao/index.m3u8
+#EXTINF:-1 group-title="test",Pink Family
+http://5.57.74.130:8000/play/a0a5/index.m3u8
+#EXTINF:-1 group-title="test",HISTORY 2
+http://5.57.74.130:8000/play/a0aj/index.m3u8
+#EXTINF:-1 group-title="test",Pink Film
+http://5.57.74.130:8000/play/a0a4/index.m3u8
+#EXTINF:-1 group-title="test",Pink Fashion
+http://5.57.74.130:8000/play/a0dv/index.m3u8
+#EXTINF:-1 group-title="test",Pink Horror
+http://5.57.74.130:8000/play/a09z/index.m3u8
+#EXTINF:-1 group-title="test",Pink Haha
+http://5.57.74.130:8000/play/a0dm/index.m3u8
+#EXTINF:-1 group-title="test",Pink Koncert
+http://5.57.74.130:8000/play/a0az/index.m3u8
+#EXTINF:-1 group-title="test",Pink Kids
+http://5.57.74.130:8000/play/a0b3/index.m3u8
+#EXTINF:-1 group-title="test",Pink Kuvar
+http://5.57.74.130:8000/play/a0e0/index.m3u8
+#EXTINF:-1 group-title="test",Pink LoL
+http://5.57.74.130:8000/play/a0dn/index.m3u8
+#EXTINF:-1 group-title="test",Pink Music
+http://5.57.74.130:8000/play/a0b2/index.m3u8
+#EXTINF:-1 group-title="test",Pink Movies
+http://5.57.74.130:8000/play/a0aq/index.m3u8
+#EXTINF:-1 group-title="test",Pink Plus
+http://5.57.74.130:8000/play/a0di/index.m3u8
+#EXTINF:-1 group-title="test",Pink Music 2
+http://5.57.74.130:8000/play/a0b4/index.m3u8
+#EXTINF:-1 group-title="test",Pink Pedia
+http://5.57.74.130:8000/play/a0bj/index.m3u8
+#EXTINF:-1 group-title="test",Pink Reality
+http://5.57.74.130:8000/play/a0dj/index.m3u8
+#EXTINF:-1 group-title="test",Pink Romance
+http://5.57.74.130:8000/play/a0ap/index.m3u8
+#EXTINF:-1 group-title="test",Pink SciFi and Fantasy
+http://5.57.74.130:8000/play/a09x/index.m3u8
+#EXTINF:-1 group-title="test",Pink Serije
+http://5.57.74.130:8000/play/a0a8/index.m3u8
+#EXTINF:-1 group-title="test",Pink Show
+http://5.57.74.130:8000/play/a0dz/index.m3u8
+#EXTINF:-1 group-title="test",Pink Super Kids
+http://5.57.74.130:8000/play/a0b6/index.m3u8
+#EXTINF:-1 group-title="test",Pink Soap
+http://5.57.74.130:8000/play/a0cc/index.m3u8
+#EXTINF:-1 group-title="test",Pink Style
+http://5.57.74.130:8000/play/a0dy/index.m3u8
+#EXTINF:-1 group-title="test",Pink Thriller
+http://5.57.74.130:8000/play/a0an/index.m3u8
+#EXTINF:-1 group-title="test",Pink Western
+http://5.57.74.130:8000/play/a0a6/index.m3u8
+#EXTINF:-1 group-title="test",Pink World Cinema
+http://5.57.74.130:8000/play/a0a9/index.m3u8
+#EXTINF:-1 group-title="test",Pink Zabava
+http://5.57.74.130:8000/play/a0dl/index.m3u8
+#EXTINF:-1 group-title="test",Pink World
+http://5.57.74.130:8000/play/a0dk/index.m3u8
+#EXTINF:-1 group-title="test",Pink Action
+http://5.57.74.130:8000/play/a0a3/index.m3u8
+#EXTINF:-1 group-title="test",Playboy TV HD
+http://5.57.74.130:8000/play/a0c8/index.m3u8
+#EXTINF:-1 group-title="test",Prva Files HD
+http://5.57.74.130:8000/play/a0cp/index.m3u8
+#EXTINF:-1 group-title="test",Prva Kick HD
+http://5.57.74.130:8000/play/a0ca/index.m3u8
+#EXTINF:-1 group-title="test",Prva Life HD
+http://5.57.74.130:8000/play/a0co/index.m3u8
+#EXTINF:-1 group-title="test",Prva Plus HD
+http://5.57.74.130:8000/play/a0cn/index.m3u8
+#EXTINF:-1 group-title="test",RT Doc
+http://5.57.74.130:8000/play/a0bs/index.m3u8
+#EXTINF:-1 group-title="test",RT Balkan HD
+http://5.57.74.130:8000/play/a0c5/index.m3u8
+#EXTINF:-1 group-title="test",RTG int
+http://5.57.74.130:8000/play/a0bn/index.m3u8
+#EXTINF:-1 group-title="test",RT
+http://5.57.74.130:8000/play/a0dg/index.m3u8
+#EXTINF:-1 group-title="test",RTL Kockica
+http://5.57.74.130:8000/play/a0b0/index.m3u8
+#EXTINF:-1 group-title="test",RTS Poletarac
+http://5.57.74.130:8000/play/a0cr/index.m3u8
+#EXTINF:-1 group-title="test",RTS Zivot
+http://5.57.74.130:8000/play/a0a0/index.m3u8
+#EXTINF:-1 group-title="test",RTS Trezor
+http://5.57.74.130:8000/play/a0a1/index.m3u8
+#EXTINF:-1 group-title="test",RTV 101
+http://5.57.74.130:8000/play/a0cb/index.m3u8
+#EXTINF:-1 group-title="test",Radio Karolina TV
+http://5.57.74.130:8000/play/a0bw/index.m3u8
+#EXTINF:-1 group-title="test",RTV Kiss
+http://5.57.74.130:8000/play/a0a2/index.m3u8
+#EXTINF:-1 group-title="test",Radio Lola
+http://5.57.74.130:8000/play/a0c1/index.m3u8
+#EXTINF:-1 group-title="test",Sky News
+http://5.57.74.130:8000/play/a0da/index.m3u8
+#EXTINF:-1 group-title="test",Sci Fi
+http://5.57.74.130:8000/play/a0ch/index.m3u8
+#EXTINF:-1 group-title="test",Star Crime HD
+http://5.57.74.130:8000/play/a0ax/index.m3u8
+#EXTINF:-1 group-title="test",Star HD
+http://5.57.74.130:8000/play/a0ay/index.m3u8
+#EXTINF:-1 group-title="test",Star Life HD
+http://5.57.74.130:8000/play/a0av/index.m3u8
+#EXTINF:-1 group-title="test",Star Movies HD
+http://5.57.74.130:8000/play/a0aw/index.m3u8
+#EXTINF:-1 group-title="test",TOP TV
+http://5.57.74.130:8000/play/a0cd/index.m3u8
+#EXTINF:-1 group-title="test",TV 4S
+http://5.57.74.130:8000/play/a0e3/index.m3u8
+#EXTINF:-1 group-title="test",TV 5 Monde
+http://5.57.74.130:8000/play/a0d5/index.m3u8
+#EXTINF:-1 group-title="test",TV Front HD
+http://5.57.74.130:8000/play/a0bv/index.m3u8
+#EXTINF:-1 group-title="test",TV Kanal M
+http://5.57.74.130:8000/play/a0bx/index.m3u8
+#EXTINF:-1 group-title="test",TV Kraljevo
+http://5.57.74.130:8000/play/a0e4/index.m3u8
+#EXTINF:-1 group-title="test",TV Sokobanja
+http://5.57.74.130:8000/play/a0e8/index.m3u8
+#EXTINF:-1 group-title="test",TV Trstenik
+http://5.57.74.130:8000/play/a0by/index.m3u8
+#EXTINF:-1 group-title="test",TVCG 1
+http://5.57.74.130:8000/play/a0af/index.m3u8
+#EXTINF:-1 group-title="test",TVCG 2
+http://5.57.74.130:8000/play/a0c6/index.m3u8
+#EXTINF:-1 group-title="test",TVCG 3
+http://5.57.74.130:8000/play/a0c7/index.m3u8
+#EXTINF:-1 group-title="test",TVE
+http://5.57.74.130:8000/play/a0ci/index.m3u8
+#http://8.243.126.131:8000/play/a0gx/index.m3u8
+#EXTINF:-1 group-title="test",TV Diskos
+http://5.57.74.130:8000/play/a0bz/index.m3u8
+#EXTINF:-1 group-title="test",Turizam Plus TV
+http://5.57.74.130:8000/play/a0cq/index.m3u8
+#EXTINF:-1 group-title="test",TravelXP
+http://5.57.74.130:8000/play/a0bk/index.m3u8
+#EXTINF:-1 group-title="test",Viasat History HD
+http://5.57.74.130:8000/play/a0al/index.m3u8
+#EXTINF:-1 group-title="test",Viasat Kino
+http://5.57.74.130:8000/play/a0as/index.m3u8
+#EXTINF:-1 group-title="test",Viasat Explore HD
+http://5.57.74.130:8000/play/a0ah/index.m3u8
+#EXTINF:-1 group-title="test",Zelena TV Zdravlje
+http://5.57.74.130:8000/play/a0cg/index.m3u8
+#EXTINF:-1 group-title="test",Viasat Nature HD
+http://5.57.74.130:8000/play/a0bm/index.m3u8
+#EXTINF:-1 group-title="test",TV Kazbuka HD
+http://5.57.74.130:8000/play/a0cs/index.m3u8
+#EXTINF:-1 group-title="test",02-AMERICA HD
+http://8.243.126.131:8000/play/a01q/index.m3u8
+#EXTINF:-1 group-title="test",01-LATINA HD
+http://8.243.126.131:8000/play/a001/index.m3u8
+#EXTINF:-1 group-title="test",03-PANAMERICANA
+http://8.243.126.131:8000/play/a01r/index.m3u8
+#EXTINF:-1 group-title="test",04-WILLAX HD
+http://8.243.126.131:8000/play/a01s/index.m3u8
+#EXTINF:-1 group-title="test",05-NEXT TV
+http://8.243.126.131:8000/play/a01t/index.m3u8
+#EXTINF:-1 group-title="test",06-RPP SD
+http://8.243.126.131:8000/play/a01u/index.m3u8
+#EXTINF:-1 group-title="test",08-EXITOSA HD
+http://8.243.126.131:8000/play/a01w/index.m3u8
+#EXTINF:-1 group-title="test",07-LA TELE HD
+http://8.243.126.131:8000/play/a01v/index.m3u8
+#EXTINF:-1 group-title="test",09-RADIO NACIONAL HD
+http://8.243.126.131:8000/play/a04i/index.m3u8
+#EXTINF:-1 group-title="test",10-TV PERU 7.3 HD
+http://8.243.126.131:8000/play/a04j/index.m3u8
+#EXTINF:-1 group-title="test",11-TV PERU HD
+http://8.243.126.131:8000/play/a04k/index.m3u8
+#EXTINF:-1 group-title="test",12-USMPTV HD
+http://8.243.126.131:8000/play/a04l/index.m3u8
+#EXTINF:-1 group-title="test",13-ATV SUR HD
+http://8.243.126.131:8000/play/a04m/index.m3u8
+#EXTINF:-1 group-title="test",14-ATV + NOTICIAS
+http://8.243.126.131:8000/play/a04n/index.m3u8
+#EXTINF:-1 group-title="test",15-ENLACE
+http://8.243.126.131:8000/play/a04o/index.m3u8
+#EXTINF:-1 group-title="test",17-KARIBENA HD
+http://8.243.126.131:8000/play/a04q/index.m3u8
+#EXTINF:-1 group-title="test",16-IPE HD
+http://8.243.126.131:8000/play/a04p/index.m3u8
+#EXTINF:-1 group-title="test",20-DE PELICULA HD
+http://8.243.126.131:8000/play/a04r/index.m3u8
+#EXTINF:-1 group-title="test",21-UNIVERSAL PRIMUN HD
+http://8.243.126.131:8000/play/a04s/index.m3u8
+#EXTINF:-1 group-title="test",22-DISCOVERY SCIENTIC
+http://8.243.126.131:8000/play/a04u/index.m3u8
+#EXTINF:-1 group-title="test",23-TLC HD
+http://8.243.126.131:8000/play/a04t/index.m3u8
+#EXTINF:-1 group-title="test",24-ESPN 2 HD
+http://8.243.126.131:8000/play/a04v/index.m3u8
+#EXTINF:-1 group-title="test",25-UNIVISION HD
+http://8.243.126.131:8000/play/a04w/index.m3u8
+#EXTINF:-1 group-title="test",26-BETHEL HD
+http://8.243.126.131:8000/play/a04x/index.m3u8
+#EXTINF:-1 group-title="test",28-STINGRAY CONCERT
+http://8.243.126.131:8000/play/a04z/index.m3u8
+#EXTINF:-1 group-title="test",27-TELEMUNDO HD
+http://8.243.126.131:8000/play/a04y/index.m3u8
+#EXTINF:-1 group-title="test",29-TNT NOVELAS
+http://8.243.126.131:8000/play/a050/index.m3u8
+#EXTINF:-1 group-title="test",30-MEGA
+http://8.243.126.131:8000/play/a051/index.m3u8
+#EXTINF:-1 group-title="test",31-MOVISTAR DEPORTE
+http://8.243.126.131:8000/play/a052/index.m3u8
+#EXTINF:-1 group-title="test",32-ESPN PREMIUN HD
+http://8.243.126.131:8000/play/a053/index.m3u8
+#EXTINF:-1 group-title="test",34-DISCOVERY TURBO
+http://8.243.126.131:8000/play/a055/index.m3u8
+#EXTINF:-1 group-title="test",33-TOONCAST
+http://8.243.126.131:8000/play/a054/index.m3u8
+#EXTINF:-1 group-title="test",35-HGTV HD
+http://8.243.126.131:8000/play/a056/index.m3u8
+#EXTINF:-1 group-title="test",37-CANAL N
+http://8.243.126.131:8000/play/a058/index.m3u8
+#EXTINF:-1 group-title="test",39-DIRECTV DEPORTE
+http://8.243.126.131:8000/play/a05a/index.m3u8
+#EXTINF:-1 group-title="test",40-START CHANNEL
+http://8.243.126.131:8000/play/a05b/index.m3u8
+#EXTINF:-1 group-title="test",41-EUROCHANNEL
+http://8.243.126.131:8000/play/a05c/index.m3u8
+#EXTINF:-1 group-title="test",42-HISTORY HD
+http://8.243.126.131:8000/play/a05d/index.m3u8
+#EXTINF:-1 group-title="test",43-ESPN6 HD
+http://8.243.126.131:8000/play/a05e/index.m3u8
+#EXTINF:-1 group-title="test",44-NICK JUNIOR
+http://8.243.126.131:8000/play/a05f/index.m3u8
+#EXTINF:-1 group-title="test",45-DISNEY JUNIOR
+http://8.243.126.131:8000/play/a05g/index.m3u8
+#EXTINF:-1 group-title="test",46-TNT HD
+http://8.243.126.131:8000/play/a05h/index.m3u8
+#EXTINF:-1 group-title="test",47-CN
+http://8.243.126.131:8000/play/a05i/index.m3u8
+#EXTINF:-1 group-title="test",48-ESPN3 HD
+http://8.243.126.131:8000/play/a05j/index.m3u8
+#EXTINF:-1 group-title="test",49-DISCOVERY HD
+http://8.243.126.131:8000/play/a05k/index.m3u8
+#EXTINF:-1 group-title="test",50-CANAL DE ESTRELLAS
+http://8.243.126.131:8000/play/a05l/index.m3u8
+#EXTINF:-1 group-title="test",51-NATGEO HD
+http://8.243.126.131:8000/play/a05m/index.m3u8
+#EXTINF:-1 group-title="test",52-DISCOVERY KIDS
+http://8.243.126.131:8000/play/a05n/index.m3u8
+#EXTINF:-1 group-title="test",53-HBO2 HD
+http://8.243.126.131:8000/play/a05o/index.m3u8
+#EXTINF:-1 group-title="test",54-CARTOONITO
+http://8.243.126.131:8000/play/a05p/index.m3u8
+#EXTINF:-1 group-title="test",55-ESPN1
+http://8.243.126.131:8000/play/a05q/index.m3u8
+#EXTINF:-1 group-title="test",56-AXN
+http://8.243.126.131:8000/play/a05r/index.m3u8
+#EXTINF:-1 group-title="test",57-GOLDEN HD
+http://8.243.126.131:8000/play/a05s/index.m3u8
+#EXTINF:-1 group-title="test",59-HISTORY 2
+http://8.243.126.131:8000/play/a05u/index.m3u8
+#EXTINF:-1 group-title="test",58-HBO FAMILY HD
+http://8.243.126.131:8000/play/a05t/index.m3u8
+#EXTINF:-1 group-title="test",60-Ei HD
+http://8.243.126.131:8000/play/a05v/index.m3u8
+#EXTINF:-1 group-title="test",62-DISCOVERY WORLD
+http://8.243.126.131:8000/play/a05x/index.m3u8
+#EXTINF:-1 group-title="test",63-CNN
+http://8.243.126.131:8000/play/a05y/index.m3u8
+#EXTINF:-1 group-title="test",64-USA HD
+http://8.243.126.131:8000/play/a05z/index.m3u8
+#EXTINF:-1 group-title="test",65-COMEDY CENTRAL HD
+http://8.243.126.131:8000/play/a060/index.m3u8
+#EXTINF:-1 group-title="test",67-ESTUDIO UNIVERSAL HD
+http://8.243.126.131:8000/play/a062/index.m3u8
+#EXTINF:-1 group-title="test",66-CINECANAL HD
+http://8.243.126.131:8000/play/a061/index.m3u8
+#EXTINF:-1 group-title="test",68-LIGA 1 MAX HD
+http://8.243.126.131:8000/play/a063/index.m3u8
+#EXTINF:-1 group-title="test",70-ESPN 7 HD
+http://8.243.126.131:8000/play/a065/index.m3u8
+#EXTINF:-1 group-title="test",69-FX HD
+http://8.243.126.131:8000/play/a064/index.m3u8
+#EXTINF:-1 group-title="test",71-ID
+http://8.243.126.131:8000/play/a066/index.m3u8
+#EXTINF:-1 group-title="test",72-UNIVERSAL HD
+http://8.243.126.131:8000/play/a067/index.m3u8
+#EXTINF:-1 group-title="test",74-HYH
+http://8.243.126.131:8000/play/a069/index.m3u8
+#EXTINF:-1 group-title="test",75-SONY HD
+http://8.243.126.131:8000/play/a06a/index.m3u8
+#EXTINF:-1 group-title="test",73-TCM
+http://8.243.126.131:8000/play/a068/index.m3u8
+#EXTINF:-1 group-title="test",76-A&E HD
+http://8.243.126.131:8000/play/a06b/index.m3u8
+#EXTINF:-1 group-title="test",77-TELENOVELAS
+http://8.243.126.131:8000/play/a06c/index.m3u8
+#EXTINF:-1 group-title="test",78-SPACE HD
+http://8.243.126.131:8000/play/a06d/index.m3u8
+#EXTINF:-1 group-title="test",79-BABYFIRST HD
+http://8.243.126.131:8000/play/a06e/index.m3u8
+#EXTINF:-1 group-title="test",80-HBO HD
+http://8.243.126.131:8000/play/a06j/index.m3u8
+#EXTINF:-1 group-title="test",81-ESPN 5 HD
+http://8.243.126.131:8000/play/a0jz/index.m3u8
+#EXTINF:-1 group-title="test",82 DISNEY CHANNEL
+http://8.243.126.131:8000/play/a0m7/index.m3u8
+#EXTINF:-1 group-title="test",A&E
+http://8.243.126.131:8000/play/a0g8/index.m3u8
+#EXTINF:-1 group-title="test",A&E HD
+http://8.243.126.131:8000/play/a0e1/index.m3u8
+#EXTINF:-1 group-title="test",AMC HD
+http://8.243.126.131:8000/play/a0e2/index.m3u8
+#EXTINF:-1 group-title="test",AMC Series
+http://8.243.126.131:8000/play/a0ld/index.m3u8
+#EXTINF:-1 group-title="test",AXN HD
+http://8.243.126.131:8000/play/a0gy/index.m3u8
+#EXTINF:-1 group-title="test",AZ click HD
+http://8.243.126.131:8000/play/a0e8/index.m3u8
+#EXTINF:-1 group-title="test",Animal Planet HD
+http://8.243.126.131:8000/play/a0dy/index.m3u8
+#EXTINF:-1 group-title="test",Antena 3
+http://8.243.126.131:8000/play/a0fc/index.m3u8
+#EXTINF:-1 group-title="test",Atres Series
+http://8.243.126.131:8000/play/a0fh/index.m3u8
+#EXTINF:-1 group-title="test",Azmundo
+http://8.243.126.131:8000/play/a0g5/index.m3u8
+#EXTINF:-1 group-title="test",Baby First
+http://8.243.126.131:8000/play/a0jo/index.m3u8
+#EXTINF:-1 group-title="test",CINECANAL HD
+http://8.243.126.131:8000/play/a0gj/index.m3u8
+#EXTINF:-1 group-title="test",CNN Espaæol
+http://8.243.126.131:8000/play/a0oi/index.m3u8
+#EXTINF:-1 group-title="test",CNN Internacional
+http://8.243.126.131:8000/play/a0fj/index.m3u8
+#EXTINF:-1 group-title="test",Canal 10 HD
+http://8.243.126.131:8000/play/a0fm/index.m3u8
+#EXTINF:-1 group-title="test",Canal 4 HD ESA
+http://8.243.126.131:8000/play/a0fk/index.m3u8
+#EXTINF:-1 group-title="test",Canal 14 - NIC
+http://8.243.126.131:8000/play/a0jk/index.m3u8
+#EXTINF:-1 group-title="test",Canal 6 - NI
+http://8.243.126.131:8000/play/a0jm/index.m3u8
+#EXTINF:-1 group-title="test",Canal 7 HD CR
+http://8.243.126.131:8000/play/a0dv/index.m3u8
+#EXTINF:-1 group-title="test",Canal 8 - NIC
+http://8.243.126.131:8000/play/a0jj/index.m3u8
+#EXTINF:-1 group-title="test",Canal Claro HD
+http://8.243.126.131:8000/play/a0f1/index.m3u8
+#EXTINF:-1 group-title="test",Caracol
+http://8.243.126.131:8000/play/a0le/index.m3u8
+#EXTINF:-1 group-title="test",Cartoonito
+http://8.243.126.131:8000/play/a0o9/index.m3u8
+#http://91.146.94.234:10001/play/a03p
+#EXTINF:-1 group-title="test",Cine Latino
+http://8.243.126.131:8000/play/a0gu/index.m3u8
+#EXTINF:-1 group-title="test",Cine Premium HD
+http://8.243.126.131:8000/play/a0mi/index.m3u8
+#EXTINF:-1 group-title="test",Claro Cinema
+http://8.243.126.131:8000/play/a0gf/index.m3u8
+#EXTINF:-1 group-title="test",Claro Sports 1 HD
+http://8.243.126.131:8000/play/a0f0/index.m3u8
+#EXTINF:-1 group-title="test",Claro Sports 2 SD
+http://8.243.126.131:8000/play/a0js/index.m3u8
+#EXTINF:-1 group-title="test",DHE HD
+http://8.243.126.131:8000/play/a0e7/index.m3u8
+#EXTINF:-1 group-title="test",Concert Channel
+http://8.243.126.131:8000/play/a0lf/index.m3u8
+#EXTINF:-1 group-title="test",DHE
+http://8.243.126.131:8000/play/a0ey/index.m3u8
+#EXTINF:-1 group-title="test",DISC THEATHER HD
+http://8.243.126.131:8000/play/a0ik/index.m3u8
+#EXTINF:-1 group-title="test",De Pelicula
+http://8.243.126.131:8000/play/a0ob/index.m3u8
+#EXTINF:-1 group-title="test",Digital 15 - RD
+http://8.243.126.131:8000/play/a0jl/index.m3u8
+#EXTINF:-1 group-title="test",Discovery Channel
+http://8.243.126.131:8000/play/a0g9/index.m3u8
+#EXTINF:-1 group-title="test",Discovery Home & Health
+http://8.243.126.131:8000/play/a0gp/index.m3u8
+#EXTINF:-1 group-title="test",Discovery Kids
+http://8.243.126.131:8000/play/a0gl/index.m3u8
+#EXTINF:-1 group-title="test",Discovery ID HD
+http://8.243.126.131:8000/play/a0dd/index.m3u8
+#EXTINF:-1 group-title="test",Discovery Kids HD
+http://8.243.126.131:8000/play/a0fl/index.m3u8
+#EXTINF:-1 group-title="test",Discovery Science
+http://8.243.126.131:8000/play/a0ff/index.m3u8
+#http://8.243.126.131:8000/play/a0ok/index.m3u8
+#EXTINF:-1 group-title="test",Disney Channel
+http://8.243.126.131:8000/play/a0gn/index.m3u8
+#EXTINF:-1 group-title="test",Discovery World HD
+http://8.243.126.131:8000/play/a0da/index.m3u8
+#EXTINF:-1 group-title="test",Disney Jr.
+http://8.243.126.131:8000/play/a0oj/index.m3u8
+#EXTINF:-1 group-title="test",Discovery Turbo
+http://8.243.126.131:8000/play/a0go/index.m3u8
+#EXTINF:-1 group-title="test",E! Entertairment HD
+http://8.243.126.131:8000/play/a0dz/index.m3u8
+#EXTINF:-1 group-title="test",ESPN - MEXICO
+http://8.243.126.131:8000/play/a0gd/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 2 HD
+http://8.243.126.131:8000/play/a0nv/index.m3u8
+#http://8.243.126.131:8000/play/a0nl/index.m3u8
+#http://8.243.126.131:8000/play/a0d3/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 3
+http://8.243.126.131:8000/play/a0jt/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 3 HD
+http://8.243.126.131:8000/play/a0nz/index.m3u8
+#http://8.243.126.131:8000/play/a0d4/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 4
+http://8.243.126.131:8000/play/a0ju/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 4HD
+http://8.243.126.131:8000/play/a0kl/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 5  HD
+http://8.243.126.131:8000/play/a0h0/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 5
+http://8.243.126.131:8000/play/a0gq/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 5 HD
+http://8.243.126.131:8000/play/a0nh/index.m3u8
+#EXTINF:-1 group-title="test",ESPN 6 HD
+http://8.243.126.131:8000/play/a0d5/index.m3u8
+#http://8.243.126.131:8000/play/a0ns/index.m3u8
+#EXTINF:-1 group-title="test",ESPN HD
+http://8.243.126.131:8000/play/a0nk/index.m3u8
+#http://8.243.126.131:8000/play/a0d2/index.m3u8
+#EXTINF:-1 group-title="test",ESPN Premium HD
+http://8.243.126.131:8000/play/a0no/index.m3u8
+#EXTINF:-1 group-title="test",EWTN
+http://8.243.126.131:8000/play/a0ol/index.m3u8
+#EXTINF:-1 group-title="test",El Gourmet
+http://8.243.126.131:8000/play/a0jq/index.m3u8
+#EXTINF:-1 group-title="test",Europa HD
+http://8.243.126.131:8000/play/a0e5/index.m3u8
+#EXTINF:-1 group-title="test",FOX CR
+http://8.243.126.131:8000/play/a0oq/index.m3u8
+#EXTINF:-1 group-title="test",FX HD
+http://8.243.126.131:8000/play/a0e4/index.m3u8
+#EXTINF:-1 group-title="test",Film & arts HD
+http://8.243.126.131:8000/play/a0e0/index.m3u8
+#EXTINF:-1 group-title="test",Film & Arts
+http://8.243.126.131:8000/play/a0ex/index.m3u8
+#EXTINF:-1 group-title="test",Food Network
+http://8.243.126.131:8000/play/a0me/index.m3u8
+#EXTINF:-1 group-title="test",Golden
+http://8.243.126.131:8000/play/a0k9/index.m3u8
+#EXTINF:-1 group-title="test",Golden Premiere 2 HD
+http://8.243.126.131:8000/play/a0fo/index.m3u8
+#EXTINF:-1 group-title="test",Golden Premiere HD
+http://8.243.126.131:8000/play/a0fn/index.m3u8
+#EXTINF:-1 group-title="test",Golf Channel
+http://8.243.126.131:8000/play/a0fi/index.m3u8
+#http://91.146.94.234:10001/play/a04b
+#EXTINF:-1 group-title="test",Golf Channel HD
+http://8.243.126.131:8000/play/a0ea/index.m3u8
+#EXTINF:-1 group-title="test",H2
+http://8.243.126.131:8000/play/a0mo/index.m3u8
+#EXTINF:-1 group-title="test",HBO Family HD
+http://8.243.126.131:8000/play/a0f6/index.m3u8
+#EXTINF:-1 group-title="test",HBO HD
+http://8.243.126.131:8000/play/a0f3/index.m3u8
+#EXTINF:-1 group-title="test",HBO Plus HD
+http://8.243.126.131:8000/play/a0f5/index.m3u8
+#EXTINF:-1 group-title="test",HBO XTREME
+http://8.243.126.131:8000/play/a0f7/index.m3u8
+#EXTINF:-1 group-title="test",HBO2 HD
+http://8.243.126.131:8000/play/a0f4/index.m3u8
+#http://91.146.94.234:10001/play/hbo2-hd-pl
+#EXTINF:-1 group-title="test",HOLA! TV HD
+http://8.243.126.131:8000/play/a0im/index.m3u8
+#EXTINF:-1 group-title="test",Hispan TV
+http://8.243.126.131:8000/play/a0jd/index.m3u8
+#EXTINF:-1 group-title="test",History Channel
+http://8.243.126.131:8000/play/a0gb/index.m3u8
+#EXTINF:-1 group-title="test",Hola!TV
+http://8.243.126.131:8000/play/a0fg/index.m3u8
+#EXTINF:-1 group-title="test",Home & Health HD
+http://8.243.126.131:8000/play/a0il/index.m3u8
+#EXTINF:-1 group-title="test",Home Garden Latino
+http://8.243.126.131:8000/play/a0fe/index.m3u8
+#EXTINF:-1 group-title="test",KANALD  DRAMA
+http://8.243.126.131:8000/play/a0m3/index.m3u8
+#EXTINF:-1 group-title="test",KDrama HD
+http://8.243.126.131:8000/play/a0mn/index.m3u8
+#EXTINF:-1 group-title="test",Latin America Sport
+http://8.243.126.131:8000/play/a0jv/index.m3u8
+#EXTINF:-1 group-title="test",MEGA HD
+http://8.243.126.131:8000/play/a0o8/index.m3u8
+#EXTINF:-1 group-title="test",MTV HD
+http://8.243.126.131:8000/play/a0oa/index.m3u8
+#EXTINF:-1 group-title="test",Mas Chic
+http://8.243.126.131:8000/play/a0fb/index.m3u8
+#EXTINF:-1 group-title="test",Movistar Deportes
+http://8.243.126.131:8000/play/a0oe/index.m3u8
+#EXTINF:-1 group-title="test",Multicinema
+http://8.243.126.131:8000/play/a0jx/index.m3u8
+#EXTINF:-1 group-title="test",Nat Geo HD
+http://8.243.126.131:8000/play/a0d6/index.m3u8
+#EXTINF:-1 group-title="test",Nick Jr.
+http://8.243.126.131:8000/play/a0oh/index.m3u8
+#EXTINF:-1 group-title="test",Pasiones HD
+http://8.243.126.131:8000/play/a0db/index.m3u8
+#EXTINF:-1 group-title="test",Playboy
+http://8.243.126.131:8000/play/a0f8/index.m3u8
+#EXTINF:-1 group-title="test",Plim Plim TV
+http://8.243.126.131:8000/play/a0od/index.m3u8
+#EXTINF:-1 group-title="test",RCN Novelas
+http://8.243.126.131:8000/play/a0jp/index.m3u8
+#EXTINF:-1 group-title="test",SONY
+http://8.243.126.131:8000/play/a0g6/index.m3u8
+#EXTINF:-1 group-title="test",SONY HD
+http://8.243.126.131:8000/play/a0gi/index.m3u8
+#EXTINF:-1 group-title="test",SPACE HD
+http://8.243.126.131:8000/play/a0gz/index.m3u8
+#EXTINF:-1 group-title="test",STAR CHANNEL HD
+http://8.243.126.131:8000/play/a0gg/index.m3u8
+#EXTINF:-1 group-title="test",SUYAPA TV
+http://8.243.126.131:8000/play/a0ji/index.m3u8
+#EXTINF:-1 group-title="test",Sin Limites
+http://8.243.126.131:8000/play/a0jw/index.m3u8
+#EXTINF:-1 group-title="test",Sony Movies HD
+http://8.243.126.131:8000/play/a0e6/index.m3u8
+#EXTINF:-1 group-title="test",Star TVE HD
+http://8.243.126.131:8000/play/a0e9/index.m3u8
+#EXTINF:-1 group-title="test",Studio Universal
+http://8.243.126.131:8000/play/a0gw/index.m3u8
+#EXTINF:-1 group-title="test",Studio Universal HD
+http://8.243.126.131:8000/play/a0dx/index.m3u8
+#EXTINF:-1 group-title="test",Sun Channel
+http://8.243.126.131:8000/play/a0jr/index.m3u8
+#EXTINF:-1 group-title="test",TCM
+http://8.243.126.131:8000/play/a0ka/index.m3u8
+#EXTINF:-1 group-title="test",TNT HD
+http://8.243.126.131:8000/play/a0ij/index.m3u8
+#EXTINF:-1 group-title="test",TNT Novelas HD
+http://8.243.126.131:8000/play/a0om/index.m3u8
+#EXTINF:-1 group-title="test",TNT Sports Premiun HD
+http://8.243.126.131:8000/play/a0o7/index.m3u8
+#EXTINF:-1 group-title="test",TNT Series HD
+http://8.243.126.131:8000/play/a0d8/index.m3u8
+#EXTINF:-1 group-title="test",TNT SPORTS
+http://8.243.126.131:8000/play/a0nr/index.m3u8
+#EXTINF:-1 group-title="test",TVChile
+http://8.243.126.131:8000/play/a0fd/index.m3u8
+#EXTINF:-1 group-title="test",TV Familia
+http://8.243.126.131:8000/play/a0j9/index.m3u8
+#EXTINF:-1 group-title="test",TVN HD
+http://8.243.126.131:8000/play/a0o6/index.m3u8
+#http://91.146.94.234:10001/play/a00z
+#EXTINF:-1 group-title="test",Telefe
+http://8.243.126.131:8000/play/a0mc/index.m3u8
+#EXTINF:-1 group-title="test",Telemundo HD
+http://8.243.126.131:8000/play/a0e3/index.m3u8
+#EXTINF:-1 group-title="test",Telesur
+http://8.243.126.131:8000/play/a0og/index.m3u8
+#EXTINF:-1 group-title="test",Televida RD
+http://8.243.126.131:8000/play/a0ew/index.m3u8
+#EXTINF:-1 group-title="test",Tigo Sports HD
+http://8.243.126.131:8000/play/a0ih/index.m3u8
+#EXTINF:-1 group-title="test",Tooncast
+http://8.243.126.131:8000/play/a0g4/index.m3u8
+#EXTINF:-1 group-title="test",UNIVERSAL CINEMA ESTE HD
+http://8.243.126.131:8000/play/a0de/index.m3u8
+#EXTINF:-1 group-title="test",UNIVERSAL COMEDY HD
+http://8.243.126.131:8000/play/a0iu/index.m3u8
+#EXTINF:-1 group-title="test",UNIVERSAL CRIME HD
+http://8.243.126.131:8000/play/a0it/index.m3u8
+#EXTINF:-1 group-title="test",UNIVERSAL PREMIERE HD
+http://8.243.126.131:8000/play/a0iq/index.m3u8
+#EXTINF:-1 group-title="test",UNIVERSAL PREMIERE O HD
+http://8.243.126.131:8000/play/a0ir/index.m3u8
+#EXTINF:-1 group-title="test",UNIVERSAL REALITY HD
+http://8.243.126.131:8000/play/a0is/index.m3u8
+#EXTINF:-1 group-title="test",Universal
+http://8.243.126.131:8000/play/a0gt/index.m3u8
+#EXTINF:-1 group-title="test",Univision HD
+http://8.243.126.131:8000/play/a0dc/index.m3u8
+#EXTINF:-1 group-title="test",VENUS
+http://8.243.126.131:8000/play/a0jy/index.m3u8
+#EXTINF:-1 group-title="test",WARNER HD
+http://8.243.126.131:8000/play/a0gh/index.m3u8
+#EXTINF:-1 group-title="test",Win Sports+
+http://8.243.126.131:8000/play/a025/index.m3u8
+#EXTINF:-1 group-title="test",ZooMoo
+http://8.243.126.131:8000/play/a0li/index.m3u8
+#EXTINF:-1 group-title="test",20Mediaset HD
+http://91.146.94.234:10001/play/a08s
+#EXTINF:-1 group-title="test",27Twentyseven HD
+http://91.146.94.234:10001/play/a08u
+#EXTINF:-1 group-title="test",13 Ulica HD
+http://91.146.94.234:10001/play/a088
+#EXTINF:-1 group-title="test",AMC HD PL
+http://91.146.94.234:10001/play/a08h
+#EXTINF:-1 group-title="test",Al Jazeera English HD
+http://91.146.94.234:10001/play/a07l
+#EXTINF:-1 group-title="test",8 TV RU
+http://91.146.94.234:10001/play/a092
+#EXTINF:-1 group-title="test",BBC FIRST
+http://91.146.94.234:10001/play/a087
+#EXTINF:-1 group-title="test",Ale kino+ HD PL
+http://91.146.94.234:10001/play/a08g
+#EXTINF:-1 group-title="test",ARMPUB TV
+http://91.146.94.234:10001/play/a0j9
+#EXTINF:-1 group-title="test",Bloomberg European TV
+http://91.146.94.234:10001/play/a07j
+#EXTINF:-1 group-title="test",CANAL+ SPORT 1 HD
+http://91.146.94.234:10001/play/a07d
+#EXTINF:-1 group-title="test",CANAL+ SPORT 2 HD
+http://91.146.94.234:10001/play/a075
+#EXTINF:-1 group-title="test",Boing
+http://91.146.94.234:10001/play/a03j
+#EXTINF:-1 group-title="test",Brazzers TV_13
+http://91.146.94.234:10001/play/a010
+#EXTINF:-1 group-title="test",Brazzers TV_13 (clone)
+http://91.146.94.234:10001/play/a06j
+#EXTINF:-1 group-title="test",CANAL+ SPORT 4 HD
+http://91.146.94.234:10001/play/a073
+#EXTINF:-1 group-title="test",Brazzers TV_13 (clone) (clone)
+http://91.146.94.234:10001/play/a0bw
+#EXTINF:-1 group-title="test",CANAL+ SPORT 3 HD
+http://91.146.94.234:10001/play/a072
+#EXTINF:-1 group-title="test",CCTV 4E
+http://91.146.94.234:10001/play/a0br
+#EXTINF:-1 group-title="test",CANAL+ FILM HD PL
+http://91.146.94.234:10001/play/a086
+#EXTINF:-1 group-title="test",CANAL+ SPORT 5 HD
+http://91.146.94.234:10001/play/a074
+#EXTINF:-1 group-title="test",CGTN R
+http://91.146.94.234:10001/play/a09h
+#EXTINF:-1 group-title="test",Canale 5
+http://91.146.94.234:10001/play/a03g
+#EXTINF:-1 group-title="test",Canale 5 AU (avd)
+http://91.146.94.234:10001/play/a0j6
+#EXTINF:-1 group-title="test",Canale 5 AU2
+http://91.146.94.234:10001/play/a06i
+#EXTINF:-1 group-title="test",Canale 5 AU1
+http://91.146.94.234:10001/play/a06h
+#EXTINF:-1 group-title="test",Canale 5 AU3
+http://91.146.94.234:10001/play/a0j3
+#EXTINF:-1 group-title="test",Cinemax HD
+http://91.146.94.234:10001/play/a0bx
+#EXTINF:-1 group-title="test",Cine34
+http://91.146.94.234:10001/play/a04o
+#EXTINF:-1 group-title="test",Diema Sport 2 HD
+http://91.146.94.234:10001/play/a0ji
+#EXTINF:-1 group-title="test",Diema Sport HD
+http://91.146.94.234:10001/play/a0je
+#EXTINF:-1 group-title="test",Diema Sport 3 HD
+http://91.146.94.234:10001/play/a0jg
+#EXTINF:-1 group-title="test",Discovery Life
+http://91.146.94.234:10001/play/a09n
+#EXTINF:-1 group-title="test",Cinemania BUL
+http://91.146.94.234:10001/play/a08k
+#EXTINF:-1 group-title="test",Discovery Turbo Italy
+http://91.146.94.234:10001/play/a0ip
+#EXTINF:-1 group-title="test",Discovery Poland HD
+http://91.146.94.234:10001/play/a09l
+#EXTINF:-1 group-title="test",Domo + 10892H
+http://91.146.94.234:10001/play/a00j
+#EXTINF:-1 group-title="test",Dorcel TV HD
+http://91.146.94.234:10001/play/a04z
+#EXTINF:-1 group-title="test",ELEVEN SPORTS 4 HD
+http://91.146.94.234:10001/play/ase4
+#EXTINF:-1 group-title="test",Eleven Sports 1 4K
+http://91.146.94.234:10001/play/a05c
+#EXTINF:-1 group-title="test",ESP 2 HD_13
+http://91.146.94.234:10001/play/a00c
+#EXTINF:-1 group-title="test",Domashniy
+http://91.146.94.234:10001/play/a0jh
+#EXTINF:-1 group-title="test",Dorcel TV
+http://91.146.94.234:10001/play/a0jc
+#EXTINF:-1 group-title="test",Eurosport 1 AU2
+http://91.146.94.234:10001/play/a05o
+#EXTINF:-1 group-title="test",Eurosport 1 AU1
+http://91.146.94.234:10001/play/a05n
+#EXTINF:-1 group-title="test",English Club
+http://91.146.94.234:10001/play/a08f
+#EXTINF:-1 group-title="test",Eurosport 1 Greek HD
+http://91.146.94.234:10001/play/a0bc
+#EXTINF:-1 group-title="test",Eurosport 1 HD All
+http://91.146.94.234:10001/play/a0be
+#EXTINF:-1 group-title="test",Eurosport 1 HD Dutch
+http://91.146.94.234:10001/play/a05f
+#EXTINF:-1 group-title="test",Eurosport 1 HD DE
+http://91.146.94.234:10001/play/a08r
+#EXTINF:-1 group-title="test",Eleven Sports 1 HD
+http://91.146.94.234:10001/play/ase1
+#EXTINF:-1 group-title="test",Eleven Sports 2 HD
+http://91.146.94.234:10001/play/ase2
+#EXTINF:-1 group-title="test",Eurosport 1 HD Eng
+http://91.146.94.234:10001/play/a05h
+#EXTINF:-1 group-title="test",Eurosport 1 HD Eng&Rus
+http://91.146.94.234:10001/play/a05s
+#EXTINF:-1 group-title="test",Eleven Sports 3 HD
+http://91.146.94.234:10001/play/ase3
+#EXTINF:-1 group-title="test",Eurosport 1 HD FR
+http://91.146.94.234:10001/play/a07o
+#EXTINF:-1 group-title="test",Eurosport 1 HD Rus
+http://91.146.94.234:10001/play/a05i
+#EXTINF:-1 group-title="test",Eurosport 2 Greek HD
+http://91.146.94.234:10001/play/a0bd
+#EXTINF:-1 group-title="test",Eurosport 2 HD ALL
+http://91.146.94.234:10001/play/a0bf
+#EXTINF:-1 group-title="test",Eurosport 2 HD DE
+http://91.146.94.234:10001/play/a08n
+#EXTINF:-1 group-title="test",Eurosport 2 HD Eng
+http://91.146.94.234:10001/play/a05g
+#EXTINF:-1 group-title="test",Eurosport 2 HD Eng&Rus
+http://91.146.94.234:10001/play/a05r
+#EXTINF:-1 group-title="test",Eurosport 2 HD FR
+http://91.146.94.234:10001/play/a07p
+#EXTINF:-1 group-title="test",Eurosport 2 HD Rus
+http://91.146.94.234:10001/play/a05j
+#EXTINF:-1 group-title="test",Eurosport 2 HD au james
+http://91.146.94.234:10001/play/a0iv
+#EXTINF:-1 group-title="test",FX HD PL
+http://91.146.94.234:10001/play/a084
+#EXTINF:-1 group-title="test",Fightbox HD PL
+http://91.146.94.234:10001/play/a085
+#EXTINF:-1 group-title="test",Filmbox Arthouse BUL
+http://91.146.94.234:10001/play/a082
+#EXTINF:-1 group-title="test",Filmbox Extra BUL
+http://91.146.94.234:10001/play/a081
+#EXTINF:-1 group-title="test",FightKlub
+http://91.146.94.234:10001/play/a0jd
+#EXTINF:-1 group-title="test",Filmbox BUL
+http://91.146.94.234:10001/play/a083
+#EXTINF:-1 group-title="test",Focus
+http://91.146.94.234:10001/play/a03d
+#EXTINF:-1 group-title="test",FilmBox Stars BUL
+http://91.146.94.234:10001/play/a08j
+#EXTINF:-1 group-title="test",Fantazzy
+http://91.146.94.234:10001/play/a0jj
+#EXTINF:-1 group-title="test",France 24 HD (en Francais)
+http://91.146.94.234:10001/play/a08w
+#http://91.146.94.234:10001/play/a060
+#EXTINF:-1 group-title="test",HGTV Italy HD
+http://91.146.94.234:10001/play/a09s
+#EXTINF:-1 group-title="test",Giallo HD
+http://91.146.94.234:10001/play/a09p
+#EXTINF:-1 group-title="test",Iris
+http://91.146.94.234:10001/play/a03i
+#EXTINF:-1 group-title="test",HBO3 HD
+http://91.146.94.234:10001/play/hbo3-hd-pl
+#EXTINF:-1 group-title="test",Italia 1
+http://91.146.94.234:10001/play/a03f
+#EXTINF:-1 group-title="test",France 24 HD (in English)
+http://91.146.94.234:10001/play/a08x
+#EXTINF:-1 group-title="test",LA7
+http://91.146.94.234:10001/play/a03q
+#EXTINF:-1 group-title="test",LA7d
+http://91.146.94.234:10001/play/a03r
+#EXTINF:-1 group-title="test",La 5
+http://91.146.94.234:10001/play/a03k
+#EXTINF:-1 group-title="test",MAX Sport 2 HD
+http://91.146.94.234:10001/play/max-sport-2
+#EXTINF:-1 group-title="test",MAX Sport 4 HD
+http://91.146.94.234:10001/play/max-sport-4
+#EXTINF:-1 group-title="test",MAX Sport 3 HD
+http://91.146.94.234:10001/play/a0jf
+#EXTINF:-1 group-title="test",Mediaset EXTRA
+http://91.146.94.234:10001/play/a03m
+#EXTINF:-1 group-title="test",Mediaset ITALIA DUE
+http://91.146.94.234:10001/play/a03n
+#EXTINF:-1 group-title="test",Museum 4K
+http://91.146.94.234:10001/play/a067
+#EXTINF:-1 group-title="test",MyZen 4K
+http://91.146.94.234:10001/play/a068
+#EXTINF:-1 group-title="test",MotorTrend HD
+http://91.146.94.234:10001/play/a09o
+#EXTINF:-1 group-title="test",KINO POLSKA 10719V
+http://91.146.94.234:10001/play/a006
+#EXTINF:-1 group-title="test",MiniMini+ 10719V
+http://91.146.94.234:10001/play/a034
+#EXTINF:-1 group-title="test",Nova Sport BL
+http://91.146.94.234:10001/play/a07g
+#EXTINF:-1 group-title="test",MTV
+http://91.146.94.234:10001/play/a0jm
+#EXTINF:-1 group-title="test",Nove HD
+http://91.146.94.234:10001/play/a09q
+#EXTINF:-1 group-title="test",Polsat HD_au
+http://91.146.94.234:10001/play/a07x
+#EXTINF:-1 group-title="test",Polsat HD_au (2)
+http://91.146.94.234:10001/play/a0c4
+#EXTINF:-1 group-title="test",Polsat HD_au (3)
+http://91.146.94.234:10001/play/a09b
+#EXTINF:-1 group-title="test",Polsat Sport 1
+http://91.146.94.234:10001/play/a06y
+#EXTINF:-1 group-title="test",Pickbox TV
+http://91.146.94.234:10001/play/a08e
+#EXTINF:-1 group-title="test",Polsat Sport 2
+http://91.146.94.234:10001/play/a06z
+#EXTINF:-1 group-title="test",Polsat Sport 3
+http://91.146.94.234:10001/play/a071
+#EXTINF:-1 group-title="test",Polsat Sport Premium 1
+http://91.146.94.234:10001/play/a05a
+#EXTINF:-1 group-title="test",Polsat Sport Fight HD
+http://91.146.94.234:10001/play/a070
+#EXTINF:-1 group-title="test",Polsat Sport Premium 2
+http://91.146.94.234:10001/play/a05b
+#EXTINF:-1 group-title="test",Polsat Sport Premium PPV3
+http://91.146.94.234:10001/play/a07a
+#EXTINF:-1 group-title="test",Polsat Sport Premium PPV4
+http://91.146.94.234:10001/play/a07b
+#EXTINF:-1 group-title="test",Polsat Sport Premium PPV5
+http://91.146.94.234:10001/play/a07r
+#EXTINF:-1 group-title="test",Polsat Sport Premium PPV6
+http://91.146.94.234:10001/play/a07s
+#EXTINF:-1 group-title="test",RSI LA 1 HD
+http://91.146.94.234:10001/play/a0jn
+#EXTINF:-1 group-title="test",RSI LA 2 HD
+http://91.146.94.234:10001/play/a0jo
+#EXTINF:-1 group-title="test",RADIO MONTE CARLO
+http://91.146.94.234:10001/play/a04p
+#EXTINF:-1 group-title="test",Kuchnia + 10892H
+http://91.146.94.234:10001/play/a00e
+#EXTINF:-1 group-title="test",Rai 1 HD
+http://91.146.94.234:10001/play/a08y
+#EXTINF:-1 group-title="test",Rai 2 HD
+http://91.146.94.234:10001/play/a132
+#EXTINF:-1 group-title="test",Rai 3 HD
+http://91.146.94.234:10001/play/a133
+#EXTINF:-1 group-title="test",Rai 4 HD
+http://91.146.94.234:10001/play/a02p
+#EXTINF:-1 group-title="test",Rai 5 HD
+http://91.146.94.234:10001/play/a03a
+#EXTINF:-1 group-title="test",Rai Gulp HD
+http://91.146.94.234:10001/play/a037
+#EXTINF:-1 group-title="test",Rai Movie HD
+http://91.146.94.234:10001/play/a02r
+#EXTINF:-1 group-title="test",Planete+ 10719V
+http://91.146.94.234:10001/play/a033
+#EXTINF:-1 group-title="test",Rai Premium HD
+http://91.146.94.234:10001/play/a02q
+#EXTINF:-1 group-title="test",Rai News 24 HD
+http://91.146.94.234:10001/play/a135
+#EXTINF:-1 group-title="test",Rai Scuola HD
+http://91.146.94.234:10001/play/a038
+#EXTINF:-1 group-title="test",Rai Sport 1 HD
+http://91.146.94.234:10001/play/ars1
+#EXTINF:-1 group-title="test",Rai Storia HD
+http://91.146.94.234:10001/play/a09g
+#EXTINF:-1 group-title="test",Rai YoYo HD
+http://91.146.94.234:10001/play/a039
+#EXTINF:-1 group-title="test",Redlight HD
+http://91.146.94.234:10001/play/a04t
+#EXTINF:-1 group-title="test",Rete 4
+http://91.146.94.234:10001/play/a03h
+#EXTINF:-1 group-title="test",Russian Travel Guide Int
+http://91.146.94.234:10001/play/a0jb
+#EXTINF:-1 group-title="test",SRF 1 HD(au)
+http://91.146.94.234:10001/play/a0fh
+#EXTINF:-1 group-title="test",SRF info HD
+http://91.146.94.234:10001/play/a08m
+#EXTINF:-1 group-title="test",Sportklub HD
+http://91.146.94.234:10001/play/a079
+#EXTINF:-1 group-title="test",SkyShowtime 1
+http://91.146.94.234:10001/play/a0bg
+#EXTINF:-1 group-title="test",Ribalka i Ohota
+http://91.146.94.234:10001/play/a0jl
+#EXTINF:-1 group-title="test",STS International
+http://91.146.94.234:10001/play/a063
+#EXTINF:-1 group-title="test",TGCOM24 HD
+http://91.146.94.234:10001/play/a08t
+#EXTINF:-1 group-title="test",TRAVELXP 4K
+http://91.146.94.234:10001/play/a066
+#EXTINF:-1 group-title="test",Super!
+http://91.146.94.234:10001/play/a0j8
+#EXTINF:-1 group-title="test",TLC HD
+http://91.146.94.234:10001/play/a09m
+#EXTINF:-1 group-title="test",TRT World HD
+http://91.146.94.234:10001/play/a08v
+#EXTINF:-1 group-title="test",TV PULS 10719V
+http://91.146.94.234:10001/play/a007
+#EXTINF:-1 group-title="test",TV8 HD
+http://91.146.94.234:10001/play/a03b
+#EXTINF:-1 group-title="test",TV1000 RKG
+http://91.146.94.234:10001/play/a0jk
+#EXTINF:-1 group-title="test",TVN 7 HD 11508V
+http://91.146.94.234:10001/play/a030
+#EXTINF:-1 group-title="test",TVN 24 HD 11508V
+http://91.146.94.234:10001/play/a02z
+#EXTINF:-1 group-title="test",TVN Fabula 11508V
+http://91.146.94.234:10001/play/a015
+#EXTINF:-1 group-title="test",TVN Turbo HD 11508V
+http://91.146.94.234:10001/play/a011
+#EXTINF:-1 group-title="test",TVP 1 HD
+http://91.146.94.234:10001/play/a09e
+#EXTINF:-1 group-title="test",TVP 1 HD (au)
+http://91.146.94.234:10001/play/a0c2
+#EXTINF:-1 group-title="test",TVN24 BiS HD
+http://91.146.94.234:10001/play/a09r
+#EXTINF:-1 group-title="test",TVP Sport HD
+http://91.146.94.234:10001/play/a07f
+#http://91.146.94.234:10001/play/a062
+#EXTINF:-1 group-title="test",TVP 2 HD
+http://91.146.94.234:10001/play/a09f
+#EXTINF:-1 group-title="test",TVS 10796V
+http://91.146.94.234:10001/play/a005
+#EXTINF:-1 group-title="test",TeenNick PL
+http://91.146.94.234:10001/play/a08o
+#EXTINF:-1 group-title="test",Topcrime
+http://91.146.94.234:10001/play/a03o
+#EXTINF:-1 group-title="test",TVRUS Plus
+http://91.146.94.234:10001/play/a06o
+#EXTINF:-1 group-title="test",cielo
+http://91.146.94.234:10001/play/a04w
+#EXTINF:-1 group-title="test",VIRGIN RADIO
+http://91.146.94.234:10001/play/a0it
+#EXTINF:-1 group-title="test",UNINETTUNO UNIVERSITY TV
+http://91.146.94.234:10001/play/a03v
+#EXTINF:-1 group-title="test",XY Plus
+http://91.146.94.234:10001/play/a06v
+#EXTINF:-1 group-title="test",ТНТ Int.
+http://91.146.94.234:10001/play/a017
+#EXTINF:-1 group-title="test",Vivid TV
+http://91.146.94.234:10001/play/a0bz
+#EXTINF:-1 group-title="test",TVP 3 10719V
+http://91.146.94.234:10001/play/a003
+#EXTINF:-1 group-title="test",TVP INFO 10719V
+http://91.146.94.234:10001/play/a004
+#EXTINF:-1 tvg-id="TV3.ru@SD" group-title="test",TV-3 (576p)
+http://178.124.179.122:8080/TB-3/index.m3u8
+#EXTINF:-1 tvg-id="Zvezda.ru@SD" group-title="test",Zvezda (1080p)
+http://51.158.144.33:2021/zvezda/index.m3u8
+#EXTINF:-1 tvg-id="MosfilmGoldCollection.ru@SD" group-title="test",Mosfilm Gold Collection (576p)
+http://31.222.235.15/mosfilm/index.m3u8
+#EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="test",Channel One (576p)
+http://188.113.190.13/1/video.m3u8
+
+#EXTINF:-1  group-title="test"  tvg-id="cctv4"  tvg-logo="https://iptvx.one/picons/cctv4.png" ,CCTV4ᴴᴰ
+https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
+
+#EXTINF:-1  group-title="test"  tvg-id="fox-news-us"  tvg-logo="https://iptvx.one/picons/fox-news-us.png" ,Fox News SD
+http://ru2.tvtm.one/ch2093/mono.m3u8?token=ruslan35.v2_ydVj22Dv-rIMsys6KV-d3FRANNRn6w5opFCe0gxaz-g_QczDWHMcEBwYxpaE7CmHXzSRRg3vd-EBEw
+#EXTINF:-1  group-title="test"  tvg-id="al-jazeera-int"  tvg-logo="https://iptvx.one/picons/al-jazeera-int.png" ,AlJazeera HD
+https://live-hls-web-aje-gcp.thehlive.com/AJE/01.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="vip-comedy"  tvg-logo="https://i.imgur.com/RdRd0to.png"   tvg-name="MNB News",MNB Newsᴴᴰ
+https://live.mnb.mn/hls/mn2.stream.m3u8
+#https://live.mnb.mn/hls/mnb_world.stream.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="otse"  tvg-logo="https://oktv.uz/Channels/ch_3472.png" ,ОЦЕᴴᴰ
+http://212.42.117.34:8080/hls/OshTV.m3u8
+#EXTINF:-1  group-title="test"  tvg-logo="https://paideuma.tv/sites/default/files/logo_0_0.png" ,Paideuma TV
+https://paideuma.tv:1443/live/Channel2728/chunklist.m3u8
+#EXTINF:-1  group-title="test"  tvg-logo="https://i.imgur.com/fACHqmY.png" ,ТВ МАНА ВАШᴴᴰ
+https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="no_epg_music"  tvg-logo="https://cdn.promodj.com/legacy/i/mail/helpers/compression/logo_2x.png" ,PROMO DJ
+http://217.79.184.52/Nostalgia/index.m3u8
+#http://de1se01.v2beat.live/playlist.m3u8?kizugtv.m3u8

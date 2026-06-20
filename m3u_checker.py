@@ -77,6 +77,7 @@ BLOCKLIST: set[str] = {
     "1+1",
     "24 Канал",
     "33 канал",
+    "Afrobeats",
     "Al Zahra TV",
     "Al-Zahra TV Turkic",
     "Aleph News",
@@ -87,8 +88,10 @@ BLOCKLIST: set[str] = {
     "Banovina TV",
     "Baraza TV Hits",
     "Bibel TV Musik",
+    "BBC News Europe",
     "Бирма Play",
     "Brazzers TV",
+    "Canal Motor",
     "Can TV",
     "CGTN",
     "Das Erste",
@@ -103,7 +106,8 @@ BLOCKLIST: set[str] = {
     "Храм",
     "Гродно Плюс",
     "Qazaqstan Teatr KZ",
-    "Ushba-Films"
+    "Ushba-Films",
+    "Motorvision"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -509,7 +513,8 @@ ALIASES: dict[str, str] = {
     "Бирма Плей": "Бирма Play",
     "Классика Кино SD": "Классика Кино",
     "Movie Classic": "Классика Кино",
-    "Fashion TV Paris L'Original": "Fashion TV"
+    "Fashion TV Paris L'Original": "Fashion TV",
+    "LIVETV SD": "LIVETV",
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
