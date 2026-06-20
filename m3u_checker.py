@@ -81,6 +81,7 @@ BLOCKLIST: set[str] = {
     "Al Zahra TV",
     "Al-Zahra TV Turkic",
     "Aleph News",
+    "Астрахань.Ru TV",
     "Az TV",
     "Azstar TV",
     "Baden TV",
