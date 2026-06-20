@@ -176,16 +176,10 @@ http://91.204.123.202:80/211/index.m3u8
 http://37.186.70.39:40/play/98/index.m3u8
 #http://91.204.123.202:80/120/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/mamonttv.png" tvg-id="mamonttv" tvg-description="Детский телеканал с мультфильмами для самых маленьких.",Мамонтёнок
-https://sirius.greenhosting.ru/MamontRu/index.m3u8
-#http://85.192.10.173/MamontRu/mono.m3u8
-#http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
-
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/mult.png" tvg-id="mult" tvg-description="Российский детский телеканал с отечественными мультсериалами.",Мульт
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania.png" tvg-id="multimania" tvg-description="Детский телеканал мультфильмов.",Мультиландия
 http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
-#http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania-lv.png" tvg-id="multimania-lv" tvg-description="Детский телеканал с мультфильмами и анимацией.",Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
@@ -539,7 +533,7 @@ http://37.186.70.39:40/play/94/index.m3u8
 http://37.186.70.39:40/play/79/index.m3u8
 #http://91.204.123.202:80/153/index.m3u8
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/onemuz.png" tvg-id="onemuz" tvg-description="Музыкальный телеканал с клипами.",Первый музыкальный
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz" tvg-description="Музыкальный телеканал с клипами.",Первый музыкальный
 http://hz1.teleport.cc/HLS/HD.m3u8
 #http://hz1.teleport.cc/HLS/SD.m3u8
 
@@ -741,7 +735,6 @@ https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 #http://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rtvi.png" tvg-id="rtvi" tvg-description="RTVi — независимый русскоязычный телеканал. Транслирует новости, аналитику и общественно-политические программы для аудитории в России и за рубежом.",RTVi
-http://91.146.94.234:10001/play/a090
 
 #EXTINF:0 group-title="Общественные" tvg-description="TV PRO — телеканал, специализирующийся на профессиональном образовании и бизнес-контенте.",TV PRO
 http://rtmp.tvpro-online.ru/hls/ch1.m3u8
@@ -796,11 +789,6 @@ http://91.204.123.202:80/361/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/rus-hualiang-tv.png" tvg-id="rus-hualiang-tv" tvg-description="CGTN на русском — телеканал о Китае: культура, история, экономика и уроки китайского языка.",Китай ТВ
 https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
-#http://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
-
-#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/rus-hualiang-tv.png" tvg-id="rus-hualiang-tv" tvg-description="CGTN на русском — телеканал о Китае: культура, история, экономика и уроки китайского языка.",Китай ТВ
-http://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
-#https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/kongresstv.png" tvg-id="kongresstv" tvg-description="Информационно-познавательный телеканал о достижениях России в экономике, науке и культуре.",Конгресс ТВ
 https://live-4.otcnet.ru/504/135/480p/index.m3u8
@@ -923,9 +911,6 @@ http://37.186.70.39:40/play/113/index.m3u8
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/love-nature-4k.png" tvg-id="love-nature-4k" tvg-description="Международный телеканал о дикой природе с документальными фильмами.",Love Nature
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 
-#EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/love-nature-4k.png" tvg-id="love-nature-4k" tvg-description="Love Nature — международный телеканал о природе в формате 4K. Транслирует высококачественные документальные фильмы о дикой природе.",Love Nature 4k
-http://91.146.94.234:10001/play/a0ac
-
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/minimax-makromir.png" tvg-id="minimax-makromir" tvg-description="Minimax Макромир — телеканал детской медиагруппы Minimax, транслирующий программы о большом мире.",Minimax Макромир
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/minimax-micromir.png" tvg-id="minimax-micromir" tvg-description="Minimax Микромир — телеканал детской медиагруппы Minimax, транслирующий программы о микромире и природе.",Minimax Микромир
@@ -967,7 +952,7 @@ http://37.186.70.39:40/play/53/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/tochka-otryva.png" tvg-id="tochka-otryva" tvg-description="Точка Отрыва — российский телеканал об экстремальном туризме и приключениях.",Точка Отрыва
 
-#EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/hd-life.png" tvg-id="hd-life" tvg-description="Туристический телеканал-гид по России: маршруты, гастротуры и экспедиции.",Точка РФ
+#EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/hdl.png" tvg-id="hd-life" tvg-description="Туристический телеканал-гид по России: маршруты, гастротуры и экспедиции.",Точка РФ
 http://91.204.123.202:80/161/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/box-travel.png" tvg-id="box-travel" tvg-description="BOX Travel — тематический телеканал о путешествиях.",BOX Travel
@@ -1132,7 +1117,6 @@ http://5.57.74.130:8000/play/a0cj/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvmchannel.png" tvg-id="tvmchannel" tvg-description="TVM Channel — тематический телеканал.",TVM Channel
 
 #EXTINF:0 group-title="Развлекательные" tvg-description="TVRUS — русскоязычный телеканал для зрителей в США и Канаде. Транслирует новости, сериалы и развлекательные программы.",TVRUS
-http://91.146.94.234:10001/play/a06n
 
 # Региональные
 
@@ -1520,7 +1504,6 @@ http://181.78.109.48:9998/play/a03r/index.m3u8
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
 #https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #https://live.mnb.mn/hls/mnb_sport.stream.m3u8
-#http://91.146.94.234:10001/play/max-sport-1
 #http://stitch.teletarget.ru/vintera/motodrive/index.m3u8
 #http://stitch.teletarget.ru/vintera/motodrive/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 #http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
@@ -1592,7 +1575,6 @@ http://5.57.74.130:8000/play/a0ar/index.m3u8
 http://5.57.74.130:8000/play/a0bl/index.m3u8
 #EXTINF:0 group-title="test",Baby TV
 http://5.57.74.130:8000/play/a0be/index.m3u8
-#http://91.146.94.234:10001/play/a08q
 #EXTINF:0 group-title="test",ATV
 http://5.57.74.130:8000/play/a0cz/index.m3u8
 #EXTINF:0 group-title="test",B1
@@ -2048,7 +2030,6 @@ http://8.243.126.131:8000/play/a0f1/index.m3u8
 http://8.243.126.131:8000/play/a0le/index.m3u8
 #EXTINF:0 group-title="test",Cartoonito
 http://8.243.126.131:8000/play/a0o9/index.m3u8
-#http://91.146.94.234:10001/play/a03p
 #EXTINF:0 group-title="test",Cine Latino
 http://8.243.126.131:8000/play/a0gu/index.m3u8
 #EXTINF:0 group-title="test",Cine Premium HD
@@ -2147,7 +2128,6 @@ http://8.243.126.131:8000/play/a0fo/index.m3u8
 http://8.243.126.131:8000/play/a0fn/index.m3u8
 #EXTINF:0 group-title="test",Golf Channel
 http://8.243.126.131:8000/play/a0fi/index.m3u8
-#http://91.146.94.234:10001/play/a04b
 #EXTINF:0 group-title="test",Golf Channel HD
 http://8.243.126.131:8000/play/a0ea/index.m3u8
 #EXTINF:0 group-title="test",H2
@@ -2162,7 +2142,6 @@ http://8.243.126.131:8000/play/a0f5/index.m3u8
 http://8.243.126.131:8000/play/a0f7/index.m3u8
 #EXTINF:0 group-title="test",HBO2 HD
 http://8.243.126.131:8000/play/a0f4/index.m3u8
-#http://91.146.94.234:10001/play/hbo2-hd-pl
 #EXTINF:0 group-title="test",HOLA! TV HD
 http://8.243.126.131:8000/play/a0im/index.m3u8
 #EXTINF:0 group-title="test",Hispan TV
@@ -2243,7 +2222,6 @@ http://8.243.126.131:8000/play/a0fd/index.m3u8
 http://8.243.126.131:8000/play/a0j9/index.m3u8
 #EXTINF:0 group-title="test",TVN HD
 http://8.243.126.131:8000/play/a0o6/index.m3u8
-#http://91.146.94.234:10001/play/a00z
 #EXTINF:0 group-title="test",Telefe
 http://8.243.126.131:8000/play/a0mc/index.m3u8
 #EXTINF:0 group-title="test",Telemundo HD
@@ -2280,342 +2258,6 @@ http://8.243.126.131:8000/play/a0gh/index.m3u8
 http://8.243.126.131:8000/play/a025/index.m3u8
 #EXTINF:0 group-title="test",ZooMoo
 http://8.243.126.131:8000/play/a0li/index.m3u8
-#EXTINF:0 group-title="test",20Mediaset HD
-http://91.146.94.234:10001/play/a08s
-#EXTINF:0 group-title="test",27Twentyseven HD
-http://91.146.94.234:10001/play/a08u
-#EXTINF:0 group-title="test",13 Ulica HD
-http://91.146.94.234:10001/play/a088
-#EXTINF:0 group-title="test",AMC HD PL
-http://91.146.94.234:10001/play/a08h
-#EXTINF:0 group-title="test",Al Jazeera English HD
-http://91.146.94.234:10001/play/a07l
-#EXTINF:0 group-title="test",8 TV RU
-http://91.146.94.234:10001/play/a092
-#EXTINF:0 group-title="test",BBC FIRST
-http://91.146.94.234:10001/play/a087
-#EXTINF:0 group-title="test",Ale kino+ HD PL
-http://91.146.94.234:10001/play/a08g
-#EXTINF:0 group-title="test",ARMPUB TV
-http://91.146.94.234:10001/play/a0j9
-#EXTINF:0 group-title="test",Bloomberg European TV
-http://91.146.94.234:10001/play/a07j
-#EXTINF:0 group-title="test",CANAL+ SPORT 1 HD
-http://91.146.94.234:10001/play/a07d
-#EXTINF:0 group-title="test",CANAL+ SPORT 2 HD
-http://91.146.94.234:10001/play/a075
-#EXTINF:0 group-title="test",Boing
-http://91.146.94.234:10001/play/a03j
-#EXTINF:0 group-title="test",Brazzers TV_13
-http://91.146.94.234:10001/play/a010
-#EXTINF:0 group-title="test",Brazzers TV_13 (clone)
-http://91.146.94.234:10001/play/a06j
-#EXTINF:0 group-title="test",CANAL+ SPORT 4 HD
-http://91.146.94.234:10001/play/a073
-#EXTINF:0 group-title="test",Brazzers TV_13 (clone) (clone)
-http://91.146.94.234:10001/play/a0bw
-#EXTINF:0 group-title="test",CANAL+ SPORT 3 HD
-http://91.146.94.234:10001/play/a072
-#EXTINF:0 group-title="test",CCTV 4E
-http://91.146.94.234:10001/play/a0br
-#EXTINF:0 group-title="test",CANAL+ FILM HD PL
-http://91.146.94.234:10001/play/a086
-#EXTINF:0 group-title="test",CANAL+ SPORT 5 HD
-http://91.146.94.234:10001/play/a074
-#EXTINF:0 group-title="test",CGTN R
-http://91.146.94.234:10001/play/a09h
-#EXTINF:0 group-title="test",Canale 5
-http://91.146.94.234:10001/play/a03g
-#EXTINF:0 group-title="test",Canale 5 AU (avd)
-http://91.146.94.234:10001/play/a0j6
-#EXTINF:0 group-title="test",Canale 5 AU2
-http://91.146.94.234:10001/play/a06i
-#EXTINF:0 group-title="test",Canale 5 AU1
-http://91.146.94.234:10001/play/a06h
-#EXTINF:0 group-title="test",Canale 5 AU3
-http://91.146.94.234:10001/play/a0j3
-#EXTINF:0 group-title="test",Cinemax HD
-http://91.146.94.234:10001/play/a0bx
-#EXTINF:0 group-title="test",Cine34
-http://91.146.94.234:10001/play/a04o
-#EXTINF:0 group-title="test",Diema Sport 2 HD
-http://91.146.94.234:10001/play/a0ji
-#EXTINF:0 group-title="test",Diema Sport HD
-http://91.146.94.234:10001/play/a0je
-#EXTINF:0 group-title="test",Diema Sport 3 HD
-http://91.146.94.234:10001/play/a0jg
-#EXTINF:0 group-title="test",Discovery Life
-http://91.146.94.234:10001/play/a09n
-#EXTINF:0 group-title="test",Cinemania BUL
-http://91.146.94.234:10001/play/a08k
-#EXTINF:0 group-title="test",Discovery Turbo Italy
-http://91.146.94.234:10001/play/a0ip
-#EXTINF:0 group-title="test",Discovery Poland HD
-http://91.146.94.234:10001/play/a09l
-#EXTINF:0 group-title="test",Domo + 10892H
-http://91.146.94.234:10001/play/a00j
-#EXTINF:0 group-title="test",Dorcel TV HD
-http://91.146.94.234:10001/play/a04z
-#EXTINF:0 group-title="test",ELEVEN SPORTS 4 HD
-http://91.146.94.234:10001/play/ase4
-#EXTINF:0 group-title="test",Eleven Sports 1 4K
-http://91.146.94.234:10001/play/a05c
-#EXTINF:0 group-title="test",ESP 2 HD_13
-http://91.146.94.234:10001/play/a00c
-#EXTINF:0 group-title="test",Domashniy
-http://91.146.94.234:10001/play/a0jh
-#EXTINF:0 group-title="test",Dorcel TV
-http://91.146.94.234:10001/play/a0jc
-#EXTINF:0 group-title="test",Eurosport 1 AU2
-http://91.146.94.234:10001/play/a05o
-#EXTINF:0 group-title="test",Eurosport 1 AU1
-http://91.146.94.234:10001/play/a05n
-#EXTINF:0 group-title="test",English Club
-http://91.146.94.234:10001/play/a08f
-#EXTINF:0 group-title="test",Eurosport 1 Greek HD
-http://91.146.94.234:10001/play/a0bc
-#EXTINF:0 group-title="test",Eurosport 1 HD All
-http://91.146.94.234:10001/play/a0be
-#EXTINF:0 group-title="test",Eurosport 1 HD Dutch
-http://91.146.94.234:10001/play/a05f
-#EXTINF:0 group-title="test",Eurosport 1 HD DE
-http://91.146.94.234:10001/play/a08r
-#EXTINF:0 group-title="test",Eleven Sports 1 HD
-http://91.146.94.234:10001/play/ase1
-#EXTINF:0 group-title="test",Eleven Sports 2 HD
-http://91.146.94.234:10001/play/ase2
-#EXTINF:0 group-title="test",Eurosport 1 HD Eng
-http://91.146.94.234:10001/play/a05h
-#EXTINF:0 group-title="test",Eurosport 1 HD Eng&Rus
-http://91.146.94.234:10001/play/a05s
-#EXTINF:0 group-title="test",Eleven Sports 3 HD
-http://91.146.94.234:10001/play/ase3
-#EXTINF:0 group-title="test",Eurosport 1 HD FR
-http://91.146.94.234:10001/play/a07o
-#EXTINF:0 group-title="test",Eurosport 1 HD Rus
-http://91.146.94.234:10001/play/a05i
-#EXTINF:0 group-title="test",Eurosport 2 Greek HD
-http://91.146.94.234:10001/play/a0bd
-#EXTINF:0 group-title="test",Eurosport 2 HD ALL
-http://91.146.94.234:10001/play/a0bf
-#EXTINF:0 group-title="test",Eurosport 2 HD DE
-http://91.146.94.234:10001/play/a08n
-#EXTINF:0 group-title="test",Eurosport 2 HD Eng
-http://91.146.94.234:10001/play/a05g
-#EXTINF:0 group-title="test",Eurosport 2 HD Eng&Rus
-http://91.146.94.234:10001/play/a05r
-#EXTINF:0 group-title="test",Eurosport 2 HD FR
-http://91.146.94.234:10001/play/a07p
-#EXTINF:0 group-title="test",Eurosport 2 HD Rus
-http://91.146.94.234:10001/play/a05j
-#EXTINF:0 group-title="test",Eurosport 2 HD au james
-http://91.146.94.234:10001/play/a0iv
-#EXTINF:0 group-title="test",FX HD PL
-http://91.146.94.234:10001/play/a084
-#EXTINF:0 group-title="test",Fightbox HD PL
-http://91.146.94.234:10001/play/a085
-#EXTINF:0 group-title="test",Filmbox Arthouse BUL
-http://91.146.94.234:10001/play/a082
-#EXTINF:0 group-title="test",Filmbox Extra BUL
-http://91.146.94.234:10001/play/a081
-#EXTINF:0 group-title="test",FightKlub
-http://91.146.94.234:10001/play/a0jd
-#EXTINF:0 group-title="test",Filmbox BUL
-http://91.146.94.234:10001/play/a083
-#EXTINF:0 group-title="test",Focus
-http://91.146.94.234:10001/play/a03d
-#EXTINF:0 group-title="test",FilmBox Stars BUL
-http://91.146.94.234:10001/play/a08j
-#EXTINF:0 group-title="test",Fantazzy
-http://91.146.94.234:10001/play/a0jj
-#EXTINF:0 group-title="test",France 24 HD (en Francais)
-http://91.146.94.234:10001/play/a08w
-#http://91.146.94.234:10001/play/a060
-#EXTINF:0 group-title="test",HGTV Italy HD
-http://91.146.94.234:10001/play/a09s
-#EXTINF:0 group-title="test",Giallo HD
-http://91.146.94.234:10001/play/a09p
-#EXTINF:0 group-title="test",Iris
-http://91.146.94.234:10001/play/a03i
-#EXTINF:0 group-title="test",HBO3 HD
-http://91.146.94.234:10001/play/hbo3-hd-pl
-#EXTINF:0 group-title="test",Italia 1
-http://91.146.94.234:10001/play/a03f
-#EXTINF:0 group-title="test",France 24 HD (in English)
-http://91.146.94.234:10001/play/a08x
-#EXTINF:0 group-title="test",LA7
-http://91.146.94.234:10001/play/a03q
-#EXTINF:0 group-title="test",LA7d
-http://91.146.94.234:10001/play/a03r
-#EXTINF:0 group-title="test",La 5
-http://91.146.94.234:10001/play/a03k
-#EXTINF:0 group-title="test",MAX Sport 2 HD
-http://91.146.94.234:10001/play/max-sport-2
-#EXTINF:0 group-title="test",MAX Sport 4 HD
-http://91.146.94.234:10001/play/max-sport-4
-#EXTINF:0 group-title="test",MAX Sport 3 HD
-http://91.146.94.234:10001/play/a0jf
-#EXTINF:0 group-title="test",Mediaset EXTRA
-http://91.146.94.234:10001/play/a03m
-#EXTINF:0 group-title="test",Mediaset ITALIA DUE
-http://91.146.94.234:10001/play/a03n
-#EXTINF:0 group-title="test",Museum 4K
-http://91.146.94.234:10001/play/a067
-#EXTINF:0 group-title="test",MyZen 4K
-http://91.146.94.234:10001/play/a068
-#EXTINF:0 group-title="test",MotorTrend HD
-http://91.146.94.234:10001/play/a09o
-#EXTINF:0 group-title="test",KINO POLSKA 10719V
-http://91.146.94.234:10001/play/a006
-#EXTINF:0 group-title="test",MiniMini+ 10719V
-http://91.146.94.234:10001/play/a034
-#EXTINF:0 group-title="test",Nova Sport BL
-http://91.146.94.234:10001/play/a07g
-#EXTINF:0 group-title="test",MTV
-http://91.146.94.234:10001/play/a0jm
-#EXTINF:0 group-title="test",Nove HD
-http://91.146.94.234:10001/play/a09q
-#EXTINF:0 group-title="test",Polsat HD_au
-http://91.146.94.234:10001/play/a07x
-#EXTINF:0 group-title="test",Polsat HD_au (2)
-http://91.146.94.234:10001/play/a0c4
-#EXTINF:0 group-title="test",Polsat HD_au (3)
-http://91.146.94.234:10001/play/a09b
-#EXTINF:0 group-title="test",Polsat Sport 1
-http://91.146.94.234:10001/play/a06y
-#EXTINF:0 group-title="test",Pickbox TV
-http://91.146.94.234:10001/play/a08e
-#EXTINF:0 group-title="test",Polsat Sport 2
-http://91.146.94.234:10001/play/a06z
-#EXTINF:0 group-title="test",Polsat Sport 3
-http://91.146.94.234:10001/play/a071
-#EXTINF:0 group-title="test",Polsat Sport Premium 1
-http://91.146.94.234:10001/play/a05a
-#EXTINF:0 group-title="test",Polsat Sport Fight HD
-http://91.146.94.234:10001/play/a070
-#EXTINF:0 group-title="test",Polsat Sport Premium 2
-http://91.146.94.234:10001/play/a05b
-#EXTINF:0 group-title="test",Polsat Sport Premium PPV3
-http://91.146.94.234:10001/play/a07a
-#EXTINF:0 group-title="test",Polsat Sport Premium PPV4
-http://91.146.94.234:10001/play/a07b
-#EXTINF:0 group-title="test",Polsat Sport Premium PPV5
-http://91.146.94.234:10001/play/a07r
-#EXTINF:0 group-title="test",Polsat Sport Premium PPV6
-http://91.146.94.234:10001/play/a07s
-#EXTINF:0 group-title="test",RSI LA 1 HD
-http://91.146.94.234:10001/play/a0jn
-#EXTINF:0 group-title="test",RSI LA 2 HD
-http://91.146.94.234:10001/play/a0jo
-#EXTINF:0 group-title="test",RADIO MONTE CARLO
-http://91.146.94.234:10001/play/a04p
-#EXTINF:0 group-title="test",Kuchnia + 10892H
-http://91.146.94.234:10001/play/a00e
-#EXTINF:0 group-title="test",Rai 1 HD
-http://91.146.94.234:10001/play/a08y
-#EXTINF:0 group-title="test",Rai 2 HD
-http://91.146.94.234:10001/play/a132
-#EXTINF:0 group-title="test",Rai 3 HD
-http://91.146.94.234:10001/play/a133
-#EXTINF:0 group-title="test",Rai 4 HD
-http://91.146.94.234:10001/play/a02p
-#EXTINF:0 group-title="test",Rai 5 HD
-http://91.146.94.234:10001/play/a03a
-#EXTINF:0 group-title="test",Rai Gulp HD
-http://91.146.94.234:10001/play/a037
-#EXTINF:0 group-title="test",Rai Movie HD
-http://91.146.94.234:10001/play/a02r
-#EXTINF:0 group-title="test",Planete+ 10719V
-http://91.146.94.234:10001/play/a033
-#EXTINF:0 group-title="test",Rai Premium HD
-http://91.146.94.234:10001/play/a02q
-#EXTINF:0 group-title="test",Rai News 24 HD
-http://91.146.94.234:10001/play/a135
-#EXTINF:0 group-title="test",Rai Scuola HD
-http://91.146.94.234:10001/play/a038
-#EXTINF:0 group-title="test",Rai Sport 1 HD
-http://91.146.94.234:10001/play/ars1
-#EXTINF:0 group-title="test",Rai Storia HD
-http://91.146.94.234:10001/play/a09g
-#EXTINF:0 group-title="test",Rai YoYo HD
-http://91.146.94.234:10001/play/a039
-#EXTINF:0 group-title="test",Redlight HD
-http://91.146.94.234:10001/play/a04t
-#EXTINF:0 group-title="test",Rete 4
-http://91.146.94.234:10001/play/a03h
-#EXTINF:0 group-title="test",Russian Travel Guide Int
-http://91.146.94.234:10001/play/a0jb
-#EXTINF:0 group-title="test",SRF 1 HD(au)
-http://91.146.94.234:10001/play/a0fh
-#EXTINF:0 group-title="test",SRF info HD
-http://91.146.94.234:10001/play/a08m
-#EXTINF:0 group-title="test",Sportklub HD
-http://91.146.94.234:10001/play/a079
-#EXTINF:0 group-title="test",SkyShowtime 1
-http://91.146.94.234:10001/play/a0bg
-#EXTINF:0 group-title="test",Ribalka i Ohota
-http://91.146.94.234:10001/play/a0jl
-#EXTINF:0 group-title="test",STS International
-http://91.146.94.234:10001/play/a063
-#EXTINF:0 group-title="test",TGCOM24 HD
-http://91.146.94.234:10001/play/a08t
-#EXTINF:0 group-title="test",TRAVELXP 4K
-http://91.146.94.234:10001/play/a066
-#EXTINF:0 group-title="test",Super!
-http://91.146.94.234:10001/play/a0j8
-#EXTINF:0 group-title="test",TLC HD
-http://91.146.94.234:10001/play/a09m
-#EXTINF:0 group-title="test",TRT World HD
-http://91.146.94.234:10001/play/a08v
-#EXTINF:0 group-title="test",TV PULS 10719V
-http://91.146.94.234:10001/play/a007
-#EXTINF:0 group-title="test",TV8 HD
-http://91.146.94.234:10001/play/a03b
-#EXTINF:0 group-title="test",TV1000 RKG
-http://91.146.94.234:10001/play/a0jk
-#EXTINF:0 group-title="test",TVN 7 HD 11508V
-http://91.146.94.234:10001/play/a030
-#EXTINF:0 group-title="test",TVN 24 HD 11508V
-http://91.146.94.234:10001/play/a02z
-#EXTINF:0 group-title="test",TVN Fabula 11508V
-http://91.146.94.234:10001/play/a015
-#EXTINF:0 group-title="test",TVN Turbo HD 11508V
-http://91.146.94.234:10001/play/a011
-#EXTINF:0 group-title="test",TVP 1 HD
-http://91.146.94.234:10001/play/a09e
-#EXTINF:0 group-title="test",TVP 1 HD (au)
-http://91.146.94.234:10001/play/a0c2
-#EXTINF:0 group-title="test",TVN24 BiS HD
-http://91.146.94.234:10001/play/a09r
-#EXTINF:0 group-title="test",TVP Sport HD
-http://91.146.94.234:10001/play/a07f
-#http://91.146.94.234:10001/play/a062
-#EXTINF:0 group-title="test",TVP 2 HD
-http://91.146.94.234:10001/play/a09f
-#EXTINF:0 group-title="test",TVS 10796V
-http://91.146.94.234:10001/play/a005
-#EXTINF:0 group-title="test",TeenNick PL
-http://91.146.94.234:10001/play/a08o
-#EXTINF:0 group-title="test",Topcrime
-http://91.146.94.234:10001/play/a03o
-#EXTINF:0 group-title="test",TVRUS Plus
-http://91.146.94.234:10001/play/a06o
-#EXTINF:0 group-title="test",cielo
-http://91.146.94.234:10001/play/a04w
-#EXTINF:0 group-title="test",VIRGIN RADIO
-http://91.146.94.234:10001/play/a0it
-#EXTINF:0 group-title="test",UNINETTUNO UNIVERSITY TV
-http://91.146.94.234:10001/play/a03v
-#EXTINF:0 group-title="test",XY Plus
-http://91.146.94.234:10001/play/a06v
-#EXTINF:0 group-title="test",ТНТ Int.
-http://91.146.94.234:10001/play/a017
-#EXTINF:0 group-title="test",Vivid TV
-http://91.146.94.234:10001/play/a0bz
-#EXTINF:0 group-title="test",TVP 3 10719V
-http://91.146.94.234:10001/play/a003
-#EXTINF:0 group-title="test",TVP INFO 10719V
-http://91.146.94.234:10001/play/a004
 #EXTINF:0 tvg-id="TV3.ru@SD" group-title="test",TV-3 (576p)
 http://178.124.179.122:8080/TB-3/index.m3u8
 #EXTINF:0 tvg-id="Zvezda.ru@SD" group-title="test",Zvezda (1080p)
