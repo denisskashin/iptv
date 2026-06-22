@@ -166,6 +166,12 @@ BLOCKLIST: set[str] = {
     "TV Jurmala",
     "Medeniyyet TV",
     "Azad TV",
+    "Телплюс ТВ",
+    "CBC",
+    "CBC Sport",
+    "Витрина ТВ",
+    "TRT Müzik",
+    "Мой мир",
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -219,6 +225,9 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "TRT Müzik HD": "TRT Müzik",
+    "CBC Sport HD": "CBC Sport",
+    "CBC HD": "CBC",
     "Afrobeats HD": "Afrobeats",
     "Новое Радио [BY] HD": "Новое радио (Беларусь)",
     "ASTRAKHAN.RU LIVE": "Астрахань Live",
@@ -226,8 +235,8 @@ ALIASES: dict[str, str] = {
     "Medeniyyet TV AZ": "Medeniyyet TV",
     "Azad TV AZ": "Azad TV",
     "Новое Радио BY": "Новое радио (Беларусь)",
-    " TV Jurmala LV": "TV Jurmala",
-    " Мамонтёнок ТВ": "Мамонтёнок",
+    "TV Jurmala LV": "TV Jurmala",
+    "Мамонтёнок ТВ": "Мамонтёнок",
     "Точка отрыва SD": "Точка отрыва",
     "TPO": "БелРос",
     "Суббота": "Суббота!",
@@ -639,6 +648,13 @@ ALIASES: dict[str, str] = {
     "MNB Newsᴴᴰ": "MNB News",
     "PROMO DJ": "Promo DJ",
     "Discovery Channel": "Discovery",
+    "Крым 24": "Крым 24",
+    "Пятница! HD": "Пятница!",
+    "Суббота! HD": "Суббота!",
+    "StrahTV Фантастика HD": "Фантастика HD",
+    "V2BEAT SD": "V2BEAT",
+    "Nickelodeon HD TR": "Nickelodeon",
+    "Телплюс ТВ (Астрахань) (360p) [Not 24/7]": "Телплюс ТВ"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"

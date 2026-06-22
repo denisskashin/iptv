@@ -8,61 +8,33 @@
 #   rt-*-htlive.cdn.ngenix.net  → all rt-<region>-htlive hosts
 
 # --- wildcard groups (collapsed duplicate host families) ---
-# mediacdn CDN — all hosts (was 7 regional channels)
 *.mediacdn.ru
-# cdnvideo CDN — all hosts (was 14 regional channels)
 *.cdnvideo.ru
-# rtbcdn CDN — all hosts (was 29 river nodes)
 *.rtbcdn.ru
-# ngenix CDN — all hosts (was 72: 60 rt-htlive + 12 other)
 *.cdn.ngenix.net
-# Wowza streamlock (hash subdomains) (was 30 hosts)
 *.streamlock.net
-# Amagi FAST platform (was 19 hosts)
 *.amagi.tv
-# xdevel streaming (was 10 hosts)
 *.xdevel.com
-# Infomaniak video edges (was 7 hosts)
 *.vedge.infomaniak.com
-# Minerva msvdn (hash subdomains) (was 6 hosts)
 *.msvdn.net
-# bozztv (was 6 hosts)
 *.bozztv.com
-# 11cdn data nodes (was 5 hosts)
 data*-cdn.11cdn.org
-# logicahost video nodes (was 4 hosts)
 video*.logicahost.com.br
-# ebacdn nodes (was 4 hosts)
 *.ebacdn.net
-# fluid.stream (was 4 hosts)
 *.fluid.stream
-# pishow cdn nodes (was 3 hosts)
 cdn-*.pishow.tv
-# samcast stmv nodes (was 3 hosts)
 stmv*.samcast.com.br
-# alsolnet streams (was 3 hosts)
 *.alsolnet.com
-# azotosolutions (was 3 hosts)
 *.azotosolutions.com
-# wns.live (was 3 hosts)
 *.wns.live
-# srvif stmv nodes (was 2 hosts)
 stmv*.srvif.com
-# zcast srv nodes (was 2 hosts)
 srv*.zcast.com.br
-# voxtvhd stmv nodes (was 2 hosts)
 stmv*.voxtvhd.com.br
-# usastreams k nodes (was 2 hosts)
 k*.usastreams.com
-# tustreaming v nodes (was 2 hosts)
 v*.tustreaming.cl
-# video-stream-hosting h nodes (was 2 hosts)
 h*.video-stream-hosting.de
-# vintera serv nodes (was 2 hosts)
 serv*.vintera.tv
-# tizam video nodes (was 2 hosts)
 video*.tizam.cc
-# myplaytv vcp nodes (was 2 hosts)
 vcp*.myplaytv.com
 *.oktv.kz
 *.trbcdn.net
@@ -660,6 +632,8 @@ primestreams.tv
 tvr-sport.lg.mncdn.com
 digicom.hls.iptvdc.com
 live.mnb.mn
+de.russkoe-iptv.com
+cdn.balelbrus.com
 
 # --- blocked IPs ---
 181.118.156.46
@@ -881,6 +855,7 @@ live.mnb.mn
 188.113.190.13
 
 # --- blocked full URLs / paths ---
+
 http://217.114.191.150/Solnce/index.m3u8
 http://185.78.112.47:8077/Usadba/index.m3u8
 http://185.78.112.47:8077/che/index.m3u8
@@ -888,6 +863,7 @@ http://185.78.112.47:8077/DikayaOxotaHD/index.m3u8
 http://185.78.112.47:8077/Dikiy/index.m3u8
 http://185.78.112.47:8077/Quadro4K/index.m3u8
 http://185.78.112.47:8077/ViasatSportHD/index.m3u8
+
 http://37.186.70.39:40/play/1/index.m3u8
 http://37.186.70.39:40/play/2/index.m3u8
 http://37.186.70.39:40/play/3/index.m3u8
@@ -945,20 +921,6 @@ http://37.186.70.39:40/play/117/index.m3u8
 http://37.186.70.39:40/play/119/index.m3u8
 http://37.186.70.39:40/play/120/index.m3u8
 http://37.186.70.39:40/play/122/index.m3u8
-
-https://streaming.astrakhan.ru/telplushd/playlist.m3u8
-http://v4.proofix.ru/okino-tv/index.m3u8
-
-http://212.233.98.62/okino-tv/index.m3u8
-http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
-http://v4.proofix.ru:80/vitrina-live/index.m3u8
-http://v4.proofix.ru:80/vitrina-live/tracks-v1a1/mono.m3u8
-https://v4.proofix.ru/vitrina-live/tracks-v1a1/mono.m3u8
-https://v4.proofix.ru/vitrina-live/index.m3u8
-
-http://ru2.tvtm.one/ch1533/mono.m3u8?token=ruslan35.v2__9NT6yMkoq_xb-essMfa-s_rMjh31qyJRBcugBSjqXc2717QRNqYdUR5dOie_r5XHkMi4T7cuezW0g
-http://ru2.tvtm.one/ch1534/mono.m3u8?token=ruslan35.v2_miwK0EHlFZmLT_fncXIx6CnH0jNk6QX3bztO4LawQfFbLih2uZJWid7KeDwCeGjbnKpRdKUfhhXVfA
-http://ru2.tvtm.one/ch1415/mono.m3u8?token=ruslan35.v2_c5ebdZ43EIaEeCH947HyjsnjtKnGvKk3OHpuVwAd0sAqtgPon9F7i3-1scpLUrpUPxnW0ROa6V8cMw
 
 http://stitch.teletarget.ru/vintera/tvcsd/index.m3u8
 http://ukr.ukrainske.tv/493/keytvainua/video.m3u8
