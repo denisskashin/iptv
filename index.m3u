@@ -39,6 +39,7 @@ https://edge50.dc.beltelecom.by/ngtrk/smil:belarus2.smil/chunklist_b5160000_slen
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w684715497_b1460000_sleng.m3u8
 #https://edge51.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2/chunklist_w486063721_b5160000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w695777312_b5160000_sleng.m3u8
+#https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus24.png" tvg-id="belarus24" tvg-description="«Беларусь 24» — это государственный некоммерческий телеканал, обеспечивающий информационную связь этнических белорусов с исторической родиной.",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/playlist.m3u8
@@ -53,6 +54,7 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/playlist.m3u8
 #https://edge53.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1873224608_b5160000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/index.m3u8
+#https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24/chunklist_w148744111_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus3hd.png" tvg-id="belarus3" tvg-description="«Беларусь 3» — культурно-просветительский телеканал Белтелерадиокомпании, первый цифровой телеканал Республики Беларусь. Вещает на двух языках — белорусском и русском.",Беларусь 3
 https://edge50.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
@@ -372,7 +374,6 @@ http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8
 #http://stitch.teletarget.ru/vintera/sovietmovie/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/khit.png" tvg-id="khit" tvg-description="Телеканал популярного зарубежного и отечественного кино.",Хит
-http://91.204.123.202:80/363/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/bcu-sssr.png" tvg-id="bcu-sssr" tvg-description="Телеканал советского кино и ретро-программ.",BCU СССР HD
 
@@ -1287,6 +1288,7 @@ https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #https://stream1.sersat.com/hls/garagetv.m3u8
 #http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v3a1/mono.ts.m3u8
+#http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v5a1/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/konny-mir.png" tvg-id="konny-mir" tvg-description="Конный мир — российский специализированный телеканал о конном спорте и коневодстве.",Конный мир
 
@@ -1503,3 +1505,32 @@ http://37.186.70.39:40/play/68/index.m3u8
 #EXTINF:0 group-title="candidate",Garage TV
 #https://stream1.sersat.com/hls/garagetv.m3u8
 
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-06-22 17:31:23  (12 URLs in 12 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 group-title="test" audio-track="rus", Крым 24
+http://live24.trkcrimea.ru/24tvcrimea.m3u8
+#EXTINF:-1 group-title="test" audio-track="rus", Пятница! HD
+http://tchaikovsky.af-stream.com:8080/s/agvha3rn/piatnica-hd/video.m3u8
+#EXTINF:-1 group-title="test" audio-track="rus", Суббота! HD
+http://tchaikovsky.af-stream.com:8080/s/agvha3rn/super-hd/video.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , Мамонтёнок ТВ
+http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="test", TV Jurmala LV
+https://air.star.lv/TV_Jurmala_multistream/index.m3u8
+#EXTINF:-1 tvg-id="O.ru@SD" group-title="test",O! (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/kanal-o-hd.m3u8
+#EXTINF:-1 tvg-id="Multilandia.ru@SD" group-title="test",Multilandia (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/multimania-hd.m3u8
+#EXTINF:-1 tvg-id="Drive.ru@SD" group-title="test",Drive (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/drive-hd.m3u8
+#EXTINF:-1 tvg-id="ZdorovoeTV.ru@SD" group-title="test",Zdorovoe TV (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/zdorovoe-tv-hd.m3u8
+#EXTINF:-1 tvg-id="Chizhik.ru@SD" group-title="test",Chizhik (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/chizik-hd.m3u8
+#EXTINF:-1 tvg-id="TipTop.ru@SD" group-title="test",TipTop (1080p)
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/tip-top-hd.m3u8
+#EXTINF:0 group-title="test" tvg-id="4780" tvg-logo="http://epg.one/img/4780.png" tvg-rec="7",StrahTV Фантастика HD
+http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/WN5AE2WA7HR5TL/11070/index.m3u8
