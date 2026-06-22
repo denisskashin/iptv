@@ -45,7 +45,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/playlist.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1008231497_b5160000_sleng.m3u8
 #https://edge50.dc.beltelecom.by/ngtrk/smil:belarus24.smil/chunklist_b5160000_sleng.m3u8
-#http://178.124.179.122:8080/Belarus24/index.m3u8
 #https://edge50.dc.beltelecom.by/ngtrk/smil:belarus24.smil/chunklist_b1010000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b1010000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b1460000_sleng.m3u8
@@ -190,6 +189,7 @@ http://37.186.70.39:40/play/98/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania.png" tvg-id="multimania" tvg-description="Детский телеканал мультфильмов.",Мультиландия
 http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
+#http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania-lv.png" tvg-id="multimania-lv" tvg-description="Детский телеканал с мультфильмами и анимацией.",Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
@@ -651,6 +651,7 @@ http://37.186.70.39:40/play/37/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/vmeste-rf.png" tvg-id="vmeste-rf" tvg-description="Вместе-РФ — российский федеральный телеканал Совета Федерации. Транслирует парламентские новости, аналитику и документальные программы.",Вместе-РФ
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda" tvg-description="Звезда — российский федеральный телеканал, учреждённый Министерством обороны РФ. Транслирует военно-патриотический контент, новости и художественные фильмы.",Звезда
+http://51.158.144.33:2021/zvezda/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-id="zvezda-plus" tvg-description="Звезда Плюс — дополнительный канал телеканала «Звезда», транслирующий военно-исторические и документальные программы.",Звезда плюс
 
@@ -716,6 +717,7 @@ https://cdn.telecloud.tv/CH4603/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 #http://line.team-tv.link:80/jLKLjOvdU/beAi6ilBrs/2073
+http://37.186.70.39:40/play/32/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt-int-eu.png" tvg-id="tnt-int-eu" tvg-description="ТНТ International — международная версия российского телеканала ТНТ для русскоязычной аудитории за рубежом.",ТНТ International
 
@@ -800,6 +802,7 @@ http://37.186.70.39:40/play/48/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/rus-hualiang-tv.png" tvg-id="rus-hualiang-tv" tvg-description="CGTN на русском — телеканал о Китае: культура, история, экономика и уроки китайского языка.",Китай ТВ
 https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
+#http://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/kongresstv.png" tvg-id="kongresstv" tvg-description="Информационно-познавательный телеканал о достижениях России в экономике, науке и культуре.",Конгресс ТВ
 https://live-4.otcnet.ru/504/135/480p/index.m3u8
@@ -1044,7 +1047,6 @@ http://37.186.70.39:40/play/43/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/prodvizhenie.png" tvg-id="prodvizhenie" tvg-description="Продвижение — российский тематический телеканал о бизнесе и маркетинге.",Продвижение
 http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #http://83.166.243.97:8081/ltv1TNT/1/playlist.m3u8
-#http://188.113.190.13/25/video.m3u8
 #https://tvn-tv.ru:81/hls/stream.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
@@ -1061,6 +1063,8 @@ http://91.204.123.202:80/183/index.m3u8
 http://37.186.70.39:40/play/59/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" tvg-description="ТВ3 — российский федеральный телеканал. Специализируется на мистике, фантастике, ужасах и развлекательном контенте.",ТВ3
+
+http://37.186.70.39:40/play/59/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd" tvg-description="Твоё ТВ — российский тематический телеканал с разнообразным контентом.",Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
@@ -1081,6 +1085,7 @@ http://tvoetv.space:8080/tvoetv/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tcb.png" tvg-id="tcb" tvg-description="ТСВ — российский региональный телеканал.",ТСВ
 https://tsv.md/stream/hls/tsv-online/index.m3u8F
+#https://tsv.md/stream/hls/tsv-online/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/yu.png" tvg-id="yu" tvg-description="Ю — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает мелодрамы, лайфстайл и реалити-шоу.",Ю
 http://91.204.123.202:80/230/index.m3u8
@@ -1273,12 +1278,7 @@ https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #https://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v3a1/mono.ts.m3u8
 #https://streaming.astrakhan.ru/astrakhanrusporthd/index.m3u8
 #http://stitch.teletarget.ru/vintera/motodrive/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
-#http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
-#https://live.mnb.mn/hls/mnb_sport.stream.m3u8
-#https://digicom.hls.iptvdc.com/motorstv/tracks-v1a1/mono.m3u8
 #https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
-#http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
-#http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
 #https://stream1.sersat.com/hls/garagetv.m3u8
 #http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v3a1/mono.ts.m3u8
@@ -1335,6 +1335,7 @@ http://37.186.70.39:40/play/19/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://guidatv.sky.it/logo/445sporttv_Light_Fit.png?tr=n-logo_80" tvg-id="ACI.Sport.Tv.it" tvg-description="Автоспортивный телеканал (ACI Sport).",ACI Sport
 https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
 #http://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+#https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8_output_0.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Теннисный телеканал (ATP Tour).",ATP Tennis
 
@@ -1352,6 +1353,7 @@ http://190.117.20.37:8000/play/a08d/index.m3u8
 #EXTINF:0 group-title="Спорт",ESPN 2
 http://200.10.30.241:8000/play/a01r/index.m3u8
 #
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1" tvg-description="Eurosport 1 — европейский спортивный телеканал. Транслирует широкий спектр соревнований: теннис, велоспорт, лыжи, биатлон и другие виды спорта.",Eurosport 1
 http://37.186.70.39:40/play/111/index.m3u8
 
@@ -1496,34 +1498,33 @@ http://37.186.70.39:40/play/68/index.m3u8
 #EXTINF:0 group-title="candidate",Garage TV
 #https://stream1.sersat.com/hls/garagetv.m3u8
 
-# test
 
 
-#EXTINF:0 tvg-id="TV3.ru@SD" group-title="test",TV-3 (576p)
-http://178.124.179.122:8080/TB-3/index.m3u8
-#EXTINF:0 tvg-id="Zvezda.ru@SD" group-title="test",Zvezda (1080p)
-http://51.158.144.33:2021/zvezda/index.m3u8
-#EXTINF:0 tvg-id="MosfilmGoldCollection.ru@SD" group-title="test",Mosfilm Gold Collection (576p)
-http://31.222.235.15/mosfilm/index.m3u8
-#EXTINF:0 tvg-id="ChannelOne.ru@SD" group-title="test",Channel One (576p)
-http://188.113.190.13/1/video.m3u8
-
-#EXTINF:0  group-title="test"  tvg-id="cctv4"  tvg-logo="https://iptvx.one/picons/cctv4.png" ,CCTV4ᴴᴰ
-https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
-
-#EXTINF:0  group-title="test"  tvg-id="fox-news-us"  tvg-logo="https://iptvx.one/picons/fox-news-us.png" ,Fox News SD
-http://ru2.tvtm.one/ch2093/mono.m3u8?token=ruslan35.v2_ydVj22Dv-rIMsys6KV-d3FRANNRn6w5opFCe0gxaz-g_QczDWHMcEBwYxpaE7CmHXzSRRg3vd-EBEw
-#EXTINF:0  group-title="test"  tvg-id="al-jazeera-int"  tvg-logo="https://iptvx.one/picons/al-jazeera-int.png" ,AlJazeera HD
-https://live-hls-web-aje-gcp.thehlive.com/AJE/01.m3u8
-#EXTINF:0  group-title="test"  tvg-id="vip-comedy"  tvg-logo="https://i.imgur.com/RdRd0to.png"   tvg-name="MNB News",MNB Newsᴴᴰ
-https://live.mnb.mn/hls/mn2.stream.m3u8
-#https://live.mnb.mn/hls/mnb_world.stream.m3u8
-#EXTINF:0  group-title="test"  tvg-id="otse"  tvg-logo="https://oktv.uz/Channels/ch_3472.png" ,ОЦЕᴴᴰ
-http://212.42.117.34:8080/hls/OshTV.m3u8
-#EXTINF:0  group-title="test"  tvg-logo="https://paideuma.tv/sites/default/files/logo_0_0.png" ,Paideuma TV
-https://paideuma.tv:1443/live/Channel2728/chunklist.m3u8
-#EXTINF:0  group-title="test"  tvg-logo="https://i.imgur.com/fACHqmY.png" ,ТВ МАНА ВАШᴴᴰ
-https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
-#EXTINF:0  group-title="test"  tvg-id="no_epg_music"  tvg-logo="https://cdn.promodj.com/legacy/i/mail/helpers/compression/logo_2x.png" ,PROMO DJ
-http://217.79.184.52/Nostalgia/index.m3u8
+# ── test ──────────────────────────────────────────
+# Added: 2026-06-22 14:20:53  (13 URLs in 12 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 group-title="test",Discovery Channel
+http://37.186.70.39:40/play/118/index.m3u8
+#EXTINF:-1 group-title="test",Primocanale Sport
+https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
+#EXTINF:-1  group-title="test",Asharq News
+https://live-news.asharq.com/asharq.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , Мамонтёнок ТВ
+http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="test", TV Jurmala LV
+https://air.star.lv/TV_Jurmala_multistream/index.m3u8
+#EXTINF:-1 group-title="test",Новое Радио BY
+http://live.novoeradio.by:8081/live/novoeradio_1080p/chunks.m3u8
+#EXTINF:-1 tvg-id="MedeniyyetTV.az" tvg-logo="https://i.imgur.com/PlvaDIa.png" group-title="test",Medeniyyet TV AZ
+https://str2.yodacdn.net/medeniyyettele/tracks-v2a1/mono.ts.m3u8
+#EXTINF:-1 tvg-id="AzadTV.az" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="test",Azad TV AZ
+https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
+#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="test",Russia-24 (1080p)
+http://41.223.30.230/ROSSIYA24/index.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="astrahan-live"  tvg-logo="https://iptvx.one/picons/astrahan-live.png" ,ASTRAKHAN.RU LIVE
+http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="no_epg_radio"  tvg-logo="https://pcradio.ru/images/stations/61b09d542c13e.jpg" ,Новое Радио [BY] HD
+https://live.novoeradio.by:444/live/novoeradio_1080p/chunks.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="no_epg_music"  tvg-logo="https://oktv.uz/Channels/ch_2916.png" ,Afrobeats HD
+https://stream.ecable.tv/afrobeats/index.m3u8
 #http://de1se01.v2beat.live/playlist.m3u8?kizugtv.m3u8

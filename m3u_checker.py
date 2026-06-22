@@ -95,6 +95,7 @@ BLOCKLIST: set[str] = {
     "Canal Motor",
     "Can TV",
     "CGTN",
+    "CCTV4",
     "Das Erste",
     "Delta Tv",
     "Deutsche Welle",
@@ -152,6 +153,12 @@ BLOCKLIST: set[str] = {
     "Discovery Turbo SP",
     "HGTV",
     "Canal N",
+    "Fox News",
+    "AlJazeera",
+    "MNB News",
+    "Ош ТВ",
+    "Paideuma TV",
+    "Promo DJ",
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -449,7 +456,6 @@ ALIASES: dict[str, str] = {
     "Al Jazeera English": "Al Jazeera",
     "Al Jazeeraᴴᴰ (Arabic)": "Al Jazeera (Arabic)",
     "BBC World Newsᴴᴰ": "BBC World News",
-    "CCTV4ᴴᴰ": "CCTV4",
     "Первый канал Европа": "Первый канал",
     "РАДИО ГОРОД FMᴴᴰ": "Радио Город FM",
     "Культ Медиа ТВ": "Культ Медиа",
@@ -611,6 +617,11 @@ ALIASES: dict[str, str] = {
     "53-HBO2 HD": "HBO2",
     "54-CARTOONITO": "Cartoonito",
     "55-ESPN1": "ESPN",
+    "Zvezda (1080p)": "Звезда",
+    "CCTV4ᴴᴰ": "CCTV4",
+    "AlJazeera HD": "AlJazeera",
+    "MNB Newsᴴᴰ": "MNB News",
+    "PROMO DJ": "Promo DJ",
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
