@@ -733,6 +733,7 @@ http://v4.proofix.ru/7tv-live/index.m3u8
 #http://v4.proofix.ru/7tv-live/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #http://v4.proofix.ru/7tv-live/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MS8xMC8yMDI2IDc6NDk6NDcgUE0maGFzaF92YWx1ZT1qUlgvaDF3a2IvNkM1cWFnK3lqN2tBPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #http://v4.proofix.ru/7tv-live/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
+http://v4.proofix.ru/7tv-live/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjUgNjo0OTo0NSBBTSZoYXNoX3ZhbHVlPVUrWTdNVm5UeVVkM1pMdG0xSG9jTGc9PSZ2YWxpZG1pbnV0ZXM9NDgw
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tv-brics.png" tvg-id="tv-brics" tvg-description="BRICS TV — международный телеканал, посвящённый странам БРИКС. Транслирует новости, аналитику и программы об экономике и политике.",Brics TV
 
@@ -1278,7 +1279,6 @@ https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #http://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 #https://digicom.hls.iptvdc.com/motorstv/tracks-v1a1/mono.m3u8
-#http://181.118.156.46:8000/play/a04g/index.m3u8
 #https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/494
 #http://93.93.113.95:25461/TV-Berati/XtreamCodes/495
@@ -1474,28 +1474,16 @@ http://37.186.70.39:40/play/33/index.m3u8
 http://91.204.123.202:80/26/index.m3u8
 
 #EXTINF:0 group-title="candidate" tvg-description="Телемагазин: товары для дома, красоты и здоровья.",Мой мир
-#https://moymir.ru/hls/onair.m3u8
+https://moymir.ru/hls/onair.m3u8
 
 #EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/ntk-kz.png" tvg-id="ntk-kz" tvg-description="Казахстанский развлекательный телеканал: шоу, сериалы и юмор.",НТК
 http://91.204.123.202:80/389/index.m3u8
 
-#EXTINF:0 group-title="candidate",7tv
-http://v4.proofix.ru/7tv-live/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjUgNjo0OTo0NSBBTSZoYXNoX3ZhbHVlPVUrWTdNVm5UeVVkM1pMdG0xSG9jTGc9PSZ2YWxpZG1pbnV0ZXM9NDgw
-
 #EXTINF:0 group-title="candidate",LIVETV
 http://tv.mobyservice.ru/livetv/index.m3u8
-
-#EXTINF:0 group-title="candidate",LIVETV SD
 http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
 #http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://tv.mobyservice.ru/livetv/index.m3u8
-
-#EXTINF:0 group-title="candidate",Ош ТВ
-http://212.42.117.34:8080/hls/OshTV.m3u8
-
-#EXTINF:0 group-title="candidate",Сиртаки ТВ
-https://autopilot.catcast.tv/content/46421/index.m3u8?password=loganet
-#https://cityeden.catcast.tv/content/46421/index.m3u8
 
 #EXTINF:0 group-title="candidate",ТВ Мана Ваш
 https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
@@ -1503,23 +1491,17 @@ https://w1.manasat.com/tvmana-leste/tvmana-leste/chunklist.m3u8
 #EXTINF:0 group-title="candidate",Food Food
 http://103.175.73.12:8080/live/143/143_0.m3u8
 
-#EXTINF:0 group-title="candidate",kabel eins
-https://dash4.antik.sk/live/test_kabel_eins_tizen/playlist.m3u8
-
-#EXTINF:0 group-title="candidate",Paideuma TV
-https://paideuma.tv:1443/live/Channel2728/chunklist.m3u8
-
 #EXTINF:0 group-title="candidate",Кинокомедия
 http://37.186.70.39:40/play/68/index.m3u8
 
+#EXTINF:0 group-title="candidate",Super Tennis
+#https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+
+#EXTINF:0 group-title="candidate",Garage TV
+#https://stream1.sersat.com/hls/garagetv.m3u8
 
 # test
 
-#EXTINF:0 group-title="test" tvg-logo="https://iptvx.one/picons/no_epg_sport.png" tvg-id="no_epg_sport",MAX SPORT 1
-http://181.118.156.46:8000/play/a04g/index.m3u8
-#http://200.10.30.241:8000/play/a01r/index.m3u8
-#https://stream1.sersat.com/hls/garagetv.m3u8
-#https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
 
 #EXTINF:0 group-title="test",Cartoon Network

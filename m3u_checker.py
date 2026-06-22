@@ -115,7 +115,11 @@ BLOCKLIST: set[str] = {
     "Film UA Drama",
     "Primokanale Sport",
     "PX SPORTS",
-    "Mahni TV AZ"
+    "Mahni TV AZ",
+    "Сиртаки ТВ",
+    "Ош ТВ",
+    "kabel eins",
+    "Paideuma TV"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -529,7 +533,7 @@ ALIASES: dict[str, str] = {
     "Мультимания (576p)": "Мультимания",
     "Продвижение (Новокузнецк)": "Продвижение",
     "СТВ HD": "СТВ",
-    "068 Кинокомедия": "Кинокомедия"
+    "7tv": "7 TV"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
