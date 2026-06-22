@@ -50,6 +50,8 @@ SOURCE_URLS: list[str] = [
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVdonor.m3u",
     "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVru.m3u",
     "https://fas-tv.com/ip/avto.m3u",
+    "https://fas-tv.com/ip/avto-full.m3u",
+    "https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/all.m3u",
     "https://psv4.vkuserphoto.ru/s/v1/d2/8HZfJQRJ_MeeobCju10KU0HtuRxCjT95DE_iFeuUxmODSc0pzgMyQrRvjqyATaaDlxhP-USCHBzUB8hmxTvoJjgi2JRJCFTHgA9IlqFIlMfQDLbCI9yOSsJ9lmIxsDwpPKpJHiH5kh72/N4V2MS99P39SMB.m3u8",
     "https://dl.dropboxusercontent.com/s/sbm8ttki12bhr9cuxs9oz/m3u?rlkey=ujn5573apcibg3foxhq2ja7tt",
     "https://dl.dropboxusercontent.com/s/ur595ef4cqmfst951kboh/m3u?rlkey=0cw1ficfrq0m6yg2udh16qn78",
@@ -159,6 +161,11 @@ BLOCKLIST: set[str] = {
     "Ош ТВ",
     "Paideuma TV",
     "Promo DJ",
+    "Primocanale Sport",
+    "Asharq News",
+    "TV Jurmala",
+    "Medeniyyet TV",
+    "Azad TV",
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -212,6 +219,15 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "Afrobeats HD": "Afrobeats",
+    "Новое Радио [BY] HD": "Новое радио (Беларусь)",
+    "ASTRAKHAN.RU LIVE": "Астрахань Live",
+    "Russia-24 (1080p)": "Россия 24",
+    "Medeniyyet TV AZ": "Medeniyyet TV",
+    "Azad TV AZ": "Azad TV",
+    "Новое Радио BY": "Новое радио (Беларусь)",
+    " TV Jurmala LV": "TV Jurmala",
+    " Мамонтёнок ТВ": "Мамонтёнок",
     "Точка отрыва SD": "Точка отрыва",
     "TPO": "БелРос",
     "Суббота": "Суббота!",
@@ -622,6 +638,7 @@ ALIASES: dict[str, str] = {
     "AlJazeera HD": "AlJazeera",
     "MNB Newsᴴᴰ": "MNB News",
     "PROMO DJ": "Promo DJ",
+    "Discovery Channel": "Discovery",
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"

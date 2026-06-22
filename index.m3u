@@ -697,6 +697,7 @@ http://37.186.70.39:40/play/30/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — общероссийский государственный телевизионный канал. Транслирует новости, художественные фильмы, сериалы и общественно-политические программы.",Россия 1
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
+http://41.223.30.230/ROSSIYA24/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rtr-planeta.png" tvg-id="rtr-planeta-eu" tvg-description="РТР-Планета — международная версия телеканала «Россия 1» для русскоязычной аудитории за рубежом.",РТР-Планета
 http://37.186.70.39:40/play/25/index.m3u8
@@ -853,6 +854,7 @@ http://stitch.teletarget.ru/vintera/flighttv/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/cineman-aircrash.png" tvg-id="cineman-aircrash" tvg-description="CineMan Air Crash — тематический телеканал, специализирующийся на документальных программах об авиакатастрофах.",CineMan Air Crash
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel" tvg-description="Discovery Channel — международный познавательный телеканал. Специализируется на документальных фильмах о науке, природе, технологиях и приключениях.",Discovery
+http://37.186.70.39:40/play/118/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/h2.png" tvg-id="h2" tvg-description="H2 — дополнительный исторический телеканал, транслирующий углублённый исторический и документальный контент.",H2 History
 
@@ -1141,6 +1143,9 @@ http://stream.almaz-media.tv:8081/hls/720.m3u8
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #https://streaming.astrakhan.ru/astrakhan24/tracks-v2a1/mono.m3u8
 #http://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
+
+#EXTINF:0 group-title="Региональные",Астрахань Live
+#http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/rentv-istoki.png" tvg-id="rentv-istoki" tvg-description="Региональный телеканал Орловской области.",Истоки
 https://istoki.tv//live/stream1/chunklist.m3u8
@@ -1498,33 +1503,3 @@ http://37.186.70.39:40/play/68/index.m3u8
 #EXTINF:0 group-title="candidate",Garage TV
 #https://stream1.sersat.com/hls/garagetv.m3u8
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-06-22 14:20:53  (13 URLs in 12 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test",Discovery Channel
-http://37.186.70.39:40/play/118/index.m3u8
-#EXTINF:-1 group-title="test",Primocanale Sport
-https://msh0203.stream.seeweb.it/live/flv:stream2.sdp/playlist.m3u8
-#EXTINF:-1  group-title="test",Asharq News
-https://live-news.asharq.com/asharq.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , Мамонтёнок ТВ
-http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
-#EXTINF:-1 group-title="test", TV Jurmala LV
-https://air.star.lv/TV_Jurmala_multistream/index.m3u8
-#EXTINF:-1 group-title="test",Новое Радио BY
-http://live.novoeradio.by:8081/live/novoeradio_1080p/chunks.m3u8
-#EXTINF:-1 tvg-id="MedeniyyetTV.az" tvg-logo="https://i.imgur.com/PlvaDIa.png" group-title="test",Medeniyyet TV AZ
-https://str2.yodacdn.net/medeniyyettele/tracks-v2a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="AzadTV.az" tvg-logo="https://i.imgur.com/rDYSoRL.png" group-title="test",Azad TV AZ
-https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
-#EXTINF:-1 tvg-id="Russia24.ru@SD" group-title="test",Russia-24 (1080p)
-http://41.223.30.230/ROSSIYA24/index.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="astrahan-live"  tvg-logo="https://iptvx.one/picons/astrahan-live.png" ,ASTRAKHAN.RU LIVE
-http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_radio"  tvg-logo="https://pcradio.ru/images/stations/61b09d542c13e.jpg" ,Новое Радио [BY] HD
-https://live.novoeradio.by:444/live/novoeradio_1080p/chunks.m3u8
-#EXTINF:-1  group-title="test"  tvg-id="no_epg_music"  tvg-logo="https://oktv.uz/Channels/ch_2916.png" ,Afrobeats HD
-https://stream.ecable.tv/afrobeats/index.m3u8
-#http://de1se01.v2beat.live/playlist.m3u8?kizugtv.m3u8
