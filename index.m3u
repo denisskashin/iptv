@@ -664,6 +664,7 @@ http://87.246.54.249:8080/MIR/mpegts
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia" tvg-description="Ностальгия — российский телеканал, специализирующийся на советских и российских ретро-программах, фильмах и музыке.",Nostalgia
 http://87.246.54.249:8080/Nostalgia/index.m3u8
+#http://87.246.54.249:8080/Nostalgia/mpegts
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/ntm.png" tvg-id="ntm" tvg-description="НТМ — независимый телеканал, транслирующий разнообразный развлекательный и информационный контент.",НТМ
 
@@ -1098,6 +1099,8 @@ https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/hgtv.png" tvg-id="hgtv" tvg-description="HGTV (Home and Garden Television) — международный телеканал, посвящённый ремонту, дизайну интерьеров и садоводству.",HGTV
 
+http://87.246.54.249:8080/HGTV/index.m3u8
+
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/7d7.png" tvg-id="7d7" tvg-description="Just TV — тематический телеканал с разнообразным развлекательным контентом.",Just tv
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/minimax-ms-crime.png" tvg-id="minimax-ms-crime" tvg-description="Minimax MS Crime — детективный тематический телеканал медиагруппы Minimax.",Minimax MS Crime
@@ -1490,6 +1493,7 @@ http://87.246.54.249:8080/ViasatExplorer/index.m3u8
 
 #EXTINF:-1 group-title="candidate",TV1000
 http://87.246.54.249:8080/TV1000/index.m3u8
+#http://87.246.54.249:8080/TV1000/mpegts
 
 #EXTINF:-1 group-title="candidate",360.RU
 http://87.246.54.249:8080/360/index.m3u8

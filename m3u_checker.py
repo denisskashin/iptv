@@ -175,7 +175,7 @@ BLOCKLIST: set[str] = {
     "Мой мир",
     "Тосно ТВ",
     "Sky Cinema Classics",
-    "AXN"
+    "AXN",
     "BNT1",
     "BNT2",
     "BNT3",
@@ -188,7 +188,7 @@ BLOCKLIST: set[str] = {
     "SAT1",
     "StarTV",
     "Kanal7",
-    "KanalD"
+    "KanalD",
     "TV8",
     "TV85"
 }
