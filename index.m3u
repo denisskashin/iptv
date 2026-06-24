@@ -182,6 +182,7 @@ http://91.204.123.202:80/211/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/karusel.png" tvg-id="karusel" tvg-description="Главный российский детский телеканал: мультфильмы, развивающие и образовательные программы.",Карусель
 http://37.186.70.39:40/play/98/index.m3u8
 #http://91.204.123.202:80/120/index.m3u8
+#http://87.246.54.249:8080/Karusel/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/mama.png" tvg-id="mama" tvg-description="Телеканал для родителей: воспитание и здоровье детей, беременность и семья.",Мама
 http://91.204.123.202:80/79/index.m3u8
@@ -208,6 +209,7 @@ https://sirius.greenhosting.ru/PingvinRu/video.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" tvg-id="sts-kids-hd" tvg-description="Детский телеканал СТС: мультсериалы и развлекательные программы.",СТС Kids
 http://37.186.70.39:40/play/97/index.m3u8
 #http://87.246.54.249:8080/CTC_Kids/mpegts
+#http://87.246.54.249:8080/CTC_Kids/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/detsky.png" tvg-id="detsky" tvg-description="Детский развлекательно-познавательный телеканал для детей 6–12 лет.",Уникум
 
@@ -241,7 +243,6 @@ https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru" tvg-description="Международный детский развлекательный телеканал с популярными мультсериалами.",Nickelodeon
 http://91.204.123.202:80/443/index.m3u8
-#http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6848/index.m3u8
 #http://87.246.54.249:8080/Nickelodeon/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-description="Детский телеканал с анимацией и развивающим контентом.",NikNik.TV
@@ -344,7 +345,7 @@ http://37.186.70.39:40/play/49/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/premialnoe.png" tvg-id="premialnoe" tvg-description="Телеканал премиального художественного кино.",Премиальное
 http://91.204.123.202:80/421/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/pro100.png" tvg-id="pro100" tvg-description="Семейный телеканал художественного кино: зарубежная и отечественная киноклассика, детские и познавательные программы.",Про100
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/pro100.png" tvg-id="pro100" tvg-description="Семейный телеканал художественного кино: зарубежная и отечественная киноклассика, детские и познавательные программы.",PRO100 TV
 https://sirius.greenhosting.ru/Pro100tvRu/video.m3u8
 #http://85.192.10.173/Pro100tvRu/video.m3u8
 #http://sirius.greenhosting.ru/Pro100tvRu/tracks-v1a1/mono.m3u8
@@ -595,6 +596,7 @@ https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
 #https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 #http://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
+#https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-description="Информационный телеканал.",News Front TV
 https://tv.2kita.com/stream/index.m3u8
@@ -660,7 +662,8 @@ http://87.246.54.249:8080/MIR/mpegts
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/novy-mir.png" tvg-id="novy-mir" tvg-description="Новый мир — российский телеканал, транслирующий позитивный контент о современной жизни.",Новый мир
 
-#EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia" tvg-description="Ностальгия — российский телеканал, специализирующийся на советских и российских ретро-программах, фильмах и музыке.",Ностальгия
+#EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia" tvg-description="Ностальгия — российский телеканал, специализирующийся на советских и российских ретро-программах, фильмах и музыке.",Nostalgia
+http://87.246.54.249:8080/Nostalgia/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/ntm.png" tvg-id="ntm" tvg-description="НТМ — независимый телеканал, транслирующий разнообразный развлекательный и информационный контент.",НТМ
 
@@ -686,6 +689,7 @@ http://37.186.70.39:40/play/30/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv-int.png" tvg-id="rentv-int" tvg-description="РЕН ТВ International — международная версия российского телеканала РЕН ТВ для зрителей за рубежом.",Рен ТВ International
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — общероссийский государственный телевизионный канал. Транслирует новости, художественные фильмы, сериалы и общественно-политические программы.",Россия 1
+http://87.246.54.249:8080/Rossia1/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
 
@@ -835,6 +839,7 @@ http://37.186.70.39:40/play/118/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/idxtra.png" tvg-id="id-xtra-eu" tvg-description="Investigation Discovery — международный тематический канал, специализирующийся на документальных программах о расследованиях преступлений.",Investigation Discovery
 http://91.204.123.202:80/205/index.m3u8
+#http://87.246.54.249:8080/ID/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-description="KLI Docu — документальный телеканал.",KLI Docu
 
@@ -863,10 +868,11 @@ https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_
 #EXTINF:0 group-title="Познавательные" tvg-description="VB Назад в СССР — тематический телеканал, транслирующий советские фильмы, мультфильмы и передачи.",VB Назад в СССР
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viju Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viju Explore
-
 http://87.246.54.249:8080/Viju_Explore/mpegts
+#http://87.246.54.249:8080/Viju_Explore/index.m3u8
 
-#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Viju History — исторический телеканал балтийской медиагруппы Viju.",Viju History
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history",Viasat History
+http://87.246.54.249:8080/ViasatHistory/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Viju Planet
 
@@ -896,6 +902,7 @@ http://37.186.70.39:40/play/110/index.m3u8
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" tvg-id="animal-planet-eu" tvg-description="Animal Planet — международный телеканал о животных и природе. Транслирует документальные программы о дикой природе и домашних животных.",Animal Planet
 http://37.186.70.39:40/play/113/index.m3u8
 #http://87.246.54.249:8080/AnimalPlanet/mpegts
+#http://87.246.54.249:8080/AnimalPlanet/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/big-planet.png" tvg-id="big-planet" tvg-description="Big Planet — познавательный телеканал о природе и мире.",Big Planet
 
@@ -907,6 +914,7 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/minimax-micromir.png" tvg-id="minimax-micromir" tvg-description="Minimax Микромир — телеканал детской медиагруппы Minimax, транслирующий программы о микромире и природе.",Minimax Микромир
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" tvg-id="nat-geo-wild" tvg-description="National Geographic Wild — международный канал о дикой природе и животных. Транслирует документальные фильмы о животном мире.",National Geographic Wild
+http://87.246.54.249:8080/NatGeoWild/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/skyhigh-nature.png" tvg-id="skyhigh-nature" tvg-description="Sky High Nature — тематический канал о природе.",Sky High Nature
 
@@ -955,6 +963,7 @@ http://104.143.4.5:2080/funroads.m3u8
 http://37.186.70.39:40/play/105/index.m3u8
 #http://91.204.123.202:80/116/index.m3u8
 #http://87.246.54.249:8080/NatGeo/mpegts
+#http://87.246.54.249:8080/NatGeo/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/ocean-tv.png" tvg-id="ocean-tv" tvg-description="Ocean TV — тематический телеканал об океанах, морях и подводном мире.",Ocean TV
 
@@ -1187,6 +1196,7 @@ http://176.126.166.43:1935/live/312musik/playlist.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala" tvg-description="Телеканал отечественных и зарубежных сериалов.",Мир сериала
 http://94.236.201.114/MIR_SERIALA_SD/index.m3u8
+#http://87.246.54.249:8080/MirSeriala/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller" tvg-description="Телеканал российских сериалов и экранизаций.",Русский бестселлер
 http://91.204.123.202:80/208/index.m3u8
@@ -1466,261 +1476,38 @@ http://37.186.70.39:40/play/68/index.m3u8
 #EXTINF:-1 group-title="candidate",Крым 24
 http://live24.trkcrimea.ru/24tvcrimea.m3u8
 
-#EXTINF:-1 group-title="candidate",Фантастика HD
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/WN5AE2WA7HR5TL/11070/index.m3u8
-
-
-
-#EXTINF:-1 catchup="shift" timeshift="3" catchup-days="3" group-title="test",360 Новости
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
-
-#EXTINF:-1 catchup="shift" timeshift="3" catchup-days="3" group-title="test",AMEDIA HIT HD
-http://37.186.70.39:40/play/54/index.m3u8
-
-#EXTINF:-1 catchup="shift" timeshift="3" catchup-days="3" group-title="test",Amedia Premium HD
-http://37.186.70.39:40/play/60/index.m3u8
-
-#EXTINF:-1 group-title="test",PRO100 TV
-http://sirius.greenhosting.ru/Pro100tvRu/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1 tvg-id="RT.ru@SD" group-title="test",RT (576p)
+#EXTINF:-1 group-title="candidate",RT
 http://84.17.50.102/russiatoday/index.m3u8
 
-#EXTINF:-1 group-title="test",Fifa+
+#EXTINF:-1 group-title="candidate",Fifa+
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 
-#EXTINF:0 group-title="test" tvg-id="6445" tvg-logo="http://epg.one/img2/6445.png" tvg-rec="0",Sky Cinema Classics DE
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/19005/index.m3u8
-
-#EXTINF:0 group-title="test" tvg-id="11086" tvg-logo="http://epg.one/img2/11086.png" tvg-rec="0",Sky Sport Top Event HD DE
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/19003/index.m3u8
-
-#EXTINF:0 group-title="test" tvg-id="3874" tvg-logo="http://epg.one/img2/3874.png" tvg-rec="3",beIN Sports 2 HD TR
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6818/index.m3u8
-#http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6819/index.m3u8
-
-#EXTINF:0 group-title="test" tvg-id="3862" tvg-logo="http://epg.one/img2/3862.png" tvg-rec="3",beIN Gurme HD TR
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6804/index.m3u8
-
-#EXTINF:0 group-title="test" tvg-id="3872" tvg-logo="http://epg.one/img2/3872.png" tvg-rec="3",Tivibu Spor 2 HD TR
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6816/index.m3u8
-
-#EXTINF:0 group-title="test" tvg-id="8697" tvg-logo="http://epg.one/img2/8697.png" tvg-rec="3",Sinema Aksiyon 2 TR
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6812/index.m3u8
-
-#EXTINF:0 group-title="test" tvg-id="3876" tvg-logo="http://epg.one/img2/3876.png" tvg-rec="3",beIN Sports 3 HD TR
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6820/index.m3u8
-
-#EXTINF:0 group-title="test" tvg-id="3873" tvg-logo="http://epg.one/img2/3873.png" tvg-rec="3",beIN Sports 1 FHD TR
-http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/F5GDYXTUM2QBV3/6817/index.m3u8
-
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-06-24 20:21:46  (109 URLs in 96 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 group-title="test",Rossia1 HD
-http://87.246.54.249:8080/Rossia1/index.m3u8
-#EXTINF:-1 group-title="test",Mir Seriala
-http://87.246.54.249:8080/MirSeriala/index.m3u8
-#EXTINF:-1 group-title="test",Karusel
-http://87.246.54.249:8080/Karusel/index.m3u8
-#EXTINF:-1 group-title="test",CTC Kids
-http://87.246.54.249:8080/CTC_Kids/index.m3u8
-#EXTINF:-1 group-title="test",NOSTALGIA HD
-http://87.246.54.249:8080/Nostalgia/index.m3u8
-#http://87.246.54.249:8080/Nostalgia/mpegts
-#EXTINF:-1 group-title="test",Viju_Premiere HD
+#EXTINF:-1 group-title="candidate",Viju+ Megahit
 http://87.246.54.249:8080/Viju_Premiere/index.m3u8
-#EXTINF:-1 group-title="test",Viasat History
-http://87.246.54.249:8080/ViasatHistory/index.m3u8
-#EXTINF:-1 group-title="test",Viasat Explorer
+
+#EXTINF:-1 group-title="candidate",Viasat Explorer
 http://87.246.54.249:8080/ViasatExplorer/index.m3u8
-#EXTINF:-1 group-title="test",TV1000
+
+#EXTINF:-1 group-title="candidate",TV1000
 http://87.246.54.249:8080/TV1000/index.m3u8
-#http://87.246.54.249:8080/TV1000/mpegts
-#EXTINF:-1 group-title="test",Viasat Nature
-http://87.246.54.249:8080/ViasatNature/index.m3u8
-#EXTINF:-1 group-title="test",Viju_Explore
-http://87.246.54.249:8080/Viju_Explore/index.m3u8
-#EXTINF:-1 group-title="test",NatGeo
-http://87.246.54.249:8080/NatGeo/index.m3u8
-#EXTINF:-1 group-title="test",NatGeoWild
-http://87.246.54.249:8080/NatGeoWild/index.m3u8
-#EXTINF:-1 group-title="test",TLC HD
-http://87.246.54.249:8080/TLC/index.m3u8
-#EXTINF:-1 group-title="test",AnimalPlanet
-http://87.246.54.249:8080/AnimalPlanet/index.m3u8
-#EXTINF:-1 group-title="test",TravelChannel HD
-http://87.246.54.249:8080/TravelChannel/index.m3u8
-#EXTINF:-1 group-title="test",ID HD
-http://87.246.54.249:8080/ID/index.m3u8
-#EXTINF:-1 group-title="test",360 RU HD
+
+#EXTINF:-1 group-title="candidate",360.RU
 http://87.246.54.249:8080/360/index.m3u8
-#EXTINF:-1 group-title="test",RING
-http://87.246.54.249:8080/RING/index.m3u8
-#EXTINF:-1 group-title="test",AgroTV
-http://87.246.54.249:8080/AgroTV/index.m3u8
-#EXTINF:-1 group-title="test",AMC
-http://87.246.54.249:8080/amc/index.m3u8
-#http://87.246.54.249:8080/amc/mpegts
-#EXTINF:-1 group-title="test",AXN
-http://87.246.54.249:8080/AXN/index.m3u8
-#http://87.246.54.249:8080/AXN/mpegts
-#EXTINF:-1 group-title="test",BeyazTV HD
-http://87.246.54.249:8080/BeyazTV/index.m3u8
-#EXTINF:-1 group-title="test",Bloomberg
-http://87.246.54.249:8080/Bloomberg/index.m3u8
-#EXTINF:-1 group-title="test",BNT1 HD
-http://87.246.54.249:8080/BNT1/index.m3u8
-#EXTINF:-1 group-title="test",BNT2 HD
-http://87.246.54.249:8080/BNT2/index.m3u8
-#EXTINF:-1 group-title="test",BNT3 HD
-http://87.246.54.249:8080/BNT3/index.m3u8
-#EXTINF:-1 group-title="test",BNT4
-http://87.246.54.249:8080/BNT4/index.m3u8
-#EXTINF:-1 group-title="test",bTV HD
-http://87.246.54.249:8080/bTV/index.m3u8
-#EXTINF:-1 group-title="test",bTV_Cinema
+
+#EXTINF:-1 group-title="candidate",bTV Cinema
 http://87.246.54.249:8080/bTV_Cinema/index.m3u8
-#EXTINF:-1 group-title="test",cartoonito HD
-http://87.246.54.249:8080/cartoonito/index.m3u8
-#EXTINF:-1 group-title="test",CNN
-http://87.246.54.249:8080/CNN/index.m3u8
-#EXTINF:-1 group-title="test",Diema
-http://87.246.54.249:8080/Diema/index.m3u8
-#EXTINF:-1 group-title="test",Diema_Family
-http://87.246.54.249:8080/Diema_Family/index.m3u8
-#EXTINF:-1 group-title="test",DiemaSport2 HD
-http://87.246.54.249:8080/DiemaSport2/index.m3u8
-#EXTINF:-1 group-title="test",DiemaSport3 HD
-http://87.246.54.249:8080/DiemaSport3/index.m3u8
-#EXTINF:-1 group-title="test",DuckTV
-http://87.246.54.249:8080/DuckTV/index.m3u8
-#EXTINF:-1 group-title="test",Ekids
-http://87.246.54.249:8080/Ekids/index.m3u8
-#EXTINF:-1 group-title="test",espressotv
-http://87.246.54.249:8080/espressotv/index.m3u8
-#EXTINF:-1 group-title="test",EuroNews
-http://87.246.54.249:8080/EuroNews/index.m3u8
-#EXTINF:-1 group-title="test",FoodNetwork HD
+
+#EXTINF:-1 group-title="candidate",Food Network
 http://87.246.54.249:8080/FoodNetwork/index.m3u8
-#EXTINF:-1 group-title="test",France24
-http://87.246.54.249:8080/France24/index.m3u8
-#EXTINF:-1 group-title="test",HBO
+
+#EXTINF:-1 group-title="candidate",HBO
 http://87.246.54.249:8080/HBO/index.m3u8
-#EXTINF:-1 group-title="test",HBO3
-http://87.246.54.249:8080/HBO3/index.m3u8
-#EXTINF:-1 group-title="test",HBO2
+
+#EXTINF:-1 group-title="candidate",HBO2
 http://87.246.54.249:8080/HBO2/index.m3u8
-#EXTINF:-1 group-title="test",HGTV HD
-http://87.246.54.249:8080/HGTV/index.m3u8
-#EXTINF:-1 group-title="test",MagicTV
-http://87.246.54.249:8080/MagicTV/index.m3u8
-#EXTINF:-1 group-title="test",MaxSport1 HD
-http://87.246.54.249:8080/MaxSport1/index.m3u8
-#EXTINF:-1 group-title="test",MaxSport2 HD
-http://87.246.54.249:8080/MaxSport2/index.m3u8
-#EXTINF:-1 group-title="test",MaxSport4 HD
-http://87.246.54.249:8080/MaxSport4/index.m3u8
-#EXTINF:-1 group-title="test",MaxSport3 HD
-http://87.246.54.249:8080/MaxSport3/index.m3u8
-#EXTINF:-1 group-title="test",NovaSport
-http://87.246.54.249:8080/NovaSport/index.m3u8
-#EXTINF:-1 group-title="test",NickToons
-http://87.246.54.249:8080/NickToons/index.m3u8
-#EXTINF:-1 group-title="test",NOW
+
+#EXTINF:-1 group-title="candidate",HBO3
+http://87.246.54.249:8080/HBO3/index.m3u8
+
+#EXTINF:-1 group-title="candidate",NOW
 http://87.246.54.249:8080/NOW/index.m3u8
-#EXTINF:-1 group-title="test",TRT1
-http://87.246.54.249:8080/TRT1/index.m3u8
-#EXTINF:-1 group-title="test",ATV
-http://87.246.54.249:8080/ATV/index.m3u8
-#http://87.246.54.249:8080/ATV/mpegts
-#EXTINF:-1 group-title="test",SAT1
-http://87.246.54.249:8080/SAT1/index.m3u8
-#EXTINF:-1 group-title="test",StarTV
-http://87.246.54.249:8080/StarTV/index.m3u8
-#EXTINF:-1 group-title="test",TV1 HD
-http://87.246.54.249:8080/TV1/index.m3u8
-#EXTINF:-1 group-title="test",Kanal7
-http://87.246.54.249:8080/Kanal7/index.m3u8
-#EXTINF:-1 group-title="test",KanalD
-http://87.246.54.249:8080/KanalD/index.m3u8
-#EXTINF:-1 group-title="test",tv5_monde
-http://87.246.54.249:8080/tv5_monde/index.m3u8
-#EXTINF:-1 group-title="test",TV8
-http://87.246.54.249:8080/TV8/index.m3u8
-#EXTINF:-1 group-title="test",TV85
-http://87.246.54.249:8080/TV85/index.m3u8
-#EXTINF:-1 group-title="test",TVT
-http://87.246.54.249:8080/TVT/index.m3u8
-#EXTINF:-1 group-title="test",Diema Sport HD
-http://87.246.54.249:8080/DiemaSport/mpegts
-#http://87.246.54.249:8080/DiemaSport/index.m3u8
-#EXTINF:-1 group-title="test",VTK
-http://87.246.54.249:8080/VTK/index.m3u8
-#EXTINF:-1 group-title="test",yabantv
-http://87.246.54.249:8080/yabantv/index.m3u8
-#EXTINF:-1 group-title="test",Diema Sport 2
-http://87.246.54.249:8080/DiemaSport2/mpegts
-#EXTINF:-1 group-title="test",Karusel Intl.
-http://87.246.54.249:8080/Karusel/mpegts
-#EXTINF:-1 group-title="test",Cartoon Network
-http://87.246.54.249:8080/CartoonNetwork/mpegts
-#EXTINF:-1 group-title="test",Eurosport 2 Bulgaria
-http://87.246.54.249:8080/Eurosport2/mpegts
-#EXTINF:-1 group-title="test",
-http://87.246.54.249:8080/HBO2/mpegts
-#http://87.246.54.249:8080/yabantv/mpegts
-#http://87.246.54.249:8080/BabyTV/mpegts
-#http://87.246.54.249:8080/Nickelodeon/mpegts
-#http://87.246.54.249:8080/ViasatHistory/mpegts
-#http://87.246.54.249:8080/ViasatExplorer/mpegts
-#http://87.246.54.249:8080/ViasatNature/mpegts
-#EXTINF:-1 group-title="test",Kanal D
-http://87.246.54.249:8080/KanalD/mpegts
-#EXTINF:-1 group-title="test",Diema SD AVC
-http://87.246.54.249:8080/Diema/mpegts
-#EXTINF:-1 group-title="test",BNT 1
-http://87.246.54.249:8080/BNT1/mpegts
-#EXTINF:-1 group-title="test", HD
-http://87.246.54.249:8080/HGTV/mpegts
-#http://87.246.54.249:8080/Planeta/mpegts
-#EXTINF:-1 group-title="test",Disney Channel
-http://87.246.54.249:8080/DisneyChannel/mpegts
-#EXTINF:-1 group-title="test",CNN Int
-http://87.246.54.249:8080/CNN/mpegts
-#EXTINF:-1 group-title="test",Nat Geo Wild
-http://87.246.54.249:8080/NatGeoWild/mpegts
-#EXTINF:-1 group-title="test",TV1
-http://87.246.54.249:8080/TV1/mpegts
-#EXTINF:-1 group-title="test",TV 8
-http://87.246.54.249:8080/TV8/mpegts
-#EXTINF:-1 group-title="test",Наше Новое Кино HD
-http://87.246.54.249:8080/NasheKino/mpegts
-#EXTINF:-1 group-title="test",Boomerang
-http://87.246.54.249:8085/Boomerang/mpegts
-#EXTINF:-1 group-title="test",KHL Prime HD
-http://87.246.54.249:8080/KHL/mpegts
-#EXTINF:-1 group-title="test",TLC Bulgaria
-http://87.246.54.249:8080/TLC/mpegts
-#EXTINF:-1 group-title="test",Service01 HD
-http://87.246.54.249:8080/AgroTV/mpegts
-#EXTINF:-1 group-title="test",Warner TV Italy HD
-http://87.246.54.249:8080/cartoonito/mpegts
-#EXTINF:-1 group-title="test",Food Network HD
-http://87.246.54.249:8080/FoodNetwork/mpegts
-#EXTINF:-1 group-title="test",ESPRESO TV
-http://87.246.54.249:8080/espressotv/mpegts
-#EXTINF:-1 group-title="test",Star TV
-http://87.246.54.249:8080/StarTV/mpegts
-#EXTINF:-1 group-title="test",ID Xtra
-http://87.246.54.249:8080/ID/mpegts
-#EXTINF:-1 group-title="test",Детский Мир
-http://87.246.54.249:8080/DetskiMir/mpegts
-#EXTINF:-1 group-title="test",DW English
-http://87.246.54.249:8080/DW/mpegts
-#EXTINF:-1 group-title="test",СТС I HD
-http://87.246.54.249:8080/CTC/mpegts
-#EXTINF:-1 group-title="test",ACI SportTV HD
-http://87.246.54.249:8080/SportTV/index.m3u8

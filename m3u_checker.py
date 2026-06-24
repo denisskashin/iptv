@@ -174,6 +174,23 @@ BLOCKLIST: set[str] = {
     "TRT Müzik",
     "Мой мир",
     "Тосно ТВ",
+    "Sky Cinema Classics",
+    "AXN"
+    "BNT1",
+    "BNT2",
+    "BNT3",
+    "BNT4",
+    "bTV",
+    "HGTV",
+    "Magic TV",
+    "TRT1",
+    "ATV",
+    "SAT1",
+    "StarTV",
+    "Kanal7",
+    "KanalD"
+    "TV8",
+    "TV85"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -227,6 +244,28 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "MagicTV": "Magic TV",
+    "HGTV HD": "HGTV",
+    "FoodNetwork HD": "Food Network",
+    "bTV_Cinema": "bTV Cinema",
+    "bTV HD": "bTV",
+    "BNT1 HD": "BNT1",
+    "BNT2 HD": "BNT2",
+    "BNT3 HD": "BNT3",
+    "BNT4 HD": "BNT4",
+    "360 RU HD": "360.RU",
+    "ID HD": "Investigation Discovery",
+    "AnimalPlanet": "Animal Planet",
+    "NatGeoWild": "National Geographic Wild",
+    "NatGeo": "National Geographic",
+    "Viju_Explore": "Viju Explore",
+    "Viju_Premiere HD": "Viju+ Megahit",
+    "Ностальгия": "Nostalgia",
+    "NOSTALGIA HD": "Nostalgia",
+    "CTC Kids": "СТС Kids",
+    "Karusel": "Карусель",
+    "Mir Seriala": "Мир сериала",
+    "Rossia1 HD": "Россия 1",
     "TRT Müzik HD": "TRT Müzik",
     "CBC Sport HD": "CBC Sport",
     "CBC HD": "CBC",
@@ -276,7 +315,7 @@ ALIASES: dict[str, str] = {
     "Россия К": "Россия Культура",
     "Рыжий тв": "Рыжий",
     "Полёт ТВ HD": "Полёт ТВ HD",
-    "Про100 ТВ": "Про100",
+    "Про100 ТВ": "PRO100 TV",
     "Первый канал HD": "Первый канал",
     "Пятый канал": "5 канал",
     "Первый Ростовский HD": "Первый Ростовский",
@@ -549,7 +588,7 @@ ALIASES: dict[str, str] = {
     "Sport UZ HD": "Sport UZ",
     "PX SPORTS": "PX Sports",
     "AFROBEATSᴴᴰ": "Afrobeats",
-    "PRO100": "Про100",
+    "PRO100": "PRO100 TV",
     "ОТР HD": "ОТР",
     "019 NUR": "ТВ Спорт",
     "КиноМенюᴴᴰ": "КиноМеню",
@@ -656,7 +695,11 @@ ALIASES: dict[str, str] = {
     "StrahTV Фантастика HD": "Фантастика HD",
     "V2BEAT SD": "V2BEAT",
     "Nickelodeon HD TR": "Nickelodeon",
-    "Телплюс ТВ (Астрахань) (360p) [Not 24/7]": "Телплюс ТВ"
+    "Телплюс ТВ (Астрахань) (360p) [Not 24/7]": "Телплюс ТВ",
+    "360 Новости": "360.RU Новости",
+    "AMEDIA HIT HD": "Amedia Hit",
+    "Amedia Premium HD": "Amedia Premium",
+    "Sky Cinema Classics DE": "Sky Cinema Classics"
 }
 
 DEFAULT_INDEX_FILE  = "index.m3u"
