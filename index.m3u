@@ -1129,21 +1129,11 @@ https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 http://live1.trkcrimea.ru/1tvcrimea.m3u8
 #http://live1.1tvcrimea.ru/1tvcrimea.m3u8
 
-#EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Полевского.",Полевской 1
-http://77.235.26.137:8086/0.m3u8
-#http://146.120.213.172:8086/0.m3u8
-#http://glorystartv.live/Impact/index.m3u8
-#http://hoktastream1.webcamera.pl/tv_cam_781381/tv_cam_781381.stream/chunks.m3u8
-
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pro-zhizn.png" tvg-id="pro-zhizn" tvg-description="Региональный телеканал о людях и повседневной жизни.",Про жизнь
 https://27trk.iptv2022.com/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/7kanal-kz.png" tvg-id="7kanal-kz" tvg-description="«Седьмо́й кана́л» — казахстанский республиканский развлекательный телеканал. Штаб-квартира находится в Астане. Вещание происходит на казахском и русском языках.",Седьмой канал
 http://91.204.123.202:80/27/index.m3u8
-
-#EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Тосно (Ленинградская область).",Тосно ТВ
-https://tosnotv.ru/hlsshare/video.m3u8
-#http://tosnotv.ru/hlsshare/video.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/regiontv-kg.png" tvg-id="regiontv-kg" tvg-description="Региональный телеканал Казахстана.",Region
 http://31.192.249.68:8080/0.m3u8
@@ -1482,13 +1472,13 @@ http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/WN5AE2WA7HR5TL/11070/ind
 
 
 #EXTINF:-1 catchup="shift" timeshift="3" catchup-days="3" group-title="test",360 Новости
-#https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 
 #EXTINF:-1 catchup="shift" timeshift="3" catchup-days="3" group-title="test",AMEDIA HIT HD
-#http://37.186.70.39:40/play/54/index.m3u8
+http://37.186.70.39:40/play/54/index.m3u8
 
 #EXTINF:-1 catchup="shift" timeshift="3" catchup-days="3" group-title="test",Amedia Premium HD
-#http://37.186.70.39:40/play/60/index.m3u8
+http://37.186.70.39:40/play/60/index.m3u8
 
 #EXTINF:-1 group-title="test",PRO100 TV
 http://sirius.greenhosting.ru/Pro100tvRu/tracks-v1a1/mono.m3u8
