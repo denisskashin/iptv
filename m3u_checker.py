@@ -79,6 +79,7 @@ BLOCKLIST: set[str] = {
     "1+1",
     "24 Канал",
     "33 канал",
+    "7 TV",
     "Afrobeats",
     "Al Zahra TV",
     "Al-Zahra TV Turkic",

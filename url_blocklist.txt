@@ -18,18 +18,16 @@
 *.vedge.infomaniak.com
 *.msvdn.net
 *.bozztv.com
+*.com.br
+
 data*-cdn.11cdn.org
-video*.logicahost.com.br
 *.ebacdn.net
 *.fluid.stream
 cdn-*.pishow.tv
-stmv*.samcast.com.br
 *.alsolnet.com
 *.azotosolutions.com
 *.wns.live
 stmv*.srvif.com
-srv*.zcast.com.br
-stmv*.voxtvhd.com.br
 k*.usastreams.com
 v*.tustreaming.cl
 h*.video-stream-hosting.de
@@ -353,13 +351,11 @@ live.thaichaiyo.tv
 a-cdn.klowdtv.com
 us.streaminghd.cl
 cdn22.streampartner.nl
-stmv1.liveplushd.com.br
 isaocorp.cloudecast.com
 hdbox.chunklistv.com
 streaming.grupomediosdelnorte.com
 canalteste.duckdns.org
 abr.de1se01.v2beat.live
-stmv2.centralcast.com.br
 streamtv.onliv3.online
 sincerecloud.stream
 amagicloud-medialive-common016.s3.amazonaws.com
@@ -614,7 +610,6 @@ streams.radio.co
 user91229.clients-cdnnow.ru
 v.viplime.fun
 ma.anixa.tv
-pop.uniquetv.com.br
 stream.ushba.tv
 rr2.73mtv.org
 sokfm.ru
@@ -636,8 +631,10 @@ de.russkoe-iptv.com
 cdn.balelbrus.com
 stitch.teletarget.ru
 stream-tv-digital.hf.space
+de1se01.v2beat.live
 
 # --- blocked IPs ---
+41.223.30.230
 181.118.156.46
 5.57.74.130
 93.93.113.95
@@ -925,3 +922,7 @@ http://91.204.123.202:80/488/index.m3u8
 http://91.204.123.202:80/235/index.m3u8
 http://91.204.123.202:80/361/index.m3u8
 http://91.204.123.202:80/363/index.m3u8
+http://91.204.123.202:80/141/index.m3u8
+
+#http://v4.proofix.ru/okino-tv/index.m3u8
+
