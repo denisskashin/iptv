@@ -71,6 +71,7 @@ SOURCE_URLS: list[str] = [
     "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/ilook.m3u8",
     "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/iedem.m3u8",
     "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/fawlok_iptv.m3u8",
+    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Russia/LiveTV.m3u",
 ]
 
 # Channels to skip entirely (exact case-insensitive name match).
