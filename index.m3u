@@ -620,6 +620,7 @@ https://cdn.telecloud.tv/CH4419/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",Рен ТВ
 http://37.186.70.39:40/play/30/index.m3u8
 #https://cdn.telecloud.tv/CH189/index.m3u8
+#https://edge02r.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.Dipj9P2P7rOq9RXfdxUjPQZRhcfUlHjQmeG-TOxn8fI.uIN5TisrqtUGcubOnnwQs-Gi8fUB7S0Dw5rYHUVp0kk.1783028289.f4dccc6972ae2a14e76ae873bff7588b
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv-int.png" tvg-id="rentv-int" tvg-description="РЕН ТВ International — международная версия российского телеканала РЕН ТВ для зрителей за рубежом.",Рен ТВ International
 https://edge02r.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.Dipj9P2P7rOq9RXfdxUjPQZRhcfUlHjQmeG-TOxn8fI.uIN5TisrqtUGcubOnnwQs-Gi8fUB7S0Dw5rYHUVp0kk.1783028289.f4dccc6972ae2a14e76ae873bff7588b
@@ -1219,7 +1220,6 @@ http://mmn.mypsx.net:1935/live/mmnhdsport/chunklist.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/cbs-sports-network-us.png" tvg-id="cbs-sports-network-us" tvg-description="CBS Sports Network — американский спортивный телеканал сети CBS. Транслирует разнообразные спортивные соревнования.",CBS Sports Network
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/ct-sport.png" tvg-id="ct-sport" tvg-description="Чешский спортивный телеканал (ČT Sport).",CT Sport
-http://88.212.7.11/live/test_ctsport_25p/playlist.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Спортивный телеканал DSports.",DSPORTS 1
 http://190.117.20.37:8000/play/a08d/index.m3u8
@@ -1288,6 +1288,8 @@ https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist_b900
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kazsport.png" tvg-id="kazsport" tvg-description="Qazsport — официальный спортивный телеканал Казахстана. Транслирует казахстанские и международные спортивные соревнования.",Qazsport
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/setanta-sports-plus.png" tvg-id="setanta-sports-plus" tvg-description="Спортивный телеканал Setanta Sports.",Setanta Sports 2
+
+https://stream1.cinerama.uz/1264/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/spotv.png" tvg-id="spotv" tvg-description="Азиатский спортивный телеканал SPOTV.",SPOTV
 
@@ -1425,3 +1427,4 @@ http://85.234.33.64/stream/c11.m3u8
 
 #EXTINF:-1 group-title="candidate",10 канал
 http://kuzbass1.ru:8082/10kanal/10kanal_720/playlist.m3u8
+
