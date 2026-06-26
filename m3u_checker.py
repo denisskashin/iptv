@@ -40,6 +40,8 @@ from typing import Optional
 # ──────────────────────────────────────────────────────────
 
 
+
+
 SOURCE_URLS: list[str] = [
     "https://raw.githubusercontent.com/iptv-free/TV/refs/heads/FREE/TV",
     "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV?m3u8",
@@ -58,6 +60,22 @@ SOURCE_URLS: list[str] = [
     "https://m3url.ru/LIst_9.m3u",
     "https://m3u.ch/pl/402fdf5102aacfc997279fd904643392_78d493be9df8cf5d447946793758bfa6.m3u",
     "https://iptv.org.ua/iptv/kino-plus.m3u",
+    "https://iptv.org.ua/iptv/avto-full.m3u",
+    "https://iptv.org.ua/iptv/tva3.m3u",
+    "https://iptv.org.ua/iptv/tva2.m3u",
+    "https://iptv.org.ua/iptv/peerstv.m3u",
+    "https://iptv.org.ua/iptv/provayder.m3u",
+    "https://iptv.org.ua/iptv/iptv.m3u",
+    "https://iptv.org.ua/iptv/vpn.m3u",
+    "https://iptv.org.ua/iptv/tva4.m3u",
+    "https://iptv.org.ua/iptv/tva1.m3u",
+    "https://iptv.org.ua/iptv/avto.m3u",
+    "https://segaz.my1.ru/t/torr.m3u8",
+    "https://tva.org.ua/ip/sam/avto-full.m3u",
+    "https://tva.org.ua/ip/sam/avtox.m3u",
+    "https://tva.org.ua/ip/sam/iptv.m3u",
+    "https://tva.org.ua/ip/sam/avto-iptv-tva.m3u",
+    "https://tva.org.ua/ip/sam/provayder.m3u",
     "https://pikniktv.info/download/file.php?id=127257",
     "https://dl.dropboxusercontent.com/scl/fi/thsjb093g6wkqdnpjdc82/Sport.m3u?rlkey=cixvxk8337i11u2h6vswjepvt&st=3a9a8qym&dl=0",
     "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru.m3u",
