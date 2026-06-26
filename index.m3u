@@ -1489,18 +1489,8 @@ http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
 #EXTINF:0 group-title="test",555
 http://trk555.tv:8888/live
-#EXTINF:0 group-title="test",Первый Канал
-https://vod.splay.uz/live_splay/original/Perviy_Kanal/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Россия 24
-https://vod.splay.uz/live_splay/original/Rossiya24/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Мир
-https://vod.splay.uz/live_splay/original/Mir/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Красная линия
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8
-#EXTINF:0 group-title="test",Мир 24
-https://vod.splay.uz/live_splay/original/Mir24/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",ТВ3
-https://vod.splay.uz/live_splay/original/TV3/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Первый канал FHD
 http://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:0 group-title="test",Звезда Плюс
@@ -1567,28 +1557,12 @@ http://31.148.48.15/Kino_TV_HD/index.m3u8
 http://185.221.213.254:8080/Okko/index.m3u8
 #EXTINF:0 group-title="test",Дом Кино
 http://188.113.190.15/119/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кинозалы 1
-http://162.212.179.43/ushba13/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Кинозалы 3
-http://162.212.179.43/ushba24/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Дом Кино Премиум
 http://188.113.190.15/91/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Кино TV HD
 http://188.113.190.15/3/video.m3u8
-#EXTINF:0 group-title="test",Кинозалы 8
-http://162.212.179.43/ushba-films-e/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Кинозалы 4
-http://162.212.179.43/ushba26/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Кинозалы 11
-http://162.212.179.43/ushba-films-h/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Кинозалы 14
-http://162.212.179.43/ushba-films-m/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Кинозалы 19
-http://162.212.179.43/ushba-films-qr/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Иллюзион+
 http://188.113.190.15/45/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кинозалы 21
-http://162.212.179.43/ushba-films-o/index.m3u8
 #EXTINF:0 group-title="test",Кинеко
 http://188.113.190.15/57/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Кинеко HD
@@ -1637,8 +1611,6 @@ http://188.113.190.12/329/index.m3u8
 http://176.126.166.43:1935/live/312musik/playlist.m3u8
 #EXTINF:0 group-title="test",312 Кино
 http://176.126.166.43:1935/live/312kino/playlist.m3u8
-#EXTINF:0 group-title="test",Киномикс HD
-https://vod.splay.uz/live_splay/original/KinomiksHD/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Русский детектив
 http://31.148.48.15/Russkiy_Detektiv/index.m3u8
 #EXTINF:0 group-title="test",Твоё ТВ HD
@@ -1863,20 +1835,10 @@ http://31.148.48.15:80/Match_Futbol_3_HD/index.m3u8?token=test
 http://s8.rafail1982.uz/1264/tracks-v1a1a1/mono.m3u8
 #EXTINF:0 group-title="test",Setanta Sports 1 HD
 http://s8.rafail1982.uz/1263/tracks-v1a1a1/mono.m3u8
-#EXTINF:0 group-title="test",Setanta Sports 1 HD
-https://vod.splay.uz/live_splay/original/Setanta1HD/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Setanta Sports 2 HD
-https://vod.splay.uz/live_splay/original/Setanta2HD/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Setanta Sports 1 HD
-http://vod.splay.uz/live_splay/original/Setanta1HD/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Detskoe kino International
 http://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:0 group-title="test",Setanta VIDEO
 https://setantasports.com/wp-content/uploads/2025/08/VIDEO-FOR-SITE_1.mp4
-#EXTINF:0 group-title="test",Setanta Sports 2 HD
-http://vod.splay.uz/live_splay/original/Setanta2HD/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Eurosport 2 HD
-http://vod.splay.uz/live_splay/original/Eurosport2HD/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Eurosport 1 HD
 http://178.134.1.158:8081/eurosport/index.m3u8
 #EXTINF:0 group-title="test",Turkmenistan Sport
@@ -2083,8 +2045,6 @@ http://188.113.190.15/219/tracks-v1a1/index.m3u8
 http://188.113.190.15/56/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Viju Nature
 http://188.113.190.15/28/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Дикий HD
-https://vod.splay.uz/live_splay/original/Dikiy/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Viju Explore
 http://188.113.190.15/32/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Зоопарк
@@ -2109,8 +2069,6 @@ http://31.148.48.15/Eda_Premium_HD/index.m3u8
 http://185.57.68.33/40/mpegts
 #EXTINF:0 group-title="test",Discovery Channel HD
 http://5.188.159.128:8070/DiscoveryChannel/index.m3u8
-#EXTINF:0 group-title="test",Animal Planet HD
-https://vod.splay.uz/live_splay/original/Animal_Planet/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",UNIVER HD
 http://cdn.universmotri.ru/live/univer.sdp_1080p/playlist.m3u8
 #EXTINF:0 group-title="test",Просвещение
