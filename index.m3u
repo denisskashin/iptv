@@ -1489,8 +1489,6 @@ http://serv25.vintera.tv:8081/test/k16/playlist.m3u8
 http://46.46.143.222:1935/live/mp4:ldpr.stream/playlist.m3u8
 #EXTINF:0 group-title="test",555
 http://trk555.tv:8888/live
-#EXTINF:0 group-title="test",Красная линия
-http://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8
 #EXTINF:0 group-title="test",Первый канал FHD
 http://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:0 group-title="test",Звезда Плюс
@@ -1509,12 +1507,6 @@ http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
 http://cdn-01.bonus-tv.ru/arirang_edge/playlist.m3u8
 #EXTINF:0 group-title="test",8 канал
 http://cdn-01.bonus-tv.ru:80/8kanal/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Домашний International
-https://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
-#EXTINF:0 group-title="test",Красная линия
-https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Москва. Доверие
-http://rt-mos-htlive.cdn.ngenix.net/hls/CH_R04_DOVERIE/variant.m3u8
 #EXTINF:0 group-title="test",КРИК-ТВ
 http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
 #EXTINF:0 group-title="test",1 канал HD
@@ -1523,12 +1515,6 @@ http://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 http://ai5dhpwuk8j.a.trbcdn.net/livemaster/lr4wy_live-b9nqfoyk6i9.smil/playlist.m3u8
 #EXTINF:0 group-title="test",Китай ТВ
 https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
-#EXTINF:0 group-title="test",Красная линия
-http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Первый канал (+3)
-https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8
-#EXTINF:0 group-title="test",Первый канал (+1)
-https://rt-vlg-saratov-htlive.cdn.ngenix.net/hls/CH_R03_OTT_VLG_SARATOV_1TV/variant.m3u8
 #EXTINF:0 group-title="test",CTV.BY HD
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:0 group-title="test",Qazaqstan TV Int HD
@@ -1549,8 +1535,6 @@ http://31.148.48.15/Kineko/index.m3u8
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Радио Z
 https://node1.craftradio.ru:8003/201_EFA53E54
-#EXTINF:0 group-title="test",Брянская Губерния
-http://rt-ct-bryansk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_BRYANSK_BRGRUBER/variant.m3u8
 #EXTINF:0 group-title="test",Кино ТВ
 http://31.148.48.15/Kino_TV_HD/index.m3u8
 #EXTINF:0 group-title="test",OnlineTV
@@ -1795,8 +1779,6 @@ http://45.145.32.13:20440/match_boets/index.m3u8?token=test
 http://45.145.32.13:20440/match_igra/index.m3u8?token=test
 #EXTINF:0 group-title="test",МАТЧ! ИГРА
 http://185.46.16.239:8000/Match_Igra
-#EXTINF:0 group-title="test",Кино 1 Int.
-http://kino-1.catcast.tv/content/38617/index.m3u8
 #EXTINF:0 group-title="test",МАТЧ! ИГРА
 http://31.148.48.15:80/Match_Igra/index.m3u8?token=test
 #EXTINF:0 group-title="test",МАТЧ! СТРАНА
@@ -1835,8 +1817,6 @@ http://31.148.48.15:80/Match_Futbol_3_HD/index.m3u8?token=test
 http://s8.rafail1982.uz/1264/tracks-v1a1a1/mono.m3u8
 #EXTINF:0 group-title="test",Setanta Sports 1 HD
 http://s8.rafail1982.uz/1263/tracks-v1a1a1/mono.m3u8
-#EXTINF:0 group-title="test",Detskoe kino International
-http://autopilot.catcast.tv/content/38720/index.m3u8
 #EXTINF:0 group-title="test",Setanta VIDEO
 https://setantasports.com/wp-content/uploads/2025/08/VIDEO-FOR-SITE_1.mp4
 #EXTINF:0 group-title="test",Eurosport 1 HD
@@ -2295,10 +2275,6 @@ http://188.113.190.15/73/tracks-v1a1/index.m3u8
 http://188.113.190.15/74/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Чип и Дейл
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
-#EXTINF:0 group-title="test",Radio Iglesias
-http://wms.shared.stream.it/visualradio/mp4:visualradio/playlist.m3u8
-#EXTINF:0 group-title="test",Radio Iglesias
-http://wms.shared.stream.it/visualradio/mp4:visualradio/chunklist.m3u8
 #EXTINF:0 group-title="test",Рыбалка
 http://176.122.99.7:7000/ch344/video.m3u8
 #EXTINF:0 group-title="test",СуперГерои
@@ -2311,8 +2287,6 @@ http://31.148.48.15/STS_Kids_HD/index.m3u8
 http://31.148.48.15/Rizhiy/index.m3u8
 #EXTINF:0 group-title="test",Мамонтëнок ТВ
 http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Детское кино Int.
-http://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:0 group-title="test",Radio Love FM
 https://56b50ada2d659.streamlock.net/LoveFM/livestream/playlist.m3u8
 #EXTINF:0 group-title="test",Уникум
@@ -2329,8 +2303,6 @@ http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
 http://sirius.greenhosting.ru/PingvinRu/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",STS kids
 http://31148.rafail1982.uz/STS_Kids_HD/index.m3u8
-#EXTINF:0 group-title="test",Carousel International
-http://cdn4.skygo.mn/live/disk1/Karusel/HLSv3-FTA/Karusel.m3u8
 #EXTINF:0 group-title="test",Radio Love FM
 http://56b50ada2d659.streamlock.net/LoveFM/livestream/playlist.m3u8
 #EXTINF:0 group-title="test",ÓČKO HITY
@@ -2341,8 +2313,6 @@ http://ocko-live.ssl.cdn.cra.cz/channels/ocko_expres/playlist/cze/live_hq.m3u8
 http://ocko-live.ssl.cdn.cra.cz/channels/ocko_gold/playlist/cze/live_hq.m3u8
 #EXTINF:0 group-title="test",Retro Music
 http://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8
-#EXTINF:0 group-title="test",Детское кино Int
-https://v2.catcast.tv/content/38720/index.m3u8
 #EXTINF:0 group-title="test",Kronehit TV
 http://bitcdn-kronehit.bitmovin.com/v2/hls/chunklist_b3128000.m3u8
 #EXTINF:0 group-title="test",Power Dance
@@ -2415,8 +2385,6 @@ http://188.113.190.15/109/tracks-v1a1/index.m3u8
 http://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamschedule/playlist.m3u8
 #EXTINF:0 group-title="test",Lя Mинор
 http://188.113.190.15/324/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Muzyka 1 International
-http://kino-1.catcast.tv/content/37742/index.m3u8
 #EXTINF:0 group-title="test",DanceHits80
 http://dancehits80.denvs.ru:8080/index.m3u8
 #EXTINF:0 group-title="test",Matur TV
@@ -2431,8 +2399,6 @@ http://31148.rafail1982.uz/Bridge_TV_HD/index.m3u8
 http://31148.rafail1982.uz/Bridge_TV_Dance/index.m3u8
 #EXTINF:0 group-title="test",Deluxe Rap
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/65183/65183_264_live.m3u8
-#EXTINF:0 group-title="test",Muzyka Kino International
-http://kino-1.catcast.tv/content/37739/index.m3u8
 #EXTINF:0 group-title="test",1TV
 http://tv.cdn.xsg.ge/gpb-1tv/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",o2tv
@@ -2467,8 +2433,6 @@ http://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u
 https://vod.tuva.ru/friday/index.m3u8
 #EXTINF:0 group-title="test",Poehali!
 http://31148.rafail1982.uz/Poehali/index.m3u8
-#EXTINF:0 group-title="test",Peretz International
-http://cdn4.skygo.mn/live/disk1/Che/HLSv3-FTA/Che.m3u8
 #EXTINF:0 group-title="test",Витрина ТВ
 https://v4.proofix.ru/vitrina-live/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",СТС Love
@@ -2479,42 +2443,18 @@ http://31148.rafail1982.uz/Che/index.m3u8
 http://31148.rafail1982.uz/Zee_TV_Russia/index.m3u8
 #EXTINF:0 group-title="test",KVN TV
 http://31148.rafail1982.uz/KVN_TV/index.m3u8
-#EXTINF:0 group-title="test",Пятница! Int.
-http://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
-#EXTINF:0 group-title="test",Domashniy International
-http://cdn4.skygo.mn/live/disk1/Domashni/HLSv3-FTA/Domashni.m3u8
 #EXTINF:0 group-title="test",STS Love
 http://31148.rafail1982.uz/STS_Love/index.m3u8
 #EXTINF:0 group-title="test",Zhivi!
 http://31148.rafail1982.uz/Zhivi/index.m3u8
-#EXTINF:0 group-title="test",TNT4 International
-http://cdn4.skygo.mn/live/disk1/TNT4/HLSv3-FTA/TNT4.m3u8
 #EXTINF:0 group-title="test",КВН ТВ
 http://138032cb.megogo.xyz/iptv/K493695L9QPPFNXSTUXQB2P9/546/index.m3u8
 #EXTINF:0 group-title="test",Тел+ Астрахань
 http://streaming.astrakhan.ru/telplushd/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",СТС International
-https://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
-#EXTINF:0 group-title="test",TNT International
-http://cdn4.skygo.mn/live/disk1/THT/HLSv3-FTA/THT.m3u8
-#EXTINF:0 group-title="test",Пятница International
-https://cdn4.skygo.mn/live/disk1/Friday/HLSv3-FTA/Friday.m3u8
 #EXTINF:0 group-title="test",Волжский Плюс FHD
 http://flussonic.powernet.com.ru:8080/volplus/index.fmp4.m3u8
-#EXTINF:0 group-title="test",Alcarria TV
-http://217.182.77.27/live/alcarriatv-livestream.m3u8
-#EXTINF:0 group-title="test",Radio Hit
-http://lova.me/hls/hithd.m3u8
-#EXTINF:0 group-title="test",RTV Noordoost Friesland
-http://cdn15.streampartner.nl:1935/rtvnof2/live/playlist.m3u8
 #EXTINF:0 group-title="test",Саров 24
 http://serv30.vintera.tv:8081/sarov/sarov_stream/playlist.m3u8
-#EXTINF:0 group-title="test",Telewizja Kujawy
-http://stream.tvkujawy.pl:8080/live/broadcast.m3u8
-#EXTINF:0 group-title="test",RTV Maastricht
-http://stream.rtvmaastricht.nl:8081/rtvm_live/tv/playlist.m3u8
-#EXTINF:0 group-title="test",Sankt-Peterburg
-http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_SPBREGIONALHD/variant.m3u8
 #EXTINF:0 group-title="test",Europa Plus TV
 http://31148.rafail1982.uz/Europa_Plus_HD/index.m3u8
 #EXTINF:0 group-title="test",Тел+ Астрахань
@@ -2529,20 +2469,14 @@ http://bsttv.bonus-tv.ru:80/cdn/bst/playlist_sdhigh.m3u8
 http://593aed234297b.streamlock.net/rtvnof/rtvnof/playlist.m3u8
 #EXTINF:0 group-title="test",Брянская Губерния
 http://31.148.6.9:10021/index.m3u8
-#EXTINF:0 group-title="test",Prima
-http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R11_OTT_SIB_KRSK_STS/variant.m3u8
 #EXTINF:0 group-title="test",АСТВ
 http://188.113.190.15/65/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Тел+ Астрахань
 https://streaming.astrakhan.ru/telplushd/tracks-v1a1a1/mono.m3u8
 #EXTINF:0 group-title="test",КРЫМ 24
 http://iptv.crimea.net:8787
-#EXTINF:0 group-title="test",Известия
-http://s20441.cdn.ngenix.net/hls/CH_R49_MGTK/variant.m3u8
 #EXTINF:0 group-title="test",Регион 67
 http://212.3.155.126:8181/udp/233.67.67.177:5510
-#EXTINF:0 group-title="test",Кубань 24
-https://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8
 #EXTINF:0 group-title="test",МИТВ
 http://193.33.233.109:9000/tv
 #EXTINF:0 group-title="test",Салям УФА
@@ -2553,134 +2487,40 @@ https://bsttv.bonus-tv.ru/cdn/kurai/playlist.m3u8
 https://sitv.ru/vgtrk/stv.m3u8
 #EXTINF:0 group-title="test",Телеканал 86 Сургут
 https://sitv.ru/hls/s86.m3u8
-#EXTINF:0 group-title="test",Лен ТВ 24
-https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_LENTVSD/variant.m3u8
 #EXTINF:0 group-title="test",Евразия Орск
 https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
 #EXTINF:0 group-title="test",ОТВ Екатеринбург
 https://vd.obltv.ru/watch/air_hd.m3u8
 #EXTINF:0 group-title="test",Брянская губерния HD
 https://online.guberniya.tv/hls/gub_3500K/Guberniya_HD_3500K.m3u8
-#EXTINF:0 group-title="test",10 канал Новокузнецк
-http://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_DESYATKA/variant.m3u8
-#EXTINF:0 group-title="test",8 канал Владивосток
-http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_OTT8KANAL/variant.m3u8
-#EXTINF:0 group-title="test",7 канал Красноярск
-http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R13_OTT_SIB_KRSK_RENTV/variant.m3u8
-#EXTINF:0 group-title="test",NEXT-TV
-http://s45177.cdn.ngenix.net/hls/CH_R01_NEXTTV/variant.m3u8
 #EXTINF:0 group-title="test",Грозный
 http://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/1.m3u8
-#EXTINF:0 group-title="test",TMTV
-http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R03_TMTV/variant.m3u8
-#EXTINF:0 group-title="test",Арктик-TV HD
-http://rt-nw-murm-htlive.cdn.ngenix.net/hls/CH_R03_ARCTIC/variant.m3u8
-#EXTINF:0 group-title="test",АТВ-Ставрополь
-http://rt-sth-stavr-htlive.cdn.ngenix.net/hls/CH_R01_ATV/variant.m3u8
 #EXTINF:0 group-title="test",Leomax 24
 http://tvshops.bonus-tv.ru/cdn/shop24/playlist.m3u8
-#EXTINF:0 group-title="test",Девон-инфо (Уфа)
-http://s45177.cdn.ngenix.net/hls/CH_R02_DEVONINFO/variant.m3u8
-#EXTINF:0 group-title="test",Актис HD
-http://rt-sib-irk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_IRK_AKTIS/variant.m3u8
-#EXTINF:0 group-title="test",Импульс (Ямало-Ненецкий АО)
-http://rt-ural-nbk-htlive.cdn.ngenix.net/hls/CH_R02_IMPULS_NBK/variant.m3u8
-#EXTINF:0 group-title="test",Белгород 24
-http://rt-ct-belg-htlive.cdn.ngenix.net/hls/CH_R02_BELGOROD24/variant.m3u8
-#EXTINF:0 group-title="test",КТВ Город
-http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R02_OTT_CT_VRZH_CTVGOROD/variant.m3u8
-#EXTINF:0 group-title="test",Дзержинск ТВ
-http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_DZERZHINSK/variant.m3u8
-#EXTINF:0 group-title="test",ВОТ ТВ
-http://rt-ct-lipetsk-htlive.cdn.ngenix.net/hls/CH_R01_VOTTV/variant.m3u8
-#EXTINF:0 group-title="test",Истоки
-http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_ISTOKI/variant.m3u8
-#EXTINF:0 group-title="test",Котлас ТВ
-http://rt-nw-arkh-htlive.cdn.ngenix.net/hls/CH_R01_KOTLASTV/variant.m3u8
-#EXTINF:0 group-title="test",Каскад-24
-http://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_KASKAD/variant.m3u8
-#EXTINF:0 group-title="test",Город Рязань
-http://rt-ct-ryaz-htlive.cdn.ngenix.net/hls/CH_R02_GOROD/variant.m3u8
-#EXTINF:0 group-title="test",НВК Саха (Якутск)
-http://s34351.cdn.ngenix.net/hls/CH_R03_OTT_DV_YKT_NVC_OTT/variant.m3u8
-#EXTINF:0 group-title="test",Русь Кострома
-http://rt-ct-kostroma-htlive.cdn.ngenix.net/hls/CH_R01_OTT_CT_KOSTROMA_RUS/variant.m3u8
-#EXTINF:0 group-title="test",Кузбасс 1
-http://rt-sib-kem-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KEM_GTRK/variant.m3u8
-#EXTINF:0 group-title="test",Мамонт ТВ
-http://s34351.cdn.ngenix.net/hls/CH_R14_OTT_DV_YKT_MAMONT/variant.m3u8
-#EXTINF:0 group-title="test",41 Телеканал ВТК АРГУС HD
-http://rt-ct-vrzh-htlive.cdn.ngenix.net/hls/CH_R01_ARGUS/variant.m3u8
-#EXTINF:0 group-title="test",Первый областной Орел
-http://rt-ct-orl-htlive.cdn.ngenix.net/hls/CH_R01_PERVOBL/variant.m3u8
-#EXTINF:0 group-title="test",ОТР (Сыктывкар)
-http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_OTR_SKTV/variant.m3u8
-#EXTINF:0 group-title="test",ОТР (Екатеринбург)
-http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_OTR_EKT/variant.m3u8
-#EXTINF:0 group-title="test",Самара 24
-http://rt-vlg-samara-htlive.cdn.ngenix.net/hls/CH_R03_SAMARA24/variant.m3u8
 #EXTINF:0 group-title="test",Вектор 24
 http://136723.edgevideo.ru/streams/136723_657205/playlist.m3u8
 #EXTINF:0 group-title="test",Studiya Fakt
 http://042auhsnh0x.a.trbcdn.net/livemaster/rmhtb_live-7td9v6w34o6.smil/playlist.m3u8
-#EXTINF:0 group-title="test",Сургут 24
-http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SURGUT24/variant.m3u8
-#EXTINF:0 group-title="test",Самотлор (Нижневартовск)
-http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_SAMOTLOR/variant.m3u8
 #EXTINF:0 group-title="test",TVK
 http://air.tvk6.ru/tvk24/playlist.m3u8
 #EXTINF:0 group-title="test",Zvezda Plus
 http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 #EXTINF:0 group-title="test",Zhivaya Planeta
 http://31148.rafail1982.uz/Zhivaya_Planeta/index.m3u8
-#EXTINF:0 group-title="test",ТВК Красноярск HD
-http://rt-sib-krsk-htlive.cdn.ngenix.net/hls/CH_R01_OTT_SIB_KRSK_TVK24/variant.m3u8
 #EXTINF:0 group-title="test",Zoo TV
 http://31148.rafail1982.uz/Zoo_TV/index.m3u8
-#EXTINF:0 group-title="test",ТВ-ИН (Магнитогорск)
-http://rt-ural-chel-htlive.cdn.ngenix.net/hls/CH_R01_TVIN_MAGN/variant.m3u8
-#EXTINF:0 group-title="test",ТНР24 (Нижневартовск)
-http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_TNR24/variant.m3u8
-#EXTINF:0 group-title="test",ТВ-7 (Абакан)
-http://rt-sib-abakan-htlive.cdn.ngenix.net/hls/CH_R01_TV7/variant.m3u8
 #EXTINF:0 group-title="test",Teatr
 http://31148.rafail1982.uz/Sochi_HD/index.m3u8
-#EXTINF:0 group-title="test",ТРК Канал-16 (Саров)
-http://rt-vlg-nn-htlive.cdn.ngenix.net/hls/CH_R01_KANAL16/variant.m3u8
 #EXTINF:0 group-title="test",БСТ HD
 http://bsttv.bonus-tv.ru/cdn/bst/playlist_sdhigh.m3u8
 #EXTINF:0 group-title="test",Вектор 24 HD
 http://136723.edgevideo.ru/streams/136723_657205/720n/index.m3u8
-#EXTINF:0 group-title="test",Татарстан-24
-http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R02_EFIR24/variant.m3u8
-#EXTINF:0 group-title="test",ТРК Юганск
-http://rt-ural-sur-htlive.cdn.ngenix.net/hls/CH_R01_OTT_YUGANSK/variant.m3u8
-#EXTINF:0 group-title="test",Телевитрина-Восток (Новосибирск)
-http://rt-sib-nsk-htlive.cdn.ngenix.net/hls/CH_R01_VITRINAVOSTOK/variant.m3u8
-#EXTINF:0 group-title="test",Юрган
-http://rt-nw-komi-htlive.cdn.ngenix.net/hls/CH_R01_YURGAN/variant.m3u8
-#EXTINF:0 group-title="test",Толпар-ТВ (Уфа)
-http://s45177.cdn.ngenix.net/hls/CH_R02_TOLPAR/variant.m3u8
-#EXTINF:0 group-title="test",Ульяновская правда
-http://rt-vlg-ul-htlive.cdn.ngenix.net/hls/CH_R01_ULPRAVDA/variant.m3u8
-#EXTINF:0 group-title="test",Эфир-24 Релакс
-http://rt-vlg-kzn-htlive.cdn.ngenix.net/hls/CH_R01_EFIR/variant.m3u8
-#EXTINF:0 group-title="test",Тува 24 (Кызыл)
-http://s93498.cdn.ngenix.net/hls/CH_R01_TUVA24/variant.m3u8
-#EXTINF:0 group-title="test",Red Line
-http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/index.m3u8
 #EXTINF:0 group-title="test",Shchyolkovskoe TV
 http://stream0.tv41.ru/live.m3u8
-#EXTINF:0 group-title="test",Восток 24
-http://s91030.cdn.ngenix.net/hls/CH_R01_OTT_DV_VLD_VOSTOK24_OTT/variant.m3u8
 #EXTINF:0 group-title="test",Vremya
 http://31148.rafail1982.uz/Vremya/index.m3u8
 #EXTINF:0 group-title="test",Unikum
 http://31148.rafail1982.uz/Detskiy/index.m3u8
-#EXTINF:0 group-title="test",STS International
-http://cdn4.skygo.mn/live/disk1/STS/HLSv3-FTA/STS.m3u8
-#EXTINF:0 group-title="test",Кубань 24
-http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_KUBAN24/variant.m3u8
 #EXTINF:0 group-title="test",Aksu TV
 http://live.artidijitalmedya.com/artidijital_aksutv/aksutv/playlist.m3u8
 #EXTINF:0 group-title="test",Kanal 12
@@ -2705,8 +2545,6 @@ http://svs.itworkscdn.net/syriatvlive/syriatv.smil/playlist_dvr.m3u8
 https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8
 #EXTINF:0 group-title="test",TV4
 http://turkmedya-live.ercdn.net/tv4/tv4.m3u8
-#EXTINF:0 group-title="test",Инком ТВ (Талица)
-http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R01_OTT_INKOMTV/variant.m3u8
 #EXTINF:0 group-title="test",TGRT Haber
 http://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe4598be8e5d.smil/playlist.m3u8
 #EXTINF:0 group-title="test",Городской Телеканал-Ярославль
@@ -2721,20 +2559,14 @@ http://sitv.ru/hls/stv1024.m3u8
 http://livetv.powerapp.com.tr/pturkakustik/akustik.smil/playlist.m3u8
 #EXTINF:0 group-title="test",S1
 http://sitv.ru/hls/stv.m3u8
-#EXTINF:0 group-title="test",Краснодар HD
-http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R01_OTT_STH_KRDAR_KRASNODAR/variant.m3u8
 #EXTINF:0 group-title="test",Power Türk Slow
 http://livetv.powerapp.com.tr/pturkslow/slow.smil/playlist.m3u8
-#EXTINF:0 group-title="test",НТС-Ирбит
-http://rt-ural-ekt-htlive.cdn.ngenix.net/hls/CH_R04_IRBITVEST_EKT/variant.m3u8
 #EXTINF:0 group-title="test",Surgut 24
 http://sitv.ru/vgtrk/stv.m3u8
 #EXTINF:0 group-title="test",Can TV
 http://canbroadcast.com:7000/canlican/tv.m3u8
 #EXTINF:0 group-title="test",Power Türk Taptaze
 http://livetv.powerapp.com.tr/pturktaptaze/taptaze.smil/playlist.m3u8
-#EXTINF:0 group-title="test",Омск-ТВ
-http://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R01_OMSKTV/variant.m3u8
 #EXTINF:0 group-title="test",Tivi 6
 http://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 #EXTINF:0 group-title="test",Malatya Vuslat TV
@@ -2793,32 +2625,14 @@ http://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8
 http://tv-trtavaz.medya.trt.com.tr/master.m3u8
 #EXTINF:0 group-title="test",Al Hurra Iraq
 http://mbningestworld-i.akamaihd.net/hls/live/644021/iraqworldsafe/master.m3u8
-#EXTINF:0 group-title="test",TRUCK FM
-http://truckfm.rafail1982.uz:8000/64
-#EXTINF:0 group-title="test",RADIO GRAND
-http://grand.rafail1982.uz/RADIO-GRAND/shoutcast
 #EXTINF:0 group-title="test",Al Mayadeen
 http://mdnlv.cdn.octivid.com/almdn/smil:mpegts.stream.smil/playlist.m3u8
-#EXTINF:0 group-title="test",Майкопское Телевидение
-http://rt-sth-krdar-htlive.cdn.ngenix.net/hls/CH_R04_OTT_STH_KRDAR_MAYKOP/variant.m3u8
-#EXTINF:0 group-title="test",Руки Вверх!
-http://101s1.rafail1982.uz/stream/pro/aac/64/163
-#EXTINF:0 group-title="test",Юрий Шатунов и Ласковый Май
-http://101s1.rafail1982.uz/stream/pro/aac/64/119
-#EXTINF:0 group-title="test",Авторадио. Дискотека СССР
-http://101s1.rafail1982.uz/stream/pro/aac/64/144
 #EXTINF:0 group-title="test",Беларусь 1 HD
 https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1460000_sleng.m3u8
 #EXTINF:0 group-title="test",Al Hadath TV
 http://shls-hadath-prod-dub.shahid.net/out/v1/0e1a306399c346faac4226aa0858f99b/index.m3u8
 #EXTINF:0 group-title="test",Радио Dendy-Collection
 http://sergeisam.fvds.ru:4485/radio
-#EXTINF:0 group-title="test",MODERN TALKING
-http://101s1.rafail1982.uz/stream/pro/aac/64/115
-#EXTINF:0 group-title="test",PINK FLOYD
-http://101s1.rafail1982.uz/stream/pro/aac/64/53
-#EXTINF:0 group-title="test",SANDRA
-http://101s1.rafail1982.uz/stream/pro/aac/64/179
 #EXTINF:0 group-title="test",MARKAZ FM
 http://mediamarkaz.com:8000/radiomarkaz
 #EXTINF:0 group-title="test",Беларусь 2 HD
@@ -2829,265 +2643,23 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 http://live.qalbimnavosi.uz/qalbimnavosi
 #EXTINF:0 group-title="test",Беларусь 3 HD
 https://edge50.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w1684528521_b5160000_sleng.m3u8
-#EXTINF:0 group-title="test",SD90
-http://radiorecord.rafail1982.uz/sd9096.aacp
 #EXTINF:0 group-title="test",EURODANCE 90S
 http://harddanceradio.ddns.is74.ru:8000/eurodance
-#EXTINF:0 group-title="test",90S DISCOTECH
-http://radiorecord.rafail1982.uz/technopop96.aacp
 #EXTINF:0 group-title="test",TRANCE 21
 http://mscp3.live-streams.nl:8020/radio
-#EXTINF:0 group-title="test",EURODANCE
-http://radiorecord.rafail1982.uz/eurodance96.aacp
-#EXTINF:0 group-title="test",SYNTHWAVE
-http://radiorecord.rafail1982.uz/synth96.aacp
-#EXTINF:0 group-title="test",TECHNO VIBE
-http://radiorecord.rafail1982.uz/techno96.aacp
-#EXTINF:0 group-title="test",DISCO FUNK
-http://radiorecord.rafail1982.uz/discofunk96.aacp
 #EXTINF:0 group-title="test",SIM - ENIGMA
 http://sim.md:8000/enigma
-#EXTINF:0 group-title="test",Oriat FM
-http://dono.rafail1982.uz:8000/fm
-#EXTINF:0 group-title="test",1980 FM
-http://radiorecord.rafail1982.uz/198096.aacp
-#EXTINF:0 group-title="test",FUNKY RADIO
-http://funkyradio.streamingmedia.it:8001/audio.aac
-#EXTINF:0 group-title="test",ORIAT DONO
-http://dono.rafail1982.uz:8000/dono
-#EXTINF:0 group-title="test",ТНТ4 HD
-https://bl.rutube.ru/livestream/c801a7087e29a097192d74c270fbc6c1/index.m3u8?s=gSfZr_b1wBE3aUNAD0mlXA&e=2068506932&scheme=https
-#EXTINF:0 group-title="test",2x2
-https://bl.rutube.ru/livestream/392b4686b770bae2da6bf5ac4574add5/index.m3u8?s=hwyoufQp4n4DEevoTh79AQ&e=2068506934&scheme=https
-#EXTINF:0 group-title="test",Первый канал HD
-https://bl.rutube.ru/livestream/c58f502c7bb34a8fcdd976b221fca292/index.m3u8?s=lmXcLXuG86134J5a9fUHtQ&e=2068506931&scheme=https
-#EXTINF:0 group-title="test",ТНТ HD
-https://bl.rutube.ru/livestream/546602986e6a424d74d594876ddb3f04/index.m3u8?s=LTSrgtYBpE8r2aujUZ81LA&e=2068506931&scheme=https
-#EXTINF:0 group-title="test",Пятница HD
-https://bl.rutube.ru/livestream/9f87a9a0cecbe773be6fddcbd93585ac/index.m3u8?s=_yz_YDE4Btiqou_OQdtUaQ&e=2068506932&scheme=https
-#EXTINF:0 group-title="test",Суббота
-https://bl.rutube.ru/livestream/310744c10a5809da38aa445c952976da/index.m3u8?s=K5qwXPiww7h9EIwodnvrAQ&e=2068506935&scheme=https
-#EXTINF:0 group-title="test",Нано ТВ
-https://bl.rutube.ru/livestream/cf958b6c9ae4504be5fc2c1de358a017/index.m3u8?s=frAHXFPk-2pv2-y8vx9ATw&e=2068506936&scheme=https
-#EXTINF:0 group-title="test",Тайна
-https://bl.rutube.ru/livestream/a11c890a0ec0730ad33bdaaf2d244e1a/index.m3u8?s=IjZLkcpj2TbbBby8FXaA-A&e=2068506937&scheme=https
-#EXTINF:0 group-title="test",Кинолаффка
-https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=xZI2TE-tbt1tUQAOd5Skkw&e=2068506937&scheme=https
-#EXTINF:0 group-title="test",Mr.Bean Cartoon
-https://bl.rutube.ru/livestream/0e9e44725d5d5ab7ee92c10b40215419/index.m3u8?s=J48qW0Qhj0QOCnf3RQRnVA&e=2068506937&scheme=https
-#EXTINF:0 group-title="test",HHQ
-https://bl.rutube.ru/livestream/2d7fa51716500fba52586d594201777f/index.m3u8?s=1axCFUwM5UmTNQNRotjmDg&e=2068506938&scheme=https
-#EXTINF:0 group-title="test",Буряад ТВ
-https://bl.rutube.ru/livestream/55fec7f2c11f4decc66568fca39f26b2/index.m3u8?s=rrG_mWN-kLhThUU4lhDUZA&e=2068506938&scheme=https
-#EXTINF:0 group-title="test",ТВ3 HD
-https://bl.rutube.ru/livestream/7bf12d9c050f9a7ef3728db5730432ae/index.m3u8?s=riJeRs_4YONNBUd3HTYJXg&e=2068506933&scheme=https
-#EXTINF:0 group-title="test",НТВ HD
-https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?s=E5FB6LF5iVXO3ikWKlv1NA&e=2068506931&scheme=https
-#EXTINF:0 group-title="test",Сургут 86 FHD
-https://bl.rutube.ru/livestream/813dc0c5a944559e7e52b840d09a84f6/index.m3u8?s=fY8J6hEwCMguqGa8PY_DEQ&e=2068506940&scheme=https
-#EXTINF:0 group-title="test",Большая азия
-https://bl.rutube.ru/livestream/495ab964b755baa2c9fc7481a2e40f7d/index.m3u8?s=nzkWYIxTzLiM0tQ2DC9S5Q&e=2068506935&scheme=https
-#EXTINF:0 group-title="test",Сангат
-https://bl.rutube.ru/livestream/dce1080977de5e89dcbd1dd24d014b4e/index.m3u8?s=VfcvAXG9j613HOCQ7F-ncQ&e=2068506939&scheme=https
-#EXTINF:0 group-title="test",ЮУРГУ-ТВ
-https://bl.rutube.ru/livestream/f6160b4e48cb32b4d5438c66c83b69dc/index.m3u8?s=F5TVscex9riz1PxsZGbWVQ&e=2068506941&scheme=https
-#EXTINF:0 group-title="test",4 канал
-https://bl.rutube.ru/livestream/c6f66b644424c117f41e48062719ceed/index.m3u8?s=yRwnm8q3D10B3aelK-sCWA&e=2068506941&scheme=https
-#EXTINF:0 group-title="test",Сургут 1 FHD
-https://bl.rutube.ru/livestream/7a35d5186515db85144d86900ebe1daf/index.m3u8?s=7RKmnionIRieWaR0sTk0Hw&e=2068506940&scheme=https
-#EXTINF:0 group-title="test",Барс
-https://bl.rutube.ru/livestream/f79ff24ad16cf5f5eb52994647596d13/index.m3u8?s=9AK9N9MmA7SZGu07xOfVPQ&e=2068506940&scheme=https
-#EXTINF:0 group-title="test",БелРос
-https://bl.rutube.ru/livestream/46c03b7f1a7255326900f4a60a9b44e0/index.m3u8?s=kQKFCnPyqy2Nsd8YJddpFA&e=2068506942&scheme=https
-#EXTINF:0 group-title="test",Вестник Надыма
-https://bl.rutube.ru/livestream/d8857b5b4c4fa78869a13f5e3ca9d4c4/index.m3u8?s=6w3XWGWtv9rGLBrXzp0z2w&e=2068506943&scheme=https
-#EXTINF:0 group-title="test",Киножелезо
-https://bl.rutube.ru/livestream/4965b7b928c4a143d708ab424be01d37/index.m3u8?s=cVavn32017xNTlfy6hl-pw&e=2068506937&scheme=https
-#EXTINF:0 group-title="test",Среда
-https://bl.rutube.ru/livestream/5fa486bf465c8735fff9f41b372610cc/index.m3u8?s=8zIg7oO2dj7zRXDm3VJ-mw&e=2068506945&scheme=https
-#EXTINF:0 group-title="test",Звезда
-https://bl.rutube.ru/livestream/5ab908fccfac5bb43ef2b1e4182256b0/index.m3u8?s=B5UC4a5VIaBkBRD9yIHZPw&e=2068506945&scheme=https
-#EXTINF:0 group-title="test",Ника ТВ
-https://bl.rutube.ru/livestream/37d722b7752cd193a3f94d71cc9d60f5/index.m3u8?s=Rjhrb3UwE43id3gB2OCdbg&e=2068506944&scheme=https
-#EXTINF:0 group-title="test",ЛТВ
-https://bl.rutube.ru/livestream/067561b5754d0b7844762fa92939716b/index.m3u8?s=Jcgx09XL6lQQZEFeh8KC0A&e=2068506946&scheme=https
-#EXTINF:0 group-title="test",Таврия
-https://bl.rutube.ru/livestream/c5a272dc23ad505667bc2b54f98a3241/index.m3u8?s=ACKUOrygMpQo8a-UWzSq5w&e=2068506943&scheme=https
-#EXTINF:0 group-title="test",Ариг Ус 24
-https://bl.rutube.ru/livestream/5d9273a93631b87a3bbdc883bb3a58cb/index.m3u8?s=40vjOfUXB_ju-bCmow3wMQ&e=2068506949&scheme=https
-#EXTINF:0 group-title="test",Абакан 24
-https://bl.rutube.ru/livestream/7c5ae60686a94e04691f6917e1dec066/index.m3u8?s=Z1pmg2EDJRG5_fJnrEA3Vg&e=2068506947&scheme=https
-#EXTINF:0 group-title="test",АРИС 24
-https://bl.rutube.ru/livestream/9b482361d6c845f7d70eafc98356d8bf/index.m3u8?s=NNiigeRnzGSb0ta10gINyg&e=2068506949&scheme=https
-#EXTINF:0 group-title="test",ДОН 24
-https://bl.rutube.ru/livestream/72ced5d533f940251e5e4bd5d61f6bc9/index.m3u8?s=wTe0fhjopVDZq4bf5u9s-A&e=2068506949&scheme=https
-#EXTINF:0 group-title="test",Волга
-https://bl.rutube.ru/livestream/bed2dcda74004e4e9a61966d2848c027/index.m3u8?s=OL-y5S9Uur2e_Q5NMFtT2w&e=2068506946&scheme=https
-#EXTINF:0 group-title="test",Мордовия 24
-https://bl.rutube.ru/livestream/04106d67b7888cda01b0ffa5e7ef757b/index.m3u8?s=t0aP1pubjwG_czfCZJzxlQ&e=2068506949&scheme=https
-#EXTINF:0 group-title="test",Саратов 24
-https://bl.rutube.ru/livestream/e07fffc5eb21f98a5ade09e825d7095a/index.m3u8?s=_T4kalU2Bai06k_3NU7CFg&e=2068506948&scheme=https
-#EXTINF:0 group-title="test",БСТ
-https://bl.rutube.ru/livestream/2804b7fd1507420dda2e2c81b2b72c8e/index.m3u8?s=2Pvy7bDJjOLbg1maRW3bGA&e=2068506950&scheme=https
-#EXTINF:0 group-title="test",Кубань 24
-https://bl.rutube.ru/livestream/cb2f1d99b88c9b4d38df05cd7fa0a6c2/index.m3u8?s=cWjDGKXikJfhg8j6Xq0BQw&e=2068506947&scheme=https
-#EXTINF:0 group-title="test",ВЕТТА 24
-https://bl.rutube.ru/livestream/3053eeaecc60e0adef57b81d3498fdd0/index.m3u8?s=KUdQ5-zeyrVoFNfm074SjQ&e=2068506951&scheme=https
-#EXTINF:0 group-title="test",UTV
-https://bl.rutube.ru/livestream/673b559e08f8b99d65a4e8fbbceb911b/index.m3u8?s=ZH8G3y4cctRxtocfUgyFdA&e=2068506945&scheme=https
-#EXTINF:0 group-title="test",Мир 24
-https://bl.rutube.ru/livestream/43269ba8fb179e298b1e497f557e8d2d/index.m3u8?s=bS9Nn0sHn6JVte__04JtWQ&e=2068506951&scheme=https
-#EXTINF:0 group-title="test",Липецкое время
-https://bl.rutube.ru/livestream/23afd7debed1cfc7a8efa0827c24d836/index.m3u8?s=V_1pkqtjXZesx6nzZWnfQw&e=2068506951&scheme=https
-#EXTINF:0 group-title="test",Своё ТВ FHD
-https://bl.rutube.ru/livestream/1932f750f00f3a742a1d90c62d0076ad/index.m3u8?s=0IeAHBntQmh26cwxI1vSrw&e=2068506953&scheme=https
-#EXTINF:0 group-title="test",Мир
-https://bl.rutube.ru/livestream/afef67d151b5a607dee1ef0aa299a52c/index.m3u8?s=2w3jRjKwo4dZjoiOyvX3GA&e=2068506951&scheme=https
-#EXTINF:0 group-title="test",Рифей-ТВ
-https://bl.rutube.ru/livestream/57486bf8e1c01d16a5a939c463867fab/index.m3u8?s=klrPR4CAx9Iai25kN8Z09g&e=2068506952&scheme=https
-#EXTINF:0 group-title="test",Импульс Севера
-https://bl.rutube.ru/livestream/342a3e4f3c9bb0d7830a52af0d956c44/index.m3u8?s=jbLsfoxTMYSjZxZ0EuWl6Q&e=2068506953&scheme=https
-#EXTINF:0 group-title="test",КРИК-ТВ
-https://bl.rutube.ru/livestream/f372aa2aff09518d050ecdf70956012c/index.m3u8?s=kDVSNjotPs2u7e4WcRmGLw&e=2068506952&scheme=https
-#EXTINF:0 group-title="test",Продвижение
-https://bl.rutube.ru/livestream/ff5c11c9a51750f5d33427762abc315c/index.m3u8?s=gFfn2Zp4BM0EBETLXj3ZmA&e=2068506953&scheme=https
-#EXTINF:0 group-title="test",САМОТЛОР
-https://bl.rutube.ru/livestream/695f0fdefc96b6f7f2b4a311b71f596b/index.m3u8?s=pgjKxYsM7EBiEASUTTn0fA&e=2068506954&scheme=https
-#EXTINF:0 group-title="test",Омск ТВ
-https://bl.rutube.ru/livestream/9927a61345cbec5aac6558f6c5454d61/index.m3u8?s=9dIdlqaQYWPAE65FWDpBfA&e=2068506958&scheme=https
-#EXTINF:0 group-title="test",Енисей +4
-https://bl.rutube.ru/livestream/5835cd10c04311e400f2ed19b1b2fe8b/index.m3u8?s=CbDfspRbVf113fWS6Gjvzg&e=2068506956&scheme=https
-#EXTINF:0 group-title="test",Евразия
-https://bl.rutube.ru/livestream/ce34005d3db841e15eecb7e31749adf6/index.m3u8?s=3akJEkanz-U5fvTWzsTqUw&e=2068506955&scheme=https
-#EXTINF:0 group-title="test",ННТВ
-https://bl.rutube.ru/livestream/333f94ef9af118c0ac51006243053e07/index.m3u8?s=jPTyW-b2r18Cq1c762KPHw&e=2068506955&scheme=https
-#EXTINF:0 group-title="test",ТБВ
-https://bl.rutube.ru/livestream/68b2533a29f7de163842baf1b9dfc17e/index.m3u8?s=BXZIDi_Ik0AAarQrLg1uxQ&e=2068506958&scheme=https
-#EXTINF:0 group-title="test",МТВ Волгоград
-https://bl.rutube.ru/livestream/1839496ed8242ed47f5c540e25d4ba3f/index.m3u8?s=FJLErVuiYbfw6IUn_-ryUg&e=2068506956&scheme=https
-#EXTINF:0 group-title="test",Ямал-Медиа
-https://bl.rutube.ru/livestream/c0de1d61969a7fbdf6c68ca0b8a67769/index.m3u8?s=K7T_EANSMWzi8ynQcGKLcg&e=2068506959&scheme=https
-#EXTINF:0 group-title="test",БТВ
-https://bl.rutube.ru/livestream/671239d68ada3000a154a68efa0c7813/index.m3u8?s=6UA2ut2U6ACdw4uPwkCkaw&e=2068506959&scheme=https
-#EXTINF:0 group-title="test",UNIVER TV
-https://bl.rutube.ru/livestream/2372550cb9fd4b970a274ebec6c71839/index.m3u8?s=DXEIqMq6He7Hw3HdpYdDTQ&e=2068506960&scheme=https
-#EXTINF:0 group-title="test",МИТВ
-https://bl.rutube.ru/livestream/05065508aed175eaf0f92ef633561974/index.m3u8?s=NTGBl_18zTJoQgka60YtLw&e=2068506957&scheme=https
-#EXTINF:0 group-title="test",Магас
-https://bl.rutube.ru/livestream/15bb032337c7425983757d211713eb7d/index.m3u8?s=usYcG68wztfPI9913hX07A&e=2068506960&scheme=https
-#EXTINF:0 group-title="test",НТС Иркутск
-https://bl.rutube.ru/livestream/b4c501ea4129408a3c195f9ae4359c0e/index.m3u8?s=Ni93prUgokkhWUHaZvdZNg&e=2068506954&scheme=https
-#EXTINF:0 group-title="test",Прима
-https://bl.rutube.ru/livestream/3fd26103b82508289ef7b7f60c77d9c8/index.m3u8?s=MTtzqTxo5MKoD1auTAV2TA&e=2068506962&scheme=https
-#EXTINF:0 group-title="test",10 канал
-https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?s=LNrBiZqTlgnbikNxV-9ulQ&e=2068506963&scheme=https
-#EXTINF:0 group-title="test",Кино и Жизнь
-https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=ML11UHe_6_ttGKfJv42jNg&e=2068506963&scheme=https
-#EXTINF:0 group-title="test",Первый Ярославский
-https://bl.rutube.ru/livestream/b7d879feefadde4e04e516dde89012cd/index.m3u8?s=VQcjSQESIj1rD68Kj54MNA&e=2068506960&scheme=https
-#EXTINF:0 group-title="test",ММТВ
-https://bl.rutube.ru/livestream/965a025e4ebbaf0957415f80c6de8534/index.m3u8?s=wSeIJIsBx3y-tmApWp-xqw&e=2068506967&scheme=https
-#EXTINF:0 group-title="test",NOW: Rock
-https://bl.rutube.ru/livestream/047ba54d846ee185b4209a797a2ae138/index.m3u8?s=cWldV1U46VVAFfLSRNKB2w&e=2068506967&scheme=https
-#EXTINF:0 group-title="test",360
-https://bl.rutube.ru/livestream/d14fcf59cb7d07a26c48ebc8c6565f44/index.m3u8?s=quHaLjLTQiB3zaH-AlSQ5A&e=2068506962&scheme=https
-#EXTINF:0 group-title="test",Восток ТВ
-https://bl.rutube.ru/livestream/da7bcfc0c302a2f0a46f030c9ef8a02b/index.m3u8?s=xwRJRZoQeAKYsMQ9OdPeIA&e=2068506967&scheme=https
-#EXTINF:0 group-title="test",Record Супердискотека 90х
-https://bl.rutube.ru/livestream/351f0e84a7db69a73658bbf61debcf62/index.m3u8?s=8xQFTehgXrRnDYtfPmjN4g&e=2068506968&scheme=https
-#EXTINF:0 group-title="test",Истоки Орёл
-https://bl.rutube.ru/livestream/503a8ac5ca6d738f05a147764f70215b/index.m3u8?s=lJsRclRwjyB_etOvBR5PZw&e=2068506961&scheme=https
-#EXTINF:0 group-title="test",Жар Птица
-https://bl.rutube.ru/livestream/c93be53cba8a4ba6ac311b395a00f4d5/index.m3u8?s=7ThCakzq-BJlrMuNMSau4g&e=2068506965&scheme=https
-#EXTINF:0 group-title="test",Record Russian Hits
-https://bl.rutube.ru/livestream/b5f4e1d43e11888455a0a66f0872e77b/index.m3u8?s=4gNG-CS7_ubrGsS3GMGpIg&e=2068506969&scheme=https
-#EXTINF:0 group-title="test",Спас
-https://bl.rutube.ru/livestream/2bbfa9ebf9d79ade480d7281fcef1008/index.m3u8?s=Dh7uOoGZBCslhSfLLkxvAg&e=2068506963&scheme=https
-#EXTINF:0 group-title="test",Record Trance
-https://bl.rutube.ru/livestream/26aeb9043f519687846255556ee891aa/index.m3u8?s=vpFz3v_5Gi71_uh6ZlXhOQ&e=2068506969&scheme=https
-#EXTINF:0 group-title="test",Activa TV
-https://bl.rutube.ru/livestream/8e9da41366fcb497aaeade579f0d715f/index.m3u8?s=R8hNC3yL0_zjp_QjCPOyTg&e=2068506965&scheme=https
-#EXTINF:0 group-title="test",МузСоюз
-https://bl.rutube.ru/livestream/d1dff14680d4c84e27908983375f7e89/index.m3u8?s=MR-idByAIA2YJdMGxAabNg&e=2068506968&scheme=https
-#EXTINF:0 group-title="test",Матч ТВ HD
-https://bl.rutube.ru/livestream/11bbbec75a2ceb8cf446ad16813c6eec/index.m3u8?s=dmUCxHrffLTIK5v-vKhGXQ&e=2068506970&scheme=https
-#EXTINF:0 group-title="test",VIVA Russia HD
-https://bl.rutube.ru/livestream/f712ae5ff3db23ec09b3674133d44daa/index.m3u8?s=huO81WRGvesnVMCCPmNTRQ&e=2068506970&scheme=https
-#EXTINF:0 group-title="test",Record Megamix
-https://bl.rutube.ru/livestream/60b73481dcc9880850f22690142c8d17/index.m3u8?s=A6TrQmZyPv2n8X6TnDy-AA&e=2068506969&scheme=https
-#EXTINF:0 group-title="test",Смайлик ТВ
-https://bl.rutube.ru/livestream/2f052691c75d72b3ed7f3c33ea956a41/index.m3u8?s=QkuMcRYb3s5QP8UeGEtUGw&e=2068506964&scheme=https
-#EXTINF:0 group-title="test",Илли ТВ
-https://bl.rutube.ru/livestream/eda2da42eea89951e4135141a30915f7/index.m3u8?s=UKvGFq1X35957nFifIojhg&e=2068506967&scheme=https
-#EXTINF:0 group-title="test",Радость моя
-https://bl.rutube.ru/livestream/9ad2099eed71b4a0e577292c3bfd0708/index.m3u8?s=lE7wPedcOtB3eTxSgVTXjg&e=2068506964&scheme=https
-#EXTINF:0 group-title="test",beIN SPORTS XTRA Español
-https://bl.rutube.ru/livestream/05550e441b09aeec53e60de66b6c47bf/index.m3u8?s=Sdy8lXNmJ0j9gYwwP_PG6A&e=2068506971&scheme=https
-#EXTINF:0 group-title="test",Red Bull TV
-https://bl.rutube.ru/livestream/45b30eef1b89857182b03db2c25631d9/index.m3u8?s=_VwBLnvimInPZ3ADkEYb9Q&e=2068506971&scheme=https
-#EXTINF:0 group-title="test",MIXM
-https://bl.rutube.ru/livestream/88eba514854a55d87a4b66b66b1977e7/index.m3u8?s=627TjzA4VCXicgJ7x1Zncg&e=2068506966&scheme=https
-#EXTINF:0 group-title="test",TVS Classic Sports
-https://bl.rutube.ru/livestream/9f28acb802549828d3ce7fbd8ecc17d3/index.m3u8?s=HkbXjbnEsHETTkb5Srd_2Q&e=2068506971&scheme=https
-#EXTINF:0 group-title="test",Sports Grid
-https://bl.rutube.ru/livestream/afc3073ec3efc6cb70c88ce6acaf4344/index.m3u8?s=HaK5mHnSAC_hVph778dt-w&e=2068506973&scheme=https
-#EXTINF:0 group-title="test",Ю
-https://bl.rutube.ru/livestream/5c9327074e25ca86f3111d4085cbbb65/index.m3u8?s=ypW_sLxBx1nKFR48-gn7hQ&e=2068506935&scheme=https
-#EXTINF:0 group-title="test",ТОЛК
-https://bl.rutube.ru/livestream/0115cdc35fb5234242a89de98137dca9/index.m3u8?s=7GbLSUHXMWhbJ6nMOPG4Gg&e=2068506955&scheme=https
-#EXTINF:0 group-title="test",Юрган
-https://bl.rutube.ru/livestream/601ca3d760de90391c18772e43d5190e/index.m3u8?s=zxUoqLRoZxpyw5-hyHxewA&e=2068506956&scheme=https
-#EXTINF:0 group-title="test",Башкортостан 24
-https://bl.rutube.ru/livestream/cf7e6ad2c24ce743b5b60478c176037b/index.m3u8?s=us60bfvgc-Nmso1sVWL-aA&e=2068506947&scheme=https
-#EXTINF:0 group-title="test",Первый Тульский
-https://bl.rutube.ru/livestream/8bdbf725a882473a1e558d00a882cf03/index.m3u8?s=pcjielrH6M1ao9LlihheYA&e=2068506961&scheme=https
-#EXTINF:0 group-title="test",Царьград
-https://bl.rutube.ru/livestream/91815da4edb167b5bd617bae490e57da/index.m3u8?s=UQvVhXcvnPn0tDMqg2zDYg&e=2068506958&scheme=https
-#EXTINF:0 group-title="test",Солнце
-https://bl.rutube.ru/livestream/2dba20a8405e57935827cb5721c2b759/index.m3u8?s=4oilZ0DLjJD_Dbc3ruPV3w&e=2068506965&scheme=https
-#EXTINF:0 group-title="test",ТМК
-https://bl.rutube.ru/livestream/740503607d216b5d467694a1e8fb39a8/index.m3u8?s=l18pG7SsZrH4E60veldD3w&e=2068506952&scheme=https
 #EXTINF:0 group-title="test",Первый музыкальный HD
 http://hz1.teleport.cc/HLS/HD.m3u8
-#EXTINF:0 group-title="test",Смотри Радио
-https://bl.rutube.ru/livestream/18eda61a347b781dd765b410133ef33a/index.m3u8?s=zUuNNAlfYWkdkxA18bz9RA&e=2068506965&scheme=https
-#EXTINF:0 group-title="test",МузТВ
-https://bl.rutube.ru/livestream/df6fe73494a26f74da51573fd97b9baa/index.m3u8?s=JTAW4J-xV9JKMAUbJmgmIQ&e=2068506966&scheme=https
 #EXTINF:0 group-title="test",IPTVPLAY МУЛЬТСКАЗКИ HD
 http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:0 group-title="test",Deluxe Dance
-https://bl.rutube.ru/livestream/47fdffd6ab82bbab0a19039d7018839f/index.m3u8?s=5iVKech65NpuxgeUevT0Hg&e=2068506968&scheme=https
 #EXTINF:0 group-title="test",IPTVPLAY ВЕДЬМАК HD
 http://5.188.158.65:4040/IPTVPLAYVEDMAK.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:0 group-title="test",Первоуральск ТВ
-https://bl.rutube.ru/livestream/59e0373a9aa587e06aeaf9009f86ded1/index.m3u8?s=i57ALNooGhZkBKMqVFPuNw&e=2068506941&scheme=https
 #EXTINF:0 group-title="test",IPTVPLAY Великая Отечественная HD
 http://5.188.158.65:4040/IPTVPLAYVOV.tv/video.m3u8?token=lqRGka5-YwwqF0
-#EXTINF:0 group-title="test",Sky Sports Tennis
-https://bl.rutube.ru/livestream/5f5dc9d64b43dfc740e92f2bdf2b0d38/index.m3u8?s=pDqQ6Dvzh-8Ec9Ml2MCyXg&e=2068506972&scheme=https
 #EXTINF:0 group-title="test",Scripps News HD
 http://content.uplynk.com/channel/4bb4901b934c4e029fd4c1abfc766c37.m3u8
-#EXTINF:0 group-title="test",41 РЕГИОН
-https://bl.rutube.ru/livestream/aff0a2b356d2e1eef55bdb868be4dcc3/index.m3u8?s=pSRrQFiT-1jZl0Q6LeD-Xw&e=2068506943&scheme=https
 #EXTINF:0 group-title="test",LAV-KINO
 https://fl1004.bozztv.com/ushba32/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Unbeaten
-https://bl.rutube.ru/livestream/efc2833169ec20a3ea61197714bea6ab/index.m3u8?s=B0gzb_UwHFIF7hQw8uk5zQ&e=2068506973&scheme=https
-#EXTINF:0 group-title="test",NBA TV
-https://bl.rutube.ru/livestream/d01241e9fd2bc2d65dbf6d74cca02f89/index.m3u8?s=U6zVHNgxAWO07Ezo-cgV4Q&e=2068506971&scheme=https
-#EXTINF:0 group-title="test",Липецк 24
-https://bl.rutube.ru/livestream/b04fc212802bbf7ec94768c029e54aa9/index.m3u8?s=_47TQcnUsxFJFSXAmIBhtA&e=2068506948&scheme=https
-#EXTINF:0 group-title="test",Волейбол
-https://bl.rutube.ru/livestream/cc1b56aa4955a144f324ad58998513bb/index.m3u8?s=KT4dmbULKlvq1iV4IUVHSg&e=2068506973&scheme=https
-#EXTINF:0 group-title="test",Sports Grid
-https://bl.rutube.ru/livestream/7a485ef5da9fe50ba939f36ca3e6ed96/index.m3u8?s=i6xs6ojHVGDRxHja9a2FQA&e=2068506970&scheme=https
-#EXTINF:0 group-title="test",Sky Sports Premier League
-https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=f6Lrx1cPYx2SfJ9mbaHnbw&e=2068506972&scheme=https
-#EXTINF:0 group-title="test",Вся Уфа
-https://bl.rutube.ru/livestream/5a88a8d75565c5cdebeb11d87bfc61e9/index.m3u8?s=8yDYf-PW5RU1cyTr4850gA&e=2068506944&scheme=https
-#EXTINF:0 group-title="test",Охотник и рыболов
-https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=Kmb5U8Od5In6YypbGhahIg&e=2068506936&scheme=https
-#EXTINF:0 group-title="test",Загородный International
-https://bl.rutube.ru/livestream/406973c72e9d0449feef05ef7811ad01/index.m3u8?s=bfA9fwhxngtkDUUGRQDgyQ&e=2068506936&scheme=https
 
 

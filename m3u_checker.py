@@ -209,7 +209,10 @@ BLOCKLIST: set[str] = {
     "Kanal7",
     "KanalD",
     "TV8",
-    "TV85"
+    "TV85",
+    "Alcarria TV",
+    "Telewizja Kujawy",
+    "RTV Maastricht"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
