@@ -612,7 +612,6 @@ http://37.186.70.39:40/play/28/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Пятница! — российский развлекательный телеканал, ориентированный на молодёжную аудиторию. Показывает реалити-шоу, сериалы и лайфстайл-программы.",Пятница!
 https://cdn.telecloud.tv/CH4419/index.m3u8
-#https://adpnetworkhd-cmd.github.io/iptv/FridayHD_Moskva.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",РЕН ТВ
 http://37.186.70.39:40/play/30/index.m3u8
@@ -1091,7 +1090,6 @@ http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/312-serial.png" tvg-id="312-serial" tvg-description="Телеканал художественных сериалов.",312 Сериал
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala" tvg-description="Телеканал отечественных и зарубежных сериалов.",Мир сериала
-http://94.236.201.114/MIR_SERIALA_SD/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller" tvg-description="Телеканал российских сериалов и экранизаций.",Русский бестселлер
 
@@ -1348,65 +1346,3 @@ http://84.17.50.102/russiatoday/index.m3u8
 
 #EXTINF:-1 group-title="candidate",Fifa+
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
-
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-06-25 21:12:24  (28 URLs in 28 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="Priklyucheniya.ru@HD" group-title="test",Priklyucheniya HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/AdventuresHD.m3u8
-#EXTINF:-1 tvg-id="Arsenal.ru@SD" group-title="test",Arsenal (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/ArsenalHD.m3u8
-#EXTINF:-1 tvg-id="Vmirezhivotnykh.ru@SD" group-title="test",V mire zhivotnykh (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/AnimalFamilyHD.m3u8
-#EXTINF:-1 tvg-id="Avto24.ru@HD" group-title="test",Avto24 HD (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Avto24.m3u8
-#EXTINF:-1 tvg-id="black.ru@SD" group-title="test",.black (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Black.m3u8
-#EXTINF:-1 tvg-id="Bolt.ru@SD" group-title="test",Bolt (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/BoltRussia.m3u8
-#EXTINF:-1 tvg-id="Channel5.ru@SD" group-title="test",Channel 5 (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Channel5_Moskva.m3u8
-#EXTINF:-1 tvg-id="Che.ru@SD" group-title="test",Che! (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Che_Moskva.m3u8
-#EXTINF:-1 tvg-id="CuriosityStream.ru@SD" group-title="test",CuriosityStream (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/CuriosityStream.m3u8
-#EXTINF:-1 tvg-id="ChannelOne.ru@SD" group-title="test",Channel One (576p)
-https://adpnetworkhd-cmd.github.io/iptv/ChannelOne_Moskva.m3u8
-#EXTINF:-1 tvg-id="Detskimir.ru@SD" group-title="test",Detski mir (576p)
-https://adpnetworkhd-cmd.github.io/iptv/DetskiyMir.m3u8
-#EXTINF:-1 tvg-id="Dialogiorybalke.ru@SD" group-title="test",Dialogi o rybalke (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DialogiORybalke.m3u8
-#EXTINF:-1 tvg-id="Domkino.ru@SD" group-title="test",Dom kino (576p)
-https://adpnetworkhd-cmd.github.io/iptv/DomKino.m3u8
-#EXTINF:-1 tvg-id="DomkinoPremium.ru@SD" group-title="test",Dom kino Premium (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DomKinoPremiumHD.m3u8
-#EXTINF:-1 tvg-id="Eda.ru@SD" group-title="test",Eda (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Eda.m3u8
-#EXTINF:-1 tvg-id="Dushevnoe.ru@SD" group-title="test",Dushevnoe (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DushevnoeHD.m3u8
-#EXTINF:-1 tvg-id="FeniksplusKino.ru@SD" group-title="test",Feniks plus Kino (576p)
-https://adpnetworkhd-cmd.github.io/iptv/FeniksPlusKino.m3u8
-#EXTINF:-1 tvg-id="Domashniy.ru@SD" group-title="test",Domashniy (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/DomashniyHD.m3u8
-#EXTINF:-1 tvg-id="EnglishClass.ru@SD" group-title="test",English Class (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/EnglishClass.m3u8
-#EXTINF:-1 tvg-id="FoodTime.ru@SD" group-title="test",FoodTime (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/FoodTimeHD.m3u8
-#EXTINF:-1 tvg-id="KapitanFantastika.ru@SD" group-title="test",Kapitan Fantastika (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/KapitanFantastikaHD.m3u8
-#EXTINF:-1 tvg-id="Kamedi.ru@SD" group-title="test",Kamedi (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Kamedi.m3u8
-#EXTINF:-1 tvg-id="Kineko.ru@SD" group-title="test",Kineko (576p)
-https://adpnetworkhd-cmd.github.io/iptv/Kineko.m3u8
-#EXTINF:-1 tvg-id="Komediynoe.ru@SD" group-title="test",Komediynoe (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/KomediynoeHD.m3u8
-#EXTINF:-1 tvg-id="Kinosemja.ru@SD" group-title="test",Kinosemja (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Kinosemya.m3u8
-#EXTINF:-1 tvg-id="Lyubimoe.ru@SD" group-title="test",Lyubimoe (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/LubimoeHD.m3u8
-#EXTINF:-1 tvg-id="Kinoseriya.ru@SD" group-title="test",Kinoseriya (1080p)
-https://adpnetworkhd-cmd.github.io/iptv/Kinoseriya.m3u8
-#EXTINF:-1 tvg-id="MatchPlaneta.ru@SD" group-title="test",Match! Planeta (576p)
-https://adpnetworkhd-cmd.github.io/iptv/MatchPlaneta.m3u8
