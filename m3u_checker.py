@@ -263,6 +263,7 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "ТНВ Татарстан": "ТНВ",
     "10 канал (Новокузнецк)": "10 канал",
     "11 канал (Пенза)": "11 канал",
     "ТВК 24 (Красноярск)": "ТВК 24",
