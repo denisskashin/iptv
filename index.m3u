@@ -11,8 +11,6 @@ http://37.186.70.39:40/play/103/index.m3u8
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" tvg-description="«Драйв» — канал для тех, кто не мыслит своей жизни без автомобилей, мотоциклов и путешествий. Фанаты экстремального вождения и любители неторопливых автомобильных поездок по стране и миру, мотоциклисты и авто-антиквары, начинающие автолюбители и профессионалы со стажем, мужчины и женщины за рулем увидят на канале «Драйв» репортажи с выставок и автосалонов, тест-драйвы новинок мирового и отечественного автомобильного рынка, комментарии известных автоэкспертов, программы о культовых марках и тюнинге.",Драйв
 
-https://jekalich.github.io/smtk/channels/drive.m3u8
-
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/moto-drive.png" tvg-id="moto-drive" tvg-description="Телеканал о мотоциклах, мотоспорте и культуре байкеров.",Мото Драйв
 
 # Беларусь
@@ -170,8 +168,6 @@ http://37.186.70.39:40/play/85/index.m3u8
 
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" tvg-id="zagorodnaya-zhizn" tvg-description="Загородная Жизнь — российский тематический телеканал, посвящённый жизни за городом, дачам и усадьбам.",Загородная Жизнь
 
-http://94.250.255.172/alma/stream.php?id=4988
-
 #EXTINF:0 group-title="Дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodny.png" tvg-id="zagorodny" tvg-description="Загородный — российский тематический телеканал о загородном образе жизни.",Загородный
 http://37.186.70.39:40/play/109/index.m3u8
 
@@ -191,7 +187,6 @@ http://37.186.70.39:40/play/98/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania.png" tvg-id="multimania" tvg-description="Детский телеканал мультфильмов.",Мультиландия
 http://217.11.177.55/streams/media/multilandiya_720x576/index.m3u8
 #http://sirius.greenhosting.ru/MultimaniaRu/tracks-v1a1/mono.m3u8
-#https://jekalich.github.io/smtk/channels/multimania.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimania-lv.png" tvg-id="multimania-lv" tvg-description="Детский телеканал с мультфильмами и анимацией.",Мультимания
 http://sirius.greenhosting.ru/MultimaniaRu/video.m3u8
@@ -207,7 +202,6 @@ https://sirius.greenhosting.ru/PingvinRu/video.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" tvg-id="sts-kids-hd" tvg-description="Детский телеканал СТС: мультсериалы и развлекательные программы.",СТС Kids
 http://37.186.70.39:40/play/97/index.m3u8
-#https://jekalich.github.io/smtk/channels/sts-kids-hd.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/detsky.png" tvg-id="detsky" tvg-description="Детский развлекательно-познавательный телеканал для детей 6–12 лет.",Уникум
 
@@ -232,7 +226,6 @@ https://wurljansonmedia.global.transmit.live/hls/69029561e0b3f0f215eef867/playli
 https://dash4.antik.sk/live/test_kika_tizen/playlist.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/Minimax.png" tvg-id="Minimax.cz" tvg-description="Детский телеканал мультфильмов (Центральная и Восточная Европа).",Minimax
-https://vodzong.mjunoon.tv:8087/streamtest/disckids-157-1/playlist.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru" tvg-description="Международный детский развлекательный телеканал с популярными мультсериалами.",Nickelodeon
 
@@ -250,16 +243,9 @@ https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/zdorovoe-tv.png" tvg-id="zdorovoe-tv" tvg-description="Здоровое ТВ — российский тематический телеканал о здоровье, медицине и здоровом образе жизни.",Здоровое ТВ
 
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/teledom.png" tvg-id="teledom" tvg-description="Познавательный телеканал из Санкт-Петербурга о здоровье, питании и активном образе жизни.",Теледом
-https://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
-#http://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
-http://95.213.129.138/hls-live/livepkgr/_definst_/liveevent/td720.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
-#http://95.213.129.138/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
-#http://95.213.129.138/hls-live/livepkgr/_definst_/liveevent/td720.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
-#http://95.213.129.138/hls-live/livepkgr/_definst_/liveevent/td720.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 
 #EXTINF:0 group-title="Здоровье" tvg-logo="https://iptvx.one/picons/tonus-tv.png" tvg-id="tonus-tv" tvg-description="Телеканал о здоровье, фитнесе и здоровом образе жизни.",Тонус
 http://37.186.70.39:40/play/52/index.m3u8
-#https://jekalich.github.io/smtk/channels/tonus-tv.m3u8
 
 # Кино
 
@@ -279,7 +265,6 @@ http://37.186.70.39:40/play/77/index.m3u8
 http://37.186.70.39:40/play/74/index.m3u8
 #http://188.113.190.12/329/tracks-v1a1/mono.m3u8
 #http://188.113.190.12/329/index.m3u8
-#https://jekalich.github.io/smtk/channels/indiyskoe-kino.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/zee-tv.png" tvg-id="zee-tv" tvg-description="Индийский развлекательно-познавательный телеканал на русском языке: кино Болливуда, музыка, кулинария и мода.",Индия
 http://37.186.70.39:40/play/75/index.m3u8
@@ -292,29 +277,24 @@ http://stream1.cinerama.uz/1233/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd" tvg-description="Телеканал кинопремьер и новинок проката.",Кинопремьера
 http://37.186.70.39:40/play/69/index.m3u8
-#https://jekalich.github.io/smtk/channels/kinopremiera-hd.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie" tvg-description="Телеканал романтического кино и мелодрам.",Киносвидание
 http://37.186.70.39:40/play/67/index.m3u8
-#https://jekalich.github.io/smtk/channels/kinosvidanie.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosezon.png" tvg-id="kinosezon" tvg-description="Киноканал с художественными фильмами.",КиноСезон
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya" tvg-description="Телеканал семейного кино.",Киносемья
 http://37.186.70.39:40/play/66/index.m3u8
-#https://jekalich.github.io/smtk/channels/kinosemiya.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-id="kinoseria" tvg-description="Киноканал художественных фильмов и киносериалов.",Киносерия
 http://37.186.70.39:40/play/65/index.m3u8
 #https://stream1.cinerama.uz/1235/tracks-v1a1/mono.m3u8
-#https://jekalich.github.io/smtk/channels/kinoseria.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-id="kinouzhas" tvg-description="Телеканал фильмов ужасов и триллеров.",Киноужас
 http://37.186.70.39:40/play/78/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoxit.png" tvg-id="kinoxit" tvg-description="Телеканал популярных кинохитов.",Кинохит
 http://37.186.70.39:40/play/70/index.m3u8
-#https://jekalich.github.io/smtk/channels/kinoxit.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-description="Телеканал боевиков и остросюжетного кино.",КиноЭкшен
 
@@ -329,11 +309,9 @@ http://37.186.70.39:40/play/71/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino" tvg-description="Телеканал современного российского кино.",Наше новое кино
 http://37.186.70.39:40/play/73/index.m3u8
-#https://jekalich.github.io/smtk/channels/nashe-novoe-kino.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/pobeda.png" tvg-id="pobeda" tvg-description="Телеканал фильмов о Великой Отечественной войне.",Победа
 http://37.186.70.39:40/play/49/index.m3u8
-#https://jekalich.github.io/smtk/channels/pobeda.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/premialnoe.png" tvg-id="premialnoe" tvg-description="Телеканал премиального художественного кино.",Премиальное
 
@@ -347,7 +325,6 @@ http://37.186.70.39:40/play/46/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/rodnoe-kino.png" tvg-id="rodnoe-kino" tvg-description="Телеканал советского и российского кино.",Родное кино
 http://37.186.70.39:40/play/72/index.m3u8
-#https://jekalich.github.io/smtk/channels/rodnoe-kino.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/russky-illuzion.png" tvg-id="russky-illuzion" tvg-description="Телеканал российского кино.",Русский Иллюзион
 
@@ -358,8 +335,6 @@ http://37.186.70.39:40/play/72/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sovkino.png" tvg-id="sovkino" tvg-description="Телеканал фильмов советского кинематографа.",Советское кино
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/khit.png" tvg-id="khit" tvg-description="Телеканал популярного зарубежного и отечественного кино.",Хит
-
-https://jekalich.github.io/smtk/channels/khit-hd.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/bcu-sssr.png" tvg-id="bcu-sssr" tvg-description="Телеканал советского кино и ретро-программ.",BCU СССР HD
 
@@ -384,8 +359,6 @@ https://jekalich.github.io/smtk/channels/khit-hd.m3u8
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/cineman-uzhasy.png" tvg-id="cineman-uzhasy" tvg-description="Телеканал фильмов ужасов (пакет CineMan).",CineMan Ужасы
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd" tvg-description="Российский телеканал фэнтези и фантастики: аниме и игровое кино.",Fan
-
-https://jekalich.github.io/smtk/channels/fanhd.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/fox.png" tvg-id="fox" tvg-description="Развлекательный телеканал с зарубежными фильмами и сериалами.",Fox
 http://37.186.70.39:40/play/61/index.m3u8
@@ -422,7 +395,6 @@ https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-description="Киноканал художественных фильмов.",Star Cinema
 https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest.m3u8
-#https://jekalich.github.io/smtk/channels/star-cinema.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air" tvg-description="Киноканал фильмов и сериалов онлайн-кинотеатра START.",Start Air
 https://live.presstv.ir/hls/presstv_5_482/index.m3u8
@@ -446,8 +418,6 @@ http://ukr2.ukrainske.tv/493/video.m3u8
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://epg.iptvx.one/picons/appetitny.png" tvg-id="appetitny" tvg-description="Аппетитный — российский кулинарный телеканал с рецептами и кулинарными шоу.",Аппетитный
 
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/eda.png" tvg-id="eda" tvg-description="Еда — российский тематический телеканал, посвящённый кулинарии и гастрономии.",Еда
-
-https://jekalich.github.io/smtk/channels/eda.m3u8
 
 #EXTINF:0 group-title="Кулинария" tvg-description="Кулинар ТВ — российский телеканал о кулинарии и кулинарном искусстве.",Кулинар ТВ
 
@@ -502,8 +472,6 @@ http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/la-minor.png" tvg-id="la-minor" tvg-description="Российский музыкальный телеканал шансона и авторской песни.",Ля-минор
-
-https://jekalich.github.io/smtk/channels/la-minor.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/muztv.png" tvg-id="muztv" tvg-description="Российский музыкальный телеканал: клипы, хит-парады и премии.",Муз ТВ
 http://37.186.70.39:40/play/94/index.m3u8
@@ -715,15 +683,12 @@ http://37.186.70.39:40/play/31/index.m3u8
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/dikiy.png" tvg-id="dikiy" tvg-description="Дикий — российский тематический телеканал, специализирующийся на программах об охоте и рыбалке.",Дикий
 
-https://jekalich.github.io/smtk/channels/dikiy.m3u8
-
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/nasha-tema.png" tvg-id="nasha-tema" tvg-description="Наша тема — российский тематический телеканал для любителей активного отдыха и природы.",Наша тема
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/oxota-i-rybalka.png" tvg-id="oxota-i-rybalka" tvg-description="Охота и Рыбалка — российский тематический телеканал, посвящённый охоте и рыбалке.",Охота и Рыбалка
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/oxotnik-i-rybolov-hd.png" tvg-id="oxotnik-i-rybolov-hd" tvg-description="Охотник и Рыболов — российский тематический телеканал для любителей охоты и рыбной ловли.",Охотник и Рыболов
 http://37.186.70.39:40/play/108/index.m3u8
-#https://jekalich.github.io/smtk/channels/oxotnik-i-rybolov.m3u8
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/rybalka.png" tvg-id="rybalka" tvg-description="Рыбалка — российский тематический телеканал, посвящённый рыболовному спорту и любительской рыбалке.",Рыбалка
 
@@ -762,8 +727,6 @@ http://37.186.70.39:40/play/50/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/ministerstvo-idey.png" tvg-id="ministerstvo-idey" tvg-description="Министерство идей — российский познавательный телеканал, посвящённый инновациям и творческим проектам.",Министерство идей
 
-https://jekalich.github.io/smtk/channels/ministerstvo-idey.m3u8
-
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nano-hd.png" tvg-id="nano-hd" tvg-description="Нано — российский научно-популярный телеканал о технологиях и инновациях.",Нано
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20" tvg-description="Наука — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о науке, технологиях и природе.",Наука
@@ -778,8 +741,6 @@ https://jekalich.github.io/smtk/channels/ministerstvo-idey.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/prosveschenie.png" tvg-id="prosveschenie" tvg-description="Просвещение — российский образовательный телеканал для школьников и педагогов.",Просвещение
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/psixologia-21.png" tvg-id="psixologia-21" tvg-description="Психология 21 — российский тематический телеканал о психологии и личностном развитии.",Психология 21
-
-https://jekalich.github.io/smtk/channels/psixologia-21.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-description="Репка — российский детский и семейный телеканал.",Репка
 
@@ -828,8 +789,6 @@ https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viju Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viju Explore
 
-https://jekalich.github.io/smtk/channels/viasat-explore.m3u8
-
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history",Viasat History
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Viju Planet
@@ -852,7 +811,6 @@ https://stream1.cinerama.uz/1426/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zootv.png" tvg-id="zootv" tvg-description="Зоо ТВ — российский тематический телеканал о животных и природе.",Зоо ТВ
 http://37.186.70.39:40/play/110/index.m3u8
-#https://jekalich.github.io/smtk/channels/zootv.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://epg.iptvx.one/picons/zoopark.png" tvg-id="zoopark" tvg-description="Зоопарк — российский тематический телеканал о животных.",Зоопарк
 
@@ -878,11 +836,7 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 
 # Путешествия
 
-https://jekalich.github.io/smtk/channels/viasat-nature.m3u8
-
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/bolshaya-azia.png" tvg-id="bolshaya-azia" tvg-description="Большая Азия — российский познавательный телеканал, посвящённый азиатской культуре, природе и путешествиям.",Большая Азия
-
-https://jekalich.github.io/smtk/channels/bolshaya-azia.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/glazami-turista.png" tvg-id="glazami-turista" tvg-description="Глазами туриста — российский тематический телеканал о путешествиях и туризме.",Глазами туриста
 
@@ -926,8 +880,6 @@ http://104.143.4.5:2080/funroads.m3u8
 http://37.186.70.39:40/play/105/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/ocean-tv.png" tvg-id="ocean-tv" tvg-description="Ocean TV — тематический телеканал об океанах, морях и подводном мире.",Ocean TV
-
-https://jekalich.github.io/smtk/channels/ocean-tv.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv" tvg-description="RTG TV — российский телеканал о туризме и путешествиях.",RTG TV
 
@@ -1207,8 +1159,6 @@ https://edge02r.mediavitrina.ru/hls-livef5/matchtv/index.m3u8?token=v2.a3yB4eYUa
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-boec.png" tvg-id="match-boets" tvg-description="Матч! Боец — российский спортивный телеканал, посвящённый боевым видам спорта: боксу, MMA, борьбе и единоборствам.",Матч! Боец
 
-https://jekalich.github.io/smtk/channels/match-boets.m3u8
-
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra" tvg-description="Матч! Игра — российский спортивный канал, специализирующийся на игровых видах спорта.",Матч! Игра
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-planeta.png" tvg-id="match-planeta" tvg-description="Матч! Планета — российский спортивный телеканал группы «Матч!», транслирующий международные соревнования.",Матч! Планета
@@ -1243,8 +1193,6 @@ http://37.186.70.39:40/play/19/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/football-ru.png" tvg-id="football-ru" tvg-description="Телеканал Футбол — российский спортивный канал, специализирующийся на трансляциях футбольных матчей.",Телеканал Футбол
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/football-ru.png" tvg-id="football-ru" tvg-description="Футбол — тематический спортивный телеканал, транслирующий футбольные матчи и программы.",Футбол
-
-https://jekalich.github.io/smtk/channels/football-ru.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/footbolny.png" tvg-id="footbolny" tvg-description="Футбольный — российский спортивный телеканал, посвящённый футболу.",Футбольный
 
@@ -1300,8 +1248,6 @@ http://93.184.10.248/JordanSport/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kxl.png" tvg-id="kxl" tvg-description="КХЛ (Kontinental Hockey League TV) — официальный телеканал Континентальной хоккейной лиги. Транслирует матчи КХЛ и хоккейные программы.",KHL
 
-https://jekalich.github.io/smtk/channels/kxl.m3u8
-
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kxl-hd.png" tvg-id="kxl-hd" tvg-description="Телеканал Континентальной хоккейной лиги (КХЛ).",KHL Prime
 
 #EXTINF:0 group-title="Спорт" tvg-description="Кувейтский спортивный телеканал.",KTV Sport Plus
@@ -1346,8 +1292,6 @@ https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Viju+ Sport — спортивный канал балтийской медиагруппы Viju.",Viju+ Sport
 
-https://jekalich.github.io/smtk/channels/viasat-sport.m3u8
-
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/xsport-ua.png" tvg-id="xsport-ua" tvg-description="XSport — спортивный телеканал, специализирующийся на трансляции разнообразных соревнований.",XSport
 
 # Эстония
@@ -1363,8 +1307,6 @@ https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv" tvg-description="КВН ТВ — российский телеканал, транслирующий программы и игры КВН (Клуб весёлых и находчивых).",КВН ТВ
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Сарафан — российский телеканал с контентом о лайфстайле, кулинарии и домашнем уюте.",Сарафан
-
-https://jekalich.github.io/smtk/channels/sarafan.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvoetv-humor.png" tvg-id="tvoetv-humor" tvg-description="Твоё ТВ Юмор — российский тематический телеканал с юмористическими программами.",Твоё ТВ Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
@@ -1465,74 +1407,8 @@ https://stream1.cinerama.uz/1264/tracks-v1a1/mono.m3u8
 http://185.37.150.38/test/index.m3u8
 #EXTINF:-1 group-title="test" audio-track="rus", RU.TV
 https://stream1.cinerama.uz/1202/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Иллюзион+
-https://jekalich.github.io/smtk/channels/illuzion-plus.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viju+ Megahit
-https://jekalich.github.io/smtk/channels/vip-megahit.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Кинопоказ
-https://jekalich.github.io/smtk/channels/kinopokaz-hd.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viju+ Premiere
-https://jekalich.github.io/smtk/channels/vip-premiere.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viju TV1000
-https://jekalich.github.io/smtk/channels/tv1000.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Про Любовь
-https://jekalich.github.io/smtk/channels/pro-lyubov.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viju+ Comedy
-https://jekalich.github.io/smtk/channels/vip-comedy.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viju TV1000 Action
-https://jekalich.github.io/smtk/channels/tv1000-action.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viju TV1000 Русское
-https://jekalich.github.io/smtk/channels/tv1000-russkoe-kino.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",День Победы
-https://jekalich.github.io/smtk/channels/denpobedy.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Блокбастер
-https://jekalich.github.io/smtk/channels/blokbaster-hd.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Дорама
-https://jekalich.github.io/smtk/channels/dorama.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Наше Мужское
-https://jekalich.github.io/smtk/channels/nashe-muzhskoe-hd.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Наш Кинопоказ
-https://jekalich.github.io/smtk/channels/nash-kinopokaz-hd.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Cinema
-https://jekalich.github.io/smtk/channels/cinema-ru.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Камеди
-https://jekalich.github.io/smtk/channels/kamedi.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Феникс+Кино
-https://jekalich.github.io/smtk/channels/feniks-plus-kino.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",FilmBox Russia
-https://jekalich.github.io/smtk/channels/filmbox-ru.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Любимое кино
-https://jekalich.github.io/smtk/channels/lubimoe-kino.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Кинеко
-https://jekalich.github.io/smtk/channels/kineko.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Сапфир
-https://jekalich.github.io/smtk/channels/sapfir.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TV XXI
-https://jekalich.github.io/smtk/channels/tvxxi.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Тайна
-https://jekalich.github.io/smtk/channels/tayna.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Bolt
-https://jekalich.github.io/smtk/channels/bolt-ru.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Star Family
-https://jekalich.github.io/smtk/channels/star-family.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viasat Kino Comedy HD 🛡
 http://ukr.ukrainske.tv/493/tvainua/video.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Viju History
-https://jekalich.github.io/smtk/channels/viasat-history.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Дикая рыбалка HD
-https://jekalich.github.io/smtk/channels/dikaya-rybalka-hd.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Дикая охота HD
-https://jekalich.github.io/smtk/channels/dikaya-oxota-hd.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Zooпарк
-https://jekalich.github.io/smtk/channels/zoopark.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Gags Network
-https://jekalich.github.io/smtk/channels/gags-network.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Анекдот ТВ
-https://jekalich.github.io/smtk/channels/anekdottv.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",FoodTime
-https://jekalich.github.io/smtk/channels/eda-hd.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Foodman.club
-https://jekalich.github.io/smtk/channels/foodman-club.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",ТВЦ HD
 https://edge03p.mediavitrina.ru/hls-livef5/tvc/index.m3u8?token=v2.hj7oV2IpYntHgrSfLHQHHsOUWwX1oMHrPqScKhkoTUE.E3BYYjVULjZbMUWex6KqU2Rf1AVFjFssxHEbA6q3rNE.1783028289.f1422d37fb4054aaeb6443720b2dc85c
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",СТС HD
@@ -1543,24 +1419,6 @@ https://edge04p.mediavitrina.ru/hls-livef5/ctc-dom/index.m3u8?token=v2.EpTtxmeuc
 https://edge02r.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.Dipj9P2P7rOq9RXfdxUjPQZRhcfUlHjQmeG-TOxn8fI.uIN5TisrqtUGcubOnnwQs-Gi8fUB7S0Dw5rYHUVp0kk.1783028289.f4dccc6972ae2a14e76ae873bff7588b
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Пятый канал HD
 https://edge01r.mediavitrina.ru/hls-livef7/5tv/index.m3u8?token=v2.ohM-mtkUDf2Ea2yu3BEsXRyWSx5oadrR2DlJFT4MxFA.1LrtkZIeT1R_Cy1eFUkVnoPxxiIeWvOBOrsdzJuEJk8.1783028289.ce18a66eb1d156873122917821db1c32
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",M-1 Global
-https://jekalich.github.io/smtk/channels/m1global.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/chizhik.png" group-title="test",Чижик
-https://jekalich.github.io/smtk/channels/chizhik.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" group-title="test",В гостях у сказки
-https://jekalich.github.io/smtk/channels/v-gostiax-u-skazki.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/capfantast.png" group-title="test",Капитан Фантастика
-https://jekalich.github.io/smtk/channels/ginger-hd.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/malysh.png" group-title="test",СуперГерои
-https://jekalich.github.io/smtk/channels/malysh.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/tiptop.png" group-title="test",ТипТоп
-https://jekalich.github.io/smtk/channels/tiptop.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/bridge-hd.png" group-title="test",Bridge TV Deluxe HD
-https://jekalich.github.io/smtk/channels/bridge-hd.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" group-title="test",Bridge TV Fresh
-https://jekalich.github.io/smtk/channels/bridge-tv-fresh.m3u8
-#EXTINF:-1 tvg-logo="https://iptvx.one/picons/ani.png" group-title="test",Ani
-https://jekalich.github.io/smtk/channels/ani.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",ТВК 24 (Красноярск)
 http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",11 канал (Пенза)
