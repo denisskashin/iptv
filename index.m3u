@@ -1481,8 +1481,6 @@ https://online-video.rbc.ru/online/rbctv.m3u8
 http://vod.tuva.ru:8080/zvezda/index.m3u8
 #EXTINF:0 group-title="test",Арис 24
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
-#EXTINF:0 group-title="test",Новое Телевидение
-http://serv25.vintera.tv:8081/novoetv/nov_tv/playlist.m3u8
 #EXTINF:0 group-title="test",Калейдоскоп ТВ
 http://serv25.vintera.tv:8081/kaleidoscop/kaleidoscop_sd/playlist.m3u8
 #EXTINF:0 group-title="test",К16
@@ -1499,14 +1497,10 @@ https://vod.splay.uz/live_splay/original/Rossiya24/tracks-v1a1/mono.m3u8
 https://vod.splay.uz/live_splay/original/Mir/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",Красная линия
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_low/index.m3u8
-#EXTINF:0 group-title="test",RTR-Planeta CIS
-http://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f
 #EXTINF:0 group-title="test",Мир 24
 https://vod.splay.uz/live_splay/original/Mir24/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",ТВ3
 https://vod.splay.uz/live_splay/original/TV3/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",RTR-Planeta Europe
-http://player.smotrim.ru/iframe/stream/live_id/1525504b-449d-432d-ab5d-1f11081f8603
 #EXTINF:0 group-title="test",Первый канал FHD
 http://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 #EXTINF:0 group-title="test",Звезда Плюс
@@ -1539,16 +1533,10 @@ http://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
 http://ai5dhpwuk8j.a.trbcdn.net/livemaster/lr4wy_live-b9nqfoyk6i9.smil/playlist.m3u8
 #EXTINF:0 group-title="test",Китай ТВ
 https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
-#EXTINF:0 group-title="test",PLANETA RTR
-http://player.smotrim.ru/iframe/stream/live_id/d7fef212-df66-485d-9952-7eab82d7d51b.m3u8
-#EXTINF:0 group-title="test",РОССИЯ РТР
-http://player.smotrim.ru/iframe/stream/live_id/3b73bf76-7245-4981-a865-38478e21df1f.m3u8
 #EXTINF:0 group-title="test",Красная линия
 http://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="test",НТВ HD
 http://cdn2.ntv.ru/ntv0_hd/playlist.m3u8
-#EXTINF:0 group-title="test",РТР-Планета Азия
-https://player.smotrim.ru/iframe/stream/live_id/683d9649-a96c-4a4d-b468-91c0ee2bf363
 #EXTINF:0 group-title="test",Первый канал (+3)
 https://rt-sib-omsk-htlive.cdn.ngenix.net/hls/CH_R03_OTT_SIB_OMSK_1TV_OMSKOBL/variant.m3u8
 #EXTINF:0 group-title="test",Первый канал (+1)
@@ -1581,8 +1569,6 @@ https://cdn-dvr.ntv.ru/sledstvie/tracks-v1a1/rewind-240.ts.m3u8
 https://cdn-dvr.ntv.ru/svoya_igra/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:0 group-title="test",НТВ Пять минут тишины
 https://cdn-dvr.ntv.ru/5_minut_tishiny/tracks-v1a1/rewind-240.ts.m3u8
-#EXTINF:0 group-title="test",PLANETA RTR
-http://player.smotrim.ru/iframe/stream/live_id/cf22fa5c-e21a-433e-8317-7e8dd3150d6a.m3u8
 #EXTINF:0 group-title="test",НТВ Первый отдел
 https://cdn-dvr.ntv.ru/Perviy_otdel/tracks-v1a1/rewind-240.ts.m3u8
 #EXTINF:0 group-title="test",Белгород 24
@@ -1985,8 +1971,6 @@ https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
 #EXTINF:0 group-title="test",Russia Today
 https://rt-glb.rttv.com/dvr/rtnews/playlist_1600Kb.m3u8
-#EXTINF:0 group-title="test",Соловьев Live
-https://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
 #EXTINF:0 group-title="test",RT News HD
 http://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
 #EXTINF:0 group-title="test",Sochi24
@@ -1995,12 +1979,6 @@ http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
 #EXTINF:0 group-title="test",ВМЕСТЕ:РФ HD
 http://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
-#EXTINF:0 group-title="test",Соловьев Live HD
-http://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1.m3u8
-#EXTINF:0 group-title="test",Vesti FM
-http://player.smotrim.ru/iframe/stream/live_id/0487fd79-60e6-4333-a545-909d6e015173
-#EXTINF:0 group-title="test",Лен ТВ 24 HD
-http://player.smotrim.ru/iframe/stream/live_id/3e95d201-f87d-4ac1-8897-db2c66bb9657
 #EXTINF:0 group-title="test",CNN HD
 http://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
 #EXTINF:0 group-title="test",РБК HD
@@ -2011,8 +1989,6 @@ http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
 #EXTINF:0 group-title="test",Red Bull TV HD
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
-#EXTINF:0 group-title="test",МОСКВА24
-http://player.smotrim.ru/iframe/stream/live_id/efab3cbe-a29c-45f0-9596-5cb4f1ce7fbe
 #EXTINF:0 group-title="test",Red Bull TV
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:0 group-title="test",Red Bull HD
@@ -2033,8 +2009,6 @@ http://iptv.prosto.tv:7000/ch317/video.m3u8
 http://iptv.prosto.tv:7000/ch318/video.m3u8
 #EXTINF:0 group-title="test",Пейзаж
 http://iptv.prosto.tv:7000/ch343/video.m3u8
-#EXTINF:0 group-title="test",Соловьев.Live HD
-http://player.smotrim.ru/iframe/stream/live_id/985d5c7b-9727-4942-a4ba-a6e852caf0c1
 #EXTINF:0 group-title="test",Red Bull TV HD
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
 #EXTINF:0 group-title="test",Space Stream
@@ -2389,8 +2363,6 @@ http://188.113.190.15/73/tracks-v1a1/index.m3u8
 http://188.113.190.15/74/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Чип и Дейл
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
-#EXTINF:0 group-title="test",[Радио] Радио России HD
-http://player.smotrim.ru/iframe/stream/live_id/39ebf09f-bf74-4040-83e6-94b770ba77c4.m3u8
 #EXTINF:0 group-title="test",Radio Iglesias
 http://wms.shared.stream.it/visualradio/mp4:visualradio/playlist.m3u8
 #EXTINF:0 group-title="test",Radio Iglesias
@@ -2657,8 +2629,6 @@ https://infochh.trkeurasia.ru/hlsinfoch/infochhd.m3u8
 https://vd.obltv.ru/watch/air_hd.m3u8
 #EXTINF:0 group-title="test",Брянская губерния HD
 https://online.guberniya.tv/hls/gub_3500K/Guberniya_HD_3500K.m3u8
-#EXTINF:0 group-title="test",Санкт-Петербург HD
-http://player.smotrim.ru/iframe/stream/live_id/1a30bc46-0b5f-4f48-a3df-97e33bde0aa8.m3u8
 #EXTINF:0 group-title="test",10 канал Новокузнецк
 http://rt-sib-nvkz-htlive.cdn.ngenix.net/hls/CH_R01_DESYATKA/variant.m3u8
 #EXTINF:0 group-title="test",8 канал Владивосток
