@@ -212,7 +212,20 @@ BLOCKLIST: set[str] = {
     "TV85",
     "Alcarria TV",
     "Telewizja Kujawy",
-    "RTV Maastricht"
+    "RTV Maastricht",
+    "Fun Roads",
+    "Region",
+    "DSPORTS 1",
+    "KTV Sport Plus",
+    "Oman Sports TV",
+    "ТВ Мана Ваш",
+    "Магнат ТВ",
+    "Тамыр",
+    "Курай",
+    "Телплюс ТВ",
+    "Грозный",
+    "Салям",
+    "ЛДПР ТВ"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -266,6 +279,11 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "LDPR TV": "ЛДПР ТВ",
+    "Тверской Проспект-Регион": "Тверской Проспект",
+    "АТВ (Ставрополь)": "АТВ",
+    "12 канал HD": "12 канал",
+    "ТВ-3": "ТВ3",
     "ТНВ Татарстан": "ТНВ",
     "10 канал (Новокузнецк)": "10 канал",
     "11 канал (Пенза)": "11 канал",
