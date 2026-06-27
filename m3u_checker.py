@@ -225,7 +225,13 @@ BLOCKLIST: set[str] = {
     "Телплюс ТВ",
     "Грозный",
     "Салям",
-    "ЛДПР ТВ"
+    "ЛДПР ТВ",
+    "Shopping Live",
+    "Arirang",
+    "Qazaqstan TV Int",
+    "Радио Харьков Z",
+    "Радио Z",
+    "OnlineTV"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -279,6 +285,8 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "Qazaqstan TV Int HD": "Qazaqstan TV Int",
+    "Sochi Live HD": "Sochi Live",
     "LDPR TV": "ЛДПР ТВ",
     "Тверской Проспект-Регион": "Тверской Проспект",
     "АТВ (Ставрополь)": "АТВ",

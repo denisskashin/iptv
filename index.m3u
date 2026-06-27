@@ -1418,92 +1418,24 @@ https://online-video.rbc.ru/online/rbctv.m3u8
 #EXTINF:-1 group-title="candidate",Арис 24
 http://serv25.vintera.tv:8081/test/aris/playlist.m3u8
 
-#EXTINF:0 group-title="test",RTД
+#EXTINF:-1 group-title="candidate",RTД
 http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
-#EXTINF:0 group-title="test",Конгресс ТВ
-http://live-3.otcnet.ru/congresstv/index.m3u8
-#EXTINF:0 group-title="test",Shopping Live
-http://serv30.vintera.tv:8081/shoppinglive/shoppinglive_stream/playlist.m3u8
-#EXTINF:0 group-title="test",Sochi Live HD
+
+#EXTINF:-1 group-title="candidate",Sochi Live
 http://serv30.vintera.tv:8081/sochi/sochi_stream/playlist.m3u8
-#EXTINF:0 group-title="test",Arirang
-http://cdn-01.bonus-tv.ru/arirang_edge/playlist.m3u8
-#EXTINF:0 group-title="test",8 канал
+
+#EXTINF:-1 group-title="candidate",8 канал
 http://cdn-01.bonus-tv.ru:80/8kanal/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",КРИК-ТВ
-http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
-#EXTINF:0 group-title="test",Королёв ТВ HD
-http://ai5dhpwuk8j.a.trbcdn.net/livemaster/lr4wy_live-b9nqfoyk6i9.smil/playlist.m3u8
-#EXTINF:0 group-title="test",Китай ТВ
-https://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
-#EXTINF:0 group-title="test",CTV.BY HD
-http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
-#EXTINF:0 group-title="test",Qazaqstan TV Int HD
-http://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8
-#EXTINF:0 group-title="test",CGTN
-http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
-#EXTINF:0 group-title="test",Радио Харьков Z
-http://node1.craftradio.ru:8000/215_55AE795B
-#EXTINF:0 group-title="test",ЕГЭ ТВ
-http://tv.streams.baikal-telecom.net:8080/RT_DOC/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Радио Z
-http://node1.craftradio.ru:8003/201_EFA53E54
-#EXTINF:0 group-title="test",Белгород 24
-https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
-#EXTINF:0 group-title="test",Кинеко
+
+#EXTINF:-1 group-title="candidate",Кинеко
 http://31.148.48.15/Kineko/index.m3u8
-#EXTINF:0 group-title="test",Кино ТВ
+
+#EXTINF:-1 group-title="candidate",Кино ТВ
 http://vod.tuva.ru/kinotv/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Радио Z
-https://node1.craftradio.ru:8003/201_EFA53E54
-#EXTINF:0 group-title="test",Кино ТВ
-http://31.148.48.15/Kino_TV_HD/index.m3u8
-#EXTINF:0 group-title="test",OnlineTV
-http://185.221.213.254:8080/Okko/index.m3u8
-#EXTINF:0 group-title="test",Дом Кино
-http://188.113.190.15/119/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Дом Кино Премиум
-http://188.113.190.15/91/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кино TV HD
-http://188.113.190.15/3/video.m3u8
-#EXTINF:0 group-title="test",Иллюзион+
-http://188.113.190.15/45/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кинеко
-http://188.113.190.15/57/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кинеко HD
-http://188.113.190.15/156/mono.m3u8
-#EXTINF:0 group-title="test",Комедия
-http://188.113.190.15/214/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Sci-Fi
-http://188.113.190.15/23/tracks-v1a1/index.m3u8
+#http://31.148.48.15/Kino_TV_HD/index.m3u8
+
 #EXTINF:0 group-title="test",Любимое Кино
 http://188.113.190.11/53/video.m3u8
-#EXTINF:0 group-title="test",Индийское Кино
-http://188.113.190.15/329/video.m3u8
-#EXTINF:0 group-title="test",Киноужас HD
-http://188.113.190.15/323/mono.m3u8
-#EXTINF:0 group-title="test",Киномикс
-http://188.113.190.15/308/video.m3u8
-#EXTINF:0 group-title="test",Кинопремьера
-http://188.113.190.15/309/video.m3u8
-#EXTINF:0 group-title="test",Киносемья
-http://188.113.190.15/311/video.m3u8
-#EXTINF:0 group-title="test",Киносерия
-http://188.113.190.15/312/video.m3u8
-#EXTINF:0 group-title="test",Viju TV1000 Action
-http://188.113.190.15/30/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Viju TV1000 Русское
-http://188.113.190.15/35/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",FilmBox Arthouse
-http://188.113.190.15/207/mono.m3u8
-#EXTINF:0 group-title="test",Shot TV
-http://188.113.190.15/166/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Start World
-http://188.113.190.15/111/mono.m3u8
-#EXTINF:0 group-title="test",Феникс Плюс Кино
-http://188.113.190.15/24/mono.m3u8
-#EXTINF:0 group-title="test",.red HD
-http://188.113.190.15/149/mono.m3u8
 #EXTINF:0 group-title="test",Мир сериала
 http://31.148.48.15/Mir_Seriala/index.m3u8
 #EXTINF:0 group-title="test",Русский роман HD
@@ -1610,10 +1542,6 @@ http://176.122.99.7:7000/ch282/video.m3u8
 http://176.122.99.7:7000/ch326/video.m3u8
 #EXTINF:0 group-title="test",XStream
 http://176.122.99.7:7000/ch313/video.m3u8
-#EXTINF:0 group-title="test",Extreme Sports
-http://188.113.190.15/39/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Старт
-http://188.113.190.15/127/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",TR Sport
 http://livetr.teleromagna.it/mia/live/playlist.m3u8
 #EXTINF:0 group-title="test",Logovo Films
@@ -1636,10 +1564,6 @@ http://188.113.190.11/126/video.m3u8
 http://31.148.48.15/M1_Global/index.m3u8
 #EXTINF:0 group-title="test",МАТЧ!
 http://stream-tv.ew21.ru/003/video.m3u8?hash=TN66TE4YB
-#EXTINF:0 group-title="test",MMA TV
-http://188.113.190.15/305/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Viju+ Sport
-http://188.113.190.15/34/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",МАТЧ!
 http://tv.tuva.ru/machtv/index.m3u8
 #EXTINF:0 group-title="test",МАТЧ!
@@ -1766,20 +1690,12 @@ http://static.france24.com/live/F24_AR_LO_HLS/live_web.m3u8
 http://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
 #EXTINF:0 group-title="test",France 24 French
 http://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
-#EXTINF:0 group-title="test",Москва 24
-http://188.113.190.15/66/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",МИР24
-http://188.113.190.15/120/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",NDTV India
 http://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
 #EXTINF:0 group-title="test",NDTV
 http://ndtvindiaelemarchana.akamaized.net//hls//live//2003679//ndtvindia//ndtvindiamaster.m3u8
-#EXTINF:0 group-title="test",ЛДПР TV
-http://188.113.190.15/211/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",РБК
 http://92.50.128.180/utv/1358/index.m3u8
-#EXTINF:0 group-title="test",МИР24 HD
-http://188.113.190.15/216/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",ТАСС
 https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
 #EXTINF:0 group-title="test",Deutsche Welle
@@ -1914,32 +1830,12 @@ http://31.148.48.15/Doktor/index.m3u8
 http://31.148.48.15/Zoo_TV/index.m3u8
 #EXTINF:0 group-title="test",Точка ТВ
 http://31.148.48.15/Tochka_TV/index.m3u8
-#EXTINF:0 group-title="test",HDL
-http://188.113.190.15/330/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Моя Планета
-http://188.113.190.15/219/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Моя Планета
-http://188.113.190.15/56/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Viju Nature
-http://188.113.190.15/28/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Viju Explore
-http://188.113.190.15/32/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Зоопарк
-http://188.113.190.15/46/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Открытый мир
 http://v4.proofix.ru/0mir/index.m3u8
 #EXTINF:0 group-title="test",Fashion&LifeStyle HD
 http://31.148.48.15/Fashion_One_HD/index.m3u8
-#EXTINF:0 group-title="test",Terra
-http://188.113.190.15/78/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",World Fashion Channel
 http://live-3.otcnet.ru/wfcrus/index.m3u8
-#EXTINF:0 group-title="test",История
-http://188.113.190.15/54/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Travel+Adventure
-http://188.113.190.15/106/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",T24
-http://188.113.190.15/40/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Food Time HD
 http://31.148.48.15/Eda_Premium_HD/index.m3u8
 #EXTINF:0 group-title="test",Загородная Жизнь
@@ -2102,58 +1998,14 @@ http://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
 https://flash2.xdevel.com/rtptv/rtptv/playlist.m3u8
 #EXTINF:0 group-title="test",Телекафе
 http://188.113.190.11/117/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Охотник и Рыболов
-http://188.113.190.15/37/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Рыбалка и Охота
-http://188.113.190.15/75/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Охотник и Рыболов HD
-http://188.113.190.15/36/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Авто Плюс
-http://188.113.190.15/42/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",МТРК
 http://tvcdn01.oktv.kz/tv/mtrk/playlist.m3u8
-#EXTINF:0 group-title="test",Драйв
-http://188.113.190.15/43/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Моторспорт ТВ
-http://188.113.190.15/44/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Еда Премиум
-http://188.113.190.15/48/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Мода
-http://188.113.190.15/50/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Усадьба
-http://188.113.190.15/51/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Загородная Жизнь
-http://188.113.190.15/52/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Пёс и Ко
-http://188.113.190.15/55/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Вопросы и Ответы
-http://188.113.190.15/58/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Крик-ТВ
 http://cdn-01.bonus-tv.ru:80/kriktv_edge/index.m3u8
-#EXTINF:0 group-title="test",Бобёр
-http://188.113.190.15/60/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Moldova TV
 http://89.38.8.130:39435
-#EXTINF:0 group-title="test",Сарафан
-http://188.113.190.15/61/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Ностальгия
-http://188.113.190.15/64/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Культ Медиа
 http://213.108.175.226/telplushd/index.m3u8
-#EXTINF:0 group-title="test",Дикий
-http://188.113.190.15/67/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Приключения
-http://188.113.190.15/70/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Дикая Рыбалка
-http://188.113.190.15/69/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Оружие
-http://188.113.190.15/71/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Техно 24
-http://188.113.190.15/72/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Доктор
-http://188.113.190.15/73/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Здоровье
-http://188.113.190.15/74/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Чип и Дейл
 http://194.26.229.213/chip-n-dale-rescue-rangers/index.m3u8
 #EXTINF:0 group-title="test",Рыбалка
@@ -2168,8 +2020,6 @@ http://31.148.48.15/STS_Kids_HD/index.m3u8
 http://31.148.48.15/Rizhiy/index.m3u8
 #EXTINF:0 group-title="test",Мамонтëнок ТВ
 http://sirius.greenhosting.ru/MamontRu/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Уникум
-http://188.113.190.15/41/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",CHD-TV RU Rock HD
 http://194.26.229.213/chdtv_ru_rock/index.m3u8
 #EXTINF:0 group-title="test",Мультимания
@@ -2250,10 +2100,6 @@ http://31.148.48.15/Europa_Plus_HD/index.m3u8
 http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/73657/hls/pl.m3u8
 #EXTINF:0 group-title="test",Trace Urban HD
 http://lightning-traceurban-samsungau.amagi.tv/playlist1080p.m3u8
-#EXTINF:0 group-title="test",Mузыка Первого
-http://188.113.190.15/109/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Lя Mинор
-http://188.113.190.15/324/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",DanceHits80
 http://dancehits80.denvs.ru:8080/index.m3u8
 #EXTINF:0 group-title="test",Matur TV
@@ -2270,20 +2116,8 @@ http://cdn.universmotri.ru/live/smil:mbr.smil/chunklist_b1328000_slru.m3u8
 http://cdn.universmotri.ru/live/smil:mbr.smil/chunklist_b3628000_slru.m3u8
 #EXTINF:0 group-title="test",Телекафе
 http://31.148.48.15:80/Telekafe/tracks-v1a1/mono.m3u8
-#EXTINF:0 group-title="test",Galaxy
-http://188.113.190.15/62/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кухня TV
-http://188.113.190.15/38/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кто Есть Кто
-http://188.113.190.15/82/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Кто Есть Кто
-http://188.113.190.15/220/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Теледом HD
 http://iam-profi.ru/hls-live/livepkgr/_definst_/liveevent/td720.m3u8
-#EXTINF:0 group-title="test",Центральное TV
-http://188.113.190.15/228/tracks-v1a1/index.m3u8
-#EXTINF:0 group-title="test",Точка Отрыва
-http://188.113.190.15/183/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Китай ТВ HD
 http://cdn.nexttvnet.ru/hlsl/provide/61394/ChinaTV2/china-tv_1920x1080/index.m3u8
 #EXTINF:0 group-title="test",Пятница!
@@ -2310,8 +2144,6 @@ http://217.173.176.107:1935/live/ngrp:tvk.stream_mobile/chunks.m3u8
 http://bsttv.bonus-tv.ru:80/cdn/bst/playlist_sdhigh.m3u8
 #EXTINF:0 group-title="test",Брянская Губерния
 http://31.148.6.9:10021/index.m3u8
-#EXTINF:0 group-title="test",АСТВ
-http://188.113.190.15/65/tracks-v1a1/index.m3u8
 #EXTINF:0 group-title="test",Тел+ Астрахань
 https://streaming.astrakhan.ru/telplushd/tracks-v1a1a1/mono.m3u8
 #EXTINF:0 group-title="test",КРЫМ 24
