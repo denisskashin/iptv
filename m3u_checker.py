@@ -231,7 +231,10 @@ BLOCKLIST: set[str] = {
     "Qazaqstan TV Int",
     "Радио Харьков Z",
     "Радио Z",
-    "OnlineTV"
+    "OnlineTV",
+    "Primocanale Sport",
+    "TR Sport",
+    "Logovo Films"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
