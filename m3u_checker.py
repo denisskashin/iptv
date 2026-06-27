@@ -234,7 +234,11 @@ BLOCKLIST: set[str] = {
     "OnlineTV",
     "Primocanale Sport",
     "TR Sport",
-    "Logovo Films"
+    "Logovo Films",
+    "Turkmenistan Sport",
+    "Real Madrid",
+    "Oman Sports TV",
+    "France 24"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -288,6 +292,7 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "ESPN 1 HD": "ESPN 1",
     "Qazaqstan TV Int HD": "Qazaqstan TV Int",
     "Sochi Live HD": "Sochi Live",
     "LDPR TV": "ЛДПР ТВ",
