@@ -78,7 +78,16 @@ SOURCE_URLS: list[str] = [
     "https://tva.org.ua/ip/sam/provayder.m3u",
     "https://pikniktv.info/download/file.php?id=127257",
     "https://dl.dropboxusercontent.com/scl/fi/thsjb093g6wkqdnpjdc82/Sport.m3u?rlkey=cixvxk8337i11u2h6vswjepvt&st=3a9a8qym&dl=0",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_15plusmg.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_bonustv.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_catcast.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_mylifeisgood.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_ntv.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_rt.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_smotrim.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_tvbricks.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_tvteleport.m3u",
+    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_zabava.m3u",
     "https://mater.com.ua/ip/avto-full.m3u",
     "https://www.mylist.at/pRVGWXL.m3u",
     "https://tva.org.ua/ip/sam/iptv.m3u",
@@ -238,7 +247,8 @@ BLOCKLIST: set[str] = {
     "Turkmenistan Sport",
     "Real Madrid",
     "Oman Sports TV",
-    "France 24"
+    "France 24",
+    "NDTV"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -292,6 +302,11 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "Red Bull TV Full HD": "Red Bull TV",
+    "CNN HD": "CNN",
+    "ВМЕСТЕ:РФ HD": "ВМЕСТЕ:РФ",
+    "Sochi24": "Сочи 24",
+    "NDTV India": "NDTV",
     "ESPN 1 HD": "ESPN 1",
     "Qazaqstan TV Int HD": "Qazaqstan TV Int",
     "Sochi Live HD": "Sochi Live",

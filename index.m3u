@@ -132,8 +132,6 @@ http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 #http://online.video.rbc.ru/online2/rbctv_1080p/index.m3u8
 #http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
 #http://reg.fmplay.ru:8000/rbc-48.aac
-#http://92.50.128.180/utv/1358/index.m3u8
-#http://92.50.128.180/utv/1358/index.m3u8?checkedby:iptvcat.com
 #http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
 #http://online.video.rbc.ru/online/rbctv_480p/index.m3u8
 #http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
@@ -569,6 +567,7 @@ http://37.186.70.39:40/play/37/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/aris24.png" tvg-id="aris24" tvg-description="Арис 24 — региональный новостной телеканал, транслирующий актуальные события.",Арис 24
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/vmeste-rf.png" tvg-id="vmeste-rf" tvg-description="Вместе-РФ — российский федеральный телеканал Совета Федерации. Транслирует парламентские новости, аналитику и документальные программы.",Вместе-РФ
+http://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda" tvg-description="Звезда — российский федеральный телеканал, учреждённый Министерством обороны РФ. Транслирует военно-патриотический контент, новости и художественные фильмы.",Звезда
 http://51.158.144.33:2021/zvezda/index.m3u8
@@ -735,6 +734,7 @@ http://37.186.70.39:40/play/50/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/prikluchenia-hd.png" tvg-id="prikluchenia-hd" tvg-description="Приключения — российский тематический телеканал с документальными фильмами о приключениях и путешествиях.",Приключения
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/prosveschenie.png" tvg-id="prosveschenie" tvg-description="Просвещение — российский образовательный телеканал для школьников и педагогов.",Просвещение
+http://cdn-01.bonus-tv.ru:80/prosveschenie_edge/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/psixologia-21.png" tvg-id="psixologia-21" tvg-description="Психология 21 — российский тематический телеканал о психологии и личностном развитии.",Психология 21
 
@@ -1081,7 +1081,7 @@ http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-description="Христианский телеканал ТБН Балтия на русском языке.",TBN Baltia
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/index.m3u8
-http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
+#http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
 
 # Сериалы
 
@@ -1441,53 +1441,30 @@ http://41.205.93.154/ESPN/index.m3u8
 #EXTINF:0 group-title="candidate",MMA-TV.com
 http://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 
-#EXTINF:0 group-title="test",Bein Sports XTRA
+#EXTINF:0 group-title="candidate",Bein Sports XTRA
 https://bein-esp-xumo.amagi.tv/playlistR1080p.m3u8
 
-#EXTINF:0 group-title="test",h1 HD
-http://45.11.139.43:8555/h1/index.m3u8
-#EXTINF:0 group-title="test",BBC
-http://plbl.m9.lfstrm.tv/detskij_mir/normal/1/index.m3u8
-#EXTINF:0 group-title="test",NDTV India
-http://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/ndtvindiamaster.m3u8
-#EXTINF:0 group-title="test",NDTV
-http://ndtvindiaelemarchana.akamaized.net//hls//live//2003679//ndtvindia//ndtvindiamaster.m3u8
-#EXTINF:0 group-title="test",РБК
-http://92.50.128.180/utv/1358/index.m3u8
-#EXTINF:0 group-title="test",ТАСС
-https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
-#EXTINF:0 group-title="test",Deutsche Welle
+#EXTINF:0 group-title="candidate",Deutsche Welle
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:0 group-title="test",Russia Today
-https://rt-glb.rttv.com/dvr/rtnews/playlist_1600Kb.m3u8
-#EXTINF:0 group-title="test",RT News HD
-http://rt-glb.rttv.com/dvr/rtnews/playlist.m3u8
-#EXTINF:0 group-title="test",Sochi24
+
+#EXTINF:0 group-title="candidate",Сочи 24
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
-#EXTINF:0 group-title="test",ОСН
+
+#EXTINF:0 group-title="candidate",ОСН
 http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8
-#EXTINF:0 group-title="test",ВМЕСТЕ:РФ HD
-http://qcpdqumitwf.a.trbcdn.net/livemastersrt/pr4mw_lvie-vmesterf-srt.smil/playlist.m3u8
-#EXTINF:0 group-title="test",CNN HD
+
+#EXTINF:0 group-title="candidate",CNN
 http://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:0 group-title="test",РБК HD
-http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-#EXTINF:0 group-title="test",Red Bull TV Full HD
+
+#EXTINF:0 group-title="candidate",Red Bull TV Full HD
 http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:0 group-title="test",Red Bull TV
-http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8
-#EXTINF:0 group-title="test",Red Bull TV HD
-http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
-#EXTINF:0 group-title="test",Red Bull TV
-http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-#EXTINF:0 group-title="test",Red Bull HD
-http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8?denmstv.m3u8
-#EXTINF:0 group-title="test",France 24 English HD
-http://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_5000.m3u8
-#EXTINF:0 group-title="test",TBN BALTIA
-http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
-#EXTINF:0 group-title="test",Просвещение
+#http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_1660.m3u8?xtreamiptv.m3u8
+#http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#http://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8?denmstv.m3u8
+
+#EXTINF:0 group-title="candidate",Просвещение
 http://cdn-01.bonus-tv.ru:80/prosveschenie_edge/index.m3u8
+
 #EXTINF:0 group-title="test",Travel Guide TV
 http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 #EXTINF:0 group-title="test",Deutsche Welle
