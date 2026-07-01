@@ -299,7 +299,11 @@ BLOCKLIST: set[str] = {
     "Euro Indie Music Chart TV",
     "Banovina TV",
     "Muzikas Vjdeo",
-    "Power TV"
+    "Power TV",
+    "Trace Urban",
+    "Dance Hits 80",
+    "Matur TV",
+    "Deluxe Rap"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -353,6 +357,8 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "DanceHits80": "Dance Hits 80",
+    "Trace Urban HD": "Trace Urban",
     "CHD-TV RU Rock HD": "CHD-TV RU Rock",
     "TV BRICS Russia": "BRICS TV",
     "Sochi Live HD": "Sochi Live",
@@ -371,7 +377,6 @@ ALIASES: dict[str, str] = {
     "NDTV India": "NDTV",
     "ESPN 1 HD": "ESPN 1",
     "Qazaqstan TV Int HD": "Qazaqstan TV Int",
-    "Sochi Live HD": "Sochi Live",
     "LDPR TV": "ЛДПР ТВ",
     "Тверской Проспект-Регион": "Тверской Проспект",
     "АТВ (Ставрополь)": "АТВ",
