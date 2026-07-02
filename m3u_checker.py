@@ -303,7 +303,10 @@ BLOCKLIST: set[str] = {
     "Trace Urban",
     "Dance Hits 80",
     "Matur TV",
-    "Deluxe Rap"
+    "Deluxe Rap",
+    "Витрина ТВ",
+    "Leomax 24",
+    "Вектор 24"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -357,6 +360,18 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "360 HD": "360.RU",
+    "Беларусь 1 HD": "Беларусь 1",
+    "Zvezda Plus": "Звезда Плюс",
+    "TVK": "ТВК",
+    "ОТВ Екатеринбург": "ОТВ",
+    "Евразия Орск": "Евразия",
+    "Телеканал 86 Сургут": "Телеканал 86",
+    "С1 Сургут": "С1",
+    "Курай Уфа": "Курай",
+    "Салям УФА": "Салям",
+    "БСТ HD": "БСТ",
+    "Волжский Плюс FHD": "Волжский Плюс",
     "DanceHits80": "Dance Hits 80",
     "Trace Urban HD": "Trace Urban",
     "CHD-TV RU Rock HD": "CHD-TV RU Rock",
@@ -780,7 +795,6 @@ ALIASES: dict[str, str] = {
     "Start air": "Start Air",
     "Наше HD": "Наше",
     "Хит HD": "Хит",
-    "Bridge HD": "Bridge TV",
     "Ля минор": "Ля-минор",
     "Бирма Плей": "Бирма Play",
     "Классика Кино SD": "Классика Кино",
