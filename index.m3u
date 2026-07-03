@@ -349,7 +349,6 @@ http://37.186.70.39:40/play/72/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/khit.png" tvg-id="khit" tvg-description="Телеканал популярного зарубежного и отечественного кино.",Хит
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/shokiruyushchee.png" tvg-id="shokiruyushchee" tvg-description="Круглосуточный киноканал ужасов и триллеров (18+); пришёл на смену «Кинопоказ HD1».",Шокирующее
-http://vipl.one/high/6j95s4drt3/905.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sony-turbo.png" tvg-id="sony-turbo" tvg-description="Телеканал о моде, стиле и lifestyle (World Fashion).",.Black
 
@@ -834,7 +833,9 @@ https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history",Viasat History
 
-#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viju Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viju Explore
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viasat Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viasat Explore
+http://185.102.171.218/ViasatExplorer/index.m3u8
+#http://85.11.144.9:4222/ViasatExplorer
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Viju Planet
 
@@ -872,10 +873,12 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/minimax-micromir.png" tvg-id="minimax-micromir" tvg-description="Minimax Микромир — телеканал детской медиагруппы Minimax, транслирующий программы о микромире и природе.",Minimax Микромир
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" tvg-id="nat-geo-wild" tvg-description="National Geographic Wild — международный канал о дикой природе и животных. Транслирует документальные фильмы о животном мире.",National Geographic Wild
+http://198.58.104.90:8989/natgeowild/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/skyhigh-nature.png" tvg-id="skyhigh-nature" tvg-description="Sky High Nature — тематический канал о природе.",Sky High Nature
 
-#EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viju Nature — канал о природе балтийской медиагруппы Viju.",Viju Nature
+#EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viasat Nature — канал о природе балтийской медиагруппы Viju.",Viasat Nature
+http://185.102.171.218/ViasatNature/index.m3u8
 
 # Путешествия
 
@@ -916,6 +919,7 @@ http://37.186.70.39:40/play/53/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/national-geographic.png" tvg-id="national-geographic" tvg-description="National Geographic — международный познавательный телеканал. Транслирует документальные фильмы о природе, науке, истории и путешествиях.",National Geographic
 http://37.186.70.39:40/play/105/index.m3u8
+#http://198.58.104.90:8989/natgeo/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/ocean-tv.png" tvg-id="ocean-tv" tvg-description="Ocean TV — тематический телеканал об океанах, морях и подводном мире.",Ocean TV
 
@@ -924,9 +928,6 @@ http://37.186.70.39:40/play/105/index.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/terra-ru.png" tvg-id="terra-ru" tvg-description="Terra — познавательный телеканал о природе, географии и путешествиях.",Terra
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/terra-inkognita.png" tvg-id="terra-inkognita" tvg-description="Телеканал о путешествиях и исследованиях мира.",Terra Incognita
-
-#EXTINF:0 group-title="Путешествия" tvg-description="Travel Guide TV — телеканал о путешествиях и туризме.",Travel Guide TV
-http://cdn10.live-tv.od.ua:8081/leonovtv/test-abr/playlist.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-adventure.png" tvg-id="travel-adventure" tvg-description="Travel+Adventure — тематический телеканал о путешествиях и приключениях.",Travel+Adventure
 
@@ -1087,6 +1088,7 @@ http://stream.almaz-media.tv:8081/hls/720.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/astraxan24.png" tvg-id="astraxan24" tvg-description="Региональный новостной телеканал Астраханской области.",Астрахань 24
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
+#http://streaming.astrakhan.ru/astrakhan24/tracks-v1a1/mono.ts.m3u8
 #https://streaming.astrakhan.ru/astrakhan24/tracks-v2a1/mono.m3u8
 #http://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 
@@ -1109,8 +1111,6 @@ http://flussonic.powernet.com.ru:8080/volplus/tracks-v1a1/index.m3u8
 https://istoki.tv//live/stream1/chunklist.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/mir-belogoria.png" tvg-id="mir-belogoria" tvg-description="Региональный телеканал Белгородской области.",Мир Белогорья
-https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
-#http://stream.tvbelgorod.ru:8080/mirbelogorya/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pervy-krymsky.png" tvg-id="pervy-krymsky" tvg-description="Региональный телеканал Республики Крым.",Первый Крымский
 
@@ -1325,9 +1325,6 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/insport-kz.png" tvg-id="insport-kz" tvg-description="InSport — спортивный телеканал, транслирующий разнообразные виды спорта.",InSport
 
-#EXTINF:0 group-title="Спорт" tvg-logo="https://www.sat.tv/wp-content/themes/twentytwenty-child/data_lineups/nilesat/images1/ecl-513.png" tvg-id="Jordan.Sport.HD.ae" tvg-description="Иорданский спортивный телеканал.",Jordan Sport
-http://93.184.10.248/JordanSport/index.m3u8
-
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kxl.png" tvg-id="kxl" tvg-description="КХЛ (Kontinental Hockey League TV) — официальный телеканал Континентальной хоккейной лиги. Транслирует матчи КХЛ и хоккейные программы.",KHL
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/kxl-hd.png" tvg-id="kxl-hd" tvg-description="Телеканал Континентальной хоккейной лиги (КХЛ).",KHL Prime
@@ -1337,9 +1334,6 @@ http://93.184.10.248/JordanSport/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/mlb-network-us.png" tvg-id="mlb-network-us" tvg-description="MLB Network — официальный телеканал Главной лиги бейсбола. Транслирует матчи, новости и аналитику бейсбола.",MLB Network
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://services.sg101.prd.sctv.ch/content/images/tv/channel/f6bfd462-e4dc-0300-7048-8706990b6804_W90.png" tvg-id="More.Than.Sports.TV.ch" tvg-description="Спортивный телеканал.",More Than Sports TV
-https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-#https://mts1.iptv-playoutcenter.de/mts/mts-web/mts/mtsw3/chunks.m3u8
-#http://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://epg.iptvx.one/picons/nba-tv-us.png" tvg-id="nba-tv-us" tvg-description="NBA TV — официальный телеканал Национальной баскетбольной ассоциации США. Транслирует матчи, новости и аналитику NBA.",NBA TV
 
@@ -1442,132 +1436,32 @@ http://stream0.tv41.ru/live.m3u8
 #EXTINF:0 group-title="candidate",IPTVPlay Мультсказки
 http://5.188.158.65:4040/IPTVPLAYMultSkazki.tv/video.m3u8?token=lqRGka5-YwwqF0
 
-
-
-#EXTINF:0  group-title="test",360 HD
-https://e10-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
-#EXTINF:0  group-title="test",Agro TV Romania
-http://agrotv.streamnet.ro/mobile_tv/agrotv.m3u8
-#EXTINF:0  group-title="test",Adjara tv
-http://ru2.tvtm.one/ch1205/mono.m3u8?token=layjee.v2_C_fVSYuCevHNvxYcx3KUJCC9Nt_9uKHWiH5Q1pIrv1oblRCJ1yjxsSnAJuDdXnJWPfxmsXi_C7Y
-#EXTINF:0  group-title="test",Arena Fight
-http://nl1.nghk.ai/ArenaFight/index.m3u8
-#EXTINF:0  group-title="test",Al Jazeera English
-https://live-hls-web-aje-gcp.thehlive.com/AJE/01.m3u8
-#EXTINF:0  group-title="test",Antena 3 CNN
-https://live3vox.antenaplay.ro/a3free/a3free.m3u8
-#EXTINF:0  group-title="test",arte HD
-https://dash4.antik.sk/live/test_arte_avc_25p/playlist.m3u8
-#EXTINF:0  group-title="test",BBC America
-http://23.239.31.26:8989/bbcamerica/index.m3u8
-#EXTINF:0  group-title="test",Action HD
-http://rezofoot.tv/Action/index.m3u8
-#EXTINF:0  group-title="test",BBC Earth
-http://202.70.146.135:8000/play/a067/index.m3u8
-#https://live-manifest.production-public.tubi.io/live/88810cb1-e91e-4f19-870b-513ffc9a39cb/playlist.m3u8
-#EXTINF:0  group-title="test",Beyaz TV
-https://beyaztv-live.daioncdn.net/beyaztv/beyaztv_720p.m3u8
-#EXTINF:0  group-title="test",ATV AZ
-https://lives.atv.az:5443/ATV_TV_STREAM/streams/atvcanli.m3u8
-#EXTINF:0  group-title="test",Arirang
-http://amdlive.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
-#EXTINF:0  group-title="test",Comedy
-http://23.105.238.4/gpm-comedyradio495.aacp
-#EXTINF:0  group-title="test",Cartoon Network ESP
-http://190.115.3.46:9991/play/a0v7/index.m3u8
-#EXTINF:0  group-title="test",Agro TV
-https://restr2.bgtv.bg/agro/hls/agro.m3u8
-#https://live-evg8.tv360.bitel.com.pe/bitel/agroSRT/playlist.m3u8
-#EXTINF:0  group-title="test",Erkir media
-http://ru2.tvtm.one/ch3448/mono.m3u8?token=layjee.v2_CJ1KOSxlwoKUj4NHMVlwVIoSMb9uKjYwWsdIgMsEwPDY_13PJFGXO7ZgSLJ8Dux_jGVjcB86mJ0
-#EXTINF:0  group-title="test",CINEMAX
-https://cdnjkt913.transvision.co.id:1000/live/master/1/4028c6856c3db2cc016cdbfc4a1934bf/manifest.mpd
-#EXTINF:0  group-title="test",France Info
-http://145.239.5.177/306/index.m3u8
-#EXTINF:0  group-title="test",Disney Channel
-https://cors-proxy.cooks.fyi/http://212.5.144.156:8080/disney/index.m3u8
-#EXTINF:0  group-title="test",Happy Channel
-https://hls.rundletv.eu.org/LIVE$HappyChannel/6.m3u8/Level/300720051?end=END&start=LIVE
-#EXTINF:0  group-title="test",Fortuna TV
-https://streamtv.intervenhosting.net:3355/live/fortunatvlive.m3u8
-#EXTINF:0  group-title="test",Infosport+
-http://212.102.60.80/Infosport/index.m3u8
-#EXTINF:0  group-title="test",Kanal 7 Avrupa
-https://livetv.radyotvonline.net/kanal7live/kanal7avr/chunklist.m3u8
-#EXTINF:0  group-title="test",Kanal Avrupa
-http://cdn-kanalavrupa.yayin.com.tr/kanalavrupa/tracks-v2a1/mono.m3u8
-#EXTINF:0  group-title="test",HBO SIGNATURE
-https://cdnjkt913.transvision.co.id:1000/live/master/3/4028c6856c3db2cc016d0552e0ca37a2/manifest.mpd
-#EXTINF:0  group-title="test",Kibris Genc TV
-https://edge.kuzeykibrissmart.tv/kibrisgenctv/bant1/chunks.m3u8
-#EXTINF:0  group-title="test",History 2
-http://170.246.114.52:8000/play/a02r/index.m3u8
-#EXTINF:0  group-title="test",Euronews
-https://live-manifest.production-public.tubi.io/live/c841471d-dc14-43fb-9ba5-c266e7edcce4/playlist.m3u8
-#EXTINF:0  group-title="test",Fox Sports
-https://live-manifest.production-public.tubi.io/live/6035c7fd-efff-4ec7-93dc-aa0c7a58ba47/playlist.m3u8
-#EXTINF:0  group-title="test",Music Box
-https://musicbox.amgradio.ru/musicbox?nc=26572
-#EXTINF:0  group-title="test",Music Channel
-http://media.boni-records.com/index.m3u8
-#EXTINF:0  group-title="test",MusicBox
-http://3.tvtm.one/ch1599/mono.m3u8?token=zazann.v2_qLk0NTIwUcPKleXTkiOrvPt6E1ahyDYtYJLzUblFDNCpzq1Ju2TEHBEDrowhIfJZK63bu6RwJZM
-#EXTINF:0  group-title="test",National Geographic HD East
-http://198.58.104.90:8989/natgeo/index.m3u8
-#EXTINF:0  group-title="test",Makan 33
-https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/makan/live.livx/playlist.m3u8
-#EXTINF:0  group-title="test",National Geographic Wild HD East
-http://198.58.104.90:8989/natgeowild/index.m3u8
-#EXTINF:0  group-title="test",Nickelodeon (576p)
-http://bethoven.af-stream.com:1600/s/kwtlxswl/yes-nickelodeon-il/video.m3u8
-#EXTINF:0  group-title="test",Paramount Network
+#EXTINF:0 group-title="candidate",Paramount Network
 http://rezofoot.tv/PARAMOUNT-CHANNEL/index.m3u8
-#EXTINF:0  group-title="test",Show Plus TV
+
+#EXTINF:0 group-title="candidate",Show Plus TV
 https://rtmp.showplus.tv/hls/myshow.m3u8
-#EXTINF:0  group-title="test",Star TV HD
-http://livestar.siliconweb.com/starvod/star_int/star_intsd.m3u8
-#EXTINF:0  group-title="test",SYFY HD
+
+#EXTINF:0 group-title="candidate",SYFY
 http://rezofoot.tv/SYFY-HD/index.m3u8
-#EXTINF:0  group-title="test",TGRT Haber
-https://canli.tgrthaber.com/tgrt.m3u8
-#EXTINF:0  group-title="test",TV 2000
-http://hls.live2.meride.tv/hls/live/2028947/pu934tjb/hls_1_3000/chunklist.m3u8
-#EXTINF:0  group-title="test",TOK TV
-https://elara.netcomm.rs/toktv/index.m3u8
-#EXTINF:0  group-title="test",TVR 3
-https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist_b5160000.m3u8
-#https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/chunklist.m3u8
-#EXTINF:0  group-title="test",TVR International
-https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/chunklist_b5160000.m3u8
-#EXTINF:0  group-title="test",Viasat Explore
-http://185.102.171.218/ViasatExplorer/index.m3u8
-#http://85.11.144.9:4222/ViasatExplorer
-#EXTINF:0  group-title="test",Viasat Nature
-http://185.102.171.218/ViasatNature/index.m3u8
-#EXTINF:0  group-title="test",Viasat Kino
-http://109.106.239.1:8001/play/a09j
-#EXTINF:0  group-title="test",Universal
-http://190.151.80.244:9990/play/a0ky/index.m3u8
-#EXTINF:0  group-title="test",Welt der Wunder
-http://wdw.iptv-playoutcenter.de/wdw/wdw1/playlist.m3u8
-#EXTINF:0  group-title="test",Астрахань 2
+
+#EXTINF:0 group-title="candidate",Астрахань 2
 http://dvr.astrakhan.ru/kuli-46-hd-1/index.m3u8
-#EXTINF:0  group-title="test",Астрахань 24 HD
-http://streaming.astrakhan.ru/astrakhan24/tracks-v1a1/mono.ts.m3u8
-#EXTINF:0  group-title="test",Башкортостан 24
+
+#EXTINF:0  group-title="candidate",Башкортостан 24
 http://109.233.169.137/540/b24-540.m3u8
-#EXTINF:0  group-title="test",Башкортостан 24 HD
 http://109.233.169.137/hls/b24-hls.m3u8
-#EXTINF:0  group-title="test",WARNER TV
-https://cdnjkt913.transvision.co.id:1000/live/master/4/4028c6856c3db2cc016cf0b533fe73e3/manifest.mpd
-#EXTINF:0  group-title="test",Волгоград 24
-http://88.87.79.40:8888/Volgograd24
-#EXTINF:0  group-title="test",Дзержинск ТВ
+
+#EXTINF:0  group-title="candidate",Дзержинск ТВ
 https://v.dzertv.ru:8588/dzertv/live_yandex/tracks-v1a1/mono.m3u8
-#EXTINF:0  group-title="test",Prima TV Romania
-http://89.44.229.22:7000/primatv
-#EXTINF:0  group-title="test",TVR 2
-http://89.44.229.22:7000/tvr2
+
+
+
+#EXTINF:0  group-title="test",Disney Channel
+http://212.5.144.156:8080/disney/index.m3u8
+
+
+
 #EXTINF:0  group-title="test",Space TV
 http://216.107.136.17:18112/play/a0ki/index.m3u8
 #EXTINF:0  group-title="test",Истоки ТВ

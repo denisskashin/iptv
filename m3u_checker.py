@@ -112,6 +112,7 @@ BLOCKLIST: set[str] = {
     "Afrobeats",
     "Al Zahra TV",
     "Al-Zahra TV Turkic",
+    "Al Jazeera",
     "Aleph News",
     "Астрахань.Ru TV",
     "Az TV",
@@ -308,7 +309,31 @@ BLOCKLIST: set[str] = {
     "Витрина ТВ",
     "Leomax 24",
     "Вектор 24",
-    "KiKA"
+    "KiKA",
+    "Jordan Sport",
+    "More Than Sports TV",
+    "Agro TV",
+    "Adjara TV",
+    "Antena 3 CNN",
+    "arte",
+    "Action",
+    "Beyaz TV",
+    "ATV AZ",
+    "Arirang",
+    "France Info",
+    "Fortuna TV",
+    "Infosport+",
+    "Kanal 7 Avrupa",
+    "Kanal Avrupa",
+    "Kibris Genc TV",
+    "Makan 33",
+    "Star TV",
+    "TGRT Haber",
+    "TV 2000",
+    "TOK TV",
+    "TVR 3",
+    "TVR International",
+    "Welt der Wunder"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -362,6 +387,14 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "Башкортостан 24 HD": "Башкортостан 24",
+    "Астрахань 24 HD": "Астрахань 24",
+    "SYFY HD": "SYFY",
+    "Star TV HD": "Star TV",
+    "Action HD": "Action",
+    "arte HD": "arte",
+    "Adjara tv": "Adjara TV",
+    "Agro TV Romania": "Agro TV",
     "360 HD": "360.RU",
     "Беларусь 1 HD": "Беларусь 1",
     "Zvezda Plus": "Звезда Плюс",
