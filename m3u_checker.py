@@ -333,7 +333,9 @@ BLOCKLIST: set[str] = {
     "TOK TV",
     "TVR 3",
     "TVR International",
-    "Welt der Wunder"
+    "Welt der Wunder",
+    "Space TV",
+    "TV Kujawy"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -387,6 +389,10 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "Муз-ТВ": "Муз ТВ",
+    "RT HD (1080p)": "RT",
+    "Home Shopping Russia (576p)": "Мой мир",
+    "Истоки ТВ": "Истоки ТВ",
     "Башкортостан 24 HD": "Башкортостан 24",
     "Астрахань 24 HD": "Астрахань 24",
     "SYFY HD": "SYFY",
