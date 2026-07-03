@@ -587,8 +587,6 @@ http://84.17.50.102/russiatoday/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv" tvg-description="НТВ — российский федеральный телеканал, один из крупнейших в стране. Специализируется на новостях, сериалах, документальном кино и развлекательных программах.",НТВ
 
-https://edge02p.mediavitrina.ru/hls-livef6/ntv_msk/index.m3u8?token=v2.NsIDMOP52VhUr9qgkMb4UBLgdHYaKRUoCnGdHlum3xM.bcLfQMcL5878CGVBHF6yJKS1jOH1MQCNWnNzFKNQLgU.1783028288.eebb6d31901189a99029c92846b3fc30
-
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-amerika.png" tvg-id="ntv-amerika" tvg-description="НТВ Америка — русскоязычный телеканал для зрителей в США и Канаде, транслирует программы НТВ и российский контент.",НТВ Америка
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-belarus.png" tvg-id="ntv-belarus" tvg-description="НТВ Беларусь — версия российского телеканала НТВ, адаптированная для белорусской аудитории.",НТВ Беларусь
@@ -608,7 +606,6 @@ http://37.186.70.39:40/play/39/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
 http://37.186.70.39:40/play/37/index.m3u8
-#https://edge01r.mediavitrina.ru/hls-livef7/5tv/index.m3u8?token=v2.ohM-mtkUDf2Ea2yu3BEsXRyWSx5oadrR2DlJFT4MxFA.1LrtkZIeT1R_Cy1eFUkVnoPxxiIeWvOBOrsdzJuEJk8.1783028289.ce18a66eb1d156873122917821db1c32
 #http://178.134.1.158:8081/5channel/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/aris24.png" tvg-id="aris24" tvg-description="Арис 24 — региональный новостной телеканал, транслирующий актуальные события.",Арис 24
@@ -643,8 +640,6 @@ http://37.186.70.39:40/play/44/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr" tvg-description="ОТР (Общественное телевидение России) — российский некоммерческий телеканал. Транслирует общественно-политические, культурные и образовательные программы.",ОТР
 
-https://edge03p.mediavitrina.ru/hls-livef5/otr_0/index.m3u8?token=v2.3K5FNvB9WXHfBuBvGhkiIx1XbnlGCitPSx9wfJmpZWg.XSV_zlxo9sPYS61-2BNpt61hyQwRBUb7nJVqxixMPEM.1783028289.659301ab281e89cd10a347ad9fdb0f34
-
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy" tvg-description="Первый канал — крупнейший федеральный телеканал России. Ведёт вещание с 1951 года. Показывает новости, художественные фильмы, сериалы и развлекательные программы.",Первый канал
 http://37.186.70.39:40/play/28/index.m3u8
 #https://streaming.goodstream.icu/live/210-req_offset_28000000-req_window_0-2k_v5.m3u8
@@ -654,15 +649,12 @@ http://37.186.70.39:40/play/28/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica-int.png" tvg-id="piatnica-int" tvg-description="Пятница International — международная версия российского телеканала Пятница! для зрителей за рубежом.",Пятница International
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Пятница! — российский развлекательный телеканал, ориентированный на молодёжную аудиторию. Показывает реалити-шоу, сериалы и лайфстайл-программы.",Пятница!
-https://edge04p.mediavitrina.ru/hls-livef8/friday/index.m3u8?token=v2.3Xf0-VJoDICdx2bg49ZcDjldI44MCR6h30rkmivdX14.P-invnDWolV-JD9zXuUjq-BWjjgdlHwiMeRGduHSIDM.1783028290.2b421565cb285143e047ddc236edb970
-#https://vod.tuva.ru/friday/index.m3u8
+https://vod.tuva.ru/friday/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",Рен ТВ
 http://37.186.70.39:40/play/30/index.m3u8
-#https://edge02r.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.Dipj9P2P7rOq9RXfdxUjPQZRhcfUlHjQmeG-TOxn8fI.uIN5TisrqtUGcubOnnwQs-Gi8fUB7S0Dw5rYHUVp0kk.1783028289.f4dccc6972ae2a14e76ae873bff7588b
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv-int.png" tvg-id="rentv-int" tvg-description="РЕН ТВ International — международная версия российского телеканала РЕН ТВ для зрителей за рубежом.",Рен ТВ International
-https://edge02r.mediavitrina.ru/hls-livef6/ren-tv/index.m3u8?token=v2.Dipj9P2P7rOq9RXfdxUjPQZRhcfUlHjQmeG-TOxn8fI.uIN5TisrqtUGcubOnnwQs-Gi8fUB7S0Dw5rYHUVp0kk.1783028289.f4dccc6972ae2a14e76ae873bff7588b
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — общероссийский государственный телевизионный канал. Транслирует новости, художественные фильмы, сериалы и общественно-политические программы.",Россия 1
 
@@ -675,20 +667,17 @@ http://37.186.70.39:40/play/25/index.m3u8
 http://31.131.139.253:9002/novoros/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts" tvg-description="СТС — российский развлекательный телеканал. Специализируется на комедийных сериалах, фильмах и молодёжных программах.",СТС
-https://edge02r.mediavitrina.ru/hls-livef5/ctc/index.m3u8?token=v2.00ITKcpfcL_Da2g7DQMar4CdJuVr6rNTurwbzjMOPyE.828pAbf0-GYso9u7D0aftNseTTTPZ0_9OiN6ZEMRuOI.1783028290.83dab86f696107400860224bd2764ec4
-#http://185.91.177.13/sts/index.m3u8
+http://185.91.177.13/sts/index.m3u8
 
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super" tvg-description="Суббота! — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает сериалы, реалити-шоу и лайфстайл-программы.",Суббота!
 http://217.114.191.150/Subbota/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr" tvg-description="ТВЦ (Телевизионный центр) — российский федеральный телеканал, ориентированный на московскую аудиторию. Транслирует новости, политические и культурные программы.",ТВЦ
-https://edge03p.mediavitrina.ru/hls-livef5/tvc/index.m3u8?token=v2.hj7oV2IpYntHgrSfLHQHHsOUWwX1oMHrPqScKhkoTUE.E3BYYjVULjZbMUWex6KqU2Rf1AVFjFssxHEbA6q3rNE.1783028289.f1422d37fb4054aaeb6443720b2dc85c
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 #http://line.team-tv.link:80/jLKLjOvdU/beAi6ilBrs/2073
 http://37.186.70.39:40/play/32/index.m3u8
-#https://edge01p.mediavitrina.ru/hls-livef7/tnt/index.m3u8?token=v2.GNXpi5h3EzDXkI8m_XOfF70BSPRwZIwtR0NiWWNooSc.znwotnFQeGEmfmMk4Qg5qNkyy9Z62dHryhczviNVOhk.1783028291.4df2ff1f5bab78cb75d7f0995acdc460
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt-int-eu.png" tvg-id="tnt-int-eu" tvg-description="ТНТ International — международная версия российского телеканала ТНТ для русскоязычной аудитории за рубежом.",ТНТ International
 
@@ -964,7 +953,6 @@ http://devyatka.iptv2022.com/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/domashny.png" tvg-id="domashny" tvg-description="Российский телеканал для семейной аудитории: сериалы, мелодрамы и программы о доме.",Домашний
 http://37.186.70.39:40/play/42/index.m3u8
-#https://edge04p.mediavitrina.ru/hls-livef5/ctc-dom/index.m3u8?token=v2.EpTtxmeucwj_g1pw7iqBURogA9zIfC77knSUTUKe4Yc.APVQW9RCx4MfSVNgGzd2SOnKBsZryTpkG3rMMsG2R0k.1783028290.ff0ef5b179f86577f961588a8c463f77
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/zal-suda.png" tvg-id="zal-suda" tvg-description="Зал суда — российский тематический телеканал, транслирующий программы о судебных процессах.",Зал суда
 
@@ -1001,7 +989,6 @@ http://sochinskayatrk.ru/hdtv/hls/CTPK_400/playlist.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" tvg-description="Развлекательный телеканал мистики, фильмов и сериалов.",ТВ3
 http://37.186.70.39:40/play/59/index.m3u8
-#https://edge02d.mediavitrina.ru/hls-livef8/tv3/index.m3u8?token=v2.BTnyBKGUjPImlzOOlaqPB0OwsJOGlEv8vGUQ-jjRL8E.6yFh4KB7UcDOT8Ual2i2GqO28WeYwqQwqCmOR3YeLLY.1783028290.3b695f4f26ae1191370b375ed1bfa45f
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd" tvg-description="Твоё ТВ — российский тематический телеканал с разнообразным контентом.",Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
@@ -1245,8 +1232,6 @@ https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/konny-mir.png" tvg-id="konny-mir" tvg-description="Конный мир — российский специализированный телеканал о конном спорте и коневодстве.",Конный мир
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-tv.png" tvg-id="match-tv" tvg-description="Матч! — ведущий российский спортивный телеканал. Транслирует футбол, хоккей и другие популярные виды спорта.",Матч!
-
-https://edge02r.mediavitrina.ru/hls-livef5/matchtv/index.m3u8?token=v2.a3yB4eYUaHBS5jQoUdpl-gPqzbxjGnhZbExfpPsqgIY.8ZZNN2GfM4YiWtz713kSyGATrbCTxx8bUwuq8-8JEwQ.1783028288.b33493bdacd9bc476d58defa0e42c8cf
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena" tvg-description="Матч! Арена — российский спортивный телеканал группы «Матч!». Специализируется на трансляциях крупных спортивных событий.",Матч! Арена
 
@@ -1595,8 +1580,6 @@ http://stream.tvkujawy.pl:8080/live/broadcast.m3u8
 https://moymir.ru/hls/onair.m3u8
 #EXTINF:0 tvg-id="RT.ru@HD" group-title="test",RT HD (1080p)
 https://wisewatchoott.wiseplayout.com/RT/master.m3u8
-#EXTINF:0 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",СТС HD
-https://edge02p.mediavitrina.ru/hls-livef5/ctc/index.m3u8?token=v2.71w5-ELcxuE-_8Oar-nfjYPEAdhc7vwCt8baFSOe8Pc.jiO4xClJBBdmN3VKSZyphAdpeT_YD7fpYKjgwVClOnQ.1783085891.1e6ac6c1f80b13c6048c81ffe9cd4066
 #EXTINF:0 group-title="test",Stingray iConcerts HD
 http://rr3.tvdosug.net/~109e1a3c05fcad5b22d13b9453dc0db5122/52264/hls/pl.m3u8
 #EXTINF:0 group-title="test",Tavo TV
