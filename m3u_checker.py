@@ -54,6 +54,7 @@ SOURCE_URLS: list[str] = [
     "https://fas-tv.com/ip/avto.m3u",
     "https://fas-tv.com/ip/avto-full.m3u",
     "https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/all.m3u",
+    "http://aa6b7f44c703.zatikov.net/playlists/uplist/77ef352e38ec2bd62da2a246263155d7/playlist.m3u8",
     "https://psv4.vkuserphoto.ru/s/v1/d2/8HZfJQRJ_MeeobCju10KU0HtuRxCjT95DE_iFeuUxmODSc0pzgMyQrRvjqyATaaDlxhP-USCHBzUB8hmxTvoJjgi2JRJCFTHgA9IlqFIlMfQDLbCI9yOSsJ9lmIxsDwpPKpJHiH5kh72/N4V2MS99P39SMB.m3u8",
     "https://dl.dropboxusercontent.com/s/sbm8ttki12bhr9cuxs9oz/m3u?rlkey=ujn5573apcibg3foxhq2ja7tt",
     "https://dl.dropboxusercontent.com/s/ur595ef4cqmfst951kboh/m3u?rlkey=0cw1ficfrq0m6yg2udh16qn78",
@@ -306,7 +307,8 @@ BLOCKLIST: set[str] = {
     "Deluxe Rap",
     "Витрина ТВ",
     "Leomax 24",
-    "Вектор 24"
+    "Вектор 24",
+    "KiKA"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
