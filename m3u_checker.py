@@ -338,7 +338,9 @@ BLOCKLIST: set[str] = {
     "TV Kujawy",
     "Пловдивска Православна ТВ",
     "ACI Sport",
-    "Lyubimoe.TV (720p)"
+    "Lyubimoe.TV (720p)",
+    "Bein Sports",
+    "Bein Sports XTRA"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -392,6 +394,9 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "BRIDGE": "Bridge TV",
+    "BRIDGE DELUXE": "Bridge TV Deluxe",
+    "BRIDGE CLASSIC": "Bridge TV Classic",
     "RU.TV (720p)": "RU.TV",
     "Mir (576p)": "Мир",
     "Spas (576p)": "Спас",
