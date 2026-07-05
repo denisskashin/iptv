@@ -1178,7 +1178,7 @@ http://37.186.70.39:40/play/118/index.m3u8
 #http://stream.mcquack.net/177/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/140/index.m3u8
 
-#EXTINF:-1 group-title="Познавательные" tvg-description="Французский познавательный канал The Explorers: природа, страны и народы планеты (съёмки в 8K).",Explorers
+#EXTINF:-1 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/the-explorers.png" tvg-id="the-explorers" tvg-description="Французский познавательный канал The Explorers: природа, страны и народы планеты (съёмки в 8K).",Explorers
 http://stream.mcquack.net/450/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/h2.png" tvg-id="h2" tvg-description="H2 — дополнительный исторический телеканал, транслирующий углублённый исторический и документальный контент.",H2 History
@@ -1534,7 +1534,6 @@ http://109.233.169.137/hls/b24-hls.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/832/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/bst.png" tvg-id="bst" tvg-description="Башкирское спутниковое телевидение (БСТ) — региональный телеканал Республики Башкортостан.",БСТ
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2108/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2115/index.m3u8
 
@@ -1591,10 +1590,9 @@ http://kuzbass1.ru:8082/10kanal/10kanal_720/playlist.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/12-omsk.png" tvg-id="12-omsk" tvg-description="Региональный телеканал Омской области (12 канал).",12 канал
 
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Сочи (Sochi Live).",Sochi Live
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16038/index.m3u8
 
 # Религия и изотерика
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16038/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-description="Православный религиозный телеканал на русском языке.",Бог Благ ТВ
 http://67.218.111.36/BogBlagTV/tracks-v1a1/mono.m3u8
@@ -1603,17 +1601,14 @@ http://67.218.111.36/BogBlagTV/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/muzsoyuz.png" tvg-id="muzsoyuz" tvg-description="МузСоюз — российский музыкальный телеканал, транслирующий клипы и концерты.",МузСоюз
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/nadezhda.png" tvg-id="nadezhda" tvg-description="Надежда — российский православный телеканал, транслирующий религиозные программы и богослужения.",Надежда
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2116/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/nebesa-tv7.png" tvg-id="nebesa-tv7" tvg-description="Небеса ТВ7 — христианский телеканал, транслирующий религиозные и духовные программы.",Небеса ТВ7
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/radost-moya.png" tvg-id="radost-moya" tvg-description="Радость моя — российский православный телеканал, транслирующий духовные программы для семьи.",Радость моя
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/853/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/soyuz.png" tvg-id="soyuz" tvg-description="Союз — российский православный телеканал Екатеринбургской епархии. Транслирует богослужения, проповеди и православные программы.",Союз
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2016/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/spas.png" tvg-id="spas" tvg-description="Спас — российский православный телеканал. Транслирует богослужения, проповеди, беседы о православной вере.",Спас
@@ -1646,7 +1641,6 @@ http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/index.m3u8
 http://stream.mcquack.net/412/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala" tvg-description="Телеканал отечественных и зарубежных сериалов.",Мир сериала
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/856/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller" tvg-description="Телеканал российских сериалов и экранизаций.",Русский бестселлер
