@@ -413,7 +413,24 @@ BLOCKLIST: set[str] = {
     "Трофей",
     "Твій Серіал",
     "Enter-фільм",
-    "Kinosweet"
+    "Kinosweet",
+    "Dynamo Kyiv TV",
+    "Суспільне Спорт",
+    "DiVi Sport",
+    "Maincast sport",
+    "Maincast кіберспорт",
+    "Піксель",
+    "BBC News UK",
+    "Babes TV",
+    "Gags Network",
+    "Vivid Red",
+    "Playboy TV",
+    "Barely Legal TV",
+    "FreeДОМ",
+    "Рада",
+    "Прямий",
+    "Erox",
+    "Frenchlover"
 }
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
@@ -467,6 +484,8 @@ URL_BLOCKLIST: set[str] = _load_url_blocklist()
 # Key   = name as it appears in the source playlist (case-insensitive)
 # Value = name as it appears in index.m3u
 ALIASES: dict[str, str] = {
+    "Bein Sports (MMN HD)": "Bein Sports",
+    "Ля-минор ТВ": "Ля-минор",
     "red": ".red",
     "black": ".black",
     "Insight TV": "Инсайт ТВ",
