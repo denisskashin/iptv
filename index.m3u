@@ -510,10 +510,6 @@ https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/trashtv.png" tvg-id="trashtv" tvg-description="Российский киноканал жанра «треш»: боевики, ужасы и чёрные комедии, 18+.",Trash
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" tvg-id="vip-comedy-cee" tvg-description="Телеканал комедийного кино (Viasat).",Viasat Kino Comedy
-http://ukr2.ukrainske.tv/493/video.m3u8
-#http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/31764/index.m3u8
-
 # Кино: CineMan
 
 #EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman.png" tvg-id="cineman" tvg-description="Киноканал с художественными фильмами (пакет CineMan).",CineMan
@@ -534,6 +530,9 @@ http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11002/index.m3u8
 #EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-marvel.png" tvg-id="cineman-marvel" tvg-description="Телеканал фильмов вселенной Marvel (пакет CineMan).",Marvel
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11009/index.m3u8
 
+#EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-miniseries.png" tvg-id="cineman-miniseries" tvg-description="Телеканал мини-сериалов (пакет CineMan).",MiniSeries
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19437/index.m3u8
+
 #EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-thriller.png" tvg-id="cineman-thriller" tvg-description="Телеканал триллеров (пакет CineMan).",Thriller
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11007/index.m3u8
 
@@ -549,8 +548,23 @@ http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/15106/index.m3u8
 #EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-comedy.png" tvg-id="cineman-comedy" tvg-description="Телеканал комедийных фильмов (пакет CineMan).",Комедия
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11011/index.m3u8
 
+#EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-lesnik.png" tvg-id="cineman-lesnik" tvg-description="Телеканал, посвящённый сериалу «Лесник» (CineMan).",Лесник
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16065/index.m3u8
+
 #EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-melodrama.png" tvg-id="cineman-melodrama" tvg-description="Телеканал мелодрам (пакет CineMan).",Мелодрама
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11008/index.m3u8
+
+#EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-musw.png" tvg-id="cineman-musw" tvg-description="Телеканал, посвящённый сериалу «Ментовские войны» (CineMan).",Ментовские войны
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16063/index.m3u8
+
+#EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-svaty.png" tvg-id="cineman-svaty" tvg-description="Телеканал, посвящённый сериалу «Сваты» (CineMan).",Сваты
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11014/index.m3u8
+
+#EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-simps.png" tvg-id="cineman-simps" tvg-description="Телеканал мультсериала «Симпсоны» (CineMan).",Симпсоны
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/15101/index.m3u8
+
+#EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-skorpom.png" tvg-id="cineman-skorpom" tvg-description="Телеканал, посвящённый сериалу «Скорая помощь» (CineMan).",Скорая Помощь
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/15100/index.m3u8
 
 #EXTINF:0 group-title="Кино: CineMan" tvg-logo="https://iptvx.one/picons/cineman-uzhasy.png" tvg-id="cineman-uzhasy" tvg-description="Телеканал фильмов ужасов (пакет CineMan).",Ужасы
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11010/index.m3u8
@@ -593,33 +607,53 @@ http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19300/index.m3u8
 #EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-vhs.png" tvg-id="fresh-vhs" tvg-description="Телеканал ретро-кино (пакет Fresh).",VHS
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19293/index.m3u8
 
-# Кино: Viju
+# Кино: Viju (Viasat)
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Документальные программы об исследователях, технике и приключениях (viju+ Explore).",Explore
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Документальные программы об исследователях, технике и приключениях (viju+ Explore).",Explore
 http://stream.mcquack.net/239/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/163/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории и цивилизациях (viju+ History).",History
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории и цивилизациях (viju+ History).",History
 http://stream.mcquack.net/101/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/162/index.m3u8
 
-#EXTINF:0 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Planet
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Planet
 http://stream.mcquack.net/240/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000" tvg-description="Голливудские хиты и культовое кино (viju TV1000).",TV 1000
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000" tvg-description="Голливудские хиты и культовое кино (viju TV1000).",TV 1000
 http://stream.mcquack.net/110/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",TV 1000 Action
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",TV 1000 Action
 http://stream.mcquack.net/100/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy" tvg-description="Комедии со всего мира (viju+ Comedy).",Comedy
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy" tvg-description="Комедии со всего мира (viju+ Comedy).",Comedy
 http://stream.mcquack.net/201/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit" tvg-description="Блокбастеры и кассовые хиты (viju+ Megahit).",Megahit
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit" tvg-description="Блокбастеры и кассовые хиты (viju+ Megahit).",Megahit
 http://stream.mcquack.net/200/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere" tvg-description="Новинки кино вскоре после проката (viju+ Premiere).",Premiere
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere" tvg-description="Новинки кино вскоре после проката (viju+ Premiere).",Premiere
 http://stream.mcquack.net/202/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viasat Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viasat Explore
+http://185.102.171.218/ViasatExplorer/index.m3u8
+#http://85.11.144.9:4222/ViasatExplorer
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории от Viasat: древние цивилизации и мировые события.",Viasat History
+http://185.102.171.218/ViasatHistory/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" tvg-id="vip-comedy-cee" tvg-description="Телеканал комедийного кино (Viasat).",Viasat Kino Comedy
+http://ukr2.ukrainske.tv/493/video.m3u8
+#http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/31764/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viasat Nature — канал о природе балтийской медиагруппы Viju.",Viasat Nature
+http://185.102.171.218/ViasatNature/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Спортивный телеканал Viasat Sport.",Viasat Sport
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Viju+ Sport — спортивный канал балтийской медиагруппы Viju.",Viju+ Sport
+http://stream.mcquack.net/333/index.m3u8
+#http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/160/index.m3u8
 
 # Космос
 
@@ -1218,13 +1252,6 @@ https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_
 #http://partners.universmotri.ru/live/univer.sdp_480p/playlist.m3u?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #http://partners.universmotri.ru/live/univer.sdp_480p/playlist.m3u?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
 
-#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viasat Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viasat Explore
-http://185.102.171.218/ViasatExplorer/index.m3u8
-#http://85.11.144.9:4222/ViasatExplorer
-
-#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории от Viasat: древние цивилизации и мировые события.",Viasat History
-http://185.102.171.218/ViasatHistory/index.m3u8
-
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/z-science.png" tvg-id="z-science" tvg-description="Z! Science — научно-популярный телеканал, транслирующий программы о науке и технологиях.",Z! Science
 
 # Природа
@@ -1275,9 +1302,6 @@ http://185.102.171.218/NatGeoWild/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/133/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/skyhigh-nature.png" tvg-id="skyhigh-nature" tvg-description="Sky High Nature — тематический канал о природе.",Sky High Nature
-
-#EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viasat Nature — канал о природе балтийской медиагруппы Viju.",Viasat Nature
-http://185.102.171.218/ViasatNature/index.m3u8
 
 # Путешествия
 
@@ -1419,8 +1443,7 @@ http://stream.mcquack.net/183/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/103/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" tvg-description="Развлекательный телеканал мистики, фильмов и сериалов.",ТВ3
-#http://94.230.129.31:8080/TB3/index.m3u8
-http://37.186.70.39:40/play/59/index.m3u8
+http://94.230.129.31:8080/TB3/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/508/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-int.png" tvg-id="tv3-int" tvg-description="Развлекательный телеканал мистики, фильмов и сериалов.",ТВ3 International
@@ -1467,7 +1490,7 @@ http://v4.proofix.ru/8tv-russia/tracks-v1a1/mono.m3u8
 #http://v4.proofix.ru/8tv-russia/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
 #http://v4.proofix.ru/8tv-russia/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjUgNjo0OTo0NSBBTSZoYXNoX3ZhbHVlPVUrWTdNVm5UeVVkM1pMdG0xSG9jTGc9PSZ2YWxpZG1pbnV0ZXM9NDgw
 
-#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-ru.png" tvg-id="8kanal-ru" tvg-description="Федеральный развлекательный телеканал: фильмы и сериалы, юмор и travel-программы.",8tv
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu" tvg-description="Федеральный развлекательный телеканал: фильмы и сериалы, юмор и travel-программы.",8tv
 http://v4.proofix.ru:80/8tv-europe/index.m3u8
 #https://v4.proofix.ru/8tv-europe/index.m3u8
 https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
@@ -1512,9 +1535,6 @@ http://stream.mcquack.net/168/index.m3u8
 http://stream.almaz-media.tv:8081/hls/720.m3u8
 #https://stream.almaz-media.tv:8080/hls/720.m3u8
 
-#EXTINF:0 group-title="Региональные" tvg-description="Астраханский городской телеканал: новости и программы.",Астрахань 2
-http://dvr.astrakhan.ru/kuli-46-hd-1/index.m3u8
-
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/astraxan24.png" tvg-id="astraxan24" tvg-description="Региональный новостной телеканал Астраханской области.",Астрахань 24
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #http://streaming.astrakhan.ru/astrakhan24/tracks-v1a1/mono.ts.m3u8
@@ -1524,13 +1544,13 @@ https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16149/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/astrahan-live.png" tvg-id="astrahan-live" tvg-description="Астраханский региональный канал: городские новости и прямые эфиры.",Астрахань Live
-#http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
+http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Региональный телеканал (АТВ).",АТВ
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/bashkortostan24.png" tvg-id="bashkortostan24" tvg-description="Круглосуточный информационный канал Республики Башкортостан.",Башкортостан 24
 http://109.233.169.137/540/b24-540.m3u8
-http://109.233.169.137/hls/b24-hls.m3u8
+№http://109.233.169.137/hls/b24-hls.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/832/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/bst.png" tvg-id="bst" tvg-description="Башкирское спутниковое телевидение (БСТ) — региональный телеканал Республики Башкортостан.",БСТ
@@ -1554,7 +1574,6 @@ https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-description="Областное телевидение: региональные новости и программы.",ОТВ
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pervy-krymsky.png" tvg-id="pervy-krymsky" tvg-description="Региональный телеканал Республики Крым.",Первый Крымский
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2139/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pro-zhizn.png" tvg-id="pro-zhizn" tvg-description="Региональный телеканал о людях и повседневной жизни.",Про жизнь
@@ -1574,9 +1593,7 @@ http://stream.mcquack.net/398/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Региональный телеканал: городские новости и программы.",ТВ 41
 
-#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tvk-krasnoyarsk.png" tvg-id="tvk-krasnoyarsk" tvg-description="Региональный телеканал Твери («Тверской проспект»).",Тверской Проспект
-
-#EXTINF:0 group-title="Региональные" tvg-description="Региональный новостной телеканал Красноярска (ТВК).",ТВК
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tvk-krasnoyarsk.png" tvg-id="tvk-krasnoyarsk" tvg-description="Региональный новостной телеканал Красноярска (ТВК).",ТВК
 http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 #http://air.tvk6.ru/tvk24/playlist.m3u8
 
@@ -1674,30 +1691,6 @@ http://stream.mcquack.net/162/index.m3u8
 http://stream.mcquack.net/151/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/555/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/229/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/cineman-miniseries.png" tvg-id="cineman-miniseries" tvg-description="Телеканал мини-сериалов (пакет CineMan).",CineMan MiniSeries
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19437/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/cineman-lesnik.png" tvg-id="cineman-lesnik" tvg-description="Телеканал, посвящённый сериалу «Лесник» (CineMan).",CineMan Лесник
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16065/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/cineman-musw.png" tvg-id="cineman-musw" tvg-description="Телеканал, посвящённый сериалу «Ментовские войны» (CineMan).",CineMan Ментовские войны
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16063/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/cineman-svaty.png" tvg-id="cineman-svaty" tvg-description="Телеканал, посвящённый сериалу «Сваты» (CineMan).",CineMan Сваты
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11014/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/cineman-simps.png" tvg-id="cineman-simps" tvg-description="Телеканал мультсериала «Симпсоны» (CineMan).",CineMan Симпсоны
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/15101/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/cineman-skorpom.png" tvg-id="cineman-skorpom" tvg-description="Телеканал, посвящённый сериалу «Скорая помощь» (CineMan).",CineMan Скорая Помощь
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/15100/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife" tvg-description="Телеканал зарубежных сериалов и lifestyle (Fox Life).",Fox Life
 http://stream.mcquack.net/129/index.m3u8
@@ -1815,24 +1808,23 @@ http://stream.mcquack.net/178/index.m3u8
 http://stream.mcquack.net/72/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/redbulltv.png" tvg-id="Red.Bull.TV.cz" tvg-description="Red Bull TV — международный телеканал энергетического бренда Red Bull. Транслирует экстремальные виды спорта, музыку и приключения.",Red Bull TV
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16040/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/russky-ekstrim.png" tvg-id="russky-ekstrim" tvg-description="Russian Extreme — российский телеканал, посвящённый экстремальным видам спорта и приключениям.",Russian Extreme
 
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport1-lt.png" tvg-id="sport1-lt" tvg-description="Спортивный телеканал: футбол, теннис и игровые виды.",Sport 1
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport1ua.png" tvg-id="sport1-ua" tvg-description="Спортивный телеканал: футбол, теннис и игровые виды.",Sport 1
 http://stream.mcquack.net/391/index.m3u8
 
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport1-baltic.png" tvg-id="sport1-baltic" tvg-description="Балтийская версия Sport1: баскетбол, футбол и хоккей.",Sport 1 Baltic
 http://stream.mcquack.net/461/index.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-description="Спортивный телеканал: футбол, теннис и игровые виды.",Sport 2
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport2-ua.png" tvg-id="sport2-ua" tvg-description="Спортивный телеканал: футбол, теннис и игровые виды.",Sport 2
 http://stream.mcquack.net/392/index.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-description="Спортивный телеканал: трансляции матчей и турниров.",Sport 3
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport3-ua.png" tvg-id="sport3-ua" tvg-description="Спортивный телеканал: трансляции матчей и турниров.",Sport 3
 http://stream.mcquack.net/393/index.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-description="Спортивный телеканал: трансляции матчей и турниров.",Sport 4
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport4-ua.png" tvg-id="sport4-ua" tvg-description="Спортивный телеканал: трансляции матчей и турниров.",Sport 4
 http://stream.mcquack.net/394/index.m3u8
 
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport5.png" tvg-id="sport5" tvg-description="Спортивный телеканал: трансляции матчей и турниров.",Sport 5
@@ -1850,12 +1842,6 @@ http://stream.mcquack.net/256/index.m3u8
 http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Спортивный телеканал.",TVR Sport
-
-#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Спортивный телеканал Viasat Sport.",Viasat Sport
-
-#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Viju+ Sport — спортивный канал балтийской медиагруппы Viju.",Viju+ Sport
-http://stream.mcquack.net/333/index.m3u8
-#http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/160/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/xsport-ua.png" tvg-id="xsport-ua" tvg-description="XSport — спортивный телеканал, специализирующийся на трансляции разнообразных соревнований.",XSport
 
