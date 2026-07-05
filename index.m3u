@@ -851,7 +851,7 @@ http://37.186.70.39:40/play/93/index.m3u8
 #http://stream.mcquack.net/318/index.m3u8
 #http://stream.mcquack.net/320/index.m3u8
 
-#EXTINF:0 group-title="Музыка" tvg-description="Классические музыкальные хиты (Music Box Classic).",Classic
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-classic.png" tvg-id="musicbox-classic" tvg-description="Классические музыкальные хиты (Music Box Classic).",Music Box Classic
 https://dash4.antik.sk/live/mb_classic/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Телеканал классической музыки.",Classic Music HD
@@ -881,7 +881,7 @@ https://rutvkids.ru/live/efir/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/song-tv-ru.png" tvg-id="song-tv-ru" tvg-description="Армянский музыкальный телеканал Song TV.",Song TV
 http://songtvam.ru:8060/hd/playlist.m3u8
 
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv" tvg-description="Классическая музыка круглосуточно: концерты, опера и балет (Stingray Classica).",Stingray CMusic
+#EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Классическая музыка круглосуточно: концерты, опера и балет.",Classic Music
 http://stream.mcquack.net/312/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/iconcerts.png" tvg-id="iconcerts" tvg-description="Телеканал концертов и живой музыки (Stingray).",Stingray Iconcerts
@@ -1819,7 +1819,7 @@ http://stream.mcquack.net/391/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport1-baltic.png" tvg-id="sport1-baltic" tvg-description="Балтийская версия Sport1: баскетбол, футбол и хоккей.",Sport 1 Baltic
 http://stream.mcquack.net/461/index.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport2-ua.png" tvg-id="sport2-ua" tvg-description="Спортивный телеканал: футбол, теннис и игровые виды.",Sport 2
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport2ua.png" tvg-id="sport2-ua" tvg-description="Спортивный телеканал: футбол, теннис и игровые виды.",Sport 2
 http://stream.mcquack.net/392/index.m3u8
 
 #EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport3-ua.png" tvg-id="sport3-ua" tvg-description="Спортивный телеканал: трансляции матчей и турниров.",Sport 3
@@ -1836,13 +1836,11 @@ http://stream.mcquack.net/212/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/supertennis.png" tvg-id="supertennis" tvg-description="SuperTennis — итальянский спортивный телеканал, посвящённый теннису.",Super Tennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-description="Trace Sport Stars: жизнь и стиль звёзд мирового спорта.",Trace Sports
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/trace-sport-stars.png" tvg-id="trace-sport-stars" tvg-description="Trace Sport Stars: жизнь и стиль звёзд мирового спорта.",Trace Sport Stars
 http://stream.mcquack.net/256/index.m3u8
 
-#EXTINF:-1 group-title="Спорт" tvg-description="Литовский спортивный канал TV3 Sport.",TV3 Sport LT
+#EXTINF:-1 group-title="Спорт" tvg-logo="https://iptvx.one/picons/tvplay-sports.png" tvg-id="tvplay-sports" tvg-description="Литовский спортивный канал TV3 Sport.",TV3 Sport
 http://stream.mcquack.net/416/index.m3u8
-
-#EXTINF:0 group-title="Спорт" tvg-description="Спортивный телеканал.",TVR Sport
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/xsport-ua.png" tvg-id="xsport-ua" tvg-description="XSport — спортивный телеканал, специализирующийся на трансляции разнообразных соревнований.",XSport
 
