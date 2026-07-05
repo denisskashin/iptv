@@ -12,7 +12,7 @@ http://37.186.70.39:40/play/103/index.m3u8
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-description="Автомобильный телеканал: обзоры машин, тест-драйвы и помощь в выборе авто.",АвтоГид
 
-#EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" tvg-description="«Драйв» — канал для тех, кто не мыслит своей жизни без автомобилей, мотоциклов и путешествий. Фанаты экстремального вождения и любители неторопливых автомобильных поездок по стране и миру, мотоциклисты и авто-антиквары, начинающие автолюбители и профессионалы со стажем, мужчины и женщины за рулем увидят на канале «Драйв» репортажи с выставок и автосалонов, тест-драйвы новинок мирового и отечественного автомобильного рынка, комментарии известных автоэкспертов, программы о культовых марках и тюнинге.",Драйв
+#EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" catchup="flussonic" catchup-days="7" tvg-description="«Драйв» — канал для тех, кто не мыслит своей жизни без автомобилей, мотоциклов и путешествий. Фанаты экстремального вождения и любители неторопливых автомобильных поездок по стране и миру, мотоциклисты и авто-антиквары, начинающие автолюбители и профессионалы со стажем, мужчины и женщины за рулем увидят на канале «Драйв» репортажи с выставок и автосалонов, тест-драйвы новинок мирового и отечественного автомобильного рынка, комментарии известных автоэкспертов, программы о культовых марках и тюнинге.",Драйв
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2021/index.m3u8
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/moto-drive.png" tvg-id="moto-drive" tvg-description="Телеканал о мотоциклах, мотоспорте и культуре байкеров.",Мото Драйв
@@ -590,36 +590,35 @@ http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19298/index.m3u8
 #EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-thriller.png" tvg-id="fresh-thriller" tvg-description="Телеканал триллеров (пакет Fresh).",Thriller
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19300/index.m3u8
 
-#EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-vhs.png" tvg-id="fresh-vhs" tvg-description="Телеканал ретро-кино (пакет Fresh).",Fresh VHS
+#EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-vhs.png" tvg-id="fresh-vhs" tvg-description="Телеканал ретро-кино (пакет Fresh).",VHS
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19293/index.m3u8
 
 # Кино: Viju
 
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19293/index.m3u8
-
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Документальные программы об исследователях, технике и приключениях (viju+ Explore).",Viju Explore
+#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Документальные программы об исследователях, технике и приключениях (viju+ Explore).",Explore
 http://stream.mcquack.net/239/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/163/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории и цивилизациях (viju+ History).",Viju History
+#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории и цивилизациях (viju+ History).",History
 http://stream.mcquack.net/101/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/162/index.m3u8
 
-#EXTINF:0 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Viju Planet
+#EXTINF:0 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Planet
 http://stream.mcquack.net/240/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000" tvg-description="Голливудские хиты и культовое кино (viju TV1000).",Viju TV 1000
+#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000" tvg-description="Голливудские хиты и культовое кино (viju TV1000).",TV 1000
 http://stream.mcquack.net/110/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",Viju TV 1000 Action
+#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",TV 1000 Action
 http://stream.mcquack.net/100/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy" tvg-description="Комедии со всего мира (viju+ Comedy).",Viju+ Comedy
+#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy" tvg-description="Комедии со всего мира (viju+ Comedy).",Comedy
 http://stream.mcquack.net/201/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit" tvg-description="Блокбастеры и кассовые хиты (viju+ Megahit).",Viju+ Megahit
+#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit" tvg-description="Блокбастеры и кассовые хиты (viju+ Megahit).",Megahit
 http://stream.mcquack.net/200/index.m3u8
 
-#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere" tvg-description="Новинки кино вскоре после проката (viju+ Premiere).",Viju+ Premiere
+#EXTINF:-1 group-title="Кино: Viju" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere" tvg-description="Новинки кино вскоре после проката (viju+ Premiere).",Premiere
 http://stream.mcquack.net/202/index.m3u8
 
 # Космос
@@ -635,7 +634,6 @@ http://stream.mcquack.net/202/index.m3u8
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/appetitny.png" tvg-id="appetitny" tvg-description="Аппетитный — российский кулинарный телеканал с рецептами и кулинарными шоу.",Аппетитный
 
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/eda.png" tvg-id="eda" tvg-description="Еда — российский тематический телеканал, посвящённый кулинарии и гастрономии.",Еда
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/6009/index.m3u8
 
 #EXTINF:0 group-title="Кулинария" tvg-description="Кулинар ТВ — российский телеканал о кулинарии и кулинарном искусстве.",Кулинар ТВ
@@ -650,7 +648,7 @@ http://stream.mcquack.net/179/index.m3u8
 http://stream.mcquack.net/314/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/865/index.m3u8
 
-#EXTINF:0 group-title="Кулинария" tvg-description="Food Food — индийский кулинарный телеканал.",Food Food
+#EXTINF:0 group-title="Кулинария" tvg-id="Food.Food.In" tvg-description="Food Food — индийский кулинарный телеканал.",Food Food
 http://103.175.73.12:8080/live/143/143_0.m3u8
 
 #EXTINF:-1 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/food-network.png" tvg-id="food-network" tvg-description="Американский кулинарный телеканал Food Network: шоу знаменитых шеф-поваров.",Food Network
@@ -680,7 +678,6 @@ http://37.186.70.39:40/play/26/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/505/index.m3u8
 
 #EXTINF:0 group-title="Культура" tvg-logo="https://iptvx.one/picons/teatr.png" tvg-id="teatr" tvg-description="Театр — российский тематический телеканал, транслирующий театральные постановки, спектакли и программы о театре.",Театр
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2431/index.m3u8
 
 #EXTINF:0 group-title="Культура" tvg-logo="https://iptvx.one/picons/liberty-zanaves.png" tvg-id="liberty-zanaves" tvg-description="Liberty Занавес — тематический телеканал медиагруппы Liberty.",Liberty Занавес
@@ -694,45 +691,45 @@ http://stream.mcquack.net/169/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/535/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/212/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena" tvg-description="Матч! Арена — российский спортивный телеканал группы «Матч!». Специализируется на трансляциях крупных спортивных событий.",Матч! Арена
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena" tvg-description="Матч! Арена — российский спортивный телеканал группы «Матч!». Специализируется на трансляциях крупных спортивных событий.",Арена
 http://stream.mcquack.net/163/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/528/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/207/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-boec.png" tvg-id="match-boets" tvg-description="Матч! Боец — российский спортивный телеканал, посвящённый боевым видам спорта: боксу, MMA, борьбе и единоборствам.",Матч! Боец
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-boec.png" tvg-id="match-boets" tvg-description="Матч! Боец — российский спортивный телеканал, посвящённый боевым видам спорта: боксу, MMA, борьбе и единоборствам.",Боец
 http://stream.mcquack.net/112/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/150/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra" tvg-description="Матч! Игра — российский спортивный канал, специализирующийся на игровых видах спорта.",Матч! Игра
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra" tvg-description="Матч! Игра — российский спортивный канал, специализирующийся на игровых видах спорта.",Игра
 http://185.37.150.38/test/index.m3u8
 #http://stream.mcquack.net/188/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/529/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/225/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-planeta.png" tvg-id="match-planeta" tvg-description="Матч! Планета — российский спортивный телеканал группы «Матч!», транслирующий международные соревнования.",Матч! Планета
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-planeta.png" tvg-id="match-planeta" tvg-description="Матч! Планета — российский спортивный телеканал группы «Матч!», транслирующий международные соревнования.",Планета
 http://37.186.70.39:40/play/83/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/123/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-premiere.png" tvg-id="match-premier" tvg-description="Матч! Премьер — российский спортивный канал для трансляции матчей Российской Премьер-лиги по футболу.",Матч! Премьер
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-premiere.png" tvg-id="match-premier" tvg-description="Матч! Премьер — российский спортивный канал для трансляции матчей Российской Премьер-лиги по футболу.",Премьер
 http://stream.mcquack.net/193/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/531/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/220/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-strana.png" tvg-id="match-nash-sport" tvg-description="Матч! Страна — российский спортивный телеканал группы «Матч!», посвящённый региональному и отечественному спорту.",Матч! Страна
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-strana.png" tvg-id="match-nash-sport" tvg-description="Матч! Страна — российский спортивный телеканал группы «Матч!», посвящённый региональному и отечественному спорту.",Страна
 http://stream.mcquack.net/143/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/107/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-football1.png" tvg-id="match-football1" tvg-description="Матч! Футбол 1 — российский спортивный канал, специализирующийся на трансляциях европейского футбола.",Матч! Футбол 1
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-football1.png" tvg-id="match-football1" tvg-description="Матч! Футбол 1 — российский спортивный канал, специализирующийся на трансляциях европейского футбола.",Футбол 1
 http://stream.mcquack.net/130/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/124/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/222/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-football2.png" tvg-id="match-football2" tvg-description="Матч! Футбол 2 — второй футбольный канал медиагруппы «Матч!». Транслирует матчи ведущих европейских лиг.",Матч! Футбол 2
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-football2.png" tvg-id="match-football2" tvg-description="Матч! Футбол 2 — второй футбольный канал медиагруппы «Матч!». Транслирует матчи ведущих европейских лиг.",Футбол 2
 http://stream.mcquack.net/142/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/530/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/211/index.m3u8
 
-#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-football3.png" tvg-id="match-football3" tvg-description="Матч! Футбол 3 — третий футбольный канал медиагруппы «Матч!». Транслирует международные и российские футбольные соревнования.",Матч! Футбол 3
+#EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-football3.png" tvg-id="match-football3" tvg-description="Матч! Футбол 3 — третий футбольный канал медиагруппы «Матч!». Транслирует международные и российские футбольные соревнования.",Футбол 3
 http://176.100.46.245:90/matchfootball3/index.m3u8
 #http://stream.mcquack.net/185/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/522/index.m3u8
@@ -741,7 +738,6 @@ http://176.100.46.245:90/matchfootball3/index.m3u8
 # Мода
 
 #EXTINF:0 group-title="Мода" tvg-logo="https://iptvx.one/picons/fashion-one.png" tvg-id="fashion-one" tvg-description="Телеканал о моде, стиле и образе жизни.",Fashion & Lifestyle
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2044/index.m3u8
 
 #EXTINF:0 group-title="Мода" tvg-logo="https://iptvx.one/picons/fashion-tv.png" tvg-id="fashion-tv" tvg-description="Fashion TV — международный телеканал о моде и индустрии красоты. Транслирует показы мод, репортажи о трендах и стиле жизни.",Fashion TV
@@ -818,7 +814,6 @@ http://37.186.70.39:40/play/93/index.m3u8
 https://dash4.antik.sk/live/mb_classic/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Телеканал классической музыки.",Classic Music HD
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/14009/index.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv" tvg-description="Телеверсия радио «Европа Плюс»: топовые зарубежные и русские хиты.",Europa Plus TV
@@ -843,7 +838,7 @@ https://rutvkids.ru/live/efir/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Музыкальный телеканал с клипами.",Russian Music Box
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/song-tv-ru.png" tvg-id="song-tv-ru" tvg-description="Армянский музыкальный телеканал Song TV.",Song TV
-#http://songtvam.ru:8060/hd/playlist.m3u8
+http://songtvam.ru:8060/hd/playlist.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv" tvg-description="Классическая музыка круглосуточно: концерты, опера и балет (Stingray Classica).",Stingray CMusic
 http://stream.mcquack.net/312/index.m3u8
@@ -853,7 +848,6 @@ http://stream.mcquack.net/312/index.m3u8
 # Новости
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/dozhd.png" tvg-id="dozhd" tvg-description="Российский независимый информационный телеканал.",Дождь
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2030/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/20083/index.m3u8
 
@@ -862,7 +856,6 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2008/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/mir24.png" tvg-id="mir-24" tvg-description="Мир 24 — круглосуточный информационный канал МТРК «Мир». Освещает события в России и странах СНГ.",Мир 24
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/712/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-description="Информационный телеканал агентства ТАСС.",ТАСС
@@ -909,7 +902,6 @@ http://84.17.50.102/russiatoday/index.m3u8
 # НТВ
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv" tvg-description="НТВ — российский федеральный телеканал, один из крупнейших в стране. Специализируется на новостях, сериалах, документальном кино и развлекательных программах.",НТВ
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/501/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/213/index.m3u8
 
@@ -922,22 +914,18 @@ http://37.186.70.39:40/play/39/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/14035/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" tvg-id="ntv-pravo" tvg-description="НТВ Право — российский тематический канал, посвящённый юридической тематике, правовым вопросам и криминальным историям.",НТВ Право
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/743/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-serial.png" tvg-id="ntv-serial" tvg-description="Телеканал сериалов производства НТВ.",НТВ Сериал
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/744/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-style.png" tvg-id="ntv-style" tvg-description="НТВ Стиль — российский развлекательный канал, ориентированный на тематику стиля, моды, красоты и жизни.",НТВ Стиль
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/745/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-xit.png" tvg-id="ntv-xit" tvg-description="Телеканал популярных остросюжетных сериалов НТВ.",НТВ Хит
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/741/index.m3u8
 
 # Общественные
-
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/741/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/aris24.png" tvg-id="aris24" tvg-description="Арис 24 — региональный новостной телеканал, транслирующий актуальные события.",Арис 24
 
@@ -950,15 +938,12 @@ http://51.158.144.33:2021/zvezda/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/544/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-id="zvezda-plus" tvg-description="Звезда Плюс — дополнительный канал телеканала «Звезда», транслирующий военно-исторические и документальные программы.",Звезда Плюс
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/10059/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/kaleydoskop.png" tvg-id="kaleydoskop-tv" tvg-description="Калейдоскоп ТВ — российский развлекательный телеканал с разнообразными программами для всей семьи.",Калейдоскоп ТВ
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/5037/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" tvg-id="krasnaya-linia" tvg-description="Красная линия — российский общественно-политический телеканал левой направленности.",Красная линия
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2147/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/krik-tv.png" tvg-id="krik-tv" tvg-description="Российский информационно-патриотический телеканал: новости регионов и передачи об обществе.",Крик ТВ
@@ -977,7 +962,6 @@ http://stream.mcquack.net/384/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/ntm.png" tvg-id="ntm" tvg-description="НТМ — независимый телеканал, транслирующий разнообразный развлекательный и информационный контент.",НТМ
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr" tvg-description="ОТР (Общественное телевидение России) — российский некоммерческий телеканал. Транслирует общественно-политические, культурные и образовательные программы.",ОТР
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/20018/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/705/index.m3u8
 
@@ -1005,7 +989,6 @@ http://37.186.70.39:40/play/30/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv-int.png" tvg-id="rentv-int" tvg-description="РЕН ТВ International — международная версия российского телеканала РЕН ТВ для зрителей за рубежом.",Рен ТВ International
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — общероссийский государственный телевизионный канал. Транслирует новости, художественные фильмы, сериалы и общественно-политические программы.",Россия 1
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/504/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
@@ -1031,8 +1014,8 @@ http://217.114.191.150/Subbota/index.m3u8
 
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
-#http://line.team-tv.link:80/jLKLjOvdU/beAi6ilBrs/2073
 http://37.186.70.39:40/play/32/index.m3u8
+#http://line.team-tv.link:80/jLKLjOvdU/beAi6ilBrs/2073
 #http://94.230.129.31:8080/THT/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/502/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/237/index.m3u8
@@ -1042,11 +1025,9 @@ http://37.186.70.39:40/play/32/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt-int-cis.png" tvg-id="tnt-int-cis" tvg-description="ТНТ International СНГ — версия телеканала ТНТ для русскоязычной аудитории стран СНГ.",ТНТ International СНГ
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/centralnoye-tv.png" tvg-id="centralnoye-tv" tvg-description="Центральное телевидение — российский федеральный телеканал НТВ. Специализируется на аналитических и публицистических программах.",Центральное телевидение
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2064/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che" tvg-description="Описание отсутствует",Че!
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/513/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
@@ -1066,11 +1047,9 @@ https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 #http://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia" tvg-description="Ностальгия — российский телеканал, специализирующийся на советских и российских ретро-программах, фильмах и музыке.",Nostalgia
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/102/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rtvi.png" tvg-id="rtvi" tvg-description="RTVi — независимый русскоязычный телеканал. Транслирует новости, аналитику и общественно-политические программы для аудитории в России и за рубежом.",RTVi
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2086/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-description="TV PRO — телеканал, специализирующийся на профессиональном образовании и бизнес-контенте.",TV PRO
@@ -1091,11 +1070,9 @@ http://37.186.70.39:40/play/31/index.m3u8
 #http://stream.mcquack.net/275/index.m3u8
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/dikiy.png" tvg-id="dikiy" tvg-description="Дикий — российский тематический телеканал, специализирующийся на программах об охоте и рыбалке.",Дикий
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/847/index.m3u8
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/nasha-tema.png" tvg-id="nasha-tema" tvg-description="Наша тема — российский тематический телеканал для любителей активного отдыха и природы.",Наша тема
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2118/index.m3u8
 
 #EXTINF:0 group-title="Охота и Рыбалка" tvg-logo="https://iptvx.one/picons/oxota-i-rybalka.png" tvg-id="oxota-i-rybalka" tvg-description="Охота и Рыбалка — российский тематический телеканал, посвящённый охоте и рыбалке.",Охота и Рыбалка
@@ -1133,7 +1110,6 @@ http://stream.mcquack.net/361/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/5000/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/istoria.png" tvg-id="istoria" tvg-description="История — российский тематический телеканал, посвящённый историческим событиям и документальному кино.",История
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/111/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/rus-hualiang-tv.png" tvg-id="rus-hualiang-tv" tvg-description="CGTN на русском — телеканал о Китае: культура, история, экономика и уроки китайского языка.",Китай ТВ
@@ -1178,7 +1154,6 @@ http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2087/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/sovsek.png" tvg-id="sovsek" tvg-description="Совершенно Секретно — российский телеканал, транслирующий расследовательские документальные фильмы и журналистские расследования.",Совершенно Секретно
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/texno-24.png" tvg-id="texno-24" tvg-description="Техно 24 — российский телеканал о технологиях, гаджетах и инновациях.",Техно 24
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/5047/index.m3u8
 
 #EXTINF:-1 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/texno-24.png" tvg-id="texno-24" tvg-description="Российский познавательный канал о технике, науке и технологиях.",24Техно
@@ -1260,7 +1235,6 @@ http://185.102.171.218/ViasatHistory/index.m3u8
 http://stream.mcquack.net/241/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/domashnie-zhivotnye.png" tvg-id="domashnie-zhivotnye" tvg-description="Домашние Животные — российский телеканал о домашних питомцах и уходе за ними.",Домашние Животные
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/158/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zhivaya-planeta.png" tvg-id="zhivaya-planeta" tvg-description="Живая планета — российский тематический телеканал о природе и окружающем мире.",Живая планета
@@ -1275,7 +1249,6 @@ http://37.186.70.39:40/play/110/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2100/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/zoopark.png" tvg-id="zoopark" tvg-description="Зоопарк — российский тематический телеканал о животных.",Зоопарк
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/731/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/lapki-live.png" tvg-id="lapki-live" tvg-description="Лапки Live — российский телеканал о домашних животных.",Лапки Live
@@ -1287,7 +1260,6 @@ http://37.186.70.39:40/play/113/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/137/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/big-planet.png" tvg-id="big-planet" tvg-description="Big Planet — познавательный телеканал о природе и мире.",Big Planet
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/14027/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/love-nature-4k.png" tvg-id="love-nature-4k" tvg-description="Международный телеканал о дикой природе с документальными фильмами.",Love Nature
@@ -1315,7 +1287,6 @@ http://185.102.171.218/ViasatNature/index.m3u8
 http://stream.mcquack.net/304/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/mir-uvlecheniy.png" tvg-id="mir-uvlecheniy" tvg-description="Кто Куда — российский телеканал о путешествиях и туризме.",Кто Куда
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2112/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/moya-planeta.png" tvg-id="moya-planeta" tvg-description="Моя Планета — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о путешествиях, природе и культуре разных стран.",Моя Планета
@@ -1343,7 +1314,6 @@ http://37.186.70.39:40/play/53/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2051/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/tochka-otryva.png" tvg-id="tochka-otryva" tvg-description="Точка Отрыва — российский телеканал об экстремальном туризме и приключениях.",Точка Отрыва
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/159/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/hdl.png" tvg-id="hd-life" tvg-description="Туристический телеканал-гид по России: маршруты, гастротуры и экспедиции.",Точка.РФ
@@ -1373,7 +1343,6 @@ http://stream.mcquack.net/164/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/210/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/terra-ru.png" tvg-id="terra-ru" tvg-description="Terra — познавательный телеканал о природе, географии и путешествиях.",Terra
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/230/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/terra-inkognita.png" tvg-id="terra-inkognita" tvg-description="Телеканал о путешествиях и исследованиях мира.",Terra Incognita
@@ -1395,7 +1364,6 @@ http://stream.mcquack.net/206/index.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/belmuztv.png" tvg-id="belmuztv" tvg-description="БелМузТВ — белорусский музыкальный телеканал. Транслирует клипы, концерты и музыкальные программы.",БелМузТВ
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety" tvg-description="Вопросы и ответы — российский познавательный телеканал.",Вопросы и ответы
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2026/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/deviatka.png" tvg-id="deviatka" tvg-description="Девятка — российский региональный телеканал.",Девятка
@@ -1408,13 +1376,11 @@ http://37.186.70.39:40/play/42/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/15116/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/zal-suda.png" tvg-id="zal-suda" tvg-description="Зал суда — российский тематический телеканал, транслирующий программы о судебных процессах.",Зал суда
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/7141/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/kluch.png" tvg-id="kluch" tvg-description="Ключ — российский тематический телеканал.",Ключ
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/muzhskoy.png" tvg-id="muzhskoy" tvg-description="Мужской — российский тематический телеканал, ориентированный на мужскую аудиторию.",Мужской
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2047/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/nash-dom.png" tvg-id="nash-dom" tvg-description="Телеканал о доме, уюте, ремонте и семье.",Наш Дом
@@ -1474,7 +1440,6 @@ http://tvoetv.space:8080/tvoetv/index.m3u8
 #http://lime-pi2.tlgx.ru:8987/CH_TVOETV/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tochka-tv.png" tvg-id="tochka-tv" tvg-description="Точка ТВ — российский региональный телеканал.",Точка ТВ
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2053/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tcb.png" tvg-id="tcb" tvg-description="ТСВ — российский региональный телеканал.",ТСВ
@@ -1491,7 +1456,6 @@ http://176.100.46.245:90/red/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/559/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/2na2.png" tvg-id="2na2" tvg-description="2×2 — российский федеральный телеканал, специализирующийся на анимации и молодёжном контенте. Показывает мультфильмы и аниме.",2x2
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/702/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-ru.png" tvg-id="8kanal-ru" tvg-description="Федеральный развлекательный телеканал: фильмы и сериалы, юмор, кулинария и путешествия.",8 Канал
@@ -1516,7 +1480,6 @@ https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/box-myday.png" tvg-id="box-myday" tvg-description="BOX Mayday — тематический телеканал, специализирующийся на программах о катастрофах и выживании.",BOX Mayday
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/box-relax.png" tvg-id="box-relax" tvg-description="BOX Relax 4K — телеканал в формате 4K с расслабляющим контентом: природой, медитациями и спокойными пейзажами.",BOX Relax 4K
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19283/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/fastfunbox-hd.png" tvg-id="fastfunbox-hd" tvg-description="Fast & FunBox — развлекательный телеканал с динамичным и юмористическим контентом.",Fast & FunBox
