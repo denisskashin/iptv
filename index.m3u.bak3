@@ -461,6 +461,12 @@ http://stream.mcquack.net/263/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/312-kino.png" tvg-id="312-kino" tvg-description="Киноканал с художественными фильмами.",312 Кино
 
+#EXTINF:-1 group-title="Кино" tvg-logo="https://iptvx.one/picons/bcu-kinozakaz.png" tvg-id="bcu-media" tvg-description="Флагманский канал пакета BCU Media: кино по заявкам зрителей.",BCU
+http://stream.mcquack.net/488/index.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/bcu-sssr-hd.png" tvg-id="bcu-sssr" tvg-description="Телеканал советского кино и ретро-программ.",BCU СССР HD
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11026/index.m3u8
+
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd" tvg-description="Российский телеканал фэнтези и фантастики: аниме и игровое кино.",Fan
 http://stream.mcquack.net/420/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/734/index.m3u8
@@ -503,16 +509,6 @@ https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air" tvg-description="Киноканал фильмов и сериалов онлайн-кинотеатра START.",Start Air
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/trashtv.png" tvg-id="trashtv" tvg-description="Российский киноканал жанра «треш»: боевики, ужасы и чёрные комедии, 18+.",Trash
-
-# Кино: BCU
-
-#EXTINF:-1 group-title="Кино: BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozakaz.png" tvg-id="bcu-media" tvg-description="Флагманский канал пакета BCU Media: кино по заявкам зрителей.",BCU
-http://stream.mcquack.net/488/index.m3u8
-
-#EXTINF:0 group-title="Кино: BCU" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s" tvg-description="BCU Russia 90s — тематический телеканал о культуре и событиях России 1990-х годов.",Russia 90s
-
-#EXTINF:0 group-title="Кино: BCU" tvg-logo="https://iptvx.one/picons/bcu-sssr-hd.png" tvg-id="bcu-sssr" tvg-description="Телеканал советского кино и ретро-программ.",СССР HD
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/11026/index.m3u8
 
 # Кино: CineMan
 
@@ -604,9 +600,6 @@ http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19292/index.m3u8
 
 #EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-romantic.png" tvg-id="fresh-romatic" tvg-description="Телеканал романтического кино (пакет Fresh).",Romantic
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19298/index.m3u8
-
-#EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-series.png" tvg-id="fresh-series" tvg-description="Телеканал сериалов (пакет Fresh).",Series
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19295/index.m3u8
 
 #EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-thriller.png" tvg-id="fresh-thriller" tvg-description="Телеканал триллеров (пакет Fresh).",Thriller
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19300/index.m3u8
@@ -1503,6 +1496,8 @@ http://v4.proofix.ru:80/8tv-europe/index.m3u8
 https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
 #http://v4.proofix.ru/8tv-europe/index.m3u8
 
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s" tvg-description="BCU Russia 90s — тематический телеканал о культуре и событиях России 1990-х годов.",BCU Russia 90s
+
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/box-game.png" tvg-id="box-game" tvg-description="BOX Game — тематический телеканал, посвящённый играм и игровой культуре.",BOX Game
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/box-myday.png" tvg-id="box-myday" tvg-description="BOX Mayday — тематический телеканал, специализирующийся на программах о катастрофах и выживании.",BOX Mayday
@@ -1699,6 +1694,10 @@ http://stream.mcquack.net/151/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife" tvg-description="Телеканал зарубежных сериалов и lifestyle (Fox Life).",Fox Life
 http://stream.mcquack.net/129/index.m3u8
+
+#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/fresh-series.png" tvg-id="fresh-series" tvg-description="Телеканал сериалов (пакет Fresh).",Fresh Series
+
+http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19295/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-description="Фантастические сериалы и фильмы телеканала SYFY (NBCUniversal).",SYFY
 http://rezofoot.tv/SYFY-HD/index.m3u8
