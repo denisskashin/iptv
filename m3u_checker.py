@@ -7,6 +7,12 @@ names partially match channels already in the index, checks reachability, and
 inserts working URLs as commented lines (#url) directly into the matching
 channel's block — right after its existing URLs.
 
+Configuration files (ищутся в текущей директории):
+    sources.txt        — источники плейлистов (по URL в строке)
+    name_blocklist.txt — блоклист имён каналов
+    aliases.txt        — алиасы: '<имя в источнике> => <имя в index.m3u>'
+    url_blocklist.txt  — блоклист URL (подстроки; '*' — wildcard)
+
 Requirements: Python 3.8+  —  no third-party libraries.
 
 Usage:
@@ -20,15 +26,20 @@ Examples:
     python3 m3u_checker.py --dry-run        # preview without writing
 """
 
+from __future__ import annotations
+
 import argparse
 import logging
+import logging.handlers
 import os
 import re
+import shutil
 import sys
+import tempfile
 import time
-import threading
 import urllib.request
 import urllib.error
+from collections import Counter, OrderedDict
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import datetime
@@ -42,396 +53,7 @@ from typing import Optional
 
 
 
-SOURCE_URLS: list[str] = [
-    "https://raw.githubusercontent.com/iptv-free/TV/refs/heads/FREE/TV",
-    "https://raw.githubusercontent.com/Dimonovich/TV/Dimonovich/FREE/TV?m3u8",
-    "https://raw.githubusercontent.com/Shamilbro1/tv/refs/heads/main/TV.m3u",
-    "http://cdntv.online/high/6j95s4drt3/playlist.m3u8",
-    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVstable.m3u8",
-    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVmir.m3u8",
-    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVdonor.m3u",
-    "https://raw.githubusercontent.com/smolnp/IPTVru/gh-pages/IPTVru.m3u",
-    "https://fas-tv.com/ip/avto.m3u",
-    "https://fas-tv.com/ip/avto-full.m3u",
-    "https://raw.githubusercontent.com/loganettv/playlists/refs/heads/main/all.m3u",
-    "http://aa6b7f44c703.zatikov.net/playlists/uplist/77ef352e38ec2bd62da2a246263155d7/playlist.m3u8",
-    "https://psv4.vkuserphoto.ru/s/v1/d2/8HZfJQRJ_MeeobCju10KU0HtuRxCjT95DE_iFeuUxmODSc0pzgMyQrRvjqyATaaDlxhP-USCHBzUB8hmxTvoJjgi2JRJCFTHgA9IlqFIlMfQDLbCI9yOSsJ9lmIxsDwpPKpJHiH5kh72/N4V2MS99P39SMB.m3u8",
-    "https://dl.dropboxusercontent.com/s/sbm8ttki12bhr9cuxs9oz/m3u?rlkey=ujn5573apcibg3foxhq2ja7tt",
-    "https://dl.dropboxusercontent.com/s/ur595ef4cqmfst951kboh/m3u?rlkey=0cw1ficfrq0m6yg2udh16qn78",
-    "https://m3url.ru/LIst_9.m3u",
-    "https://m3u.ch/pl/402fdf5102aacfc997279fd904643392_78d493be9df8cf5d447946793758bfa6.m3u",
-    "https://iptv.org.ua/iptv/kino-plus.m3u",
-    "https://iptv.org.ua/iptv/avto-full.m3u",
-    "https://iptv.org.ua/iptv/tva3.m3u",
-    "https://iptv.org.ua/iptv/tva2.m3u",
-    "https://iptv.org.ua/iptv/peerstv.m3u",
-    "https://iptv.org.ua/iptv/provayder.m3u",
-    "https://iptv.org.ua/iptv/iptv.m3u",
-    "https://iptv.org.ua/iptv/vpn.m3u",
-    "https://iptv.org.ua/iptv/tva4.m3u",
-    "https://iptv.org.ua/iptv/tva1.m3u",
-    "https://iptv.org.ua/iptv/avto.m3u",
-    "https://segaz.my1.ru/t/torr.m3u8",
-    "https://tva.org.ua/ip/sam/avto-full.m3u",
-    "https://tva.org.ua/ip/sam/avtox.m3u",
-    "https://tva.org.ua/ip/sam/iptv.m3u",
-    "https://tva.org.ua/ip/sam/avto-iptv-tva.m3u",
-    "https://tva.org.ua/ip/sam/provayder.m3u",
-    "https://pikniktv.info/download/file.php?id=127257",
-    "https://dl.dropboxusercontent.com/scl/fi/thsjb093g6wkqdnpjdc82/Sport.m3u?rlkey=cixvxk8337i11u2h6vswjepvt&st=3a9a8qym&dl=0",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_15plusmg.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_bonustv.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_catcast.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_mylifeisgood.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_ntv.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_rt.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_smotrim.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_tvbricks.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_tvteleport.m3u",
-    "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ru_zabava.m3u",
-    "https://mater.com.ua/ip/avto-full.m3u",
-    "https://www.mylist.at/pRVGWXL.m3u",
-    "https://tva.org.ua/ip/sam/iptv.m3u",
-    "https://tva.org.ua/ip/sam/avto-full.m3u",
-    "https://tva.org.ua/ip/sam/avto-iptv-tva.m3u",
-    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/neisvesmokto.m3u8",
-    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/logavnet.m3u8",
-    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/ilook.m3u8",
-    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/iedem.m3u8",
-    "https://raw.githubusercontent.com/Sanuyyq/iptv-ot-sanaeye/refs/heads/main/fawlok_iptv.m3u8",
-    "https://raw.githubusercontent.com/bugsfreeweb/LiveTVCollector/refs/heads/main/LiveTV/Russia/LiveTV.m3u",
-]
 
-# Channels to skip entirely (exact case-insensitive name match).
-# Add any unwanted channel names here.
-BLOCKLIST: set[str] = {
-    "1+1",
-    "24 Канал",
-    "33 канал",
-    "7 TV",
-    "Afrobeats",
-    "Al Zahra TV",
-    "Al-Zahra TV Turkic",
-    "Al Jazeera",
-    "Aleph News",
-    "Астрахань.Ru TV",
-    "Az TV",
-    "Azstar TV",
-    "Baden TV",
-    "Balaton TV",
-    "Banovina TV",
-    "Baraza TV Hits",
-    "Bibel TV Musik",
-    "BBC News Europe",
-    "Бирма Play",
-    "Brazzers TV",
-    "Canal Motor",
-    "Can TV",
-    "CGTN",
-    "CCTV4",
-    "Das Erste",
-    "Delta Tv",
-    "Deutsche Welle",
-    "Dorcel",
-    "Elektrika TV",
-    "Finest TV",
-    "FTV",
-    "JC1",
-    "Kuwait Sport Plus",
-    "Храм",
-    "Гродно Плюс",
-    "Qazaqstan Teatr KZ",
-    "Ushba-Films",
-    "Motorvision",
-    "Радио Город FM",
-    "Новое радио (Беларусь)",
-    "Мамонтёнок",
-    "Film UA Drama",
-    "Primokanale Sport",
-    "PX SPORTS",
-    "Mahni TV AZ",
-    "Сиртаки ТВ",
-    "Ош ТВ",
-    "kabel eins",
-    "Paideuma TV",
-    "America",
-    "Latina",
-    "Panamericana",
-    "Willax",
-    "Next TV",
-    "RPP",
-    "Exitosa",
-    "La tele",
-    "Radio Nacional",
-    "TV Peru 7.3",
-    "TV Peru",
-    "USMPTV",
-    "ATV SUR",
-    "ATV + NOTICIAS",
-    "ENLACE",
-    "Karibena",
-    "IPE",
-    "Pelicula",
-    "Universal Premium SP",
-    "Discovery Scientic SP",
-    "TLC SP",
-    "Univision",
-    "Bethel",
-    "Telemundo",
-    "Concert SP",
-    "TNT Novelas",
-    "Mega",
-    "Movistar Deporte",
-    "Tooncast",
-    "Discovery Turbo SP",
-    "HGTV",
-    "Canal N",
-    "Fox News",
-    "AlJazeera",
-    "MNB News",
-    "Ош ТВ",
-    "Paideuma TV",
-    "Promo DJ",
-    "Primocanale Sport",
-    "Asharq News",
-    "TV Jurmala",
-    "Medeniyyet TV",
-    "Azad TV",
-    "Телплюс ТВ",
-    "CBC",
-    "CBC Sport",
-    "Витрина ТВ",
-    "TRT Müzik",
-    "Мой мир",
-    "Тосно ТВ",
-    "Sky Cinema Classics",
-    "AXN",
-    "BNT1",
-    "BNT2",
-    "BNT3",
-    "BNT4",
-    "bTV",
-    "HGTV",
-    "Magic TV",
-    "TRT1",
-    "ATV",
-    "SAT1",
-    "StarTV",
-    "Kanal7",
-    "KanalD",
-    "TV8",
-    "TV85",
-    "Alcarria TV",
-    "Telewizja Kujawy",
-    "RTV Maastricht",
-    "Fun Roads",
-    "Region",
-    "DSPORTS 1",
-    "KTV Sport Plus",
-    "Oman Sports TV",
-    "ТВ Мана Ваш",
-    "Магнат ТВ",
-    "Тамыр",
-    "Курай",
-    "Телплюс ТВ",
-    "Грозный",
-    "Салям",
-    "ЛДПР ТВ",
-    "Shopping Live",
-    "Arirang",
-    "Qazaqstan TV Int",
-    "Радио Харьков Z",
-    "Радио Z",
-    "OnlineTV",
-    "Primocanale Sport",
-    "TR Sport",
-    "Logovo Films",
-    "Turkmenistan Sport",
-    "Real Madrid",
-    "Oman Sports TV",
-    "France 24",
-    "NDTV",
-    "Al Sharqiya",
-    "Al Sharqiya News",
-    "CBS News",
-    "Luxury",
-    "ТРК Круг",
-    "Репортер",
-    "DSTV",
-    "Beach TV",
-    "Arirang Korea",
-    "DUNYA NEWS",
-    "Key TV",
-    "New Orleans TV",
-    "Omaha | CBS 3 KMTV",
-    "Solidaria TV",
-    "Denver | ABC 7 KMGH",
-    "Telechiara",
-    "Teleromagna 24",
-    "Televízia OSEM",
-    "NBC 26",
-    "CHD-TV Rock",
-    "Tanzania IBN TV",
-    "TD Ameritrade Network",
-    "Formula",
-    "Rede Mão Amiga",
-    "Swamiji TV",
-    "Vouli Tileorasi",
-    "TeleMia",
-    "TD Ameritrade Network",
-    "RTP",
-    "МТРК",
-    "ÓČKO HITY",
-    "Ocko Expres",
-    "Ocko Star",
-    "Power Love",
-    "Power Dance",
-    "PowerTürk Akustik",
-    "PowerTürk Taptaze",
-    "PowerTürk Slow",
-    "Folk Klub",
-    "Óčko",
-    "Kronehit HD",
-    "Kronehit TV",
-    "Óčko Gold",
-    "2 Radio",
-    "MyHits",
-    "Óčko STAR",
-    "Óčко Expres",
-    "Euro Indie Music Chart TV",
-    "Banovina TV",
-    "Muzikas Vjdeo",
-    "Power TV",
-    "Trace Urban",
-    "Dance Hits 80",
-    "Matur TV",
-    "Deluxe Rap",
-    "Витрина ТВ",
-    "Leomax 24",
-    "Вектор 24",
-    "KiKA",
-    "Jordan Sport",
-    "More Than Sports TV",
-    "Agro TV",
-    "Adjara TV",
-    "Antena 3 CNN",
-    "arte",
-    "Action",
-    "Beyaz TV",
-    "ATV AZ",
-    "Arirang",
-    "France Info",
-    "Fortuna TV",
-    "Infosport+",
-    "Kanal 7 Avrupa",
-    "Kanal Avrupa",
-    "Kibris Genc TV",
-    "Makan 33",
-    "Star TV",
-    "TGRT Haber",
-    "TV 2000",
-    "TOK TV",
-    "TVR 3",
-    "TVR International",
-    "Welt der Wunder",
-    "Space TV",
-    "TV Kujawy",
-    "Пловдивска Православна ТВ",
-    "ACI Sport",
-    "Lyubimoe.TV (720p)",
-    "Bein Sports",
-    "Bein Sports XTRA",
-    "Суспільне Культура",
-    "FilmUADrama",
-    "Міледі ТВ",
-    "ТЕТ",
-    "ОЦЕ",
-    "НТН",
-    "36.6",
-    "Прованс ТВ",
-    "Дім",
-    "Машина Часу",
-    "Караван ТВ",
-    "Ми - Україна",
-    "Наталі ТВ",
-    "Про Київ",
-    "Знаєм 24",
-    "ECO TV",
-    "Вікторина",
-    "Армія TV",
-    "Інтер",
-    "Невигадані Історії",
-    "К2",
-    "Суспільне Перший",
-    "Суспільне Київ",
-    "Суспільне Крим",
-    "Перший Західний",
-    "Zoom",
-    "Channel 11 (Израиль)",
-    "Channel 12 (Израиль)",
-    "Channel 13 (Израиль)",
-    "Channel 14 (Израиль)",
-    "Zoom (Израиль)",
-    "KAN23 (Израиль)",
-    "HOT Zone (Израиль)",
-    "HOT HBO (Израиль)",
-    "5Sport (Израиль)",
-    "VIVA Premium (Израиль)",
-    "Yam Tichoni (Израиль)",
-    "Knesset Channel (Израиль)",
-    "7 канал (Казахстан)",
-    "НТК (Казахстан)",
-    "i24 (Израиль)",
-    "Channel 24 (Израиль)",
-    "КТК (Казахстан)",
-    "КТК",
-    "31 Канал (Казахстан)",
-    "Астана ТВ (Казахстан)",
-    "Shant (Армения)",
-    "Armenia 1 TV (Армения)",
-    "Armenia TV (Армения)",
-    "ATV (Армения)",
-    "Kentron (Армения)",
-    "LNK (Литва)",
-    "LRT (Литва)",
-    "BTV (Литва)",
-    "LRT Plius (Литва)",
-    "TV3 (Литва)",
-    "TV8 (Литва)",
-    "Balticum (Литва)",
-    "One TV (Молдова)",
-    "TV6 (Литва)",
-    "Jurnal TV (Молдова)",
-    "Світ+",
-    "ЗооСвіт",
-    "Фронт",
-    "Перший Автомобільний",
-    "Continent E",
-    "Мега",
-    "Закон",
-    "Масон",
-    "Трофей",
-    "Твій Серіал",
-    "Enter-фільм",
-    "Kinosweet",
-    "Dynamo Kyiv TV",
-    "Суспільне Спорт",
-    "DiVi Sport",
-    "Maincast sport",
-    "Maincast кіберспорт",
-    "Піксель",
-    "BBC News UK",
-    "Babes TV",
-    "Gags Network",
-    "Vivid Red",
-    "Playboy TV",
-    "Barely Legal TV",
-    "FreeДОМ",
-    "Рада",
-    "Прямий",
-    "Erox",
-    "Frenchlover"
-}
 
 # Паттерны для блокировки по имени канала (регулярные выражения).
 # Канал блокируется, если его имя содержит хотя бы один совпадающий паттерн.
@@ -448,25 +70,6 @@ BLOCKLIST_PATTERNS: list[re.Pattern] = [
     re.compile(r'\bHustler\b', re.IGNORECASE),
 ]
 
-def _load_url_blocklist(path: str = "url_blocklist.txt") -> set[str]:
-    """Load URL blocklist from an external file.
-
-    Each non-empty line that doesn't start with '#' is treated as a
-    substring pattern (case-insensitive).  A bare host[:port] blocks
-    every URL that contains that host, a full path blocks only that path.
-    A line may contain '*' as a wildcard for any run of characters, e.g.
-    '*.hh.ee' blocks any host ending in '.hh.ee'.
-    """
-    result: set[str] = set()
-    try:
-        with open(path, encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and not line.startswith("#"):
-                    result.add(line)
-    except FileNotFoundError:
-        pass
-    return result
 
 def _wildcard_to_regex(pattern: str) -> re.Pattern:
     """Compile a blocklist pattern containing '*' into a regex.
@@ -478,565 +81,118 @@ def _wildcard_to_regex(pattern: str) -> re.Pattern:
     """
     return re.compile(".*".join(re.escape(part) for part in pattern.split("*")))
 
-URL_BLOCKLIST: set[str] = _load_url_blocklist()
+URL_BLOCKLIST_FILE  = "url_blocklist.txt"  # блоклист URL: подстроки и wildcard '*'
+SOURCES_FILE        = "sources.txt"        # источники плейлистов, по URL в строке
+NAME_BLOCKLIST_FILE = "name_blocklist.txt" # блоклист имён каналов
+ALIASES_FILE        = "aliases.txt"        # '<имя в источнике> => <имя в index.m3u>'
 
-# Name aliases: maps a source channel name to the canonical name used in index.m3u.
-# Key   = name as it appears in the source playlist (case-insensitive)
-# Value = name as it appears in index.m3u
-ALIASES: dict[str, str] = {
-    "Bein Sports (MMN HD)": "Bein Sports",
-    "Ля-минор ТВ": "Ля-минор",
-    "red": ".red",
-    "black": ".black",
-    "Insight TV": "Инсайт ТВ",
-    "Точка": "Точка.РФ",
-    "Авто24": "Авто 24",
-    "Культура": "Россия Культура",
-    "Qazaqstan (Казахстан)": "Qazaqstan",
-    "роман HD": "Русский роман",
-    "Детектив": "Русский детектив",
-    "бестселлер": "Русский бестселлер",
-    "BRIDGE": "Bridge TV",
-    "BRIDGE DELUXE": "Bridge TV Deluxe",
-    "BRIDGE CLASSIC": "Bridge TV Classic",
-    "RU.TV (720p)": "RU.TV",
-    "Mir (576p)": "Мир",
-    "Spas (576p)": "Спас",
-    "Russia-K (576p)": "Россия Культура",
-    "TV-3 (576p)": "ТВ3",
-    "Russia-24 (576p)": "Россия 24",
-    "TNT (576p)": "ТНТ",
-    "Friday! (576p)": "Пятница!",
-    "Domashniy (576p)": "Домашний",
-    "RT News (1080p) [Not 24/7]": "RT",
-    "Муз-ТВ": "Муз ТВ",
-    "RT HD (1080p)": "RT",
-    "Home Shopping Russia (576p)": "Мой мир",
-    "Истоки ТВ": "Истоки ТВ",
-    "Башкортостан 24 HD": "Башкортостан 24",
-    "Астрахань 24 HD": "Астрахань 24",
-    "SYFY HD": "SYFY",
-    "Star TV HD": "Star TV",
-    "Action HD": "Action",
-    "arte HD": "arte",
-    "Adjara tv": "Adjara TV",
-    "Agro TV Romania": "Agro TV",
-    "360 HD": "360.RU",
-    "Беларусь 1 HD": "Беларусь 1",
-    "Zvezda Plus": "Звезда Плюс",
-    "TVK": "ТВК",
-    "ОТВ Екатеринбург": "ОТВ",
-    "Евразия Орск": "Евразия",
-    "Телеканал 86 Сургут": "Телеканал 86",
-    "С1 Сургут": "С1",
-    "Курай Уфа": "Курай",
-    "Салям УФА": "Салям",
-    "БСТ HD": "БСТ",
-    "Волжский Плюс FHD": "Волжский Плюс",
-    "DanceHits80": "Dance Hits 80",
-    "Trace Urban HD": "Trace Urban",
-    "CHD-TV RU Rock HD": "CHD-TV RU Rock",
-    "TV BRICS Russia": "BRICS TV",
-    "Sochi Live HD": "Sochi Live",
-    "TBN BALTIA": "TBN Baltia",
-    "2TV HD": "2TV",
-    "1TV HD": "1TV",
-    "Abai TV HD": "Abai TV",
-    "Luxury HD": "Luxury",
-    "Discovery Channel HD": "Discovery Channel",
-    "CBS News HD": "CBS News",
-    "Red Bull TV HD": "Red Bull TV",
-    "Red Bull TV Full HD": "Red Bull TV",
-    "CNN HD": "CNN",
-    "ВМЕСТЕ:РФ HD": "ВМЕСТЕ:РФ",
-    "Sochi24": "Сочи 24",
-    "NDTV India": "NDTV",
-    "ESPN 1 HD": "ESPN 1",
-    "Qazaqstan TV Int HD": "Qazaqstan TV Int",
-    "LDPR TV": "ЛДПР ТВ",
-    "Тверской Проспект-Регион": "Тверской Проспект",
-    "АТВ (Ставрополь)": "АТВ",
-    "12 канал HD": "12 канал",
-    "ТВ-3": "ТВ3",
-    "ТНВ Татарстан": "ТНВ",
-    "10 канал (Новокузнецк)": "10 канал",
-    "11 канал (Пенза)": "11 канал",
-    "ТВК 24 (Красноярск)": "ТВК 24",
-    "Пятый канал HD": "5 канал",
-    "Рен ТВ HD": "Рен ТВ",
-    "СТС HD": "СТС HD",
-    "Домашний HD": "Домашний",
-    "ТВЦ HD": "ТВЦ",
-    "Матч! Игра HD": "Матч! Игра",
-    "Setanta Sports 2 HD": "Setanta Sports 2",
-    "Setanta Sports 1 HD": "Setanta Sports 1",
-    "Точка РФ": "Точка.РФ",
-    "Точка.РФ HD": "Точка.РФ",
-    "Шокирующее HD": "Шокирующее",
-    "Премиальное HD": "Премиальное HD",
-    ".Red": ".red",
-    "Kino24": "Kino 24",
-    "MagicTV": "Magic TV",
-    "HGTV HD": "HGTV",
-    "FoodNetwork HD": "Food Network",
-    "bTV_Cinema": "bTV Cinema",
-    "bTV HD": "bTV",
-    "BNT1 HD": "BNT1",
-    "BNT2 HD": "BNT2",
-    "BNT3 HD": "BNT3",
-    "BNT4 HD": "BNT4",
-    "360 RU HD": "360.RU",
-    "ID HD": "Investigation Discovery",
-    "AnimalPlanet": "Animal Planet",
-    "NatGeoWild": "National Geographic Wild",
-    "NatGeo": "National Geographic",
-    "Viju_Explore": "Viju Explore",
-    "Viju_Premiere HD": "Viju+ Megahit",
-    "Ностальгия": "Nostalgia",
-    "NOSTALGIA HD": "Nostalgia",
-    "CTC Kids": "СТС Kids",
-    "Karusel": "Карусель",
-    "Mir Seriala": "Мир сериала",
-    "Rossia1 HD": "Россия 1",
-    "TRT Müzik HD": "TRT Müzik",
-    "CBC Sport HD": "CBC Sport",
-    "CBC HD": "CBC",
-    "Afrobeats HD": "Afrobeats",
-    "Новое Радио [BY] HD": "Новое радио (Беларусь)",
-    "ASTRAKHAN.RU LIVE": "Астрахань Live",
-    "Russia-24 (1080p)": "Россия 24",
-    "Medeniyyet TV AZ": "Medeniyyet TV",
-    "Azad TV AZ": "Azad TV",
-    "Новое Радио BY": "Новое радио (Беларусь)",
-    "TV Jurmala LV": "TV Jurmala",
-    "Мамонтёнок ТВ": "Мамонтёнок",
-    "Точка отрыва SD": "Точка отрыва",
-    "TPO": "БелРос",
-    "Суббота": "Суббота!",
-    "Пятнитца!": "Пятница!",
-    "Пятница": "Пятница!",
-    "NFL Network HD": "NFL Network",
-    "Ֆրեշ TV FRESH": "Fresh",
-    "M Sport vpn": "Megogo Sport",
-    "360": "360°",
-    "Че": "Че!",
-    "Т24": "Техно 24",
-    "Т-24": "Техно 24",
-    "Теледом ТВ HD": "Теледом",
-    "Тел+ Астрахань": "Культ Медиа",
-    "Таврия ТВ": "Таврия",
-    "Теледом HD": "Теледом",
-    "Твоё ТВ HD v1": "Твоё ТВ",
-    "Твоё ТВ HD v3": "Твоё ТВ",
-    "Твоё ТВ HD v4": "Твоё ТВ",
-    "Твоё ТВ HD v5": "Твоё ТВ",
-    "Твоё ТВ HD v6": "Твоё ТВ",
-    "Твоё ТВ HD v7": "Твоё ТВ",
-    "Три Ангела SD": "Три Ангела",
-    "Сапфир HD": "Сапфир",
-    "Рыбалка": "Рыбалка и охота",
-    "Сарафан ТВ": "Сарафан",
-    "СТВ Беларусь": "СТВ",
-    "Своё ТВ Ставрополь": "Своё ТВ",
-    "Своё ТВ Ставрополь HD": "Своё ТВ",
-    "Смайл ТВ HD": "Смайл ТВ",
-    "Страна FM HD": "Страна FM",
-    "СТС Int": "СТС",
-    "Ретро ТВ": "Ретро",
-    "Россия K": "Россия Культура",
-    "Россия К": "Россия Культура",
-    "Рыжий тв": "Рыжий",
-    "Полёт ТВ HD": "Полёт ТВ HD",
-    "Про100 ТВ": "PRO100 TV",
-    "Первый канал HD": "Первый канал",
-    "Пятый канал": "5 канал",
-    "Первый Ростовский HD": "Первый Ростовский",
-    "Первый Тульский HD": "Первый Тульский",
-    "K1 HD": "K1",
-    "НТС HD": "НТС",
-    "НТМ HD": "НТМ",
-    "НТС (Севастополь)": "НТС",
-    "Arena Sport 1 Premium HD": "Arena Sport 1 Premium",
-    "Arena Sport 2 Premium HD": "Arena Sport 2 Premium",
-    "Arena Sport 3 Premium HD": "Arena Sport 3 Premium",
-    "Arena Sport 4 Premium HD": "Arena Sport 4 Premium",
-    "Arena Sport 5 Premium HD": "Arena Sport 5 Premium",
-    "Arena Sport 1 HD": "Arena Sport 1",
-    "Arena Sport 2 HD": "Arena Sport 2",
-    "Arena Sport 3 HD": "Arena Sport 3",
-    "Arena Sport 4 HD": "Arena Sport 4",
-    "Arena Sport 5 HD": "Arena Sport 5",
-    "Arena Sport 6 HD": "Arena Sport 6",
-    "Arena Sport 7 HD": "Arena Sport 7",
-    "Arena Sport 8 HD": "Arena Sport 8",
-    "Arena Tennis HD": "Arena Tennis",
-    "Arena Adrenalin HD": "Arena Adrenalin",
-    "Матч! Футбол 3 SD": "Матч! Футбол 3",
-    "Матч ТВ": "Матч!",
-    "Матч ТВ HD": "Матч!",
-    "Матч HD": "Матч!",
-    "МИР 24ᴴᴰ": "Мир 24",
-    "Масон ТВᴴᴰ": "Масон ТВ",
-    "МузТВ": "Муз ТВ",
-    "Моя Планета HD": "Моя Планета",
-    "Euro Sport 1 HD srb": "Eurosport 1 Serbia",
-    "Max Sport 2 HD": "Max Sport 2",
-    "Sportska TV HD": "Sportska TV",
-    "Euro Sport 2 HD srb": "Eurosport 2 Serbia",
-    "Max Sport 1 HD": "Max Sport 1",
-    "viju TV1000 kino HD": "Viju TV1000 Kino",
-    "Наш кинопоказ HD": "Наш кинопоказ",
-    "Комедия HD": "Комедия",
-    "SD/REX": "Русский экстрим",
-    "Kinojam 1 HD": "Kinojam 1",
-    "Kinojam 2 HD": "Kinojam 2",
-    "Мужское кино HD": "Мужское кино",
-    "Роман HD": "Роман",
-    "МОСФИЛЬМ": "Мосфильм",
-    "Еда HD": "Еда",
-    "Планета HD": "Моя Планета",
-    "Discovery Россия HD": "Discovery Россия",
-    "Телепутешествия HD": "Телепутешествия",
-    "Охотник и рыболов HD": "Охотник и рыболов",
-    "RTG": "RTG TV",
-    "ОХОТНИК": "Рыболов",
-    "ПЕС И КОТ": "Пёс и Ко",
-    "ДОКТОР HD": "Доктор",
-    "tnt-4": "ТНТ4",
-    "Супергерои": "Канал Малыш",
-    "2х2": "2x2",
-    "МАМА": "Мама",
-    "SD/REX HD": "Русский экстрим",
-    "Твоё ТВ HD Юмор": "Твоё ТВ Юмор",
-    "РЫЖИЙ": "Рыжий",
-    "СТС kids HD": "СТС Kids",
-    "ТНТ HD": "ТНТ",
-    "Матч Страна": "Матч! Страна",
-    "МАТЧ ИГРА HD": "Матч! Игра",
-    "МАТЧ ИГРА": "Матч! Игра",
-    "Матч! Футбол 1 HD": "Матч! Футбол 1",
-    "Матч! Футбол 2 HD": "Матч! Футбол 2",
-    "Матч! Футбол 3 HD": "Матч! Футбол 3",
-    "Матч! Арена HD": "Матч! Арена",
-    "Матч! Премьер HD": "Матч! Премьер",
-    "Terra Incognita": "Terra",
-    "Муз союз": "Муз Союз",
-    "Продвижение (Ленинск-Кузнецкий)": "Продвижение",
-    "РБК ТВ (Краснодар)": "РБК",
-    "РБК HD": "РБК",
-    "Китай ТВ HD": "Китай ТВ",
-    "Кино ТВ HD": "Кино ТВ",
-    "КИНОПРЕМЬЕРА HD": "Кинопремьера",
-    "Киносаидание": "Киносвидание",
-    "Оплот-ТВ HD": "Оплот ТВ",
-    "НТВ HD": "НТВ",
-    "Нано ТВ": "Нано",
-    "Мульт HD": "Мульт",
-    "Первый HD": "Первый канал",
-    "Матч Премьер": "Матч! Премьер",
-    "Нано ТВ HD": "Нано",
-    "Победа HD": "Победа",
-    "Пятница HD": "Пятница!",
-    "Aiva HD": "Aiva",
-    "Bridge HD": "Bridge",
-    "Das Erste Ⓖ": "Das Erste",
-    "Das Erste HD": "Das Erste",
-    "Конгресс ТВ HD": "Конгресс ТВ",
-    "КОНГРЕСС ТВ SD": "Конгресс ТВ",
-    "Пингвин Лоло": "Пингвин",
-    "Пятый канал Int.": "5 канал",
-    "СТРК HD": "СТРК",
-    "КХЛ HD": "KHL",
-    "025 Россия РТР": "Planeta RTR",
-    "026 Россия К": "Россия Культура",
-    "028 Первый канал": "Первый канал",
-    "Planeta RTR": "РТР-Планета",
-    "032 ТНТ Comedy": "ТНТ Comedy",
-    "031 Дикая рыбалка": "Дикая рыбалка",
-    "027 MIR 24": "Мир 24",
-    "030 Рен ТВ": "Рен ТВ",
-    "033 ТНТ4  International": "ТНТ4",
-    "038 Дикая охота": "Дикая охота",
-    "036 Поехали!": "Поехали!",
-    "040 НТВ Право": "НТВ Право",
-    "034 РБК": "РБК",
-    "039 НТВ Мир": "НТВ Мир",
-    "037 5 international": "5 канал",
-    "043 Перец": "Перец",
-    "044  Mir": "Мир",
-    "047 Оружие": "Оружие",
-    "046 Ретро": "Ретро",
-    "048 Арсенал": "Арсенал",
-    "049 Победа": "Победа",
-    "050 Кто есть кто": "Кто есть кто",
-    "Тонус ТВ": "Тонус",
-    "052  Tonus": "Тонус",
-    "053 Телепутешествия": "Телепутешествия",
-    "054 Amedia Hit HD": "Amedia Hit",
-    "060 Amedia Premium HD": "Amedia Premium",
-    "059 ТВ-3": "ТВ-3",
-    "063 A2": "Amedia 2",
-    "062 A1": "Amedia 1",
-    "065 Киносерия": "Киносерия",
-    "066 Киносемья": "Киносемья",
-    "064 Киномикс": "Киномикс",
-    "061 FOX": "Fox",
-    "067 Киносвидание": "Киносвидание",
-    "070 Кинохит": "Кинохит",
-    "068 Кинокомедия": "Кинокомедия",
-    "072 Родное Кино": "Родное Кино",
-    "069 Кинопремьера": "Кинопремьера",
-    "071 Мужское Кино": "Мужское Кино",
-    "073  Наше Новое Кино": "Наше Новое Кино",
-    "074  Индийское кино": "Индийское кино",
-    "Индия ТВ": "Индия",
-    "075  Индия": "Индия",
-    "076  Дом кино": "Дом кино",
-    "077  Дом Кино Премиум": "Дом Кино Премиум",
-    "078 Киноужас": "Киноужас",
-    "079 Музыка Первого": "Музыка Первого",
-    "083 Match Planeta": "Матч! Планета",
-    "086 Шансон ТВ": "Шансон ТВ",
-    "085 БОКС ТВ ПЛЮС": "Бокс ТВ",
-    "094 Муз ТВ": "Муз ТВ",
-    "093 BRiDGE TV Russki Hits": "BRiDGE TV Русский Хит",
-    "097 СТС Kids": "СТС Kids",
-    "098 Карусель": "Карусель",
-    "100 O!": "O!",
-    "103 Авто Плюс": "Авто Плюс",
-    "107 Bridge TV": "Bridge TV",
-    "105 National Geographic": "National Geographic",
-    "108 Охотник и рыболов": "Охотник и рыболов",
-    "110 Зоо ТВ": "Зоо ТВ",
-    "109 Загородный": "Загородный",
-    "112 Eurosport 2": "Eurosport 2",
-    "111 Eurosport 1": "Eurosport 1",
-    "113 Animal Planet": "Animal Planet",
-    "115 IstoriaTV": "365 дней",
-    "6ter HD": "6ter,",
-    "CT SPORT HD": "CT SPORT",
-    "Астрахань 24 (720p)": "Астрахань 24",
-    "Kino 24 (720p)": "Kino 24",
-    "Астрахань.Ru TV (480p)": "Астрахань.Ru TV",
-    "Астрахань.Ru Sport (720p)": "Астрахань.Ru Sport",
-    "Нано ТВ HD (576p)": "Нано",
-    "Univer TV (1080p) [Not 24/7]": "Univer TV",
-    "Открытый мир. Здоровье (576p)": "Открытый мир",
-    "Мультимания ТВ (576p)": "Мультимания",
-    "РБК (СПБ) (576p)": "РБК",
-    "Живи": "Живи Активно",
-    "Достор": "Доктор",
-    "Блокбастер HD": "Блокбастер",
-    "Арсенал HD": "Арсенал",
-    "ТВ3 HD": "ТВ3",
-    "Дождь HD": "Дождь",
-    "Истоки Орёл": "Истоки",
-    "БСТ Братск": "БСТ",
-    "CARTOON NETWORK HD": "Cartoon Network",
-    "GOLF CHANNEL": "Golf Channel",
-    "БЕЛАРУСЬ 24 HD": "Беларусь 24",
-    "БЕЛАРУСЬ 3 SD": "Беларусь 3",
-    "КиноСезонᴴᴰ": "КиноСезон",
-    "World Fashion Channelᴴᴰ ru": "World Fashion Channel Russia",
-    "Матч! HD": "Матч!",
-    "МОЙ МИР SD": "Мой мир",
-    "Кухня ТВ": "Кухня",
-    "Неизвестная планета HD": "Неизвестная планета",
-    "Открытый мир FD": "Открытый мир",
-    "Океан ТВ": "Океан",
-    "Willow HD": "Willow",
-    "Советское Кино SD": "Советское Кино",
-    "Channel 8 International (576p)": "8tv",
-    "Viasat Kino Comedy HD": "Viasat Kino Comedy",
-    "ЭХО ТВ 24 (Новоуральск)": "ЭХО ТВ 24",
-    "360.RU НОВОСТИᴴᴰ": "360°",
-    "360.RU SD": "360°",
-    "Al Jazeera English": "Al Jazeera",
-    "Al Jazeeraᴴᴰ (Arabic)": "Al Jazeera (Arabic)",
-    "BBC World Newsᴴᴰ": "BBC World News",
-    "Первый канал Европа": "Первый канал",
-    "РАДИО ГОРОД FMᴴᴰ": "Радио Город FM",
-    "Культ Медиа ТВ": "Культ Медиа",
-    "Астрахань 24 SD": "Астрахань 24",
-    "ОЦЕᴴᴰ": "Ош ТВ",
-    "312 Кино 🇰🇬": "312 Кино",
-    "312 Сериал 🇰🇬": "312 Сериал",
-    "Regionᴴᴰ 🇰🇬": "Region",
-    "Арсенал FD": "Арсенал",
-    "КиноКлассика SD": "КиноКлассика",
-    "ТелеНовелла SD": "ТелеНовелла",
-    "КиноДок SD*": "КиноДок",
-    "Meditation Music SD*": "Meditation Music",
-    "Сити Эдем ТВ SD": "Сити Эдем ТВ",
-    "Terra Incognitaᴴᴰ": "Terra Incognita",
-    "СИТИ ЭДЕМ Киноновелла SD": "Киноновелла",
-    "Инсайт ТВᴴᴰ": "Инсайт ТВ",
-    "Star Cinemaᴴᴰ": "Star Cinema",
-    "Полёт ТВᴴᴰ": "Полёт ТВ",
-    "Китай ТВᴴᴰ": "Китай ТВ",
-    "8 канал International": "8tv",
-    "Теледом SD": "Теледом",
-    "ОК": "8tv",
-    "Телеканал ОК": "8tv",
-    "NikNik.TV SD": "NikNik.TV",
-    "ASTRAKHAN.RU SPORTᴴᴰ": "Астрахань.Ru Sport",
-    "ASTRAKHAN.RU SPORT": "Астрахань.Ru Sport",
-    "ACI Sport SD": "ACI Sport",
-    "Fun Roads SD": "Fun Roads",
-    "Invivo Extreme SD": "Invivo Extreme",
-    "Invivo Auto SD": "Invivo Auto",
-    "ACI Sport TV SD": "ACI Sport",
-    "STAR SPORTS 1 HD": "Star Sports 1",
-    "DSPORTS 1 HD": "DSPORTS 1",
-    "TVR Sport FHD": "TVR Sport",
-    "Kuwait Sport HD": "Kuwait Sport",
-    "Kuwait Sport Plus HD": "Kuwait Sport Plus",
-    "ESPN 1 SD": "ESPN 1",
-    "Canal Motor SD": "Canal Motor",
-    "World Fashion Channel SD ru": "World Fashion Channel Russia",
-    "World Fashion Channel SD": "World Fashion Channel",
-    "World Fashion Channelᴴᴰ": "World Fashion Channel",
-    "Fashion TV Paris L'Originalᴴᴰ": "Fashion TV Paris L'Original",
-    "ВИТРИНА ТВ FD": "Витрина ТВ",
-    "LUXURYᴴᴰ": "Luxury",
-    "TBN BALTIAᴴᴰ": "TBN Baltia",
-    "TBN Armeniaᴴᴰ": "TBN Armenia",
-    "Бог Благ ТВᴴᴰ": "Бог Благ ТВ",
-    "БогБлагТВᴴᴰ": "Бог Благ ТВ",
-    "TV ХРАМ": "Храм",
-    "ТВ МАНА ВАШᴴᴰ": "ТВ Мана Ваш",
-    "Пловдивска Православна ТВᴴᴰ": "Пловдивска Православна ТВ",
-    "Global Fashionᴴᴰ": "Global Fashion",
-    "Күңел ТВ HD": "Күңел ТВ",
-    "Моя планета SD": "Моя планета",
-    "НТВ Шефᴴᴰ": "НТВ Шеф",
-    "Viju+ Serial HD": "Viju+ Serial",
-    "KiKA HD": "KiKA",
-    "Алмазный край HD": "Алмазный край",
-    "360.RU НОВОСТИ": "360.RU Новости",
-    "Fox News SD": "Fox News",
-    "BBC News Europe HD": "BBC News Europe",
-    "Trashᴴᴰ": "Trash",
-    "Sport UZ HD": "Sport UZ",
-    "PX SPORTS": "PX Sports",
-    "AFROBEATSᴴᴰ": "Afrobeats",
-    "PRO100": "PRO100 TV",
-    "ОТР HD": "ОТР",
-    "019 NUR": "ТВ Спорт",
-    "КиноМенюᴴᴰ": "КиноМеню",
-    "BBC WN": "BBC World News",
-    "33 канал (Хмельницький)": "33 канал",
-    "1+1 UA": "1+1",
-    "1+1 Україна": "1+1",
-    "1+1 Україна (UA)": "1+1",
-    "JC1 HD": "JC1",
-    "Elektrika TV HD": "Elektrika TV",
-    "Eurosport1HD": "Eurosport 1",
-    "Eurosport2HD": "Eurosport 2",
-    "Dorcel HD": "Dorcel",
-    "CGTN SD": "CGTN",
-    "КиноЭкшен SD*": "КиноЭкшен",
-    "Afrobeats TV": "Afrobeats",
-    "Meditation Musicᴴᴰ": "Meditation Music",
-    "Мульт SD": "Мульт",
-    "РецептыГурмана": "Рецепты Гурмана",
-    "Сити Эдем Бирма Play": "Бирма Play",
-    "КиноКлассика HD": "КиноКлассика",
-    "Deutsche Welle HD": "Deutsche Welle",
-    "Зал Суда HD": "Зал суда",
-    "City Eden Birma Play HD": "Бирма Play",
-    "TV Centr (1080p)": "ТВЦ",
-    "REN TV HD (1080p)": "Рен ТВ",
-    "Friday! (1080p)": "Пятница!",
-    "365 дней ТВ": "365 дней",
-    "RTG HD": "RTG TV",
-    "Инсайт ТВ UHD": "Инсайт ТВ",
-    "Седьмой канал KZ": "Седьмой канал",
-    "Fashion & Lifestyle HD": "Fashion & Lifestyle",
-    "Start air": "Start Air",
-    "Наше HD": "Наше",
-    "Хит HD": "Хит",
-    "Ля минор": "Ля-минор",
-    "Бирма Плей": "Бирма Play",
-    "Классика Кино SD": "Классика Кино",
-    "Movie Classic": "Классика Кино",
-    "Fashion TV Paris L'Original": "Fashion TV",
-    "LIVETV SD": "LIVETV",
-    "ЕВРОКИНО": "Еврокино",
-    "Love Nature 4k": "Love Nature",
-    "ACI Sport TV": "ACI Sport",
-    "Мультимания (576p)": "Мультимания",
-    "Продвижение (Новокузнецк)": "Продвижение",
-    "СТВ HD": "СТВ",
-    "7tv": "7 TV",
-    "01-LATINA HD": "Latina",
-    "02-AMERICA HD": "America",
-    "03-PANAMERICANA": "Panamericana",
-    "04-WILLAX HD": "Willax",
-    "05-NEXT TV": "Next TV",
-    "06-RPP SD": "RPP",
-    "07-LA TELE HD": "La tele",
-    "08-EXITOSA HD": "Exitosa",
-    "09-RADIO NACIONAL HD": "Radio Nacional",
-    "10-TV PERU 7.3 HD": "TV Peru 7.3",
-    "11-TV PERU HD": "TV Peru",
-    "12-USMPTV HD": "USMPTV",
-    "13-ATV SUR HD": "ATV SUR",
-    "14-ATV + NOTICIAS": "ATV + NOTICIAS",
-    "15-ENLACE": "ENLACE",
-    "16-IPE HD": "IPE",
-    "17-KARIBENA HD": "Karibena",
-    "20-DE PELICULA HD": "Pelicula",
-    "21-UNIVERSAL PRIMUN HD": "Universal Premium SP",
-    "22-DISCOVERY SCIENTIC": "Discovery Scientic SP",
-    "23-TLC HD": "TLC SP",
-    "24-ESPN 2 HD": "ESPN 2",
-    "25-UNIVISION HD": "Univision",
-    "26-BETHEL HD": "Bethel",
-    "27-TELEMUNDO HD": "Telemundo",
-    "28-STINGRAY CONCERT": "Concert SP",
-    "29-TNT NOVELAS": "TNT Novelas",
-    "30-MEGA": "Mega",
-    "31-MOVISTAR DEPORTE": "Movistar Deporte",
-    "32-ESPN PREMIUN HD": "ESPN Premium",
-    "33-TOONCAST": "Tooncast",
-    "34-DISCOVERY TURBO": "Discovery Turbo SP",
-    "35-HGTV HD": "HGTV",
-    "37-CANAL N": "Canal N",
-    "39-DIRECTV DEPORTE": "Sports",
-    "43-ESPN6 HD": "ESPN6",
-    "44-NICK JUNIOR": "Nick Junior",
-    "45-DISNEY JUNIOR": "Disney Junior",
-    "46-TNT HD": "TNT",
-    "47-CN": "Cartoon Network",
-    "48-ESPN3 HD": "ESPN3",
-    "52-DISCOVERY KIDS": "Discovery Kids",
-    "53-HBO2 HD": "HBO2",
-    "54-CARTOONITO": "Cartoonito",
-    "55-ESPN1": "ESPN",
-    "Zvezda (1080p)": "Звезда",
-    "CCTV4ᴴᴰ": "CCTV4",
-    "AlJazeera HD": "AlJazeera",
-    "MNB Newsᴴᴰ": "MNB News",
-    "PROMO DJ": "Promo DJ",
-    "Discovery Channel": "Discovery",
-    "Крым 24": "Крым 24",
-    "Пятница! HD": "Пятница!",
-    "Суббота! HD": "Суббота!",
-    "StrahTV Фантастика HD": "Фантастика HD",
-    "V2BEAT SD": "V2BEAT",
-    "Nickelodeon HD TR": "Nickelodeon",
-    "Телплюс ТВ (Астрахань) (360p) [Not 24/7]": "Телплюс ТВ",
-    "360 Новости": "360.RU Новости",
-    "AMEDIA HIT HD": "Amedia Hit",
-    "Amedia Premium HD": "Amedia Premium",
-    "Sky Cinema Classics DE": "Sky Cinema Classics"
-}
+
+def _read_config_lines(path: str, log: logging.Logger, what: str) -> list[str]:
+    """Непустые строки файла без #-комментариев (как есть, с дублями)."""
+    if not os.path.exists(path):
+        log.warning(f"⚙️  {what}: файл {path!r} не найден — использую пустой список")
+        return []
+    out: list[str] = []
+    with open(path, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if line and not line.startswith("#"):
+                out.append(line)
+    return out
+
+
+@dataclass
+class Config:
+    """Настраиваемые списки, загруженные из файлов (см. *_FILE выше)."""
+    sources: list[str] = field(default_factory=list)
+    name_blocklist: set[str] = field(default_factory=set)      # lower-case
+    aliases: dict[str, str] = field(default_factory=dict)      # lower(источник) -> канон
+    url_block_plain: set[str] = field(default_factory=set)
+    url_block_wildcard: list[re.Pattern] = field(default_factory=list)
+
+    def url_blocked(self, url: str) -> bool:
+        """True, если URL попадает под url_blocklist.txt (подстрока или wildcard)."""
+        url_lc = url.lower()
+        if any(pat in url_lc for pat in self.url_block_plain):
+            return True
+        return any(rx.search(url_lc) for rx in self.url_block_wildcard)
+
+    def name_blocked(self, name: str) -> bool:
+        return name.strip().lower() in self.name_blocklist \
+            or any(p.search(name) for p in BLOCKLIST_PATTERNS)
+
+
+def load_config(log: logging.Logger) -> Config:
+    """Читает конфиг-файлы; формат-проблемы (дубли ключей и т.п.) — warning в лог."""
+    cfg = Config()
+    cfg.sources = _read_config_lines(SOURCES_FILE, log, "sources")
+
+    raw_names = _read_config_lines(NAME_BLOCKLIST_FILE, log, "name blocklist")
+    for name, cnt in Counter(n.lower() for n in raw_names).items():
+        if cnt > 1:
+            log.warning(f"⚙️  name_blocklist: дубль записи {name!r} ×{cnt}")
+    cfg.name_blocklist = {n.lower() for n in raw_names}
+
+    for line in _read_config_lines(ALIASES_FILE, log, "aliases"):
+        if "=>" not in line:
+            log.warning(f"⚙️  aliases: строка без '=>' пропущена: {line!r}")
+            continue
+        src_name, dst = (part.strip() for part in line.split("=>", 1))
+        key = src_name.lower()
+        if key in cfg.aliases and cfg.aliases[key] != dst:
+            log.warning(f"⚙️  aliases: дубль ключа {src_name!r}: "
+                        f"{cfg.aliases[key]!r} → {dst!r} (беру последний)")
+        cfg.aliases[key] = dst
+
+    url_patterns = _read_config_lines(URL_BLOCKLIST_FILE, log, "url blocklist")
+    cfg.url_block_plain    = {p.lower() for p in url_patterns if "*" not in p}
+    cfg.url_block_wildcard = [_wildcard_to_regex(p.lower()) for p in url_patterns if "*" in p]
+
+    log.info(f"⚙️  Config: {len(cfg.sources)} source(s), "
+             f"{len(cfg.name_blocklist)} blocked name(s), {len(cfg.aliases)} alias(es), "
+             f"{len(url_patterns)} url pattern(s)")
+    return cfg
+
+
+def validate_config(cfg: Config, blocks: list[IndexBlock], log: logging.Logger) -> None:
+    """Перекрёстные проверки конфига и индекса. Только предупреждения, ничего не меняет."""
+    warn = 0
+
+    for u, cnt in Counter(cfg.sources).items():
+        if cnt > 1:
+            warn += 1
+            log.warning(f"⚙️  sources: дубль источника (×{cnt}): {u}")
+
+    for src_name, dst in sorted(cfg.aliases.items()):
+        dst_l = dst.strip().lower()
+        if src_name == dst_l:
+            warn += 1
+            log.warning(f"⚙️  aliases: самоалиас (no-op): {dst!r}")
+        elif dst_l in cfg.aliases:
+            warn += 1
+            log.warning(f"⚙️  aliases: цепочка {src_name!r} → {dst!r} → "
+                        f"{cfg.aliases[dst_l]!r} — однопроходный lookup её не резолвит, "
+                        f"укажи финальное имя сразу")
+        if dst_l in cfg.name_blocklist:
+            # Осознанный приём «канонизируй имя → блокируй канон» — не warning.
+            log.debug(f"⚙️  aliases: цель алиаса {dst!r} заблокирована в name_blocklist")
+
+    index_names = {b.name.strip().lower(): b.name for b in blocks}
+    for n in sorted(set(index_names) & cfg.name_blocklist):
+        warn += 1
+        log.warning(f"⚙️  конфликт: {index_names[n]!r} есть в index.m3u, но заблокирован — "
+                    f"чекер не принесёт ему свежих ссылок")
+
+    log.info(f"⚙️  Config validation: {warn} warning(s)" if warn
+             else "⚙️  Config validation: OK")
+
 
 DEFAULT_INDEX_FILE  = "index.m3u"
 LOG_FILE            = "m3u_checker.log"
 DEFAULT_TIMEOUT_SEC = 8
 DEFAULT_WORKERS     = 30
+FETCH_TIMEOUT_MULT  = 3               # таймаут скачивания источника = timeout * MULT
+BACKUP_SUFFIX       = ".checker.bak"  # бэкап index.m3u перед перезаписью
 
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -1061,6 +217,7 @@ class SourceChannel:
     check_ms: Optional[float]  = None
     content_type: Optional[str] = None   # Content-Type из ответа сервера
     stream_verified: bool = False         # True если magic-байты подтвердили формат
+    net_error: bool = False               # отказ по сети/таймауту (не проверить), а не «мёртв»
 
 
 @dataclass
@@ -1087,17 +244,11 @@ class Stats:
     parsed:       int = 0
     candidates:   int = 0
     reachable:    int = 0
-    unreachable:  int = 0
-    errors:       int = 0
+    dead:         int = 0   # сервер ответил, но потока нет (HTTP>=400 / HTML / битый HLS)
+    net_fail:     int = 0   # сеть/таймаут — проверить не удалось (возможно, жив)
     inserted:     int = 0
     appended:     int = 0
-    _lock:  threading.Lock = field(default_factory=threading.Lock, repr=False)
-    _start: float          = field(default_factory=time.time, repr=False)
-
-    def inc(self, **kwargs):
-        with self._lock:
-            for k, v in kwargs.items():
-                setattr(self, k, getattr(self, k) + v)
+    _start: float = field(default_factory=time.time, repr=False)
 
     @property
     def elapsed(self) -> str:
@@ -1121,7 +272,9 @@ def setup_logging(log_file: Optional[str]) -> logging.Logger:
     log.addHandler(ch)
 
     if log_file:
-        fh = logging.FileHandler(log_file, encoding="utf-8")
+        fh = logging.handlers.RotatingFileHandler(
+            log_file, encoding="utf-8", maxBytes=5_000_000, backupCount=2
+        )
         fh.setLevel(logging.DEBUG)
         fh.setFormatter(fmt)
         log.addHandler(fh)
@@ -1143,27 +296,13 @@ def extract_tvg_id(extinf_line: str) -> str:
     return m.group(1).strip() if m else ""
 
 
-def channel_matches(src_name: str, src_tvg_id: str,
-                    idx_name: str, idx_tvg_id: str) -> bool:
-    """
-    Match a source channel against an index channel.
-    Criteria (any one is enough):
-      • Exact case-insensitive name match
-      • Exact case-insensitive tvg-id match (only when both sides are non-empty)
-    """
-    if src_name.strip().lower() == idx_name.strip().lower():
-        return True
-    if src_tvg_id and idx_tvg_id:
-        if src_tvg_id.lower() == idx_tvg_id.lower():
-            return True
-    return False
 
 
 # ──────────────────────────────────────────────────────────
 #  index.m3u parsing and writing
 # ──────────────────────────────────────────────────────────
 
-def parse_index_m3u(path: str, log: logging.Logger) -> tuple[list[str], list[IndexBlock]]:
+def parse_index_m3u(path: str, cfg: Config, log: logging.Logger) -> tuple[list[str], list[IndexBlock]]:
     """
     Parse the local index.m3u.
 
@@ -1182,6 +321,7 @@ def parse_index_m3u(path: str, log: logging.Logger) -> tuple[list[str], list[Ind
     blocks: list[IndexBlock] = []
     current_block_lines: list[str] = []
     in_block = False
+    dropped_urls: list[tuple[str, str]] = []  # (имя канала, URL) — вычищено по блоклисту
 
     def _finish_block(blines: list[str]) -> Optional[IndexBlock]:
         """Turn accumulated lines into an IndexBlock."""
@@ -1192,9 +332,9 @@ def parse_index_m3u(path: str, log: logging.Logger) -> tuple[list[str], list[Ind
         name   = _clean_name(_parse_extinf_name(extinf_s))
         tvg_id = extract_tvg_id(extinf_s)
 
-        # Remove any URL lines that match URL_BLOCKLIST
-        url_block_lower = {p.lower() for p in URL_BLOCKLIST}
-        if url_block_lower:
+        # Remove any URL lines that match URL_BLOCKLIST (подстроки И wildcard-паттерны).
+        # Удаление НЕ молчаливое: всё вычищенное копится в dropped_urls и логируется.
+        if cfg.url_block_plain or cfg.url_block_wildcard:
             cleaned: list[str] = []
             for l in blines:
                 stripped = l.strip()
@@ -1202,9 +342,10 @@ def parse_index_m3u(path: str, log: logging.Logger) -> tuple[list[str], list[Ind
                     candidate = stripped.lstrip("#").strip()
                 else:
                     candidate = stripped
-                if candidate.startswith(("http://", "https://", "rtmp")):
-                    if any(pat in candidate.lower() for pat in url_block_lower):
-                        continue  # drop this URL line
+                if candidate.startswith(("http://", "https://", "rtmp")) \
+                        and cfg.url_blocked(candidate):
+                    dropped_urls.append((name, candidate))
+                    continue  # drop this URL line
                 cleaned.append(l)
             blines = cleaned
 
@@ -1242,6 +383,10 @@ def parse_index_m3u(path: str, log: logging.Logger) -> tuple[list[str], list[Ind
             blocks.append(blk)
 
     log.info(f"📂 Parsed index.m3u: {len(blocks)} channel blocks")
+    if dropped_urls:
+        log.info(f"🧹 Removed {len(dropped_urls)} blocklisted URL line(s) from index:")
+        for nm, u in dropped_urls:
+            log.info(f"   • {nm!r}: {u}")
     for b in blocks:
         log.debug(f"   Block: {b.name!r}  ({len(b.urls)} URLs)")
     return header_lines, blocks
@@ -1281,8 +426,27 @@ def write_index_m3u(
             log.info("   ... (truncated)")
         return
 
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(content)
+    # Бэкап предыдущей версии + атомарная запись (tmp-файл → os.replace),
+    # чтобы краш посреди записи не оставил битый/пустой index.m3u.
+    if os.path.exists(path):
+        backup = path + BACKUP_SUFFIX
+        shutil.copy2(path, backup)
+        log.info(f"🛟 Backup → {backup}")
+
+    dst_dir = os.path.dirname(os.path.abspath(path)) or "."
+    fd, tmp_path = tempfile.mkstemp(
+        dir=dst_dir, prefix=os.path.basename(path) + ".", suffix=".tmp"
+    )
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(content)
+        os.replace(tmp_path, path)
+    except BaseException:
+        try:
+            os.unlink(tmp_path)
+        except OSError:
+            pass
+        raise
     log.info(f"💾 Written → {path}  ({len(content):,} bytes)")
 
 
@@ -1347,12 +511,9 @@ def _is_stream_magic(data: bytes) -> bool:
     if data[0] == 0xFF and len(data) >= 2 and (data[1] & 0xE0) == 0xE0:
         return True
 
-    # MPEG-TS: sync byte 0x47 ('G')
+    # MPEG-TS: sync byte 0x47 ('G') — одного достаточно
     if data[0] == 0x47:
-        # Дополнительная уверенность: второй sync byte через 188 байт
-        if len(data) >= 189 and data[188] == 0x47:
-            return True
-        return True  # Одного sync byte достаточно
+        return True
 
     # AAC ADTS
     if data[0] == 0xFF and len(data) >= 2 and data[1] in (0xF1, 0xF9):
@@ -1417,7 +578,7 @@ def fetch_url_text(url: str, timeout: int, log: logging.Logger) -> Optional[str]
     t0 = time.time()
     try:
         req = _make_request(url, "GET")
-        with urllib.request.urlopen(req, timeout=timeout * 3) as resp:
+        with urllib.request.urlopen(req, timeout=timeout * FETCH_TIMEOUT_MULT) as resp:
             elapsed = (time.time() - t0) * 1000
             code = resp.getcode()
             raw = resp.read()
@@ -1438,31 +599,9 @@ def fetch_url_text(url: str, timeout: int, log: logging.Logger) -> Optional[str]
     return None
 
 
-def check_stream(ch: SourceChannel, timeout: int, log: logging.Logger) -> SourceChannel:
-    """
-    Двухэтапная проверка URL на наличие реального медиапотока.
-
-    Этап 1 — HEAD (быстро, без скачивания тела):
-      - Статус >= 400 → ошибка.
-      - Content-Type = text/html → ошибка (геоблок, авторизационная стена).
-      - Content-Type = известный медиатип (audio/*, video/*, *mpegurl) → ok.
-      - Content-Type = application/octet-stream или пустой → нужна проверка байт.
-      - HTTP 405 / ошибка сети → переход к GET.
-
-    Этап 2 — GET с чтением первых байт:
-      - Статус >= 400 → ошибка.
-      - Content-Type = text/html → ошибка.
-      - URL заканчивается на .m3u8 или Content-Type = *mpegurl →
-        HLS-валидация: парсим плейлист, проверяем наличие сегментов.
-      - Иначе: читаем первые 1024 байт, проверяем magic-сигнатуру.
-        stream_verified=True если magic совпал.
-        reachable=True консервативно даже без magic (статус 200 + не HTML).
-    """
-    t0 = time.time()
-    is_hls = ch.url.lower().split("?")[0].endswith(".m3u8")
-
-    # ── Этап 1: HEAD ──────────────────────────────────────────────
-    need_get = True
+def _head_precheck(ch: SourceChannel, timeout: int, t0: float,
+                   log: logging.Logger) -> Optional[SourceChannel]:
+    """HEAD-этап: возвращает ch, если вердикт окончательный, иначе None (→ GET)."""
     try:
         req = _make_request(ch.url, "HEAD")
         with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -1486,9 +625,8 @@ def check_stream(ch: SourceChannel, timeout: int, log: logging.Logger) -> Source
                 log.debug(f"   ❌ [HEAD] HTML  {ch.check_ms:.0f}ms  {ch.name!r}")
                 return ch
 
-            # Чёткий медиатип (не octet-stream) и не HLS — ok без GET
-            if mime in _STREAM_CONTENT_TYPES and mime != "application/octet-stream" \
-                    and not is_hls:
+            # Чёткий медиатип (не octet-stream) — ok без GET
+            if mime in _STREAM_CONTENT_TYPES and mime != "application/octet-stream":
                 ch.check_ms = (time.time() - t0) * 1000
                 ch.content_type = mime
                 ch.reachable = True
@@ -1498,25 +636,51 @@ def check_stream(ch: SourceChannel, timeout: int, log: logging.Logger) -> Source
                 )
                 return ch
 
-            # Иначе (octet-stream, пустой CT, HLS) → нужен GET с байтами
-            need_get = True
+            # octet-stream / пустой CT — нужен GET с байтами
+            return None
 
     except urllib.error.HTTPError as e:
         ch.http_status = e.code
         if e.code == 405:
             log.debug(f"   HEAD→405, retry GET: {ch.url}")
-        else:
-            ch.check_ms = (time.time() - t0) * 1000
-            ch.reachable = False
-            ch.check_error = f"HTTP {e.code}"
-            log.debug(f"   ❌ [HEAD] HTTP {e.code}  {ch.check_ms:.0f}ms  {ch.name!r}")
-            return ch
-    except (urllib.error.URLError, TimeoutError, Exception) as e:
-        # Сеть упала на HEAD — всё равно пробуем GET
-        log.debug(f"   HEAD error ({type(e).__name__}), trying GET: {ch.url}")
-
-    if not need_get:
+            return None
+        ch.check_ms = (time.time() - t0) * 1000
+        ch.reachable = False
+        ch.check_error = f"HTTP {e.code}"
+        log.debug(f"   ❌ [HEAD] HTTP {e.code}  {ch.check_ms:.0f}ms  {ch.name!r}")
         return ch
+    except Exception as e:
+        # Сеть упала на HEAD — окончательный вердикт даст GET
+        log.debug(f"   HEAD error ({type(e).__name__}), trying GET: {ch.url}")
+        return None
+
+
+def check_stream(ch: SourceChannel, timeout: int, log: logging.Logger,
+                 strict: bool = False) -> SourceChannel:
+    """
+    Двухэтапная проверка URL на наличие реального медиапотока.
+
+    Этап 1 — HEAD (быстро, без тела). Для .m3u8 пропускается: плейлист
+    всё равно придётся скачивать GET-ом, HEAD был бы лишним запросом.
+
+    Этап 2 — GET с чтением первых байт:
+      - Статус >= 400 или text/html → мёртв.
+      - .m3u8 / *mpegurl → HLS-валидация: есть ли сегменты/варианты.
+      - Иначе: первые 1024 байта + magic-сигнатура. Неопознанный формат:
+        strict=False → консервативно ok, strict=True → мёртв.
+
+    Классификация отказов (для статистики ✅/❌/⚠️):
+      - net_error=False — сервер ответил, но потока нет: ссылка мертва (❌);
+      - net_error=True  — сеть/таймаут: проверить не удалось, возможно жив (⚠️).
+    """
+    t0 = time.time()
+    is_hls = ch.url.lower().split("?")[0].endswith(".m3u8")
+
+    # ── Этап 1: HEAD (кроме HLS) ──────────────────────────────────
+    if not is_hls:
+        done = _head_precheck(ch, timeout, t0, log)
+        if done is not None:
+            return done
 
     # ── Этап 2: GET + байтовая валидация ──────────────────────────
     try:
@@ -1558,21 +722,20 @@ def check_stream(ch: SourceChannel, timeout: int, log: logging.Logger) -> Source
                 )
                 return ch
 
-            # Обычный поток: читаем первые 1024 байт и проверяем magic
+            # Обычный поток: читаем первые 1024 байта и проверяем magic
             first_bytes = resp.read(1024)
             ch.check_ms = (time.time() - t0) * 1000
             ch.stream_verified = _is_stream_magic(first_bytes)
 
-            # Известный медиатип (не octet-stream) → ok независимо от magic
             if mime in _STREAM_CONTENT_TYPES and mime != "application/octet-stream":
-                ch.reachable = True
+                ch.reachable = True          # известный медиатип
             elif ch.stream_verified:
-                # Magic подтвердил формат
-                ch.reachable = True
+                ch.reachable = True          # magic подтвердил формат
+            elif strict:
+                ch.reachable = False
+                ch.check_error = "Format unrecognized (strict)"
             else:
-                # Неизвестный тип, magic не совпал — консервативно ok
-                # Для строгого режима: ch.reachable = False
-                ch.reachable = True
+                ch.reachable = True          # консервативно ok
                 ch.check_error = "Format unrecognized (conservative ok)"
 
             verified_tag = " 🎵" if ch.stream_verified else " ?"
@@ -1590,14 +753,17 @@ def check_stream(ch: SourceChannel, timeout: int, log: logging.Logger) -> Source
         log.debug(f"   ❌ [GET] HTTP {e.code}  {ch.name!r}")
     except urllib.error.URLError as e:
         ch.reachable = False
+        ch.net_error = True
         ch.check_error = str(e.reason)
         log.debug(f"   🔌 URLError: {e.reason}  {ch.name!r}")
     except TimeoutError:
         ch.reachable = False
+        ch.net_error = True
         ch.check_error = "timeout"
         log.debug(f"   ⏱️  Timeout  {ch.name!r}")
     except Exception as e:
         ch.reachable = False
+        ch.net_error = True
         ch.check_error = str(e)
         log.debug(f"   ⚠️  {type(e).__name__}: {e}  {ch.name!r}")
 
@@ -1645,23 +811,39 @@ def parse_source_m3u(content: str, source_url: str, log: logging.Logger) -> list
 #  Core matching logic
 # ──────────────────────────────────────────────────────────
 
+def build_block_index(
+    blocks: list[IndexBlock],
+) -> tuple[dict[str, IndexBlock], dict[str, IndexBlock]]:
+    """Индексы для матчинга: lower(имя)→блок и lower(tvg-id)→блок.
+
+    При дублях выигрывает первый блок в файле (как у прежнего линейного поиска).
+    """
+    by_name: dict[str, IndexBlock] = {}
+    by_id:   dict[str, IndexBlock] = {}
+    for blk in blocks:
+        by_name.setdefault(blk.name.strip().lower(), blk)
+        if blk.tvg_id:
+            by_id.setdefault(blk.tvg_id.strip().lower(), blk)
+    return by_name, by_id
+
+
 def find_matching_block(
     src_ch: SourceChannel,
-    blocks: list[IndexBlock],
+    by_name: dict[str, IndexBlock],
+    by_id: dict[str, IndexBlock],
     log: logging.Logger,
 ) -> Optional[IndexBlock]:
-    """Return the first IndexBlock matching the source channel (by name or tvg-id)."""
-    for blk in blocks:
-        if channel_matches(src_ch.name, src_ch.tvg_id, blk.name, blk.tvg_id):
-            reason = (
-                f"tvg-id={src_ch.tvg_id!r}"
-                if src_ch.tvg_id and src_ch.tvg_id.lower() == blk.tvg_id.lower()
-                else f"name={src_ch.name!r}"
-            )
-            log.debug(f"   MATCH [{reason}]: src={src_ch.name!r} ↔ idx={blk.name!r}")
+    """Матч по имени (приоритет), затем по tvg-id. O(1) вместо перебора блоков."""
+    blk = by_name.get(src_ch.name.strip().lower())
+    if blk is not None:
+        log.debug(f"   MATCH [name={src_ch.name!r}] ↔ idx={blk.name!r}")
+        return blk
+    if src_ch.tvg_id:
+        blk = by_id.get(src_ch.tvg_id.strip().lower())
+        if blk is not None:
+            log.debug(f"   MATCH [tvg-id={src_ch.tvg_id!r}] ↔ idx={blk.name!r}")
             return blk
     return None
-
 
 def _block_has_active_url(blk: IndexBlock) -> bool:
     """Return True if the block already has at least one active (non-commented) URL."""
@@ -1750,7 +932,6 @@ def append_test_group(
         return 0
 
     # Group by channel identity; preserve insertion order
-    from collections import OrderedDict
     groups: OrderedDict[str, list[tuple[SourceChannel, Optional[IndexBlock]]]] = OrderedDict()
     for ch, blk in new_pairs:
         key = _channel_group_key(ch)
@@ -1798,6 +979,43 @@ def append_test_group(
     return total_urls
 
 
+def check_all_streams(
+    channels: list[SourceChannel],
+    workers: int,
+    timeout: int,
+    strict: bool,
+    log: logging.Logger,
+    stats: Stats,
+) -> dict[str, SourceChannel]:
+    """Параллельная проверка потоков; возвращает url → проверенный канал."""
+    done_count, total = 0, len(channels)
+    checked_map: dict[str, SourceChannel] = {}
+
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        futures = {pool.submit(check_stream, ch, timeout, log, strict): ch
+                   for ch in channels}
+        # as_completed отдаёт результаты в главном потоке — блокировки не нужны.
+        for future in as_completed(futures):
+            ch = future.result()
+            checked_map[ch.url] = ch
+
+            done_count += 1
+            if ch.reachable:
+                stats.reachable += 1
+            elif ch.net_error:
+                stats.net_fail += 1
+            else:
+                stats.dead += 1
+
+            if done_count % 25 == 0 or done_count == total:
+                pct = done_count / total * 100
+                log.info(
+                    f"   {done_count}/{total} ({pct:.0f}%)  "
+                    f"✅ {stats.reachable}  ❌ {stats.dead}  ⚠️  {stats.net_fail}"
+                )
+    return checked_map
+
+
 # ──────────────────────────────────────────────────────────
 #  Main
 # ──────────────────────────────────────────────────────────
@@ -1830,12 +1048,21 @@ def main():
         "--dry-run", action="store_true",
         help="Do everything but don't write the output file.",
     )
+    parser.add_argument(
+        "--strict", action="store_true",
+        help="Считать потоки с неопознанным форматом мёртвыми (по умолчанию — живыми).",
+    )
     args = parser.parse_args()
 
     log_file = None if str(args.log).lower() == "none" else args.log
     log = setup_logging(log_file)
-    sources = args.sources or SOURCE_URLS
     stats = Stats()
+
+    cfg = load_config(log)
+    sources = args.sources or cfg.sources
+    if not sources:
+        log.error("❌ Нет источников: заполни sources.txt или передай --sources. Exiting.")
+        sys.exit(1)
 
     log.info("=" * 60)
     log.info("🚀 M3U Index Updater started")
@@ -1852,7 +1079,7 @@ def main():
     log.info("STEP 1 — Reading index.m3u")
     log.info("-" * 60)
 
-    header_lines, blocks = parse_index_m3u(args.index, log)
+    header_lines, blocks = parse_index_m3u(args.index, cfg, log)
 
     if not blocks:
         log.error("❌ index.m3u has no channel blocks. Nothing to match against. Exiting.")
@@ -1861,6 +1088,8 @@ def main():
     log.info(f"   Found {len(blocks)} channel(s) in index:")
     for b in blocks:
         log.info(f"   • {b.name!r}  ({len(b.urls)} existing URL(s))")
+
+    validate_config(cfg, blocks, log)
 
     # ── Step 2: Fetch source playlists ───────────────────────────────────────
     log.info("")
@@ -1876,47 +1105,27 @@ def main():
             continue
         stats.sources_ok += 1
         found = parse_source_m3u(content, url, log)
-        blocklist_lower     = {b.lower() for b in BLOCKLIST}
-        aliases_lower       = {k.lower(): v for k, v in ALIASES.items()}
 
-        # URL blocklist: plain substrings vs. wildcard ('*') patterns.
-        url_block_plain    = {p.lower() for p in URL_BLOCKLIST if "*" not in p}
-        url_block_wildcard = [
-            _wildcard_to_regex(p.lower()) for p in URL_BLOCKLIST if "*" in p
-        ]
-
-        def _is_url_blocked(ch) -> bool:
-            if not url_block_plain and not url_block_wildcard:
-                return False
-            url_lc = ch.url.lower()
-            if any(pat in url_lc for pat in url_block_plain):
-                return True
-            return any(rx.search(url_lc) for rx in url_block_wildcard)
-
-        def _is_name_pattern_blocked(ch) -> bool:
-            return any(p.search(ch.name) for p in BLOCKLIST_PATTERNS)
-
-        filtered = [
-            ch for ch in found
-            if ch.name.strip().lower() not in blocklist_lower
-            and not _is_url_blocked(ch)
-            and not _is_name_pattern_blocked(ch)
-        ]
-        blocked = len(found) - len(filtered)
-        log.info(f"   → Parsed {len(found)} channel(s)  (blocked: {blocked})")
+        # Порядок единый: сначала алиас (каноническое имя), затем блоклисты.
+        # Иначе «Салям УФА» проходил фильтр по исходному имени, переименовывался
+        # в заблокированный «Салям» и попадал в 5a, но отсекался в 5b.
         for ch in found:
-            if ch.name.strip().lower() in blocklist_lower:
-                log.debug(f"   BLOCKED (name): {ch.name!r}")
-            elif _is_url_blocked(ch):
-                log.debug(f"   BLOCKED (url): {ch.name!r}  {ch.url!r}")
-            elif _is_name_pattern_blocked(ch):
-                log.debug(f"   BLOCKED (pattern): {ch.name!r}")
-        # Apply aliases: rename source channel name to canonical index name
-        for ch in filtered:
-            canonical = aliases_lower.get(ch.name.strip().lower())
+            canonical = cfg.aliases.get(ch.name.strip().lower())
             if canonical:
                 log.debug(f"   ALIAS: {ch.name!r} → {canonical!r}")
                 ch.name = canonical
+
+        filtered: list[SourceChannel] = []
+        for ch in found:
+            if ch.name.strip().lower() in cfg.name_blocklist:
+                log.debug(f"   BLOCKED (name): {ch.name!r}")
+            elif cfg.url_blocked(ch.url):
+                log.debug(f"   BLOCKED (url): {ch.name!r}  {ch.url!r}")
+            elif any(p.search(ch.name) for p in BLOCKLIST_PATTERNS):
+                log.debug(f"   BLOCKED (pattern): {ch.name!r}")
+            else:
+                filtered.append(ch)
+        log.info(f"   → Parsed {len(found)} channel(s)  (blocked: {len(found) - len(filtered)})")
         all_source_channels.extend(filtered)
 
     stats.parsed = len(all_source_channels)
@@ -1933,11 +1142,13 @@ def main():
     log.info("STEP 3 — Matching source channels to existing index blocks")
     log.info("-" * 60)
 
+    by_name, by_id = build_block_index(blocks)
+
     # Pairs (source_channel, index_block) where URL is new and block matches
     update_candidates: list[tuple[SourceChannel, IndexBlock]] = []
 
     for src_ch in all_source_channels:
-        blk = find_matching_block(src_ch, blocks, log)
+        blk = find_matching_block(src_ch, by_name, by_id, log)
         if blk is None:
             log.debug(f"   No match: {src_ch.name!r}")
             continue
@@ -1966,33 +1177,10 @@ def main():
             seen_urls.add(ch.url)
             all_to_check.append(ch)
 
-    done_count = 0
-    total = len(all_to_check)
-    lock = threading.Lock()
-    checked_map: dict[str, SourceChannel] = {}  # url → checked channel
-
-    with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        futures = {pool.submit(check_stream, ch, args.timeout, log): ch
-                   for ch in all_to_check}
-        for future in as_completed(futures):
-            ch = future.result()
-            checked_map[ch.url] = ch
-
-            with lock:
-                done_count += 1
-                if ch.reachable:
-                    stats.inc(reachable=1)
-                elif ch.check_error:
-                    stats.inc(errors=1)
-                else:
-                    stats.inc(unreachable=1)
-
-                if done_count % 25 == 0 or done_count == total:
-                    pct = done_count / total * 100
-                    log.info(
-                        f"   {done_count}/{total} ({pct:.0f}%)  "
-                        f"✅ {stats.reachable}  ❌ {stats.unreachable}  ⚠️  {stats.errors}"
-                    )
+    log.info("   ✅ живой   ❌ мёртвый (сервер отказал)   ⚠️ сеть/таймаут — не проверено")
+    checked_map = check_all_streams(
+        all_to_check, args.workers, args.timeout, args.strict, log, stats
+    )
 
     # ── Step 5a: Insert new URLs into matching existing blocks ───────────────
     log.info("")
@@ -2012,9 +1200,9 @@ def main():
                 f"  [{ch.http_status}, {ch.check_ms:.0f}ms]"
             )
 
-    # Write updated blocks back to file
-    if stats.inserted > 0 or True:  # always rewrite to keep file clean
-        write_index_m3u(args.index, header_lines, blocks, log, dry_run=args.dry_run)
+    # Всегда переписываем: даже без вставок парсер мог вычистить
+    # заблокированные URL — файл держим в каноничном виде.
+    write_index_m3u(args.index, header_lines, blocks, log, dry_run=args.dry_run)
 
     # ── Step 5b: Append ALL reachable source channels to test group ──────────
     log.info("")
@@ -2028,7 +1216,7 @@ def main():
 
     all_reachable_pairs: list[tuple[SourceChannel, Optional[IndexBlock]]] = [
         (ch, block_by_url.get(ch.url)) for ch in checked_map.values()
-        if ch.reachable and ch.name.strip().lower() not in blocklist_lower
+        if ch.reachable and ch.name.strip().lower() not in cfg.name_blocklist
    ]
 
     stats.appended = append_test_group(
@@ -2043,8 +1231,8 @@ def main():
     log.info(f"  Sources fetched         : {stats.sources_ok}  (failed: {stats.sources_fail})")
     log.info(f"  Source channels (total) : {stats.parsed}  (unique: {len(all_to_check)})")
     log.info(f"  ✅ Reachable            : {stats.reachable}")
-    log.info(f"  ❌ Unreachable          : {stats.unreachable}")
-    log.info(f"  ⚠️  Errors               : {stats.errors}")
+    log.info(f"  ❌ Dead (server said no): {stats.dead}")
+    log.info(f"  ⚠️  Network fail         : {stats.net_fail}  (сеть/таймаут — не проверено)")
     log.info(f"  🔗 Matched existing     : {stats.candidates}  → inserted: {stats.inserted}")
     log.info(f"  🧪 Appended to test     : {stats.appended} URL(s)")
     log.info(f"  📄 Index file           : {args.index}")
