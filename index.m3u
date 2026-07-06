@@ -854,8 +854,9 @@ http://37.186.70.39:40/play/93/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-classic.png" tvg-id="musicbox-classic" tvg-description="Классические музыкальные хиты (Music Box Classic).",Music Box Classic
 https://dash4.antik.sk/live/mb_classic/index.m3u8
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Телеканал классической музыки.",Classic Music HD
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Телеканал классической музыки.",Classic Music
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/14009/index.m3u8
+#http://stream.mcquack.net/312/index.m3u8
 
 #EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv" tvg-description="Телеверсия радио «Европа Плюс»: топовые зарубежные и русские хиты.",Europa Plus TV
 http://stream.mcquack.net/184/index.m3u8
@@ -880,9 +881,6 @@ https://rutvkids.ru/live/efir/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/song-tv-ru.png" tvg-id="song-tv-ru" tvg-description="Армянский музыкальный телеканал Song TV.",Song TV
 http://songtvam.ru:8060/hd/playlist.m3u8
-
-#EXTINF:-1 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Классическая музыка круглосуточно: концерты, опера и балет.",Classic Music
-http://stream.mcquack.net/312/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/iconcerts.png" tvg-id="iconcerts" tvg-description="Телеканал концертов и живой музыки (Stingray).",Stingray Iconcerts
 
@@ -1721,7 +1719,6 @@ https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/konny-mir.png" tvg-id="konny-mir" tvg-description="Конный мир — российский специализированный телеканал о конном спорте и коневодстве.",Конный мир
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/mir-basketbola.png" tvg-id="mir-basketbola" tvg-description="Мир баскетбола — российский тематический телеканал, посвящённый баскетболу. Транслирует матчи и программы о баскетболе.",Мир баскетбола
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/10033/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sportivny.png" tvg-id="sportivny" tvg-description="Спорт HD — российский спортивный телеканал в высоком разрешении. Транслирует разнообразные соревнования.",Спорт HD
@@ -1849,12 +1846,11 @@ http://stream.mcquack.net/416/index.m3u8
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/football-ru.png" tvg-id="football-ru" tvg-description="Телеканал Футбол — российский спортивный канал, специализирующийся на трансляциях футбольных матчей.",Телеканал Футбол
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/football-ru.png" tvg-id="football-ru" tvg-description="Футбол — тематический спортивный телеканал, транслирующий футбольные матчи и программы.",Футбол
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/5050/index.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/footbolny.png" tvg-id="footbolny" tvg-description="Футбольный — российский спортивный телеканал, посвящённый футболу.",Футбольный
 
-#EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/ifa-plus-uk.png" tvg-id="ifa-plus-uk" tvg-description="FIFA+ — официальный телеканал ФИФА: трансляции матчей и документальные фильмы о футболе.",Fifa+
+#EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/fifa-plus-uk.png" tvg-id="fifa-plus-uk" tvg-description="FIFA+ — официальный телеканал ФИФА: трансляции матчей и документальные фильмы о футболе.",Fifa+
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta-sports.png" tvg-id="setanta-sports" tvg-description="Спортивный телеканал Setanta Sports.",Setanta Sports 1
@@ -1886,11 +1882,9 @@ https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8
 # Юмор
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv" tvg-description="КВН ТВ — российский телеканал, транслирующий программы и игры КВН (Клуб весёлых и находчивых).",КВН ТВ
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/546/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Сарафан — российский телеканал с контентом о лайфстайле, кулинарии и домашнем уюте.",Сарафан
-
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/748/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvoetv-humor.png" tvg-id="tvoetv-humor" tvg-description="Твоё ТВ Юмор — российский тематический телеканал с юмористическими программами.",Твоё ТВ Юмор
@@ -1909,7 +1903,6 @@ http://37.186.70.39:40/play/33/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/paramount-comedy.png" tvg-id="paramount-comedy" tvg-description="Comedy Central — международный развлекательный телеканал, специализирующийся на комедийных шоу, стендапе и ситкомах.",Comedy Central
 
-
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/gags-network.png" tvg-id="gags-network" tvg-description="GagsNetwork — международный развлекательный канал, известный видеороликами со скрытой камерой и розыгрышами.",GagsNetwork
 
 # candidate
@@ -1921,19 +1914,7 @@ http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwM
 #https://tv.mobyservice.ru/livetv/index.m3u8
 
 #EXTINF:0 group-title="candidate",Unknown
-#http://stream.mcquack.net/211/index.m3u8
-
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-07-05 10:32:11  (10 URLs in 10 channel group(s))
-# ───────────────────────────────────────────────────
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Armenia Premium 1
-http://stream.mcquack.net/123/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",LTV1 (Латвия)
-http://stream.mcquack.net/34/index.m3u8
+http://stream.mcquack.net/211/index.m3u8
 
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju+ Serial
 http://stream.mcquack.net/311/index.m3u8
