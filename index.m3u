@@ -642,6 +642,10 @@ http://stream.mcquack.net/200/index.m3u8
 #EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere" tvg-description="Новинки кино вскоре после проката (viju+ Premiere).",Premiere
 http://stream.mcquack.net/202/index.m3u8
 
+#EXTINF:-1 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial",Serial
+http://stream.mcquack.net/311/index.m3u8
+#http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2443/index.m3u8
+
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viasat Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viasat Explore
 http://185.102.171.218/ViasatExplorer/index.m3u8
 #http://85.11.144.9:4222/ViasatExplorer
@@ -1913,18 +1917,11 @@ http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwM
 #http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://tv.mobyservice.ru/livetv/index.m3u8
 
-#EXTINF:0 group-title="candidate",Unknown
-http://stream.mcquack.net/211/index.m3u8
-
-#EXTINF:-1 group-title="test",Viju+ Serial
-http://stream.mcquack.net/311/index.m3u8
-#http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/2443/index.m3u8
-
-#EXTINF:-1 group-title="test",НСТ
+#EXTINF:-1 group-title="candidate",НСТ
 http://stream.mcquack.net/207/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/726/index.m3u8
 
-#EXTINF:-1 group-title="test",Kinoliving
+#EXTINF:-1 group-title="candidate",Kinoliving
 http://stream.mcquack.net/445/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16018/index.m3u8
 
