@@ -449,7 +449,6 @@ http://stream.mcquack.net/395/index.m3u8
 http://stream.mcquack.net/465/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kino-24.png" tvg-id="kino-24" tvg-description="Круглосуточный киноканал художественных фильмов.",Kino 24
-http://85.192.10.173/Kino24Ru/video.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood" tvg-description="Остросюжетное мировое кино: боевики, триллеры и чёрные комедии.",Kinowood
 http://stream.mcquack.net/446/index.m3u8
@@ -461,9 +460,8 @@ https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 http://rezofoot.tv/PARAMOUNT-CHANNEL/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/pro100.png" tvg-id="pro100" tvg-description="Семейный телеканал художественного кино: зарубежная и отечественная киноклассика, детские и познавательные программы.",PRO100 TV
-http://85.192.10.173/Pro100tvRu/video.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi" tvg-description="Фантастические сериалы и фильмы (бывший Sony Sci-Fi).",sci-fi
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi" tvg-description="Фантастические сериалы и фильмы (бывший Sony Sci-Fi).",.sci-fi
 http://stream.mcquack.net/180/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-description="Киноканал художественных фильмов.",Star Cinema
@@ -983,6 +981,7 @@ http://37.186.70.39:40/play/28/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/127/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/12023/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/204/index.m3u8
+#http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19241/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/prnk-tv.png" tvg-id="prnk-tv" tvg-description="ПРНК — публично-правовая радиотелевизионная компания Нагорного Карабаха.",ПРНК
 
@@ -1893,47 +1892,31 @@ http://stream.mcquack.net/207/index.m3u8
 http://stream.mcquack.net/445/index.m3u8
 #http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/16018/index.m3u8
 
+#EXTINF:0 group-title="candidate",11 канал
+http://85.234.33.64/stream/c11.m3u8
+
+#EXTINF:0 group-title="candidate",Deluxe Lounge
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
+
+#EXTINF:0 group-title="candidate",Best of Dance TV
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+
+#EXTINF:0 group-title="candidate",EDM Mainstage
+https://mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8
+
+#EXTINF:0 group-title="candidate",Minimal / Deep Tech
+https://mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8
+
+#EXTINF:0 group-title="candidate",Euronews
+https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
+
+
+
+
 #EXTINF:0 tvg-rec="0" group-title="test",Venera.TV Экстрасенсы
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/30190/index.m3u8
 
-#EXTINF:0 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",11 канал (Пенза)
-http://85.234.33.64/stream/c11.m3u8
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-07-05 11:07:49  (3952 URLs in 2948 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:0 group-title="test" tvg-logo="https://deluxemusic.de/wp-content/uploads/sites/4/2023/01/DLXM_LOUNGE_LOGO.png",Deluxe Lounge HD
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
-#EXTINF:0 group-title="test" tvg-logo="https://www.dancetv.net/img/DTlogo.png",Best of Dance TV
-https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
-#EXTINF:0 group-title="test" tvg-logo="https://www.dancetv.net/img/DTlogo.png",EDM Mainstage
-https://mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8
-#EXTINF:0 group-title="test" tvg-logo="https://www.dancetv.net/img/DTlogo.png",Minimal / Deep Tech
-https://mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8
-#EXTINF:0 group-title="test" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_FARATAR_UHD.png/960px-IRIB_FARATAR_UHD.png" ,IRIB UHD
-https://ncdn.telewebion.ir/faratar/live/2160p/index.m3u8
-#EXTINF:0 group-title="test" tvg-logo="https://i.postimg.cc/vTYFgPBB/LOGO23-RADIO.png" ,TRANCE IS STAR RADIO
-https://myradio24.org/tisradio_video.m3u8
-#EXTINF:0  group-title="test",euronews
-https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
-#EXTINF:0  group-title="test",Gametoon
-http://vjl8lxsx.megatv.fun/iptv/PSQ3LNVTTR4RSG8FC4UXC5CX/5049/index.m3u8
-#EXTINF:0  group-title="test",Realitatea Plus
-https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
-#EXTINF:0  group-title="test",RTL Crime HD
-http://c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/15178/index.m3u8
-#EXTINF:0  group-title="test",RTL Passion
-http://c3921155.edmonst.net/iptv/65C7UBRRW8GHQVYPH2MQT3SA/31369/index.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/zHrPSQ9v/image-15.png" group-title="test",CherTV Заруба + KinoMix
-https://ab2262fdd9c5.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.061051251131.channel.kOLvChA3aUIE.m3u8
-#EXTINF:0 tvg-logo="https://i.ibb.co/zHrPSQ9v/image-15.png" group-title="test",KinoMix
-https://ab2262fdd9c5.eu-central-1.playback.live-video.net/api/video/v1/eu-central-1.061051251131.channel.QK20f3fCHAGw.m3u8
-#EXTINF:0 group-title="test",Afrobeats 247
-https://stream.ecable.tv/afrobeats/tracks-v1a1/mono.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Первый канал UHD
-http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19241/index.m3u8
 #EXTINF:0 tvg-rec="0" group-title="test",Россия 1 UHD
 http://pfnwl2av.lunexas.top/iptv/PDS2THE2VHU8NZ/19242/index.m3u8
 #EXTINF:0 tvg-rec="0" group-title="test",НТВ UHD
