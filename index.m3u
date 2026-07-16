@@ -280,8 +280,6 @@ http://stream.mcquack.net/111/index.m3u8
 
 #EXTINF:0 group-title="Зарубежные" tvg-logo="https://iptvx.one/picons/cnn.png" tvg-id="cnn" tvg-description="CNN — американский круглосуточный новостной телеканал (на английском языке).",CNN
 
-https://shift03.isp.bg/CNN/index.m3u8
-
 #EXTINF:0 group-title="Зарубежные" tvg-logo="https://iptvx.one/picons/kazakhstan.png" tvg-id="kazakhstan" tvg-description="Национальный телеканал Республики Казахстан (на казахском языке).",Qazaqstan
 
 # Здоровье
@@ -1979,55 +1977,13 @@ https://mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8
 #EXTINF:0 group-title="candidate",Minimal / Deep Tech
 https://mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8
 
-
-
-#EXTINF:0 group-title="test", Realitatea Star TV MD
-http://stream.realitatea.net/realitatea/star_md/medialist_7351611093486677382_hls.m3u8
-
-#EXTINF:0 group-title="test", Realitatea Plus TV MD
-http://stream.realitatea.net/realitatea/plus_md/medialist_7351611093486677382_hls.m3u8
-
-#EXTINF:0 group-title="test",+TV
-http://e87149a8.megogo.xyz/iptv/275EP3V8V4MZHG8KQGLFDPSK/10036/index.m3u8
-
-#EXTINF:0 group-title="test", Prima TV Moldova MD
-http://5a518cc9.edmonst.net/iptv/TZUTU9NWR577EM/6995/index.m3u8
-
-#EXTINF:0 group-title="test",Gurinel TV MD
-http://5a518cc9.edmonst.net/iptv/TZUTU9NWR577EM/2469/index.m3u8
-
-#EXTINF:0 group-title="test", Realitatea Sportiva TV MD
-https://stream.realitatea.net/realitatea/sportiva_md/medialist_7351611093486677382_hls.m3u8
-
-#EXTINF:0 group-title="test",Qazaqstan  Ulttyq Oner KZ
-https://stream.qaztv.kz/live/stream6/index.m3u8
-
-#EXTINF:0 group-title="test",Qazaqstan  Sport KZ
-https://stream.qaztv.kz/live/stream9/index.m3u8
-
-#EXTINF:0 group-title="test",Qazaqstan Serial KZ
-https://stream.qaztv.kz/live/stream1/index.m3u8
-
-#EXTINF:0 group-title="test",Qazaqstan Music KZ
-https://stream.qaztv.kz/live/stream3/index.m3u8
-
-#EXTINF:0 group-title="test",Qazaqstan Retro KZ
-https://stream.qaztv.kz/live/stream7/index.m3u8
-
-#EXTINF:0 group-title="test",Qazaqstan Mult KZ
-https://stream.qaztv.kz/live/stream4/index.m3u8
-
-#EXTINF:0 group-title="test",Qazaqstan Derektiv Film KZ
-https://stream.qaztv.kz/live/stream5/index.m3u8
-
-#EXTINF:0 tvg-id="APATv.az@SD" tvg-logo="https://i.imgur.com/2CSW4V4.png" group-title="test",APA Tv AZ
-http://stream.apa.tv/apastream/video1_stream.m3u8
-
-#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/wNdgHcp3/image-4.png" group-title="test", Sportdigital Free
+#EXTINF:0 group-title="candidate",Sportdigital Free
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/2d920251-818e-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=CH&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
 
-#EXTINF:0 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/SXQp3Gng/image-2025-10-10-T204908-756.png" group-title="test", Auto Motor Sport
+#EXTINF:0 group-title="candidate",Auto Motor Sport
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/31209ff0-72bd-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=DE&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
+
+
 
 #EXTINF:0 tvg-logo="[img]http://iptv-content.rv77.pw/336x192/19209.png[/img]" catchup-days="6" catchup-type="flussonic" group-title="Baltic Балтийские", TV3 [EE]
 https://nl01.plink-pile.ch/19209/index.m3u8?token=ciNrfUm5q2v9tU
@@ -2129,61 +2085,14 @@ https://nl01.plink-pile.ch/19229/index.m3u8?token=ciNrfUm5q2v9tU
 https://nl01.plink-pile.ch/19230/index.m3u8?token=ciNrfUm5q2v9tU
 
 
-#EXTINF:-1 group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Premiere 1 HD
+#EXTINF:0 group-title="candidate",ZTV Premiere 1 HD
 https://kinostream3-premiera-1.hf.space/hls/stream.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Premiere 2 HD
+
+#EXTINF:0 group-title="candidate",ZTV Premiere 2 HD
 https://kinostream3-premiera-2.hf.space/hls/stream.m3u8
 
-#EXTINF:-1  group-title="test",TGRT Belgesel
-http://463758a0.ucomist.net/iptv/42L7TCH8YYKLBRHNPV52HBRN/6860/index.m3u8
-#EXTINF:-1 group-title="test",NOVA
-https://shift03.isp.bg/Nova_HD/index.m3u8
-#EXTINF:-1 group-title="test",HBO HD bg
-https://shift03.isp.bg/HBO2_HD/index.m3u8
-#EXTINF:-1 group-title="test",HBO 3 HD bg
-https://shift03.isp.bg/HBO3_HD/index.m3u8
-#EXTINF:-1 group-title="test",bTV Action HD
-http://shift03.isp.bg/bTVAction_HD/index.m3u8
-#EXTINF:-1 group-title="test",MovieStar HD
-https://shift03.isp.bg/MovieStar/index.m3u8
-#EXTINF:-1 group-title="test",AMC
-https://shift03.isp.bg/amc/index.m3u8
-#EXTINF:-1 group-title="test",Diema HD
-https://shift03.isp.bg/Diema/index.m3u8
-#EXTINF:-1 group-title="test",Diema Family
-https://shift03.isp.bg/DiemaFamily/index.m3u8
 #EXTINF:-1 group-title="test",Epic Drama HD
-https://shift03.isp.bg/EpicDrama/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/1048/index.m3u8
-#EXTINF:-1 group-title="test",MagicTV HD
-https://shift03.isp.bg/MagicTV/index.m3u8
-#EXTINF:-1 group-title="test",RodinaTV HD
-https://shift03.isp.bg/RodinaTV/index.m3u8
-#EXTINF:-1 group-title="test",DMSat
-https://shift03.isp.bg/DMSat/index.m3u8
-#EXTINF:-1 group-title="test",Planeta HD
-https://shift03.isp.bg/Planeta_HD/index.m3u8
-#EXTINF:-1 group-title="test",Bulgaria24
-http://shift03.isp.bg/Bulgaria24/index.m3u8
-#EXTINF:-1 group-title="test",MTV Europe
-https://shift03.isp.bg/MTVEurope/index.m3u8
-#EXTINF:-1 group-title="test",BBC
-https://shift03.isp.bg/BBC/index.m3u8
-#EXTINF:-1 group-title="test",HGTV HD bg
-https://shift03.isp.bg/HGTV_HD/index.m3u8
-#EXTINF:-1 group-title="test",Viasat History HD bg
-https://shift03.isp.bg/ViasatHistory_HD/index.m3u8
-#EXTINF:-1 group-title="test",Viasat Explorer HD bg
-https://shift03.isp.bg/ViasatExplorer_HD/index.m3u8
-#EXTINF:-1 group-title="test",Viasat Nature HD bg
-https://shift03.isp.bg/ViasatNature_HD/index.m3u8
-#EXTINF:-1 group-title="test",NatGeo HD bg
-https://shift03.isp.bg/NatGeo_HD/index.m3u8
-#https://shift03.isp.bg/NatGeoWild_HD/index.m3u8
-#EXTINF:-1 group-title="test",Discovery HD
-https://shift03.isp.bg/Discovery_HD/index.m3u8
-#EXTINF:-1 group-title="test",ID HD bg
-https://shift03.isp.bg/ID_HD/index.m3u8
 #EXTINF:-1 group-title="test",sport m
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
 #EXTINF:-1 group-title="test",SPORTV 2
@@ -2192,8 +2101,6 @@ http://177.52.24.163/SPORTV-2-HD/index.m3u8
 http://177.52.24.163/SPORTV-1-HD/index.m3u8
 #EXTINF:-1 group-title="test",ESPN 4
 http://177.52.24.163/ESPN-4-HD/index.m3u8
-#EXTINF:-1 group-title="test",Arena Sport 1 HD Serbian
-https://shift03.isp.bg/Arena_Sport_1/index.m3u8
 #EXTINF:-1 group-title="test",PREMIERE 1
 http://177.52.24.163/PREMIERE-1-HD/index.m3u8
 #EXTINF:-1 group-title="test",PREMIERE 2
@@ -2202,25 +2109,7 @@ http://177.52.24.163/PREMIERE-2-HD/index.m3u8
 http://177.52.24.163/PREMIERE-3-HD/index.m3u8
 #EXTINF:-1 group-title="test",PREMIERE 4
 http://177.52.24.163/PREMIERE-4-HD/index.m3u8
-#EXTINF:-1 group-title="test",Arena Sport 2 HD Serbian
-https://shift03.isp.bg/Arena_Sport_2/index.m3u8
-#EXTINF:-1 group-title="test",Arena Sport 4 HD Serbian
-https://shift03.isp.bg/Arena_Sport_4/index.m3u8
-#EXTINF:-1 group-title="test",Arena Sport 5 HD Serbian
-https://shift03.isp.bg/Arena_Sport_5/index.m3u8
-#EXTINF:-1 group-title="test",Diema Sport HD Serbian
-https://shift03.isp.bg/Diema_Sport_HD/index.m3u8
-#EXTINF:-1 group-title="test",Diema Sport 2 HD Serbian
-https://shift03.isp.bg/Diema_Sport_2_HD/index.m3u8
-#EXTINF:-1 group-title="test",Nova Sport HD Serbian
-https://shift03.isp.bg/NovaSport_HD/index.m3u8
-#EXTINF:-1 group-title="test",XXL
-https://shift03.isp.bg/XXL/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/5009/index.m3u8
-#EXTINF:-1 group-title="test",Erox HD
-https://shift03.isp.bg/Eroxxx/index.m3u8
-#https://shift03.isp.bg/Erox/index.m3u8
-#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/6296/index.m3u8
 #EXTINF:-1 group-title="test", Boomerang
 http://176.118.197.125/Boomerang/index.m3u8
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Deutsche Welle
