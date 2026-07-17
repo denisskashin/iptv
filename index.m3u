@@ -1804,6 +1804,7 @@ http://stream.mcquack.net/148/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/fast-sport-am.png" tvg-id="fast-sport-am" tvg-description="Спортивный телеканал.",Fast Sport
 http://37.186.70.39:40/play/80/index.m3u8
+#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15507/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/fx-sports-1-us.png" tvg-id="fx-sports-1-us" tvg-description="FS1 (Fox Sports 1) — американский спортивный телеканал сети Fox. Транслирует широкий спектр спортивных соревнований.",FS1
 
@@ -1993,11 +1994,8 @@ https://kinostream3-premiera-2.hf.space/hls/stream.m3u8
 #EXTINF:0 group-title="candidate",sport m
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
 
-#EXTINF:-1 group-title="test",Epic Drama HD
+#EXTINF:-1 group-title="candidate",Epic Drama HD
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/1048/index.m3u8
-
-#EXTINF:-1 group-title="test",PREMIERE 4
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/5009/index.m3u8
 
 #EXTINF:0 group-title="candidate",Deutsche Welle
 http://stream.mcquack.net/440/index.m3u8
@@ -2058,109 +2056,112 @@ http://89.104.114.24:8080/art/index.m3u8
 #EXTINF:0 group-title="candidate",KN Music TV
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 
-#EXTINF:0 tvg-rec="0" group-title="test",Nor Hayastan AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15210/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",FreeNews AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15212/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Arma TV AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15214/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Nur TV HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15489/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Armenian Business News HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15490/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",1 Lurer HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15491/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Kotayk TV AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15498/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Tsayg TV HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15499/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",FreeNews HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15501/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Armount TV HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15502/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Lori TV HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15500/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",5TV Plus HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15488/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Fortuna TV HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15503/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",ArmToon HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15504/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Fast Sports HD AM
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15507/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",Москва 24
+#EXTINF:0 group-title="candidate",Москва 24
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/523/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",Санкт-Петербург
+
+#EXTINF:0 group-title="candidate",Санкт-Петербург
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/715/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",Euronews Россия
+
+#EXTINF:0 group-title="candidate",Euronews Россия
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/828/index.m3u8
-#EXTINF:0 tvg-rec="3" group-title="test",VF Сериалы Турции
+
+#EXTINF:0 group-title="candidate",VF Сериалы Турции
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/9123/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF Вестерн
+
+#EXTINF:0 group-title="candidate",VF Вестерн
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/31553/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Viasat Kino World orig
+
+#EXTINF:0 group-title="candidate",Viasat Kino World
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/31447/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Romance HD
+
+#EXTINF:0 group-title="candidate",Romance
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2037/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Suspense HD
+
+#EXTINF:0 group-title="candidate",Suspense
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2049/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Sumiko HD
+
+#EXTINF:0 group-title="candidate",Sumiko
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2163/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",Лавстори HD
+
+#EXTINF:0 group-title="candidate",Лавстори
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2034/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",Viju TV1000 Новелла HD
+
+#EXTINF:0 group-title="candidate",Viju TV1000 Новелла
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2002/index.m3u8
-#EXTINF:0 tvg-rec="3" group-title="test",Советская киноклассика HD
+
+#EXTINF:0 group-title="candidate",Советская киноклассика
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2146/index.m3u8
-#EXTINF:0 tvg-rec="3" group-title="test",VHS-ка HD
+
+#EXTINF:0 group-title="candidate",VHS-ка
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/5006/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Viasat Serial HD
+
+#EXTINF:0 group-title="candidate",Viasat Serial
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17056/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Scream HD
+
+#EXTINF:0 group-title="candidate",Scream
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20021/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Shot TV HD
+
+#EXTINF:0 group-title="candidate",Shot TV
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20022/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/526/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",Citrus Holiday
+
+#EXTINF:0 group-title="candidate",Citrus Holiday
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/16089/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",4ever Drama HD UA
+
+#EXTINF:0 group-title="candidate",4ever Drama
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17051/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",FilmZone Plus HD EE
+
+#EXTINF:0 group-title="candidate",FilmZone Plus
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20025/index.m3u8
-#EXTINF:0 tvg-rec="3" group-title="test",VF Счастливы Вместе
+
+#EXTINF:0 group-title="candidate",VF Счастливы Вместе
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/9242/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",VF Бесстыжие
+
+#EXTINF:0 group-title="candidate",VF Бесстыжие
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10075/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",VF Два с половиной человека
+
+#EXTINF:0 group-title="candidate",VF Два с половиной человека
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10062/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF С новым годом!
+
+#EXTINF:0 group-title="candidate",VF С новым годом!
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15524/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF Ёлки
+
+#EXTINF:0 group-title="candidate",VF Ёлки
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14222/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF Новогодний
+
+#EXTINF:0 group-title="candidate",VF Новогодний
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17035/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF New Year
+
+#EXTINF:0 group-title="candidate",VF New Year
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15522/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF Карточный домик
+
+#EXTINF:0 group-title="candidate",VF Карточный домик
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14221/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF Секс в большом городе
+
+#EXTINF:0 group-title="candidate",VF Секс в большом городе
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14224/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF Гарри Поттер
+
+#EXTINF:0 group-title="candidate",VF Гарри Поттер
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14230/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",VF Disney Movie
+
+#EXTINF:0 group-title="candidate",VF Disney Movie
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15010/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",VF Владимир Высоцкий
+
+#EXTINF:0 group-title="candidate",VF Владимир Высоцкий
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10066/index.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",RT en Espanol (720p)
-https://live-evg10.tv360.bitel.com.pe/bitel/rt/playlist.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",BOX M.Serial HD
+
+#EXTINF:0 tvg-rec="0" group-title="candidate",BOX M.Serial
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/19280/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="test",Viju TV1000 Русское
+
+#EXTINF:0 tvg-rec="0" group-title="candidate",Viju TV1000 Русское
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/101/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",BCU TruMotion HD
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17054/index.m3u8
-#EXTINF:0 tvg-rec="0" group-title="test",BOX Serial HD
+
+#EXTINF:0 tvg-rec="0" group-title="candidate",BOX Serial
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/19281/index.m3u8
+
+
+
+
 #EXTINF:0 tvg-rec="0" group-title="test",VF Теория большого взрыва
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15009/index.m3u8
 #EXTINF:0 tvg-rec="3" group-title="test",Cinemax Hits HD US
