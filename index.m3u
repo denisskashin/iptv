@@ -253,7 +253,6 @@ http://stream.mcquack.net/305/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/jimjam.png" tvg-id="jimjam" tvg-description="Международный детский телеканал для дошкольников.",JimJam
 http://stream.mcquack.net/150/index.m3u8
 #http://176.118.197.125/JimJam/index.m3u8
-#https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132524&extension=ts
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/138/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/kidstv.png" tvg-id="kidstv" tvg-description="Детский телеканал с мультфильмами.",Kids TV
@@ -496,7 +495,6 @@ http://stream.mcquack.net/92/index.m3u8
 http://37.186.70.39:40/play/93/index.m3u8
 #http://stream.mcquack.net/318/index.m3u8
 #http://stream.mcquack.net/320/index.m3u8
-#https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132431&extension=ts
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Телеканал классической музыки.",Classic Music
 #http://stream.mcquack.net/312/index.m3u8
@@ -739,7 +737,6 @@ http://217.114.191.150/Subbota/index.m3u8
 http://37.186.70.39:40/play/32/index.m3u8
 #http://line.team-tv.link:80/jLKLjOvdU/beAi6ilBrs/2073
 #http://94.230.129.31:8080/THT/index.m3u8
-#https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132735&extension=ts
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/502/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/237/index.m3u8
 
@@ -865,8 +862,7 @@ http://stream.mcquack.net/419/index.m3u8
 http://stream.mcquack.net/403/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20" tvg-description="«Наука 2.0» — российский научно-популярный телеканал.",Наука 2.0
-#http://stream.mcquack.net/125/index.m3u8
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132628&extension=ts
+http://stream.mcquack.net/125/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/oruzhie.png" tvg-id="oruzhie" tvg-description="Познавательный телеканал об оружии, его истории и испытаниях.",Оружие
 #http://37.186.70.39:40/play/47/index.m3u8
@@ -1253,7 +1249,6 @@ http://stream.mcquack.net/464/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus" tvg-description="TLC (The Learning Channel) — международный развлекательный телеканал. Специализируется на реалити-шоу, лайфстайл и документальных программах.",TLC
 http://stream.mcquack.net/168/index.m3u8
-#https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132731&extension=ts
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" tvg-description="Развлекательный канал о стиле жизни, реальных историях и хобби.",TLC HD
 http://176.118.197.125/TLC-HD/index.m3u8
@@ -1586,7 +1581,6 @@ http://200.10.30.241:8000/play/a01r/index.m3u8
 http://stream.mcquack.net/176/index.m3u8
 #http://37.186.70.39:40/play/111/index.m3u8
 #http://znty.dyndns.org:5010/hls/eurosport.m3u8
-#https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132477&extension=ts
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/141/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2" tvg-description="Eurosport 2 — второй канал сети Eurosport. Транслирует экстремальные виды спорта, а также дополнительные трансляции из сетки Eurosport.",Eurosport 2
@@ -1787,9 +1781,9 @@ http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwM
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15009/index.m3u8
 #EXTINF:0 tvg-rec="3" group-title="candidate",Cinemax Hits HD US
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/6152/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="candidate",Viju TV1000 Action
+#EXTINF:0 tvg-rec="7" group-title="candidate" tvg-id="tv1000-action",Viju TV1000 Action
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/131/index.m3u8
-#EXTINF:0 tvg-rec="7" group-title="candidate",ТВ 21
+#EXTINF:0 tvg-rec="7" group-title="candidate" ,ТВ 21
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/525/index.m3u8
 #EXTINF:0 tvg-rec="7" group-title="candidate",Сапфир
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/553/index.m3u8
