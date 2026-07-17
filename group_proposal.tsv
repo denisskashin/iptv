@@ -1,0 +1,2421 @@
+# ПРЕДЛОЖЕНИЕ разбора кандидатов. Проверь и поправь, потом: python3 group_candidates.py --apply
+# всего кандидатов: 2377; предложено: 1215; осталось в candidate: 1161
+# способ: точное совпадение id/имени с уже разобранными (567) + ключевые слова (648)
+# столбцы: решение<TAB>имя<TAB>целевой_файл<TAB>группа<TAB>основание
+#   решение: move (перенести) или skip (оставить в candidate)
+#   можно менять целевой_файл (index.m3u/cinema.m3u) и группу
+#
+#  390  index.m3u   Спорт
+#  158  cinema.m3u  Кино
+#   94  index.m3u   Детские
+#   76  index.m3u   Музыка
+#   75  index.m3u   Познавательные
+#   38  index.m3u   Общественные
+#   38  index.m3u   Путешествия
+#   38  index.m3u   Сериалы
+#   32  index.m3u   Развлекательные
+#   29  index.m3u   Природа
+#   28  index.m3u   Футбол
+#   24  index.m3u   Новости
+#   22  index.m3u   Матч!
+#   19  cinema.m3u  Viju (Viasat)
+#   19  index.m3u   Юмор
+#   16  index.m3u   Кулинария
+#   13  cinema.m3u  Fresh
+#   13  index.m3u   Бокс и единборства
+#   11  index.m3u   Авто и мотоспорт
+#   11  index.m3u   Охота и Рыбалка
+#    9  index.m3u   Дача и ремонт
+#    9  index.m3u   НТВ
+#    8  cinema.m3u  CineMan
+#    8  index.m3u   Религия и изотерика
+#    7  index.m3u   Мода
+#    7  index.m3u   Региональные
+#    5  index.m3u   Здоровье
+#    5  index.m3u   Космос
+#    4  index.m3u   Бизнес
+#    4  index.m3u   Культура
+#    3  index.m3u   Зарубежные
+#    2  cinema.m3u  BCU
+#
+move	BCU Media HD	cinema.m3u	BCU	ref:id
+move	BCU Russia 90s HD	cinema.m3u	BCU	ref:id
+move	CineMan Action	cinema.m3u	CineMan	ref:id
+move	CineMan Marvel	cinema.m3u	CineMan	ref:id
+move	CineMan Thriller	cinema.m3u	CineMan	ref:id
+move	CineMan Top	cinema.m3u	CineMan	ref:id
+move	CineMan VHS	cinema.m3u	CineMan	ref:id
+move	CineMan Катастрофы	cinema.m3u	CineMan	ref:id
+move	CineMan Комедия	cinema.m3u	CineMan	ref:id
+move	CineMan Ужасы	cinema.m3u	CineMan	ref:id
+move	Cinema HD	cinema.m3u	Fresh	ref:name
+move	Fresh Adventure	cinema.m3u	Fresh	ref:id
+move	Fresh Cinema	cinema.m3u	Fresh	ref:id
+move	Fresh Comedy	cinema.m3u	Fresh	ref:id
+move	Fresh Family	cinema.m3u	Fresh	ref:id
+move	Fresh Fantastic	cinema.m3u	Fresh	ref:id
+move	Fresh Horror	cinema.m3u	Fresh	ref:id
+move	Fresh Kids	cinema.m3u	Fresh	ref:id
+move	Fresh Premiere	cinema.m3u	Fresh	ref:id
+move	Fresh Rating	cinema.m3u	Fresh	ref:id
+move	Fresh Romantic	cinema.m3u	Fresh	ref:id
+move	Fresh Thriller	cinema.m3u	Fresh	ref:id
+move	Fresh VHS	cinema.m3u	Fresh	ref:id
+move	Viasat Kino World HD	cinema.m3u	Viju (Viasat)	ref:id
+move	Viasat Kino World HD orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 Action	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 Action HD	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 Action HD orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 Action orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 HD	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 HD orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 Русское HD	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 Русское HD orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju TV1000 Русское orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju+ Comedy HD	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju+ Comedy HD orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju+ Megahit HD	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju+ Megahit HD orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju+ Premiere HD	cinema.m3u	Viju (Viasat)	ref:id
+move	Viju+ Premiere HD orig	cinema.m3u	Viju (Viasat)	ref:id
+move	Дом Кино orig	cinema.m3u	Кино	ref:id
+move	Дом Кино Премиум HD	cinema.m3u	Кино	ref:id
+move	Дом Кино Премиум HD orig	cinema.m3u	Кино	ref:id
+move	Душевное HD	cinema.m3u	Кино	ref:name
+move	Душевное HD orig	cinema.m3u	Кино	ref:name
+move	Еврокино HD orig	cinema.m3u	Кино	ref:id
+move	Еврокино orig	cinema.m3u	Кино	ref:id
+move	Иллюзион+	cinema.m3u	Кино	kw:иллюзион
+move	Иллюзион+ HD orig	cinema.m3u	Кино	kw:иллюзион
+move	Иллюзион+ orig	cinema.m3u	Кино	kw:иллюзион
+move	Индийское Кино orig	cinema.m3u	Кино	ref:id
+move	Индия orig	cinema.m3u	Кино	ref:id
+move	Кино UHD	cinema.m3u	Кино	kw:кино
+move	Кино ТВ HD orig	cinema.m3u	Кино	ref:id
+move	Кино ТВ orig	cinema.m3u	Кино	ref:id
+move	Кинозал 1 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 10 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 11 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 12 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 2 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 3 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 4 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 5 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 6 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 7 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 8 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинозал 9 (Триколор)	cinema.m3u	Кино	kw:кино
+move	Кинокомедия HD	cinema.m3u	Кино	ref:id
+move	Кинокомедия orig	cinema.m3u	Кино	ref:id
+move	КиноКульт HD	cinema.m3u	Кино	kw:кино
+move	Киноман	cinema.m3u	Кино	kw:кино
+move	Киноман orig	cinema.m3u	Кино	kw:кино
+move	Киномикс HD	cinema.m3u	Кино	ref:id
+move	Киномикс orig	cinema.m3u	Кино	ref:id
+move	КиноМульт	cinema.m3u	Кино	kw:кино
+move	Кинопоказ HD	cinema.m3u	Кино	ref:name
+move	Кинопоказ HD orig	cinema.m3u	Кино	ref:name
+move	Кинопремьера HD orig	cinema.m3u	Кино	ref:id
+move	Киносвидание HD	cinema.m3u	Кино	ref:id
+move	Киносвидание orig	cinema.m3u	Кино	ref:id
+move	КиноСезон HD	cinema.m3u	Кино	ref:id
+move	Киносемья HD	cinema.m3u	Кино	ref:id
+move	Киносемья HD orig	cinema.m3u	Кино	ref:id
+move	Киносерия HD	cinema.m3u	Кино	ref:id
+move	Киносерия orig	cinema.m3u	Кино	ref:id
+move	Киноужас HD	cinema.m3u	Кино	ref:id
+move	Киноужас HD orig	cinema.m3u	Кино	ref:id
+move	Кинохит HD	cinema.m3u	Кино	ref:id
+move	Кинохит orig	cinema.m3u	Кино	ref:id
+move	Комедийное HD	cinema.m3u	Кино	ref:name
+move	Комедийное HD orig	cinema.m3u	Кино	ref:name
+move	Комедия orig	cinema.m3u	Кино	ref:id
+move	Любимое Кино	cinema.m3u	Кино	kw:кино
+move	Любимое Кино HD	cinema.m3u	Кино	kw:кино
+move	Любимое Кино orig	cinema.m3u	Кино	kw:кино
+move	Матч! Премьер HD 50	cinema.m3u	Кино	kw:премьер
+move	Мосфильм. Золотая коллекция HD	cinema.m3u	Кино	ref:id
+move	Мосфильм. Золотая коллекция orig	cinema.m3u	Кино	ref:id
+move	Мужское Кино HD orig	cinema.m3u	Кино	ref:id
+move	Наш Кинопоказ HD	cinema.m3u	Кино	kw:кино
+move	Наш Кинопоказ HD orig	cinema.m3u	Кино	kw:кино
+move	Наше Новое Кино HD	cinema.m3u	Кино	ref:id
+move	Наше Новое Кино orig	cinema.m3u	Кино	ref:id
+move	НСТ orig	cinema.m3u	Кино	ref:id
+move	Победа orig	cinema.m3u	Кино	ref:id
+move	Премиальное FHD	cinema.m3u	Кино	ref:name
+move	Премиальное HD	cinema.m3u	Кино	ref:name
+move	Премиальное HD orig	cinema.m3u	Кино	ref:name
+move	Ретро orig	cinema.m3u	Кино	ref:id
+move	Родное Кино orig	cinema.m3u	Кино	ref:id
+move	Русский иллюзион HD	cinema.m3u	Кино	ref:id
+move	Русский иллюзион HD orig	cinema.m3u	Кино	ref:id
+move	Русский иллюзион orig	cinema.m3u	Кино	ref:id
+move	Феникс плюс Кино orig	cinema.m3u	Кино	kw:кино
+move	Хит HD orig	cinema.m3u	Кино	ref:name
+move	Шокирующее HD orig	cinema.m3u	Кино	ref:name
+move	.black orig	cinema.m3u	Кино	ref:id
+move	.sci-fi orig	cinema.m3u	Кино	ref:id
+move	BCU Cinema HDR	cinema.m3u	Кино	kw:cinema
+move	BCU Cinema+ HD	cinema.m3u	Кино	kw:cinema
+move	BCU Premiere 1 HD	cinema.m3u	Кино	kw:premiere
+move	BCU Premiere 2 HD	cinema.m3u	Кино	kw:premiere
+move	BCU Premiere 3 HD	cinema.m3u	Кино	kw:premiere
+move	BCU Premiere HD	cinema.m3u	Кино	kw:premiere
+move	BCU Premiere Ultra 4K	cinema.m3u	Кино	kw:premiere
+move	BCU Premium Premiere+ 4K HDR	cinema.m3u	Кино	kw:premiere
+move	BOX Premiere 4K	cinema.m3u	Кино	kw:premiere
+move	BOX Travel Premiere HD	cinema.m3u	Кино	kw:premiere
+move	Canal+ Cinema HD FR	cinema.m3u	Кино	kw:cinema
+move	CineMan Cartoons 90	cinema.m3u	Кино	kw:cinema
+move	CineMan Cartoons Big	cinema.m3u	Кино	kw:cinema
+move	CineMan Cartoons Short	cinema.m3u	Кино	kw:cinema
+move	CineMan ExExEx	cinema.m3u	Кино	kw:cinema
+move	CineMan ExExEx TWO	cinema.m3u	Кино	kw:cinema
+move	CineMan Premium	cinema.m3u	Кино	kw:cinema
+move	CineMan Комедийные Сериалы	cinema.m3u	Кино	kw:cinema
+move	CineMan Криминальные Сериалы	cinema.m3u	Кино	kw:cinema
+move	CineMan Мелодрама	cinema.m3u	Кино	kw:cinema
+move	CineMan ПёС + Лихач	cinema.m3u	Кино	kw:cinema
+move	CineMan РуКино	cinema.m3u	Кино	kw:кино
+move	CineMan Фитнес	cinema.m3u	Кино	kw:cinema
+move	Cinemax Hits HD US	cinema.m3u	Кино	kw:cinema
+move	FAN HD	cinema.m3u	Кино	ref:id
+move	FAN orig	cinema.m3u	Кино	ref:id
+move	FilmZone EE	cinema.m3u	Кино	kw:filmzone
+move	Hollywood HD	cinema.m3u	Кино	ref:name
+move	Hollywood HD orig	cinema.m3u	Кино	ref:name
+move	Hollywood orig	cinema.m3u	Кино	ref:name
+move	Liberty Кино ENG 4K	cinema.m3u	Кино	kw:кино
+move	Liberty Кино UKR 4K	cinema.m3u	Кино	kw:кино
+move	Liberty Кино UKR FHD	cinema.m3u	Кино	kw:кино
+move	Liberty Кино Микс 4K	cinema.m3u	Кино	kw:кино
+move	MM Кинофестиваль HD	cinema.m3u	Кино	kw:кино
+move	MM Роскино HD	cinema.m3u	Кино	kw:кино
+move	Paramount Network HD NL	cinema.m3u	Кино	ref:name
+move	Paramount Network HD US	cinema.m3u	Кино	ref:name
+move	Paris Premiere HD FR	cinema.m3u	Кино	kw:premiere
+move	PG Premiere HD	cinema.m3u	Кино	kw:premiere
+move	PG РуКино HD	cinema.m3u	Кино	kw:кино
+move	Sky Cinema Action HD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Classics FHD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Classics HD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Comedy HD IT	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Due HD IT	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Family FHD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Family HD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema HD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Highlights HD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Premieren HD DE	cinema.m3u	Кино	kw:cinema
+move	Sky Cinema Suspense HD IT	cinema.m3u	Кино	kw:cinema
+move	Start Air HD	cinema.m3u	Кино	ref:id
+move	StrahTV Кинодром HD	cinema.m3u	Кино	kw:кино
+move	TOP Cinema HD	cinema.m3u	Кино	kw:cinema
+move	Trash HD	cinema.m3u	Кино	ref:id
+move	Tviksel Военное кино HD	cinema.m3u	Кино	kw:кино
+move	Tviksel Детское кино HD	cinema.m3u	Кино	kw:кино
+move	Tviksel Детское кино International	cinema.m3u	Кино	kw:кино
+move	Tviksel Кино 1 HD	cinema.m3u	Кино	kw:кино
+move	Tviksel Кино 1 International	cinema.m3u	Кино	kw:кино
+move	Tviksel Кино 2 HD	cinema.m3u	Кино	kw:кино
+move	Tviksel Музыка Кино HD	cinema.m3u	Кино	kw:кино
+move	Tviksel Музыка Кино International	cinema.m3u	Кино	kw:кино
+move	Ultra HD Cinema 4K	cinema.m3u	Кино	kw:cinema
+move	V Film Premiere HD SE	cinema.m3u	Кино	kw:premiere
+move	VeleS Premiere	cinema.m3u	Кино	kw:premiere
+move	VeleS Киноплёнка	cinema.m3u	Кино	kw:кино
+move	VeleS Киносерия	cinema.m3u	Кино	kw:кино
+move	VF Premiere	cinema.m3u	Кино	kw:premiere
+move	VF Кино 4K	cinema.m3u	Кино	kw:кино
+move	VF Киностудия им. Горького	cinema.m3u	Кино	kw:кино
+move	VF Легенды Ретро ФМ	cinema.m3u	Кино	kw:ретро
+move	VF Одесская киностудия	cinema.m3u	Кино	kw:кино
+move	VF Премьера	cinema.m3u	Кино	kw:премьер
+move	VF Рижская киностудия	cinema.m3u	Кино	kw:кино
+move	VF Свердловская киностудия	cinema.m3u	Кино	kw:кино
+move	VHS-ка Русское кино HD	cinema.m3u	Кино	kw:кино
+move	Yosso TV New Кино	cinema.m3u	Кино	kw:кино
+move	Zee Bangla Cinema IN	cinema.m3u	Кино	kw:cinema
+move	Авто 24 HD	index.m3u	Авто и мотоспорт	ref:id
+move	Авто 24 orig	index.m3u	Авто и мотоспорт	ref:id
+move	Авто Плюс HD	index.m3u	Авто и мотоспорт	ref:id
+move	Авто Плюс orig	index.m3u	Авто и мотоспорт	ref:id
+move	Драйв HD	index.m3u	Авто и мотоспорт	ref:id
+move	Драйв orig	index.m3u	Авто и мотоспорт	ref:id
+move	BOX AutoTrend HD	index.m3u	Авто и мотоспорт	kw:auto
+move	Eye Drive HD	index.m3u	Авто и мотоспорт	kw:drive
+move	Liberty Авто Гир FHD	index.m3u	Авто и мотоспорт	kw:авто
+move	Motorvision+ DE	index.m3u	Авто и мотоспорт	kw:moto
+move	VF Авто	index.m3u	Авто и мотоспорт	kw:авто
+move	РБК FHD	index.m3u	Бизнес	ref:id
+move	РБК orig	index.m3u	Бизнес	ref:id
+move	Успех orig	index.m3u	Бизнес	ref:id
+move	Zee Business IN	index.m3u	Бизнес	kw:business
+move	Бокс ТВ HD	index.m3u	Бокс и единборства	ref:id
+move	Бокс ТВ orig	index.m3u	Бокс и единборства	ref:id
+move	Удар HD	index.m3u	Бокс и единборства	ref:id
+move	Удар HD orig	index.m3u	Бокс и единборства	ref:id
+move	Arena Fight HD RS	index.m3u	Бокс и единборства	kw:fight
+move	Fight Network HD CA	index.m3u	Бокс и единборства	kw:fight
+move	FightBox HD	index.m3u	Бокс и единборства	ref:id
+move	MMA-TV.com HD	index.m3u	Бокс и единборства	ref:name
+move	MMA-TV.com orig	index.m3u	Бокс и единборства	ref:name
+move	Polsat Sport Fight HD PL	index.m3u	Бокс и единборства	kw:fight
+move	Sport Klub Fight HD HR	index.m3u	Бокс и единборства	kw:fight
+move	StrahTV MMA TIME HD	index.m3u	Бокс и единборства	kw:mma
+move	StrahTV WWE Russian	index.m3u	Бокс и единборства	kw:wwe
+move	Загородная Жизнь orig	index.m3u	Дача и ремонт	ref:id
+move	Загородный int HD	index.m3u	Дача и ремонт	ref:id
+move	Загородный int HD orig	index.m3u	Дача и ремонт	ref:id
+move	Загородный orig	index.m3u	Дача и ремонт	ref:id
+move	Усадьба HD	index.m3u	Дача и ремонт	ref:id
+move	Усадьба orig	index.m3u	Дача и ремонт	ref:id
+move	HGTV HD DE	index.m3u	Дача и ремонт	ref:name
+move	HGTV HD US	index.m3u	Дача и ремонт	ref:name
+move	VF Стройка	index.m3u	Дача и ремонт	kw:стройка
+move	Весёлые малыши HD	index.m3u	Детские	kw:малыш
+move	Детский мир	index.m3u	Детские	kw:детск
+move	Детский мир HD	index.m3u	Детские	kw:детск
+move	Детский мир orig	index.m3u	Детские	kw:детск
+move	Капитан Фантастика HD	index.m3u	Детские	ref:id
+move	Капитан Фантастика HD orig	index.m3u	Детские	ref:id
+move	Карусель (Ставрополь)	index.m3u	Детские	kw:карусель
+move	Карусель HD	index.m3u	Детские	ref:id
+move	Карусель orig	index.m3u	Детские	ref:id
+move	Мама orig	index.m3u	Детские	ref:id
+move	Мульт HD orig	index.m3u	Детские	ref:id
+move	Мульт orig	index.m3u	Детские	ref:id
+move	Мультиландия HD	index.m3u	Детские	ref:id
+move	Мультиландия orig	index.m3u	Детские	ref:id
+move	Мультимузыка	index.m3u	Детские	ref:id
+move	Мультимузыка orig	index.m3u	Детские	ref:id
+move	О! orig	index.m3u	Детские	ref:id
+move	СТС Kids HD orig	index.m3u	Детские	ref:id
+move	СуперГерои HD	index.m3u	Детские	ref:id
+move	СуперГерои orig	index.m3u	Детские	ref:id
+move	Уникум HD	index.m3u	Детские	ref:id
+move	Уникум HD orig	index.m3u	Детские	ref:id
+move	Ani orig	index.m3u	Детские	ref:id
+move	Baby Time	index.m3u	Детские	kw:baby
+move	Baby TV	index.m3u	Детские	kw:baby
+move	Baby TV ES	index.m3u	Детские	kw:baby
+move	BabyFirst TV HD US	index.m3u	Детские	kw:baby
+move	BCU Kids 4K	index.m3u	Детские	kw:kids
+move	BCU Kids HD	index.m3u	Детские	kw:kids
+move	BCU Kids+ HD	index.m3u	Детские	kw:kids
+move	BOX Anime HD	index.m3u	Детские	kw:anime
+move	Canal+ Kids HD FR	index.m3u	Детские	kw:kids
+move	Cartoon Network CA	index.m3u	Детские	kw:cartoon
+move	Cartoon Network DE	index.m3u	Детские	kw:cartoon
+move	Cartoon Network HD	index.m3u	Детские	kw:cartoon
+move	Cartoon Network HD orig	index.m3u	Детские	kw:cartoon
+move	Cartoonito	index.m3u	Детские	kw:cartoon
+move	Cartoonito DE	index.m3u	Детские	kw:cartoon
+move	Cartoonito HD DE	index.m3u	Детские	kw:cartoon
+move	Cartoonito HD orig	index.m3u	Детские	kw:cartoon
+move	Citrus Cartoon	index.m3u	Детские	kw:cartoon
+move	Disney Channel HD CA	index.m3u	Детские	kw:disney
+move	Disney Channel HD FR	index.m3u	Детские	kw:disney
+move	Disney Jr. HD ES	index.m3u	Детские	kw:disney
+move	Disney XD CA	index.m3u	Детские	kw:disney
+move	Disney XD HD US	index.m3u	Детские	kw:disney
+move	Gulli Girl orig	index.m3u	Детские	ref:id
+move	JimJam orig	index.m3u	Детские	ref:name
+move	Kids TV HD	index.m3u	Детские	ref:id
+move	Liberty Аниме FHD	index.m3u	Детские	kw:аниме
+move	Liberty Бебимульт FHD	index.m3u	Детские	kw:мульт
+move	Liberty Мульт 4K	index.m3u	Детские	kw:мульт
+move	Liberty Мульт ENG 4K	index.m3u	Детские	kw:мульт
+move	Liberty Мульт UKR 4K	index.m3u	Детские	kw:мульт
+move	Liberty Мульт UKR FHD	index.m3u	Детские	kw:мульт
+move	Magic Disney HD	index.m3u	Детские	kw:disney
+move	Majid Kids TV AE	index.m3u	Детские	kw:kids
+move	MM USSR Мультфильм HD	index.m3u	Детские	kw:мульт
+move	MM Walt Disney HD	index.m3u	Детские	kw:disney
+move	MYTV Kids	index.m3u	Детские	kw:kids
+move	Nick Jr.	index.m3u	Детские	kw:nick
+move	Nick Jr. HD DE	index.m3u	Детские	kw:nick
+move	Nick Jr. HD ES	index.m3u	Детские	kw:nick
+move	Nick Jr. HD US	index.m3u	Детские	kw:nick
+move	Nick Jr. orig	index.m3u	Детские	kw:nick
+move	Nick Jr. SE	index.m3u	Детские	kw:nick
+move	Nick/Comedy Central+1 DE	index.m3u	Детские	kw:nick
+move	Nickelodeon CA	index.m3u	Детские	ref:name
+move	Nickelodeon HD	index.m3u	Детские	ref:id
+move	Nickelodeon HD ES	index.m3u	Детские	ref:name
+move	Nickelodeon HD orig	index.m3u	Детские	ref:id
+move	Nickelodeon orig	index.m3u	Детские	ref:id
+move	Nickelodeon SE	index.m3u	Детские	ref:name
+move	NickToons DK	index.m3u	Детские	kw:nick
+move	NickToons HD	index.m3u	Детские	kw:nick
+move	NickToons HD US	index.m3u	Детские	kw:nick
+move	NickToons SE	index.m3u	Детские	kw:nick
+move	StrahTV Весёлая Карусель HD	index.m3u	Детские	kw:карусель
+move	Tiji TV	index.m3u	Детские	kw:tiji
+move	Tiji TV orig	index.m3u	Детские	kw:tiji
+move	VeleS Kids	index.m3u	Детские	kw:kids
+move	VF Anime	index.m3u	Детские	kw:anime
+move	VF Cartoon	index.m3u	Детские	kw:cartoon
+move	VF Disney Cartoon	index.m3u	Детские	kw:cartoon
+move	VF VHS Cartoon	index.m3u	Детские	kw:cartoon
+move	VF Малыш	index.m3u	Детские	kw:малыш
+move	VF Мультуб	index.m3u	Детские	kw:мульт
+move	VF Мультфильмы СССР	index.m3u	Детские	kw:мульт
+move	VF Новогодние мультфильмы	index.m3u	Детские	kw:мульт
+move	VF Союзмультфильм	index.m3u	Детские	kw:мульт
+move	Yosso TV Disney	index.m3u	Детские	kw:disney
+move	Yosso TV Kids	index.m3u	Детские	kw:kids
+move	Yosso TV Наше Детское	index.m3u	Детские	kw:детск
+move	Yosso TV Союзмульт	index.m3u	Детские	kw:мульт
+move	CNN CA	index.m3u	Зарубежные	ref:name
+move	CNN HD CA	index.m3u	Зарубежные	ref:name
+move	CNN International HD DE	index.m3u	Зарубежные	ref:id
+move	Доктор orig	index.m3u	Здоровье	ref:id
+move	Живи Активно HD	index.m3u	Здоровье	ref:id
+move	ЖИВИ! HD	index.m3u	Здоровье	ref:name
+move	ЖИВИ! orig	index.m3u	Здоровье	ref:name
+move	Здоровое ТВ orig	index.m3u	Здоровье	ref:id
+move	Первый космический HD	index.m3u	Космос	ref:id
+move	Первый космический HD orig	index.m3u	Космос	ref:id
+move	Тайны Галактики	index.m3u	Космос	ref:id
+move	Тайны Галактики HD	index.m3u	Космос	ref:id
+move	Тайны Галактики orig	index.m3u	Космос	ref:id
+move	Аппетитный HD	index.m3u	Кулинария	ref:id
+move	Кухня HD	index.m3u	Кулинария	ref:name
+move	Кухня orig	index.m3u	Кулинария	ref:name
+move	Среда HD (Каспийск)	index.m3u	Кулинария	kw:еда
+move	Телекафе orig	index.m3u	Кулинария	ref:id
+move	Cooking Channel HD US	index.m3u	Кулинария	kw:cook
+move	Food Food IN	index.m3u	Кулинария	ref:name
+move	Food Network HD	index.m3u	Кулинария	ref:id
+move	Food Network HD CA	index.m3u	Кулинария	ref:name
+move	Food Network HD US	index.m3u	Кулинария	ref:name
+move	FoodTime FHD	index.m3u	Кулинария	ref:id
+move	FoodTime HD	index.m3u	Кулинария	ref:id
+move	FoodTime HD 50	index.m3u	Кулинария	kw:food
+move	VF Кухня	index.m3u	Кулинария	kw:кухн
+move	VF Наша победа	index.m3u	Кулинария	kw:еда
+move	Yosso TV Food	index.m3u	Кулинария	kw:food
+move	Театр orig	index.m3u	Культура	ref:id
+move	Liberty Занавес  HD	index.m3u	Культура	ref:id
+move	Liberty Мюзикл 4K	index.m3u	Культура	ref:id
+move	VF Классика	index.m3u	Культура	kw:класс
+move	Матч! Арена	index.m3u	Матч!	ref:id
+move	Матч! Арена HD orig	index.m3u	Матч!	ref:id
+move	Матч! Боец	index.m3u	Матч!	ref:id
+move	Матч! Боец HD	index.m3u	Матч!	ref:id
+move	Матч! Боец orig	index.m3u	Матч!	ref:id
+move	Матч! Игра	index.m3u	Матч!	ref:id
+move	Матч! Игра FHD	index.m3u	Матч!	ref:id
+move	Матч! Игра HD orig	index.m3u	Матч!	ref:id
+move	Матч! Планета	index.m3u	Матч!	ref:id
+move	Матч! Премьер	index.m3u	Матч!	ref:id
+move	Матч! Премьер FHD	index.m3u	Матч!	ref:id
+move	Матч! Премьер orig	index.m3u	Матч!	ref:id
+move	Матч! Страна	index.m3u	Матч!	ref:id
+move	Матч! Страна HD	index.m3u	Матч!	ref:id
+move	Матч! Страна orig	index.m3u	Матч!	ref:id
+move	Матч! Футбол 1	index.m3u	Матч!	ref:id
+move	Матч! Футбол 1 FHD	index.m3u	Матч!	ref:id
+move	Матч! Футбол 2	index.m3u	Матч!	ref:id
+move	Матч! Футбол 2 FHD	index.m3u	Матч!	ref:id
+move	Матч! Футбол 2 HD orig	index.m3u	Матч!	ref:id
+move	Матч! Футбол 3	index.m3u	Матч!	ref:id
+move	Матч! Футбол 3 FHD	index.m3u	Матч!	ref:id
+move	Fashion & Lifestyle FHD	index.m3u	Мода	ref:id
+move	Fashion TV HD	index.m3u	Мода	ref:id
+move	Fashion TV HD DE	index.m3u	Мода	ref:name
+move	Fashion TV HD orig	index.m3u	Мода	ref:name
+move	FashionBox HD	index.m3u	Мода	kw:fashion
+move	TVN Style HD PL	index.m3u	Мода	kw:style
+move	World Fashion Channel orig	index.m3u	Мода	ref:id
+move	Жара HD	index.m3u	Музыка	ref:id
+move	Жара orig	index.m3u	Музыка	ref:id
+move	МУЗ-ТВ orig	index.m3u	Музыка	ref:id
+move	Музыка Live	index.m3u	Музыка	ref:id
+move	Музыка Live orig	index.m3u	Музыка	ref:id
+move	Музыка Первого orig	index.m3u	Музыка	ref:id
+move	Первый музыкальный BY	index.m3u	Музыка	ref:id
+move	Первый музыкальный HD	index.m3u	Музыка	ref:id
+move	Первый музыкальный HD BY	index.m3u	Музыка	ref:id
+move	Радио Хит HD (Орск)	index.m3u	Музыка	kw:радио
+move	Радио Шансон HD	index.m3u	Музыка	kw:шансон
+move	Шансон ТВ orig	index.m3u	Музыка	ref:name
+move	1HD Music Television HD	index.m3u	Музыка	kw:music
+move	1HD Music Television HD orig	index.m3u	Музыка	kw:music
+move	4ever Music HD UA	index.m3u	Музыка	kw:music
+move	Baraza Music HD GR	index.m3u	Музыка	kw:music
+move	BOX Music 4K HDR	index.m3u	Музыка	kw:music
+move	Bridge Classic orig	index.m3u	Музыка	ref:id
+move	Bridge Deluxe HD	index.m3u	Музыка	ref:id
+move	Bridge Deluxe HD orig	index.m3u	Музыка	ref:id
+move	Bridge Hits	index.m3u	Музыка	kw:hits
+move	Bridge Hits HD	index.m3u	Музыка	kw:hits
+move	Bridge TV orig	index.m3u	Музыка	ref:id
+move	Deluxe Music FHD DE	index.m3u	Музыка	kw:music
+move	Deluxe Music HD DE	index.m3u	Музыка	kw:music
+move	Deluxe Music HD DE orig	index.m3u	Музыка	kw:music
+move	Disco Polo Music HD PL	index.m3u	Музыка	kw:music
+move	Europa Plus TV HD	index.m3u	Музыка	ref:id
+move	Europa Plus TV orig	index.m3u	Музыка	ref:id
+move	Folx Music Television HD DE	index.m3u	Музыка	kw:music
+move	FON Music	index.m3u	Музыка	ref:id
+move	FON Music HD	index.m3u	Музыка	ref:id
+move	FON Music orig	index.m3u	Музыка	ref:id
+move	FRESH Hits HD	index.m3u	Музыка	kw:hits
+move	FRESH Russian Hits HD	index.m3u	Музыка	kw:hits
+move	FRESH Sad Music HD	index.m3u	Музыка	kw:music
+move	ICI Radio-Canada Télé CA	index.m3u	Музыка	kw:radio
+move	iConcerts HD orig	index.m3u	Музыка	ref:id
+move	MCM Top Russia	index.m3u	Музыка	kw:mcm
+move	MCM Top Russia orig	index.m3u	Музыка	kw:mcm
+move	Mezzo Live HD	index.m3u	Музыка	ref:id
+move	MM World Hits HD	index.m3u	Музыка	kw:hits
+move	MTV Classic	index.m3u	Музыка	kw:mtv
+move	MTV HD DE	index.m3u	Музыка	kw:mtv
+move	MTV HD ES	index.m3u	Музыка	kw:mtv
+move	MTV HD PL	index.m3u	Музыка	kw:mtv
+move	MTV HD US	index.m3u	Музыка	kw:mtv
+move	MTV India IN	index.m3u	Музыка	kw:mtv
+move	MTV SE	index.m3u	Музыка	kw:mtv
+move	MTV US	index.m3u	Музыка	kw:mtv
+move	MTV Viihde HD FI	index.m3u	Музыка	kw:mtv
+move	MTV2 HD US	index.m3u	Музыка	kw:mtv
+move	Music Box Gold	index.m3u	Музыка	kw:music
+move	Music Box Russia	index.m3u	Музыка	kw:music
+move	Music Box Russia HD	index.m3u	Музыка	kw:music
+move	Music Box Russia orig	index.m3u	Музыка	kw:music
+move	NRJ Hits HD	index.m3u	Музыка	kw:hits
+move	One Music Television HD DE	index.m3u	Музыка	kw:music
+move	Radio Bremen TV HD DE	index.m3u	Музыка	kw:radio
+move	Retro Music TV CZ	index.m3u	Музыка	ref:id
+move	Stingray DJAZZ HD DE	index.m3u	Музыка	kw:jazz
+move	Stingray iConcerts HD DE	index.m3u	Музыка	ref:id
+move	TV4 Hits HD SE	index.m3u	Музыка	kw:hits
+move	Tviksel Музыка 1 International	index.m3u	Музыка	kw:музык
+move	Tviksel Музыка 2 HD	index.m3u	Музыка	kw:музык
+move	Tviksel Музыка 2 International	index.m3u	Музыка	kw:музык
+move	V Film Hits HD SE	index.m3u	Музыка	kw:hits
+move	VeleS Movie Hits	index.m3u	Музыка	kw:hits
+move	VF Music	index.m3u	Музыка	kw:music
+move	VF Музыка	index.m3u	Музыка	kw:музык
+move	VF Музыкальный Новый год!	index.m3u	Музыка	kw:музык
+move	VF Шансон	index.m3u	Музыка	kw:шансон
+move	Vox Music TV HD PL	index.m3u	Музыка	kw:music
+move	Yosso TV Music Hits	index.m3u	Музыка	kw:music
+move	Z!Music HD	index.m3u	Музыка	kw:music
+move	Zwei Music Television HD DE	index.m3u	Музыка	kw:music
+move	НТВ HD orig	index.m3u	НТВ	ref:id
+move	НТВ orig	index.m3u	НТВ	ref:id
+move	НТВ Беларусь BY	index.m3u	НТВ	ref:id
+move	НТВ Право orig	index.m3u	НТВ	ref:id
+move	НТВ Сериал orig	index.m3u	НТВ	ref:id
+move	НТВ Стиль HD	index.m3u	НТВ	ref:id
+move	НТВ Стиль orig	index.m3u	НТВ	ref:id
+move	НТВ Хит HD	index.m3u	НТВ	ref:id
+move	НТВ Хит orig	index.m3u	НТВ	ref:id
+move	Известия orig	index.m3u	Новости	ref:id
+move	Мир 24 HD	index.m3u	Новости	ref:id
+move	Мир 24 HD orig	index.m3u	Новости	ref:id
+move	Мир 24 orig	index.m3u	Новости	ref:id
+move	ARY News IN	index.m3u	Новости	kw:news
+move	Asharq News HD DE	index.m3u	Новости	kw:news
+move	CBC News Network HD CA	index.m3u	Новости	kw:news
+move	Cheddar News HD US	index.m3u	Новости	kw:news
+move	CTV News Channel HD CA	index.m3u	Новости	kw:news
+move	ESPNews HD US	index.m3u	Новости	kw:news
+move	ESPNews US	index.m3u	Новости	kw:news
+move	Euronews Deutsch DE	index.m3u	Новости	kw:news
+move	Euronews Россия orig	index.m3u	Новости	ref:name
+move	Express News IN	index.m3u	Новости	kw:news
+move	Fox News HD US	index.m3u	Новости	kw:news
+move	GEO News IN	index.m3u	Новости	kw:news
+move	i24 News HD US	index.m3u	Новости	kw:news
+move	News7 Tamil IN	index.m3u	Новости	kw:news
+move	Newsmax TV HD US	index.m3u	Новости	kw:news
+move	Rai News 24 HD IT	index.m3u	Новости	kw:news
+move	RT News orig	index.m3u	Новости	ref:id
+move	Sadhna Plus News IN	index.m3u	Новости	kw:news
+move	Sky Sport News HD DE	index.m3u	Новости	kw:news
+move	Zee News IN	index.m3u	Новости	kw:news
+move	Вместе-РФ orig	index.m3u	Общественные	ref:id
+move	Звезда HD	index.m3u	Общественные	ref:id
+move	Звезда orig	index.m3u	Общественные	ref:id
+move	Звезда Плюс HD	index.m3u	Общественные	ref:id
+move	Красная линия orig	index.m3u	Общественные	ref:id
+move	Мир HD	index.m3u	Общественные	ref:id
+move	Мир orig	index.m3u	Общественные	ref:name
+move	Настоящее время HD	index.m3u	Общественные	ref:id
+move	Ностальгия orig	index.m3u	Общественные	ref:id
+move	ОТР orig	index.m3u	Общественные	ref:id
+move	Первый канал FHD	index.m3u	Общественные	ref:id
+move	Первый канал HD orig	index.m3u	Общественные	ref:id
+move	Первый канал orig	index.m3u	Общественные	ref:id
+move	Первый Российский Национальный Канал HD	index.m3u	Общественные	ref:id
+move	Пятница! orig	index.m3u	Общественные	ref:id
+move	Пятый канал orig	index.m3u	Общественные	ref:id
+move	РЕН ТВ HD orig	index.m3u	Общественные	ref:id
+move	РЕН ТВ orig	index.m3u	Общественные	ref:id
+move	Россия 1 FHD	index.m3u	Общественные	ref:id
+move	Россия 1 HD	index.m3u	Общественные	ref:id
+move	Россия 1 HD orig	index.m3u	Общественные	ref:id
+move	Россия 1 orig	index.m3u	Общественные	ref:id
+move	СТС HD	index.m3u	Общественные	ref:id
+move	СТС HD orig	index.m3u	Общественные	ref:id
+move	Суббота! orig	index.m3u	Общественные	ref:id
+move	ТВ Центр	index.m3u	Общественные	ref:id
+move	ТВ Центр HD	index.m3u	Общественные	ref:id
+move	ТВ Центр orig	index.m3u	Общественные	ref:id
+move	ТНТ FHD	index.m3u	Общественные	ref:name
+move	ТНТ HD orig	index.m3u	Общественные	ref:name
+move	ТНТ International HD	index.m3u	Общественные	ref:name
+move	ТНТ orig	index.m3u	Общественные	ref:name
+move	Центральное телевидение orig	index.m3u	Общественные	ref:id
+move	Че! orig	index.m3u	Общественные	ref:id
+move	CGTN Русский HD orig	index.m3u	Общественные	ref:name
+move	RTVi HD orig	index.m3u	Общественные	ref:id
+move	TV1 HD LT	index.m3u	Общественные	ref:name
+move	TV1 LT	index.m3u	Общественные	ref:name
+move	Диалоги о рыбалке HD	index.m3u	Охота и Рыбалка	ref:id
+move	Дикая охота HD	index.m3u	Охота и Рыбалка	ref:id
+move	Дикая охота HD orig	index.m3u	Охота и Рыбалка	ref:id
+move	Дикая рыбалка HD	index.m3u	Охота и Рыбалка	ref:id
+move	Дикая рыбалка HD orig	index.m3u	Охота и Рыбалка	ref:id
+move	Дикий orig	index.m3u	Охота и Рыбалка	ref:id
+move	Наша Тема orig	index.m3u	Охота и Рыбалка	ref:id
+move	Охота и рыбалка orig	index.m3u	Охота и Рыбалка	ref:id
+move	Охотник и Рыболов HD orig	index.m3u	Охота и Рыбалка	ref:name
+move	VF Охота	index.m3u	Охота и Рыбалка	kw:охот
+move	VF Рыбалка	index.m3u	Охота и Рыбалка	kw:рыбал
+move	365 дней ТВ orig	index.m3u	Познавательные	ref:id
+move	Арсенал HD orig	index.m3u	Познавательные	ref:id
+move	Время orig	index.m3u	Познавательные	ref:id
+move	История orig	index.m3u	Познавательные	ref:id
+move	Кто есть кто orig	index.m3u	Познавательные	ref:id
+move	Наука HD	index.m3u	Познавательные	ref:id
+move	Наука HD orig	index.m3u	Познавательные	ref:id
+move	Оружие orig	index.m3u	Познавательные	ref:id
+move	Приключения HD	index.m3u	Познавательные	ref:id
+move	Приключения HD orig	index.m3u	Познавательные	ref:id
+move	Ратник HD	index.m3u	Познавательные	ref:id
+move	Т24 orig	index.m3u	Познавательные	ref:id
+move	BCU History HD	index.m3u	Познавательные	kw:history
+move	BOX Docu HD	index.m3u	Познавательные	kw:docu
+move	BOX History 4K HDR	index.m3u	Познавательные	kw:history
+move	BOX Memory HD	index.m3u	Познавательные	ref:id
+move	BOX Stories HD	index.m3u	Познавательные	ref:id
+move	Citrus History	index.m3u	Познавательные	kw:history
+move	Da Vinci orig	index.m3u	Познавательные	ref:id
+move	Discovery Channel HD CA	index.m3u	Познавательные	kw:discovery
+move	Discovery Channel HD orig	index.m3u	Познавательные	kw:discovery
+move	Discovery Channel HD PT	index.m3u	Познавательные	kw:discovery
+move	Discovery Channel HD US	index.m3u	Познавательные	kw:discovery
+move	Discovery Family HD US	index.m3u	Познавательные	kw:discovery
+move	Discovery Life HD US	index.m3u	Познавательные	kw:discovery
+move	Discovery Science PL	index.m3u	Познавательные	kw:science
+move	DocuBox HD	index.m3u	Познавательные	kw:docu
+move	Eye History HD	index.m3u	Познавательные	kw:history
+move	History 2 FHD	index.m3u	Познавательные	kw:history
+move	History 2 HD orig	index.m3u	Познавательные	kw:history
+move	History 2 HD SE	index.m3u	Познавательные	kw:history
+move	History CA	index.m3u	Познавательные	ref:name
+move	History DE	index.m3u	Познавательные	ref:name
+move	History FHD	index.m3u	Познавательные	ref:name
+move	History FHD DE	index.m3u	Познавательные	ref:name
+move	History FHD orig	index.m3u	Познавательные	ref:name
+move	History HD	index.m3u	Познавательные	ref:id
+move	History HD CA	index.m3u	Познавательные	ref:name
+move	History HD DE	index.m3u	Познавательные	ref:name
+move	History HD orig	index.m3u	Познавательные	ref:name
+move	History HD SE	index.m3u	Познавательные	ref:name
+move	History HD US	index.m3u	Познавательные	ref:name
+move	Investigation Discovery FHD orig	index.m3u	Познавательные	ref:name
+move	Investigation Discovery HD	index.m3u	Познавательные	ref:name
+move	Investigation Discovery HD orig	index.m3u	Познавательные	ref:name
+move	Investigation Discovery SE	index.m3u	Познавательные	ref:name
+move	Liberty Наука FHD	index.m3u	Познавательные	ref:id
+move	MM История HD	index.m3u	Познавательные	kw:истори
+move	Nano	index.m3u	Познавательные	ref:id
+move	Nano orig	index.m3u	Познавательные	ref:id
+move	National Geographic Abu Dhabi AE	index.m3u	Познавательные	kw:geographic
+move	RT Documentary	index.m3u	Познавательные	kw:docu
+move	RT Documentary HD	index.m3u	Познавательные	kw:docu
+move	Science & Vie HD FR	index.m3u	Познавательные	kw:science
+move	Sky Documentaries HD DE	index.m3u	Познавательные	kw:docu
+move	Sky History HD UK	index.m3u	Познавательные	kw:history
+move	The Explorers HD	index.m3u	Познавательные	ref:id
+move	Top Secret	index.m3u	Познавательные	ref:id
+move	Top Secret orig	index.m3u	Познавательные	ref:id
+move	Univer TV HD	index.m3u	Познавательные	ref:id
+move	VF Американская история ужасов	index.m3u	Познавательные	kw:истори
+move	VF История	index.m3u	Познавательные	kw:истори
+move	Viasat Explore HD SE	index.m3u	Познавательные	ref:id
+move	Viasat History CEE HD	index.m3u	Познавательные	kw:history
+move	Viasat History HD SE	index.m3u	Познавательные	ref:id
+move	Viju Explore	index.m3u	Познавательные	ref:id
+move	Viju Explore HD	index.m3u	Познавательные	ref:id
+move	Viju Explore HD orig	index.m3u	Познавательные	ref:id
+move	Viju Explore orig	index.m3u	Познавательные	ref:id
+move	Viju History	index.m3u	Познавательные	ref:id
+move	Viju History HD	index.m3u	Познавательные	ref:id
+move	Viju History HD orig	index.m3u	Познавательные	ref:id
+move	Yosso TV Science	index.m3u	Познавательные	kw:science
+move	Z!History HD	index.m3u	Познавательные	kw:history
+move	Z!Science HD	index.m3u	Познавательные	ref:id
+move	В мире животных HD	index.m3u	Природа	ref:id
+move	В мире животных HD orig	index.m3u	Природа	ref:id
+move	Домашние Животные orig	index.m3u	Природа	ref:id
+move	Живая Планета orig	index.m3u	Природа	ref:id
+move	Живая природа HD	index.m3u	Природа	ref:id
+move	Живая природа HD orig	index.m3u	Природа	ref:id
+move	Зоо ТВ orig	index.m3u	Природа	ref:id
+move	Зоопарк HD	index.m3u	Природа	ref:name
+move	Зоопарк orig	index.m3u	Природа	ref:name
+move	Лапки Live HD	index.m3u	Природа	ref:id
+move	Animal Planet FHD DE	index.m3u	Природа	ref:name
+move	Animal Planet HD	index.m3u	Природа	ref:id
+move	Animal Planet HD DE	index.m3u	Природа	ref:name
+move	Big Planet HD	index.m3u	Природа	ref:id
+move	HBO Signature HD BR	index.m3u	Природа	kw:nature
+move	MM Макромир HD	index.m3u	Природа	ref:id
+move	MM Микромир HD	index.m3u	Природа	ref:id
+move	National Geographic Wild FHD	index.m3u	Природа	ref:name
+move	National Geographic Wild FHD DE	index.m3u	Природа	ref:name
+move	National Geographic Wild HD	index.m3u	Природа	ref:name
+move	National Geographic Wild HD DE	index.m3u	Природа	ref:name
+move	National Geographic Wild HD SE	index.m3u	Природа	ref:name
+move	National Geographic Wild orig	index.m3u	Природа	ref:name
+move	Sky Nature HD DE	index.m3u	Природа	kw:nature
+move	Viju Nature	index.m3u	Природа	ref:id
+move	Viju Nature HD	index.m3u	Природа	ref:id
+move	Viju Nature orig	index.m3u	Природа	ref:id
+move	Viju+ Planet HD	index.m3u	Природа	ref:id
+move	Yosso TV Nature	index.m3u	Природа	kw:nature
+move	Большая Азия HD	index.m3u	Путешествия	ref:id
+move	Большая Азия HD orig	index.m3u	Путешествия	ref:id
+move	Глазами Туриста 4K	index.m3u	Путешествия	ref:name
+move	Глазами Туриста HD	index.m3u	Путешествия	ref:id
+move	Глазами Туриста HD orig	index.m3u	Путешествия	ref:name
+move	Кто Куда orig	index.m3u	Путешествия	ref:id
+move	Моя Планета HD orig	index.m3u	Путешествия	ref:id
+move	Моя Планета orig	index.m3u	Путешествия	ref:id
+move	Моя Стихия HD	index.m3u	Путешествия	ref:id
+move	Наша Сибирь 4K	index.m3u	Путешествия	ref:name
+move	Наша Сибирь HD	index.m3u	Путешествия	ref:id
+move	Наша Сибирь HD orig	index.m3u	Путешествия	ref:name
+move	Поехали! HD	index.m3u	Путешествия	ref:id
+move	Поехали! orig	index.m3u	Путешествия	ref:id
+move	Телепутешествия orig	index.m3u	Путешествия	ref:id
+move	Точка Отрыва HD	index.m3u	Путешествия	ref:id
+move	Точка Отрыва orig	index.m3u	Путешествия	ref:id
+move	Точка.РФ FHD	index.m3u	Путешествия	ref:id
+move	Точка.РФ HD orig	index.m3u	Путешествия	ref:id
+move	BOX Travel HD	index.m3u	Путешествия	ref:id
+move	MM Live Planet HD	index.m3u	Путешествия	ref:id
+move	National Geographic HD	index.m3u	Путешествия	ref:id
+move	National Geographic HD DE	index.m3u	Путешествия	ref:name
+move	National Geographic HD orig	index.m3u	Путешествия	ref:name
+move	RTG TV orig	index.m3u	Путешествия	ref:id
+move	Russian Extreme UHD	index.m3u	Путешествия	ref:id
+move	TERRA HD	index.m3u	Путешествия	ref:id
+move	Travel Channel HD	index.m3u	Путешествия	ref:id
+move	Travel Channel HD orig	index.m3u	Путешествия	ref:name
+move	Travel+Adventure HD orig	index.m3u	Путешествия	ref:id
+move	Travel+Adventure orig	index.m3u	Путешествия	ref:id
+move	TravelXP 4K	index.m3u	Путешествия	kw:travel
+move	TravelXP 4K HDR	index.m3u	Путешествия	kw:travel
+move	TravelXP HD	index.m3u	Путешествия	ref:id
+move	TravelXP HD DE	index.m3u	Путешествия	kw:travel
+move	VF Путешествия	index.m3u	Путешествия	kw:путешеств
+move	Yosso TV Travel	index.m3u	Путешествия	kw:travel
+move	Z!Travel HD	index.m3u	Путешествия	kw:travel
+move	8 канал orig	index.m3u	Развлекательные	ref:name
+move	Вопросы и ответы orig	index.m3u	Развлекательные	ref:id
+move	Домашний orig	index.m3u	Развлекательные	ref:id
+move	Ключ HD	index.m3u	Развлекательные	ref:id
+move	Мужской HD	index.m3u	Развлекательные	ref:id
+move	Мужской orig	index.m3u	Развлекательные	ref:id
+move	Открытый мир orig	index.m3u	Развлекательные	ref:id
+move	Перец International	index.m3u	Развлекательные	ref:id
+move	Продвижение orig	index.m3u	Развлекательные	ref:id
+move	СТС Love orig	index.m3u	Развлекательные	ref:id
+move	ТВ-3 HD	index.m3u	Развлекательные	ref:id
+move	ТВ-3 orig	index.m3u	Развлекательные	ref:id
+move	Твое ТВ HD	index.m3u	Развлекательные	ref:id
+move	ТНТ HD 50	index.m3u	Развлекательные	kw:тнт
+move	Точка ТВ orig	index.m3u	Развлекательные	ref:id
+move	.red HD	index.m3u	Развлекательные	ref:id
+move	.red HD orig	index.m3u	Развлекательные	ref:id
+move	.red orig	index.m3u	Развлекательные	ref:id
+move	2x2 HD	index.m3u	Развлекательные	ref:id
+move	2x2 orig	index.m3u	Развлекательные	ref:id
+move	8TV HD LV	index.m3u	Развлекательные	ref:name
+move	BOX Game HD	index.m3u	Развлекательные	ref:id
+move	BOX Mayday HD	index.m3u	Развлекательные	ref:id
+move	Express Entertainment IN	index.m3u	Развлекательные	kw:entertainment
+move	MS Crime HD	index.m3u	Развлекательные	ref:id
+move	TLC CA	index.m3u	Развлекательные	ref:name
+move	TLC HD CA	index.m3u	Развлекательные	ref:name
+move	TLC HD orig	index.m3u	Развлекательные	ref:name
+move	TLC HD SE	index.m3u	Развлекательные	ref:name
+move	TLC HD US	index.m3u	Развлекательные	ref:name
+move	TLC US	index.m3u	Развлекательные	ref:name
+move	VF Домашний повар	index.m3u	Развлекательные	kw:домашн
+move	12 канал (Омск)	index.m3u	Региональные	ref:id
+move	БСТ HD orig	index.m3u	Региональные	ref:id
+move	БСТ orig	index.m3u	Региональные	ref:id
+move	Мир Белогорья HD	index.m3u	Региональные	ref:id
+move	Москва 24 orig	index.m3u	Региональные	ref:id
+move	Сочи 24 HD	index.m3u	Региональные	ref:id
+move	Сургут 86 HD	index.m3u	Региональные	ref:id
+move	МузСоюз HD	index.m3u	Религия и изотерика	ref:id
+move	МузСоюз orig	index.m3u	Религия и изотерика	ref:id
+move	Надежда HD	index.m3u	Религия и изотерика	ref:id
+move	Радость моя orig	index.m3u	Религия и изотерика	ref:id
+move	Союз orig	index.m3u	Религия и изотерика	ref:id
+move	СПАС orig	index.m3u	Религия и изотерика	ref:id
+move	Liberty Союз 4K	index.m3u	Религия и изотерика	kw:союз
+move	VF Музсоюз	index.m3u	Религия и изотерика	kw:союз
+move	Дорама HD	index.m3u	Сериалы	ref:id
+move	Дорама HD orig	index.m3u	Сериалы	ref:id
+move	Дорама orig	index.m3u	Сериалы	ref:id
+move	Мир Сериала orig	index.m3u	Сериалы	ref:id
+move	Русский бестселлер orig	index.m3u	Сериалы	ref:id
+move	Русский детектив orig	index.m3u	Сериалы	ref:id
+move	Русский роман HD	index.m3u	Сериалы	ref:id
+move	Русский роман HD orig	index.m3u	Сериалы	ref:id
+move	Русский роман orig	index.m3u	Сериалы	ref:id
+move	Amedia 1 HD orig	index.m3u	Сериалы	ref:id
+move	Amedia 1 orig	index.m3u	Сериалы	ref:id
+move	Amedia 2 HD	index.m3u	Сериалы	ref:id
+move	Amedia 2 orig	index.m3u	Сериалы	ref:id
+move	Amedia Hit HD orig	index.m3u	Сериалы	ref:id
+move	Amedia Hit orig	index.m3u	Сериалы	ref:id
+move	Amedia Premium FHD orig	index.m3u	Сериалы	ref:id
+move	Amedia Premium HD orig	index.m3u	Сериалы	ref:id
+move	Atreseries HD ES	index.m3u	Сериалы	kw:series
+move	BCU Multserial HD	index.m3u	Сериалы	kw:serial
+move	BCU RuSerial HD	index.m3u	Сериалы	kw:serial
+move	BOX Serial 4K	index.m3u	Сериалы	ref:name
+move	Canal+ Seriale HD PL	index.m3u	Сериалы	kw:serial
+move	FX Life HD	index.m3u	Сериалы	ref:id
+move	Liberty Сериалы 4K	index.m3u	Сериалы	kw:сериал
+move	Liberty Сериалы FHD	index.m3u	Сериалы	kw:сериал
+move	PG Serial HD	index.m3u	Сериалы	kw:serial
+move	SYFY HD ES	index.m3u	Сериалы	ref:name
+move	TF1 Series Films HD FR	index.m3u	Сериалы	kw:series
+move	TVP Seriale HD PL	index.m3u	Сериалы	kw:serial
+move	V Series HD SE	index.m3u	Сериалы	kw:series
+move	VF Series	index.m3u	Сериалы	kw:series
+move	VF TOP Series	index.m3u	Сериалы	kw:series
+move	VF Сериал	index.m3u	Сериалы	kw:сериал
+move	VF Сериал 4K	index.m3u	Сериалы	kw:сериал
+move	VHS-ка Сериал HD	index.m3u	Сериалы	kw:сериал
+move	Viju+ Serial HD	index.m3u	Сериалы	ref:id
+move	Viju+ Serial HD orig	index.m3u	Сериалы	ref:id
+move	Z!Serial HD	index.m3u	Сериалы	kw:serial
+move	Матч ТВ FHD	index.m3u	Спорт	kw:матч
+move	Матч ТВ HD 50	index.m3u	Спорт	kw:матч
+move	Матч! Игра HD 50	index.m3u	Спорт	kw:матч
+move	Матч! Игра HD 50 orig	index.m3u	Спорт	kw:матч
+move	Мир Баскетбола HD	index.m3u	Спорт	ref:id
+move	Окко Прайм Спорт HD	index.m3u	Спорт	kw:спорт
+move	Окко Спорт HD	index.m3u	Спорт	ref:id
+move	Старт FHD	index.m3u	Спорт	ref:id
+move	Старт HD	index.m3u	Спорт	ref:id
+move	Старт HD orig	index.m3u	Спорт	ref:id
+move	Старт Триумф HD	index.m3u	Спорт	ref:id
+move	ТВ Спорт HD	index.m3u	Спорт	ref:id
+move	Триколор Спорт 1	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 10	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 11	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 12	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 13	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 14	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 15	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 16	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 17	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 19	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 2	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 20	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 21	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 22	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 23	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 24	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 3	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 4	index.m3u	Спорт	kw:спорт
+move	Триколор Спорт 5	index.m3u	Спорт	kw:спорт
+move	Хоккей ТВ HD	index.m3u	Спорт	ref:id
+move	5Sport 4K IL	index.m3u	Спорт	kw:sport
+move	Altitude Sports HD US	index.m3u	Спорт	kw:sport
+move	Arena Esport HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 1 FHD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 1 FHD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 1 HD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 1 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 1x2 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 2 FHD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 2 HD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 3 FHD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 3 HD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 3 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 4 FHD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 4 HD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 4 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 5 FHD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 5 HD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 5 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 6 FHD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 6 HD HR	index.m3u	Спорт	kw:sport
+move	Arena Sport 6 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 7 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 8 HD RS	index.m3u	Спорт	kw:sport
+move	Arena Sport 9 HD RS	index.m3u	Спорт	kw:sport
+move	Band Sports BR	index.m3u	Спорт	kw:sport
+move	Band Sports HD BR	index.m3u	Спорт	kw:sport
+move	beIN Sports 1 HD FR	index.m3u	Спорт	kw:sport
+move	beIN Sports 1 HD QA	index.m3u	Спорт	kw:sport
+move	beIN Sports 2 HD FR	index.m3u	Спорт	kw:sport
+move	beIN Sports 3 HD FR	index.m3u	Спорт	kw:sport
+move	beIN Sports 3 HD QA	index.m3u	Спорт	kw:sport
+move	beIN Sports 4 HD QA	index.m3u	Спорт	kw:sport
+move	beIN Sports 4 US	index.m3u	Спорт	kw:sport
+move	beIN Sports 5 HD QA	index.m3u	Спорт	kw:sport
+move	beIN Sports 5 US	index.m3u	Спорт	kw:sport
+move	beIN Sports 6 HD QA	index.m3u	Спорт	kw:sport
+move	beIN Sports 6 US	index.m3u	Спорт	kw:sport
+move	beIN Sports 7 HD QA	index.m3u	Спорт	kw:sport
+move	beIN Sports 7 US	index.m3u	Спорт	kw:sport
+move	beIN Sports En Español HD US	index.m3u	Спорт	kw:sport
+move	beIN Sports Haber HD TR	index.m3u	Спорт	kw:sport
+move	beIN Sports Max 1 FHD TR	index.m3u	Спорт	kw:sport
+move	beIN Sports US	index.m3u	Спорт	kw:sport
+move	Best4Sport 2 HD LV	index.m3u	Спорт	kw:sport
+move	Best4Sport HD LV	index.m3u	Спорт	kw:sport
+move	BOX SportCast HD	index.m3u	Спорт	kw:sport
+move	BOX SportCast Live 1 HD	index.m3u	Спорт	kw:sport
+move	BOX SportCast Live 2 HD	index.m3u	Спорт	kw:sport
+move	BOX SportCast Live 3 HD	index.m3u	Спорт	kw:sport
+move	BOX SportCast Live 4 HD	index.m3u	Спорт	kw:sport
+move	BOX SportCast Live 5 HD	index.m3u	Спорт	kw:sport
+move	BOX SportCast Live 6 HD	index.m3u	Спорт	kw:sport
+move	BOX SportCast Live 7 HD	index.m3u	Спорт	kw:sport
+move	BOX SR Sport 1 Live 4K HDR	index.m3u	Спорт	kw:sport
+move	BOX SR Sport 2 Live 4K HDR	index.m3u	Спорт	kw:sport
+move	BOX SR Sport 4K HDR	index.m3u	Спорт	kw:sport
+move	Canal+ Sport 2 HD PL	index.m3u	Спорт	kw:sport
+move	Canal+ Sport 5 HD PL	index.m3u	Спорт	kw:sport
+move	Canal+ Sport HD FR	index.m3u	Спорт	kw:sport
+move	Canal+ Sport HD PL	index.m3u	Спорт	kw:sport
+move	CBS Sports Network HD US	index.m3u	Спорт	ref:id
+move	Cosmote Sport 1 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 2 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 3 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 4 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 5 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 6 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 7 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 8 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport 9 HD GR	index.m3u	Спорт	kw:sport
+move	Cosmote Sport Highlights HD GR	index.m3u	Спорт	kw:sport
+move	Cytavision Sports 1 GR	index.m3u	Спорт	kw:sport
+move	Cytavision Sports 2 GR	index.m3u	Спорт	kw:sport
+move	Cytavision Sports 3 GR	index.m3u	Спорт	kw:sport
+move	Cytavision Sports 5 GR	index.m3u	Спорт	kw:sport
+move	Cytavision Sports 6 GR	index.m3u	Спорт	kw:sport
+move	Cytavision Sports 7 GR	index.m3u	Спорт	kw:sport
+move	DAZN 1 Bar HD ES	index.m3u	Спорт	kw:dazn
+move	DAZN 1 FHD PT	index.m3u	Спорт	ref:name
+move	DAZN 1 HD DE	index.m3u	Спорт	ref:name
+move	DAZN 1 HD PT	index.m3u	Спорт	ref:name
+move	DAZN 1 PT	index.m3u	Спорт	ref:id
+move	DAZN 2 Bar HD ES	index.m3u	Спорт	kw:dazn
+move	DAZN 2 FHD PT	index.m3u	Спорт	ref:name
+move	DAZN 2 HD DE	index.m3u	Спорт	ref:name
+move	DAZN 2 HD PT	index.m3u	Спорт	ref:name
+move	DAZN 3 Bar HD ES	index.m3u	Спорт	kw:dazn
+move	DAZN 3 FHD PT	index.m3u	Спорт	kw:dazn
+move	DAZN 3 HD PT	index.m3u	Спорт	kw:dazn
+move	DAZN 4 Bar HD ES	index.m3u	Спорт	kw:dazn
+move	DAZN 4 FHD PT	index.m3u	Спорт	ref:id
+move	DAZN 4 HD PT	index.m3u	Спорт	ref:id
+move	DAZN 5 FHD PT	index.m3u	Спорт	ref:id
+move	DAZN 5 HD PT	index.m3u	Спорт	ref:id
+move	DAZN 6 FHD PT	index.m3u	Спорт	kw:dazn
+move	DAZN F1 ES	index.m3u	Спорт	kw:dazn
+move	DAZN F1 HD ES	index.m3u	Спорт	kw:dazn
+move	DAZN LaLiga 2 HD ES	index.m3u	Спорт	kw:dazn
+move	DAZN LaLiga HD ES	index.m3u	Спорт	kw:dazn
+move	Diema Sport 3 HD BG	index.m3u	Спорт	kw:sport
+move	DIGI Sport 1 HD RO	index.m3u	Спорт	kw:sport
+move	DIGI Sport 2 HD RO	index.m3u	Спорт	kw:sport
+move	DIGI Sport 3 HD RO	index.m3u	Спорт	kw:sport
+move	DIGI Sport 4 HD RO	index.m3u	Спорт	kw:sport
+move	Eleven Sports 1 4K PL	index.m3u	Спорт	kw:sport
+move	Eleven Sports 1 HD PL	index.m3u	Спорт	kw:sport
+move	Eleven Sports 2 HD PL	index.m3u	Спорт	kw:sport
+move	ESPN 1 HD NL	index.m3u	Спорт	ref:name
+move	ESPN 2 HD NL	index.m3u	Спорт	ref:name
+move	ESPN 2 HD US	index.m3u	Спорт	ref:name
+move	eSports ONE HD DE	index.m3u	Спорт	kw:sport
+move	Eurosport 1 FHD DE	index.m3u	Спорт	ref:name
+move	Eurosport 1 HD	index.m3u	Спорт	ref:id
+move	Eurosport 1 HD DE	index.m3u	Спорт	ref:name
+move	Eurosport 1 HD ES	index.m3u	Спорт	ref:name
+move	Eurosport 1 HD orig	index.m3u	Спорт	ref:name
+move	Eurosport 1 HD PL	index.m3u	Спорт	ref:name
+move	Eurosport 1 HD PT	index.m3u	Спорт	ref:name
+move	Eurosport 1 HD SE	index.m3u	Спорт	ref:name
+move	Eurosport 1 orig	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD	index.m3u	Спорт	ref:id
+move	Eurosport 2 HD DE	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD ES	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD IT	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD orig	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD PL	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD PT	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD SE	index.m3u	Спорт	ref:name
+move	Eurosport 2 HD UK	index.m3u	Спорт	ref:name
+move	Extreme Sports HD	index.m3u	Спорт	ref:id
+move	Extreme Sports orig	index.m3u	Спорт	ref:name
+move	FanDuel Sports Midwest US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports New Orleans HD US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports North US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports Ohio HD US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports SoCal HD US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports Southeast HD US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports Southwest US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports Sun HD US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports West HD US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports Wisconsin HD US	index.m3u	Спорт	kw:sport
+move	FanDuel Sports Wisconsin Plus HD US	index.m3u	Спорт	kw:sport
+move	Fox Sports 1 HD US	index.m3u	Спорт	kw:sport
+move	Fox Sports 2 HD US	index.m3u	Спорт	kw:sport
+move	Fox Sports 2 US	index.m3u	Спорт	kw:sport
+move	Fox Sports 501 Cricket HD AU	index.m3u	Спорт	kw:sport
+move	Fox Sports 506 HD AU	index.m3u	Спорт	kw:sport
+move	Fox Sports HD AR	index.m3u	Спорт	kw:sport
+move	Fox Sports HD MX	index.m3u	Спорт	kw:sport
+move	Fox Sports Racing US	index.m3u	Спорт	kw:sport
+move	Go3 Sport 1 HD EE	index.m3u	Спорт	ref:id
+move	Go3 Sport 1 HD LV	index.m3u	Спорт	ref:id
+move	Go3 Sport 2 HD EE	index.m3u	Спорт	ref:id
+move	Go3 Sport 2 HD LT	index.m3u	Спорт	ref:id
+move	Go3 Sport 2 HD LV	index.m3u	Спорт	ref:id
+move	Go3 Sport 3 HD LV	index.m3u	Спорт	kw:sport
+move	Go3 Sport Open HD LV	index.m3u	Спорт	ref:id
+move	Infosport+ HD FR	index.m3u	Спорт	kw:sport
+move	KHL HD	index.m3u	Спорт	ref:id
+move	KHL orig	index.m3u	Спорт	ref:id
+move	KHL Prime FHD	index.m3u	Спорт	ref:id
+move	KHL Prime HD	index.m3u	Спорт	ref:id
+move	KHL Prime HD orig	index.m3u	Спорт	ref:id
+move	M4 Sport HD HU	index.m3u	Спорт	kw:sport
+move	Megogo Спорт HD	index.m3u	Спорт	kw:спорт
+move	MLB Network HD CA	index.m3u	Спорт	ref:name
+move	MM Спорт HD	index.m3u	Спорт	kw:спорт
+move	Monumental Sports Network HD US	index.m3u	Спорт	kw:sport
+move	More Than Sports TV HD DE	index.m3u	Спорт	kw:sport
+move	MS Sport HD DE	index.m3u	Спорт	kw:sport
+move	NBA TV Canada CA	index.m3u	Спорт	kw:nba
+move	NBA TV HD US	index.m3u	Спорт	ref:name
+move	NBC Sports Network HD US	index.m3u	Спорт	kw:sport
+move	NFL Network CA	index.m3u	Спорт	ref:name
+move	NFL Network US	index.m3u	Спорт	ref:name
+move	NHL Network HD US	index.m3u	Спорт	ref:id
+move	NHL Network US	index.m3u	Спорт	ref:id
+move	Nova Sport 1 HD CZ	index.m3u	Спорт	kw:sport
+move	Nova Sport 2 HD CZ	index.m3u	Спорт	kw:sport
+move	Nova Sport 3 HD CZ	index.m3u	Спорт	kw:sport
+move	Nova Sport 4 HD CZ	index.m3u	Спорт	kw:sport
+move	ON Sport 1 HD EG	index.m3u	Спорт	kw:sport
+move	Polsat Sport 1 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport 2 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport 3 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport Extra 1 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport Extra 2 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport Extra 3 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport Extra 4 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport Premium 1 HD PL	index.m3u	Спорт	kw:sport
+move	Polsat Sport Premium 2 HD PL	index.m3u	Спорт	kw:sport
+move	Premier Sports 1 HD 50 UK	index.m3u	Спорт	kw:sport
+move	Premier Sports 1 HD UK	index.m3u	Спорт	kw:sport
+move	Q Sport.KG HD	index.m3u	Спорт	kw:sport
+move	QazSport HD KZ	index.m3u	Спорт	ref:id
+move	Rai Sport HD IT	index.m3u	Спорт	kw:sport
+move	Red Bull TV HD DE	index.m3u	Спорт	ref:name
+move	RMC Sport 1 HD FR	index.m3u	Спорт	kw:sport
+move	RMC Sport 2 HD FR	index.m3u	Спорт	kw:sport
+move	RMC Sport 3 HD FR	index.m3u	Спорт	kw:sport
+move	Russian Extreme HD	index.m3u	Спорт	ref:id
+move	Russian Extreme HD orig	index.m3u	Спорт	ref:name
+move	Sky Sport 1 FHD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 1 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 10 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 2 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 24 FHD IT	index.m3u	Спорт	kw:sport
+move	Sky Sport 24 HD IT	index.m3u	Спорт	kw:sport
+move	Sky Sport 3 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 4 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 5 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 6 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 7 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 8 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport 9 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Arena HD IT	index.m3u	Спорт	kw:sport
+move	Sky Sport Austria 1 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Austria 2 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 1 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 2 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 3 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 5 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 6 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 7 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 8 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Bundesliga 9 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Calcio HD IT	index.m3u	Спорт	kw:sport
+move	Sky Sport F1 DE	index.m3u	Спорт	kw:sport
+move	Sky Sport F1 FHD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport F1 HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport F1 HD IT	index.m3u	Спорт	kw:sport
+move	Sky Sport Golf HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Golf HD IT	index.m3u	Спорт	kw:sport
+move	Sky Sport Mix HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport MotoGP HD IT	index.m3u	Спорт	kw:sport
+move	Sky Sport Premier League HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport Top Event HD DE	index.m3u	Спорт	kw:sport
+move	Sky Sport UHD DE	index.m3u	Спорт	kw:sport
+move	Sky Sports Action HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Action HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Cricket HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Cricket HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports F1 HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports F1 HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Golf HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Golf HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Main Event HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Main Event HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Mix HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Mix HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Premier League HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Premier League HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Racing HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Racing HD UK	index.m3u	Спорт	kw:sport
+move	Sky Sports Tennis HD 50 UK	index.m3u	Спорт	kw:sport
+move	Sky Sports+ HD UK	index.m3u	Спорт	kw:sport
+move	Spectrum SportsNet HD US	index.m3u	Спорт	kw:sport
+move	Sport 1 HD DE	index.m3u	Спорт	ref:name
+move	Sport 1 HD HU	index.m3u	Спорт	ref:name
+move	Sport 1 HD LT	index.m3u	Спорт	ref:name
+move	Sport 1 LT	index.m3u	Спорт	ref:name
+move	Sport 2 HD CZ	index.m3u	Спорт	ref:name
+move	Sport 2 HD HU	index.m3u	Спорт	ref:name
+move	Sport 3 HD UA	index.m3u	Спорт	ref:name
+move	Sport Extra HD RO	index.m3u	Спорт	kw:sport
+move	Sport Klub 1 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub 2 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub 3 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub 4 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub 5 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub 6 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub 7 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub 8 HD HR	index.m3u	Спорт	kw:sport
+move	Sport Klub Golf HR	index.m3u	Спорт	kw:sport
+move	Sport TV 1 FHD PT	index.m3u	Спорт	ref:name
+move	Sport TV 1 HD PT	index.m3u	Спорт	ref:name
+move	Sport TV 2 FHD PT	index.m3u	Спорт	ref:name
+move	Sport TV 2 HD PT	index.m3u	Спорт	ref:name
+move	Sport TV 3 FHD PT	index.m3u	Спорт	kw:sport
+move	Sport TV 3 HD PT	index.m3u	Спорт	kw:sport
+move	Sport TV 4 FHD PT	index.m3u	Спорт	kw:sport
+move	Sport TV 4 HD PT	index.m3u	Спорт	kw:sport
+move	Sport TV 5 FHD PT	index.m3u	Спорт	kw:sport
+move	Sport TV 5 HD PT	index.m3u	Спорт	kw:sport
+move	Sport TV 6 FHD PT	index.m3u	Спорт	kw:sport
+move	Sport TV 7 FHD PT	index.m3u	Спорт	kw:sport
+move	Sport TV HD AZ	index.m3u	Спорт	kw:sport
+move	Sport TV+ FHD PT	index.m3u	Спорт	kw:sport
+move	Sport TV+ HD PT	index.m3u	Спорт	kw:sport
+move	Sportdigital Fussball DE	index.m3u	Спорт	kw:sport
+move	Sportdigital Fussball HD DE	index.m3u	Спорт	kw:sport
+move	Sportitalia Plus HD IT	index.m3u	Спорт	kw:sport
+move	Sportsnet 360 HD CA	index.m3u	Спорт	kw:sport
+move	Sportsnet East HD CA	index.m3u	Спорт	kw:sport
+move	SportsNet New York HD US	index.m3u	Спорт	kw:sport
+move	Sportsnet ONE HD CA	index.m3u	Спорт	kw:sport
+move	Sportsnet Ontario HD CA	index.m3u	Спорт	kw:sport
+move	Sportsnet Pacific HD CA	index.m3u	Спорт	kw:sport
+move	Sportsnet West HD CA	index.m3u	Спорт	kw:sport
+move	Star Sports 1 IN	index.m3u	Спорт	kw:sport
+move	Star Sports 2 IN	index.m3u	Спорт	kw:sport
+move	Super Tennis FHD IT	index.m3u	Спорт	ref:name
+move	Super Tennis HD IT	index.m3u	Спорт	ref:name
+move	Tennis Channel US	index.m3u	Спорт	kw:tennis
+move	TNT Sports 1 FHD UK	index.m3u	Спорт	kw:sport
+move	TNT Sports 1 HD UK	index.m3u	Спорт	kw:sport
+move	TNT Sports 2 HD UK	index.m3u	Спорт	kw:sport
+move	TNT Sports 3 HD UK	index.m3u	Спорт	kw:sport
+move	TNT Sports 4 HD UK	index.m3u	Спорт	kw:sport
+move	Trace Sport Stars HD	index.m3u	Спорт	ref:id
+move	Tring Sport 1 HD AL	index.m3u	Спорт	kw:sport
+move	Tring Sport 2 HD AL	index.m3u	Спорт	kw:sport
+move	Tring Sport 3 HD AL	index.m3u	Спорт	kw:sport
+move	TV 2 Sport 2 HD NO	index.m3u	Спорт	kw:sport
+move	TV 2 Sport HD DK	index.m3u	Спорт	kw:sport
+move	TV3 Sport SE	index.m3u	Спорт	ref:name
+move	TV4 Sport Live 1 HD SE	index.m3u	Спорт	kw:sport
+move	TV4 Sport Live 2 HD SE	index.m3u	Спорт	kw:sport
+move	TV4 Sport Live 4 HD SE	index.m3u	Спорт	kw:sport
+move	TV4 Sportkanalen HD SE	index.m3u	Спорт	kw:sport
+move	TVP Sport HD PL	index.m3u	Спорт	kw:sport
+move	V Sport Extra SE	index.m3u	Спорт	kw:sport
+move	V Sport Golf SE	index.m3u	Спорт	kw:sport
+move	V Sport Motor HD SE	index.m3u	Спорт	kw:sport
+move	V Sport Motor SE	index.m3u	Спорт	kw:sport
+move	V Sport Premium SE	index.m3u	Спорт	kw:sport
+move	V Sport Ultra HD SE	index.m3u	Спорт	kw:sport
+move	V Sport Vinter HD SE	index.m3u	Спорт	kw:sport
+move	V Sport Vinter SE	index.m3u	Спорт	kw:sport
+move	Viju+ Sport HD	index.m3u	Спорт	ref:id
+move	Viju+ Sport HD orig	index.m3u	Спорт	ref:id
+move	Viju+ Sport orig	index.m3u	Спорт	ref:id
+move	ViP Sport 1	index.m3u	Спорт	kw:sport
+move	ViP Sport 10	index.m3u	Спорт	kw:sport
+move	ViP Sport 11	index.m3u	Спорт	kw:sport
+move	ViP Sport 12	index.m3u	Спорт	kw:sport
+move	ViP Sport 13	index.m3u	Спорт	kw:sport
+move	ViP Sport 14	index.m3u	Спорт	kw:sport
+move	ViP Sport 15	index.m3u	Спорт	kw:sport
+move	ViP Sport 16	index.m3u	Спорт	kw:sport
+move	ViP Sport 17	index.m3u	Спорт	kw:sport
+move	ViP Sport 2	index.m3u	Спорт	kw:sport
+move	ViP Sport 3	index.m3u	Спорт	kw:sport
+move	ViP Sport 4	index.m3u	Спорт	kw:sport
+move	ViP Sport 5	index.m3u	Спорт	kw:sport
+move	ViP Sport 6	index.m3u	Спорт	kw:sport
+move	ViP Sport 7	index.m3u	Спорт	kw:sport
+move	ViP Sport 8	index.m3u	Спорт	kw:sport
+move	ViP Sport 9	index.m3u	Спорт	kw:sport
+move	Vital Sport Drive	index.m3u	Спорт	kw:sport
+move	W-Sport HD	index.m3u	Спорт	kw:sport
+move	We Sport TV HD MD	index.m3u	Спорт	kw:sport
+move	YAS Sports AE	index.m3u	Спорт	kw:sport
+move	Ziggo Sport 2 HD NL	index.m3u	Спорт	kw:sport
+move	Ziggo Sport 3 HD NL	index.m3u	Спорт	kw:sport
+move	Ziggo Sport HD NL	index.m3u	Спорт	kw:sport
+move	ČT sport HD CZ	index.m3u	Спорт	ref:id
+move	Матч! Футбол 1 HD 50	index.m3u	Футбол	kw:футбол
+move	Матч! Футбол 1 HD 50 orig	index.m3u	Футбол	kw:футбол
+move	Матч! Футбол 2 HD 50	index.m3u	Футбол	kw:футбол
+move	Матч! Футбол 3 HD 50	index.m3u	Футбол	kw:футбол
+move	Матч! Футбол 3 HD 50 orig	index.m3u	Футбол	kw:футбол
+move	Мяч HD	index.m3u	Футбол	ref:id
+move	Окко Футбол HD	index.m3u	Футбол	kw:футбол
+move	Футбол HD	index.m3u	Футбол	ref:id
+move	Футбол orig	index.m3u	Футбол	ref:name
+move	Benfica TV FHD PT	index.m3u	Футбол	ref:id
+move	Benfica TV HD PT	index.m3u	Футбол	ref:id
+move	Setanta Sports 1 FHD KZ	index.m3u	Футбол	ref:name
+move	Setanta Sports 1 HD orig	index.m3u	Футбол	ref:name
+move	Setanta Sports 2 HD orig	index.m3u	Футбол	ref:name
+move	Setanta Sports FHD UA	index.m3u	Футбол	ref:id
+move	Setanta Sports HD UA	index.m3u	Футбол	ref:id
+move	Setanta Sports HD UA orig	index.m3u	Футбол	ref:id
+move	Setanta Sports+ FHD UA	index.m3u	Футбол	ref:id
+move	Setanta Sports+ HD UA	index.m3u	Футбол	ref:id
+move	Setanta Sports+ HD UA orig	index.m3u	Футбол	ref:id
+move	Setanta Sports+ UA	index.m3u	Футбол	ref:id
+move	Sky Sports Football HD 50 UK	index.m3u	Футбол	kw:football
+move	Sky Sports Football HD UK	index.m3u	Футбол	kw:football
+move	Sporting TV FHD PT	index.m3u	Футбол	ref:name
+move	Sporting TV HD PT	index.m3u	Футбол	ref:name
+move	V Sport Football HD SE	index.m3u	Футбол	kw:football
+move	V Sport Football SE	index.m3u	Футбол	kw:football
+move	ViaPlay Football SE	index.m3u	Футбол	kw:football
+move	Анекдот ТВ	index.m3u	Юмор	kw:анекдот
+move	Камеди HD	index.m3u	Юмор	kw:камеди
+move	Камеди HD orig	index.m3u	Юмор	kw:камеди
+move	КВН ТВ orig	index.m3u	Юмор	ref:id
+move	Сарафан orig	index.m3u	Юмор	ref:id
+move	ТНТ4 HD	index.m3u	Юмор	ref:id
+move	ТНТ4 orig	index.m3u	Юмор	ref:id
+move	BCU Comedy HD	index.m3u	Юмор	kw:comedy
+move	BCU Comedy HDR	index.m3u	Юмор	kw:comedy
+move	Citrus Comedy	index.m3u	Юмор	kw:comedy
+move	Comedy Central HD DE	index.m3u	Юмор	ref:name
+move	Comedy Central HD ES	index.m3u	Юмор	ref:name
+move	Comedy Central HD US	index.m3u	Юмор	ref:name
+move	CTV Comedy HD CA	index.m3u	Юмор	kw:comedy
+move	Magic Comedy HD	index.m3u	Юмор	kw:comedy
+move	VF Comedy	index.m3u	Юмор	kw:comedy
+move	VF Comedy Woman	index.m3u	Юмор	kw:comedy
+move	Warner TV Comedy HD DE	index.m3u	Юмор	kw:comedy
+move	Z!Comedy HD	index.m3u	Юмор	kw:comedy
+#
+# --- ДУБЛИ: канал уже есть в этой группе. Скрипт их НЕ трогает (оставляет в candidate). Слей ссылку вручную или переименуй. ---
+# dup	СуперГерои	-> Детские
+#
+# --- остаются в candidate (не распознаны) ---
+# skip	11 канал. Экспресс (Пенза)
+# skip	25 Регион (Приморье)
+# skip	360 (Иркутск)
+# skip	450 (Самара)
+# skip	7 канал (Красноярск)
+# skip	8 канал (Красноярский край)
+# skip	Абакан 24
+# skip	Аист ТВ (Иркутск)
+# skip	Апостроф TV HD UA
+# skip	Арис 24 HD (Башкортостан)
+# skip	Архыз 24 HD (Черкесск)
+# skip	АТВ Ставрополь
+# skip	Афонтово (Красноярск)
+# skip	Белсат HD
+# skip	Блокбастер HD
+# skip	Блокбастер HD orig
+# skip	Большой Эфир HD
+# skip	Брянская Губерния HD
+# skip	БСТ 24 (Братск)
+# skip	БТК HD (Белорецк)
+# skip	В гостях у сказки
+# skip	В гостях у сказки HD
+# skip	В гостях у сказки orig
+# skip	Вкус HD
+# skip	Волга (Нижний Новгород)
+# skip	Волга (Нижний Новгород) orig
+# skip	Волга 24 HD (Нижний Новгород)
+# skip	Волейбол HD
+# skip	Восток 24 HD (Владивосток)
+# skip	Вся Уфа
+# skip	Городской телеканал (Ярославль)
+# skip	Госфильмофонд. Машина времени HD
+# skip	Губерния (Хабаровск)
+# skip	День Победы HD
+# skip	Евразия HD (Орск)
+# skip	ЕГЭ ТВ
+# skip	ЕГЭ ТВ orig
+# skip	Енисей (Красноярск)
+# skip	Еспресо FHD UA
+# skip	Жар Птица
+# skip	Жар Птица orig
+# skip	Женский Журнал
+# skip	Женский Журнал HD
+# skip	Зал 1 (Триколор)
+# skip	Зал 10 (Триколор)
+# skip	Зал 11 (Триколор)
+# skip	Зал 12 (Триколор)
+# skip	Зал 17 (Триколор)
+# skip	Зал 19 (Триколор)
+# skip	Зал 2 (Триколор)
+# skip	Зал 26 (Триколор)
+# skip	Зал 3 (Триколор)
+# skip	Зал 4 (Триколор)
+# skip	Зал 5 (Триколор)
+# skip	Зал 6 (Триколор)
+# skip	Зал 7 (Триколор)
+# skip	Зал 8 (Триколор)
+# skip	Зал 9 (Триколор)
+# skip	Катунь 24 (Барнаул)
+# skip	Кинеко
+# skip	Кинеко HD
+# skip	Кион Хит HD
+# skip	Криминальное HD
+# skip	Крым 24
+# skip	Крым 24 orig
+# skip	Кузбасс Первый HD (Кемерево)
+# skip	Курай ТВ
+# skip	Курай ТВ HD
+# skip	Курай ТВ HD orig
+# skip	Курай ТВ orig
+# skip	ЛДПР ТВ orig
+# skip	Легенда
+# skip	Липецкое время HD
+# skip	ЛТВ HD (Люберцы)
+# skip	Любимое HD
+# skip	Любимое HD orig
+# skip	Лёва HD
+# skip	Матур ТВ HD (Башкортостан)
+# skip	Мегаполис HD (Югра)
+# skip	Миллет HD (Крым)
+# skip	Мир Вокруг HD
+# skip	Москва доверие
+# skip	Москва доверие orig
+# skip	Московское образование HD
+# skip	Нано ТВ HD orig
+# skip	Научпоп HD
+# skip	Наше Мужское HD
+# skip	Наше Мужское HD orig
+# skip	Наше Наследие HD
+# skip	НВК Саха HD (Якутия)
+# skip	Неизвестная Россия HD
+# skip	ННТВ HD (Нижний Новгород)
+# skip	Новый век (Тамбов)
+# skip	НСК 49 (Новосибирск)
+# skip	НТК (Калмыкия)
+# skip	о2тв
+# skip	о2тв HD
+# skip	о2тв HD orig
+# skip	о2тв orig
+# skip	Обком ТВ (Омск)
+# skip	Океан HD
+# skip	Окко Event 1
+# skip	Окко Event 16
+# skip	Окко Event 2
+# skip	Окко Event 3
+# skip	Окко Event 4
+# skip	Окко Event 5
+# skip	Окко Event 6
+# skip	Осетия Ирыстон HD
+# skip	Остросюжетное HD
+# skip	Остросюжетное HD orig
+# skip	ОТВ (Владивосток)
+# skip	ОТВ (Екатеринбург)
+# skip	Панорама ТВ HD (Тверь)
+# skip	Патриот
+# skip	Первый Вегетарианский
+# skip	Первый Вегетарианский orig
+# skip	Первый городской (Омск)
+# skip	Первый Тульский HD
+# skip	Плюс/Минус 16 HD
+# skip	Премиальное HD 50
+# skip	Прима (Красноярск)
+# skip	Прима HD (Красноярск)
+# skip	Про Любовь HD
+# skip	Про Любовь HD orig
+# skip	Продвижение (Тамбов)
+# skip	Психология
+# skip	Психология orig
+# skip	Пёс и Ко
+# skip	Раменское ТВ HD
+# skip	РЖД ТВ
+# skip	Романтичное HD
+# skip	Россия 1 HD 50
+# skip	РТС (Абакан)
+# skip	РУ.ТВ
+# skip	РУ.ТВ HD
+# skip	Рыжий
+# skip	Рыжий orig
+# skip	Самара 24
+# skip	Самара 24 HD
+# skip	Самара ГИС HD
+# skip	Сапфир
+# skip	Саратов 24 HD
+# skip	Своё ТВ (Ставрополь)
+# skip	Север HD (Нарьян-Мар)
+# skip	Сибирь 24 HD
+# skip	Симферополь 24 HD
+# skip	Сказки Зайки HD
+# skip	Смайл ТВ HD
+# skip	Смайл ТВ orig
+# skip	Страна FM HD
+# skip	Страшное HD
+# skip	СТС International
+# skip	Сургут 1 HD
+# skip	Тайна
+# skip	Тамыр (Уфа)
+# skip	Тамыр (Уфа) orig
+# skip	ТВ 21
+# skip	ТВ 21 orig
+# skip	ТВ Центр International
+# skip	ТВ7 (Абакан)
+# skip	ТВК (Красноярск)
+# skip	ТВК HD (Красноярск)
+# skip	Теледом ТВ HD (Санкт-Петербург)
+# skip	ТЕО ТВ HD (Москва)
+# skip	Тивиком HD (Улан-Удэ)
+# skip	ТипТоп HD
+# skip	ТНВ Планета (Татарстан)
+# skip	ТНР 24 HD (Нижневартовск)
+# skip	Толк HD (Барнаул)
+# skip	Томское время
+# skip	Тооку (Якутия)
+# skip	ТРК555 HD (Алушта)
+# skip	Трофей UA
+# skip	Туапсе 24 HD
+# skip	Хузур ТВ
+# skip	Хузур ТВ HD orig
+# skip	Чижик HD
+# skip	Эхо 24 (Новоуральск)
+# skip	Эхо ТВ
+# skip	Ю ТВ
+# skip	Ю ТВ orig
+# skip	Югра
+# skip	Якутия 24
+# skip	ЯПервый HD (Ярославль)
+# skip	Яснае HD BY
+# skip	#dabeiTV HD DE
+# skip	1+2 EE
+# skip	1-2-3.tv HD DE
+# skip	13th Street HD DE
+# skip	2TV LT
+# skip	360 HD
+# skip	360 HD orig
+# skip	360 orig
+# skip	360TV HD LV
+# skip	3sat HD DE
+# skip	4Fun TV PL
+# skip	9X Tashan IN
+# skip	A Bola TV HD PT
+# skip	A Spor HD TR
+# skip	A&E CA
+# skip	A&E HD US
+# skip	A&E US
+# skip	Aaj Tak IN
+# skip	Aastha TV IN
+# skip	ABC HD US
+# skip	AIVA TV HD
+# skip	AIVA TV HD orig
+# skip	AL EMARAT TV AE
+# skip	Al Hadath AE
+# skip	Al Jazeera English HD DE
+# skip	Al Jazeera QA
+# skip	AMC CA
+# skip	AMC CZ
+# skip	AMC HD US
+# skip	American Heroes Channel HD US
+# skip	Anixe HD Serie DE
+# skip	Anixe+ HD DE
+# skip	Antena 3 HD ES
+# skip	ARD Alpha HD DE
+# skip	Arena Premium 1 HD RS
+# skip	Arena Premium 2 HD RS
+# skip	Arena Premium 3 HD RS
+# skip	Arirang KR
+# skip	Arte DE
+# skip	Arte HD DE
+# skip	ATG Live SE
+# skip	ATV DE
+# skip	AXN HD ES
+# skip	AXS TV HD US
+# skip	B4U Movies IN
+# skip	Ballermann TV HD DE
+# skip	Balticum Auksinis LT
+# skip	Balticum LT
+# skip	Balticum Platinum HD LT
+# skip	BCU Action HD
+# skip	BCU Catastrophe HD
+# skip	BCU Charm HD
+# skip	BCU Cosmo HD
+# skip	BCU Criminal HD
+# skip	BCU Fantastic HD
+# skip	BCU FilMystic HD
+# skip	BCU Kinorating HD
+# skip	BCU Little HD
+# skip	BCU Marvel HD
+# skip	BCU Marvel HDR
+# skip	BCU Media HD OLD
+# skip	BCU Premium Kinozakaz+ 4K HDR
+# skip	BCU Reality HD
+# skip	BCU Reality OLD
+# skip	BCU Romantic HD
+# skip	BCU Romantic OLD
+# skip	BCU Russian HD
+# skip	BCU Stars HD
+# skip	BCU Survival HD
+# skip	BCU Survival OLD
+# skip	BCU Ultra 4K
+# skip	BCU VHS HD
+# skip	BCU Сваты HD
+# skip	Be Mad HD ES
+# skip	BET Her HD US
+# skip	Betking Live 1
+# skip	Betking Live 2
+# skip	Bibel TV HD DE
+# skip	BNN Bloomberg HD CA
+# skip	Boing HD ES
+# skip	Bollywood HD
+# skip	Bollywood HD orig
+# skip	BonGusto HD DE
+# skip	BOX Apocalypse HD
+# skip	BOX Be On Edge HD
+# skip	BOX Be On Edge Live 1 HD
+# skip	BOX Be On Edge Live 2 HD
+# skip	BOX Cyber HD
+# skip	BOX Fantasy HD
+# skip	BOX Franchise HD
+# skip	BOX Gangster HD
+# skip	BOX Ghost HD
+# skip	BOX Gurman HD
+# skip	BOX Hybrid HD
+# skip	BOX Kosmo 4K HDR
+# skip	BOX Metall HD
+# skip	BOX Oscar HD
+# skip	BOX Remast 4K
+# skip	BOX Remast+ 4K
+# skip	BOX RU.RAP HD
+# skip	BOX Spy HD
+# skip	BOX Western HD
+# skip	BOX Zombie HD
+# skip	BOX СССР 4K
+# skip	BR Fernsehen HD (Süd) DE
+# skip	Bravo HD US
+# skip	Bridge Rock
+# skip	Bridge Rock HD
+# skip	Bridge Русский Хит
+# skip	Bridge Русский Хит HD
+# skip	Bridge Русский Хит orig
+# skip	Bridge Фрэш
+# skip	Bridge Фрэш HD
+# skip	Bridge Шлягер
+# skip	Bridge Этно HD
+# skip	BTV HD LT
+# skip	BTV LT
+# skip	C-SPAN 2 HD US
+# skip	C-SPAN 3 HD US
+# skip	Calle 13 HD ES
+# skip	Canal 11 HD PT
+# skip	Canal SUR HD ES
+# skip	Canal+ 360 HD PL
+# skip	Canal+ Film HD PL
+# skip	Canal+ FR
+# skip	Canal+ HD FR
+# skip	Canal+ Kuchnia PL
+# skip	Caza y Pesca HD ES
+# skip	CBC Gem (St. John's) CA
+# skip	CBC HD AZ
+# skip	CBC Toronto CA
+# skip	CBC Toronto HD CA
+# skip	CGTN orig
+# skip	Channel 21 HD DE
+# skip	Channel I IN
+# skip	CHCH HD CA
+# skip	CHD-TV Rock HD
+# skip	Cine+ Classic HD FR
+# skip	Cine+ Frisson HD FR
+# skip	Citrus Inquest
+# skip	Citrus Live HD
+# skip	Citrus Marvel
+# skip	City TV Toronto HD CA
+# skip	CMT Canada CA
+# skip	CNBC Canada CA
+# skip	Colors Cineplex IN
+# skip	Colors Rishtey IN
+# skip	Cosmo HD ES
+# skip	CP 24 CA
+# skip	CPAC English CA
+# skip	CPAC French CA
+# skip	Crime + Investigation CA
+# skip	Crime + Investigation HD DE
+# skip	Crime + Investigation HD US
+# skip	CTV 2 CA
+# skip	CTV 2 HD CA
+# skip	CTV Drama HD CA
+# skip	CTV SCI-FI HD CA
+# skip	CTV Toronto CA
+# skip	Cuatro HD ES
+# skip	Curiosity Channel HD DE
+# skip	Curiosity Stream HD orig
+# skip	Dance TV Mainstream EDM
+# skip	Das Erste DE
+# skip	Das Erste HD DE
+# skip	Deejay TV HD IT
+# skip	Delfi TV HD LT
+# skip	Deluxe Dance HD DE
+# skip	Destination America HD US
+# skip	DetectiveJam HD
+# skip	Deutsches Musik Fernsehen HD DE
+# skip	Divinity ES
+# skip	DKISS ES
+# skip	DMAX HD DE
+# skip	DR1 HD DK
+# skip	DTX HD PL
+# skip	Duo 3 HD EE
+# skip	Duo 3 HD LV
+# skip	Duo 6 HD EE
+# skip	Duo 6 HD LV
+# skip	E! HD CA
+# skip	E! HD RO
+# skip	E! HD US
+# skip	El Toro TV ES
+# skip	Energy HD ES
+# skip	English Class HD
+# skip	English Club TV orig
+# skip	Eska Rock TV PL
+# skip	Eska TV Extra PL
+# skip	Eska TV PL
+# skip	ESPN 2 HD BR
+# skip	ESPN 3 HD NL
+# skip	ESPN 4 HD NL
+# skip	ESPN 6 HD BR
+# skip	ESPN BR
+# skip	ESPN Deportes HD US
+# skip	ESPN HD BR
+# skip	ESPN HD US
+# skip	ESPNU HD US
+# skip	Estrella TV US
+# skip	Etaplius TV LT
+# skip	ETV EE
+# skip	ETV HD EE
+# skip	ETV+ EE
+# skip	ETV+ HD EE
+# skip	ETV2 EE
+# skip	ETV2 HD EE
+# skip	Expressen TV HD SE
+# skip	Eye Criminal HD
+# skip	Eye Cyber HD
+# skip	Eye Family HD
+# skip	Eye Frozen HD
+# skip	Eye Media HD
+# skip	Eye Modern HD
+# skip	Eye Oscar HD
+# skip	Eye Western HD
+# skip	FamilyJam HD
+# skip	FanDuel TV HD US
+# skip	Fast & Fun Box HD
+# skip	Fateh TV IN
+# skip	FEM HD NO
+# skip	Fint Ga 1
+# skip	Fint Ga 2
+# skip	Fint Ga 3
+# skip	Fint Ga 4
+# skip	FlixSnip HD
+# skip	FlixSnip orig
+# skip	Fox 5 WNYW HD US
+# skip	FOX Buffalo HD CA
+# skip	Fox Deportes HD US
+# skip	France 2 HD FR
+# skip	France 24 English HD DE
+# skip	France 24 Francais HD DE
+# skip	France 3 HD FR
+# skip	France 4 HD FR
+# skip	France 5 HD FR
+# skip	France Info HD FR
+# skip	FRESH Concerts HD
+# skip	FRESH Dance HD
+# skip	FRESH Lyrics HD
+# skip	FRESH Retro HD
+# skip	FRESH Rock Covers HD
+# skip	FRESH Rock HD
+# skip	Fresh Russian
+# skip	FRESH Russian Rap HD
+# skip	Fresh Soviet
+# skip	Fuel TV
+# skip	Fuse HD US
+# skip	FX HD CA
+# skip	FX HD orig
+# skip	FX HD PL
+# skip	FXM Retro HD US
+# skip	FXX HDTV CA
+# skip	FYI HD US
+# skip	Game TV CA
+# skip	Gametoon HD
+# skip	Gemini Movies IN
+# skip	Global Toronto HD CA
+# skip	GNC HD
+# skip	Go3 Films HD LT
+# skip	Go3 Films HD LV
+# skip	Godare SE
+# skip	Gol HD ES
+# skip	Golf Channel HD CA
+# skip	Golf Channel HD US
+# skip	HBO 2 HD BR
+# skip	HBO HD BR
+# skip	HBO Mundi HD BR
+# skip	HBO Pop BR
+# skip	HBO+ BR
+# skip	HDNet Movies HD US
+# skip	Heimatkanal DE
+# skip	Histoire TV HD FR
+# skip	HLN CA
+# skip	Home 4K
+# skip	Horse & Country HD SE
+# skip	HOT Bidur FHD IL
+# skip	HOT Senior HD IL
+# skip	HR FHD DE
+# skip	HR HD DE
+# skip	HSE HD DE
+# skip	HSN2 HD US
+# skip	HUM Sitaray IN
+# skip	HUM TV IN
+# skip	ICI RDI HD CA
+# skip	INFO TV LT
+# skip	Inplus HD DE
+# skip	InRating TV HD UA
+# skip	ION Television HD US
+# skip	ITV1 UK
+# skip	ITV2 HD UK
+# skip	Jaya Max IN
+# skip	Jaya TV IN
+# skip	Jukebox HD DE
+# skip	Justice Central.TV HD US
+# skip	Kabel Eins Classics HD DE
+# skip	Kabel Eins Doku HD DE
+# skip	Kabel Eins HD DE
+# skip	Kanal 11 HD SE
+# skip	Kanal 2 EE
+# skip	Kanal 2 HD EE
+# skip	Kanal 4 HD DK
+# skip	Kanal 5 HD SE
+# skip	Kanal 7 HD EE
+# skip	Kanal 9 HD SE
+# skip	KHL Prime HD 50
+# skip	KidZone Max HD LV
+# skip	KidZone Mini HD LV
+# skip	KiKA DE
+# skip	KiKA FHD DE
+# skip	KiKA HD DE
+# skip	Kino Polska HD PL
+# skip	KinoJam 1 HD
+# skip	KinoJam 2 HD
+# skip	KinoweltTV HD DE
+# skip	Kiss Kiss HD IT
+# skip	Kiss Kiss Italia HD
+# skip	KroneHit TV HD AT
+# skip	Kunskapskanalen HD SE
+# skip	La 1 HD ES
+# skip	La 2 HD ES
+# skip	LaLiga TV Hypermotion 2 HD ES
+# skip	LaLiga TV Hypermotion 3 HD ES
+# skip	LaLiga TV Hypermotion HD ES
+# skip	LaSexta HD ES
+# skip	LCI FR
+# skip	Liberty BBC FHD
+# skip	Liberty DC FHD
+# skip	Liberty XX Век 4K
+# skip	Liberty Аванпост 4K
+# skip	Liberty Боевики FHD
+# skip	Liberty Дисней FHD
+# skip	Liberty Дрим Воркс 4K
+# skip	Liberty Индия 4K
+# skip	Liberty Комедии FHD
+# skip	Liberty Короткометражки FHD
+# skip	Liberty Криминал 4K
+# skip	Liberty Куб 4K
+# skip	Liberty Легенда 4K
+# skip	Liberty Марвел FHD
+# skip	Liberty Мелодрамы FHD
+# skip	Liberty МиМ FHD
+# skip	Liberty Нетфликс 4K
+# skip	Liberty Пиксар FHD
+# skip	Liberty Планета360 FHD
+# skip	Liberty Планктон FHD
+# skip	Liberty РусФильм 4K
+# skip	Liberty Сваты FHD
+# skip	Liberty Семейный 4K
+# skip	Liberty Симпсоны FHD
+# skip	Liberty Сказки FHD
+# skip	Liberty Триллеры 4K
+# skip	Liberty Турк Фильм 4K
+# skip	Liberty Ужасы 4K
+# skip	Liberty Фантастика FHD
+# skip	Liberty Шоу FHD
+# skip	Liberty Эротика FHD
+# skip	Liberty Южный Парк FHD
+# skip	Lietuvos Rytas HD LT
+# skip	Lietuvos Rytas LT
+# skip	Lifetime HD CA
+# skip	Lifetime HD US
+# skip	LIVETV
+# skip	LNK HD LT
+# skip	LNK LT
+# skip	LRT Plius HD LT
+# skip	LRT Plius LT
+# skip	LRT TV HD LT
+# skip	LRT TV LT
+# skip	LTV1 FHD LV
+# skip	LTV1 HD LV
+# skip	LTV1 LV
+# skip	LTV7 HD LV
+# skip	LTV7 LV
+# skip	Luli SD IL
+# skip	Luxury HD orig
+# skip	M+ Acción ES
+# skip	M+ Acción HD ES
+# skip	M+ Cine Español HD ES
+# skip	M+ Comedia ES
+# skip	M+ Comedia HD ES
+# skip	M+ Deportes 2 HD ES
+# skip	M+ Deportes 3 HD ES
+# skip	M+ Deportes 4 HD ES
+# skip	M+ Deportes 5 HD ES
+# skip	M+ Deportes 6 HD ES
+# skip	M+ Deportes ES
+# skip	M+ Deportes HD ES
+# skip	M+ Drama ES
+# skip	M+ Drama HD ES
+# skip	M+ Estrenos ES
+# skip	M+ Estrenos HD ES
+# skip	M+ Golf ES
+# skip	M+ Golf HD ES
+# skip	M+ LaLiga 2 HD ES
+# skip	M+ LaLiga 3 HD ES
+# skip	M+ LaLiga 4 HD ES
+# skip	M+ LaLiga ES
+# skip	M+ LaLiga HD ES
+# skip	M+ Liga de Campeones 2 HD ES
+# skip	M+ Liga de Campeones 3 HD ES
+# skip	M+ Liga de Campeones 4 HD ES
+# skip	M+ Liga de Campeones 5 HD ES
+# skip	M+ Liga de Campeones ES
+# skip	M+ Liga de Campeones HD ES
+# skip	M+ Vacaciones HD ES
+# skip	M+ Vamos HD ES
+# skip	Magic Action HD
+# skip	Magic Adventure HD
+# skip	Magic Family HD
+# skip	Magic Galaxy HD
+# skip	Magic Horror HD
+# skip	Magic Karate HD
+# skip	Magic Love HD
+# skip	Magic Russian HD
+# skip	Magic Thriller HD
+# skip	Magic VHS HD
+# skip	Magnolia Network CA
+# skip	Makeful CA
+# skip	Marco Polo TV HD DE
+# skip	MBC 2 SD AE
+# skip	MBC 4 AE
+# skip	Mbc Action AE
+# skip	Mbc Drama AE
+# skip	Mbc Max AE
+# skip	MDR Fernsehen HD (Sachsen) DE
+# skip	MeTV HD US
+# skip	Mezzo
+# skip	MM 007 HD
+# skip	MM Celebrity HD
+# skip	MM Classic HD
+# skip	MM Experiment HD
+# skip	MM Family Guy HD
+# skip	MM Flip UHD
+# skip	MM Honey HD
+# skip	MM Lesson HD
+# skip	MM Love HD
+# skip	MM NewFilm 1 HD
+# skip	MM NewFilm 2 HD
+# skip	MM NewFilm 3 HD
+# skip	MM NewFilm RU HD
+# skip	MM OldSchool HD
+# skip	MM Relax HD
+# skip	MM Rock HD
+# skip	MM Smile HD
+# skip	MM Tom and Jerry HD
+# skip	MM Translation HD
+# skip	MM UFO HD
+# skip	MM USSR 1941-1945 HD
+# skip	MM USSR Детектив HD
+# skip	MM USSR Драма HD
+# skip	MM USSR Комедия HD
+# skip	MM USSR Приключения HD
+# skip	MM USSR Сказки HD
+# skip	MM Агата Кристи HD
+# skip	MM Боевик Classic HD
+# skip	MM Боевик HD
+# skip	MM Вестерн HD
+# skip	MM Воронины HD
+# skip	MM Грайндхаус HD
+# skip	MM Драма HD
+# skip	MM Затмение HD
+# skip	MM Катастрофа HD
+# skip	MM Квартирник HD
+# skip	MM Киберпанк HD
+# skip	MM Комедия Classic HD
+# skip	MM Комедия HD
+# skip	MM Криминал HD
+# skip	MM Крутые 90-е HD
+# skip	MM Кунг-Фу HD
+# skip	MM Мегамир HD
+# skip	MM Мифология HD
+# skip	MM Нуар HD
+# skip	MM Открытия HD
+# skip	MM Погружение HD
+# skip	MM Полицейский с Рублёвки HD
+# skip	MM Приключения HD
+# skip	MM Сваты HD
+# skip	MM Семейный 1 HD
+# skip	MM Семейный 2 HD
+# skip	MM Синематограф HD
+# skip	MM Ситком 2.0 HD
+# skip	MM Ситком HD
+# skip	MM Скорость HD
+# skip	MM Стивен Кинг HD
+# skip	MM Супергерои HD
+# skip	MM Триллер HD
+# skip	MM Ужастик HD
+# skip	MM Ужасы Classic HD
+# skip	MM Ужасы HD
+# skip	MM Фантастика HD
+# skip	MM Фобия HD
+# skip	Movieplex HD US
+# skip	MovieTime HD CA
+# skip	MS Animated HD
+# skip	MS Magic 4K
+# skip	MS Prisons HD
+# skip	MS Toons HD
+# skip	MS Young Blood HD
+# skip	MSG 2 HD US
+# skip	MSG HD US
+# skip	Museum 4K
+# skip	Museum TV HD
+# skip	Museum TV HD FR
+# skip	MY9 New Jersey HD US
+# skip	MYTV
+# skip	MYTV 2
+# skip	MYTV 3
+# skip	MYTV HIT
+# skip	MyZen 4K
+# skip	MyZen TV HD
+# skip	N-TV FHD DE
+# skip	N-TV HD DE
+# skip	N24 Doku HD DE
+# skip	NBC New York HD US
+# skip	NDR HD DE
+# skip	NDTV 24x7 IN
+# skip	Neox HD ES
+# skip	NESN HD US
+# skip	New Jersey PBS HD US
+# skip	NFL RedZone HD US
+# skip	NHK World HD JP
+# skip	Nitro FHD DE
+# skip	Nitro HD DE
+# skip	NM Television HD
+# skip	Nova ES
+# skip	Nova HD ES
+# skip	Now 80s UK
+# skip	NRG 91 HD GR
+# skip	OLN HD CA
+# skip	OMNI.1 HD CA
+# skip	OMNI.2 HD CA
+# skip	One HD DE
+# skip	ORF 1 HD DE
+# skip	OstWest DE
+# skip	Outdoor Channel HD US
+# skip	Outdoor Channel US
+# skip	OUTtv HD DE
+# skip	Ovation TV HD US
+# skip	OWN HD CA
+# skip	OWN HD US
+# skip	Peachtree TV HD CA
+# skip	PG Insomnia HD
+# skip	PG Paradise HD
+# skip	PG Paradox HD
+# skip	PG Premium HD
+# skip	PG Thriller HD
+# skip	PG USSR HD
+# skip	PG VHS HD
+# skip	PG Victory HD
+# skip	Phoenix HD DE
+# skip	Pimple TV 1
+# skip	Pimple TV 2
+# skip	Pimple TV 3
+# skip	Pimple TV 4
+# skip	Pimple TV 5
+# skip	Pimple TV 6
+# skip	Pingviniukas LT
+# skip	Pitaara IN
+# skip	Plan_B HD
+# skip	Planeta BG
+# skip	Polo TV HD PL
+# skip	Polsat 2 HD PL
+# skip	Polsat Cafe HD PL
+# skip	Polsat Film HD PL
+# skip	Polsat Games HD PL
+# skip	Polsat HD PL
+# skip	Polsat JimJam PL
+# skip	Polsat Play HD PL
+# skip	Polsat Rodzina HD PL
+# skip	ProSieben FHD DE
+# skip	ProSieben Fun HD DE
+# skip	ProSieben HD DE
+# skip	ProSieben Maxx DE
+# skip	ProSieben Maxx FHD DE
+# skip	ProSieben Maxx HD DE
+# skip	PTC Chak De IN
+# skip	PTC Punjabi IN
+# skip	Q Arena HD KZ
+# skip	Q League HD KZ
+# skip	Quadro 4K
+# skip	QVC HD DE
+# skip	Rai 1 FHD IT
+# skip	Rai 1 HD IT
+# skip	Rai 2 HD IT
+# skip	Rai 3 HD IT
+# skip	Rai 4 HD IT
+# skip	Rai 4K IT
+# skip	Rai 5 IT
+# skip	Rai Gulp HD IT
+# skip	Rai Italia IT
+# skip	Rai Movie HD IT
+# skip	Rai Premium IT
+# skip	Rai Scuola HD IT
+# skip	Rai Storia IT
+# skip	Raj Musix IN
+# skip	rbb Fernsehen HD (Berlin) DE
+# skip	Real Madrid TV eng ES
+# skip	Real Madrid TV ES
+# skip	Retroplex HD US
+# skip	ReTV HD LV
+# skip	RFM TV HD FR
+# skip	RiC HD DE
+# skip	RMC Life HD FR
+# skip	Romance TV DE
+# skip	Romance TV HD DE
+# skip	Rotana Aflam+ HD AE
+# skip	RTG HD orig
+# skip	RTL Crime HD DE
+# skip	RTL FHD DE
+# skip	RTL HD DE
+# skip	RTL Passion DE
+# skip	RTL Passion FHD DE
+# skip	RTL Passion HD DE
+# skip	RTL Zwei HD DE
+# skip	Sadhna TV IN
+# skip	Sanjha TV IN
+# skip	Sat.1 DE
+# skip	Sat.1 Emotions HD DE
+# skip	Sat.1 Gold DE
+# skip	Sat.1 Gold HD DE
+# skip	Sat.1 HD DE
+# skip	Schlager Deluxe DE
+# skip	Schlager Deluxe HD DE
+# skip	Schlagerparadies.TV HD DE
+# skip	Setanta Baltic 1 HD
+# skip	Setanta Baltic 1 HD orig
+# skip	Setanta Moldova FHD
+# skip	Setanta Qazaqstan HD
+# skip	Shop LC HD DE
+# skip	Showcase CA
+# skip	Showcase HD CA
+# skip	Shubhsandesh IN
+# skip	Silk Way HD KZ
+# skip	SIXX FHD DE
+# skip	SIXX HD DE
+# skip	Sjuan HD SE
+# skip	Sky 1 AU
+# skip	Sky Arts HD DE
+# skip	Sky Atlantic FHD DE
+# skip	Sky Atlantic HD DE
+# skip	Sky Atlantic HD IT
+# skip	Sky Crime HD DE
+# skip	Sky Krimi FHD DE
+# skip	Sky Krimi HD DE
+# skip	Sky One HD DE
+# skip	Sky Primafila 1 HD IT
+# skip	Sky Primafila 2 HD IT
+# skip	Sky Primafila 3 HD IT
+# skip	Sky Primafila 4 HD IT
+# skip	Sky Primafila 5 HD IT
+# skip	Sky Primafila 6 HD IT
+# skip	Sky Primafila 7 HD IT
+# skip	Sky Primafila 8 HD IT
+# skip	Sky Primafila 9 HD IT
+# skip	Sky Replay HD DE
+# skip	Sky Sci-Fi HD DE
+# skip	SkyShowtime 1 HD SE
+# skip	SkyShowtime 2 HD SE
+# skip	Slice HD CA
+# skip	Smithsonian Channel HD US
+# skip	SONGTV Россия HD
+# skip	Sonnenklar.TV HD DE
+# skip	Sony AATH IN
+# skip	Sony Max 2 IN
+# skip	Sony Pal IN
+# skip	Sony SAB IN
+# skip	Spiegel Geschichte FHD DE
+# skip	Spiegel Geschichte HD DE
+# skip	Spirit TV HD
+# skip	Spor Smart 2 HD TR
+# skip	Spor Smart HD TR
+# skip	SR Fernsehen HD DE
+# skip	Stars TV PL
+# skip	Start World HD
+# skip	Stingray Classica HD DE
+# skip	StrahTV PlayBoyz TV HD
+# skip	StrahTV Sky2000 HD
+# skip	StrahTV The X-Files
+# skip	StrahTV VHS HD
+# skip	StrahTV Байки из склепа
+# skip	StrahTV Громовы
+# skip	StrahTV Ералаш HD
+# skip	StrahTV Интерны ТВ
+# skip	StrahTV Коломбо
+# skip	StrahTV Космо HD
+# skip	StrahTV Кроха ТВ
+# skip	StrahTV Назад в 90-e
+# skip	StrahTV Ню Арт HD
+# skip	StrahTV Однажды в милиции
+# skip	StrahTV Ольга HD
+# skip	StrahTV Репка HD
+# skip	StrahTV Сваты
+# skip	StrahTV СССР
+# skip	StrahTV Страх 2.0 HD
+# skip	StrahTV Страх HD
+# skip	StrahTV Том и Джерри
+# skip	StrahTV Универ ТВ
+# skip	StrahTV Фантастика 2.0 HD
+# skip	StrahTV Фантастика HD
+# skip	StrahTV Хит HD
+# skip	StrahTV Юнит HD
+# skip	STV Pirmā! HD LV
+# skip	STV Pirmā! LV
+# skip	SUN TV IN
+# skip	Sundance TV HD ES
+# skip	Super Polsat HD PL
+# skip	Suspenso HD ES
+# skip	SVBC IN
+# skip	SVT Barn/STV24 HD SE
+# skip	SVT1 HD SE
+# skip	SVT2 HD SE
+# skip	Swamiji TV IN
+# skip	SWR Fernsehen BW HD DE
+# skip	SWR Fernsehen RP HD DE
+# skip	Tagesschau24 HD DE
+# skip	TBS HD US
+# skip	TBS US
+# skip	TCM CA
+# skip	TCM HD CA
+# skip	TCM HD ES
+# skip	TCM HD US
+# skip	Telecinco HD ES
+# skip	Teledeporte HD ES
+# skip	Telemundo HD US
+# skip	Teletoon HD CA
+# skip	TEN ES
+# skip	TF1 HD FR
+# skip	TFO HD CA
+# skip	That's 70s UK
+# skip	That's 80s UK
+# skip	That's Rock UK
+# skip	Thirteen HD US
+# skip	Times Now IN
+# skip	Tivibu Spor 1 HD TR
+# skip	Tivibu Spor 3 HD TR
+# skip	TNT HD US
+# skip	Toggo DE
+# skip	Toggo Plus HD DE
+# skip	TOP 80 S HD
+# skip	TOP BUDO HD
+# skip	TOP MIX HD
+# skip	TOP USSR HD
+# skip	TOP Великолепный Век HD
+# skip	Toute L'Histoire HD FR
+# skip	Trece HD ES
+# skip	Treehouse HD CA
+# skip	Treehouse TV CA
+# skip	TRT 4K TR
+# skip	TRT Spor FHD TR
+# skip	TRT Spor HD TR
+# skip	TRT Spor TR
+# skip	TSN 1 HD CA
+# skip	TSN 2 HD CA
+# skip	TSN 3 HD CA
+# skip	TSN 4 HD CA
+# skip	TSN 5 HD CA
+# skip	TUDN HD US
+# skip	TV10 HD SE
+# skip	TV12 HD SE
+# skip	TV24 HD LV
+# skip	TV24 LV
+# skip	TV3 EE
+# skip	TV3 FHD LV
+# skip	TV3 HD EE
+# skip	TV3 HD LT
+# skip	TV3 HD LV
+# skip	TV3 HD SE
+# skip	TV3 Life HD LV
+# skip	TV3 LT
+# skip	TV3 Mini HD LV
+# skip	TV3 Plus HD LT
+# skip	TV3 Plus HD LV
+# skip	TV3 Plus LV
+# skip	TV4 Fakta SE
+# skip	TV4 Film HD SE
+# skip	TV4 Guld HD SE
+# skip	TV4 HD LV
+# skip	TV4 HD PL
+# skip	TV4 HD SE
+# skip	TV4 Stars HD SE
+# skip	TV5 Monde Europe HD DE
+# skip	TV6 EE
+# skip	TV6 HD EE
+# skip	TV6 HD LT
+# skip	TV6 HD PL
+# skip	TV6 HD SE
+# skip	TV6 LT
+# skip	TV6 LV
+# skip	TV8 HD LT
+# skip	TV8 HD SE
+# skip	TV8 LT
+# skip	TV9 Gujarati IN
+# skip	Tviksel Балет Опера HD
+# skip	TVN 7 HD PL
+# skip	TVN Fabula HD PL
+# skip	TVN HD PL
+# skip	TVP 1 HD PL
+# skip	TVP 2 HD PL
+# skip	TVP 3 Warszawa HD PL
+# skip	TVP Historia PL
+# skip	TVP Info HD PL
+# skip	TVP Polonia HD PL
+# skip	Ubeat HD ES
+# skip	UniMás HD US
+# skip	UniNettuno University TV IT
+# skip	Unis TV HD CA
+# skip	Universal TV FHD DE
+# skip	Universal TV HD DE
+# skip	Universo HD US
+# skip	Univision HD US
+# skip	UPL TV HD UA
+# skip	USA HD US
+# skip	USA US
+# skip	V Film Action HD SE
+# skip	V Film Family HD SE
+# skip	V2BEAT HD UK
+# skip	VeleS 60fps
+# skip	VeleS Dj Set
+# skip	VeleS Магнитофон
+# skip	VeleS СССР
+# skip	VeleS Страшное
+# skip	VF Adventure
+# skip	VF Art house
+# skip	VF Britney Spears
+# skip	VF Classic
+# skip	VF Comics
+# skip	VF Detective
+# skip	VF Family
+# skip	VF Fantastic
+# skip	VF Fantasy
+# skip	VF HBO
+# skip	VF Marvel
+# skip	VF Melodrama
+# skip	VF Metal
+# skip	VF Michael Jackson
+# skip	VF Modern Talking
+# skip	VF Mystic
+# skip	VF Netflix
+# skip	VF Rap
+# skip	VF Rock
+# skip	VF The X-Files
+# skip	VF Thriller
+# skip	VF VHS MIX
+# skip	VF Баня
+# skip	VF Без цензуры
+# skip	VF Беларусьфильм
+# skip	VF Боевик
+# skip	VF Военные
+# skip	VF Воронины
+# skip	VF Городок
+# skip	VF Граиндхаус
+# skip	VF Джеки Чан
+# skip	VF Доктор Хаус
+# skip	VF Друзья
+# skip	VF Ералаш
+# skip	VF Игра престолов
+# skip	VF Индия
+# skip	VF Караоке
+# skip	VF Катастрофы
+# skip	VF КВН
+# skip	VF Клиника
+# skip	VF Комедия
+# skip	VF Концерты
+# skip	VF Король и Шут
+# skip	VF Криминал
+# skip	VF Ленфильм
+# skip	VF Леонид Гайдай
+# skip	VF Луи де Фюнес
+# skip	VF Мосфильм
+# skip	VF Мыльные оперы
+# skip	VF Наша Раша
+# skip	VF Однажды в России
+# skip	VF Орел и решка
+# skip	VF Оскар
+# skip	VF Привет из 90х
+# skip	VF Реальные пацаны
+# skip	VF Русский рок
+# skip	VF СашаТаня
+# skip	VF Сваты
+# skip	VF Сверхъестественное
+# skip	VF Скуби-Ду
+# skip	VF След
+# skip	VF Солдаты
+# skip	VF Тайны следствия
+# skip	VF Теория большого взрыва
+# skip	VF Ужасы
+# skip	VF Ужасы VHS
+# skip	VF Универ
+# skip	VF Универ новая общага
+# skip	VF Уральские пельмени
+# skip	VF Фильмы СССР
+# skip	VF Хит-парад
+# skip	VF Ходячие мертвецы
+# skip	VF Чернобыль
+# skip	VF Эльдар Рязанов
+# skip	Viasat Kino
+# skip	Viasat Kino Action
+# skip	Vision TV CA
+# skip	Viva Vintage HD IL
+# skip	Volksmusik.TV HD DE
+# skip	Vostok TV
+# skip	VOX DE
+# skip	VOX HD DE
+# skip	VOXup DE
+# skip	W Network HD CA
+# skip	Warner TV Film DE
+# skip	Warner TV Film FHD DE
+# skip	Warner TV Film HD DE
+# skip	Warner TV HD ES
+# skip	Warner TV Serie HD DE
+# skip	WDR HD (Aachen) DE
+# skip	WDR HD (Köln) DE
+# skip	Welt DE
+# skip	Welt der Wunder HD DE
+# skip	Welt FHD DE
+# skip	Welt HD DE
+# skip	Wetter.com DE
+# skip	Willow HD US
+# skip	WKBW-TV (ABC) HD CA
+# skip	WLIW HD US
+# skip	Wousta TV AE
+# skip	WPIX HD US
+# skip	Yes TV HD CA
+# skip	Yosso TV 4K
+# skip	Yosso TV 4K HDR
+# skip	Yosso TV Adrenaline
+# skip	Yosso TV Adventure
+# skip	Yosso TV Best
+# skip	Yosso TV Best 60fps
+# skip	Yosso TV Grand
+# skip	Yosso TV Netflix
+# skip	Yosso TV Oblivion
+# skip	Yosso TV Sexy
+# skip	Yosso TV Thriller
+# skip	Yosso TV VHS
+# skip	Yosso TV Забавное
+# skip	Yosso TV Ковбойское
+# skip	Yosso TV Мелодрама
+# skip	Yosso TV Русские Фильмы
+# skip	Yosso TV Советские Фильмы
+# skip	Yosso TV Советские Фильмы 4K
+# skip	Yosso TV Трагичное
+# skip	YTV HD CA
+# skip	Z!Action HD
+# skip	Z!Adventure HD
+# skip	Z!Biography HD
+# skip	Z!Channel HD
+# skip	Z!Crime HD
+# skip	Z!Detective HD
+# skip	Z!Drama HD
+# skip	Z!Family HD
+# skip	Z!Fantastic HD
+# skip	Z!Fantasy HD
+# skip	Z!Horror HD
+# skip	Z!Military HD
+# skip	Z!Rock HD
+# skip	Z!Russian HD
+# skip	Z!Sitcom HD
+# skip	Z!Smile HD
+# skip	Z!Thriller HD
+# skip	ZDF DE
+# skip	ZDF HD DE
+# skip	ZDFinfo DE
+# skip	ZDFinfo HD DE
+# skip	ZDFneo HD DE
+# skip	Zee Anmol IN
+# skip	Zee Bangla IN
+# skip	Zee Bihar Jharkhand IN
+# skip	Zee Classic IN
+# skip	Zee Punjabi IN
+# skip	Zee Talkies IN
+# skip	Zee TV HD IN
+# skip	Zerouno TV HD IT
+# skip	Zing IN
