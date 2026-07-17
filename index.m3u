@@ -19,6 +19,9 @@ http://176.118.197.125/Draiv/index.m3u8
 
 #EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/moto-drive.png" tvg-id="moto-drive" tvg-description="Телеканал о мотоциклах, мотоспорте и культуре байкеров.",Мото Драйв
 
+#EXTINF:0 group-title="Авто и мотоспорт" tvg-logo="https://iptvx.one/picons/auto-motor-sport-de.png" tvg-id="auto-motor-sport-de" tvg-description="Немецкий канал об автомобилях и автоспорте (Auto Motor und Sport).",Auto Motor Sport
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/31209ff0-72bd-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=DE&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
+
 # Беларусь
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1" tvg-description="«Беларусь 1» — общенациональный телевизионный канал республики Беларусь. Входит в структуру Национальной государственной телерадиокомпании Республики Беларусь. Новости, публицистические, познавательные и развлекательные программы, а также сериалы и художественные фильмы. Начало своё вещание с 1 января 1956 года в 19:30 по минскому времени.",Беларусь 1
@@ -113,6 +116,7 @@ http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 
 #EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/pro-business.png" tvg-id="pro-business" tvg-description="Деловой телеканал о предпринимательстве, экономике и историях бизнеса.",Про бизнес
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/chunklist.m3u8
+#https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
 
 #EXTINF:0 group-title="Бизнес" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk" tvg-description="«РБК» — российский бизнес-телеканал. На нём представлены экономические, финансовые и политические новости Российской Федерации и зарубежных стран.",РБК
 http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
@@ -280,7 +284,13 @@ http://stream.mcquack.net/111/index.m3u8
 
 #EXTINF:0 group-title="Зарубежные" tvg-logo="https://iptvx.one/picons/cnn.png" tvg-id="cnn" tvg-description="CNN — американский круглосуточный новостной телеканал (на английском языке).",CNN
 
+#EXTINF:0 group-title="Зарубежные" tvg-logo="https://iptvx.one/picons/deutsche-welle-eu.png" tvg-id="deutsche-welle-eu" tvg-description="Немецкая международная медиакомпания Deutsche Welle (Europe).",Deutsche Welle
+http://stream.mcquack.net/440/index.m3u8
+
 #EXTINF:0 group-title="Зарубежные" tvg-logo="https://iptvx.one/picons/kazakhstan.png" tvg-id="kazakhstan" tvg-description="Национальный телеканал Республики Казахстан (на казахском языке).",Qazaqstan
+
+#EXTINF:0 group-title="Зарубежные" tvg-description="Испаноязычная версия российского международного телеканала RT.",RT en Espanol (1080p)
+http://177.234.249.135:8888/RT/index.m3u8
 
 # Здоровье
 
@@ -395,6 +405,9 @@ http://stream.mcquack.net/68/index.m3u8
 #https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132532&extension=ts
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/733/index.m3u8
 
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/lavstori.png" tvg-id="lavstori" tvg-description="Мелодрамы и романтические истории о любви.",Лавстори
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2034/index.m3u8
+
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm" tvg-description="Золотой фонд «Мосфильма»: легендарная советская киноклассика.",Мосфильм. Золотая коллекция
 http://stream.mcquack.net/369/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/6392/index.m3u8
@@ -412,6 +425,10 @@ http://stream.mcquack.net/217/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino" tvg-description="Телеканал современного российского кино.",Наше новое кино
 http://37.186.70.39:40/play/73/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/517/index.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/nst.png" tvg-id="nst" tvg-description="Настоящее Страшное Телевидение — фильмы ужасов, триллеры и мистика.",НСТ
+http://stream.mcquack.net/207/index.m3u8
+#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/726/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/pobeda.png" tvg-id="pobeda" tvg-description="Телеканал фильмов о Великой Отечественной войне.",Победа
 http://37.186.70.39:40/play/49/index.m3u8
@@ -435,6 +452,9 @@ http://37.186.70.39:40/play/72/index.m3u8
 
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/547/index.m3u8
 
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sov-kinklass.png" tvg-id="sov-kinklass" tvg-description="Классика советского кинематографа.",Советская киноклассика
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2146/index.m3u8
+
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sovkino.png" tvg-id="sovkino" tvg-description="Телеканал фильмов советского кинематографа.",Советское кино
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/tvxxi.png" tvg-id="tvxxi" tvg-description="Русскоязычный киноканал TV XXI: художественные фильмы разных жанров.",ТВ XXI
@@ -454,11 +474,24 @@ http://stream.mcquack.net/263/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20019/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/708/index.m3u8
 
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi" tvg-description="Фантастические сериалы и фильмы (бывший Sony Sci-Fi).",.sci-fi
+http://stream.mcquack.net/180/index.m3u8
+#http://live.uspeh-bil.ru/8115/video.m3u8?token=UBwVqZcPL8UPmoYU
+#http://176.118.197.125/SCI-FI/index.m3u8
+#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20020/index.m3u8
+#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/110/index.m3u8
+
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/312-kino.png" tvg-id="312-kino" tvg-description="Киноканал с художественными фильмами.",312 Кино
+
+#EXTINF:0 group-title="Кино" tvg-description="Тематический праздничный кинотеканал (пакет Citrus).",Citrus Holiday
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/16089/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd" tvg-description="Российский телеканал фэнтези и фантастики: аниме и игровое кино.",Fan
 http://stream.mcquack.net/420/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/734/index.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-description="Художественные фильмы разных жанров.",FilmZone Plus
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20025/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/fox.png" tvg-id="fox" tvg-description="Развлекательный телеканал с зарубежными фильмами и сериалами.",Fox
 http://37.186.70.39:40/play/61/index.m3u8
@@ -478,6 +511,10 @@ http://stream.mcquack.net/465/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kino-24.png" tvg-id="kino-24" tvg-description="Круглосуточный киноканал художественных фильмов.",Kino 24
 
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoliving.png" tvg-id="kinoliving" tvg-description="Кинотеканал: круглосуточный показ художественных фильмов.",Kinoliving
+http://stream.mcquack.net/445/index.m3u8
+#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/16018/index.m3u8
+
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood" tvg-description="Остросюжетное мировое кино: боевики, триллеры и чёрные комедии.",Kinowood
 http://stream.mcquack.net/446/index.m3u8
 
@@ -489,19 +526,37 @@ http://rezofoot.tv/PARAMOUNT-CHANNEL/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/pro100.png" tvg-id="pro100" tvg-description="Семейный телеканал художественного кино: зарубежная и отечественная киноклассика, детские и познавательные программы.",PRO100 TV
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi" tvg-description="Фантастические сериалы и фильмы (бывший Sony Sci-Fi).",.sci-fi
-http://stream.mcquack.net/180/index.m3u8
-#http://live.uspeh-bil.ru/8115/video.m3u8?token=UBwVqZcPL8UPmoYU
-#http://176.118.197.125/SCI-FI/index.m3u8
-#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20020/index.m3u8
-#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/110/index.m3u8
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/romance.png" tvg-id="romance" tvg-description="Романтические фильмы и мелодрамы.",Romance
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2037/index.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/scream.png" tvg-id="scream" tvg-description="Фильмы ужасов и хорроры.",Scream
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20021/index.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/shot-tv.png" tvg-id="shot-tv" tvg-description="Первый российский канал короткометражного кино: драмы, комедии, триллеры.",Shot TV
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20022/index.m3u8
+#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/526/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-description="Киноканал художественных фильмов.",Star Cinema
 https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air" tvg-description="Киноканал фильмов и сериалов онлайн-кинотеатра START.",Start Air
 
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sumiko.png" tvg-id="sumiko" tvg-description="Российский аниме-канал: японская и китайская анимация.",Sumiko
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2163/index.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/suspense.png" tvg-id="suspense" tvg-description="Триллеры и остросюжетные фильмы.",Suspense
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2049/index.m3u8
+
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/trashtv.png" tvg-id="trashtv" tvg-description="Российский киноканал жанра «треш»: боевики, ужасы и чёрные комедии, 18+.",Trash
+
+#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/vhs-ka.png" tvg-id="vhs-ka" tvg-description="Кино эпохи VHS: фильмы 1980–90-х.",VHS-ка
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/5006/index.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-description="Премьерные художественные фильмы.",ZTV Premiere 1 HD
+https://kinostream3-premiera-1.hf.space/hls/stream.m3u8
+
+#EXTINF:0 group-title="Кино" tvg-description="Премьерные художественные фильмы.",ZTV Premiere 2 HD
+https://kinostream3-premiera-2.hf.space/hls/stream.m3u8
 
 # Кино: BCU
 
@@ -511,6 +566,14 @@ http://stream.mcquack.net/488/index.m3u8
 #EXTINF:0 group-title="Кино: BCU" tvg-logo="https://iptvx.one/picons/bcu-russia90s.png" tvg-id="bcu-russia90s" tvg-description="BCU Russia 90s — тематический телеканал о культуре и событиях России 1990-х годов.",Russia 90s
 
 #EXTINF:0 group-title="Кино: BCU" tvg-logo="https://iptvx.one/picons/bcu-sssr-hd.png" tvg-id="bcu-sssr" tvg-description="Телеканал советского кино и ретро-программ.",СССР HD
+
+# Кино: BOX
+
+#EXTINF:0 group-title="Кино: BOX" tvg-logo="https://iptvx.one/picons/box-m-serial.png" tvg-id="box-m-serial" tvg-description="Зарубежные и российские сериалы.",BOX M.Serial
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/19280/index.m3u8
+
+#EXTINF:0 group-title="Кино: BOX" tvg-logo="https://iptvx.one/picons/box-serial.png" tvg-id="box-serial" tvg-description="Зарубежные и российские сериалы.",BOX Serial
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/19281/index.m3u8
 
 # Кино: CineMan
 
@@ -600,7 +663,54 @@ http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/19295/index.m3u8
 
 #EXTINF:0 group-title="Кино: Fresh" tvg-logo="https://iptvx.one/picons/fresh-vhs.png" tvg-id="fresh-vhs" tvg-description="Телеканал ретро-кино (пакет Fresh).",VHS
 
+# Кино: VF
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-besstyzhye.png" tvg-id="vf-besstyzhye" tvg-description="Сериал «Бесстыжие» (Shameless).",Бесстыжие
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10075/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-western.png" tvg-id="vf-western" tvg-description="Вестерны и фильмы о Диком Западе.",Вестерн
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/31553/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-vysocki.png" tvg-id="vf-vysocki" tvg-description="Фильмы с участием Владимира Высоцкого.",Владимир Высоцкий
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10066/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-garipoter.png" tvg-id="vf-garipoter" tvg-description="Фильмы о Гарри Поттере.",Гарри Поттер
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14230/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-2ipol.png" tvg-id="vf-2ipol" tvg-description="Комедийный сериал «Два с половиной человека».",Два с половиной человека
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10062/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-kartochnydomik.png" tvg-id="vf-kartochnydomik" tvg-description="Сериал «Карточный домик» (House of Cards).",Карточный домик
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14221/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-nowogodni.png" tvg-id="vf-nowogodni" tvg-description="Новогоднее и праздничное кино.",Новогодний
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17035/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-snovymgodom.png" tvg-id="vf-snovymgodom" tvg-description="Новогоднее и праздничное кино.",С новым годом!
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15524/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-sexcity.png" tvg-id="vf-sexcity" tvg-description="Сериал «Секс в большом городе» (Sex and the City).",Секс в большом городе
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14224/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-serialy-turcii.png" tvg-id="vf-serialy-turcii" tvg-description="Турецкие сериалы.",Сериалы Турции
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/9123/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-schastlivy-vmeste.png" tvg-id="vf-schastlivy-vmeste" tvg-description="Российский комедийный сериал «Счастливы вместе».",Счастливы Вместе
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/9242/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-elki.png" tvg-id="vf-elki" tvg-description="Фильмы франшизы «Ёлки» и новогоднее кино.",Ёлки
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14222/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-disney-movie.png" tvg-id="vf-disney-movie" tvg-description="Художественные и анимационные фильмы Disney.",Disney Movie
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15010/index.m3u8
+
+#EXTINF:0 group-title="Кино: VF" tvg-logo="https://iptvx.one/picons/vf-newyear.png" tvg-id="vf-newyear" tvg-description="Новогодние фильмы.",New Year
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15522/index.m3u8
+
 # Кино: Viju (Viasat)
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy" tvg-description="Комедии со всего мира (viju+ Comedy).",Comedy
+http://stream.mcquack.net/201/index.m3u8
 
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Документальные программы об исследователях, технике и приключениях (viju+ Explore).",Explore
 http://stream.mcquack.net/239/index.m3u8
@@ -608,27 +718,25 @@ http://stream.mcquack.net/239/index.m3u8
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории и цивилизациях (viju+ History).",History
 http://stream.mcquack.net/101/index.m3u8
 
-#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Planet
-http://stream.mcquack.net/240/index.m3u8
-
-#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000" tvg-description="Голливудские хиты и культовое кино (viju TV1000).",TV 1000
-http://stream.mcquack.net/110/index.m3u8
-
-#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",TV 1000 Action
-http://stream.mcquack.net/100/index.m3u8
-
-#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-comedy.png" tvg-id="vip-comedy" tvg-description="Комедии со всего мира (viju+ Comedy).",Comedy
-http://stream.mcquack.net/201/index.m3u8
-
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-megahit.png" tvg-id="vip-megahit" tvg-description="Блокбастеры и кассовые хиты (viju+ Megahit).",Megahit
 http://stream.mcquack.net/200/index.m3u8
 #http://194.32.242.245/vipmegahit/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Planet
+http://stream.mcquack.net/240/index.m3u8
 
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-premiere.png" tvg-id="vip-premiere" tvg-description="Новинки кино вскоре после проката (viju+ Premiere).",Premiere
 http://stream.mcquack.net/202/index.m3u8
 
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial",Serial
 http://stream.mcquack.net/311/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000.png" tvg-id="tv1000" tvg-description="Голливудские хиты и культовое кино (viju TV1000).",TV 1000
+http://stream.mcquack.net/110/index.m3u8
+#http://176.118.197.125/viju-TV1000/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",TV 1000 Action
+http://stream.mcquack.net/100/index.m3u8
 
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viasat Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viasat Explore
 http://185.102.171.218/ViasatExplorer/index.m3u8
@@ -642,11 +750,23 @@ http://185.102.171.218/ViasatHistory/index.m3u8
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" tvg-id="vip-comedy-cee" tvg-description="Телеканал комедийного кино (Viasat).",Viasat Kino Comedy
 http://ukr2.ukrainske.tv/493/video.m3u8
 
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000-worldkino.png" tvg-id="tv1000-worldkino" tvg-description="Мировое кино: зарубежные художественные фильмы (viju/Viasat).",Viasat Kino World
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/31447/index.m3u8
+
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viasat Nature — канал о природе балтийской медиагруппы Viju.",Viasat Nature
 http://185.102.171.218/ViasatNature/index.m3u8
 #http://176.118.197.125/viju-Nature/index.m3u8
 
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-serial.png" tvg-id="viasat-serial" tvg-description="Зарубежные сериалы (Viasat).",Viasat Serial
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17056/index.m3u8
+
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Спортивный телеканал Viasat Sport.",Viasat Sport
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viju-tv1000-novella.png" tvg-id="viju-tv1000-novella" tvg-description="Мелодрамы и сериалы-новеллы (viju TV1000).",Viju TV1000 Новелла
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2002/index.m3u8
+
+#EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" tvg-id="tv1000-russkoe-kino" tvg-description="Российское кино (viju TV1000 Русское).",Viju TV1000 Русское
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/101/index.m3u8
 
 #EXTINF:0 group-title="Кино: Viju (Viasat)" tvg-logo="https://iptvx.one/picons/viasat-sport.png" tvg-id="viasat-sport" tvg-description="Viju+ Sport — спортивный канал балтийской медиагруппы Viju.",Viju+ Sport
 http://stream.mcquack.net/333/index.m3u8
@@ -694,6 +814,7 @@ http://stream.mcquack.net/216/index.m3u8
 #EXTINF:0 group-title="Культура" tvg-logo="https://iptvx.one/picons/art-tv.png" tvg-id="art-tv" tvg-description="Телеканал об искусстве и культуре.",Арт
 http://89.104.114.24:8080/art/index.m3u8?token=test
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/16141/index.m3u8
+#http://89.104.114.24:8080/art/index.m3u8
 
 #EXTINF:0 group-title="Культура" tvg-description="Культ Медиа — российский культурный телеканал, транслирующий программы об искусстве и культуре.",Культ Медиа
 http://213.108.175.226/telplushd/index.m3u8
@@ -813,6 +934,9 @@ http://stream.mcquack.net/317/index.m3u8
 http://37.186.70.39:40/play/86/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/859/index.m3u8
 
+#EXTINF:0 group-title="Музыка" tvg-description="Танцевальная и электронная музыка.",Best of Dance TV
+https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/bridge-tv.png" tvg-id="bridge-tv" tvg-description="Музыкальный телеканал с клипами.",Bridge TV
 http://37.186.70.39:40/play/107/index.m3u8
 #http://stream.mcquack.net/318/index.m3u8
@@ -830,13 +954,16 @@ http://37.186.70.39:40/play/93/index.m3u8
 #http://stream.mcquack.net/320/index.m3u8
 #https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132431&extension=ts
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-classic.png" tvg-id="musicbox-classic" tvg-description="Классические музыкальные хиты (Music Box Classic).",Music Box Classic
-https://dash4.antik.sk/live/mb_classic/index.m3u8
-
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/classic-music.png" tvg-id="classic-music" tvg-description="Телеканал классической музыки.",Classic Music
 #http://stream.mcquack.net/312/index.m3u8
 http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14008/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14009/index.m3u8
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/deluxe-lounge-de.png" tvg-id="deluxe-lounge-de" tvg-description="Музыкальный канал: лаундж и спокойная музыка.",Deluxe Lounge
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
+
+#EXTINF:0 group-title="Музыка" tvg-description="Электронная танцевальная музыка (EDM).",EDM Mainstage
+https://mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv" tvg-description="Телеверсия радио «Европа Плюс»: топовые зарубежные и русские хиты.",Europa Plus TV
 http://stream.mcquack.net/184/index.m3u8
@@ -848,8 +975,17 @@ http://stream.mcquack.net/147/index.m3u8
 #EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал Kiss TV: поп- и танцевальные хиты.",Kiss
 https://kisstv.siliconweb.com/kissfm/kisstv/chunks.m3u8
 
+#EXTINF:0 group-title="Музыка" tvg-description="Турецкий музыкальный телеканал.",KN Music TV
+https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/mezzo-live-hd.png" tvg-id="mezzo-live-hd" tvg-description="Классика, джаз и мировая музыка в прямых трансляциях (Mezzo Live HD).",Mezzo Live
 http://stream.mcquack.net/276/index.m3u8
+
+#EXTINF:0 group-title="Музыка" tvg-description="Электронная музыка: minimal и deep tech.",Minimal / Deep Tech
+https://mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-classic.png" tvg-id="musicbox-classic" tvg-description="Классические музыкальные хиты (Music Box Classic).",Music Box Classic
+https://dash4.antik.sk/live/mb_classic/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/retro-music-cz.png" tvg-id="retro-music-cz" tvg-description="Retro Music — музыкальный телеканал с ретро-хитами прошлых десятилетий.",Retro Music
 
@@ -913,6 +1049,9 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/825/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/deutsche-welle-ru.png" tvg-id="deutsche-welle-ru" tvg-description="Deutsche Welle — немецкая международная медиакомпания; выпуски на русском языке.",Deutsche Welle Russia
+
+#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/euronews.png" tvg-id="euronews" tvg-description="Европейский информационный телеканал Euronews.",Euronews Россия
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/828/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/ostwest24.png" tvg-id="ostwest24" tvg-description="Русскоязычный телеканал OstWest (Берлин): новости и репортажи из Германии и Европы.",OstWest24
 http://stream.mcquack.net/455/index.m3u8
@@ -1554,6 +1693,10 @@ http://stream.mcquack.net/464/index.m3u8
 http://stream.mcquack.net/168/index.m3u8
 #https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132731&extension=ts
 
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" tvg-description="Развлекательный канал о стиле жизни, реальных историях и хобби.",TLC HD
+http://176.118.197.125/TLC-HD/index.m3u8
+#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/232/index.m3u8
+
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvmchannel.png" tvg-id="tvmchannel" tvg-description="TVM Channel — тематический телеканал.",TVM Channel
 
 #EXTINF:0 group-title="Развлекательные" tvg-description="TVRUS — русскоязычный телеканал для зрителей в США и Канаде. Транслирует новости, сериалы и развлекательные программы.",TVRUS
@@ -1602,6 +1745,9 @@ https://istoki.tv//live/stream1/chunklist.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/mir-belogoria.png" tvg-id="mir-belogoria" tvg-description="Региональный телеканал Белгородской области.",Мир Белогорья
 https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/moskva-24.png" tvg-id="moskva-24" tvg-description="Московский информационный телеканал: новости города.",Москва 24
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/523/index.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-description="Областное телевидение: региональные новости и программы.",ОТВ
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pervy-krymsky.png" tvg-id="pervy-krymsky" tvg-description="Региональный телеканал Республики Крым.",Первый Крымский
@@ -1613,6 +1759,9 @@ http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2139/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Сургута (СургутИнформ-ТВ): новости и программы.",С1
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/salam.png" tvg-id="salam" tvg-description="Молодёжный канал БСТ (Башкортостан): музыка и передачи на русском и башкирском языках.",Салям
+
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/sankt-peterburg.png" tvg-id="sankt-peterburg" tvg-description="Городской телеканал Санкт-Петербурга.",Санкт-Петербург
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/715/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/sarov-24.png" tvg-id="sarov-24" tvg-description="Городской телеканал Сарова (Нижегородская область): новости и события города.",Саров 24
 
@@ -1629,6 +1778,9 @@ http://stream.mcquack.net/398/index.m3u8
 http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 #http://air.tvk6.ru/tvk24/playlist.m3u8
 
+#EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Черноморска (Украина).",ТВЧ (Черноморск)
+https://live.kharkov-z.ru/app/potok/playlist.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/86-surgut.png" tvg-id="86-surgut" tvg-description="Телеканал 86 (Сургут, ХМАО — Югра): городские новости и программы.",Телеканал 86
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tnv-tat.png" tvg-id="tnv" tvg-description="«Татарстан — Новый Век» (ТНВ) — региональный телеканал Республики Татарстан; вещание на русском и татарском языках.",ТНВ
@@ -1636,7 +1788,13 @@ http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/10kanal-novokuzneck.png" tvg-id="10kanal-novokuzneck" tvg-description="Региональный телеканал Кузбасса (10 канал, Кемерово).",10 канал
 http://kuzbass1.ru:8082/10kanal/10kanal_720/playlist.m3u8
 
+#EXTINF:0 group-title="Региональные" tvg-description="Региональный телеканал.",11 канал
+http://85.234.33.64/stream/c11.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/12-omsk.png" tvg-id="12-omsk" tvg-description="Региональный телеканал Омской области (12 канал).",12 канал
+
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/rentv-istoki.png" tvg-id="rentv-istoki" tvg-description="Региональный телеканал «Истоки».",Istoki (1080p)
+https://istoki.tv/live/stream1/playlist.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Сочи (Sochi Live).",Sochi Live
 
@@ -1712,6 +1870,9 @@ http://stream.mcquack.net/266/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/312-serial.png" tvg-id="312-serial" tvg-description="Телеканал художественных сериалов.",312 Сериал
 
+#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/4ever-drama.png" tvg-id="4ever-drama" tvg-description="Драматические сериалы.",4ever Drama
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17051/index.m3u8
+
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/amedia1.png" tvg-id="amedia1" tvg-description="Телеканал зарубежных сериалов (Amedia).",Amedia 1
 http://stream.mcquack.net/117/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/554/index.m3u8
@@ -1729,6 +1890,9 @@ http://stream.mcquack.net/162/index.m3u8
 http://stream.mcquack.net/151/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/555/index.m3u8
 #http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/229/index.m3u8
+
+#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/epik-drama.png" tvg-id="epik-drama" tvg-description="Исторические и костюмированные драматические сериалы.",Epic Drama HD
+http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/1048/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife" tvg-description="Телеканал зарубежных сериалов и lifestyle (Fox Life).",Fox Life
 http://stream.mcquack.net/129/index.m3u8
@@ -1777,6 +1941,18 @@ http://37.186.70.39:40/play/19/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/cbs-sports-network-us.png" tvg-id="cbs-sports-network-us" tvg-description="CBS Sports Network — американский спортивный телеканал сети CBS. Транслирует разнообразные спортивные соревнования.",CBS Sports Network
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/ct-sport.png" tvg-id="ct-sport" tvg-description="Чешский спортивный телеканал (ČT Sport).",CT Sport
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport1-pt.png" tvg-id="eleven-sport1-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 1).",DAZN 1
+http://znty.dyndns.org:5010/hls/eleven1.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport2-pt.png" tvg-id="eleven-sport2-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 2).",DAZN 2
+http://znty.dyndns.org:5010/hls/eleven2.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport4-pt.png" tvg-id="eleven-sport4-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 4).",DAZN 4
+http://znty.dyndns.org:5010/hls/eleven4.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport5-pt.png" tvg-id="eleven-sport5-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 5).",DAZN 5
+http://znty.dyndns.org:5010/hls/eleven5.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn.png" tvg-id="espn" tvg-description="ESPN — американский спортивный телеканал с трансляциями и аналитикой.",ESPN 1
 
@@ -1868,6 +2044,24 @@ http://stream.mcquack.net/394/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport5.png" tvg-id="sport5" tvg-description="Спортивный телеканал: трансляции матчей и турниров.",Sport 5
 http://stream.mcquack.net/212/index.m3u8
 
+#EXTINF:0 group-title="Спорт" tvg-description="Спортивный телеканал.",sport m
+http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
+
+#EXTINF:0 group-title="Спорт" tvg-description="Португальский спортивный телеканал: футбол и спорт.",Sport TV 1
+http://znty.dyndns.org:5010/hls/stv1.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-description="Португальский спортивный телеканал.",Sport TV 2
+http://znty.dyndns.org:5010/hls/stv2.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-description="Португальский спортивный телеканал.",SPORT TV5
+http://znty.dyndns.org:5010/hls/stv5.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-description="Немецкий спортивный канал: футбол и другие виды спорта.",Sportdigital Free
+https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/2d920251-818e-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=CH&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
+
+#EXTINF:0 group-title="Спорт" tvg-description="Португальский спортивный телеканал.",Sportv +
+http://znty.dyndns.org:5010/hls/sportv+.m3u8
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/spotv.png" tvg-id="spotv" tvg-description="Азиатский спортивный телеканал SPOTV.",SPOTV
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/supertennis.png" tvg-id="supertennis" tvg-description="SuperTennis — итальянский спортивный телеканал, посвящённый теннису.",Super Tennis
@@ -1891,6 +2085,9 @@ http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/5050/index.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/footbolny.png" tvg-id="footbolny" tvg-description="Футбольный — российский спортивный телеканал, посвящённый футболу.",Футбольный
 
+#EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/benfica-tv.png" tvg-id="benfica-tv" tvg-description="Клубный телеканал ФК «Бенфика» (Лиссабон).",Benfica TV
+http://znty.dyndns.org:5010/hls/btv.m3u8
+
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/fifa-plus-uk.png" tvg-id="fifa-plus-uk" tvg-description="FIFA+ — официальный телеканал ФИФА: трансляции матчей и документальные фильмы о футболе.",Fifa+
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
 
@@ -1911,6 +2108,9 @@ http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta-sports-plus.png" tvg-id="setanta-sports-plus" tvg-description="Второй канал Setanta Sports: футбол и европейские турниры.",Setanta Sports+
 http://stream.mcquack.net/390/index.m3u8
+
+#EXTINF:0 group-title="Футбол" tvg-description="Клубный телеканал ФК «Спортинг» (Лиссабон).",Sporting TV
+http://znty.dyndns.org:5010/hls/sporting.m3u8
 
 # Эстония
 
@@ -1955,211 +2155,6 @@ http://tv.mobyservice.ru/livetv/index.m3u8
 http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
 #http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://tv.mobyservice.ru/livetv/index.m3u8
-
-#EXTINF:0 group-title="candidate",НСТ
-http://stream.mcquack.net/207/index.m3u8
-#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/726/index.m3u8
-
-#EXTINF:0 group-title="candidate",Kinoliving
-http://stream.mcquack.net/445/index.m3u8
-#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/16018/index.m3u8
-
-#EXTINF:0 group-title="candidate",11 канал
-http://85.234.33.64/stream/c11.m3u8
-
-#EXTINF:0 group-title="candidate",Deluxe Lounge
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
-
-#EXTINF:0 group-title="candidate",Best of Dance TV
-https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
-
-#EXTINF:0 group-title="candidate",EDM Mainstage
-https://mbit1.worldcast.tv/dancetelevisionseven/stream_0.m3u8
-
-#EXTINF:0 group-title="candidate",Minimal / Deep Tech
-https://mbit1.worldcast.tv/dancetelevisionsix/stream_0.m3u8
-
-#EXTINF:0 group-title="candidate",Sportdigital Free
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/2d920251-818e-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=CH&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
-
-#EXTINF:0 group-title="candidate",Auto Motor Sport
-https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/31209ff0-72bd-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=DE&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
-
-#EXTINF:0 group-title="candidate",ZTV Premiere 1 HD
-https://kinostream3-premiera-1.hf.space/hls/stream.m3u8
-
-#EXTINF:0 group-title="candidate",ZTV Premiere 2 HD
-https://kinostream3-premiera-2.hf.space/hls/stream.m3u8
-
-#EXTINF:0 group-title="candidate",sport m
-http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
-
-#EXTINF:-1 group-title="candidate",Epic Drama HD
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/1048/index.m3u8
-
-#EXTINF:0 group-title="candidate",Deutsche Welle
-http://stream.mcquack.net/440/index.m3u8
-
-#EXTINF:0 group-title="candidate",Sport TV 1
-http://znty.dyndns.org:5010/hls/stv1.m3u8
-
-#EXTINF:0 group-title="candidate",Sportv +
-http://znty.dyndns.org:5010/hls/sportv+.m3u8
-
-#EXTINF:0 group-title="candidate",Sport TV 2
-http://znty.dyndns.org:5010/hls/stv2.m3u8
-
-#EXTINF:0 group-title="candidate",SPORT TV5
-http://znty.dyndns.org:5010/hls/stv5.m3u8
-
-#EXTINF:0 group-title="candidate",Sporting TV
-http://znty.dyndns.org:5010/hls/sporting.m3u8
-
-#EXTINF:0 group-title="candidate",DAZN 1
-http://znty.dyndns.org:5010/hls/eleven1.m3u8
-
-#EXTINF:0 group-title="candidate",DAZN 2
-http://znty.dyndns.org:5010/hls/eleven2.m3u8
-
-#EXTINF:0 group-title="candidate",Benfica TV
-http://znty.dyndns.org:5010/hls/btv.m3u8
-
-#EXTINF:0 group-title="candidate",DAZN 4
-http://znty.dyndns.org:5010/hls/eleven4.m3u8
-
-#EXTINF:0 group-title="candidate",DAZN 5
-http://znty.dyndns.org:5010/hls/eleven5.m3u8
-
-#EXTINF:0 group-title="candidate",ТВЧ (Черноморск)
-https://live.kharkov-z.ru/app/potok/playlist.m3u8
-
-#EXTINF:0 group-title="candidate",TLC HD
-http://176.118.197.125/TLC-HD/index.m3u8
-#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/232/index.m3u8
-
-#EXTINF:0 group-title="candidate",TV1000
-http://176.118.197.125/viju-TV1000/index.m3u8
-
-#EXTINF:0 group-title="candidate",Istoki (1080p)
-https://istoki.tv/live/stream1/playlist.m3u8
-
-
-#EXTINF:0 group-title="candidate",Pro Business (720p)
-https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
-
-#EXTINF:0 group-title="candidate",RT en Espanol (1080p)
-http://177.234.249.135:8888/RT/index.m3u8
-
-#EXTINF:0 group-title="candidate",ART (576p)
-http://89.104.114.24:8080/art/index.m3u8
-
-#EXTINF:0 group-title="candidate",KN Music TV
-https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
-
-#EXTINF:0 group-title="candidate",Москва 24
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/523/index.m3u8
-
-#EXTINF:0 group-title="candidate",Санкт-Петербург
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/715/index.m3u8
-
-#EXTINF:0 group-title="candidate",Euronews Россия
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/828/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Сериалы Турции
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/9123/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Вестерн
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/31553/index.m3u8
-
-#EXTINF:0 group-title="candidate",Viasat Kino World
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/31447/index.m3u8
-
-#EXTINF:0 group-title="candidate",Romance
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2037/index.m3u8
-
-#EXTINF:0 group-title="candidate",Suspense
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2049/index.m3u8
-
-#EXTINF:0 group-title="candidate",Sumiko
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2163/index.m3u8
-
-#EXTINF:0 group-title="candidate",Лавстори
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2034/index.m3u8
-
-#EXTINF:0 group-title="candidate",Viju TV1000 Новелла
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2002/index.m3u8
-
-#EXTINF:0 group-title="candidate",Советская киноклассика
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/2146/index.m3u8
-
-#EXTINF:0 group-title="candidate",VHS-ка
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/5006/index.m3u8
-
-#EXTINF:0 group-title="candidate",Viasat Serial
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17056/index.m3u8
-
-#EXTINF:0 group-title="candidate",Scream
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20021/index.m3u8
-
-#EXTINF:0 group-title="candidate",Shot TV
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20022/index.m3u8
-#http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/526/index.m3u8
-
-#EXTINF:0 group-title="candidate",Citrus Holiday
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/16089/index.m3u8
-
-#EXTINF:0 group-title="candidate",4ever Drama
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17051/index.m3u8
-
-#EXTINF:0 group-title="candidate",FilmZone Plus
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/20025/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Счастливы Вместе
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/9242/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Бесстыжие
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10075/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Два с половиной человека
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10062/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF С новым годом!
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15524/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Ёлки
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14222/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Новогодний
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/17035/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF New Year
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15522/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Карточный домик
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14221/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Секс в большом городе
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14224/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Гарри Поттер
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/14230/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Disney Movie
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/15010/index.m3u8
-
-#EXTINF:0 group-title="candidate",VF Владимир Высоцкий
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/10066/index.m3u8
-
-#EXTINF:0 tvg-rec="0" group-title="candidate",BOX M.Serial
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/19280/index.m3u8
-
-#EXTINF:0 tvg-rec="0" group-title="candidate",Viju TV1000 Русское
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/101/index.m3u8
-
-#EXTINF:0 tvg-rec="0" group-title="candidate",BOX Serial
-http://mlax7sqv.zyntras.top/iptv/44XS5V3XD99X9H/19281/index.m3u8
-
-
 
 
 #EXTINF:0 tvg-rec="0" group-title="test",VF Теория большого взрыва
