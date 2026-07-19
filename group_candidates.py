@@ -1,38 +1,40 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-group_candidates.py — разносит каналы group-title="candidate" по СМЫСЛОВЫМ
-группам в index.m3u и cinema.m3u.
+group_candidates.py — разносит каналы group-title="candidate" из index.m3u по
+СМЫСЛОВЫМ группам. Целевых файлов теперь ЧЕТЫРЕ:
+  * index.m3u      — тематические группы (Спорт, Музыка, Новости …);
+  * cinema.m3u     — киноканалы и бренды (Кино, VF, Viju, CineMan …);
+  * children.m3u   — детские/мультканалы (группа «Детские»);
+  * tv_series.m3u  — сериальные каналы (группа «Сериалы»).
+Кандидаты живут только в index.m3u. Разнос может увести канал в любой из 4 файлов.
 
 Логика выбора группы (в порядке доверия):
   1) точное совпадение tvg-id с каналом, УЖЕ лежащим в какой-то группе;
   2) совпадение нормализованного имени с уже разобранным каналом;
   3) правила по ключевым словам из group_rules.txt (редактируемый файл);
   4) иначе — канал остаётся в candidate.
-Совпадение может вести и в cinema.m3u (киноканалы/бренды), и в index.m3u.
 
 Два режима:
   * PROPOSE (по умолчанию): пишет group_proposal.tsv — таблицу
         решение | имя | целевой_файл | группа | основание
     НИЧЕГО в плейлистах не меняет. Ты просматриваешь/правишь TSV
-    (меняешь группу, или ставишь в 1-й столбце skip, чтобы не трогать канал).
+    (меняешь группу/файл, или ставишь в 1-й столбце skip).
   * APPLY (--apply): читает group_proposal.tsv и ФИЗИЧЕСКИ переносит каналы
-    в нужные секции, пересобирая файлы (секции отсортированы: кириллица,
-    потом латиница). Кросс-файловые переносы (в cinema.m3u) поддержаны.
+    в нужные секции нужного файла, пересобирая затронутые файлы (секции
+    отсортированы: кириллица, потом латиница). Нетронутые файлы не пишутся.
 
 Безопасность APPLY:
-  * бэкапы index.m3u.group.bak / cinema.m3u.group.bak;
-  * md5-гард (если файл изменился с момента чтения — стоп);
+  * бэкапы <file>.group.bak для каждого затронутого файла;
+  * md5-гард (если любой файл изменился с момента чтения — стоп);
   * атомарная запись (tmp в той же папке + os.replace);
-  * пост-проверка ПО ОБОИМ файлам сразу: мультимножество ВСЕХ стрим-URL и
+  * пост-проверка ПО ВСЕМ файлам сразу: мультимножество ВСЕХ стрим-URL и
     мультимножество имён каналов до/после должны совпадать; никаких
-    дублей (группа, имя); нетронутые секции сохраняют свой набор записей.
-    Любое расхождение → аварийный стоп, файлы не пишутся.
+    дублей (группа, имя). Любое расхождение → аварийный стоп, файлы не пишутся.
 
 Запуск:
   python3 group_candidates.py                     # propose -> group_proposal.tsv
   python3 group_candidates.py --apply             # применить проверенный TSV
-  python3 group_candidates.py --files index.m3u cinema.m3u --epg ...(не нужен)
 """
 from __future__ import annotations
 
@@ -41,12 +43,14 @@ import hashlib
 import html
 import os
 import re
-import sys
 import tempfile
-from collections import Counter, defaultdict
+from collections import Counter
 
 CAND = "candidate"
 PROPOSAL = "group_proposal.tsv"
+
+# Канонические целевые файлы (basename). candidate живёт в index.m3u.
+KNOWN_FILES = ["index.m3u", "cinema.m3u", "children.m3u", "tv_series.m3u"]
 
 # --- нормализация имён (та же логика, что и в enrich_candidates.py) ----------
 QUALITY = {"hd", "sd", "fhd", "uhd", "qhd", "4k", "8k", "hq", "hevc", "h265",
@@ -190,7 +194,7 @@ def find_section(sections, name):
 
 
 def ensure_section(sections, name):
-    """index-секции держим в алфавите, candidate — последней."""
+    """тематические секции держим в алфавите, candidate — последней."""
     s = find_section(sections, name)
     if s:
         return s
@@ -253,7 +257,19 @@ def build_reference(models):
 
 
 def canon_file(tf: str) -> str:
-    return "cinema.m3u" if "cinema" in tf.strip().lower() else "index.m3u"
+    """Приводит указатель целевого файла (из правил/TSV) к basename из KNOWN_FILES."""
+    t = os.path.basename(tf.strip()).lower()
+    if t.endswith(".m3u"):
+        t = t[:-4]
+    if "cinema" in t or "кино" in t:
+        return "cinema.m3u"
+    if "child" in t or "детск" in t:
+        return "children.m3u"
+    if "foreign" in t or "заруб" in t or "иностран" in t:
+        return "foreign.m3u"
+    if "series" in t or "serial" in t or "сериал" in t:
+        return "tv_series.m3u"
+    return "index.m3u"
 
 
 def load_rules(path):
@@ -270,7 +286,115 @@ def load_rules(path):
     return rules
 
 
+# ---------------------------------------------------------------------------
+# Спец-классификация по ПАТТЕРНАМ (сильнее ключевых слов): страна, регион,
+# Триколор, бренд-пакеты. Срабатывает ДО ref/keyword.
+# ---------------------------------------------------------------------------
+# Код страны в хвосте имени -> русское имя группы в foreign.m3u.
+# (BY=Беларусь уходит в index/Беларусь, а не в foreign.)
+COUNTRY_MAP = {
+    "DE": "Германия", "ES": "Испания", "US": "США", "CA": "Канада",
+    "IN": "Индия", "PL": "Польша", "IT": "Италия", "LT": "Литва",
+    "SE": "Швеция", "LV": "Латвия", "EE": "Эстония", "FR": "Франция",
+    "TR": "Турция", "BR": "Бразилия", "AE": "ОАЭ", "UK": "Великобритания",
+    "GB": "Великобритания", "UA": "Украина", "IL": "Израиль", "RS": "Сербия",
+    "KZ": "Казахстан", "PT": "Португалия", "DK": "Дания", "NL": "Нидерланды",
+    "QA": "Катар", "CZ": "Чехия", "KR": "Корея", "AZ": "Азербайджан",
+    "RO": "Румыния", "NO": "Норвегия", "AT": "Австрия", "JP": "Япония",
+    "GR": "Греция", "BG": "Болгария", "AU": "Австралия",
+}
+_COUNTRY_RE = re.compile(r"\b([A-Z]{2,3})\s*$")
+_PAREN_RE = re.compile(r"\(([^)]+)\)\s*$")
+_PAREN_SKIP = {"hd", "sd", "fhd", "uhd", "qhd", "4k", "720p", "1080p",
+               "576p", "480p", "hq", "orig"}
+
+# Установившиеся бренд-пакеты кино -> имя группы в cinema.m3u. Ключ =
+# ПРЕФИКС имени (с учётом регистра). Внутри бренда жанр-каналы отсеиваются
+# в Сериалы/Детские/Музыку, остальное -> своя группа бренда в cinema.
+MOVIE_BRANDS = {
+    "VF ": "VF", "MM ": "MM", "Liberty ": "Liberty", "BCU ": "BCU",
+    "CineMan ": "CineMan", "Fresh ": "Fresh",
+    "BOX ": "BOX", "Yosso TV ": "Yosso", "Z!": "Z!", "StrahTV ": "StrahTV",
+    "Magic ": "Magic", "Eye ": "Eye", "PG ": "PG",
+}
+# Музыкальные бренды целиком -> Музыка.
+MUSIC_BRANDS = ("Bridge ", "FRESH ")
+
+_SERIES_WORDS = (
+    "воронины", "друзья", "игра престолов", "клиника", "доктор хаус",
+    "мыльные опер", "реальные пацаны", "сашатаня", "сваты", "след",
+    "солдаты", "тайны следствия", "теория большого взрыва", "универ",
+    "ходячие мертвец", "ситком", "sitcom", "сериал", "series",
+    "family guy", "симпсоны", "южный парк", "полицейский с рубл",
+    "x-files", "сверхъестественное", "великолепный век",
+    # доп. сериальные суб-каналы брендов (StrahTV и т.п.)
+    "интерны", "коломбо", "громовы", "однажды в милиции", "ольга",
+    "байки из склепа",
+)
+_KIDS_WORDS = (
+    "дисней", "disney", "пиксар", "pixar", "дрим воркс", "дримворкс",
+    "dreamworks", "скуби", "scooby", "планктон", "том и джерри",
+    "tom and jerry", "малыш", "никелодеон", "nickelodeon", "кроха", "репка",
+)
+_MUSIC_WORDS = (
+    "rock", "рок", "metal", "metall", "метал", "rap", "рэп", "dance", "edm",
+    "концерт", "concert", "караоке", "karaoke", "хит-парад",
+    "modern talking", "michael jackson", "britney", "король и шут",
+    "квартирник",
+)
+
+
+def _has(suf, words):
+    # совпадение по ГРАНИЦЕ слова, а не подстроке: "rap" не ловит "bioGRAPhy"
+    for w in words:
+        if re.search(r"(?<![0-9a-zа-яё])" + re.escape(w) + r"(?![0-9a-zа-яё])",
+                     suf):
+            return True
+    return False
+
+
+def special_classify(rec):
+    """Возвращает (file, group, basis) для паттернов или None."""
+    name = rec.name
+    # 1) иностранный канал (код страны в хвосте) -> foreign.m3u/<страна>
+    m = _COUNTRY_RE.search(name)
+    if m:
+        code = m.group(1)
+        if code == "BY":
+            return "index.m3u", "Беларусь", "pat:by"
+        if code in COUNTRY_MAP:
+            return "foreign.m3u", COUNTRY_MAP[code], "pat:foreign"
+    # 2) Триколор (кинозалы) -> cinema/Триколор
+    mp = _PAREN_RE.search(name)
+    if mp:
+        inside = mp.group(1).strip().lower()
+        if inside == "триколор":
+            return "cinema.m3u", "Триколор", "pat:tricolor"
+        # 3) региональный "X (место)" -> Региональные
+        if inside not in _PAREN_SKIP:
+            return "index.m3u", "Региональные", "pat:regional"
+    # 4) музыкальные бренды целиком -> Музыка
+    for pref in MUSIC_BRANDS:
+        if name.startswith(pref):
+            return "index.m3u", "Музыка", "brand:music"
+    # 5) кино-бренды: отсев Сериалы/Детские/Музыка, иначе своя группа
+    for pref, brand in MOVIE_BRANDS.items():
+        if name.startswith(pref):
+            suf = name[len(pref):].casefold()
+            if _has(suf, _SERIES_WORDS):
+                return "tv_series.m3u", "Сериалы", "brand:series"
+            if _has(suf, _KIDS_WORDS):
+                return "children.m3u", "Детские", "brand:kids"
+            if _has(suf, _MUSIC_WORDS):
+                return "index.m3u", "Музыка", "brand:music"
+            return "cinema.m3u", brand, f"brand:{brand}"
+    return None
+
+
 def classify(rec, by_id, by_name, rules):
+    sp = special_classify(rec)
+    if sp:
+        return sp
     if rec.tvg_id and rec.tvg_id in by_id:
         f, g = by_id[rec.tvg_id]
         return f, g, "ref:id"
@@ -289,19 +413,19 @@ def classify(rec, by_id, by_name, rules):
 # ---------------------------------------------------------------------------
 # PROPOSE
 # ---------------------------------------------------------------------------
-def do_propose(index_secs, cinema_secs, rules, out_path):
-    by_id, by_name = build_reference([(index_secs, "index.m3u"),
-                                      (cinema_secs, "cinema.m3u")])
+def do_propose(files, rules, out_path):
+    models = [(f["secs"], name) for name, f in files.items()]
+    by_id, by_name = build_reference(models)
     # (группа, имя), которые УЖЕ существуют — чтобы не предлагать дубли
     existing = set()
-    for secs in (index_secs, cinema_secs):
-        for sec in secs:
+    for name, f in files.items():
+        for sec in f["secs"]:
             if sec.name.lower() == CAND:
                 continue
             for r in sec.records:
                 existing.add((sec.name, r.name))
 
-    cand = find_section(index_secs, "candidate")
+    cand = find_section(files["index.m3u"]["secs"], "candidate")
     rows, counts, bases = [], Counter(), Counter()
     unmatched, dups = [], []
     planned = set()
@@ -329,11 +453,11 @@ def do_propose(index_secs, cinema_secs, rules, out_path):
                 f"({bases.get('ref',0)}) + ключевые слова ({bases.get('kw',0)})\n")
         f.write("# столбцы: решение<TAB>имя<TAB>целевой_файл<TAB>группа<TAB>основание\n")
         f.write("#   решение: move (перенести) или skip (оставить в candidate)\n")
-        f.write("#   можно менять целевой_файл (index.m3u/cinema.m3u) и группу\n")
+        f.write("#   целевой_файл: index.m3u / cinema.m3u / children.m3u / tv_series.m3u\n")
         f.write("#\n")
         for kv in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
             (tf, grp), n = kv
-            f.write(f"# {n:>4}  {tf:<11} {grp}\n")
+            f.write(f"# {n:>4}  {tf:<13} {grp}\n")
         f.write("#\n")
         for dec, nm, tf, grp, basis in rows:
             f.write(f"{dec}\t{nm}\t{tf}\t{grp}\t{basis}\n")
@@ -356,8 +480,8 @@ def do_propose(index_secs, cinema_secs, rules, out_path):
     print(f"  основания: ref (совпадение) {bases.get('ref',0)}, "
           f"keyword {bases.get('kw',0)}")
     print("\n  ТОП групп по числу каналов:")
-    for (tf, grp), n in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:20]:
-        print(f"    {n:>4}  {tf:<11} {grp}")
+    for (tf, grp), n in sorted(counts.items(), key=lambda x: (-x[1], x[0]))[:25]:
+        print(f"    {n:>4}  {tf:<13} {grp}")
     print("\n  Проверь/поправь файл и запусти: python3 group_candidates.py --apply")
 
 
@@ -397,51 +521,58 @@ def atomic_write(path, text):
             os.remove(tmp)
 
 
-def do_apply(index_path, cinema_path, index_secs, cinema_secs, moves,
-             backup=True):
-    # исходные суммы для проверки
-    def _url_key(ln):
-        s = ln.strip()
-        if s.startswith("#EXT"):          # директивы m3u (#EXTINF/#EXTM3U/#EXTGRP)
-            return None
-        key = s[1:].strip() if s.startswith("#") else s   # #url == запасная
-        return key if "://" in key else None
+def _url_key(ln):
+    s = ln.strip()
+    if s.startswith("#EXT"):          # директивы m3u (#EXTINF/#EXTM3U/#EXTGRP)
+        return None
+    key = s[1:].strip() if s.startswith("#") else s   # #url == запасная
+    return key if "://" in key else None
 
-    def all_urls(secs):
-        c = Counter()
-        for s in secs:
-            for ln in s.lead:                     # орфаны над первым #EXTINF
-                k = _url_key(ln)
-                if k:
-                    c[k] += 1
-            for r in s.records:
-                c.update(r.stream_urls())
-        return c
 
-    def urls_in_text(t):
-        c = Counter()
-        for ln in t.split("\n"):
+def all_urls(secs):
+    c = Counter()
+    for s in secs:
+        for ln in s.lead:                     # орфаны над первым #EXTINF
             k = _url_key(ln)
             if k:
                 c[k] += 1
-        return c
+        for r in s.records:
+            c.update(r.stream_urls())
+    return c
 
-    def all_names(secs):
-        c = Counter()
-        for s in secs:
-            for r in s.records:
-                c[r.name] += 1
-        return c
 
-    before_urls = all_urls(index_secs) + all_urls(cinema_secs)
-    before_names = all_names(index_secs) + all_names(cinema_secs)
+def urls_in_text(t):
+    c = Counter()
+    for ln in t.split("\n"):
+        k = _url_key(ln)
+        if k:
+            c[k] += 1
+    return c
 
-    cand = find_section(index_secs, "candidate")
+
+def all_names(secs):
+    c = Counter()
+    for s in secs:
+        for r in s.records:
+            c[r.name] += 1
+    return c
+
+
+def do_apply(files, moves, backup=True):
+    # files: dict basename -> {"path", "secs", "pre", "orig"}
+    all_secs = [f["secs"] for f in files.values()]
+    before_urls, before_names = Counter(), Counter()
+    for secs in all_secs:
+        before_urls += all_urls(secs)
+        before_names += all_names(secs)
+
+    cand = find_section(files["index.m3u"]["secs"], "candidate")
     if not cand:
         raise SystemExit("В index.m3u нет секции candidate.")
 
-    touched_index, touched_cinema = {"candidate"}, set()
-    moved, missing, dups = 0, [], []
+    touched = {name: set() for name in files}
+    touched["index.m3u"].add("candidate")
+    moved, dups = 0, []
     keep = []
     present = {r.name for r in cand.records}
     for r in cand.records:
@@ -450,35 +581,38 @@ def do_apply(index_path, cinema_path, index_secs, cinema_secs, moves,
             keep.append(r)
             continue
         tf, grp = tgt
-        target = (ensure_section(cinema_secs, grp) if tf == "cinema.m3u"
-                  else ensure_section(index_secs, grp))
+        if tf not in files:
+            raise SystemExit(f"Неизвестный целевой файл в плане: {tf}")
+        target = ensure_section(files[tf]["secs"], grp)
         if any(x.name == r.name for x in target.records):   # уже есть — не плодим
             keep.append(r)
             dups.append((r.name, grp))
             continue
         r.set_group(grp)
         target.records.append(r)
-        (touched_cinema if tf == "cinema.m3u" else touched_index).add(grp)
+        touched[tf].add(grp)
         moved += 1
     cand.records = keep
     missing = [nm for nm in moves if nm not in present]
 
-    # rebuild
-    index_pre = parse_pre_cache[index_path]
-    cinema_pre = parse_pre_cache[cinema_path]
-    new_index = build_file(index_pre, index_secs, touched_index)
-    new_cinema = build_file(cinema_pre, cinema_secs, touched_cinema)
+    # rebuild (все файлы; нетронутые получат идентичный набор записей)
+    new_text = {name: build_file(f["pre"], f["secs"], touched[name])
+                for name, f in files.items()}
 
     # verify (модель)
-    after_urls = all_urls(index_secs) + all_urls(cinema_secs)
-    after_names = all_names(index_secs) + all_names(cinema_secs)
+    after_urls, after_names = Counter(), Counter()
+    for secs in all_secs:
+        after_urls += all_urls(secs)
+        after_names += all_names(secs)
     assert before_urls == after_urls, "URL-мультимножество разошлось (модель)!"
     assert before_names == after_names, "имена каналов разошлись!"
     # verify (сериализация: то, что реально уйдёт на диск)
-    txt_urls = urls_in_text(new_index) + urls_in_text(new_cinema)
+    txt_urls = Counter()
+    for name in files:
+        txt_urls += urls_in_text(new_text[name])
     assert txt_urls == before_urls, "URL-мультимножество разошлось (в тексте)!"
     seen = set()
-    for secs in (index_secs, cinema_secs):
+    for secs in all_secs:
         for s in secs:
             for r in s.records:
                 key = (s.name, r.name)
@@ -486,19 +620,19 @@ def do_apply(index_path, cinema_path, index_secs, cinema_secs, moves,
                 seen.add(key)
 
     # md5-гард: файлы не изменились с момента чтения
-    for p, orig in ((index_path, orig_bytes[index_path]),
-                    (cinema_path, orig_bytes[cinema_path])):
-        with open(p, "rb") as f:
-            if md5_bytes(f.read()) != md5_bytes(orig):
-                raise SystemExit(f"[STOP] {p} изменился во время работы — не пишу.")
+    for name, f in files.items():
+        with open(f["path"], "rb") as fh:
+            if md5_bytes(fh.read()) != md5_bytes(f["orig"]):
+                raise SystemExit(f"[STOP] {f['path']} изменился во время работы — не пишу.")
 
+    # писать только затронутые файлы (у нетронутых touched == пусто)
+    changed = [name for name in files if touched[name] - ({"candidate"} if name == "index.m3u" else set())]
     if backup:
-        for p, orig in ((index_path, orig_bytes[index_path]),
-                        (cinema_path, orig_bytes[cinema_path])):
-            with open(p + ".group.bak", "wb") as f:
-                f.write(orig)
-    atomic_write(index_path, new_index)
-    atomic_write(cinema_path, new_cinema)
+        for name in changed:
+            with open(files[name]["path"] + ".group.bak", "wb") as fh:
+                fh.write(files[name]["orig"])
+    for name in changed:
+        atomic_write(files[name]["path"], new_text[name])
 
     print(f"Применено. Перенесено каналов: {moved}. "
           f"Дублей оставлено в candidate: {len(dups)}. "
@@ -510,9 +644,8 @@ def do_apply(index_path, cinema_path, index_secs, cinema_secs, moves,
     if missing:
         print("  нет в candidate:", ", ".join(missing[:10]),
               "..." if len(missing) > 10 else "")
-    print(f"  затронуто групп: index {len(touched_index)-1}, "
-          f"cinema {len(touched_cinema)}. Бэкапы *.group.bak.")
-    print("  проверка целостности (URL/имена/дубли) пройдена.")
+    print("  записаны файлы:", ", ".join(changed) if changed else "(ничего)")
+    print("  проверка целостности (URL/имена/дубли) пройдена. Бэкапы *.group.bak.")
 
 
 # ---------------------------------------------------------------------------
@@ -530,9 +663,12 @@ def load(path):
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    ap = argparse.ArgumentParser(description="Разнос кандидатов по группам.")
+    ap = argparse.ArgumentParser(description="Разнос кандидатов по группам (4 файла).")
     ap.add_argument("--index", default=os.path.join(script_dir, "index.m3u"))
     ap.add_argument("--cinema", default=os.path.join(script_dir, "cinema.m3u"))
+    ap.add_argument("--children", default=os.path.join(script_dir, "children.m3u"))
+    ap.add_argument("--tv-series", default=os.path.join(script_dir, "tv_series.m3u"))
+    ap.add_argument("--foreign", default=os.path.join(script_dir, "foreign.m3u"))
     ap.add_argument("--rules", default=os.path.join(script_dir, "group_rules.txt"))
     ap.add_argument("--proposal", default=os.path.join(script_dir, PROPOSAL))
     ap.add_argument("--apply", action="store_true",
@@ -540,22 +676,36 @@ def main():
     ap.add_argument("--no-backup", action="store_true")
     args = ap.parse_args()
 
-    for p in (args.index, args.cinema):
+    # foreign.m3u может ещё не существовать — создаём с преамбулой (как др. файлы)
+    if not os.path.exists(args.foreign):
+        with open(args.foreign, "w", encoding="utf-8") as f:
+            f.write('#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, '
+                    'https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"\n')
+        print(f"создан пустой {os.path.basename(args.foreign)}")
+
+    file_paths = [args.index, args.cinema, args.children, args.tv_series,
+                  args.foreign]
+    files = {}
+    for p in file_paths:
         if not os.path.exists(p):
             raise SystemExit(f"нет файла: {p}")
+        secs = load(p)
+        files[os.path.basename(p)] = {"path": p, "secs": secs,
+                                      "pre": parse_pre_cache[p],
+                                      "orig": orig_bytes[p]}
 
-    index_secs = load(args.index)
-    cinema_secs = load(args.cinema)
+    if "index.m3u" not in files:
+        raise SystemExit("index.m3u обязателен (в нём живут кандидаты).")
 
     if not args.apply:
         rules = load_rules(args.rules)
-        print(f"Режим: PROPOSE (плейлисты не меняются). правил: {len(rules)}")
-        do_propose(index_secs, cinema_secs, rules, args.proposal)
+        print(f"Режим: PROPOSE (плейлисты не меняются). файлов: {len(files)}, "
+              f"правил: {len(rules)}")
+        do_propose(files, rules, args.proposal)
     else:
         moves = read_proposal(args.proposal)
         print(f"Режим: APPLY. переносов в плане: {len(moves)}")
-        do_apply(args.index, args.cinema, index_secs, cinema_secs, moves,
-                 backup=not args.no_backup)
+        do_apply(files, moves, backup=not args.no_backup)
 
 
 if __name__ == "__main__":
