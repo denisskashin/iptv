@@ -436,6 +436,8 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd",Bridge Deluxe HD
 
+http://stream.mcquack.net/92/index.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd",Bridge Deluxe HD orig
 
 #EXTINF:0 group-title="Музыка",Bridge Hits
@@ -2093,17 +2095,11 @@ https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/anekdottv.png" tvg-id="anekdottv",Анекдот ТВ
 
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kamedi.png" tvg-id="kamedi",Камеди HD
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kamedi.png" tvg-id="kamedi",Камеди HD orig
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kamedi.png" tvg-id="kamedi",Камеди
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv" tvg-description="КВН ТВ — российский телеканал, транслирующий программы и игры КВН (Клуб весёлых и находчивых).",КВН ТВ
 
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ orig
-
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Сарафан — российский телеканал с контентом о лайфстайле, кулинарии и домашнем уюте.",Сарафан
-
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan",Сарафан orig
 
@@ -2120,514 +2116,296 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4" tvg-description="ТНТ4 — российский развлекательный телеканал, дочерний по отношению к ТНТ. Показывает сериалы, кино и развлекательные программы.",ТНТ4
 http://37.186.70.39:40/play/33/index.m3u8
 
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4 HD
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4 orig
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/bcu-comedy.png" tvg-id="bcu-comedy",BCU Comedy HD
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/bcu-comedy.png" tvg-id="bcu-comedy",BCU Comedy HDR
-
-#EXTINF:0 group-title="Юмор",Citrus Comedy
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/paramount-comedy.png" tvg-id="paramount-comedy" tvg-description="Comedy Central — международный развлекательный телеканал, специализирующийся на комедийных шоу, стендапе и ситкомах.",Comedy Central
-
-#EXTINF:0 group-title="Юмор",Comedy Central HD DE
-
-#EXTINF:0 group-title="Юмор",Comedy Central HD ES
-
-#EXTINF:0 group-title="Юмор",Comedy Central HD US
-
-#EXTINF:0 group-title="Юмор",CTV Comedy HD CA
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/gags-network.png" tvg-id="gags-network" tvg-description="GagsNetwork — международный развлекательный канал, известный видеороликами со скрытой камерой и розыгрышами.",GagsNetwork
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/magic-comedy.png" tvg-id="magic-comedy",Magic Comedy HD
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/vf-comedy.png" tvg-id="vf-comedy",VF Comedy
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/vf-comedy-woman.png" tvg-id="vf-comedy-woman",VF Comedy Woman
-
-#EXTINF:0 group-title="Юмор",Warner TV Comedy HD DE
-
-#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/z-comedy.png" tvg-id="z-comedy",Z!Comedy HD
-
-# candidate
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/abakan24.png" tvg-id="abakan24",Абакан 24
-
-#EXTINF:0 group-title="candidate",АТВ Ставрополь
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/belsat.png" tvg-id="belsat",Белсат HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/blokbaster.png" tvg-id="blokbaster-hd",Блокбастер HD
-
-#EXTINF:0 group-title="candidate",Блокбастер HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/bolshoj-efir.png" tvg-id="bolshoj-efir",Большой Эфир HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/brianskaya-gubernia.png" tvg-id="brianskaya-gubernia",Брянская Губерния HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/vkus.png" tvg-id="vkus",Вкус HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/vsia-ufa.png" tvg-id="vsia-ufa",Вся Уфа
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/gosfilmofond-mv.png" tvg-id="gosfilmofond-mv",Госфильмофонд. Машина времени HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/denpobedy.png" tvg-id="denpobedy",День Победы HD
-
-#EXTINF:0 group-title="candidate",ЕГЭ ТВ
-
-#EXTINF:0 group-title="candidate",ЕГЭ ТВ orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" tvg-id="zhar-ptica",Жар Птица
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" tvg-id="zhar-ptica",Жар Птица orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/womens-magazine.png" tvg-id="womens-magazine",Женский Журнал
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/womens-magazine.png" tvg-id="womens-magazine",Женский Журнал HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/kineko.png" tvg-id="kineko",Кинеко
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/kineko.png" tvg-id="kineko",Кинеко HD
-
-#EXTINF:0 group-title="candidate",Кион Хит HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/kriminalnoe-hd.png" tvg-id="kriminalnoe-hd",Криминальное HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/krym24.png" tvg-id="krym24",Крым 24
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/krym24.png" tvg-id="krym24",Крым 24 orig
-
-#EXTINF:0 group-title="candidate",Курай ТВ
-
-#EXTINF:0 group-title="candidate",Курай ТВ HD
-
-#EXTINF:0 group-title="candidate",Курай ТВ HD orig
-
-#EXTINF:0 group-title="candidate",Курай ТВ orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/ldpr-tv.png" tvg-id="ldpr-tv",ЛДПР ТВ orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/legenda.png" tvg-id="legenda",Легенда
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/lipeckoe-vremia.png" tvg-id="lipeckoe-vremia",Липецкое время HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/nashe-lubimoe-hd.png" tvg-id="nashe-lubimoe-hd",Любимое HD
-
-#EXTINF:0 group-title="candidate",Любимое HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/liova.png" tvg-id="liova",Лёва HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/mir-vokrug.png" tvg-id="mir-vokrug",Мир Вокруг HD
-
-#EXTINF:0 group-title="candidate",Москва доверие
-
-#EXTINF:0 group-title="candidate",Москва доверие orig
-
-#EXTINF:0 group-title="candidate",Московское образование HD
-
-#EXTINF:0 group-title="candidate",Нано ТВ HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/nauchpop.png" tvg-id="nauchpop",Научпоп HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe-hd.png" tvg-id="nashe-muzhskoe-hd",Наше Мужское HD
-
-#EXTINF:0 group-title="candidate",Наше Мужское HD orig
-
-#EXTINF:0 group-title="candidate",Наше Наследие HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/neizvestnaya-rosia.png" tvg-id="neizvestnaya-rosia",Неизвестная Россия HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/o2tv.png" tvg-id="o2tv",о2тв
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/o2tv.png" tvg-id="o2tv",о2тв HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/o2tv.png" tvg-id="o2tv",о2тв HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/o2tv.png" tvg-id="o2tv",о2тв orig
-
-#EXTINF:0 group-title="candidate",Океан HD
-
-#EXTINF:0 group-title="candidate",Осетия Ирыстон HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe-hd.png" tvg-id="ostrosiuzhetnoe-hd",Остросюжетное HD
-
-#EXTINF:0 group-title="candidate",Остросюжетное HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/patriot.png" tvg-id="patriot",Патриот
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/pervy-vegetariansky.png" tvg-id="pervy-vegetariansky",Первый Вегетарианский
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/pervy-vegetariansky.png" tvg-id="pervy-vegetariansky",Первый Вегетарианский orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/pervy-tulsky.png" tvg-id="pervy-tulsky",Первый Тульский HD
-
-#EXTINF:0 group-title="candidate",Плюс/Минус 16 HD
-
-#EXTINF:0 group-title="candidate",Премиальное HD 50
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/pro-lyubov.png" tvg-id="pro-lyubov",Про Любовь HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/pro-lyubov.png" tvg-id="pro-lyubov",Про Любовь HD orig
-
-#EXTINF:0 group-title="candidate",Психология
-
-#EXTINF:0 group-title="candidate",Психология orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/pes-i-ko.png" tvg-id="pes-i-ko",Пёс и Ко
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/ramenskoe-tv.png" tvg-id="ramenskoe-tv",Раменское ТВ HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/rzhd-tv.png" tvg-id="rzhd-tv",РЖД ТВ
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/romantichnoe-hd.png" tvg-id="romantichnoe-hd",Романтичное HD
-
-#EXTINF:0 group-title="candidate",Россия 1 HD 50
-
-#EXTINF:0 group-title="candidate",РУ.ТВ
-
-#EXTINF:0 group-title="candidate",РУ.ТВ HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/ryzhy.png" tvg-id="ryzhy",Рыжий
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/ryzhy.png" tvg-id="ryzhy",Рыжий orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/samara24.png" tvg-id="samara24",Самара 24
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/samara24.png" tvg-id="samara24",Самара 24 HD
-
-#EXTINF:0 group-title="candidate",Самара ГИС HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/sapfir.png" tvg-id="sapfir",Сапфир
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/saratov-24.png" tvg-id="saratov-24",Саратов 24 HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/sibir24.png" tvg-id="sibir24",Сибирь 24 HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/simfer24.png" tvg-id="simfer24",Симферополь 24 HD
-
-#EXTINF:0 group-title="candidate",Смайл ТВ HD
-
-#EXTINF:0 group-title="candidate",Смайл ТВ orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/radio-strana-fm-tv.png" tvg-id="radio-strana-fm-tv",Страна FM HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/strashnoe-hd.png" tvg-id="strashnoe-hd",Страшное HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/sts-int.png" tvg-id="sts-int",СТС International
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/malysh.png" tvg-id="malysh",СуперГерои
-
-#EXTINF:0 group-title="candidate",Сургут 1 HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/tayna.png" tvg-id="tayna",Тайна
-
-#EXTINF:0 group-title="candidate" ,ТВ 21
-
-#EXTINF:0 group-title="candidate",ТВ 21 orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/tvci.png" tvg-id="tvci",ТВ Центр International
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/tiptop.png" tvg-id="tiptop",ТипТоп HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/tomskoe-vremia.png" tvg-id="tomskoe-vremia",Томское время
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/tuapse24.png" tvg-id="tuapse24",Туапсе 24 HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/xuzur-tv.png" tvg-id="xuzur-tv",Хузур ТВ
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/xuzur-tv.png" tvg-id="xuzur-tv",Хузур ТВ HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/chizhik.png" tvg-id="chizhik",Чижик HD
-
-#EXTINF:0 group-title="candidate",Эхо ТВ
-
-#EXTINF:0 group-title="candidate",Ю ТВ
-
-#EXTINF:0 group-title="candidate",Ю ТВ orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/yugra.png" tvg-id="yugra",Югра
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/yakutia24.png" tvg-id="yakutia24",Якутия 24
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/360-podmoskovie.png" tvg-id="360-podmoskovie",360 HD
-
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
-
-#EXTINF:0 group-title="candidate",360 HD orig
-
-#EXTINF:0 group-title="candidate",360 orig
-
-#EXTINF:0 group-title="candidate",AIVA TV HD
-
-#EXTINF:0 group-title="candidate",AIVA TV HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" tvg-id="bollywood-hd",Bollywood HD
-
-#EXTINF:0 group-title="candidate",Bollywood HD orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/cgtn.png" tvg-id="cgtn",CGTN orig
-
-#EXTINF:0 group-title="candidate",CHD-TV Rock HD
-
-#EXTINF:0 group-title="candidate",Citrus Inquest
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/c-live.png" tvg-id="c-live",Citrus Live HD
-
-#EXTINF:0 group-title="candidate",Citrus Marvel
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/curiosity-stream.png" tvg-id="curiosity-stream",Curiosity Stream HD orig
-
-#EXTINF:0 group-title="candidate",Dance TV Mainstream EDM
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/detectivejam.png" tvg-id="detectivejam",DetectiveJam HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/english-class.png" tvg-id="english-class",English Class HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/englishclub.png" tvg-id="english-club-tv",English Club TV orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/familyjam.png" tvg-id="familyjam",FamilyJam HD
-
-#EXTINF:0 group-title="candidate",Fast & Fun Box HD
-
-#EXTINF:0 group-title="candidate",Fint Ga 1
-
-#EXTINF:0 group-title="candidate",Fint Ga 2
-
-#EXTINF:0 group-title="candidate",Fint Ga 3
-
-#EXTINF:0 group-title="candidate",Fint Ga 4
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/flixsnip.png" tvg-id="flixsnip",FlixSnip HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/flixsnip.png" tvg-id="flixsnip",FlixSnip orig
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/gametoon.png" tvg-id="gametoon",Gametoon HD
-
-#EXTINF:0 group-title="candidate",GNC HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/home4k.png" tvg-id="home-4k",Home 4K
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/kinojam1.png" tvg-id="kinojam1",KinoJam 1 HD
-
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/kinojam2.png" tvg-id="kinojam2",KinoJam 2 HD
-
-#EXTINF:0 group-title="candidate",Kiss Kiss Italia HD
-
 #EXTINF:0 group-title="candidate",LIVETV
 http://tv.mobyservice.ru/livetv/index.m3u8
 http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
 #http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
 #https://tv.mobyservice.ru/livetv/index.m3u8
 
-#EXTINF:0 group-title="candidate",Luxury HD orig
+# ── test ──────────────────────────────────────────
+# Added: 2026-07-19 23:00:46  (64 URLs in 64 channel group(s))
+# ───────────────────────────────────────────────────
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/mezzo.png" tvg-id="mezzo",Mezzo
+#EXTINF:-1 tvg-id="ZTV Uill Smit" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Uill Smit
+https://scottadkins-uill-smit.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/minimax-ms-magic-4k.png" tvg-id="minimax-ms-magic-4k",MS Magic 4K
+#EXTINF:-1 tvg-id="ZTV Denzel Vashington" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Denzel Vashington
+https://kinostream-denzel.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/minimax-ms-prisons.png" tvg-id="minimax-ms-prisons",MS Prisons HD
+#EXTINF:-1 tvg-id="ZTV Scott Adkins" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Scott Adkins
+https://scottadkins-stream.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/minimax-ms-young-blood.png" tvg-id="minimax-ms-young-blood",MS Young Blood HD
+#EXTINF:-1 tvg-id="Asil TV2" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",Asil TV2
+https://kinostream4-asil-tv2.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/museum-4k.png" tvg-id="museum-4k",Museum 4K
+#EXTINF:-1 tvg-id="Asil TV" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",Asil TV
+https://kinostream4-asil-tv.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate",MYTV
+#EXTINF:-1 tvg-id="ZTV Jackie Chan" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Jackie Chan
+https://kinostream-jackie-chan.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate",MYTV 2
+#EXTINF:-1 tvg-id="ztv-new-kino" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV New-Kino
+https://stream-tv-new-kino.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate",MYTV 3
+#EXTINF:-1 tvg-id="ZTV Hind-Movie" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Hind-Movie
+https://stream-tv-hind-movie.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate",MYTV HIT
+#EXTINF:-1 tvg-id="ZTV Kulgu" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Kulgu
+https://itvuz-kulgu.hf.space/hls/stream.m3u8
 
-#EXTINF:0 group-title="candidate",MyZen 4K
+#EXTINF:-1 group-title="test" tvg-logo="https://zuno.surge.sh/info.jpg",Info
+https://zuno.surge.sh/info.mp4
 
-#EXTINF:0 group-title="candidate",MyZen TV HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148915.png" group-title="test",RU| СТС FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148915&extension=ts&play_token=DnyKtyG51v
 
-#EXTINF:0 group-title="candidate",NM Television HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132512.png" group-title="test",RU| НТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132512&extension=ts&play_token=yS03VqfGxr
 
-#EXTINF:0 group-title="candidate",Pimple TV 1
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132697.png" group-title="test",RU| SARAFAN
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132697&extension=ts&play_token=7hbF9yRwzH
 
-#EXTINF:0 tvg-rec="1" group-title="candidate",Pimple TV 2
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132733.png" group-title="test",RU| ТНТ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132733&extension=ts&play_token=6tN9CRcVBU
 
-#EXTINF:0 group-title="candidate",Pimple TV 3
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132642.png" group-title="test",RU| PEH TB
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132642&extension=ts&play_token=A9ffsY72pt
 
-#EXTINF:0 group-title="candidate",Pimple TV 4
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132442.png" group-title="test",RU| CHANNEL ONE
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132442&extension=ts&play_token=6OuEKo287a
 
-#EXTINF:0 group-title="candidate",Pimple TV 5
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132737.png" group-title="test",RU| ТНТ4
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132737&extension=ts&play_token=CpSItWhhn4
 
-#EXTINF:0 group-title="candidate",Pimple TV 6
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132492.png" group-title="test",RU| FX LIFE
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132492&extension=ts&play_token=AUqsMfxueF
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/plan-b.png" tvg-id="plan-b",Plan_B HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132488.png" group-title="test",RU| FINE LIVING
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132488&extension=ts&play_token=xbX6VJW7Rx
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/quadro4k.png" tvg-id="quadro4k",Quadro 4K
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132482.png" group-title="test",RU| ЕВРОКИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132482&extension=ts&play_token=LoywYlL7QB
 
-#EXTINF:0 group-title="candidate",RTG HD orig
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132698.png" group-title="test",RU| SERIAL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132698&extension=ts&play_token=8hSyUpLFsP
 
-#EXTINF:0 group-title="candidate",SONGTV Россия HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132638.png" group-title="test",RU| ОСТРОСЮЖЕТНОЕ КИНО HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132638&extension=ts&play_token=EnoCao4vB6
 
-#EXTINF:0 group-title="candidate",Spirit TV HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132751.png" group-title="test",RU| TV1000 COMEDY HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132751&extension=ts&play_token=CZEZk9Iv4j
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/start-world.png" tvg-id="start-world",Start World HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148937.png" group-title="test",RU| START TV
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148937&extension=ts&play_token=Kx2whZZyMa
 
-#EXTINF:0 group-title="candidate",TOP 80 S HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/459676.png" group-title="test",RU| МАТЧ ПРЕМЬЕРА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=459676&extension=ts&play_token=OfRDaRjHak
 
-#EXTINF:0 group-title="candidate",TOP MIX HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132483.png" group-title="test",RU| EXTREME SPORTS
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132483&extension=ts&play_token=dW4SSA1AIZ
 
-#EXTINF:0 group-title="candidate",TOP USSR HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132430.png" group-title="test",RU| БОКС ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132430&extension=ts&play_token=Xq92EzlDE9
 
-#EXTINF:0 group-title="candidate",TOP Великолепный Век HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/disneych.png" group-title="test",RU| DISNEY CHANNEL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132466&extension=ts&play_token=JgZLvt2XRe
 
-#EXTINF:0 group-title="candidate",Tviksel Балет Опера HD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132610.png" group-title="test",RU| NAT GEO WILD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132610&extension=ts&play_token=J5hIhlVI1U
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/veles-60fps.png" tvg-id="veles-60fps",VeleS 60fps
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132518.png" group-title="test",RU| ИЛЛЮЗИОН ПЛЮС ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132518&extension=ts&play_token=dvIB3OyqOX
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/veles-djset.png" tvg-id="veles-djset",VeleS Dj Set
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132549.png" group-title="test",RU| КУХНЯ ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132549&extension=ts&play_token=gOCpM4krOc
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/veles-mafon.png" tvg-id="veles-mafon",VeleS Магнитофон
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132745.png" group-title="test",RU| TRAVEL
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132745&extension=ts&play_token=XrXh45dVYo
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/veles-sssr.png" tvg-id="veles-sssr",VeleS СССР
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/300696.png" group-title="test",RU| 24 TECHNO
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300696&extension=ts&play_token=xRkSGS6zHf
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/veles-strash.png" tvg-id="veles-strash",VeleS Страшное
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132772.png" group-title="test",RU| VIASAT EXPLORE
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132772&extension=ts&play_token=uTtNXXxG6b
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/tv1000-cee.png" tvg-id="tv1000-cee",Viasat Kino
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132700.png" group-title="test",RU| ШАНСОН ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132700&extension=ts&play_token=EfRJnT7iQW
 
-#EXTINF:0 group-title="candidate" tvg-logo="https://iptvx.one/picons/tv1000-action-cee.png" tvg-id="tv1000-action-cee",Viasat Kino Action
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132573.png" group-title="test",RU| MEZZO
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132573&extension=ts&play_token=P1FlWqXKPO
 
-#EXTINF:0 group-title="candidate",Vostok TV
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132551.png" group-title="test",RU| LA MINOR
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132551&extension=ts&play_token=9bxDZfTZ6E
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132594.png" group-title="test",RU| МУЗЫКА ПЕРВОГО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132594&extension=ts&play_token=yVtYaT1MWH
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132803.png" group-title="test",RU| CURRENTTIME HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132803&extension=ts&play_token=kIf72x5Bpj
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132676.png" group-title="test",RU| RTG TV
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132676&extension=ts&play_token=yo3OPhAEkV
+
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132552.png" group-title="test",RU| LIFE HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132552&extension=ts&play_token=WyWl2ApgfC
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="test",BEIN MAX 1 HEVC
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085205&extension=ts&play_token=nHhfmMPhNm
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX5.png" group-title="test",BEIN MAX 5 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085189&extension=ts&play_token=J90iJyiyh8
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330447.png" group-title="test",AR| BEIN SPORTS 2 XTRA HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330447&extension=ts&play_token=6DSQvDXypG
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330452.png" group-title="test",AR| BEIN SPORTS 2 FRANCE HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330452&extension=ts&play_token=ufy2tvLo5K
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330437.png" group-title="test",AR| BEIN SPORTS 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330437&extension=ts&play_token=4FiPgf1qDs
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX5.png" group-title="test",BEIN MAX 5 SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085183&extension=ts&play_token=DZPXj89sVR
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAXSOLOSPORT.png" group-title="test",BEIN MAX SOLO SPORT FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2094041&extension=ts&play_token=cQvRZqlsZe
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="test",BEIN MAX 2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085192&extension=ts&play_token=hzFjlKoHxv
+
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330448.png" group-title="test",AR| BEIN SPORTS 3 XTRA HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330448&extension=ts&play_token=c2xIe5TQ4J
+
+#EXTINF:-1  group-title="test",Disco Polo Music
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19169/index.m3u8
+
+#EXTINF:-1  group-title="test",Mix Hollywood
+https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
+
+#EXTINF:-1  group-title="test",Stars TV
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19168/index.m3u8
+
+#EXTINF:-1  group-title="test",VOX Music TV
+http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19171/index.m3u8
+
+#EXTINF:-1 group-title="test", Суспільне Перший (T2) (UA)
+http://portal.ott.pink/C5UK_SyspilnePershiyT2/index.m3u8?token=B0B73593320445A22451378DF37B3E76
+
+#EXTINF:-1 group-title="test",Армія TB
+http://portal.ott.pink/C5UK_ArmyTVHD/index.m3u8?token=927E03BF1A83DF5DE6628CAF78BA2C13
+
+#EXTINF:-1 group-title="test",FREEDOM UA HD
+http://portal.ott.pink/C3UK_UATVRU/index.m3u8?token=927E03BF1A83DF5DE6628CAF78BA2C13
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Fox
+http://stream.mcquack.net/182/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Премиальное
+http://stream.mcquack.net/421/index.m3u8
+
+#EXTINF:-1 group-title="test" audio-track="rus", Viasat Kino Comedy HD
+http://ukr2.ukrainske.tv/493/video.m3u8
+
+#EXTINF:-1 group-title="test" audio-track="rus", Clubbing TV HD
+http://46.151.151.250:9201
+
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/rKtVsr1G/image-16.png" group-title="test", Realitatea Sportiva
+https://stream.realitatea.net/realitatea/sportiva_md/medialist_7351611093486677382_hls.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Moy mir (720p)
+https://moymir.ru/hls/onair.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Prodvizhenie (1080p)
+https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 
 
 
 # ── test ──────────────────────────────────────────
-# Added: 2026-07-19 23:00:46  (64 URLs in 64 channel group(s))
+# Added: 2026-07-19 23:45:54  (43 URLs in 43 channel group(s))
 # ───────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="ZTV Uill Smit" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Uill Smit
-https://scottadkins-uill-smit.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZTV Denzel Vashington" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Denzel Vashington
-https://kinostream-denzel.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZTV Scott Adkins" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Scott Adkins
-https://scottadkins-stream.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="Asil TV2" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",Asil TV2
-https://kinostream4-asil-tv2.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="Asil TV" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",Asil TV
-https://kinostream4-asil-tv.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZTV Jackie Chan" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Jackie Chan
-https://kinostream-jackie-chan.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ztv-new-kino" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV New-Kino
-https://stream-tv-new-kino.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZTV Hind-Movie" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Hind-Movie
-https://stream-tv-hind-movie.hf.space/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZTV Kulgu" group-title="test" tvg-logo="https://zvukoff.usite.pro/apps/logo.png",ZTV Kulgu
-https://itvuz-kulgu.hf.space/hls/stream.m3u8
-#EXTINF:-1 group-title="test" tvg-logo="https://zuno.surge.sh/info.jpg",Info
-https://zuno.surge.sh/info.mp4
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148915.png" group-title="test",RU| СТС FHD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148915&extension=ts&play_token=DnyKtyG51v
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132512.png" group-title="test",RU| НТВ
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132512&extension=ts&play_token=yS03VqfGxr
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132697.png" group-title="test",RU| SARAFAN
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132697&extension=ts&play_token=7hbF9yRwzH
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132733.png" group-title="test",RU| ТНТ
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132733&extension=ts&play_token=6tN9CRcVBU
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132642.png" group-title="test",RU| PEH TB
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132642&extension=ts&play_token=A9ffsY72pt
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132442.png" group-title="test",RU| CHANNEL ONE
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132442&extension=ts&play_token=6OuEKo287a
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132737.png" group-title="test",RU| ТНТ4
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132737&extension=ts&play_token=CpSItWhhn4
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132492.png" group-title="test",RU| FX LIFE
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132492&extension=ts&play_token=AUqsMfxueF
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132488.png" group-title="test",RU| FINE LIVING
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132488&extension=ts&play_token=xbX6VJW7Rx
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132482.png" group-title="test",RU| ЕВРОКИНО
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132482&extension=ts&play_token=LoywYlL7QB
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132698.png" group-title="test",RU| SERIAL
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132698&extension=ts&play_token=8hSyUpLFsP
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132638.png" group-title="test",RU| ОСТРОСЮЖЕТНОЕ КИНО HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132638&extension=ts&play_token=EnoCao4vB6
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132751.png" group-title="test",RU| TV1000 COMEDY HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132751&extension=ts&play_token=CZEZk9Iv4j
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148937.png" group-title="test",RU| START TV
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148937&extension=ts&play_token=Kx2whZZyMa
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/459676.png" group-title="test",RU| МАТЧ ПРЕМЬЕРА HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=459676&extension=ts&play_token=OfRDaRjHak
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132483.png" group-title="test",RU| EXTREME SPORTS
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132483&extension=ts&play_token=dW4SSA1AIZ
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132430.png" group-title="test",RU| БОКС ТВ
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132430&extension=ts&play_token=Xq92EzlDE9
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/disneych.png" group-title="test",RU| DISNEY CHANNEL
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132466&extension=ts&play_token=JgZLvt2XRe
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132610.png" group-title="test",RU| NAT GEO WILD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132610&extension=ts&play_token=J5hIhlVI1U
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132518.png" group-title="test",RU| ИЛЛЮЗИОН ПЛЮС ТВ
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132518&extension=ts&play_token=dvIB3OyqOX
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132549.png" group-title="test",RU| КУХНЯ ТВ
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132549&extension=ts&play_token=gOCpM4krOc
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132745.png" group-title="test",RU| TRAVEL
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132745&extension=ts&play_token=XrXh45dVYo
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/300696.png" group-title="test",RU| 24 TECHNO
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300696&extension=ts&play_token=xRkSGS6zHf
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132772.png" group-title="test",RU| VIASAT EXPLORE
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132772&extension=ts&play_token=uTtNXXxG6b
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132700.png" group-title="test",RU| ШАНСОН ТВ
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132700&extension=ts&play_token=EfRJnT7iQW
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132573.png" group-title="test",RU| MEZZO
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132573&extension=ts&play_token=P1FlWqXKPO
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132551.png" group-title="test",RU| LA MINOR
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132551&extension=ts&play_token=9bxDZfTZ6E
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132594.png" group-title="test",RU| МУЗЫКА ПЕРВОГО
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132594&extension=ts&play_token=yVtYaT1MWH
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132803.png" group-title="test",RU| CURRENTTIME HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132803&extension=ts&play_token=kIf72x5Bpj
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132676.png" group-title="test",RU| RTG TV
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132676&extension=ts&play_token=yo3OPhAEkV
-#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132552.png" group-title="test",RU| LIFE HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132552&extension=ts&play_token=WyWl2ApgfC
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX1.png" group-title="test",BEIN MAX 1 HEVC
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085205&extension=ts&play_token=nHhfmMPhNm
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX5.png" group-title="test",BEIN MAX 5 HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085189&extension=ts&play_token=J90iJyiyh8
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330447.png" group-title="test",AR| BEIN SPORTS 2 XTRA HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330447&extension=ts&play_token=6DSQvDXypG
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330452.png" group-title="test",AR| BEIN SPORTS 2 FRANCE HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330452&extension=ts&play_token=ufy2tvLo5K
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330437.png" group-title="test",AR| BEIN SPORTS 1 HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330437&extension=ts&play_token=4FiPgf1qDs
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX5.png" group-title="test",BEIN MAX 5 SD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085183&extension=ts&play_token=DZPXj89sVR
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAXSOLOSPORT.png" group-title="test",BEIN MAX SOLO SPORT FHD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2094041&extension=ts&play_token=cQvRZqlsZe
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="test",BEIN MAX 2 HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085192&extension=ts&play_token=hzFjlKoHxv
-#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330448.png" group-title="test",AR| BEIN SPORTS 3 XTRA HD
-http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330448&extension=ts&play_token=c2xIe5TQ4J
-#EXTINF:-1  group-title="test",Disco Polo Music
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19169/index.m3u8
-#EXTINF:-1  group-title="test",Mix Hollywood
-https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
-#EXTINF:-1  group-title="test",Stars TV
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19168/index.m3u8
-#EXTINF:-1  group-title="test",VOX Music TV
-http://88b9da48.kazmazpaz.ru/iptv/XVU58NBPX2LUMP/19171/index.m3u8
-#EXTINF:-1 group-title="test", Суспільне Перший (T2) (UA)
-http://portal.ott.pink/C5UK_SyspilnePershiyT2/index.m3u8?token=B0B73593320445A22451378DF37B3E76
-#EXTINF:-1 group-title="test",Армія TB
-http://portal.ott.pink/C5UK_ArmyTVHD/index.m3u8?token=927E03BF1A83DF5DE6628CAF78BA2C13
-#EXTINF:-1 group-title="test",FREEDOM UA HD
-http://portal.ott.pink/C3UK_UATVRU/index.m3u8?token=927E03BF1A83DF5DE6628CAF78BA2C13
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Fox
-http://stream.mcquack.net/182/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Премиальное
-http://stream.mcquack.net/421/index.m3u8
-#EXTINF:-1 group-title="test" audio-track="rus", Viasat Kino Comedy HD
-http://ukr2.ukrainske.tv/493/video.m3u8
-#EXTINF:-1 group-title="test" audio-track="rus", Clubbing TV HD
-http://46.151.151.250:9201
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.ibb.co/rKtVsr1G/image-16.png" group-title="test", Realitatea Sportiva
-https://stream.realitatea.net/realitatea/sportiva_md/medialist_7351611093486677382_hls.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Moy mir (720p)
-https://moymir.ru/hls/onair.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Prodvizhenie (1080p)
-https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/ROSSIYA-1.jpg" group-title="test",RU| РОССИЯ 1 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132671&extension=ts&play_token=2o9sB6btFn
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/ROSSIYA-1.jpg" group-title="test",RU| РОССИЯ 1
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132669&extension=ts&play_token=Q3Je9Ikokr
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/300700.png" group-title="test",RU| 5 КАНАЛ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=300700&extension=ts&play_token=8C03SRIRWD
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132521.png" group-title="test",RU| ИНДИЙСКОЕ КИНО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132521&extension=ts&play_token=8rZDJeQGMc
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132735.png" group-title="test",RU| ТНТ HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132735&extension=ts&play_token=9WAqo5Y9tw
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132398.png" group-title="test",RU| A1
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132398&extension=ts&play_token=QbvHxkYLan
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/amediapremium.png" group-title="test",RU| AMEDIA PREMIUM
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132407&extension=ts&play_token=wnuwMys1Zg
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/Paramount-Channel-Poland.png" group-title="test",RU| PARAMOUNT CHANNEL HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148932&extension=ts&play_token=p8WXmEA7cl
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148903.png" group-title="test",RU| BCU MARVEL FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148903&extension=ts&play_token=y87wg3eL3B
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148910.png" group-title="test",RU| BCU COMEDY FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148910&extension=ts&play_token=Y64wFjGpYa
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132433.png" group-title="test",RU| CBS REALITY
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132433&extension=ts&play_token=fRdLeGb26S
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/amediahit.png" group-title="test",RU| AMEDIA HIT
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132405&extension=ts&play_token=EAzsc3UOly
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148907.png" group-title="test",RU| BCU KINORATING FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148907&extension=ts&play_token=Ly1axMGsu1
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148908.png" group-title="test",RU| BCU KIDS+ FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148908&extension=ts&play_token=IVoOTAhYL2
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132533.png" group-title="test",RU| КОННЫЙ МИР HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132533&extension=ts&play_token=9iDDR29oYS
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132601.png" group-title="test",RU| MOTORSPORT TV
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132601&extension=ts&play_token=8YkY2kupFP
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132538.png" group-title="test",RU| КАРУСЕЛЬ ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132538&extension=ts&play_token=elOlAqUV8b
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148917.png" group-title="test",RU| УНИКУМ ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148917&extension=ts&play_token=7FDsPN7ose
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132432.png" group-title="test",RU| CARTOON NETWORK
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132432&extension=ts&play_token=o9uo9ptDXw
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132636.png" group-title="test",RU| ОХОТА И РЫБАЛКА ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132636&extension=ts&play_token=VaY6URzorT
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132409.png" group-title="test",RU| ANI
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132409&extension=ts&play_token=hnuPEWM7nk
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/898806.png" group-title="test",RU| ИСТОРИЯ 2 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=898806&extension=ts&play_token=nqtwdWHpxv
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/MATCH!-FUTBOL-2.jpeg" group-title="test",RU| МАТЧ ФУТБОЛ 2
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132562&extension=ts&play_token=kUBJD9EkWR
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132462.png" group-title="test",RU| ДИКАЯ РЫБАЛКА HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132462&extension=ts&play_token=jXxjYrdWZk
+#EXTINF:-1 tvg-logo="http://103.176.90.118/picons/logos/nationalgeographichd.png" group-title="test",RU| NATIONAL GEOGRAPHIC HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132627&extension=ts&play_token=TS9y3Xagal
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132650.png" group-title="test",RU| ПРАВО
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132650&extension=ts&play_token=sxIpEYiLri
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132798.png" group-title="test",RU| ЗАГОРОДНАЯ ЖИЗНЬ ТВ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132798&extension=ts&play_token=5GbSkTQoeb
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/301025.png" group-title="test",RU| ЗАГОРОДНАЯ ЖИЗНЬ HD INT
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=301025&extension=ts&play_token=LKX7OnDZ3b
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/1148935.png" group-title="test",RU| ДИАЛОГИ О РЫБАЛКЕ
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1148935&extension=ts&play_token=7YmGcJaDo9
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX4.png" group-title="test",BEIN MAX 4 HEVC
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085202&extension=ts&play_token=f7shRWAz45
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330449.png" group-title="test",AR| BEIN SPORTS 1 ENGLISH HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330449&extension=ts&play_token=ZOBt2mvNBL
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="test",BEIN MAX 2 (BA) FHD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085176&extension=ts&play_token=dYrfvkNPGS
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330442.png" group-title="test",AR| BEIN SPORTS 6 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330442&extension=ts&play_token=7a7zgtvkGR
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330435.png" group-title="test",AR| BEIN SPORTS GLOBAL HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330435&extension=ts&play_token=U5hNlb8Flr
+#EXTINF:-1 tvg-logo="http://picons.cmshulk.com/picons/132460.png" group-title="test",RU| DAVINCI LEARNING
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=132460&extension=ts&play_token=b1Ex2MfYbq
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX6.png" group-title="test",BEIN MAX 6 SD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085182&extension=ts&play_token=NQkpFj2uuR
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/BEINMAX2.png" group-title="test",BEIN MAX 2 (BA) HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=2085175&extension=ts&play_token=45D8eoGoLb
+#EXTINF:-1 tvg-logo="http://51.158.145.100/picons/logos/bein/1330441.png" group-title="test",AR| BEIN SPORTS 5 HD
+http://line.iptvhunt.com:80/play/live.php?mac=00:1A:79:0A:AC:C0&stream=1330441&extension=ts&play_token=8t7WLP1Rc6
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",black
+http://stream.mcquack.net/263/index.m3u8
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kino 1
+http://stream.mcquack.net/395/index.m3u8
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kinoliving
+http://stream.mcquack.net/445/index.m3u8
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kinowood
+http://stream.mcquack.net/446/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",START Air (576p)
+http://stream.mcquack.net/128/index.m3u8
