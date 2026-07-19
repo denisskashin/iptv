@@ -57,6 +57,8 @@ http://stream.mcquack.net/169/index.m3u8
 
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra",Матч! Игра
 
+http://185.37.150.38/test/index.m3u8
+
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra",Матч! Игра FHD
 
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-igra.png" tvg-id="match-igra",Матч! Игра HD orig
@@ -461,13 +463,11 @@ http://znty.dyndns.org:5010/hls/eleven5.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn.png" tvg-id="espn" tvg-description="ESPN — американский спортивный телеканал с трансляциями и аналитикой.",ESPN 1
 
-http://177.52.24.163/ESPN-1-HD/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn1-nl.png" tvg-id="espn1-nl",ESPN 1 HD NL
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn2-us.png" tvg-id="espn2-us" tvg-description="Американский спортивный телеканал ESPN 2.",ESPN 2
 http://200.10.30.241:8000/play/a01r/index.m3u8
-#http://177.52.24.163/ESPN-2-HD/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn2-nl.png" tvg-id="espn2-nl",ESPN 2 HD NL
 
@@ -656,6 +656,8 @@ http://stream.mcquack.net/178/index.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/nhl-network-us.png" tvg-id="nhl-network-us",NHL Network HD US
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/nhl-network-us.png" tvg-id="nhl-network-us",NHL Network US
+
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/nova-sport1-cz.png" tvg-id="nova-sport1-cz",Nova Sport 1 HD CZ
 
@@ -1004,6 +1006,8 @@ http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:0 group-title="Спорт",TV4 Sport Live 1 HD SE
 
+http://217.114.191.150/Subbota/index.m3u8
+
 #EXTINF:0 group-title="Спорт",TV4 Sport Live 2 HD SE
 
 #EXTINF:0 group-title="Спорт",TV4 Sport Live 4 HD SE
@@ -1133,6 +1137,7 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta-sports.png" tvg-id="setanta-sports" tvg-description="Спортивный телеканал Setanta Sports.",Setanta Sports 1
 
 http://stream.mcquack.net/234/index.m3u8
+#http://itvuz-live.hf.space/play/MTYy
 
 #EXTINF:0 group-title="Футбол",Setanta Sports 1 FHD KZ
 
@@ -1140,6 +1145,7 @@ http://stream.mcquack.net/234/index.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta-sports-plus.png" tvg-id="setanta-sports-plus" tvg-description="Спортивный телеканал Setanta Sports.",Setanta Sports 2
 http://stream.mcquack.net/235/index.m3u8
+#http://itvuz-live.hf.space/play/MTYz
 
 #EXTINF:0 group-title="Футбол",Setanta Sports 2 HD orig
 
@@ -1179,3 +1185,4 @@ http://znty.dyndns.org:5010/hls/sporting.m3u8
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/v-sport-football-se.png" tvg-id="v-sport-football-se",V Sport Football SE
 
 #EXTINF:0 group-title="Футбол",ViaPlay Football SE
+

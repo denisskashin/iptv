@@ -15,8 +15,10 @@ http://stream.mcquack.net/144/index.m3u8
 http://37.186.70.39:40/play/98/index.m3u8
 #https://streaming102.interskytech.com/live/232.m3u8
 #http://stream.mcquack.net/120/index.m3u8
+#http://176.118.197.125/Karusel/index.m3u8
 
 #EXTINF:0  group-title="Детские" tvg-logo="https://iptvx.one/picons/mama.png" tvg-id="mama" tvg-description="Телеканал для родителей: воспитание и здоровье детей, беременность и семья.",Мама
+http://176.118.197.125/Mama/index.m3u8
 #http://stream.mcquack.net/79/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/mult.png" tvg-id="mult" tvg-description="Российский детский телеканал с отечественными мультсериалами.",Мульт
@@ -47,6 +49,7 @@ http://37.186.70.39:40/play/97/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/ani.png" tvg-id="ani" tvg-description="Российский телеканал аниме: японская анимация для подростков.",Ani
 http://stream.mcquack.net/306/index.m3u8
+#http://176.118.197.125/Ani/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/baby-time.png" tvg-id="baby-time",Baby Time
 
@@ -74,9 +77,11 @@ http://stream.mcquack.net/306/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/gulli-girl.png" tvg-id="gulli-girl" tvg-description="Детский телеканал для девочек: мультфильмы и сериалы (Gulli, русская версия).",Gulli Girl
 http://stream.mcquack.net/305/index.m3u8
+#http://176.118.197.125/Gulli-Girl/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/jimjam.png" tvg-id="jimjam" tvg-description="Международный детский телеканал для дошкольников.",JimJam
 http://stream.mcquack.net/150/index.m3u8
+#http://176.118.197.125/JimJam/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/kidstv.png" tvg-id="kidstv" tvg-description="Детский телеканал с мультфильмами.",Kids TV
 https://wurljansonmedia.global.transmit.live/hls/69029561e0b3f0f215eef867/playlist.m3u8
@@ -183,4 +188,3 @@ http://stream.mcquack.net/111/index.m3u8
 #EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-ndetskoe.png" tvg-id="yosso-ndetskoe",Наше Детское
 
 #EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-soyuzmult.png" tvg-id="yosso-soyuzmult",Союзмульт
-

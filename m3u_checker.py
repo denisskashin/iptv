@@ -2,15 +2,22 @@
 """
 M3U Index Updater
 ==================
-Reads an existing index.m3u, fetches source playlists, finds channels whose
-names partially match channels already in the index, checks reachability, and
-inserts working URLs as commented lines (#url) directly into the matching
-channel's block — right after its existing URLs.
+Обслуживает НЕСКОЛЬКО плейлистов сразу: index.m3u и дополнительные тематические
+файлы (sport.m3u, music.m3u, foreign.m3u, children.m3u, tv_series.m3u — см.
+EXTRA_PLAYLISTS). Читает их, качает источники, находит каналы с совпадающим
+именем/tvg-id и вставляет рабочие ссылки прямо в блок нужного канала — в том
+файле, где этот канал лежит (первая активная ссылка без '#', последующие как
+'#url'-альтернативы).
+
+Найденные, но ещё не разобранные каналы сваливаются в группу '# test' В КОНЦЕ
+index.m3u (единый «входящий» ящик). Дедуп при этом идёт против ссылок ВО ВСЕХ
+обслуживаемых файлах, поэтому канал, уже лежащий в sport.m3u/music.m3u/…, в test
+повторно не попадёт.
 
 Configuration files (ищутся в текущей директории):
     sources.txt        — источники плейлистов (по URL в строке)
     name_blocklist.txt — блоклист имён каналов
-    aliases.txt        — алиасы: '<имя в источнике> => <имя в index.m3u>'
+    aliases.txt        — алиасы: '<имя в источнике> => <имя в плейлисте>'
     url_blocklist.txt  — блоклист URL (подстроки; '*' — wildcard)
 
 Requirements: Python 3.8+  —  no third-party libraries.
@@ -19,11 +26,12 @@ Usage:
     python3 m3u_checker.py [options]
 
 Examples:
-    python3 m3u_checker.py
+    python3 m3u_checker.py                   # index.m3u + все EXTRA_PLAYLISTS
+    python3 m3u_checker.py --no-extra        # только index.m3u
     python3 m3u_checker.py --index my_channels.m3u
     python3 m3u_checker.py --timeout 10 --workers 20
     python3 m3u_checker.py --sources https://example.com/list.m3u
-    python3 m3u_checker.py --dry-run        # preview without writing
+    python3 m3u_checker.py --dry-run         # preview without writing
 """
 
 from __future__ import annotations
@@ -188,6 +196,22 @@ def validate_config(cfg: Config, blocks: list[IndexBlock], log: logging.Logger) 
 
 
 DEFAULT_INDEX_FILE  = "index.m3u"
+
+# Дополнительные плейлисты, которые чекер обслуживает НАРАВНЕ с index.m3u:
+# у их каналов тоже обновляются рабочие ссылки (Step 5a).
+# Формат: '<человекочитаемая метка / основная group-title>': '<файл>'.
+# Метка идёт только в лог; матчинг каналов — по имени и tvg-id, не по группе,
+# поэтому файлы с несколькими группами (foreign.m3u, children.m3u, …) тоже ок.
+# Открытие «мусорки» test (Step 5b) остаётся ТОЛЬКО в index.m3u, но дедуп
+# новых ссылок идёт против URL'ов ВСЕХ перечисленных файлов.
+EXTRA_PLAYLISTS: "OrderedDict[str, str]" = OrderedDict([
+    ("Спорт",      "sport.m3u"),
+    ("Музыка",     "music.m3u"),
+    ("Зарубежные", "foreign.m3u"),
+    ("Детские",    "children.m3u"),
+    ("ТВ Сериалы", "tv_series.m3u"),
+])
+
 LOG_FILE            = "m3u_checker.log"
 DEFAULT_TIMEOUT_SEC = 8
 DEFAULT_WORKERS     = 30
@@ -235,6 +259,17 @@ class IndexBlock:
     name: str
     tvg_id: str = ""
     urls: set[str] = field(default_factory=set)
+    origin: str = ""   # имя файла-плейлиста, которому принадлежит блок (для статистики)
+
+
+@dataclass
+class Playlist:
+    """Один обслуживаемый .m3u-файл: index.m3u или один из EXTRA_PLAYLISTS."""
+    path: str                                  # путь к файлу
+    label: str                                 # метка для лога ('index' или group-title)
+    header: list[str] = field(default_factory=list)
+    blocks: list[IndexBlock] = field(default_factory=list)
+    is_index: bool = False                     # True → сюда идёт test-дамп (Step 5b)
 
 
 @dataclass
@@ -302,14 +337,19 @@ def extract_tvg_id(extinf_line: str) -> str:
 #  index.m3u parsing and writing
 # ──────────────────────────────────────────────────────────
 
-def parse_index_m3u(path: str, cfg: Config, log: logging.Logger) -> tuple[list[str], list[IndexBlock]]:
+def parse_index_m3u(path: str, cfg: Config, log: logging.Logger,
+                    origin: Optional[str] = None) -> tuple[list[str], list[IndexBlock]]:
     """
-    Parse the local index.m3u.
+    Parse a local playlist file (index.m3u or one of the extra playlists).
+
+    Args:
+        origin — метка файла, проставляется каждому блоку (по умолчанию basename пути).
 
     Returns:
         header_lines  — lines before the first #EXTINF block (e.g. #EXTM3U)
         blocks        — list of IndexBlock, one per channel
     """
+    origin = origin or os.path.basename(path)
     if not os.path.exists(path):
         log.warning(f"Index file not found: {path}")
         return ["#EXTM3U\n"], []
@@ -359,7 +399,7 @@ def parse_index_m3u(path: str, cfg: Config, log: logging.Logger) -> tuple[list[s
                 candidate = stripped
             if candidate.startswith(("http://", "https://", "rtmp")):
                 urls.add(candidate)
-        return IndexBlock(lines=blines, name=name, tvg_id=tvg_id, urls=urls)
+        return IndexBlock(lines=blines, name=name, tvg_id=tvg_id, urls=urls, origin=origin)
 
     for line in raw_lines:
         stripped = line.strip()
@@ -382,7 +422,7 @@ def parse_index_m3u(path: str, cfg: Config, log: logging.Logger) -> tuple[list[s
         if blk:
             blocks.append(blk)
 
-    log.info(f"📂 Parsed index.m3u: {len(blocks)} channel blocks")
+    log.info(f"📂 Parsed {os.path.basename(path)}: {len(blocks)} channel blocks")
     if dropped_urls:
         log.info(f"🧹 Removed {len(dropped_urls)} blocklisted URL line(s) from index:")
         for nm, u in dropped_urls:
@@ -813,17 +853,35 @@ def parse_source_m3u(content: str, source_url: str, log: logging.Logger) -> list
 
 def build_block_index(
     blocks: list[IndexBlock],
+    log: Optional[logging.Logger] = None,
 ) -> tuple[dict[str, IndexBlock], dict[str, IndexBlock]]:
     """Индексы для матчинга: lower(имя)→блок и lower(tvg-id)→блок.
 
-    При дублях выигрывает первый блок в файле (как у прежнего линейного поиска).
+    При дублях выигрывает ПЕРВЫЙ блок в порядке передачи. Вызывающий подаёт
+    блоки index.m3u первыми, затем extra-плейлисты — то есть при коллизии имени
+    между файлами приоритет у index.m3u, потом по порядку EXTRA_PLAYLISTS.
+    Коллизии между разными файлами логируются (debug), чтобы был след, что
+    свежая ссылка уедет в первый файл, а не во второй.
     """
     by_name: dict[str, IndexBlock] = {}
     by_id:   dict[str, IndexBlock] = {}
+    collisions = 0
     for blk in blocks:
-        by_name.setdefault(blk.name.strip().lower(), blk)
+        key = blk.name.strip().lower()
+        if key:
+            owner = by_name.get(key)
+            if owner is None:
+                by_name[key] = blk
+            elif owner.origin != blk.origin:
+                collisions += 1
+                if log:
+                    log.debug(f"   ⚠️  name collision {blk.name!r}: "
+                              f"{owner.origin} (kept) vs {blk.origin} (ignored)")
         if blk.tvg_id:
             by_id.setdefault(blk.tvg_id.strip().lower(), blk)
+    if log and collisions:
+        log.info(f"   ℹ️  {collisions} cross-file name collision(s) — "
+                 f"свежая ссылка уедет в приоритетный файл (index → extra по порядку)")
     return by_name, by_id
 
 
@@ -910,6 +968,7 @@ def append_test_group(
     path: str,
     pairs: list[tuple[SourceChannel, Optional[IndexBlock]]],
     log: logging.Logger,
+    existing_urls: Optional[set[str]] = None,
     dry_run: bool = False,
 ) -> int:
     """
@@ -917,10 +976,13 @@ def append_test_group(
     Channels from multiple sources with the same name/tvg-id are grouped:
       - first URL  → active (no #)
       - the rest   → commented alternatives (#url)
-    Skips URLs already anywhere in the file. Returns count of new URL lines written.
+    Skips URLs already present. `existing_urls` — заранее собранный union URL'ов
+    по ВСЕМ обслуживаемым файлам (чтобы не свалить в test ссылку, уже лежащую в
+    sport.m3u/music.m3u/…); он объединяется с URL'ами самого path на диске.
+    Returns count of new URL lines written.
     """
-    existing_urls = collect_all_file_urls(path)
-    log.info(f"   URLs already in file: {len(existing_urls)}")
+    existing_urls = set(existing_urls or set()) | collect_all_file_urls(path)
+    log.info(f"   URLs already known (all files): {len(existing_urls)}")
 
     # Filter out already-present URLs
     new_pairs = [(ch, blk) for ch, blk in pairs if ch.url not in existing_urls]
@@ -1029,6 +1091,11 @@ def main():
         help=f"Local index M3U file to update (default: {DEFAULT_INDEX_FILE})",
     )
     parser.add_argument(
+        "--no-extra", action="store_true",
+        help="Обслуживать только --index, не трогать дополнительные плейлисты "
+             f"({', '.join(EXTRA_PLAYLISTS.values())}).",
+    )
+    parser.add_argument(
         "--timeout", type=int, default=DEFAULT_TIMEOUT_SEC, metavar="SEC",
         help=f"Per-stream HTTP timeout in seconds (default: {DEFAULT_TIMEOUT_SEC})",
     )
@@ -1064,32 +1131,59 @@ def main():
         log.error("❌ Нет источников: заполни sources.txt или передай --sources. Exiting.")
         sys.exit(1)
 
+    # Список обслуживаемых файлов: index.m3u первым (приоритет при матчинге,
+    # хозяин test-дампа), затем EXTRA_PLAYLISTS в объявленном порядке.
+    extra_specs = [] if args.no_extra else list(EXTRA_PLAYLISTS.items())
+
     log.info("=" * 60)
     log.info("🚀 M3U Index Updater started")
     log.info(f"   Python   : {sys.version.split()[0]}")
     log.info(f"   Index    : {args.index}")
+    if extra_specs:
+        log.info(f"   Extra    : {', '.join(f for _, f in extra_specs)}")
+    else:
+        log.info("   Extra    : (none — --no-extra)")
     log.info(f"   Sources  : {len(sources)}")
     log.info(f"   Timeout  : {args.timeout}s  |  Workers: {args.workers}")
     if args.dry_run:
-        log.info("   DRY RUN  : file will NOT be modified")
+        log.info("   DRY RUN  : files will NOT be modified")
     log.info("=" * 60)
 
-    # ── Step 1: Parse existing index.m3u ────────────────────────────────────
+    # ── Step 1: Parse index.m3u + extra playlists ───────────────────────────
     log.info("")
-    log.info("STEP 1 — Reading index.m3u")
+    log.info("STEP 1 — Reading playlists")
     log.info("-" * 60)
 
-    header_lines, blocks = parse_index_m3u(args.index, cfg, log)
+    playlists: list[Playlist] = []
 
-    if not blocks:
-        log.error("❌ index.m3u has no channel blocks. Nothing to match against. Exiting.")
+    idx_header, idx_blocks = parse_index_m3u(args.index, cfg, log, origin=os.path.basename(args.index))
+    playlists.append(Playlist(path=args.index, label="index",
+                              header=idx_header, blocks=idx_blocks, is_index=True))
+
+    for label, fname in extra_specs:
+        # extra-файлы ищем рядом с --index (os.path.join("", x) == "x").
+        fpath = os.path.join(os.path.dirname(args.index), fname)
+        if not os.path.exists(fpath):
+            log.warning(f"⚠️  Extra playlist {fname!r} не найден — пропускаю "
+                        f"(будет обслуживаться, когда появится)")
+            continue
+        hdr, blks = parse_index_m3u(fpath, cfg, log, origin=fname)
+        playlists.append(Playlist(path=fpath, label=label, header=hdr, blocks=blks))
+
+    # Плоский список всех блоков; index первым → приоритет при коллизиях имён.
+    all_blocks: list[IndexBlock] = [blk for pl in playlists for blk in pl.blocks]
+
+    if not all_blocks:
+        log.error("❌ Плейлисты не содержат каналов. Матчить не с чем. Exiting.")
         sys.exit(1)
 
-    log.info(f"   Found {len(blocks)} channel(s) in index:")
-    for b in blocks:
-        log.info(f"   • {b.name!r}  ({len(b.urls)} existing URL(s))")
+    log.info(f"   Channels per file:")
+    for pl in playlists:
+        log.info(f"   • {os.path.basename(pl.path):<16} {len(pl.blocks):>5} channel(s)"
+                 f"  [{pl.label}]")
+    log.info(f"   Total channels across all files: {len(all_blocks)}")
 
-    validate_config(cfg, blocks, log)
+    validate_config(cfg, all_blocks, log)
 
     # ── Step 2: Fetch source playlists ───────────────────────────────────────
     log.info("")
@@ -1137,12 +1231,12 @@ def main():
         log.error("❌ No channels found in any source. Exiting.")
         sys.exit(1)
 
-    # ── Step 3: Match source channels to existing index blocks ──────────────
+    # ── Step 3: Match source channels to existing blocks (all files) ────────
     log.info("")
-    log.info("STEP 3 — Matching source channels to existing index blocks")
+    log.info("STEP 3 — Matching source channels to existing blocks (index + extra)")
     log.info("-" * 60)
 
-    by_name, by_id = build_block_index(blocks)
+    by_name, by_id = build_block_index(all_blocks, log)
 
     # Pairs (source_channel, index_block) where URL is new and block matches
     update_candidates: list[tuple[SourceChannel, IndexBlock]] = []
@@ -1184,9 +1278,10 @@ def main():
 
     # ── Step 5a: Insert new URLs into matching existing blocks ───────────────
     log.info("")
-    log.info("STEP 5a — Updating existing channel blocks with new URLs")
+    log.info("STEP 5a — Updating existing channel blocks with new URLs (all files)")
     log.info("-" * 60)
 
+    inserted_by_file: Counter = Counter()
     for src_ch, blk in update_candidates:
         ch = checked_map.get(src_ch.url, src_ch)
         if not ch.reachable:
@@ -1195,18 +1290,20 @@ def main():
         inserted = insert_url_into_block(blk, ch.url, log)
         if inserted:
             stats.inserted += 1
+            inserted_by_file[blk.origin] += 1
             log.info(
-                f"   ✅ {blk.name!r}  ←  #{ch.url}"
+                f"   ✅ [{blk.origin}] {blk.name!r}  ←  #{ch.url}"
                 f"  [{ch.http_status}, {ch.check_ms:.0f}ms]"
             )
 
-    # Всегда переписываем: даже без вставок парсер мог вычистить
-    # заблокированные URL — файл держим в каноничном виде.
-    write_index_m3u(args.index, header_lines, blocks, log, dry_run=args.dry_run)
+    # Всегда переписываем КАЖДЫЙ файл: даже без вставок парсер мог вычистить
+    # заблокированные URL — держим все плейлисты в каноничном виде.
+    for pl in playlists:
+        write_index_m3u(pl.path, pl.header, pl.blocks, log, dry_run=args.dry_run)
 
     # ── Step 5b: Append ALL reachable source channels to test group ──────────
     log.info("")
-    log.info("STEP 5b — Appending ALL reachable source channels to 'test' group")
+    log.info("STEP 5b — Appending ALL reachable source channels to 'test' group (index.m3u)")
     log.info("-" * 60)
 
     # Build list of all reachable channels (with their matched block or None)
@@ -1219,8 +1316,18 @@ def main():
         if ch.reachable and ch.name.strip().lower() not in cfg.name_blocklist
    ]
 
+    # Дедуп против URL'ов ВСЕХ обслуживаемых файлов (in-memory, уже с учётом
+    # вставок 5a и хвоста test), чтобы не свалить в test ссылку, которая уже
+    # лежит в sport.m3u/music.m3u/foreign.m3u/children.m3u/tv_series.m3u.
+    known_urls: set[str] = set()
+    for pl in playlists:
+        for blk in pl.blocks:
+            known_urls |= blk.urls
+
+    index_pl = next(pl for pl in playlists if pl.is_index)
     stats.appended = append_test_group(
-        args.index, all_reachable_pairs, log, dry_run=args.dry_run
+        index_pl.path, all_reachable_pairs, log,
+        existing_urls=known_urls, dry_run=args.dry_run,
     )
 
     # ── Summary ──────────────────────────────────────────────────────────────
@@ -1234,8 +1341,13 @@ def main():
     log.info(f"  ❌ Dead (server said no): {stats.dead}")
     log.info(f"  ⚠️  Network fail         : {stats.net_fail}  (сеть/таймаут — не проверено)")
     log.info(f"  🔗 Matched existing     : {stats.candidates}  → inserted: {stats.inserted}")
-    log.info(f"  🧪 Appended to test     : {stats.appended} URL(s)")
-    log.info(f"  📄 Index file           : {args.index}")
+    if stats.inserted:
+        for pl in playlists:
+            n = inserted_by_file.get(os.path.basename(pl.path), 0)
+            if n:
+                log.info(f"       ↳ {os.path.basename(pl.path):<16} +{n}")
+    log.info(f"  🧪 Appended to test     : {stats.appended} URL(s)  (→ {os.path.basename(index_pl.path)})")
+    log.info(f"  📄 Files serviced       : {', '.join(os.path.basename(pl.path) for pl in playlists)}")
     log.info(f"  ⏱️  Total time           : {stats.elapsed}")
     log.info("=" * 60)
 
