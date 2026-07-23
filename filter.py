@@ -7,6 +7,7 @@
 Наличие фильма в movies/rus_movies/cartoons (с источником или без) на отсев НЕ влияет —
 такая запись всё равно идёт в filtered как альтернативный источник.
 Сравнение названий — без учёта регистра и без года, точное (по нормализованной строке).
+В сам filtered название пишется БЕЗ страны: «(Франция 1966)» → «(1966)» (год сохраняется).
 
 Использование (полное):
     python3 filter.py <source.m3u> <movies.m3u> <watched.m3u> <rus_movies.m3u> <cartoons.m3u> <output.m3u>
@@ -34,6 +35,30 @@ def normalize(title: str) -> str:
     t = re.sub(r'\s*\([^)]*\b\d{4}\b[^)]*\)\s*', ' ', title)
     t = re.sub(r'\s+(RU|EN|UA|VO)\s*$', '', t, flags=re.IGNORECASE)
     return re.sub(r'\s+', ' ', t).strip().lower()
+
+
+def strip_country(title: str) -> str:
+    """Вырезает страну из скобки с 4-значным годом, оставляя только год:
+    «Большая прогулка (Франция 1966)» → «Большая прогулка (1966)».
+    Многословные страны («Новая Зеландия», «Китайская Народная Республика»)
+    и любой другой текст в тех же скобках отбрасываются; год сохраняется.
+    Скобки без года («(Франция)») не трогаются."""
+    return re.sub(
+        r'\([^)]*\b\d{4}\b[^)]*\)',
+        lambda m: '(' + re.search(r'\b\d{4}\b', m.group(0)).group(0) + ')',
+        title,
+    )
+
+
+def rewrite_extinf_country(raw_line: str) -> str:
+    """Строка #EXTINF с вычищенной страной в НАЗВАНИИ (после первой запятой).
+    Атрибуты (group-title и т.п.) и перенос строки сохраняются как есть."""
+    if ',' not in raw_line:
+        return raw_line
+    head, _, tail = raw_line.partition(',')
+    newline = '\n' if tail.endswith('\n') else ''
+    title = tail[:-1] if newline else tail
+    return f'{head},{strip_country(title)}{newline}'
 
 
 def _usable_title(n: str) -> bool:
@@ -170,7 +195,7 @@ def filter_m3u(source: str, movies_file: str, watched_file: str, rus_movies_file
             elif title_in_watched or url_known:
                 cnt_skip += 1
             else:
-                out_lines.append(lines[i])
+                out_lines.append(rewrite_extinf_country(lines[i]))
                 if has_url:
                     out_lines.append(next_line)
                 cnt_new += 1
