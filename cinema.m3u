@@ -40,12 +40,10 @@ http://stream.mcquack.net/171/index.m3u8
 http://stream.mcquack.net/170/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-id="kinoseria" tvg-description="Киноканал художественных фильмов и киносериалов.",Киносерия
-https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=300823&extension=ts
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-id="kinouzhas" tvg-description="Телеканал фильмов ужасов и триллеров.",Киноужас
 http://stream.mcquack.net/278/index.m3u8
 #http://194.32.242.245/kinouzhas/index.m3u8
-#https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=1148925&extension=ts
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoxit.png" tvg-id="kinoxit" tvg-description="Телеканал популярных кинохитов.",Кинохит
 http://stream.mcquack.net/126/index.m3u8
@@ -55,7 +53,6 @@ http://stream.mcquack.net/74/index.m3u8
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" tvg-id="russkaya-komedia" tvg-description="Телеканал комедийных фильмов.",Комедия
 http://stream.mcquack.net/68/index.m3u8
-#https://vpn.onair8k.xyz/play/live.php?mac=00:1A:79:00:13:94&stream=132532&extension=ts
 
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm" tvg-description="Золотой фонд «Мосфильма»: легендарная советская киноклассика.",Мосфильм. Золотая коллекция
 http://stream.mcquack.net/369/index.m3u8
@@ -121,17 +118,8 @@ http://stream.mcquack.net/445/index.m3u8
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood" tvg-description="Остросюжетное мировое кино: боевики, триллеры и чёрные комедии.",Kinowood
 http://stream.mcquack.net/446/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-description="Телеканал голливудского кино.",Mix Hollywood
-https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
-
 #EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-description="Киноканал художественных фильмов.",Star Cinema
 https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-description="Премьерные художественные фильмы.",ZTV Premiere 1 HD
-https://kinostream3-premiera-1.hf.space/hls/stream.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-description="Премьерные художественные фильмы.",ZTV Premiere 2 HD
-https://kinostream3-premiera-2.hf.space/hls/stream.m3u8
 
 # BCU
 
