@@ -82,8 +82,12 @@ vcp*.myplaytv.com
 *.iptv2022.com
 *.rossteleccom.net
 *.megogo.xyz
+*.hf.space
+*.kazmazpaz.ru
 
 # --- blocked hosts ---
+ml-pull-hwc.myco.io
+line.iptvhunt.com
 shift03.isp.bg
 stream.qaztv.kz
 edge50.dc.beltelecom.by
@@ -696,9 +700,13 @@ stream.radio1.ru
 rezofoot.tv
 tsv.md
 v4.proofix.ru
+line.team-tv.link
 
 # --- blocked IPs ---
 
+46.151.151.250
+72.1.184.5
+85.11.144.9
 178.217.49.7
 185.37.150.46
 176.118.197.125
@@ -970,5 +978,7 @@ http://ukr.ukrainske.tv/493/keytvainua/video.m3u8
 http://tshift-1.telecoma.tv/8channel/index.m3u8
 
 http://212.233.98.62/okino-tv/index.m3u8
+
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 
 
