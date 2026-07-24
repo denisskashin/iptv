@@ -1,9 +1,13 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 
-#EXTINF:0 group-title="Зарубежные" tvg-logo="https://iptvx.one/picons/deutsche-welle-eu.png" tvg-id="deutsche-welle-eu" tvg-description="Немецкая международная медиакомпания Deutsche Welle (Europe).",Deutsche Welle
+#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/deutsche-welle-eu.png" tvg-id="deutsche-welle-eu" tvg-description="Немецкая международная медиакомпания Deutsche Welle (Europe).",Deutsche Welle
 http://stream.mcquack.net/440/index.m3u8
 
-#EXTINF:0 group-title="Зарубежные" tvg-description="Испаноязычная версия российского международного телеканала RT.",RT en Espanol (1080p)
-http://177.234.249.135:8888/RT/index.m3u8
+#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/ostwest24.png" tvg-id="ostwest24" tvg-description="Русскоязычный телеканал OstWest (Берлин): новости и репортажи из Германии и Европы.",OstWest24
+http://stream.mcquack.net/455/index.m3u8
 
+#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/rt-news.png" tvg-id="rt-news" tvg-description="RT (Russia Today) — российский международный новостной телеканал.",RT
+http://84.17.50.102/russiatoday/index.m3u8
+#https://wisewatchoott.wiseplayout.com/RT/master.m3u8
+#https://rumble.com/live-hls-dvr/33aw1a/playlist.m3u8

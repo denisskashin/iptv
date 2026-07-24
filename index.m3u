@@ -141,6 +141,9 @@ http://stream.mcquack.net/132/index.m3u8
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/kuxnia-tv.png" tvg-id="kuxnia-tv" tvg-description="Кухня ТВ — российский тематический телеканал, посвящённый кулинарии, рецептам и гастрономии.",Кухня
 http://stream.mcquack.net/179/index.m3u8
 
+#EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/soltv.png" tvg-id="soltv" tvg-description="Телеканал Соликамска (Пермский край): новости Верхнекамья, фильмы и программы.",Соль ТВ
+http://stream.mcquack.net/398/index.m3u8
+
 #EXTINF:0 group-title="Кулинария" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe" tvg-description="Телекафе — российский кулинарный телеканал. Транслирует кулинарные шоу, рецепты и программы о еде.",Телекафе
 http://stream.mcquack.net/314/index.m3u8
 
@@ -223,14 +226,6 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 #https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #https://e10-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1.m3u8
-
-#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/ostwest24.png" tvg-id="ostwest24" tvg-description="Русскоязычный телеканал OstWest (Берлин): новости и репортажи из Германии и Европы.",OstWest24
-http://stream.mcquack.net/455/index.m3u8
-
-#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/rt-news.png" tvg-id="rt-news" tvg-description="RT (Russia Today) — российский международный новостной телеканал.",RT
-http://84.17.50.102/russiatoday/index.m3u8
-#https://wisewatchoott.wiseplayout.com/RT/master.m3u8
-#https://rumble.com/live-hls-dvr/33aw1a/playlist.m3u8
 
 # НТВ
 
@@ -371,13 +366,11 @@ https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_
 #http://partners.universmotri.ru/live/univer.sdp_480p/playlist.m3u?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viasat Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viasat Explore
-http://185.102.171.218/ViasatExplorer/index.m3u8
-#http://85.11.144.9:4222/ViasatExplorer
+http://85.11.144.9:4222/ViasatExplorer
 #http://stream.mcquack.net/239/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории от Viasat: древние цивилизации и мировые события.",Viasat History
-http://185.102.171.218/ViasatHistory/index.m3u8
-#http://stream.mcquack.net/101/index.m3u8
+http://stream.mcquack.net/101/index.m3u8
 
 # Природа
 
@@ -400,13 +393,11 @@ http://72.1.184.5:8089/play/a068/index.m3u8
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" tvg-id="nat-geo-wild" tvg-description="National Geographic Wild — международный канал о дикой природе и животных. Транслирует документальные фильмы о животном мире.",National Geographic Wild
-http://185.102.171.218/NatGeoWild/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Planet
 http://stream.mcquack.net/240/index.m3u8
 
 #EXTINF:0 group-title="Природа" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viasat Nature — канал о природе балтийской медиагруппы Viju.",Viasat Nature
-http://185.102.171.218/ViasatNature/index.m3u8
 
 # Путешествия
 
@@ -433,8 +424,7 @@ http://stream.mcquack.net/161/index.m3u8
 http://stream.mcquack.net/399/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/national-geographic.png" tvg-id="national-geographic" tvg-description="National Geographic — международный познавательный телеканал. Транслирует документальные фильмы о природе, науке, истории и путешествиях.",National Geographic
-http://185.102.171.218/NatGeo/index.m3u8
-#http://stream.mcquack.net/116/index.m3u8
+http://stream.mcquack.net/116/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv" tvg-description="RTG TV — российский телеканал о туризме и путешествиях.",RTG TV
 http://stream.mcquack.net/164/index.m3u8
@@ -451,15 +441,6 @@ http://stream.mcquack.net/206/index.m3u8
 
 # Развлекательные
 
-#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-ru.png" tvg-id="8kanal-ru" tvg-description="Федеральный развлекательный телеканал: фильмы и сериалы, юмор, кулинария и путешествия.",8 Канал
-http://v4.proofix.ru/8tv-russia/tracks-v1a1/mono.m3u8
-#http://v4.proofix.ru/8tv-russia/index.m3u8
-#http://v4.proofix.ru:80/8tv-russia/index.m3u8
-#http://v4.proofix.ru/8tv-russia/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
-#http://v4.proofix.ru/8tv-russia/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Mi8xNS8yMDI2IDExOjQ5OjIxIFBNJmhhc2hfdmFsdWU9NzBLbWM5SUpMWitZVEplblVPVDFHUT09JnZhbGlkbWludXRlcz00ODA=
-#http://v4.proofix.ru/8tv-russia/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
-#http://v4.proofix.ru/8tv-russia/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OC8xLzIwMjUgNjo0OTo0NSBBTSZoYXNoX3ZhbHVlPVUrWTdNVm5UeVVkM1pMdG0xSG9jTGc9PSZ2YWxpZG1pbnV0ZXM9NDgw
-
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/domashny.png" tvg-id="domashny" tvg-description="Российский телеканал для семейной аудитории: сериалы, мелодрамы и программы о доме.",Домашний
 http://94.230.129.31:8080/Domashnii/index.m3u8
 #http://stream.mcquack.net/227/index.m3u8
@@ -468,12 +449,7 @@ http://94.230.129.31:8080/Domashnii/index.m3u8
 http://85.234.33.63/stream/c11.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/otkryty-mir.png" tvg-id="otkryty-mir" tvg-description="Открытый мир — российский познавательный телеканал о культуре, путешествиях и международных событиях.",Открытый мир
-https://v4.proofix.ru/0mir/index.m3u8
-#http://v4.proofix.ru/0mir/tracks-v1a1/mono.m3u8
-#http://212.233.98.62/0mir/index.m3u8
-#http://v4.proofix.ru/0mir/index.m3u8
-#http://v4.proofix.ru/0mir/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
-#http://v4.proofix.ru/0mir/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
+http://212.233.98.62/0mir/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/perec-int.png" tvg-id="perec-int" tvg-description="Перец — российский развлекательный телеканал. Специализируется на юморе, комедийных программах и скрытой камере.",Перец
 
@@ -510,19 +486,11 @@ http://tvoetv.space:8080/tvoetv/index.m3u8
 #http://84.38.180.145:8080/tvoetv/index.m3u8
 #http://lime-pi2.tlgx.ru:8987/CH_TVOETV/index.m3u8
 
-#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tcb.png" tvg-id="tcb" tvg-description="ТСВ — российский региональный телеканал.",ТСВ
-https://tsv.md/stream/hls/tsv-online/index.m3u8F
-#https://tsv.md/stream/hls/tsv-online/index.m3u8
-
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sony.png" tvg-id="sony-tv" tvg-description="«.red» — российский развлекательный телеканал для женской аудитории (бывший Sony Channel): сериалы, фильмы и шоу мировых студий.",.red
 http://176.100.46.245:90/red/index.m3u8
 #http://stream.mcquack.net/69/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu" tvg-description="Федеральный развлекательный телеканал: фильмы и сериалы, юмор и travel-программы.",8tv
-http://v4.proofix.ru:80/8tv-europe/index.m3u8
-#https://v4.proofix.ru/8tv-europe/index.m3u8
-https://v4.proofix.ru/8tv-europe/tracks-v1a1/mono.m3u8
-#http://v4.proofix.ru/8tv-europe/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/quiz-tv.png" tvg-id="quiz-tv" tvg-description="Интерактивный игровой телеканал: викторины и телеигры в прямом эфире.",Quiz TV
 http://stream.mcquack.net/397/index.m3u8
@@ -569,15 +537,10 @@ https://v.dzertv.ru:8588/dzertv/live_yandex/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/rentv-istoki.png" tvg-id="rentv-istoki" tvg-description="Региональный телеканал Орловской области.",Истоки
 https://istoki.tv//live/stream1/chunklist.m3u8
 #http://istoki.tv/live/stream1/chunklist.m3u8
+#https://istoki.tv/live/stream1/playlist.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/mir-belogoria.png" tvg-id="mir-belogoria" tvg-description="Региональный телеканал Белгородской области.",Мир Белогорья
 https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
-
-#EXTINF:0 group-title="Региональные",НТК (Калмыкия)
-http://v4.proofix.ru/0mir/index.m3u8
-
-#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/soltv.png" tvg-id="soltv" tvg-description="Телеканал Соликамска (Пермский край): новости Верхнекамья, фильмы и программы.",Соль ТВ
-http://stream.mcquack.net/398/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tvk-krasnoyarsk.png" tvg-id="tvk-krasnoyarsk" tvg-description="Региональный новостной телеканал Красноярска (ТВК).",ТВК
 http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
@@ -586,9 +549,6 @@ http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Черноморска (Украина).",ТВЧ
 https://live.kharkov-z.ru/app/potok/playlist.m3u8
-
-#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/rentv-istoki.png" tvg-id="rentv-istoki" tvg-description="Региональный телеканал «Истоки».",Istoki (1080p)
-https://istoki.tv/live/stream1/playlist.m3u8
 
 # Религия и изотерика
 
@@ -610,6 +570,12 @@ http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
 #https://lifetv.mpks.sk/s.m3u8
 #http://lifetv.bitflip.ee/live/stream1.m3u8
 #http://lifetv.bitflip.ee/live/stream2.m3u8
+
+#EXTINF:0 group-title="Религия и изотерика",LIVETV
+http://tv.mobyservice.ru/livetv/index.m3u8
+http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
+#http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
+#https://tv.mobyservice.ru/livetv/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-description="Христианский телеканал ТБН Балтия на русском языке.",TBN Baltia
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/index.m3u8
@@ -638,11 +604,6 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4" tvg-description="ТНТ4 — российский развлекательный телеканал, дочерний по отношению к ТНТ. Показывает сериалы, кино и развлекательные программы.",ТНТ4
 
-#EXTINF:0 group-title="candidate",LIVETV
-http://tv.mobyservice.ru/livetv/index.m3u8
-http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
-#http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
-#https://tv.mobyservice.ru/livetv/index.m3u8
 
 # ── test ──────────────────────────────────────────
 

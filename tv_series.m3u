@@ -2,29 +2,30 @@
 
 # Сериалы
 
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/dorama.png" tvg-id="dorama" tvg-description="Азиатские сериалы на русском: корейские, японские и китайские хиты («Дорама», Цифровое телесемейство).",Дорама
-http://stream.mcquack.net/412/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller" tvg-description="Телеканал российских сериалов и экранизаций.",Русский бестселлер
-http://stream.mcquack.net/208/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-id="russky-detektiv" tvg-description="Телеканал российских детективных сериалов.",Русский Детектив
-http://stream.mcquack.net/204/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman" tvg-description="Телеканал российских мелодрам и сериалов.",Русский роман
-http://stream.mcquack.net/266/index.m3u8
-
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/amedia1.png" tvg-id="amedia1" tvg-description="Телеканал зарубежных сериалов (Amedia).",Amedia 1
+#EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia1.png" tvg-id="amedia1" tvg-description="Телеканал зарубежных сериалов (Amedia).",Amedia 1
 http://stream.mcquack.net/117/index.m3u8
 
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/amedia-hit.png" tvg-id="amedia-hit" tvg-description="Телеканал популярных зарубежных сериалов (Amedia).",Amedia Hit
+#EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-hit.png" tvg-id="amedia-hit" tvg-description="Телеканал популярных зарубежных сериалов (Amedia).",Amedia Hit
 http://stream.mcquack.net/162/index.m3u8
 
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium" tvg-description="Телеканал премиальных зарубежных сериалов (Amedia).",Amedia Premium
+#EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium" tvg-description="Телеканал премиальных зарубежных сериалов (Amedia).",Amedia Premium
 http://stream.mcquack.net/151/index.m3u8
 
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife" tvg-description="Телеканал зарубежных сериалов и lifestyle (Fox Life).",Fox Life
+#EXTINF:0 group-title="Fox" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife" tvg-description="Телеканал зарубежных сериалов и lifestyle (Fox Life).",Fox Life
 http://stream.mcquack.net/129/index.m3u8
 
-#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/serial-hd.png" tvg-id="serial-hd" tvg-description="Сериальный телеканал.",Serial
+#EXTINF:0 group-title="Viju+" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial" tvg-description="Сериальный телеканал.",Viju+ Serial
 http://stream.mcquack.net/311/index.m3u8
+
+#EXTINF:0 group-title="Азия" tvg-logo="https://iptvx.one/picons/dorama.png" tvg-id="dorama" tvg-description="Азиатские сериалы на русском: корейские, японские и китайские хиты («Дорама», Цифровое телесемейство).",Дорама
+http://stream.mcquack.net/412/index.m3u8
+
+#EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller" tvg-description="Телеканал российских сериалов и экранизаций.",Русский бестселлер
+http://stream.mcquack.net/208/index.m3u8
+
+#EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-id="russky-detektiv" tvg-description="Телеканал российских детективных сериалов.",Русский Детектив
+http://stream.mcquack.net/204/index.m3u8
+
+#EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman" tvg-description="Телеканал российских мелодрам и сериалов.",Русский роман
+http://stream.mcquack.net/266/index.m3u8
+
