@@ -278,7 +278,6 @@ LOG_FILE            = "m3u_checker.log"
 DEFAULT_TIMEOUT_SEC = 8
 DEFAULT_WORKERS     = 30
 FETCH_TIMEOUT_MULT  = 3               # таймаут скачивания источника = timeout * MULT
-BACKUP_SUFFIX       = ".checker.bak"  # бэкап index.m3u перед перезаписью
 
 DEFAULT_RETRIES       = 1     # доп. попыток при мягком отказе (таймаут/обрыв)
 RETRY_TIMEOUT_MULT    = 2.0   # на повторе таймаут увеличивается во столько раз
@@ -541,13 +540,8 @@ def write_index_m3u(
             log.info("   ... (truncated)")
         return
 
-    # Бэкап предыдущей версии + атомарная запись (tmp-файл → os.replace),
+    # Атомарная запись (tmp-файл → os.replace),
     # чтобы краш посреди записи не оставил битый/пустой index.m3u.
-    if os.path.exists(path):
-        backup = path + BACKUP_SUFFIX
-        shutil.copy2(path, backup)
-        log.info(f"🛟 Backup → {backup}")
-
     dst_dir = os.path.dirname(os.path.abspath(path)) or "."
     fd, tmp_path = tempfile.mkstemp(
         dir=dst_dir, prefix=os.path.basename(path) + ".", suffix=".tmp"
@@ -2002,11 +1996,6 @@ def main():
     log.info(f"   Total source ch.    : {stats.parsed}")
 
     # ── Step 4: Check reachability of ALL source channels ───────────────────
-    log.info("")
-    log.info(f"STEP 4 — Checking ALL {stats.parsed} source stream URLs")
-    log.info(f"         (workers={args.workers}, timeout={args.timeout}s)")
-    log.info("-" * 60)
-
     # We need to check: all source channels (for test group) +
     # de-duplicate with update_candidates (already in the list)
     # Build a flat list: every unique source channel once
@@ -2017,6 +2006,10 @@ def main():
             seen_urls.add(ch.url)
             all_to_check.append(ch)
 
+    log.info("")
+    log.info(f"STEP 4 — Checking {len(all_to_check)} unique of {stats.parsed} source stream URLs")
+    log.info(f"         (workers={args.workers}, timeout={args.timeout}s)")
+    log.info("-" * 60)
     log.info("   ✅ живой   ❌ мёртвый (сервер отказал)   ⚠️ сеть/таймаут — не проверено")
     checked_map = check_all_streams(
         all_to_check, args.workers, args.timeout, args.strict, log, stats,

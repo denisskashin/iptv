@@ -18,7 +18,6 @@ https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w_b
 #https://edge51.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2/chunklist_w486063721_b5160000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w695777312_b5160000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus2.smil/playlist.m3u8
-#https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2/chunklist_w148744111_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus24.png" tvg-id="belarus24" tvg-description="«Беларусь 24» — это государственный некоммерческий телеканал, обеспечивающий информационную связь этнических белорусов с исторической родиной.",Беларусь 24
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/playlist.m3u8
@@ -158,7 +157,6 @@ http://stream.mcquack.net/138/index.m3u8
 http://217.114.191.150/Subbota/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-description="Информационный телеканал агентства ТАСС.",ТАСС
-https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 http://94.230.129.31:8080/THT/index.m3u8
@@ -388,8 +386,6 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 http://stream.mcquack.net/118/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/strk.png" tvg-id="strk" tvg-description="СТРК — Ставропольская краевая региональная телекомпания. Транслирует региональные новости и программы.",СТРК
-http://sochinskayatrk.ru/hdtv/hls/CTPK_400/playlist.m3u8
-#http://sochinskayatrk.ru:2015/STRK/mpegts
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love" tvg-description="СТС Love — российский развлекательный канал, ориентированный на женскую аудиторию. Показывает мелодрамы, ток-шоу и лирические сериалы.",СТС Love
 http://stream.mcquack.net/183/index.m3u8
@@ -439,7 +435,6 @@ http://stream.mcquack.net/168/index.m3u8
 # Региональные
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/10kanal-novokuzneck.png" tvg-id="10kanal-novokuzneck" tvg-description="Региональный телеканал Кузбасса (10 канал, Кемерово).",10 канал
-http://kuzbass1.ru:8082/10kanal/10kanal_720/playlist.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Региональный телеканал.",11 канал
 http://85.234.33.64/stream/c11.m3u8
@@ -563,8 +558,6 @@ https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/
 
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/hgtv.png" tvg-id="hgtv" tvg-description="HGTV (Home and Garden Television) — международный телеканал, посвящённый ремонту, дизайну интерьеров и садоводству.",HGTV
 
-http://hz1.teleport.cc/HLS/HD.m3u8
-
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/world-fashion-channel.png" tvg-id="world-fashion-channel" tvg-description="Телеканал о моде, показах, дизайнерах и индустрии красоты.",World Fashion Channel
 http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 #http://cdn.wfc.tv/cdn/stream-eng-1080p.m3u8
@@ -582,32 +575,12 @@ https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 http://stream.mcquack.net/128/index.m3u8
 
 #EXTINF:0 group-title="candidate",DAZN 3
-http://znty.dyndns.org:5010/hls/eleven3.m3u8
 
 #EXTINF:0 group-title="candidate",Fashion & LifeStyle
 http://stream.mcquack.net/119/index.m3u8
 
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",TV 2
-http://stream.mcquack.net/368/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",2+2
-http://stream.mcquack.net/173/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",К1
-http://stream.mcquack.net/270/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Bolt
-http://stream.mcquack.net/73/index.m3u8
-
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Мама
 http://stream.mcquack.net/79/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Фауна
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Терра
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киноужас
-http://stream.mcquack.net/278/index.m3u8
 
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju TV 1000
 http://stream.mcquack.net/110/index.m3u8
@@ -859,7 +832,6 @@ http://stream.mcquack.net/93/index.m3u8
 https://stream.ztv.zp.ua/hls/live.m3u8
 
 #EXTINF:-1 group-title="test" tvg-logo="https://img.catcast.tv/uploads/10082022/logos/40650-62f2d2890f632.jpg",NM Television
-https://tv.a21network.ru/content/40650/index.m3u8
 
 #EXTINF:-1  group-title="test",Cartoon Network Turkey
 https://65.108.239.207/cartoonnetwork/index.m3u8
@@ -985,4 +957,22 @@ rtmp://vkvsd80.okcdn.ru/playback/9231228939170?stkn=uFv9-KNKZdHPR_25KX-aJxQWzQSc
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , Retromult
 rtmp://vkvsd181.okcdn.ru/playback/9095387753249?stkn=9QYompqh6WaegO7paI2Zrflo1MY_FAyEjQj2v7QLE-g6Lp4LLhAeSzzrZYpmMqBrRymI7yXcKBE&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-07-26 10:43:38  (4 URLs in 4 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" tvg-id="" group-title="test", RSTV
+rtmp://vkvsd177.okcdn.ru/playback/9784991296445?stkn=Bu11jviKqv8XV4jmbgsGRyXtfTi46qNmVpzNczQTttL_wt7OBO_B47D8PLo_bnF7hndvjB5NAuI&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",2+2
+http://stream.mcquack.net/173/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киноужас
+http://stream.mcquack.net/278/index.m3u8
+
+#EXTINF:-1 group-title="test" audio-track="rus", Bolt HD
+http://stream.mcquack.net/73/index.m3u8
 

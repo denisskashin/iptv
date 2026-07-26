@@ -62,23 +62,18 @@ https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sportivny.png" tvg-id="sportivny" tvg-description="Спортивный телеканал.",ТВ Спорт
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport1-pt.png" tvg-id="eleven-sport1-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 1).",DAZN 1
-http://znty.dyndns.org:5010/hls/eleven1.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport2-pt.png" tvg-id="eleven-sport2-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 2).",DAZN 2
-http://znty.dyndns.org:5010/hls/eleven2.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport4-pt.png" tvg-id="eleven-sport4-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 4).",DAZN 4
-http://znty.dyndns.org:5010/hls/eleven4.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eleven-sport5-pt.png" tvg-id="eleven-sport5-pt" tvg-description="Португальский спортивный телеканал DAZN (Eleven Sports 5).",DAZN 5
-http://znty.dyndns.org:5010/hls/eleven5.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn2-us.png" tvg-id="espn2-us" tvg-description="Американский спортивный телеканал ESPN 2.",ESPN 2
 http://200.10.30.241:8000/play/a01r/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1" tvg-description="Eurosport 1 — европейский спортивный телеканал. Транслирует широкий спектр соревнований: теннис, велоспорт, лыжи, биатлон и другие виды спорта.",Eurosport 1
 http://stream.mcquack.net/176/index.m3u8
-#http://znty.dyndns.org:5010/hls/eurosport.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2" tvg-description="Eurosport 2 — второй канал сети Eurosport. Транслирует экстремальные виды спорта, а также дополнительные трансляции из сетки Eurosport.",Eurosport 2
 http://stream.mcquack.net/192/index.m3u8
@@ -122,19 +117,15 @@ http://stream.mcquack.net/212/index.m3u8
 http://newsr1.roshen.live:8080/vAu5sUNHz3/tracks-v1a1/mono.m3u8?token=XSOdznpeFPEURAYS
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sporttv1-pt.png" tvg-id="sporttv1-pt" tvg-description="Португальский спортивный телеканал: футбол и спорт.",Sport TV 1
-http://znty.dyndns.org:5010/hls/stv1.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sporttv2-pt.png" tvg-id="sporttv2-pt" tvg-description="Португальский спортивный телеканал.",Sport TV 2
-http://znty.dyndns.org:5010/hls/stv2.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Португальский спортивный телеканал.",SPORT TV5
-http://znty.dyndns.org:5010/hls/stv5.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-description="Немецкий спортивный канал: футбол и другие виды спорта.",Sportdigital Free
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/2d920251-818e-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=CH&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
 
 #EXTINF:0 group-title="Спорт" tvg-description="Португальский спортивный телеканал.",Sportv +
-http://znty.dyndns.org:5010/hls/sportv+.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/supertennis.png" tvg-id="supertennis" tvg-description="SuperTennis — итальянский спортивный телеканал, посвящённый теннису.",Super Tennis
 https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
@@ -149,7 +140,6 @@ http://stream.mcquack.net/333/index.m3u8
 # Футбол
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/benfica-tv.png" tvg-id="benfica-tv" tvg-description="Клубный телеканал ФК «Бенфика» (Лиссабон).",Benfica TV
-http://znty.dyndns.org:5010/hls/btv.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/fifa-plus-uk.png" tvg-id="fifa-plus-uk" tvg-description="FIFA+ — официальный телеканал ФИФА: трансляции матчей и документальные фильмы о футболе.",Fifa+
 https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/playlist.m3u8
@@ -163,5 +153,4 @@ http://stream.mcquack.net/390/index.m3u8
 #http://stream.mcquack.net/235/index.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-description="Клубный телеканал ФК «Спортинг» (Лиссабон).",Sporting TV
-http://znty.dyndns.org:5010/hls/sporting.m3u8
 
