@@ -30,7 +30,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/playlist.m3u8
 #https://edge53.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1873224608_b5160000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/index.m3u8
-#https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24/chunklist_w148744111_b5160000_sleng.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus3hd.png" tvg-id="belarus3" tvg-description="«Беларусь 3» — культурно-просветительский телеканал Белтелерадиокомпании, первый цифровой телеканал Республики Беларусь. Вещает на двух языках — белорусском и русском.",Беларусь 3
 https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w_b1460000_sleng.m3u8
@@ -113,6 +112,7 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir" tvg-description="Мир — межгосударственная телерадиокомпания стран СНГ. Транслирует новости, документальные фильмы и культурные программы для русскоязычной аудитории.",Мир
 http://94.230.129.31:8080/MIR/index.m3u8
+#http://45.153.24.78:80/MIR/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nastoiaschee-vremia.png" tvg-id="nastoyaschee-vremia" tvg-description="Настоящее время — русскоязычный новостной телеканал, совместный проект Радио Свобода и Радио Свободная Европа.",Настоящее время
 http://stream.mcquack.net/384/index.m3u8
@@ -159,7 +159,6 @@ http://217.114.191.150/Subbota/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-description="Информационный телеканал агентства ТАСС.",ТАСС
 https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream/playlist.m3u8
-#https://tass-hls.servicecdn.ru/httpstreamer/tass-loop-main.stream_480p/playlist.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 http://94.230.129.31:8080/THT/index.m3u8
@@ -340,7 +339,6 @@ http://stream.mcquack.net/161/index.m3u8
 http://stream.mcquack.net/399/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/national-geographic.png" tvg-id="national-geographic" tvg-description="National Geographic — международный познавательный телеканал. Транслирует документальные фильмы о природе, науке, истории и путешествиях.",National Geographic
-http://stream.mcquack.net/116/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv" tvg-description="RTG TV — российский телеканал о туризме и путешествиях.",RTG TV
 http://stream.mcquack.net/164/index.m3u8
@@ -463,6 +461,7 @@ http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/bashkortostan24.png" tvg-id="bashkortostan24" tvg-description="Круглосуточный информационный канал Республики Башкортостан.",Башкортостан 24
 http://109.233.169.137/540/b24-540.m3u8
 #http://109.233.169.137/hls/b24-hls.m3u8
+#https://s1.gtrkrb.ru/540/b24-540.m3u8
 №http://109.233.169.137/hls/b24-hls.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/dzenzhinsk-tv.png" tvg-id="dzenzhinsk-tv" tvg-description="Городской телеканал Дзержинска (Нижегородская область).",Дзержинск ТВ
@@ -480,6 +479,7 @@ https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 #http://air.tvk6.ru/tvk24/playlist.m3u8
 #http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
+#https://air.tvk6.ru/tvk24/playlist.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Черноморска (Украина).",ТВЧ
 https://live.kharkov-z.ru/app/potok/playlist.m3u8
@@ -587,114 +587,133 @@ http://znty.dyndns.org:5010/hls/eleven3.m3u8
 #EXTINF:0 group-title="candidate",Fashion & LifeStyle
 http://stream.mcquack.net/119/index.m3u8
 
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Інтер+
-http://stream.mcquack.net/345/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",канал
-http://stream.mcquack.net/157/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",ТБ
-http://stream.mcquack.net/156/index.m3u8
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",TV 2
 http://stream.mcquack.net/368/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",2+2
 http://stream.mcquack.net/173/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",К1
 http://stream.mcquack.net/270/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Bolt
 http://stream.mcquack.net/73/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Мама
 http://stream.mcquack.net/79/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Фауна
-http://stream.mcquack.net/401/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Терра
-http://stream.mcquack.net/402/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Кинокомедия
-http://stream.mcquack.net/265/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киносемья
-http://stream.mcquack.net/170/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киносвидание
-http://stream.mcquack.net/171/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Кинохит
-http://stream.mcquack.net/126/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киномикс
-http://stream.mcquack.net/133/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Мужское кино
-http://stream.mcquack.net/107/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Индийское кино
-http://stream.mcquack.net/104/index.m3u8
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Родное кино
-http://stream.mcquack.net/242/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киноужас
 http://stream.mcquack.net/278/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju TV 1000
 http://stream.mcquack.net/110/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju TV 1000 Action
 http://stream.mcquack.net/100/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju+ Premiere
 http://stream.mcquack.net/202/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju+ Megahit
 http://stream.mcquack.net/200/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju+ Comedy
 http://stream.mcquack.net/201/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Комедийное
 http://stream.mcquack.net/74/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Комедия
 http://stream.mcquack.net/68/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",black
 http://stream.mcquack.net/263/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",sci-fi
 http://stream.mcquack.net/180/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Наше
 http://stream.mcquack.net/217/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Душевное
 http://stream.mcquack.net/213/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",КиноТВ
 http://stream.mcquack.net/221/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Кинопоказ
 http://stream.mcquack.net/64/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Еврокино
 http://stream.mcquack.net/385/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",НСТ
 http://stream.mcquack.net/207/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Fox
 http://stream.mcquack.net/182/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",ТВ XXI
 http://stream.mcquack.net/152/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Дом Кино
 http://stream.mcquack.net/236/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Дом Кино Премиум
 http://stream.mcquack.net/108/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Hollywood
 http://stream.mcquack.net/268/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kino 1
 http://stream.mcquack.net/395/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kino 2
 http://stream.mcquack.net/465/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Шокирующее
 http://stream.mcquack.net/75/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Хит
 http://stream.mcquack.net/363/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",BCU
 http://stream.mcquack.net/488/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Мосфильм. Золотая коллекция
 http://stream.mcquack.net/369/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Премиальное
 http://stream.mcquack.net/421/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Fan
 http://stream.mcquack.net/420/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Ретро
 http://stream.mcquack.net/191/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kinoliving
 http://stream.mcquack.net/445/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kinowood
 http://stream.mcquack.net/446/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Наше любимое кино
 http://stream.mcquack.net/456/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Equalympic
 http://stream.mcquack.net/485/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",1
 http://stream.mcquack.net/218/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Stingray CMusic
 http://stream.mcquack.net/312/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",2
 http://stream.mcquack.net/330/index.m3u8
 
@@ -703,23 +722,267 @@ http://pvr-spb-08.tlgx.ru:8987/CH_S08_RST_LEGTV_TRAVEL_CHANNEL/index.m3u8?clckid
 
 #EXTINF:-1 group-title="test" audio-track="rus", Viasat Kino Comedy HD
 http://ukr2.ukrainske.tv/493/video.m3u8
+
 #EXTINF:-1 group-title="test" audio-track="rus", viju TV1000 русское
 http://185.50.148.2:7703/TV1000RusKino/index.m3u8
+
 #EXTINF:-1 group-title="test" tvg-id="sony-scifi" audio-track="rus", .Sci-Fi
 http://live.uspeh-bil.ru/8115/video.m3u8?token=UBwVqZcPL8UPmoYU
+
 #EXTINF:-1 group-title="test" audio-track="rus", Stingray iConcerts HD
 https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
+
 #EXTINF:-1 group-title="test" audio-track="rus", RT English HD
 https://rumble-foxo.cdn.rumble.cloud/live/hr6yv36f/slot-4/mxtm-wdfe_1080p/chunklist_DVR.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Friday! (576p)
 http://94.230.129.31:8080/Friday/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",2x2 SD (576p)
 http://stream.mcquack.net/187/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",U (576p)
 http://stream.mcquack.net/230/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Subbota! HD (1080p)
 http://stream.mcquack.net/269/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Sarafan (576p)
 http://stream.mcquack.net/81/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Russian MusicBox (576p)
 http://stream.mcquack.net/319/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-07-25 12:06:35  (30 URLs in 30 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:-1 group-title="test" tvg-logo="https://zuno.surge.sh/info.jpg",Info
+https://zuno.surge.sh/info.mp4
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Кинокомедия
+http://stream.mcquack.net/265/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киносемья
+http://stream.mcquack.net/170/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киносвидание
+http://stream.mcquack.net/171/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Кинохит
+http://stream.mcquack.net/126/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киномикс
+http://stream.mcquack.net/133/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Родное кино
+http://stream.mcquack.net/242/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Индийское кино
+http://stream.mcquack.net/104/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Мужское кино
+http://stream.mcquack.net/107/index.m3u8
+
+#EXTINF:-1  group-title="test"  tvg-id="stb-ua"   tvg-rec="7" timeshift="7",СТБ
+http://stream.mcquack.net/156/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Н канал
+http://stream.mcquack.net/157/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TNT HD (1080p)
+http://45.153.24.78:80/TNT/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Friday! (576p)
+http://stream.mcquack.net/181/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",STS SD (576p)
+http://45.153.24.78:80/STS/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",NTV SD (576p)
+http://45.153.24.78:80/NTV/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Peretz International (576p)
+http://stream.mcquack.net/121/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Voprosy i Otvety (576p)
+http://stream.mcquack.net/76/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Channel One (576p)
+http://45.153.24.78:80/1TV/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",365 days TV (576p)
+http://stream.mcquack.net/70/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TNT SD (576p)
+http://stream.mcquack.net/135/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Groznyj
+https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Ostrosyuzhetnoye HD (1080p)
+http://stream.mcquack.net/214/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",NTV Series (576p)
+http://stream.mcquack.net/301/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Okko Futbol (1080p)
+http://stream.mcquack.net/491/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Priklyucheniya HD (1080p)
+http://stream.mcquack.net/198/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Blokbaster HD (1080p)
+http://stream.mcquack.net/364/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Nashe muzhskoe HD (1080p)
+http://stream.mcquack.net/362/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Okko Sport (1080p)
+http://stream.mcquack.net/492/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Okko Prajm Sport (1080p)
+http://stream.mcquack.net/493/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",V gostyakh u skazki (576p)
+http://stream.mcquack.net/93/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-07-25 12:27:21  (41 URLs in 39 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:-1 group-title="test" tvg-logo="https://tvmtm.online/wp-content/themes/tv-z/img/mtm-logo.png",МТМ
+https://stream.ztv.zp.ua/hls/live.m3u8
+
+#EXTINF:-1 group-title="test" tvg-logo="https://img.catcast.tv/uploads/10082022/logos/40650-62f2d2890f632.jpg",NM Television
+https://tv.a21network.ru/content/40650/index.m3u8
+
+#EXTINF:-1  group-title="test",Cartoon Network Turkey
+https://65.108.239.207/cartoonnetwork/index.m3u8
+
+#EXTINF:-1 group-title="test",Легендарный 24
+https://sevas.1tvcrimea.ru/legendarniy24.m3u8
+
+#EXTINF:-1 group-title="test" ,Симферополь 24
+https://simf.1tvcrimea.ru/simferopol24.m3u8
+#https://simf.1tvcrimea.ru/simferopol24sd.m3u8
+
+#EXTINF:-1 group-title="test" ,КРЫМ 24
+https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
+#https://cdn.1tvcrimea.ru/switcher.m3u8
+
+#EXTINF:-1 group-title="test" ,ТВК (Красноярск)
+https://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
+#https://air.tvk6.ru/tvk24/playlist.m3u8
+#http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
+
+#EXTINF:-1 group-title="test" tvg-logo="https://i.imgur.com/TjpjoOu.png",TV Ferrol (576p)
+https://directo.tvferrol.es/tv.m3u8
+
+#EXTINF:-1 group-title="test",Kecskeméti Televízió
+https://eurobioinvest.hu:444/live/ktv.m3u8
+
+#EXTINF:-1 group-title="test",Bajai TV
+https://cloudfront41.lexanetwork.com:1344/relay01/livestream002.sdp/playlist.m3u8
+
+#EXTINF:-1 group-title="test",TISZA
+https://live.tiszatv.hu:443/tmp_hls/stream/index.m3u8
+
+#EXTINF:-1 group-title="test",XXL
+https://78.108.251.7/XXL/index.m3u8
+
+#EXTINF:-1  group-title="test",Губерния (Хабаровск)
+https://media1.gubernia.com/hls/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" tvg-id="" group-title="test", 1autotvru
+rtmp://vkvsd158.okcdn.ru/playback/10332204051428?stkn=hVx0kn1sfv1eSrGAlIcUsySgZkHrd9_xf3lTnhlbP9v3QWoCIPDZ6tWCko0yGbsh45skapyzpt4&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , ГРИФФИНЫ
+rtmp://vkvsd230.okcdn.ru/playback/8134416411520?stkn=2NGXWooIibYkQMyZvKLVJizfC-RjA4Q9-KGsN4Dzkm8wTkCZ5Z3J329VaVSBrsTpqctjj27WPNU&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" ,Kino.Online
+rtmp://vkvsd80.okcdn.ru/playback/11445095639945?stkn=isz4WXJ0c-P9MNBOKakZS1dQYkSmIEQX81ccorrT3ZqaCJiGkrCrrBEClpFFXVYJSlMjslcRhb0A&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" tvg-id="" group-title="test",  VB Всё в одном
+rtmp://vkvsd211.okcdn.ru/playback/10851904072503?stkn=vuFWuALgx71Me_ImIyokT79ubnoxRPa5tX13N_kAoYvrXqqzlbVswhiDCtHEigaPYfKql22Cb_Ze&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" tvg-id="" group-title="test", K1n0man1a
+rtmp://vkvsd176.okcdn.ru/playback/9060843400063?stkn=KV0WGPPXIBbOVVy6l6W5YU70Wrv6I9tZOa9CyCjyDUwntlSO4dtIt72cgu0M-sTWTi7PFHAQj8s&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" ,КИНО ВК 2
+rtmp://vkvsd202.okcdn.ru/playback/10472252320626?stkn=55ZiY3uqOcLbjh8YLZ654EGxTQCPkjoczCP4KcuqIiVY4Xvydx7GLhpzKW3_9I0RZtVa3gKqHM4&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test",BEASTARS
+rtmp://vkvsd18.okcdn.ru/playback/9992172940181?stkn=9MKQglrfQPPyABNsD05kL2if1WPe75whYMPV27UHNoxXfWpEY7EvSQxapgmF1vLtBDFw7kfOpm0&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" tvg-id="" group-title="test", Телеканал ЛТВ
+rtmp://vkvsd70.okcdn.ru/playback/6374540258174?stkn=xq3Mb7tqvmgs58xveKmbdKCzSSEC_rQ3uMikuKbmMkmMnk3xsTTKPz8RETCmOZnBCis_rqufnCM&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , VK Кино и сериалы
+rtmp://vkvsd163.okcdn.ru/playback/12955145284352?stkn=6ch0LLXwWD0t6QW_q7NmQy3fxPoTdQt7CB_dXr_LEFueWUH8_kDzjDtZ9KMbMuhVr1UElvIN76k&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" ,РИК И МОРТИ
+rtmp://vkvsd228.okcdn.ru/playback/10137229994917?stkn=uF-qcmEstFzJRTk2k_pZQ1gq2MmP1WidLMkrmdavGcLp34x9bzBxhFHTQgs1Xg12RcMkQlS8LY4&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" ,  Детский 0+
+rtmp://vkvsd182.okcdn.ru/playback/9942884887405?stkn=9VVfByDOizlWlr_rfoRi8TpelV04alIYQ_0Jk3cI_HojytXGIOqVjegIFH3lVi14ozMs9MWxBP0&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test", Cartoon Head TV 5
+rtmp://vkvsd254.okcdn.ru/playback/13579930184561?stkn=ZNzANBd1DgzBAnlORAm2BoUCCTtMVMrjyruaxwiXSoeOvZXk9ciYjkgomnoAjIshsv2j7U6rfJhC&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test", Cartoon Head TV 4
+rtmp://vkvsd278.okcdn.ru/playback/13474169039795?stkn=teYFrlCUVUJIuLZBKQ1ImcQWv_fDnIhMXd5HG4rWpAxwu6JoihJenTZ1DOmwOyyp9gA3ALXtyP7K&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test", Cartoon Head TV 6
+rtmp://vkvsd216.okcdn.ru/playback/14643073526732?stkn=8Z3zoYCi6eAwQHIui4O0TiR_yaQkdAjULmZMEFci0oIV9mntNdEiR7RXE2XOnt6T7KgUysDCWLAZ&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test", Cartoon Head TV 1
+rtmp://vkvsd199.okcdn.ru/playback/13508853902259?stkn=sCzWr7_00CelDfuiAhev9Uqe8WKfnXTOzDQ8Lgj6ARgwc6phRiz-pt6i-Yq1NpX8dGGiG28Nd3AA&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" ,  Детский 6+
+rtmp://vkvsd21.okcdn.ru/playback/9707377929063?stkn=DFG1rqI3FgXeZ_htnEwsbN6VQTD1f94i2q76f9zRxAS8Cfi2DmoeIt6qPK7S1qCXEQaRA_Cy79E&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test", Cartoon Head TV 2
+rtmp://vkvsd60.okcdn.ru/playback/14060848557054?stkn=dPIS_1oqnIEuzshSCF2n-I2rHMWJtuaV8ynjujqQMHN_46y8TxiDA_05tyxY8AemFYcGW7XPvCBu&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test", Cartoon Head TV 7
+rtmp://vkvsd244.okcdn.ru/playback/14261855857452?stkn=bd-7IN0MylhlmR7LPl1fHpOLGnPG-eb7wSGWlrGFRNPd7sfZxbM3Xu_5Zo_aqk12XVDSMj3AQief&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test", Cartoon Head TV Полнометражки!
+rtmp://vkvsd62.okcdn.ru/playback/15605286185795?stkn=0BfhzaS79rBPIuIp3ITDJ69MiJyoRjR4EFbewyaQ3Mgc8XQQP1HrUXEHAegtQLK3Wqxjdr4ma7JT&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-name="Афонтово" tvg-logo="https://i.ibb.co/G37rZXW2/image-56.png" group-title="test", Афонтово
+https://stream.afontovo.ru/hd.m3u8
+
+#EXTINF:-1 tvg-id="RBKTV.ru" tvg-name="РБК" tvg-logo="https://i.ibb.co/bRMgMcbt/image-47.png" group-title="test", РБК ТВ (Пермь)
+https://www.rbc-perm.ru/hls/live/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , NikNik-TV
+rtmp://vkvsd51.okcdn.ru/playback/9747990391627?stkn=F8e6nFzL9oOzipSsxvG4GPfqzYEqKSUg8JFhCLunA6R6JbHG9P92oZiAZkgVnVmWQm_xueQU9pk&uid=0&sp=uid,sp&sig=vlibqm4nyu
+#https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
+
+#EXTINF:-1 group-title="test",Karcag TV
+https://cloudfront41.lexanetwork.com:1344/relay03/livestream003.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , Мульт Развивайка
+rtmp://vkvsd163.okcdn.ru/playback/9617415285537?stkn=7rG8jAJ_-nsgBzwhMK0YMXnxU1lCKkv9ovPNX2TNniYZq7NsMZGTGN8xMQH1FHtYphA4-vhgtOs&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test",Американский папаша
+rtmp://vkvsd231.okcdn.ru/playback/11465359305707?stkn=PIUE3dny2C4QQdgvRp723G_f32wBapMamWluh88g4eznQpqC_odKQvtAaQfbyQGzH5ahLjWN68yQ&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test",Futurama
+rtmp://vkvsd80.okcdn.ru/playback/9231228939170?stkn=uFv9-KNKZdHPR_25KX-aJxQWzQScl0lMDt7lIp3XdMBfKiZ_ef4ux87TNStrYusKJOqLIMnt3_w&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-07-25 17:04:34  (1 URLs in 1 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , Retromult
+rtmp://vkvsd181.okcdn.ru/playback/9095387753249?stkn=9QYompqh6WaegO7paI2Zrflo1MY_FAyEjQj2v7QLE-g6Lp4LLhAeSzzrZYpmMqBrRymI7yXcKBE&uid=0&sp=uid,sp&sig=vlibqm4nyu
+
