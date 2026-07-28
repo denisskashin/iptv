@@ -654,6 +654,8 @@ vodzong.mjunoon.tv
 iam-profi.ru
 jekalich.github.io
 ukr.ukrainske.tv
+ukr2.ukrainske.tv
+
 live.adultiptv.net
 cdn.porntext.biz
 ostroeporno.com
@@ -778,6 +780,7 @@ stream.kaztrk.kz
 t.me
 tass-hls.servicecdn.ru
 tv.a21network.ru
+air.tvk6.ru
 
 # --- blocked IPs ---
 
@@ -1087,10 +1090,7 @@ tv.a21network.ru
 # --- blocked full URLs / paths ---
 
 http://217.114.191.150/Solnce/index.m3u8
-
-http://ukr.ukrainske.tv/493/keytvainua/video.m3u8
 http://tshift-1.telecoma.tv/8channel/index.m3u8
-
 http://212.233.98.62/okino-tv/index.m3u8
 
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
@@ -1100,20 +1100,8 @@ https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24/chunklist_w148744
 http://stream.mcquack.net/401/index.m3u8
 http://stream.mcquack.net/402/index.m3u8
 http://stream.mcquack.net/116/index.m3u8
+http://stream.mcquack.net/218/index.m3u8
+http://stream.mcquack.net/330/index.m3u8
 
 http://hz1.teleport.cc/HLS/HD.m3u8
-
-
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-07-27 20:39 ---
-# отдельные ссылки (4):
-http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
-http://live.trkmillet.ru/millet/index.m3u8
-https://air.tvk6.ru/tvk24/playlist.m3u8
-https://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
+https://zuno.surge.sh/info.mp4

@@ -344,6 +344,7 @@ http://stream.mcquack.net/164/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-channel.png" tvg-id="travel-channel" tvg-description="Международный канал о путешествиях Travel Channel: страны, приключения и гастрономия.",Travel channel
 http://stream.mcquack.net/231/index.m3u8
+#http://pvr-spb-08.tlgx.ru:8987/CH_S08_RST_LEGTV_TRAVEL_CHANNEL/index.m3u8?clckid=d7df0133
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-xp-hd.png" tvg-id="travel-xp-hd" tvg-description="Канал о путешествиях travelxp: маршруты по всему миру в 4K.",Travel XP
 http://stream.mcquack.net/451/index.m3u8
@@ -582,38 +583,13 @@ http://stream.mcquack.net/119/index.m3u8
 #EXTINF:-1 group-title="candidate",Мама
 http://stream.mcquack.net/79/index.m3u8
 
-
-
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Ретро
-http://stream.mcquack.net/191/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kinoliving
-http://stream.mcquack.net/445/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Kinowood
-http://stream.mcquack.net/446/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Наше любимое кино
+#EXTINF:-1 group-title="candidate",Наше любимое кино
 http://stream.mcquack.net/456/index.m3u8
 
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Equalympic
-http://stream.mcquack.net/485/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",1
-http://stream.mcquack.net/218/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Stingray CMusic
+#EXTINF:-1 group-title="candidate",Stingray CMusic
 http://stream.mcquack.net/312/index.m3u8
 
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",2
-http://stream.mcquack.net/330/index.m3u8
 
-#EXTINF:-1 group-title="test" audio-track="rus", Travel Channel HD
-http://pvr-spb-08.tlgx.ru:8987/CH_S08_RST_LEGTV_TRAVEL_CHANNEL/index.m3u8?clckid=d7df0133
-
-#EXTINF:-1 group-title="test" audio-track="rus", Viasat Kino Comedy HD
-http://ukr2.ukrainske.tv/493/video.m3u8
 
 #EXTINF:-1 group-title="test" audio-track="rus", viju TV1000 русское
 http://185.50.148.2:7703/TV1000RusKino/index.m3u8
@@ -645,14 +621,6 @@ http://stream.mcquack.net/81/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Russian MusicBox (576p)
 http://stream.mcquack.net/319/index.m3u8
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-07-25 12:06:35  (30 URLs in 30 channel group(s))
-# ───────────────────────────────────────────────────
-
-#EXTINF:-1 group-title="test" tvg-logo="https://zuno.surge.sh/info.jpg",Info
-https://zuno.surge.sh/info.mp4
 
 
 #EXTINF:-1  group-title="test"  tvg-id="stb-ua"   tvg-rec="7" timeshift="7",СТБ
