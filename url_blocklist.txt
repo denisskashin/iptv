@@ -86,8 +86,10 @@ vcp*.myplaytv.com
 *.kazmazpaz.ru
 *.ctc.ru
 *.moveonjoy.com
+*.okcdn.ru
 
 # --- blocked hosts ---
+www.rbc-perm.ru
 playxapp.play-x.app
 ml-pull-hwc.myco.io
 line.iptvhunt.com
@@ -786,9 +788,13 @@ s1.gtrkrb.ru
 streaming.goodstream.cyou
 streaming101.goodstream.cyou
 xemzi.short.gy
+sevas.1tvcrimea.ru
+simf.1tvcrimea.ru
+media1.gubernia.com
 
 # --- blocked IPs ---
 
+78.108.251.7
 87.76.32.36
 62.89.220.15
 188.225.31.197
@@ -1093,6 +1099,8 @@ xemzi.short.gy
 185.18.56.26
 109.233.169.137
 217.114.185.58
+185.50.148.2
+65.108.239.207
 
 # --- blocked full URLs / paths ---
 
@@ -1110,7 +1118,24 @@ http://stream.mcquack.net/402/index.m3u8
 http://stream.mcquack.net/116/index.m3u8
 http://stream.mcquack.net/218/index.m3u8
 http://stream.mcquack.net/330/index.m3u8
+http://stream.mcquack.net/156/index.m3u8
+http://stream.mcquack.net/157/index.m3u8
+http://stream.mcquack.net/173/index.m3u8
+http://stream.mcquack.net/73/index.m3u8
+
+http://45.153.24.78:80/NTV/index.m3u8
 
 http://hz1.teleport.cc/HLS/HD.m3u8
 https://zuno.surge.sh/info.mp4
 
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-07-30 20:07 ---
+# отдельные ссылки (1):
+https://tv.arectv29.sbs/live/viasathistory.m3u8
