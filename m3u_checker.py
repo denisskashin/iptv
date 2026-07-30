@@ -267,6 +267,7 @@ DEFAULT_INDEX_FILE  = "index.m3u"
 # Открытие «мусорки» test (Step 5b) остаётся ТОЛЬКО в index.m3u, но дедуп
 # новых ссылок идёт против URL'ов ВСЕХ перечисленных файлов.
 EXTRA_PLAYLISTS: "OrderedDict[str, str]" = OrderedDict([
+    ("Кино",       "cinema.m3u"),
     ("Спорт",      "sport.m3u"),
     ("Музыка",     "music.m3u"),
     ("Зарубежные", "foreign.m3u"),

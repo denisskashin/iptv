@@ -160,6 +160,7 @@ http://217.114.191.150/Subbota/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 http://94.230.129.31:8080/THT/index.m3u8
+#http://45.153.24.78/TNT/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/echotv24.png" tvg-id="echotv24" tvg-description="Информационно-разговорный телеканал.",Эхо ТВ 24
 http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
@@ -472,10 +473,6 @@ https://istoki.tv//live/stream1/chunklist.m3u8
 https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tvk-krasnoyarsk.png" tvg-id="tvk-krasnoyarsk" tvg-description="Региональный новостной телеканал Красноярска (ТВК).",ТВК
-http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
-#http://air.tvk6.ru/tvk24/playlist.m3u8
-#http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
-#https://air.tvk6.ru/tvk24/playlist.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Черноморска (Украина).",ТВЧ
 https://live.kharkov-z.ru/app/potok/playlist.m3u8
@@ -701,9 +698,6 @@ https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 #https://cdn.1tvcrimea.ru/switcher.m3u8
 
 #EXTINF:-1 group-title="test" ,ТВК (Красноярск)
-https://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
-#https://air.tvk6.ru/tvk24/playlist.m3u8
-#http://air.tvk6.ru/tvk24/tracks-v2a1/mono.m3u8
 
 #EXTINF:-1 group-title="test" tvg-logo="https://i.imgur.com/TjpjoOu.png",TV Ferrol (576p)
 https://directo.tvferrol.es/tv.m3u8
@@ -802,20 +796,8 @@ rtmp://vkvsd231.okcdn.ru/playback/11465359305707?stkn=PIUE3dny2C4QQdgvRp723G_f32
 #EXTINF:-1 tvg-logo="https://i.ibb.co/p61PV0CV/image-22.png" tvg-id="" group-title="test",Futurama
 rtmp://vkvsd80.okcdn.ru/playback/9231228939170?stkn=uFv9-KNKZdHPR_25KX-aJxQWzQScl0lMDt7lIp3XdMBfKiZ_ef4ux87TNStrYusKJOqLIMnt3_w&uid=0&sp=uid,sp&sig=vlibqm4nyu
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-07-25 17:04:34  (1 URLs in 1 channel group(s))
-# ───────────────────────────────────────────────────
-
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , Retromult
 rtmp://vkvsd181.okcdn.ru/playback/9095387753249?stkn=9QYompqh6WaegO7paI2Zrflo1MY_FAyEjQj2v7QLE-g6Lp4LLhAeSzzrZYpmMqBrRymI7yXcKBE&uid=0&sp=uid,sp&sig=vlibqm4nyu
-
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-07-26 10:43:38  (4 URLs in 4 channel group(s))
-# ───────────────────────────────────────────────────
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" tvg-id="" group-title="test", RSTV
 rtmp://vkvsd177.okcdn.ru/playback/9784991296445?stkn=Bu11jviKqv8XV4jmbgsGRyXtfTi46qNmVpzNczQTttL_wt7OBO_B47D8PLo_bnF7hndvjB5NAuI&uid=0&sp=uid,sp&sig=vlibqm4nyu&fromCache=1
@@ -823,16 +805,8 @@ rtmp://vkvsd177.okcdn.ru/playback/9784991296445?stkn=Bu11jviKqv8XV4jmbgsGRyXtfTi
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",2+2
 http://stream.mcquack.net/173/index.m3u8
 
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Киноужас
-http://stream.mcquack.net/278/index.m3u8
-
 #EXTINF:-1 group-title="test" audio-track="rus", Bolt HD
 http://stream.mcquack.net/73/index.m3u8
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-07-27 20:39:53  (1 URLs in 1 channel group(s))
-# ───────────────────────────────────────────────────
 #EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" ,Южный Парк
 rtmp://vkvsd8.okcdn.ru/playback/8993430186980?stkn=GGhSqZR-fwCnth4Qgp6V-8FWRYYkNgobKIyP4bDf_-mgfVTkXTdS41qOtuNnVfkvBf_6a3g29ec&uid=0&sp=uid,sp&sig=vlibqm4nyu
