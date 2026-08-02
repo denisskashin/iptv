@@ -74,6 +74,15 @@ https://dash4.antik.sk/live/mb_classic/index.m3u8
 https://rutvkids.ru/live/efir/index.m3u8
 #http://stream.mcquack.net/109/index.m3u8
 
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Российский музыкальный телеканал: клипы отечественных исполнителей.",Russian MusicBox
+http://stream.mcquack.net/319/index.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/song-tv-ru.png" tvg-id="song-tv-ru" tvg-description="Армянский музыкальный телеканал Song TV.",Song TV
 http://songtvam.ru:8060/hd/playlist.m3u8
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv" tvg-description="Международный музыкальный телеканал Stingray CMusic: позитивная и вдохновляющая музыка.",Stingray CMusic
+http://stream.mcquack.net/312/index.m3u8
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/iconcerts.png" tvg-id="iconcerts" tvg-description="Концертный телеканал: живые выступления и записи концертов мировых артистов.",Stingray iConcerts
+https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
 

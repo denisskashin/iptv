@@ -1127,15 +1127,7 @@ http://45.153.24.78:80/NTV/index.m3u8
 
 http://hz1.teleport.cc/HLS/HD.m3u8
 https://zuno.surge.sh/info.mp4
-
-
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-07-30 20:07 ---
-# отдельные ссылки (1):
+https://moymir.ru/hls/onair.m3u8
 https://tv.arectv29.sbs/live/viasathistory.m3u8
+https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8

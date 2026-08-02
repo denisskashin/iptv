@@ -195,6 +195,9 @@ http://stream.mcquack.net/70/index.m3u8
 http://89.104.114.24:8080/art/index.m3u8?token=test
 #http://89.104.114.24:8080/art/index.m3u8
 
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/voprosy-i-otvety.png" tvg-id="voprosy-i-otvety" tvg-description="Познавательный телеканал: документальные фильмы и программы, объясняющие устройство мира.",Вопросы и Ответы
+http://stream.mcquack.net/76/index.m3u8
+
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/vremia.png" tvg-id="vremia" tvg-description="Канал «Время»: архивные программы и документалистика Первого канала (Цифровое телесемейство).",Время
 http://stream.mcquack.net/237/index.m3u8
 
@@ -218,6 +221,9 @@ http://213.108.175.226/telplushd/index.m3u8
 #http://streaming.astrakhan.ru/telplushd/tracks-v1a1/mono.m3u8
 #http://streaming.astrakhan.ru/telplushd/tracks-v1a1a1/mono.m3u8
 #https://streaming.astrakhan.ru/telplushd/tracks-v1a1a1/mono.m3u8
+
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/mama.png" tvg-id="mama" tvg-description="Познавательный телеканал для родителей: беременность, воспитание, здоровье и развитие детей.",Мама
+http://stream.mcquack.net/79/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nano-hd.png" tvg-id="nano-hd" tvg-description="Нано — российский научно-популярный телеканал о технологиях и инновациях.",Нано
 http://stream.mcquack.net/419/index.m3u8
@@ -248,6 +254,10 @@ http://stream.mcquack.net/177/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/the-explorers.png" tvg-id="the-explorers" tvg-description="Французский познавательный канал The Explorers: природа, страны и народы планеты (съёмки в 8K).",Explorers
 http://stream.mcquack.net/450/index.m3u8
+
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/history.png" tvg-id="history" tvg-description="Международный документальный телеканал об истории: цивилизации, войны и великие открытия.",History
+http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
+#http://45.190.28.50/HISTORY_HD/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/idxtra.png" tvg-id="id-xtra-eu" tvg-description="Investigation Discovery — международный тематический канал, специализирующийся на документальных программах о расследованиях преступлений.",Investigation Discovery
 http://stream.mcquack.net/205/index.m3u8
@@ -374,6 +384,9 @@ http://stream.mcquack.net/206/index.m3u8
 http://176.100.46.245:90/red/index.m3u8
 #http://stream.mcquack.net/69/index.m3u8
 
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/2na2.png" tvg-id="2na2" tvg-description="Телеканал взрослой анимации: мультсериалы и комедийные шоу.",2x2
+http://stream.mcquack.net/187/index.m3u8
+
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu" tvg-description="Федеральный развлекательный телеканал: фильмы и сериалы, юмор и travel-программы.",8tv
 
 #EXTINF:0 group-title="Развлекательные",LIVETV
@@ -399,6 +412,13 @@ http://stream.mcquack.net/121/index.m3u8
 http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #http://83.166.243.97:8081/ltv1TNT/1/playlist.m3u8
 #https://tvn-tv.ru:81/hls/stream.m3u8
+
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Российский развлекательный телеканал: тревел-шоу, реалити и развлекательные программы.",Пятница!
+http://94.230.129.31:8080/Friday/index.m3u8
+#http://stream.mcquack.net/181/index.m3u8
+
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Телеканал юмора: скетч-шоу, концерты и комедийные программы.",Сарафан
+http://stream.mcquack.net/81/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
 http://stream.mcquack.net/118/index.m3u8
@@ -438,6 +458,9 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4" tvg-description="ТНТ4 — российский развлекательный телеканал, дочерний по отношению к ТНТ. Показывает сериалы, кино и развлекательные программы.",ТНТ4
 
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/yu.png" tvg-id="yu" tvg-description="Развлекательный телеканал для женской аудитории: реалити-шоу, сериалы и лайфстайл-программы.",Ю
+http://stream.mcquack.net/230/index.m3u8
+
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/quiz-tv.png" tvg-id="quiz-tv" tvg-description="Интерактивный игровой телеканал: викторины и телеигры в прямом эфире.",Quiz TV
 http://stream.mcquack.net/397/index.m3u8
 
@@ -471,8 +494,14 @@ https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/astrahan-live.png" tvg-id="astrahan-live" tvg-description="Астраханский региональный канал: городские новости и прямые эфиры.",Астрахань Live
 http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
 
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/afontovo-kr.png" tvg-id="afontovo-kr" tvg-description="Красноярский городской телеканал: местные новости, репортажи и программы.",Афонтово
+https://stream.afontovo.ru/hd.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/bashkortostan24.png" tvg-id="bashkortostan24" tvg-description="Круглосуточный информационный канал Республики Башкортостан.",Башкортостан 24
 №http://109.233.169.137/hls/b24-hls.m3u8
+
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/grozny.png" tvg-id="grozny" tvg-description="Республиканский телеканал Чеченской Республики: новости, культура и программы на чеченском и русском языках.",Грозный
+https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/dzenzhinsk-tv.png" tvg-id="dzenzhinsk-tv" tvg-description="Городской телеканал Дзержинска (Нижегородская область).",Дзержинск ТВ
 https://v.dzertv.ru:8588/dzertv/live_yandex/tracks-v1a1/mono.m3u8
@@ -482,8 +511,18 @@ https://istoki.tv//live/stream1/chunklist.m3u8
 #http://istoki.tv/live/stream1/chunklist.m3u8
 #https://istoki.tv/live/stream1/playlist.m3u8
 
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/krym24.png" tvg-id="krym24" tvg-description="Круглосуточный информационный телеканал Республики Крым: новости и программы о регионе.",Крым 24
+https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
+#https://cdn.1tvcrimea.ru/switcher.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/mir-belogoria.png" tvg-id="mir-belogoria" tvg-description="Региональный телеканал Белгородской области.",Мир Белогорья
 https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
+
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/prim24.png" tvg-id="prim24" tvg-description="Информационный телеканал Приморского края: новости Владивостока и региона.",Прим 24
+http://prim24.ru/prim/prim24/chen.m3u8
+
+#EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pro-astrahan.png" tvg-id="pro-astrahan" tvg-description="Астраханский городской телеканал: новости и программы о жизни города и области.",Про Астрахань
+https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tvk-krasnoyarsk.png" tvg-id="tvk-krasnoyarsk" tvg-description="Региональный новостной телеканал Красноярска (ТВК).",ТВК
 
@@ -551,6 +590,9 @@ http://stream.mcquack.net/211/index.m3u8
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/auto-motor-sport-de.png" tvg-id="auto-motor-sport-de" tvg-description="Немецкий канал об автомобилях и автоспорте (Auto Motor und Sport).",Auto Motor Sport
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/31209ff0-72bd-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=DE&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
 
+#EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/fashion-one.png" tvg-id="fashion-one" tvg-description="Международный телеканал о моде, стиле и красивой жизни (Fashion One).",Fashion & LifeStyle
+http://stream.mcquack.net/119/index.m3u8
+
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/fashion-tv.png" tvg-id="fashion-tv" tvg-description="Fashion TV — международный телеканал о моде и индустрии красоты. Транслирует показы мод, репортажи о трендах и стиле жизни.",Fashion TV
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
 #https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/video_480854_p_0.m3u8
@@ -578,123 +620,3 @@ http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 #http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 
-
-
-#EXTINF:0 group-title="candidate",Про Астрахань
-https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
-
-#EXTINF:0 group-title="candidate",START Air
-http://stream.mcquack.net/128/index.m3u8
-
-#EXTINF:0 group-title="candidate",DAZN 3
-
-#EXTINF:0 group-title="candidate",Fashion & LifeStyle
-http://stream.mcquack.net/119/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Мама
-http://stream.mcquack.net/79/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Наше любимое кино
-http://stream.mcquack.net/456/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Stingray CMusic
-http://stream.mcquack.net/312/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Stingray iConcerts
-https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
-
-#EXTINF:-1 group-title="candidate",Пятница!
-http://94.230.129.31:8080/Friday/index.m3u8
-#http://stream.mcquack.net/181/index.m3u8
-
-#EXTINF:-1 group-title="candidate",2x2
-http://stream.mcquack.net/187/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Ю
-http://stream.mcquack.net/230/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Суббота!
-http://stream.mcquack.net/269/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Сарафан
-http://stream.mcquack.net/81/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Russian MusicBox
-http://stream.mcquack.net/319/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Вопросы и Ответы
-http://stream.mcquack.net/76/index.m3u8
-
-#EXTINF:-1 group-title="candidate",1TV
-http://45.153.24.78:80/1TV/index.m3u8
-
-#EXTINF:-1 group-title="candidate",365 дней
-http://stream.mcquack.net/70/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Грозный
-https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
-
-#EXTINF:-1 group-title="candidate",Остросюжетное
-http://stream.mcquack.net/214/index.m3u8
-
-#EXTINF:-1 group-title="candidate",НТВ Сериалы
-http://stream.mcquack.net/301/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Okko Футбол
-http://stream.mcquack.net/491/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Приключения
-http://stream.mcquack.net/198/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Блокбастер
-http://stream.mcquack.net/364/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Наше мужское
-http://stream.mcquack.net/362/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Okko Спорт
-http://stream.mcquack.net/492/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Okko Прайм Спорт
-http://stream.mcquack.net/493/index.m3u8
-
-#EXTINF:-1 group-title="candidate",В гостях у сказки
-http://stream.mcquack.net/93/index.m3u8
-
-#EXTINF:-1 group-title="candidate",Крым 24
-https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
-#https://cdn.1tvcrimea.ru/switcher.m3u8
-
-#EXTINF:-1 group-title="candidate",Афонтово
-https://stream.afontovo.ru/hd.m3u8
-
-#EXTINF:-1 tvg-logo="https://i.ibb.co/4gWrp0z5/image-4.png" group-title="test" , NikNik-TV
-https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
-
-
-
-#EXTINF:-1 tvg-id="6283" tvg-logo="http://epg.one/img2/6283.png" group-title="test" ,KidZone Mini HD LV
-https://moymir.ru/hls/onair.m3u8
-
-#EXTINF:-1  group-title="test",Euronews
-https://dash4.antik.sk/live/test_euronews/playlist.m3u8
-#http://45.190.28.50/EURONEWS_HD/index.m3u8
-
-#EXTINF:-1  group-title="test",Galaxy4
-https://budapest-cache-1.antik.sk/live/test_galaxy_4_atk_1200/playlist.m3u8
-
-#EXTINF:-1  group-title="test",History
-http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
-#http://45.190.28.50/HISTORY_HD/index.m3u8
-
-#EXTINF:-1  group-title="test",Прим 24
-http://prim24.ru/prim/prim24/chen.m3u8
-
-#EXTINF:-1 group-title="test",МТМ Запоріжжя
-https://stream.ztv.zp.ua/hls/live.m3u8
-
-#EXTINF:-1  group-title="test",RTVI
-https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
-
-#EXTINF:-1  group-title="test",Старт
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8

@@ -1,8 +1,15 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
 
+#EXTINF:0 group-title="Грузия" tvg-description="Первый канал Общественного вещателя Грузии: новости и программы на грузинском языке.",1TV
+http://45.153.24.78:80/1TV/index.m3u8
+
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/deutsche-welle-eu.png" tvg-id="deutsche-welle-eu" tvg-description="Немецкая международная медиакомпания Deutsche Welle (Europe).",Deutsche Welle
 http://stream.mcquack.net/440/index.m3u8
+
+#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/euronews.png" tvg-id="euronews" tvg-description="Европейский международный новостной телеканал.",Euronews
+https://dash4.antik.sk/live/test_euronews/playlist.m3u8
+#http://45.190.28.50/EURONEWS_HD/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/ostwest24.png" tvg-id="ostwest24" tvg-description="Русскоязычный телеканал OstWest (Берлин): новости и репортажи из Германии и Европы.",OstWest24
 http://stream.mcquack.net/455/index.m3u8
