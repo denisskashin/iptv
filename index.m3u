@@ -3,8 +3,7 @@
 # Беларусь
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus1hd.png" tvg-id="belarus1" tvg-description="«Беларусь 1» — общенациональный телевизионный канал республики Беларусь. Входит в структуру Национальной государственной телерадиокомпании Республики Беларусь. Новости, публицистические, познавательные и развлекательные программы, а также сериалы и художественные фильмы. Начало своё вещание с 1 января 1956 года в 19:30 по минскому времени.",Беларусь 1
-https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1/playlist.m3u8
-#https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1010000_sleng.m3u8
+https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1010000_sleng.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w1244197741_b1460000_sleng.m3u8
 #https://edge53.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1/chunklist_w749522209_b5160000_sleng.m3u8
 #https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w_b1460000_sleng.m3u8
@@ -45,8 +44,7 @@ https://ngtrk.dc.beltelecom.by/vtv/_definst_/bt4.stream/playlist.m3u8
 http://46.56.85.151:8080/0.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus5hd.png" tvg-id="belarus5" tvg-description="«Беларусь 5» — первый спортивный телеканал Республики Беларусь. Канал входит в структуру Белтелерадиокомпании.",Беларусь 5
-https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
-#https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
+https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w_b1010000_sleng.m3u8
 #https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w_b1460000_sleng.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w342334170_b1460000_sleng.m3u8
@@ -112,8 +110,6 @@ http://51.158.144.33:2021/zvezda/index.m3u8
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir" tvg-description="Мир — межгосударственная телерадиокомпания стран СНГ. Транслирует новости, документальные фильмы и культурные программы для русскоязычной аудитории.",Мир
-http://94.230.129.31:8080/MIR/index.m3u8
-#http://45.153.24.78:80/MIR/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/nastoiaschee-vremia.png" tvg-id="nastoyaschee-vremia" tvg-description="Настоящее время — русскоязычный новостной телеканал, совместный проект Радио Свобода и Радио Свободная Европа.",Настоящее время
 http://stream.mcquack.net/384/index.m3u8
@@ -145,7 +141,6 @@ http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",Рен ТВ
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
-http://94.230.129.31:8080/Rossia_24/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rtr-planeta.png" tvg-id="rtr-planeta-eu" tvg-description="РТР-Планета — международная версия телеканала «Россия 1» для русскоязычной аудитории за рубежом.",РТР-Планета
 
@@ -154,7 +149,6 @@ http://31.131.139.253:9002/novoros/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts" tvg-description="СТС — российский развлекательный телеканал. Специализируется на комедийных сериалах, фильмах и молодёжных программах.",СТС
 http://stream.mcquack.net/138/index.m3u8
-#http://45.153.24.78:80/STS/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super" tvg-description="Суббота! — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает сериалы, реалити-шоу и лайфстайл-программы.",Суббота!
 http://stream.mcquack.net/269/index.m3u8
@@ -162,10 +156,7 @@ http://stream.mcquack.net/269/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-description="Информационный телеканал агентства ТАСС.",ТАСС
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
-http://45.153.24.78:80/TNT/index.m3u8
-#http://94.230.129.31:8080/THT/index.m3u8
-#http://45.153.24.78/TNT/index.m3u8
-#http://stream.mcquack.net/135/index.m3u8
+http://stream.mcquack.net/135/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/echotv24.png" tvg-id="echotv24" tvg-description="Информационно-разговорный телеканал.",Эхо ТВ 24
 http://stream.novouralsk-news.ru/echotv24/echotv24-576p.m3u8
@@ -237,7 +228,6 @@ https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/kultura.png" tvg-id="kultura" tvg-description="Россия Культура — общероссийский государственный телеканал, посвящённый культуре, искусству, театру, кино и образованию.",Россия Культура
 http://stream.mcquack.net/229/index.m3u8
-#http://94.230.129.31:8080/Rossia_K/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/texno-24.png" tvg-id="texno-24" tvg-description="Техно 24 — российский телеканал о технологиях, гаджетах и инновациях.",Техно 24
 http://stream.mcquack.net/209/index.m3u8
@@ -392,8 +382,7 @@ http://tv.mobyservice.ru/livetv/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwM
 #https://tv.mobyservice.ru/livetv/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/domashny.png" tvg-id="domashny" tvg-description="Российский телеканал для семейной аудитории: сериалы, мелодрамы и программы о доме.",Домашний
-http://94.230.129.31:8080/Domashnii/index.m3u8
-#http://stream.mcquack.net/227/index.m3u8
+http://stream.mcquack.net/227/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/nash-dom.png" tvg-id="nash-dom" tvg-description="Телеканал о доме, уюте, ремонте и семье.",Наш Дом
 http://85.234.33.63/stream/c11.m3u8
@@ -410,8 +399,7 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #https://tvn-tv.ru:81/hls/stream.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Российский развлекательный телеканал: тревел-шоу, реалити и развлекательные программы.",Пятница!
-http://94.230.129.31:8080/Friday/index.m3u8
-#http://stream.mcquack.net/181/index.m3u8
+http://stream.mcquack.net/181/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Телеканал юмора: скетч-шоу, концерты и комедийные программы.",Сарафан
 http://stream.mcquack.net/81/index.m3u8
@@ -425,7 +413,6 @@ http://stream.mcquack.net/118/index.m3u8
 http://stream.mcquack.net/183/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" tvg-description="Развлекательный телеканал мистики, фильмов и сериалов.",ТВ3
-http://94.230.129.31:8080/TB3/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-int.png" tvg-id="tv3-int" tvg-description="Развлекательный телеканал мистики, фильмов и сериалов.",ТВ3 International
 
@@ -531,7 +518,6 @@ http://67.218.111.36/BogBlagTV/tracks-v1a1/mono.m3u8
 #https://glorystarplus.tv/BogBlagTV/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/spas.png" tvg-id="spas" tvg-description="Спас — российский православный телеканал. Транслирует богослужения, проповеди, беседы о православной вере.",Спас
-http://94.230.129.31:8080/SPAS/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/tri-angela.png" tvg-id="tri-angela" tvg-description="Три Ангела — христианский телеканал адвентистской церкви, транслирующий религиозные программы.",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
