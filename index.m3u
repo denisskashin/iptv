@@ -145,10 +145,11 @@ http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rtr-planeta.png" tvg-id="rtr-planeta-eu" tvg-description="РТР-Планета — международная версия телеканала «Россия 1» для русскоязычной аудитории за рубежом.",РТР-Планета
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" tvg-id="solovjinypomiot" tvg-description="Соловьёв Live — российский политический YouTube-канал и телеканал журналиста Владимира Соловьёва. Транслирует ток-шоу, дебаты и политическую аналитику.",Соловьев.Live
-http://31.131.139.253:9002/novoros/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts" tvg-description="СТС — российский развлекательный телеканал. Специализируется на комедийных сериалах, фильмах и молодёжных программах.",СТС
 http://stream.mcquack.net/138/index.m3u8
+#http://89.33.28.74/STS/index.m3u8
+#http://89.33.28.74/STS_HD/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super" tvg-description="Суббота! — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает сериалы, реалити-шоу и лайфстайл-программы.",Суббота!
 http://stream.mcquack.net/269/index.m3u8
@@ -170,6 +171,9 @@ https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXM
 #https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
 #http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #http://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
+
+#EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rtvi.png" tvg-id="rtvi" tvg-description="Международный русскоязычный информационно-развлекательный телеканал: новости, аналитика и ток-шоу.",RTVi
+http://89.33.28.74/RTVi/index.m3u8
 
 # Познавательные
 
@@ -221,6 +225,10 @@ http://stream.mcquack.net/403/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20" tvg-description="«Наука 2.0» — российский научно-популярный телеканал.",Наука 2.0
 http://stream.mcquack.net/125/index.m3u8
+#http://89.33.28.74/Nauka_2.0/index.m3u8
+
+#EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia" tvg-description="Телеканал архивного советского телевидения: передачи, концерты и хроника прошлых лет.",Ностальгия
+http://89.33.28.74/Nostalgiya/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/pro-business.png" tvg-id="pro-business" tvg-description="Деловой телеканал о предпринимательстве, экономике и историях бизнеса.",Про бизнес
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
@@ -238,6 +246,7 @@ http://stream.mcquack.net/238/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/discovery-channel.png" tvg-id="discovery-channel" tvg-description="Discovery Channel — международный познавательный телеканал. Специализируется на документальных фильмах о науке, природе, технологиях и приключениях.",Discovery
 http://stream.mcquack.net/177/index.m3u8
 #https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8
+#http://89.33.28.74/Discovery_HD/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/the-explorers.png" tvg-id="the-explorers" tvg-description="Французский познавательный канал The Explorers: природа, страны и народы планеты (съёмки в 8K).",Explorers
 http://stream.mcquack.net/450/index.m3u8
@@ -245,6 +254,7 @@ http://stream.mcquack.net/450/index.m3u8
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/history.png" tvg-id="history" tvg-description="Международный документальный телеканал об истории: цивилизации, войны и великие открытия.",History
 http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
 #http://45.190.28.50/HISTORY_HD/index.m3u8
+#http://89.33.28.74/History_HD/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/idxtra.png" tvg-id="id-xtra-eu" tvg-description="Investigation Discovery — международный тематический канал, специализирующийся на документальных программах о расследованиях преступлений.",Investigation Discovery
 http://stream.mcquack.net/205/index.m3u8
@@ -274,6 +284,7 @@ https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore" tvg-description="Viasat Explore — познавательный телеканал балтийской медиагруппы Viju, транслирующий документальный контент.",Viasat Explore
 http://stream.mcquack.net/239/index.m3u8
+#http://89.33.28.74/Viasat_Explorer/index.m3u8
 
 #EXTINF:0 group-title="Познавательные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории от Viasat: древние цивилизации и мировые события.",Viasat History
 http://stream.mcquack.net/101/index.m3u8
@@ -309,11 +320,17 @@ http://stream.mcquack.net/194/index.m3u8
 
 #EXTINF:0 group-title="Природа и охота" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" tvg-id="animal-planet-eu" tvg-description="Animal Planet — международный телеканал о животных и природе. Транслирует документальные программы о дикой природе и домашних животных.",Animal Planet
 http://stream.mcquack.net/114/index.m3u8
+#http://89.33.28.74/Animal_Planet_HD/index.m3u8
 
 #EXTINF:0 group-title="Природа и охота" tvg-logo="https://iptvx.one/picons/love-nature-4k.png" tvg-id="love-nature-4k" tvg-description="Международный телеканал о дикой природе с документальными фильмами.",Love Nature
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 
 #EXTINF:0 group-title="Природа и охота" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" tvg-id="nat-geo-wild" tvg-description="National Geographic Wild — международный канал о дикой природе и животных. Транслирует документальные фильмы о животном мире.",National Geographic Wild
+
+http://40.160.24.53/NAT_GEO_WILD/index.m3u8
+
+#EXTINF:0 group-title="Природа и охота" tvg-description="Первый российский телеканал о Мировом океане: документальные фильмы, экспедиции, морская флора и фауна, водные виды спорта.",Okean TV
+http://89.33.28.74/Okean_TV/index.m3u8
 
 http://40.160.24.53/NAT_GEO_WILD/index.m3u8
 
@@ -326,6 +343,7 @@ http://stream.mcquack.net/240/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/glazami-turista.png" tvg-id="glazami-turista" tvg-description="Глазами туриста — российский тематический телеканал о путешествиях и туризме.",Глазами туриста
 http://stream.mcquack.net/304/index.m3u8
+#http://89.33.28.74/Glazami_turista_HD/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/moya-planeta.png" tvg-id="moya-planeta" tvg-description="Моя Планета — российский познавательный телеканал ВГТРК. Транслирует документальные фильмы о путешествиях, природе и культуре разных стран.",Моя Планета
 http://stream.mcquack.net/124/index.m3u8
@@ -339,6 +357,7 @@ http://91.186.196.185/hls/hotels/stream.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/poexali.png" tvg-id="poexali" tvg-description="Поехали! — российский телеканал о путешествиях, вдохновлённый знаменитой фразой Юрия Гагарина.",Поехали!
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/teleputeshestvia.png" tvg-id="teleputeshestvia" tvg-description="Телепутешествия — российский тематический телеканал о путешествиях по России и миру.",Телепутешествия
+http://89.33.28.74/Teleputeshestviya/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/hdl.png" tvg-id="hd-life" tvg-description="Туристический телеканал-гид по России: маршруты, гастротуры и экспедиции.",Точка.РФ
 http://stream.mcquack.net/161/index.m3u8
@@ -348,10 +367,13 @@ http://stream.mcquack.net/399/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/national-geographic.png" tvg-id="national-geographic" tvg-description="National Geographic — международный познавательный телеканал. Транслирует документальные фильмы о природе, науке, истории и путешествиях.",National Geographic
 http://40.160.24.53/NAT_GEO/index.m3u8
+#http://89.33.28.74/National_Geo_HD/index.m3u8
+#http://89.33.28.74/National_Geographic/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv" tvg-description="RTG TV — российский телеканал о туризме и путешествиях.",RTG TV
 http://stream.mcquack.net/164/index.m3u8
 #http://pvr-spb-08.tlgx.ru:8987/CH_S08_RST_LEGTV_RTG/index.m3u8?clckid=55fcb46d
+#http://89.33.28.74/RTG_HD/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-channel.png" tvg-id="travel-channel" tvg-description="Международный канал о путешествиях Travel Channel: страны, приключения и гастрономия.",Travel channel
 http://stream.mcquack.net/231/index.m3u8
@@ -411,8 +433,10 @@ http://stream.mcquack.net/118/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love" tvg-description="СТС Love — российский развлекательный канал, ориентированный на женскую аудиторию. Показывает мелодрамы, ток-шоу и лирические сериалы.",СТС Love
 http://stream.mcquack.net/183/index.m3u8
+#http://89.33.28.74/STS_Love/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-ru.png" tvg-id="tv3-ru" tvg-description="Развлекательный телеканал мистики, фильмов и сериалов.",ТВ3
+http://89.33.28.74/TV_3/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-int.png" tvg-id="tv3-int" tvg-description="Развлекательный телеканал мистики, фильмов и сериалов.",ТВ3 International
 
@@ -441,6 +465,9 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4" tvg-description="ТНТ4 — российский развлекательный телеканал, дочерний по отношению к ТНТ. Показывает сериалы, кино и развлекательные программы.",ТНТ4
 
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che" tvg-description="Российский развлекательный телеканал для мужской аудитории: сериалы, юмор, реалити и экстремальные шоу.",ЧЕ
+http://89.33.28.74/Che/index.m3u8
+
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/yu.png" tvg-id="yu" tvg-description="Развлекательный телеканал для женской аудитории: реалити-шоу, сериалы и лайфстайл-программы.",Ю
 http://stream.mcquack.net/230/index.m3u8
 
@@ -455,6 +482,7 @@ http://stream.mcquack.net/464/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus" tvg-description="TLC (The Learning Channel) — международный развлекательный телеканал. Специализируется на реалити-шоу, лайфстайл и документальных программах.",TLC
 http://stream.mcquack.net/168/index.m3u8
+#http://89.33.28.74/TLC_HD/index.m3u8
 
 # Региональные
 
@@ -478,7 +506,6 @@ https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
 http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/afontovo-kr.png" tvg-id="afontovo-kr" tvg-description="Красноярский городской телеканал: местные новости, репортажи и программы.",Афонтово
-https://stream.afontovo.ru/hd.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/bashkortostan24.png" tvg-id="bashkortostan24" tvg-description="Круглосуточный информационный канал Республики Башкортостан.",Башкортостан 24
 
@@ -536,9 +563,6 @@ http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/index.m3u8
 #http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
 #http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
 
-#EXTINF:0 group-title="Религия и изотерика" tvg-description="Христианский телеканал TV7.",Tievas TV7
-https://vod.tv7.fi/tv7-ee/smil:tv7-ee.smil/playlist.m3u8
-
 # Хобби и стиль жизни
 
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства.",Авто 24
@@ -556,6 +580,9 @@ http://stream.mcquack.net/132/index.m3u8
 
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/kuxnia-tv.png" tvg-id="kuxnia-tv" tvg-description="Кухня ТВ — российский тематический телеканал, посвящённый кулинарии, рецептам и гастрономии.",Кухня
 http://stream.mcquack.net/179/index.m3u8
+
+#EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/muzhskoy.png" tvg-id="muzhskoy" tvg-description="Телеканал о мужских увлечениях: охота и рыбалка, автомобили, оружие, спорт, техника и мастерство своими руками.",Мужской
+http://89.33.28.74/Muzhskoy/index.m3u8
 
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/soltv.png" tvg-id="soltv" tvg-description="Телеканал Соликамска (Пермский край): новости Верхнекамья, фильмы и программы.",Соль ТВ
 http://stream.mcquack.net/398/index.m3u8
@@ -586,6 +613,7 @@ http://stream.mcquack.net/298/index.m3u8
 
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-logo="https://iptvx.one/picons/eda-hd.png" tvg-id="eda-hd" tvg-description="Кулинарный телеканал Food Time: рецепты, кухни мира и гастрономические путешествия.",Food Time
 http://stream.mcquack.net/216/index.m3u8
+#http://89.33.28.74/Eda/index.m3u8
 
 #EXTINF:0 group-title="Хобби и стиль жизни" tvg-description="Телеканал о моде и индустрии стиля.",Global Fashion
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
@@ -601,119 +629,3 @@ http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 #http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 
-
-
-#EXTINF:-1 group-title="test",2+2
-http://89.33.28.74/2+2/index.m3u8
-#EXTINF:-1 group-title="test",K2
-http://89.33.29.118/k2_ua/index.m3u8
-#EXTINF:-1 group-title="test",2plus2
-http://89.33.29.115:8080/2plus2/index.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",History 2 HD 🛡️
-http://95.67.12.81:10620
-#EXTINF:-1 group-title="test",НТН HD
-http://89.33.28.74/NTN/index.m3u8
-#EXTINF:-1 group-title="test",RETRO
-http://89.33.29.115:8080/Retro/index.m3u8
-#EXTINF:-1 group-title="test",TET
-http://89.33.28.74/TET/index.m3u8
-#EXTINF:-1 group-title="test",TB
-http://89.33.28.74/STB/index.m3u8
-#EXTINF:-1 group-title="test",Animal_Planet_HD
-http://89.33.28.74/Animal_Planet_HD/index.m3u8
-#EXTINF:-1 group-title="test",Blokbaster_hd
-http://89.33.28.74/blokbaster_hd/index.m3u8
-#EXTINF:-1 group-title="test",Boks_TV
-http://89.33.28.74/Boks_TV/index.m3u8
-#EXTINF:-1 group-title="test",bollywood
-http://89.33.28.74/bollywood/index.m3u8
-#EXTINF:-1 group-title="test",bollywood HD
-http://89.33.28.74/Bollywood_HD/index.m3u8
-#EXTINF:-1 group-title="test",Cartoon_Network
-http://89.33.28.74/Cartoon_Network/index.m3u8
-#EXTINF:-1 group-title="test",ЧЕ
-http://89.33.28.74/Che/index.m3u8
-#EXTINF:-1 group-title="test",Cinema
-http://89.33.28.74/cinema/index.m3u8
-#EXTINF:-1 group-title="test",Discovery_HD
-http://89.33.28.74/Discovery_HD/index.m3u8
-#EXTINF:-1 group-title="test",disney
-http://89.33.28.74/disney/index.m3u8
-#EXTINF:-1 group-title="test",Dorama hd
-http://89.33.28.74/dorama_hd/index.m3u8
-#EXTINF:-1 group-title="test",Drama
-http://89.33.28.74/drama/index.m3u8
-#EXTINF:-1 group-title="test",Eurosport_2_HD
-http://89.33.28.74/Eurosport_2_HD/index.m3u8
-#EXTINF:-1 group-title="test",Eurosport HD
-http://89.33.28.74/Eurosport_HD/index.m3u8
-#EXTINF:-1 group-title="test",Evrokino
-http://89.33.28.74/Evrokino/index.m3u8
-#EXTINF:-1 group-title="test",Glazami turista HD
-http://89.33.28.74/Glazami_turista_HD/index.m3u8
-#EXTINF:-1 group-title="test",Gulli
-http://89.33.28.74/Gulli/index.m3u8
-#EXTINF:-1 group-title="test",History HD
-http://89.33.28.74/History_HD/index.m3u8
-#EXTINF:-1 group-title="test",Hollywood HD
-http://89.33.28.74/Hollywood_HD/index.m3u8
-#EXTINF:-1 group-title="test",INTER
-http://89.33.28.74/Inter/index.m3u8
-#EXTINF:-1 group-title="test",Kino TV HD
-http://89.33.28.74/Kino_TV_HD/index.m3u8
-#EXTINF:-1 group-title="test",Mult
-http://89.33.28.74/Mult/index.m3u8
-#EXTINF:-1 group-title="test",Muzhskoy
-http://89.33.28.74/Muzhskoy/index.m3u8
-#EXTINF:-1 group-title="test",National Geo HD
-http://89.33.28.74/National_Geo_HD/index.m3u8
-#EXTINF:-1 group-title="test",National_Geographic
-http://89.33.28.74/National_Geographic/index.m3u8
-#EXTINF:-1 group-title="test",Nauka_2.0
-http://89.33.28.74/Nauka_2.0/index.m3u8
-#EXTINF:-1 group-title="test",nickjr
-http://89.33.28.74/nickjr/index.m3u8
-#EXTINF:-1 group-title="test",Nostalgiya
-http://89.33.28.74/Nostalgiya/index.m3u8
-#EXTINF:-1 group-title="test",NST
-http://89.33.28.74/NST/index.m3u8
-#EXTINF:-1 group-title="test",Okean TV
-http://89.33.28.74/Okean_TV/index.m3u8
-#EXTINF:-1 group-title="test",RTG_
-http://89.33.28.74/RTG_HD/index.m3u8
-#EXTINF:-1 group-title="test",RTVi
-http://89.33.28.74/RTVi/index.m3u8
-#EXTINF:-1 group-title="test",sport1
-http://89.33.28.74/sport1/index.m3u8
-#EXTINF:-1 group-title="test",sportplus
-http://89.33.28.74/sportplus/index.m3u8
-#EXTINF:-1 group-title="test",STS
-http://89.33.28.74/STS/index.m3u8
-#EXTINF:-1 group-title="test",STS HD
-http://89.33.28.74/STS_HD/index.m3u8
-#EXTINF:-1 group-title="test",STS LOVE
-http://89.33.28.74/STS_Love/index.m3u8
-#EXTINF:-1 group-title="test",TLC_
-http://89.33.28.74/TLC_HD/index.m3u8
-#EXTINF:-1 group-title="test",TV1000 HD
-http://89.33.28.74/TV1000/index.m3u8
-#EXTINF:-1 group-title="test",TV1000_Action HD
-http://89.33.28.74/TV1000_Action/index.m3u8
-#EXTINF:-1 group-title="test",TV3
-http://89.33.28.74/TV_3/index.m3u8
-#EXTINF:-1 group-title="test",Viasat Explorer
-http://89.33.28.74/Viasat_Explorer/index.m3u8
-#EXTINF:-1 group-title="test",Viasat Sport
-http://89.33.28.74/Viasat_Sport/index.m3u8
-#EXTINF:-1 group-title="test",ZeeTV
-http://89.33.28.74/ZeeTV/index.m3u8
-#EXTINF:-1 group-title="test",Eda
-http://89.33.28.74/Eda/index.m3u8
-#EXTINF:-1 group-title="test",0!
-http://89.33.28.74/O!/index.m3u8
-#EXTINF:-1 group-title="test",Teleputeshestviya
-http://89.33.28.74/Teleputeshestviya/index.m3u8
-#EXTINF:-1 group-title="test",SCT
-http://89.33.28.74/SCT/index.m3u8
-#EXTINF:-1 group-title="test" audio-track="rus", Babes TV HD
-http://stream.mcquack.net/55/index.m3u8
