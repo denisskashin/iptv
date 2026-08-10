@@ -806,6 +806,7 @@ lb.wisp.cat
 old.tomsk-time.ru
 stream.afontovo.ru
 fl.ralsei.site
+8b789a40.akadatel.com
 
 # --- blocked IPs ---
 
@@ -1166,6 +1167,13 @@ http://89.33.28.74/nickjr/index.m3u8
 http://89.33.28.74/sport1/index.m3u8
 http://89.33.28.74/sportplus/index.m3u8
 
-http://8b789a40.akadatel.com/iptv/LM3PN6CZBA9X3RYH9KL5BNNU/2402/index.m3u8
-http://8b789a40.akadatel.com/iptv/LM3PN6CZBA9X3RYH9KL5BNNU/2409/index.m3u8
-http://8b789a40.akadatel.com/iptv/LM3PN6CZBA9X3RYH9KL5BNNU/2417/index.m3u8
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-08-10 20:05 ---
+# отдельные ссылки (1):
+http://185.37.150.38/test/index.m3u8
