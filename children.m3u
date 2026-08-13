@@ -34,6 +34,9 @@ http://89.33.29.115:8080/ani/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/cartoon-network.png" tvg-id="cartoon-network" tvg-description="Международный детский телеканал мультсериалов и анимации.",Cartoon Network
 http://89.33.29.115:8080/Cartoon_Network/index.m3u8
 
+#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/disney-c.png" tvg-id="disney-c" tvg-description="Детский телеканал Disney: мультсериалы, семейные фильмы и шоу.",Disney
+http://89.33.29.115:8080/disney/index.m3u8
+
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/gulli-girl.png" tvg-id="gulli-girl" tvg-description="Детский телеканал для девочек: мультфильмы и сериалы (Gulli, русская версия).",Gulli Girl
 http://89.33.29.115:8080/Gulli/index.m3u8
 #http://stream.mcquack.net/305/index.m3u8
@@ -54,10 +57,14 @@ http://dvr1.kablova.tv/Minimax/index.m3u8
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nick-jr.png" tvg-id="nick-jr" tvg-description="Телеканал Nickelodeon для малышей: обучающие мультсериалы.",Nick Jr
 http://stream.mcquack.net/220/index.m3u8
 #http://40.160.24.55/NICK_JR/index.m3u8
+#http://89.33.29.115:8080/nickjr/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru" tvg-description="Международный детский развлекательный телеканал с популярными мультсериалами.",Nickelodeon
 #http://stream.mcquack.net/443/index.m3u8
 http://89.33.29.115:8080/Nickelodeon/index.m3u8
+
+#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nicktoons.png" tvg-id="nicktoons" tvg-description="Мультипликационный телеканал Nickelodeon: анимационные сериалы для детей.",NickToons
+http://40.160.24.55/NICKTOONS/index.m3u8
 
 #EXTINF:0 group-title="Детские" tvg-description="Детский телеканал с анимацией и развивающим контентом.",NikNik.TV
 https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
