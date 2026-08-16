@@ -2,74 +2,78 @@
 
 # Детские
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" tvg-id="v-gostiax-u-skazki" tvg-description="Детский телеканал сказок: отечественные и зарубежные фильмы-сказки и мультфильмы.",В гостях у сказки
-http://stream.mcquack.net/93/index.m3u8
+# Детские 6+
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/capfantast.png" tvg-id="ginger-hd" tvg-description="Первый российский детский приключенческий телеканал (экс-Ginger HD): кино, мультфильмы и наука для детей 4–12 лет.",Капитан Фантастика
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/capfantast.png" tvg-id="ginger-hd" tvg-description="Первый российский детский приключенческий телеканал (экс-Ginger HD): кино, мультфильмы и наука для детей 4–12 лет.",Капитан Фантастика
 http://stream.mcquack.net/144/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/karusel.png" tvg-id="karusel" tvg-description="Главный российский детский телеканал: мультфильмы, развивающие и образовательные программы.",Карусель
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/multimuzyka.png" tvg-id="multimuzyka" tvg-description="Детский музыкальный канал: песни и клипы из мультфильмов.",Мультимузыка
+http://stream.mcquack.net/82/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" tvg-id="sts-kids-hd" tvg-description="Детский телеканал СТС: мультсериалы и развлекательные программы.",СТС Kids
+http://stream.mcquack.net/197/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/ani.png" tvg-id="ani" tvg-description="Российский телеканал аниме: японская анимация для подростков.",Ani
+http://89.33.29.115:8080/ani/index.m3u8
+#http://stream.mcquack.net/306/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/cartoon-network.png" tvg-id="cartoon-network" tvg-description="Международный детский телеканал мультсериалов и анимации.",Cartoon Network
+http://89.33.29.115:8080/Cartoon_Network/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/disney-c.png" tvg-id="disney-c" tvg-description="Детский телеканал Disney: мультсериалы, семейные фильмы и шоу.",Disney
+http://89.33.29.115:8080/disney/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/kidstv.png" tvg-id="kidstv" tvg-description="Детский телеканал с мультфильмами.",Kids TV
+https://wurljansonmedia.global.transmit.live/hls/69029561e0b3f0f215eef867/playlist.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/kinokazka.png" tvg-id="kinokazka" tvg-description="Детское кино и сказки для семейного просмотра.",KinoKazka
+http://stream.mcquack.net/167/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru" tvg-description="Международный детский развлекательный телеканал с популярными мультсериалами.",Nickelodeon
+#http://stream.mcquack.net/443/index.m3u8
+http://89.33.29.115:8080/Nickelodeon/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/nicktoons.png" tvg-id="nicktoons" tvg-description="Мультипликационный телеканал Nickelodeon: анимационные сериалы для детей.",NickToons
+http://40.160.24.55/NICKTOONS/index.m3u8
+#http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/849/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-description="Детский телеканал с анимацией и развивающим контентом.",NikNik.TV
+https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
+
+# Дошкольные
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" tvg-id="v-gostiax-u-skazki" tvg-description="Детский телеканал сказок: отечественные и зарубежные фильмы-сказки и мультфильмы.",В гостях у сказки
+http://stream.mcquack.net/93/index.m3u8
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/karusel.png" tvg-id="karusel" tvg-description="Главный российский детский телеканал: мультфильмы, развивающие и образовательные программы.",Карусель
 http://89.33.29.115:8080/Karusel/index.m3u8
 #http://stream.mcquack.net/120/index.m3u8
 #https://streaming102.interskytech.com/live/232.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/mult.png" tvg-id="mult" tvg-description="Российский детский телеканал с отечественными мультсериалами.",Мульт
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/mult.png" tvg-id="mult" tvg-description="Российский детский телеканал с отечественными мультсериалами.",Мульт
 http://89.33.29.115:8080/Mult/index.m3u8
 #http://stream.mcquack.net/232/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/multimuzyka.png" tvg-id="multimuzyka" tvg-description="Детский музыкальный канал: песни и клипы из мультфильмов.",Мультимузыка
-http://stream.mcquack.net/82/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/o_.png" tvg-id="o_" tvg-description="Российский детский познавательно-развивающий телеканал для дошкольников.",О!
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/o_.png" tvg-id="o_" tvg-description="Российский детский познавательно-развивающий телеканал для дошкольников.",О!
 http://stream.mcquack.net/60/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" tvg-id="sts-kids-hd" tvg-description="Детский телеканал СТС: мультсериалы и развлекательные программы.",СТС Kids
-http://stream.mcquack.net/197/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/ani.png" tvg-id="ani" tvg-description="Российский телеканал аниме: японская анимация для подростков.",Ani
-http://89.33.29.115:8080/ani/index.m3u8
-#http://stream.mcquack.net/306/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/cartoon-network.png" tvg-id="cartoon-network" tvg-description="Международный детский телеканал мультсериалов и анимации.",Cartoon Network
-http://89.33.29.115:8080/Cartoon_Network/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/disney-c.png" tvg-id="disney-c" tvg-description="Детский телеканал Disney: мультсериалы, семейные фильмы и шоу.",Disney
-http://89.33.29.115:8080/disney/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/gulli-girl.png" tvg-id="gulli-girl" tvg-description="Детский телеканал для девочек: мультфильмы и сериалы (Gulli, русская версия).",Gulli Girl
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/gulli-girl.png" tvg-id="gulli-girl" tvg-description="Детский телеканал для девочек: мультфильмы и сериалы (Gulli, русская версия).",Gulli Girl
 http://89.33.29.115:8080/Gulli/index.m3u8
 #http://stream.mcquack.net/305/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/jimjam.png" tvg-id="jimjam" tvg-description="Международный детский телеканал для дошкольников.",JimJam
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/jimjam.png" tvg-id="jimjam" tvg-description="Международный детский телеканал для дошкольников.",JimJam
 #http://stream.mcquack.net/150/index.m3u8
 http://89.33.29.115:8080/JimJam/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/kidstv.png" tvg-id="kidstv" tvg-description="Детский телеканал с мультфильмами.",Kids TV
-https://wurljansonmedia.global.transmit.live/hls/69029561e0b3f0f215eef867/playlist.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/kinokazka.png" tvg-id="kinokazka" tvg-description="Детское кино и сказки для семейного просмотра.",KinoKazka
-http://stream.mcquack.net/167/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/Minimax.png" tvg-id="Minimax.cz" tvg-description="Детский телеканал мультфильмов (Центральная и Восточная Европа).",Minimax CZ
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/Minimax.png" tvg-id="Minimax.cz" tvg-description="Детский телеканал мультфильмов (Центральная и Восточная Европа).",Minimax CZ
 http://dvr1.kablova.tv/Minimax/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nick-jr.png" tvg-id="nick-jr" tvg-description="Телеканал Nickelodeon для малышей: обучающие мультсериалы.",Nick Jr
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/nick-jr.png" tvg-id="nick-jr" tvg-description="Телеканал Nickelodeon для малышей: обучающие мультсериалы.",Nick Jr
 http://stream.mcquack.net/220/index.m3u8
 #http://40.160.24.55/NICK_JR/index.m3u8
 #http://89.33.29.115:8080/nickjr/index.m3u8
 
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nickelodeon-ru.png" tvg-id="nickelodeon-ru" tvg-description="Международный детский развлекательный телеканал с популярными мультсериалами.",Nickelodeon
-#http://stream.mcquack.net/443/index.m3u8
-http://89.33.29.115:8080/Nickelodeon/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/nicktoons.png" tvg-id="nicktoons" tvg-description="Мультипликационный телеканал Nickelodeon: анимационные сериалы для детей.",NickToons
-http://40.160.24.55/NICKTOONS/index.m3u8
-#http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/849/index.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-description="Детский телеканал с анимацией и развивающим контентом.",NikNik.TV
-https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
-
-#EXTINF:0 group-title="Детские" tvg-logo="https://iptvx.one/picons/tiji.png" tvg-id="tiji" tvg-description="Французский телеканал для дошкольников: развивающие мультфильмы для детей 3–7 лет.",TiJi
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/tiji.png" tvg-id="tiji" tvg-description="Французский телеканал для дошкольников: развивающие мультфильмы для детей 3–7 лет.",TiJi
 #http://stream.mcquack.net/111/index.m3u8
 http://89.33.29.115:8080/TiJi/index.m3u8
 

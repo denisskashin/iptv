@@ -2,146 +2,151 @@
 
 # Кино
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/domkino.png" tvg-id="domkino" tvg-description="Российский телеканал отечественного кино и сериалов.",Дом кино
-http://stream.mcquack.net/236/index.m3u8
-#http://57.128.196.110/10126/index.m3u8?token=9BBA2C39AD31
+# Боевики и фантастика
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/domkino-premium.png" tvg-id="domkino-premium" tvg-description="Телеканал лучших российских фильмов и сериалов.",Дом Кино Премиум
-http://stream.mcquack.net/108/index.m3u8
+#EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/muzhskoe-kino.png" tvg-id="muzhskoe-kino" tvg-description="Телеканал боевиков, приключенческого и остросюжетного кино.",Мужское кино
+http://stream.mcquack.net/107/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/dushevnoe.png" tvg-id="dushevnoe" tvg-description="Добрые фильмы и мелодрамы для семейного вечера.",Душевное
-http://stream.mcquack.net/213/index.m3u8
+#EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi" tvg-description="Фантастические сериалы и фильмы (бывший Sony Sci-Fi).",.sci-fi
+http://live.uspeh-bil.ru/8115/video.m3u8?token=UBwVqZcPL8UPmoYU
+#http://stream.mcquack.net/180/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/eurokino.png" tvg-id="evrokino" tvg-description="Телеканал европейского авторского и фестивального кино.",Еврокино
+#EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd" tvg-description="Российский телеканал фэнтези и фантастики: аниме и игровое кино.",Fan
+http://stream.mcquack.net/420/index.m3u8
+
+#EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood" tvg-description="Остросюжетное мировое кино: боевики, триллеры и чёрные комедии.",Kinowood
+http://stream.mcquack.net/446/index.m3u8
+
+#EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-description="Киноканал художественных фильмов.",Star Cinema
+https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest.m3u8
+
+# Зарубежное кино
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/eurokino.png" tvg-id="evrokino" tvg-description="Телеканал европейского авторского и фестивального кино.",Еврокино
 http://89.33.29.115:8080/Evrokino/index.m3u8
 #http://stream.mcquack.net/385/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/indijskoe-kino.png" tvg-id="indiyskoe-kino" tvg-description="Телеканал индийского кино — фильмы Болливуда на русском языке.",Индийское кино
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/tvxxi.png" tvg-id="tvxxi" tvg-description="Русскоязычный киноканал TV XXI: художественные фильмы разных жанров.",ТВ XXI
+http://stream.mcquack.net/152/index.m3u8
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/cinema-ru.png" tvg-id="cinema-ru" tvg-description="Киноканал художественных фильмов разных жанров.",Cinema
+http://89.33.29.115:8080/cinema/index.m3u8
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/fox.png" tvg-id="fox" tvg-description="Развлекательный телеканал с зарубежными фильмами и сериалами.",Fox
+http://stream.mcquack.net/182/index.m3u8
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/hollywood.png" tvg-id="hollywood" tvg-description="Голливудское кино круглосуточно.",Hollywood
+http://89.33.29.118:8080/Hollywood_HD/index.m3u8
+#http://stream.mcquack.net/268/index.m3u8
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/kino-1.png" tvg-id="kino-1" tvg-description="Фильмовый телеканал: художественное кино круглосуточно.",Kino 1
+http://stream.mcquack.net/395/index.m3u8
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/kino-1-hd.png" tvg-id="kino-1-hd" tvg-description="Фильмовый телеканал: художественное кино круглосуточно.",Kino 2
+http://stream.mcquack.net/465/index.m3u8
+
+# Индийское и азиатское
+
+#EXTINF:0 group-title="Индийское и азиатское" tvg-logo="https://iptvx.one/picons/indijskoe-kino.png" tvg-id="indiyskoe-kino" tvg-description="Телеканал индийского кино — фильмы Болливуда на русском языке.",Индийское кино
 http://stream.mcquack.net/104/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/zee-tv.png" tvg-id="zee-tv" tvg-description="Индийский развлекательно-познавательный телеканал на русском языке: кино Болливуда, музыка, кулинария и мода.",Индия
+#EXTINF:0 group-title="Индийское и азиатское" tvg-logo="https://iptvx.one/picons/zee-tv.png" tvg-id="zee-tv" tvg-description="Индийский развлекательно-познавательный телеканал на русском языке: кино Болливуда, музыка, кулинария и мода.",Индия
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kino-tv.png" tvg-id="kino-tv" tvg-description="«Кино ТВ» — телеканал о кино: премьеры, классика и программы о киноиндустрии.",Кино ТВ
+#EXTINF:0 group-title="Индийское и азиатское" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" tvg-id="bollywood-hd" tvg-description="Телеканал индийского кино: фильмы Болливуда, музыкальные и мелодраматические картины.",Bollywood HD
+http://89.33.29.115:8080/bollywood/index.m3u8
+#http://89.33.29.115:8080/Bollywood_HD/index.m3u8
+
+# Комедии
+
+#EXTINF:0 group-title="Комедии" tvg-logo="https://iptvx.one/picons/kinokomedia.png" tvg-id="kinokomedia" tvg-description="«Кинокомедия» — российский киноканал, круглосуточно показывающий комедийные фильмы.",Кинокомедия
+http://stream.mcquack.net/265/index.m3u8
+
+#EXTINF:0 group-title="Комедии" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" tvg-id="russkaya-komedia" tvg-description="Телеканал комедийных фильмов.",Комедия
+http://stream.mcquack.net/68/index.m3u8
+
+# Мелодрамы
+
+#EXTINF:0 group-title="Мелодрамы" tvg-logo="https://iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie" tvg-description="Телеканал романтического кино и мелодрам.",Киносвидание
+http://stream.mcquack.net/171/index.m3u8
+
+#EXTINF:-1 group-title="Мелодрамы",Drama
+http://89.33.29.115:8080/drama/index.m3u8
+
+# Премьеры и хиты
+
+#EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kino-tv.png" tvg-id="kino-tv" tvg-description="«Кино ТВ» — телеканал о кино: премьеры, классика и программы о киноиндустрии.",Кино ТВ
 #http://89.33.29.118:8080/Kino_TV_HD/index.m3u8
 #http://stream.mcquack.net/221/index.m3u8
 http://stream.mcquack.net/240/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinokomedia.png" tvg-id="kinokomedia" tvg-description="«Кинокомедия» — российский киноканал, круглосуточно показывающий комедийные фильмы.",Кинокомедия
-http://stream.mcquack.net/265/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinomiks.png" tvg-id="kinomiks" tvg-description="Киноканал с фильмами разных жанров.",Киномикс
+#EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kinomiks.png" tvg-id="kinomiks" tvg-description="Киноканал с фильмами разных жанров.",Киномикс
 http://stream.mcquack.net/133/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinopokaz.png" tvg-id="kinopokaz" tvg-description="Художественные фильмы разных жанров круглосуточно.",Кинопоказ
+#EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kinopokaz.png" tvg-id="kinopokaz" tvg-description="Художественные фильмы разных жанров круглосуточно.",Кинопоказ
 http://stream.mcquack.net/64/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd" tvg-description="Телеканал кинопремьер и новинок проката.",Кинопремьера
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosvidanie.png" tvg-id="kinosvidanie" tvg-description="Телеканал романтического кино и мелодрам.",Киносвидание
-http://stream.mcquack.net/171/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya" tvg-description="Телеканал семейного кино.",Киносемья
-http://stream.mcquack.net/170/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-id="kinoseria" tvg-description="Киноканал художественных фильмов и киносериалов.",Киносерия
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-id="kinouzhas" tvg-description="Телеканал фильмов ужасов и триллеров.",Киноужас
-http://stream.mcquack.net/278/index.m3u8
-#http://194.32.242.245/kinouzhas/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoxit.png" tvg-id="kinoxit" tvg-description="Телеканал популярных кинохитов.",Кинохит
+#EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kinoxit.png" tvg-id="kinoxit" tvg-description="Телеканал популярных кинохитов.",Кинохит
 http://89.33.29.115:8080/Kinohit/index.m3u8
 #http://stream.mcquack.net/126/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/komedijnoe.png" tvg-id="komedijnoe" tvg-description="Комедии круглосуточно: российские и зарубежные.",Комедийное
-http://stream.mcquack.net/74/index.m3u8
+#EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/khit.png" tvg-id="khit" tvg-description="Телеканал популярного зарубежного и отечественного кино.",Хит
+http://stream.mcquack.net/363/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/russkaya-komedia.png" tvg-id="russkaya-komedia" tvg-description="Телеканал комедийных фильмов.",Комедия
-http://stream.mcquack.net/68/index.m3u8
+#EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kinoliving.png" tvg-id="kinoliving" tvg-description="Кинотеканал: круглосуточный показ художественных фильмов.",Kinoliving
+http://stream.mcquack.net/445/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm" tvg-description="Золотой фонд «Мосфильма»: легендарная советская киноклассика.",Мосфильм. Золотая коллекция
-http://stream.mcquack.net/369/index.m3u8
+# Российское кино
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/muzhskoe-kino.png" tvg-id="muzhskoe-kino" tvg-description="Телеканал боевиков, приключенческого и остросюжетного кино.",Мужское кино
-http://stream.mcquack.net/107/index.m3u8
+#EXTINF:0 group-title="Российское кино" tvg-logo="https://iptvx.one/picons/domkino-premium.png" tvg-id="domkino-premium" tvg-description="Телеканал лучших российских фильмов и сериалов.",Дом Кино Премиум
+http://stream.mcquack.net/108/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/nashesd.png" tvg-id="nashesd" tvg-description="Российский музыкальный телеканал отечественного рока (НАШЕ).",Наше
-http://stream.mcquack.net/217/index.m3u8
+#EXTINF:0 group-title="Российское кино" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya" tvg-description="Телеканал семейного кино.",Киносемья
+http://stream.mcquack.net/170/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino" tvg-description="Телеканал современного российского кино.",Наше новое кино
+#EXTINF:0 group-title="Российское кино" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-id="kinoseria" tvg-description="Киноканал художественных фильмов и киносериалов.",Киносерия
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/nst.png" tvg-id="nst" tvg-description="Настоящее Страшное Телевидение — фильмы ужасов, триллеры и мистика.",НСТ
-http://89.33.29.115:8080/NST/index.m3u8
-#http://stream.mcquack.net/207/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/patriot.png" tvg-id="patriot" tvg-description="Кинотелеканал патриотической направленности: фильмы о героях, истории и традициях России (Мосфильм, Гостелерадиофонд).",Патриот
+#EXTINF:0 group-title="Российское кино" tvg-logo="https://iptvx.one/picons/patriot.png" tvg-id="patriot" tvg-description="Кинотелеканал патриотической направленности: фильмы о героях, истории и традициях России (Мосфильм, Гостелерадиофонд).",Патриот
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/31928/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/pobeda.png" tvg-id="pobeda" tvg-description="Телеканал фильмов о Великой Отечественной войне.",Победа
+# Советское и ретро
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/premialnoe.png" tvg-id="premialnoe" tvg-description="Телеканал премиального художественного кино.",Премиальное
-http://stream.mcquack.net/421/index.m3u8
+#EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/domkino.png" tvg-id="domkino" tvg-description="Российский телеканал отечественного кино и сериалов.",Дом кино
+http://stream.mcquack.net/236/index.m3u8
+#http://57.128.196.110/10126/index.m3u8?token=9BBA2C39AD31
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/retro-tv.png" tvg-id="retro-tv" tvg-description="Телеканал ретро-кино, музыки и передач прошлых лет.",Ретро
+#EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm" tvg-description="Золотой фонд «Мосфильма»: легендарная советская киноклассика.",Мосфильм. Золотая коллекция
+http://stream.mcquack.net/369/index.m3u8
+
+#EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/nashesd.png" tvg-id="nashesd" tvg-description="Российский музыкальный телеканал отечественного рока (НАШЕ).",Наше
+http://stream.mcquack.net/217/index.m3u8
+
+#EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/pobeda.png" tvg-id="pobeda" tvg-description="Телеканал фильмов о Великой Отечественной войне.",Победа
+
+#EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/retro-tv.png" tvg-id="retro-tv" tvg-description="Телеканал ретро-кино, музыки и передач прошлых лет.",Ретро
 http://89.33.29.115:8080/Retro/index.m3u8
 #http://stream.mcquack.net/191/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/rodnoe-kino.png" tvg-id="rodnoe-kino" tvg-description="Телеканал советского и российского кино.",Родное кино
+#EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/rodnoe-kino.png" tvg-id="rodnoe-kino" tvg-description="Телеканал советского и российского кино.",Родное кино
 http://stream.mcquack.net/242/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/tvxxi.png" tvg-id="tvxxi" tvg-description="Русскоязычный киноканал TV XXI: художественные фильмы разных жанров.",ТВ XXI
-http://stream.mcquack.net/152/index.m3u8
+# Ужасы и триллеры
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/khit.png" tvg-id="khit" tvg-description="Телеканал популярного зарубежного и отечественного кино.",Хит
-http://stream.mcquack.net/363/index.m3u8
+#EXTINF:0 group-title="Ужасы и триллеры" tvg-logo="https://iptvx.one/picons/kinouzhas.png" tvg-id="kinouzhas" tvg-description="Телеканал фильмов ужасов и триллеров.",Киноужас
+http://stream.mcquack.net/278/index.m3u8
+#http://194.32.242.245/kinouzhas/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/shokiruyushchee.png" tvg-id="shokiruyushchee" tvg-description="Круглосуточный киноканал ужасов и триллеров (18+); пришёл на смену «Кинопоказ HD1».",Шокирующее
+#EXTINF:0 group-title="Ужасы и триллеры" tvg-logo="https://iptvx.one/picons/nst.png" tvg-id="nst" tvg-description="Настоящее Страшное Телевидение — фильмы ужасов, триллеры и мистика.",НСТ
+http://89.33.29.115:8080/NST/index.m3u8
+#http://stream.mcquack.net/207/index.m3u8
+
+#EXTINF:0 group-title="Ужасы и триллеры" tvg-logo="https://iptvx.one/picons/shokiruyushchee.png" tvg-id="shokiruyushchee" tvg-description="Круглосуточный киноканал ужасов и триллеров (18+); пришёл на смену «Кинопоказ HD1».",Шокирующее
 http://stream.mcquack.net/75/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sony-turbo.png" tvg-id="sony-turbo" tvg-description="Остросюжетные сериалы и кино (бывший Sony Turbo).",.black
+#EXTINF:0 group-title="Ужасы и триллеры" tvg-logo="https://iptvx.one/picons/sony-turbo.png" tvg-id="sony-turbo" tvg-description="Остросюжетные сериалы и кино (бывший Sony Turbo).",.black
 http://stream.mcquack.net/263/index.m3u8
 
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi" tvg-description="Фантастические сериалы и фильмы (бывший Sony Sci-Fi).",.sci-fi
-http://live.uspeh-bil.ru/8115/video.m3u8?token=UBwVqZcPL8UPmoYU
-#http://stream.mcquack.net/180/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/bollywood-hd.png" tvg-id="bollywood-hd" tvg-description="Телеканал индийского кино: фильмы Болливуда, музыкальные и мелодраматические картины.",Bollywood HD
-http://89.33.29.115:8080/bollywood/index.m3u8
-#http://89.33.29.115:8080/Bollywood_HD/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/cinema-ru.png" tvg-id="cinema-ru" tvg-description="Киноканал художественных фильмов разных жанров.",Cinema
-http://89.33.29.115:8080/cinema/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/fanhd.png" tvg-id="fanhd" tvg-description="Российский телеканал фэнтези и фантастики: аниме и игровое кино.",Fan
-http://stream.mcquack.net/420/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/fox.png" tvg-id="fox" tvg-description="Развлекательный телеканал с зарубежными фильмами и сериалами.",Fox
-http://stream.mcquack.net/182/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/hollywood.png" tvg-id="hollywood" tvg-description="Голливудское кино круглосуточно.",Hollywood
-http://89.33.29.118:8080/Hollywood_HD/index.m3u8
-#http://stream.mcquack.net/268/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kino-1.png" tvg-id="kino-1" tvg-description="Фильмовый телеканал: художественное кино круглосуточно.",Kino 1
-http://stream.mcquack.net/395/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kino-1-hd.png" tvg-id="kino-1-hd" tvg-description="Фильмовый телеканал: художественное кино круглосуточно.",Kino 2
-http://stream.mcquack.net/465/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinoliving.png" tvg-id="kinoliving" tvg-description="Кинотеканал: круглосуточный показ художественных фильмов.",Kinoliving
-http://stream.mcquack.net/445/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/kinowood.png" tvg-id="kinowood" tvg-description="Остросюжетное мировое кино: боевики, триллеры и чёрные комедии.",Kinowood
-http://stream.mcquack.net/446/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/minimax-ms-crime.png" tvg-id="minimax-ms-crime" tvg-description="Криминальное кино и детективы (пакет MS).",MS Crime
+#EXTINF:0 group-title="Ужасы и триллеры" tvg-logo="https://iptvx.one/picons/minimax-ms-crime.png" tvg-id="minimax-ms-crime" tvg-description="Криминальное кино и детективы (пакет MS).",MS Crime
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15136/index.m3u8
-
-#EXTINF:0 group-title="Кино" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-description="Киноканал художественных фильмов.",Star Cinema
-https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest.m3u8
-
-#EXTINF:-1 group-title="Кино",Drama
-http://89.33.29.115:8080/drama/index.m3u8
 
 # BCU
 
@@ -154,14 +159,27 @@ http://stream.mcquack.net/488/index.m3u8
 http://89.33.29.118:8080/blokbaster_hd/index.m3u8
 #http://stream.mcquack.net/364/index.m3u8
 
+#EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/dushevnoe.png" tvg-id="dushevnoe" tvg-description="Добрые фильмы и мелодрамы для семейного вечера.",Душевное
+http://stream.mcquack.net/213/index.m3u8
+
+#EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd" tvg-description="Телеканал кинопремьер и новинок проката.",Кинопремьера
+
+#EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/komedijnoe.png" tvg-id="komedijnoe" tvg-description="Комедии круглосуточно: российские и зарубежные.",Комедийное
+http://stream.mcquack.net/74/index.m3u8
+
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/nashe-lubimoe.png" tvg-id="nashe-lubimoe" tvg-description="Телеканал любимого отечественного кино: советская и российская киноклассика.",Наше любимое кино
 http://stream.mcquack.net/456/index.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe.png" tvg-id="nashe-muzhskoe" tvg-description="Киноканал мужского кино: боевики, военные и приключенческие фильмы.",Наше мужское
 http://stream.mcquack.net/362/index.m3u8
 
+#EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino" tvg-description="Телеканал современного российского кино.",Наше новое кино
+
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe.png" tvg-id="ostrosiuzhetnoe" tvg-description="Киноканал остросюжетного кино: боевики, триллеры и детективы.",Остросюжетное
 http://stream.mcquack.net/214/index.m3u8
+
+#EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/premialnoe.png" tvg-id="premialnoe" tvg-description="Телеканал премиального художественного кино.",Премиальное
+http://stream.mcquack.net/421/index.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/prikluchenia-hd.png" tvg-id="prikluchenia-hd" tvg-description="Киноканал приключенческого кино: фильмы о путешествиях, поисках и испытаниях.",Приключения
 http://stream.mcquack.net/198/index.m3u8
