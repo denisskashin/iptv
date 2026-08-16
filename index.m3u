@@ -146,6 +146,8 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9120/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir" tvg-description="Мир — межгосударственная телерадиокомпания стран СНГ. Транслирует новости, документальные фильмы и культурные программы для русскоязычной аудитории.",Мир
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9211/index.m3u8
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15119/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/113/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/mir24.png" tvg-id="mir-24" tvg-description="Круглосуточный информационный телеканал МТРК «Мир»: новости России и стран СНГ.",Мир 24
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2107/index.m3u8
@@ -165,6 +167,7 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/213/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/501/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9203/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9028/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19405/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/ntv-mir.png" tvg-id="ntv-mir" tvg-description="Международная версия телеканала НТВ: новости, сериалы и программы.",НТВ Мир
 
@@ -212,6 +215,8 @@ http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",Рен ТВ
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9002/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9205/index.m3u8
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2024/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/128/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — российский федеральный телеканал ВГТРК: новости, сериалы, ток-шоу и развлекательные программы.",Россия 1
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/205/index.m3u8
@@ -223,6 +228,7 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/205/index.m3u8
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2024/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/128/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19242/index.m3u8
 
 #EXTINF:0 group-title="Общественные" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
 
@@ -854,237 +860,475 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/955/index.m3u8
 # ── test ──────────────────────────────────────────
 # Added: 2026-08-14 19:18:15  (117 URLs in 117 channel group(s))
 # ───────────────────────────────────────────────────
+
 #EXTINF:-1 group-title="test", TBN Baltia EE
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Motorvision+ DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6112/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky 1 AU
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6122/index.m3u8
+
 #EXTINF:-1  group-title="test",Kan Educational
 http://stream.mcquack.net/378/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Premier Sports 1 HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6555/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Eurosport 2 HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6556/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",TNT Sports 3 HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6564/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",TNT Sports 1 HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6566/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",DAZN 3 FHD PT
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7062/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sport Bundesliga 2 HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7234/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sport Bundesliga 3 HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7235/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sport Bundesliga 5 HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7237/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sport Bundesliga 6 HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7238/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sport Bundesliga 7 HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7239/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sport Bundesliga 8 HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7240/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sport Bundesliga 9 HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7241/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 1 FHD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7263/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 2 FHD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7264/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 3 FHD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7265/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 4 FHD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7266/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 5 FHD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7267/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 6 FHD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7268/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 1 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7269/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 2 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7270/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 3 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7271/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 4 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7272/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 5 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7273/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 6 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7274/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 7 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7275/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub 8 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7276/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub Golf HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7277/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sport Klub Fight HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7278/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport 1 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7296/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport 3 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7303/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport Premium 1 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7304/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport Premium 2 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7305/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport Extra 3 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7306/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport Extra 4 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7307/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport 2 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7308/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport Extra 2 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7309/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport Extra 1 HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7310/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Polsat Sport Fight HD PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7311/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Fox Sports 1 HD US
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7322/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Fox Sports 2 HD US
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7323/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",CBS Sports Network HD US
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7324/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",NBC Sports Network HD US
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7327/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",NHL Network HD US
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7328/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 1 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7329/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 2 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7330/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 3 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7331/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 4 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7332/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 5 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7333/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Arena Sport 6 HD HR
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7334/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Premier League HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7335/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Football HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7336/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Main Event HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7337/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Mix HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7339/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Action HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7340/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Racing HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7341/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports F1 HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7342/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Cricket HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7343/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Sky Sports Golf HD UK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7344/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",TV 2 Sport HD DK
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7355/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Триколор 💎 Max спорт 1
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7360/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Триколор 💎 Max спорт 2
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7361/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Триколор 💎 Max спорт 3
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7362/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Триколор 💎 Max спорт 4
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7363/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Триколор 💎 Max спорт 5
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7364/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",KHL HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/215/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Старт HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6384/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Setanta Sports FHD UA
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/272/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Viju+ Sport HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2007/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч! Игра FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2406/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",KHL Prime FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2403/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч ТВ FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2413/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч! Премьер FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2414/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч! Футбол 1 FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2407/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Viju+ Sport HD orig
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5065/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч! Футбол 2 FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2420/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Setanta Baltic 1 HD orig
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5069/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч! Футбол 3 HD 50 orig
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5071/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч! Футбол 1 HD 50 orig
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5072/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Setanta Sports+ FHD UA
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/968/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Setanta Sports 2 HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/270/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Eurosport 1 HD orig
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5075/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Eurosport 2 HD orig
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5076/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",ViaPlay Football SE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5078/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",beIN Sports 1 HD QA
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6123/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Матч! Футбол 3 FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2408/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Viasat Kino World HD orig
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/111/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Outdoor Channel HD US
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/119/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Top Secret
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/121/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Discovery Science PL
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/136/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Домашние Животные
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/158/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Точка Отрыва
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/159/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Надежда HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2153/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Viju Nature
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/161/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Viju History
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/162/index.m3u8
+#http://stream.mcquack.net/101/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Океан HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/703/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Viju Explore
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/163/index.m3u8
+#http://stream.mcquack.net/239/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Зоопарк
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/731/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Бобёр
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/725/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",History FHD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/837/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Дикий
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/847/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Тайны Галактики
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2010/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",ЕГЭ ТВ
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2020/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Nano
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2081/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Тайна
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2059/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Оружие
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2087/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Пёс и Ко
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2123/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Наша Тема
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2118/index.m3u8
+
 #EXTINF:0 tvg-rec="3" group-title="test",Наука HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2155/index.m3u8
+#http://stream.mcquack.net/125/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",National Geographic HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7255/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",National Geographic Wild HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7256/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Animal Planet HD DE
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7257/index.m3u8
+
 #EXTINF:0 tvg-rec="0" group-title="test",Моя Стихия HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/7349/index.m3u8
+
 #EXTINF:0 tvg-rec="7" group-title="test",Viju History HD
 http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/203/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-08-16 00:05:23  (56 URLs in 56 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:0 tvg-rec="3" group-title="test",Sky Sport Austria 2 HD DE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6113/index.m3u8
+#EXTINF:0 tvg-rec="0" group-title="test",Band Sports BR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6158/index.m3u8
+#EXTINF:0 tvg-rec="7" group-title="test",MMA-TV.com
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/843/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",TRT Spor Yildiz HD TR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2145/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Старт FHD
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2154/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Футбол
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/5050/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sky Sport News HD DE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2477/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sky Sport 1 FHD DE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2478/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sky Sport 2 HD DE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2479/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sky Sport Bundesliga 1 HD DE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2480/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sky Sport Austria 1 HD DE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2492/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",beIN Sports 1 HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2499/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",beIN Sports 2 HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2500/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",beIN Sports 3 HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2501/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Canal+ Sport HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2502/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport 1 HD DE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2503/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",TNT Sports 1 FHD UK
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2505/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",TNT Sports 2 HD UK
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2506/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Star Sports 2 IN
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2507/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Star Sports 1 IN
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2508/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",YAS Sports AE
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2511/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",ON Sport 1 HD EG
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2512/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Eleven Sports 2 HD PL
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2517/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Eleven Sports 1 HD PL
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2518/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Canal+ Sport 5 HD PL
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2519/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",TVP Sport HD PL
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2520/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DIGI Sport 2 HD RO
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2522/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DIGI Sport 1 HD RO
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2523/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DIGI Sport 3 HD RO
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2524/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport TV 1 HD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2525/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport TV 2 HD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2526/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport TV 3 HD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2527/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport TV 4 HD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2528/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport TV 5 HD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2529/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sporting TV FHD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2530/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DAZN 1 HD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2531/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DAZN 2 FHD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2532/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DAZN 4 FHD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2534/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DAZN 5 FHD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2535/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DAZN 6 FHD PT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2536/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",DIGI Sport 4 HD RO
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2538/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",TV 2 Sport 2 HD NO
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2541/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",RMC Sport 1 HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2545/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",RMC Sport 2 HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2546/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",RMC Sport 3 HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2547/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport 1 LT
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2548/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Arena Sport 1 FHD RS
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2550/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",ČT sport HD CZ
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2551/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Nova Sport 1 HD CZ
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2555/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Nova Sport 2 HD CZ
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2556/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Sport 2 HD CZ
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2557/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Ziggo Sport 3 HD NL
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2559/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Ziggo Sport HD NL
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2560/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Ziggo Sport 2 HD NL
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2561/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Infosport+ HD FR
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/2544/index.m3u8
+#EXTINF:0 tvg-rec="3" group-title="test",Окко Футбол HD
+http://bjoris.rostelekom.xyz/iptv/BUR3EZXNE9W9F77ZFKG5KZRE/6554/index.m3u8
