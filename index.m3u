@@ -4,6 +4,7 @@
 
 #EXTINF:0 group-title="Авто" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства.",Авто 24
 http://stream.mcquack.net/78/index.m3u8
+#http://185.121.1.163:8083/Avto24/index.m3u8
 
 #EXTINF:0 group-title="Авто" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-id="avto-plus" tvg-description="Телеканал об автомобилях: тест-драйвы, автоновости, тюнинг и советы автолюбителям.",Авто Плюс
 
@@ -65,6 +66,7 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 #http://stream.mcquack.net/33/index.m3u8
 #https://edge55.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
+#http://188.138.29.131:80/belarus5/index.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-description="Региональный телеканал Пинского района (Беларусь).",Варяг
 https://ngtrk.dc.beltelecom.by/vtv/_definst_/vitebsk.stream/playlist.m3u8
@@ -280,6 +282,7 @@ http://stream.mcquack.net/419/index.m3u8
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/nauka.png" tvg-id="nauka" tvg-description="Телеканал «Наука»: российская наука, эксперименты и технологии будущего.",Наука
 http://stream.mcquack.net/403/index.m3u8
+#http://stream.mcquack.net/125/index.m3u8
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20" tvg-description="«Наука 2.0» — российский научно-популярный телеканал.",Наука 2.0
 http://89.33.29.115:8080/Nauka_2.0/index.m3u8
@@ -470,6 +473,7 @@ http://stream.mcquack.net/275/index.m3u8
 
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/oxota-i-rybalka.png" tvg-id="oxota-i-rybalka" tvg-description="Охота и Рыбалка — российский тематический телеканал, посвящённый охоте и рыбалке.",Охота и Рыбалка
 http://stream.mcquack.net/155/index.m3u8
+#http://185.121.1.163:8083/OhotaRybalka/index.m3u8
 
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/oxotnik-i-rybolov-hd.png" tvg-id="oxotnik-i-rybolov-hd" tvg-description="Охотник и Рыболов — российский тематический телеканал для любителей охоты и рыбной ловли.",Охотник и Рыболов
 http://stream.mcquack.net/194/index.m3u8
@@ -483,12 +487,10 @@ http://stream.mcquack.net/241/index.m3u8
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/zhivaya-planeta.png" tvg-id="zhivaya-planeta" tvg-description="Живая планета — российский тематический телеканал о природе и окружающем мире.",Живая планета
 
-
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/zhivaya-priroda.png" tvg-id="zhivaya-priroda" tvg-description="Живая природа — российский тематический телеканал, транслирующий документальные фильмы о природе.",Живая природа
 http://stream.mcquack.net/225/index.m3u8
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/zootv.png" tvg-id="zootv" tvg-description="Зоо ТВ — российский тематический телеканал о животных и природе.",Зоо ТВ
-
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" tvg-id="animal-planet-eu" tvg-description="Animal Planet — международный телеканал о животных и природе. Транслирует документальные программы о дикой природе и домашних животных.",Animal Planet
 #http://stream.mcquack.net/114/index.m3u8
@@ -849,169 +851,4 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/104/index.m3u8
 #http://89.33.29.115:8080/Che/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/513/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9101/index.m3u8
-
-#EXTINF:0 tvg-rec="7" group-title="test",Viju History
-#http://stream.mcquack.net/101/index.m3u8
-
-#EXTINF:0 tvg-rec="7" group-title="test",Viju Explore
-#http://stream.mcquack.net/239/index.m3u8
-
-#EXTINF:0 tvg-rec="3" group-title="test",Наука HD
-#http://stream.mcquack.net/125/index.m3u8
-
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-08-17 19:47:30  (50 URLs in 50 channel group(s))
-# ───────────────────────────────────────────────────
-
-#EXTINF:-1 group-title="test",eurosport1
-http://188.138.29.131:80/eurosport1/index.m3u8
-
-#EXTINF:-1 group-title="test",Kinoman
-http://185.121.1.163:8083/Kinoman/index.m3u8
-
-#EXTINF:-1 group-title="test",ЕНТЕР ФІЛЬМ HD
-http://89.33.29.115:8080/enter_film_ua/index.m3u8
-
-#EXTINF:-1 group-title="test",eurosport2
-http://188.138.29.131:80/eurosport2/index.m3u8
-
-#EXTINF:-1 group-title="test",Kinomiks
-http://185.121.1.163:8083/Kinomiks/index.m3u8
-
-#EXTINF:-1 group-title="test",espn
-http://188.138.29.131:80/espn/index.m3u8
-
-#EXTINF:-1 group-title="test",Kinopremyera
-http://185.121.1.163:8083/Kinopremyera/index.m3u8
-
-#EXTINF:-1 group-title="test",football1
-http://188.138.29.131:80/football1/index.m3u8
-
-#EXTINF:-1 group-title="test",Kinosemya
-http://185.121.1.163:8083/Kinosemya/index.m3u8
-
-#EXTINF:-1 group-title="test",football2
-http://188.138.29.131:80/football2/index.m3u8
-
-#EXTINF:-1 group-title="test",Kino TV
-http://185.121.1.163:8083/KinoTV/index.m3u8
-
-#EXTINF:-1 group-title="test",football3
-http://188.138.29.131:80/football3/index.m3u8
-
-#EXTINF:-1 group-title="test",khlhd
-http://188.138.29.131:80/khlhd/index.m3u8
-
-#EXTINF:-1 group-title="test",match
-http://188.138.29.131:80/match/index.m3u8
-
-#EXTINF:-1 group-title="test",Muzhskoe Kino
-http://185.121.1.163:8083/MuzhskoeKino/index.m3u8
-
-#EXTINF:-1 group-title="test",matcharena
-http://188.138.29.131:80/matcharena/index.m3u8
-
-#EXTINF:-1 group-title="test",matchigra
-http://188.138.29.131:80/matchigra/index.m3u8
-
-#EXTINF:-1 group-title="test",TV 1000 Kino
-http://185.121.1.163:8083/TV1000RusskoeKino/index.m3u8
-
-#EXTINF:-1 group-title="test",matchplaneta
-http://188.138.29.131:80/matchplaneta/index.m3u8
-
-#EXTINF:-1 group-title="test",Indiyskoe Kino
-http://185.121.1.163:8083/IndiyskoeKino/index.m3u8
-
-#EXTINF:-1 group-title="test",mmatv
-http://188.138.29.131:80/mmatv/index.m3u8
-
-#EXTINF:-1 group-title="test",nashfootball
-http://188.138.29.131:80/nashfootball/index.m3u8
-
-#EXTINF:-1 group-title="test",Dom Kino
-http://185.121.1.163:8083/DomKino/index.m3u8
-
-#EXTINF:-1 group-title="test",Nashe Novoe Kino
-http://185.121.1.163:8083/NasheNovoeKino/index.m3u8
-
-#EXTINF:-1 group-title="test",Mosfilm
-http://185.121.1.163:8083/Mosfilm/index.m3u8
-
-#EXTINF:-1 group-title="test",setanta1
-http://188.138.29.131:80/setanta1/index.m3u8
-
-#EXTINF:-1 group-title="test",Kineko
-http://185.121.1.163:8083/Kineko/index.m3u8
-
-#EXTINF:-1 group-title="test",setanta2
-http://188.138.29.131:80/setanta2/index.m3u8
-
-#EXTINF:-1 group-title="test",Avto24
-http://185.121.1.163:8083/Avto24/index.m3u8
-
-#EXTINF:-1 group-title="test",setantaplus ua
-http://188.138.29.131:80/setantaplus/index.m3u8
-
-#EXTINF:-1 group-title="test",Ohota Rybalka
-http://185.121.1.163:8083/OhotaRybalka/index.m3u8
-
-#EXTINF:-1 group-title="test",setantaua
-http://188.138.29.131:80/setantaua/index.m3u8
-
-#EXTINF:-1 group-title="test",Navo
-http://185.121.1.163:8083/Navo/index.m3u8
-
-#EXTINF:-1 group-title="test",skysportsf1
-http://188.138.29.131:80/skysportsf1/index.m3u8
-
-#EXTINF:-1 group-title="test",nba
-http://188.138.29.131:80/nba/index.m3u8
-
-#EXTINF:-1 group-title="test",ufctv
-http://188.138.29.131:80/ufctv/index.m3u8
-
-#EXTINF:-1 group-title="test",viasatsport
-http://188.138.29.131:80/viasatsport/index.m3u8
-
-#EXTINF:-1 group-title="test",tntsport3
-http://188.138.29.131:80/tntsport3/index.m3u8
-
-#EXTINF:-1 group-title="test",tntsport2
-http://188.138.29.131:80/tntsport2/index.m3u8
-
-#EXTINF:-1 group-title="test",tntsport1
-http://188.138.29.131:80/tntsport1/index.m3u8
-
-#EXTINF:-1 group-title="test",boetstv
-http://188.138.29.131:80/boetstv/index.m3u8
-
-#EXTINF:-1 group-title="test",skygolf
-http://188.138.29.131:80/skygolf/index.m3u8
-
-#EXTINF:-1 group-title="test",skyfootball
-http://188.138.29.131:80/skyfootball/index.m3u8
-
-#EXTINF:-1 group-title="test",skymix
-http://188.138.29.131:80/skymix/index.m3u8
-
-#EXTINF:-1 group-title="test",nbcsn
-http://188.138.29.131:80/nbcsn/index.m3u8
-
-#EXTINF:-1 group-title="test",foxsports2
-http://188.138.29.131:80/foxsports2/index.m3u8
-
-#EXTINF:-1 group-title="test",start
-http://188.138.29.131:80/start/index.m3u8
-
-#EXTINF:-1 group-title="test",nhl
-http://188.138.29.131:80/nhl/index.m3u8
-
-#EXTINF:-1 group-title="test",belarus5
-http://188.138.29.131:80/belarus5/index.m3u8
-
-#EXTINF:-1 group-title="test",bokstv
-http://188.138.29.131:80/bokstv/index.m3u8
 

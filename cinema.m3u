@@ -6,6 +6,7 @@
 
 #EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/muzhskoe-kino.png" tvg-id="muzhskoe-kino" tvg-description="Телеканал боевиков, приключенческого и остросюжетного кино.",Мужское кино
 http://stream.mcquack.net/107/index.m3u8
+#http://185.121.1.163:8083/MuzhskoeKino/index.m3u8
 
 #EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/sony-scifi.png" tvg-id="sony-scifi" tvg-description="Фантастические сериалы и фильмы (бывший Sony Sci-Fi).",.sci-fi
 http://live.uspeh-bil.ru/8115/video.m3u8?token=UBwVqZcPL8UPmoYU
@@ -25,6 +26,8 @@ https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/eurokino.png" tvg-id="evrokino" tvg-description="Телеканал европейского авторского и фестивального кино.",Еврокино
 http://89.33.29.115:8080/Evrokino/index.m3u8
 #http://stream.mcquack.net/385/index.m3u8
+#EXTINF:0 group-title="Зарубежное кино" tvg-description="«Киноман» — телеканал мирового кино: массовые, фестивальные и авторские фильмы последних лет.",Киноман
+http://185.121.1.163:8083/Kinoman/index.m3u8
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/tvxxi.png" tvg-id="tvxxi" tvg-description="Русскоязычный киноканал TV XXI: художественные фильмы разных жанров.",ТВ XXI
 http://stream.mcquack.net/152/index.m3u8
@@ -49,6 +52,7 @@ http://stream.mcquack.net/465/index.m3u8
 
 #EXTINF:0 group-title="Индийское и азиатское" tvg-logo="https://iptvx.one/picons/indijskoe-kino.png" tvg-id="indiyskoe-kino" tvg-description="Телеканал индийского кино — фильмы Болливуда на русском языке.",Индийское кино
 http://stream.mcquack.net/104/index.m3u8
+#http://185.121.1.163:8083/IndiyskoeKino/index.m3u8
 
 #EXTINF:0 group-title="Индийское и азиатское" tvg-logo="https://iptvx.one/picons/zee-tv.png" tvg-id="zee-tv" tvg-description="Индийский развлекательно-познавательный телеканал на русском языке: кино Болливуда, музыка, кулинария и мода.",Индия
 
@@ -79,9 +83,11 @@ http://89.33.29.115:8080/drama/index.m3u8
 #http://89.33.29.118:8080/Kino_TV_HD/index.m3u8
 #http://stream.mcquack.net/221/index.m3u8
 http://stream.mcquack.net/240/index.m3u8
+#http://185.121.1.163:8083/KinoTV/index.m3u8
 
 #EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kinomiks.png" tvg-id="kinomiks" tvg-description="Киноканал с фильмами разных жанров.",Киномикс
 http://stream.mcquack.net/133/index.m3u8
+#http://185.121.1.163:8083/Kinomiks/index.m3u8
 
 #EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kinopokaz.png" tvg-id="kinopokaz" tvg-description="Художественные фильмы разных жанров круглосуточно.",Кинопоказ
 http://stream.mcquack.net/64/index.m3u8
@@ -103,6 +109,7 @@ http://stream.mcquack.net/108/index.m3u8
 
 #EXTINF:0 group-title="Российское кино" tvg-logo="https://iptvx.one/picons/kinosemia.png" tvg-id="kinosemiya" tvg-description="Телеканал семейного кино.",Киносемья
 http://stream.mcquack.net/170/index.m3u8
+#http://185.121.1.163:8083/Kinosemya/index.m3u8
 
 #EXTINF:0 group-title="Российское кино" tvg-logo="https://iptvx.one/picons/kinoseria.png" tvg-id="kinoseria" tvg-description="Киноканал художественных фильмов и киносериалов.",Киносерия
 
@@ -114,9 +121,11 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/31928/index.m3u8
 #EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/domkino.png" tvg-id="domkino" tvg-description="Российский телеканал отечественного кино и сериалов.",Дом кино
 http://stream.mcquack.net/236/index.m3u8
 #http://57.128.196.110/10126/index.m3u8?token=9BBA2C39AD31
+#http://185.121.1.163:8083/DomKino/index.m3u8
 
 #EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm" tvg-description="Золотой фонд «Мосфильма»: легендарная советская киноклассика.",Мосфильм. Золотая коллекция
 http://stream.mcquack.net/369/index.m3u8
+#http://185.121.1.163:8083/Mosfilm/index.m3u8
 
 #EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/nashesd.png" tvg-id="nashesd" tvg-description="Российский музыкальный телеканал отечественного рока (НАШЕ).",Наше
 http://stream.mcquack.net/217/index.m3u8
@@ -164,6 +173,7 @@ http://89.33.29.118:8080/blokbaster_hd/index.m3u8
 http://stream.mcquack.net/213/index.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/kinopremiera.png" tvg-id="kinopremiera-hd" tvg-description="Телеканал кинопремьер и новинок проката.",Кинопремьера
+http://185.121.1.163:8083/Kinopremyera/index.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/komedijnoe.png" tvg-id="komedijnoe" tvg-description="Комедии круглосуточно: российские и зарубежные.",Комедийное
 http://stream.mcquack.net/74/index.m3u8
@@ -175,6 +185,7 @@ http://stream.mcquack.net/456/index.m3u8
 http://stream.mcquack.net/362/index.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/nashe-novoe-kino.png" tvg-id="nashe-novoe-kino" tvg-description="Телеканал современного российского кино.",Наше новое кино
+http://185.121.1.163:8083/NasheNovoeKino/index.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/ostrosiuzhetnoe.png" tvg-id="ostrosiuzhetnoe" tvg-description="Киноканал остросюжетного кино: боевики, триллеры и детективы.",Остросюжетное
 http://stream.mcquack.net/214/index.m3u8
@@ -225,6 +236,8 @@ http://89.33.29.115:8080/TV1000/index.m3u8
 #EXTINF:0 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",TV 1000 Action
 http://89.33.29.115:8080/TV1000_Action/index.m3u8
 #http://stream.mcquack.net/100/index.m3u8
+#EXTINF:0 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" tvg-id="tv1000-russkoe-kino" tvg-description="Отечественное кино и сериалы (viju TV1000 Русское).",TV 1000 Русское кино
+http://185.121.1.163:8083/TV1000RusskoeKino/index.m3u8
 
 # Viasat
 
