@@ -90,6 +90,7 @@ vcp*.myplaytv.com
 *.uzbeklar.biz
 *.faylmovi.ru
 *.uzmedia.tv
+*.mvzd.ru
 
 # --- blocked hosts ---
 rhema-radio.streamguys1.com
@@ -699,7 +700,6 @@ musicbox.amgradio.ru
 media.boni-records.com
 3.tvtm.one
 bethoven.af-stream.com
-tshift-1.telecoma.tv
 ru7.hls.gd
 vjl8lxsx.megatv.fun
 c3921155.edmonst.net
@@ -837,6 +837,19 @@ ott.server-iptv.live
 reg.fmplay.ru
 cdn.nexttvnet.ru
 bjoris.rostelekom.xyz
+live.uspeh-bil.ru
+disk.onetvuz.com
+tempradio-live.uz
+uskudarunv.mediatriple.net
+1rus.ru
+russian-livews.cgtn.com
+customer-9vqui33qma2rownb.cloudflarestream.com
+ns10.jethost.uz
+1hskrdto.rocketcdn.com
+hz1.teleport.cc
+zuno.surge.sh
+moymir.ru
+daxshat.net
 
 # --- blocked IPs ---
 45.190.28.50
@@ -1159,17 +1172,17 @@ bjoris.rostelekom.xyz
 194.5.152.248
 46.162.201.15
 91.186.196.185
+89.33.29.118
+188.138.29.131
 
 # --- blocked full URLs / paths ---
 
-http://tshift-1.telecoma.tv/8channel/index.m3u8
 http://212.233.98.62/okino-tv/index.m3u8
 
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus1/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5int/playlist.m3u8
-
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/playlist.m3u8
 
 https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1/chunklist_w148744111_b5160000_sleng.m3u8
@@ -1187,22 +1200,14 @@ http://stream.mcquack.net/173/index.m3u8
 http://stream.mcquack.net/73/index.m3u8
 http://stream.mcquack.net/142/index.m3u8
 http://stream.mcquack.net/83/index.m3u8
+http://stream.mcquack.net/144/index.m3u8
+http://stream.mcquack.net/204/index.m3u8
+http://stream.mcquack.net/303/index.m3u8
+http://stream.mcquack.net/72/index.m3u8
+http://stream.mcquack.net/75/index.m3u8
+http://stream.mcquack.net/440/index.m3u8
 
-http://hz1.teleport.cc/HLS/HD.m3u8
-https://zuno.surge.sh/info.mp4
-https://moymir.ru/hls/onair.m3u8
-
-http://89.33.29.115:8080/STB/index.m3u8
-http://181.78.192.238:8000/play/a2fs/index.m3u8
 http://185.37.150.38/test/index.m3u8
-
-http://1hskrdto.rocketcdn.com/fenerbahcetv.smil/playlist.m3u8
-http://ns10.jethost.uz:8000/yoshlarovoziaac
-https://customer-9vqui33qma2rownb.cloudflarestream.com/7792e558fe54e23bdd4b462ec275cdba/manifest/video.m3u8
-https://daxshat.net/26000-zarqushni-izlab-ozbek-tilida.html
-https://disk.onetvuz.com/tarjima_kinolar/ajal_2_480.mp4
-https://tempradio-live.uz/streamaac
-https://uskudarunv.mediatriple.net/uskudarunv/uskudar2/playlist.m3u8
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15012/index.m3u8
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19241/index.m3u8
@@ -1211,6 +1216,8 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/16043/index.m3u8
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/14157/index.m3u8
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5049/index.m3u8
 
+http://201.186.41.99:8001/play/a059/index.m3u8
+
 
 # === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
 # Добавлено проверкой. Строки без схемы — хосты целиком
@@ -1218,191 +1225,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5049/index.m3u8
 # совпадение URL. Блок можно удалить целиком: чекер
 # просто проверит эти ссылки заново.
 
-# --- 2026-08-18 20:35 ---
-# отдельные ссылки (186):
+# --- 2026-08-20 15:04 ---
+# отдельные ссылки (1):
 http://185.121.1.163:8083/kinouzhas/index.m3u
-http://201.186.41.99:8001/play/a058/index.m3u8
-http://89.33.29.118:8080/blokbaster_hd/index.m3u8
-http://89.33.29.118:8080/history_hd/index.m3u8
-http://89.33.29.118:8080/hollywood_hd/index.m3u8
-http://89.33.29.118:8080/kino_tv_hd/index.m3u8
-http://live.uspeh-bil.ru/8115/video.m3u8?token=ubwvqzcpl8upmoyu
-http://stream.mcquack.net/144/index.m3u8
-http://stream.mcquack.net/204/index.m3u8
-http://stream.mcquack.net/303/index.m3u8
-http://stream.mcquack.net/72/index.m3u8
-http://stream.mcquack.net/75/index.m3u8
-https://1rus.ru/content//_1080p.m3u8
-https://s1.mvzd.ru/content/th/el/the_lord_of_the_rings-the_two_towers_2002_extended-cut_bdrip-avc_-hqcl_1080p.m3u8
-https://s4.mvzd.ru/content/00/am/fast_five_1080p.m3u8
-https://s4.mvzd.ru/content/01/ta/01_taksi_taxi_1998_bdrip-hevc_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/02/ta/02_taksi_2_taxi_2_2000_bdrip-hevc_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/03/ta/03_taksi_3_taxi_3_2003_bdrip-hevc_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/04/ta/04_taksi_4_taxi_4_2007_theatrical_cut_bdrip-hevc_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/0l/bp/3_noch_v_muzee_sekret_grobnicy_2014_1080r__1080p.m3u8
-https://s4.mvzd.ru/content/15/za/kusuriya_no_hitorigoto_-_01_1080p.m3u8
-https://s4.mvzd.ru/content/2c/0m/her_2013_bdrip_1080p_ac3_1080p.m3u8
-https://s4.mvzd.ru/content/2n/db/ljubovnoe_nastrojenie_2000_divx_dvdrip-bestvideo_1080p.m3u8
-https://s4.mvzd.ru/content/33/vi/33-vi-idite-ja-necu-33-2015-sml_1080p.m3u8
-https://s4.mvzd.ru/content/34/2y/prorok_2009_xvid_dvdrip_hdrip_-kinozal_tv_1080p.m3u8
-https://s4.mvzd.ru/content/3n/y7/the_florida_project_2017_1080p_bluray_dts_x264-viethd_1080p.m3u8
-https://s4.mvzd.ru/content/4b/oz/yi_yi_2000_bdrip_1_46_teko__1080p.m3u8
-https://s4.mvzd.ru/content/4r/pu/red_2-1_1080p.m3u8
-https://s4.mvzd.ru/content/52/45/5245469198932_1080p.m3u8
-https://s4.mvzd.ru/content/52/8j/red_2010_1080p.m3u8
-https://s4.mvzd.ru/content/5p/n8/scrubs_s08e01_my_jerks_bdrip1080p_mtv_tvshows_eng__1080p.m3u8
-https://s4.mvzd.ru/content/6k/k8/the_big_bang_theory_season_01_episode_01_full_hd_bd-remux_by_wild_cat_1080p.m3u8
-https://s4.mvzd.ru/content/6k/kr/otvazhnye_2011_bdrip_1080p.m3u8
-https://s4.mvzd.ru/content/6r/nf/nightcrawler_1080p.m3u8
-https://s4.mvzd.ru/content/7q/ac/pered_zakatom_2004_xvid_dvdrip_bratan23_1080p.m3u8
-https://s4.mvzd.ru/content/8e/ye/under_the_skin_2013_p_bdrip_1080p_elektri4ka_1080p.m3u8
-https://s4.mvzd.ru/content/8m/bc/furious_6_1080p.m3u8
-https://s4.mvzd.ru/content/an/ge/angel_has_fallen_2019_bdrip_1080p_selezen_1080p.m3u8
-https://s4.mvzd.ru/content/ba/ke/bakemono_no_ko_2018_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/bb/8e/_lost_in_translation_2003_1080p.m3u8
-https://s4.mvzd.ru/content/be/li/beliy_dom_attak_2013_1080_cmegroup_1080p.m3u8
-https://s4.mvzd.ru/content/be/nd/bend_it_like_beckham_2002_bdrip_2_91__1080p.m3u8
-https://s4.mvzd.ru/content/bf/kc/lilo_1080p.m3u8
-https://s4.mvzd.ru/content/bi/rd/bird_1080p.m3u8
-https://s4.mvzd.ru/content/bl/ac/black_mirror_01_serya_web-dl_1080p_by_lunkin_1080p.m3u8
-https://s4.mvzd.ru/content/bo/gi/bogi_naveroe_soshli_s_uma_2_1989_x264_dvdrip_avc_vasyok1970_1080p.m3u8
-https://s4.mvzd.ru/content/ca/pi/capitaine_thomas_sankara_2012__1080p.m3u8
-https://s4.mvzd.ru/content/ca/pt/captain_marvel_2019_bdrip_1080p_selezen_1080p.m3u8
-https://s4.mvzd.ru/content/ch/el/chelovek_dozhdya_1080p.m3u8
-https://s4.mvzd.ru/content/ch/td/get_out_2017_bdrip_1080_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/ch/ud/chudo_2004_miracle__1080p.m3u8
-https://s4.mvzd.ru/content/ci/ty/city_lights_1931_720p_bluray_sub_1080p.m3u8
-https://s4.mvzd.ru/content/cl/au/claude_levi-strauss_par_lui-meme_2008__1080p.m3u8
-https://s4.mvzd.ru/content/co/nt/contratiempo_2016_x264_bdrip_1080p_ollandgroup_1080p.m3u8
-https://s4.mvzd.ru/content/cr/oc/crocodile_dundee_1986__1080p.m3u8
-https://s4.mvzd.ru/content/cr/oc/crocodile_dundee_ii_1988__1080p.m3u8
-https://s4.mvzd.ru/content/cr/oc/crocodile_dundee_in_los_angeles_2001__1080p.m3u8
-https://s4.mvzd.ru/content/df/hq/the_hurt_locker_2008_bdrip-f_hd_1080p.m3u8
-https://s4.mvzd.ru/content/di/ck/dick_tracy_1080p.m3u8
-https://s4.mvzd.ru/content/dr/ug/drugie_2001_bdrip_1080p_rus_eng_1080p.m3u8
-https://s4.mvzd.ru/content/e0/ku/four_rooms_1995_1080p_hevc_10bit_1080p.m3u8
-https://s4.mvzd.ru/content/ef/fe/effekt_babochki_rezhiserskaya_versiya_2004_x264_bdrip_1080p_hdclub_1080p.m3u8
-https://s4.mvzd.ru/content/em/e4/best_in_show_2000_hdrip_1080p.m3u8
-https://s4.mvzd.ru/content/es/ca/escape_from_pretoria_2020_bdrip_1080p_w_1080p.m3u8
-https://s4.mvzd.ru/content/ff/n2/mir_yurskogo_perioda_vozrozhdenie_2025_web-dl_1080p_nnmclub_1080p.m3u8
-https://s4.mvzd.ru/content/gd/ec/gde_cveta_limun_zut_2006__1080p.m3u8
-https://s4.mvzd.ru/content/go/ne/gone_girl_2014_x264_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/gq/h9/razvod_nadera_i_simin_film_2011__1080p.m3u8
-https://s4.mvzd.ru/content/hk/to/mulholland_dr_2001_bdrip-hevc_1080p_10_bit_1080p.m3u8
-https://s4.mvzd.ru/content/ii/su/iisus_iz_nazareta_1_1977_x264_bdrip_720p_1080p.m3u8
-https://s4.mvzd.ru/content/im/pb/drevo_zhizni_2011_bdrip_720p_by_msltel_1080p.m3u8
-https://s4.mvzd.ru/content/in/od/the_master_2012_1080p_bluray_2xrus_eng_hdclub-skazhutin_1080p.m3u8
-https://s4.mvzd.ru/content/iz/go/izgoy_2000_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/ja/ws/jaws_1975_hdrip_scarabey_org__1080p.m3u8
-https://s4.mvzd.ru/content/ju/uo/lubov_2012_p_hdrip_1400mb_1080p.m3u8
-https://s4.mvzd.ru/content/kh/cn/samoletom_poezdom_mashinoy_planes_trains_automobiles_1987__1080p.m3u8
-https://s4.mvzd.ru/content/ki/mi/kimi_no_na_wa_2016_x264_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/kl/au/klaus_2019_webrip_2160p_hdr_1080p.m3u8
-https://s4.mvzd.ru/content/kn/ya/knyazhestvo_1080p.m3u8
-https://s4.mvzd.ru/content/ko/ro/korol_ralf_1080p.m3u8
-https://s4.mvzd.ru/content/ko/so/kosovo_-_a_moment_in_civilization_2017__1080p.m3u8
-https://s4.mvzd.ru/content/ko/so/kosovo_mozhete_li_vy_sebe_predstavit_saby_1080p.m3u8
-https://s4.mvzd.ru/content/kr/as/krasota_po_amerikanski_1999_xvid_dvdrip_bdrip__1080p.m3u8
-https://s4.mvzd.ru/content/ku/5h/1_noch_v_muzee_2006_1080r__1080p.m3u8
-https://s4.mvzd.ru/content/l3/02/eddington_2025_1080p_amzn_-_new-team_1080p.m3u8
-https://s4.mvzd.ru/content/la/la/la_la_land_2016_lic_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/le/co/lecolebuissonnierebdrip1080p_1080p.m3u8
-https://s4.mvzd.ru/content/le/si/le_silence_des_anges_1999__1080p.m3u8
-https://s4.mvzd.ru/content/li/me/limelight_1952_1080p.m3u8
-https://s4.mvzd.ru/content/li/on/lion_2016_lic_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/lk/nn/f1_the_movie_2025_1080p_it_web-dl_h_264-eniahd_1080p.m3u8
-https://s4.mvzd.ru/content/lo/nd/london_has_fallen_2016_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/lo/rd/lord_of_war_1080p.m3u8
-https://s4.mvzd.ru/content/ma/lc/malchik_v_polosatoj_pizhame_2008_x264_bdrip_1080p-maks1979_1080p.m3u8
-https://s4.mvzd.ru/content/me/6g/el_laberinto_del_fauno_2006_1080p_hevcclub_1080p.m3u8
-https://s4.mvzd.ru/content/me/an/mean_machine_2001_hdrip_1080p.m3u8
-https://s4.mvzd.ru/content/mi/ss/miss_sloane_2016_bdrip_108op_werecut_prod_1080p.m3u8
-https://s4.mvzd.ru/content/mo/nt/montenegro_-_a_land_divided_2021__1080p.m3u8
-https://s4.mvzd.ru/content/mo/on/moonwalkers_2015_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/na/ve/navernoe_bogi_soshli_s_uma_1980_divx_dvdrip_1080p.m3u8
-https://s4.mvzd.ru/content/ne/ud/neuderzhimye_3_1080p_ton_1080p.m3u8
-https://s4.mvzd.ru/content/ne/vo/nevozmozhnoe_-_lo_imposible_the_impossible_2012_bdrip1080p_hevc__1080p.m3u8
-https://s4.mvzd.ru/content/ni/kt/nikto_1080p.m3u8
-https://s4.mvzd.ru/content/nk/ku/serjoznyj_chelovek_2009_bdrip_1080p_envy__1080p.m3u8
-https://s4.mvzd.ru/content/no/co/no_country_for_old_men_2007_x265_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/no/if/pochti_znamenit_2000_bdrip_mvo_1080p.m3u8
-https://s4.mvzd.ru/content/ob/la/oblasti_tjmy_2011_x264_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/od/in/odin_den_2011_x264_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/oh/ot/ohota_2012_bdrip_1080p__1080p.m3u8
-https://s4.mvzd.ru/content/ok/wn/the_queen_n_1080p.m3u8
-https://s4.mvzd.ru/content/ol/db/oldboy_2003_x264_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/ol/ym/olympus_has_fallen_2013_1080p_bluray_x264_rus_eng_subs-hdwing_1080p.m3u8
-https://s4.mvzd.ru/content/pa/dd/paddington_2014_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/pa/dd/paddington_2_2017_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/pa/pi/papillon_2017_bdrip_1080p_selezen_1080p.m3u8
-https://s4.mvzd.ru/content/pa/ra/parasite_gisaengchung_2019_bdrip_1080p_3xrus_kor_1080p.m3u8
-https://s4.mvzd.ru/content/pa/ri/pariz_ya_lublyu_tebya_2006_x264_bdrip_1080p.m3u8
-https://s4.mvzd.ru/content/pa/rn/parni_1080p.m3u8
-https://s4.mvzd.ru/content/pa/ss/passages_through_paradise_2000__1080p.m3u8
-https://s4.mvzd.ru/content/pi/19/pi_1998_divx_dvdrip_1080p.m3u8
-https://s4.mvzd.ru/content/pk/4n/2_noch_v_muzee_2_2009_1080r__1080p.m3u8
-https://s4.mvzd.ru/content/pl/ac/places_in_the_heart_new_1080p.m3u8
-https://s4.mvzd.ru/content/po/ja/pojary_2010_x264_bdrip_1080p_-hdclub_1080p.m3u8
-https://s4.mvzd.ru/content/po/ln/polnochnyy_dzhaz_1986_bdrip_1080p_8mb_1audio__1080p.m3u8
-https://s4.mvzd.ru/content/po/mn/pomni_2000_x264_1080p_bdrip_1080p.m3u8
-https://s4.mvzd.ru/content/pr/es/prestupnik_2008_x264_bdrip_1080p_-prishel_1080p.m3u8
-https://s4.mvzd.ru/content/pr/in/princess_mononoke_1997_bdrip_1080p_hevc__1080p.m3u8
-https://s4.mvzd.ru/content/pr/is/prisoners_2013_bdrip_1080p_hdr_1080p.m3u8
-https://s4.mvzd.ru/content/pr/of/proffesional_1981_x264_bdrip_720p-kinozal_tv__1080p.m3u8
-https://s4.mvzd.ru/content/pr/os/prostaya_formalnost_1994_bdrip_720p_1080p.m3u8
-https://s4.mvzd.ru/content/re/de/red_eye_2005_720p-dfm_1080p.m3u8
-https://s4.mvzd.ru/content/re/qu/requiem_for_a_dream_2000__1080p.m3u8
-https://s4.mvzd.ru/content/sc/ha/schastlivoe_chislo_slevina_2006_x264_bdrip_1080p_kinozal_tv-hd_1080p.m3u8
-https://s4.mvzd.ru/content/se/rd/serdceedki_2001_hdrip_xvid_-leon_1080p.m3u8
-https://s4.mvzd.ru/content/se/rp/serpico_1080p.m3u8
-https://s4.mvzd.ru/content/so/cj/socjuvstvie_gospozhe_mest_2005_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/sq/0k/toni_erdmann_2016_hdrip_1080p.m3u8
-https://s4.mvzd.ru/content/sr/ps/srpska_-_the_struggle_for_freedom_2022__3_1080p.m3u8
-https://s4.mvzd.ru/content/st/uk/stukach_2013__1080p.m3u8
-https://s4.mvzd.ru/content/su/me/sumerki_saga_rassvet_chast-1_2011_x264_bdrip_1080p__1080p.m3u8
-https://s4.mvzd.ru/content/su/me/sumerki_saga_rassvet_chast_2_film_2012__1080p.m3u8
-https://s4.mvzd.ru/content/su/me/sumerki_saga_zatmenie_film_2010__1080p.m3u8
-https://s4.mvzd.ru/content/sw/or/swordfish_2001_bdrip_1080p_hevc_10bit_by_xumuk_1080p.m3u8
-https://s4.mvzd.ru/content/sy/mp/sympathy_for_mr_vengeance_2002_x264_bdrip_avc_lx1966_1080p.m3u8
-https://s4.mvzd.ru/content/ta/la/talantlivyj_mister_ripli_1999_rus_bdrip_xvid_ac3_-hqclub_1080p.m3u8
-https://s4.mvzd.ru/content/tc/c0/0tr0chestv0_2014_d_hdrip_1400mb_1080p.m3u8
-https://s4.mvzd.ru/content/te/le/telenovosti_1080p.m3u8
-https://s4.mvzd.ru/content/te/lo/telohranitel_1992_xvid_dvdrip_kinozal_tv_1080p.m3u8
-https://s4.mvzd.ru/content/te/rc/tercer_mundo_tercera_guerra_mundial_1970__1080p.m3u8
-https://s4.mvzd.ru/content/th/ea/the_avengers_2012_720p_blu-ray_x264_rus_ukr_eng_subs-hdchina_1080p.m3u8
-https://s4.mvzd.ru/content/th/eb/the_braid_2023_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/th/ec/the_circus_1928_criterion_bluray_remux_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/th/ed/the_damned_united_2009_x264_bdrip_720p_bluebird_1080p.m3u8
-https://s4.mvzd.ru/content/th/ee/the_expendables_2010_1080p_bluray_dts_x264-ctrlhd_1080p.m3u8
-https://s4.mvzd.ru/content/th/eg/the_gold_rush_1925_sound_version_cc_1080p_bdremux_1080p.m3u8
-https://s4.mvzd.ru/content/th/eh/the_hand_that_rocks_the_cradle_1992_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/th/eh/the_help_2011_720p_bluray_dts_rus_eng_hdclub_1080p.m3u8
-https://s4.mvzd.ru/content/th/el/the_lives_of_others_2006_bdrip_1080p_envy__1080p.m3u8
-https://s4.mvzd.ru/content/th/ep/the_patriot_game_1979__1080p.m3u8
-https://s4.mvzd.ru/content/th/ep/the_physician_2013_bdrip_1080p-mediaclub_1080p.m3u8
-https://s4.mvzd.ru/content/th/er/the_royal_tenenbaums_2001_hdrip_xvid_1400mb_rip_by_assassin_s_creed__1080p.m3u8
-https://s4.mvzd.ru/content/th/et/the_thing_1982_bdrip_xvid_ac-3_p_1400mb_g_u_1080p.m3u8
-https://s4.mvzd.ru/content/th/ew/the_world_s_fastest_indian_bdrip_1080p_2xrus_ukr_eng_sub_by_v1adboyko_1080p.m3u8
-https://s4.mvzd.ru/content/ti/ll/tillies_punctured_romance_1914_with_charlie_chaplin_rus_1080p.m3u8
-https://s4.mvzd.ru/content/to/pg/top_gan_1080p.m3u8
-https://s4.mvzd.ru/content/to/pg/top_gan_myeverik_1080p.m3u8
-https://s4.mvzd.ru/content/tr/op/tropic_thunder_2008_director_s_cut_bdrip_1080p_hevc_10_bit_1080p.m3u8
-https://s4.mvzd.ru/content/tr/oy/troy_directors_2004_bdrip_1080p_rus_1080p.m3u8
-https://s4.mvzd.ru/content/ty/az/tyazhest_cepey_2_-_the_weight_of_chains_2_2014__4_1080p.m3u8
-https://s4.mvzd.ru/content/ty/az/tyazhest_cepey_s_sabami_3_1080p.m3u8
-https://s4.mvzd.ru/content/u4/f4/the_phoenician_scheme_1080p.m3u8
-https://s4.mvzd.ru/content/ub/oi/uboinie_kanikuli_2010_x264_bdrip_1080p_1080p.m3u8
-https://s4.mvzd.ru/content/un/ea/une-approche-de-claude-levi-strauss-1974-sml_1080p.m3u8
-https://s4.mvzd.ru/content/vi/ct/victory_1080p.m3u8
-https://s4.mvzd.ru/content/wa/tc/watchmen_2009_ultimate_cut_bdrip_1080p_hevc__1080p.m3u8
-https://s4.mvzd.ru/content/wo/nd/wonder_2017_bdrip_1080p_exkinoray_1080p.m3u8
-https://s4.mvzd.ru/content/ya/ri/kradushhiysya_tigr_zataivshiysya_drakon_crouching_tiger_hidden_dragon__1080p.m3u8
-https://s4.mvzd.ru/content/z8/pb/aftersun_2022_bdrip_1080p_ot_new-team_jns82_1080p.m3u8
-https://s4.mvzd.ru/content/za/ga/zagadochnaya_istoriya_bendzhamina_battona_2008_bdrip_1080p_hevc_10_bit_1080p.m3u8
-https://s4.mvzd.ru/content/za/ko/zakonoposlushnyy_grazhdanin_-_law_abiding_citizen_2009_bdrip1080p_dc__1080p.m3u8
-https://s4.mvzd.ru/content/za/ve/zavestanje_2016__1080p.m3u8
-https://s4.mvzd.ru/content/ze/ml/zemletrjasenie_2010_x264_bdrip_720p_pasha2008_1080p.m3u8
-https://s4.mvzd.ru/content/zh/el/zheleznij_chelovek_2008_x264_bdrip_1080p__1080p.m3u8
-https://s4.mvzd.ru/content/zh/on/zhong_quan_ba_gong_2023_web-dl_1080p_asiaone-kyle_1080p.m3u8
-https://s4.mvzd.ru/content/zv/uk/zvuk_svobodyi_2023_bdrip_1080p_elektri4ka_uniongang_1080p.m3u8
-https://s6.mvzd.ru/content/kc/5o/dzhek_rayan_prizrachnaya_voyna_tom_clancy_s_jack_ryan_ghost_war_2026__1080p.m3u88
