@@ -3,7 +3,8 @@
 M3U Index Updater
 ==================
 Обслуживает НЕСКОЛЬКО плейлистов сразу: index.m3u и дополнительные тематические
-файлы (sport.m3u, music.m3u, foreign.m3u, children.m3u, tv_series.m3u — см.
+файлы (sport.m3u, music.m3u, foreign.m3u, children.m3u, tv_series.m3u,
+discovery.m3u, hobby.m3u — см.
 EXTRA_PLAYLISTS). Читает их, качает источники, находит каналы с совпадающим
 именем/tvg-id и вставляет рабочие ссылки прямо в блок нужного канала — в том
 файле, где этот канал лежит (первая активная ссылка без '#', последующие как
@@ -267,12 +268,14 @@ DEFAULT_INDEX_FILE  = "index.m3u"
 # Открытие «мусорки» test (Step 5b) остаётся ТОЛЬКО в index.m3u, но дедуп
 # новых ссылок идёт против URL'ов ВСЕХ перечисленных файлов.
 EXTRA_PLAYLISTS: "OrderedDict[str, str]" = OrderedDict([
-    ("Кино",       "cinema.m3u"),
-    ("Спорт",      "sport.m3u"),
-    ("Музыка",     "music.m3u"),
-    ("Зарубежные", "foreign.m3u"),
-    ("Детские",    "children.m3u"),
-    ("ТВ Сериалы", "tv_series.m3u"),
+    ("Кино",           "cinema.m3u"),
+    ("Спорт",          "sport.m3u"),
+    ("Музыка",         "music.m3u"),
+    ("Зарубежные",     "foreign.m3u"),
+    ("Детские",        "children.m3u"),
+    ("ТВ Сериалы",     "tv_series.m3u"),
+    ("Познавательные", "discovery.m3u"),
+    ("Хобби",          "hobby.m3u"),
 ])
 
 LOG_FILE            = "m3u_checker.log"

@@ -2,12 +2,20 @@
 # -*- coding: utf-8 -*-
 """
 group_candidates.py — разносит каналы group-title="candidate" из index.m3u по
-СМЫСЛОВЫМ группам. Целевых файлов теперь ЧЕТЫРЕ:
-  * index.m3u      — тематические группы (Спорт, Музыка, Новости …);
+СМЫСЛОВЫМ группам. Целевые файлы:
+  * index.m3u      — эфирное и региональное ТВ (Федеральные, Новости,
+                     Развлекательные, Региональные, Беларусь, Религия, Юмор);
   * cinema.m3u     — киноканалы и бренды (Кино, VF, Viju, CineMan …);
   * children.m3u   — детские/мультканалы (группа «Детские»);
-  * tv_series.m3u  — сериальные каналы (группа «Сериалы»).
-Кандидаты живут только в index.m3u. Разнос может увести канал в любой из 4 файлов.
+  * tv_series.m3u  — сериальные каналы (группа «Сериалы»);
+  * discovery.m3u  — познавательные (Документальные, История, Наука,
+                     Природа, Путешествия, Образование, Культура);
+  * hobby.m3u      — хобби и стиль жизни (Авто, Дом и дача, Еда, Здоровье,
+                     Лайфстайл, Мода, Охота и рыбалка);
+  * music.m3u      — музыкальные каналы;
+  * sport.m3u      — спортивные каналы;
+  * foreign.m3u    — иноязычные, сгруппированные по странам.
+Кандидаты живут только в index.m3u. Разнос может увести канал в любой из них.
 
 Логика выбора группы (в порядке доверия):
   1) точное совпадение tvg-id с каналом, УЖЕ лежащим в какой-то группе;
@@ -50,7 +58,9 @@ CAND = "candidate"
 PROPOSAL = "group_proposal.tsv"
 
 # Канонические целевые файлы (basename). candidate живёт в index.m3u.
-KNOWN_FILES = ["index.m3u", "cinema.m3u", "children.m3u", "tv_series.m3u"]
+KNOWN_FILES = ["index.m3u", "cinema.m3u", "children.m3u", "tv_series.m3u",
+               "discovery.m3u", "hobby.m3u", "music.m3u", "sport.m3u",
+               "foreign.m3u"]
 
 # --- нормализация имён (та же логика, что и в enrich_candidates.py) ----------
 QUALITY = {"hd", "sd", "fhd", "uhd", "qhd", "4k", "8k", "hq", "hevc", "h265",
@@ -269,6 +279,14 @@ def canon_file(tf: str) -> str:
         return "foreign.m3u"
     if "series" in t or "serial" in t or "сериал" in t:
         return "tv_series.m3u"
+    if "discovery" in t or "познават" in t:
+        return "discovery.m3u"
+    if "hobby" in t or "хобби" in t:
+        return "hobby.m3u"
+    if "music" in t or "музык" in t:
+        return "music.m3u"
+    if "sport" in t or "спорт" in t:
+        return "sport.m3u"
     return "index.m3u"
 
 
@@ -386,7 +404,7 @@ def special_classify(rec):
             if _has(suf, _KIDS_WORDS):
                 return "children.m3u", "Детские", "brand:kids"
             if _has(suf, _MUSIC_WORDS):
-                return "index.m3u", "Музыка", "brand:music"
+                return "music.m3u", "Музыка", "brand:music"
             return "cinema.m3u", brand, f"brand:{brand}"
     return None
 
@@ -453,7 +471,9 @@ def do_propose(files, rules, out_path):
                 f"({bases.get('ref',0)}) + ключевые слова ({bases.get('kw',0)})\n")
         f.write("# столбцы: решение<TAB>имя<TAB>целевой_файл<TAB>группа<TAB>основание\n")
         f.write("#   решение: move (перенести) или skip (оставить в candidate)\n")
-        f.write("#   целевой_файл: index.m3u / cinema.m3u / children.m3u / tv_series.m3u\n")
+        f.write("#   целевой_файл: index.m3u / cinema.m3u / children.m3u / "
+                "tv_series.m3u / discovery.m3u / hobby.m3u / music.m3u / "
+                "sport.m3u / foreign.m3u\n")
         f.write("#\n")
         for kv in sorted(counts.items(), key=lambda x: (-x[1], x[0])):
             (tf, grp), n = kv
@@ -663,11 +683,16 @@ def load(path):
 
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    ap = argparse.ArgumentParser(description="Разнос кандидатов по группам (4 файла).")
+    ap = argparse.ArgumentParser(
+        description="Разнос кандидатов по группам (index + тематические файлы).")
     ap.add_argument("--index", default=os.path.join(script_dir, "index.m3u"))
     ap.add_argument("--cinema", default=os.path.join(script_dir, "cinema.m3u"))
     ap.add_argument("--children", default=os.path.join(script_dir, "children.m3u"))
     ap.add_argument("--tv-series", default=os.path.join(script_dir, "tv_series.m3u"))
+    ap.add_argument("--discovery", default=os.path.join(script_dir, "discovery.m3u"))
+    ap.add_argument("--hobby", default=os.path.join(script_dir, "hobby.m3u"))
+    ap.add_argument("--music", default=os.path.join(script_dir, "music.m3u"))
+    ap.add_argument("--sport", default=os.path.join(script_dir, "sport.m3u"))
     ap.add_argument("--foreign", default=os.path.join(script_dir, "foreign.m3u"))
     ap.add_argument("--rules", default=os.path.join(script_dir, "group_rules.txt"))
     ap.add_argument("--proposal", default=os.path.join(script_dir, PROPOSAL))
@@ -684,6 +709,7 @@ def main():
         print(f"создан пустой {os.path.basename(args.foreign)}")
 
     file_paths = [args.index, args.cinema, args.children, args.tv_series,
+                  args.discovery, args.hobby, args.music, args.sport,
                   args.foreign]
     files = {}
     for p in file_paths:

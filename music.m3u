@@ -1,5 +1,7 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
+# Классика и джаз
+
 #EXTINF:0 group-title="Классика и джаз" tvg-description="Музыкальный канал пакета «Liberty»: кино прошлых лет и классику. Тематика подборки — «Music Classic».",Liberty Music Classic
 http://7.hls.gd/ch2858/mono.m3u8?token=rl_b779e17.v2_QtHhNK-pMZiOtl6Ny8NyDQEQdJuH3lgR7fMMf6ogndq_uczrjoXq4wW3g2Ew3KIey2TXcCgdVg2qJ5sZ
 
@@ -26,6 +28,8 @@ https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
 
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/stingray-qello.png" tvg-id="stingray-qello" tvg-description="Телеканал концертов и музыкальных документальных фильмов Stingray.",Stingray Qello
 http://7.hls.gd/ch2762/mono.m3u8?token=rl_b779e17.v2_HHmTgZH0_uUUNZYBCRfh-zl-w7Spcyf-op0teXX17zZ_mHGz4dQQ9AjwXRyJ-yho_HL4v7n1NutsO3mm
+
+# Музыка
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/192tv.png" tvg-id="192tv" tvg-description="Музыкальный телеканал 192TV: клипы и музыкальные программы.",192TV
 http://7.hls.gd/ch3467/mono.m3u8?token=rl_b779e17.v2_ql9yqsm3pM3A-EChTOQhGwzTAlM78Kc3xO6aD4wS_1zPCvSl7XIEhagr4J9zU6kOgtztcJybZO_9qnjI
@@ -210,6 +214,8 @@ http://7.hls.gd/ch2767/mono.m3u8?token=rl_b779e17.v2_RNIF-IcOfNztC588qHEL0gQHQ5r
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/yosso-musichits.png" tvg-id="yosso-musichits" tvg-description="Музыкальный канал пакета «Yosso TV»: премьеры и кинохиты. Тематика подборки — «Music Hits».",Yosso TV Music Hits
 http://7.hls.gd/ch1305/mono.m3u8?token=rl_b779e17.v2_Xfc8O_nNzpEA4d_TtNDiCOBVH5cezy0cC6MaJDOFUI9MvYBjXgP9bHyVbesLKHftRJMm0AKixbkEVVsL
 
+# Ретро и шансон
+
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/la-minor.png" tvg-id="la-minor" tvg-description="Российский музыкальный телеканал шансона и авторской песни.",Ля-минор
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/shanson-tv.png" tvg-id="shanson-tv" tvg-description="Музыкальный телеканал шансона.",Шансон ТВ
@@ -267,6 +273,8 @@ http://7.hls.gd/ch2749/mono.m3u8?token=rl_b779e17.v2_CP8o7rP2gvMepc7voM5ScSmA0k7
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/yosso-shanson.png" tvg-id="yosso-shanson" tvg-description="Музыкальный канал пакета «Yosso TV»: музыкальные клипы и концерты. Тематика подборки — «Шансон».",Yosso TV Шансон
 http://7.hls.gd/ch3705/mono.m3u8?token=rl_b779e17.v2_jBr2EYTt6GCgoPHAcHWflh22L0K36bBsKpB3hql7dUfqMsNxzyrbzjvEgAev3QYYU6ILKiWGctoCF9uD
+
+# Русская музыка
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/vostok-tv.png" tvg-id="vostok-tv" tvg-description="Музыка и культура Востока.",Восток ТВ
 http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
@@ -330,6 +338,8 @@ https://rutvkids.ru/live/efir/index.m3u8
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Российский музыкальный телеканал: клипы отечественных исполнителей.",Russian MusicBox
 http://stream.mcquack.net/319/index.m3u8
 #http://7.hls.gd/ch555/mono.m3u8?token=rl_b779e17.v2_I8URg8jfKa8o_9s10y6IoBRM8R9Dl_QfHYwGoQPQ45CXj54w79sgfkK6tVQ97cY9SZOXbdnbVHtSxtQ
+
+# Танцевальная и электронная
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Танцевальная и электронная музыка.",Best of Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
