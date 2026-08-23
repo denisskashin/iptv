@@ -1,37 +1,279 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
+#EXTINF:0 group-title="Классика и джаз" tvg-description="Музыкальный канал пакета «Liberty»: кино прошлых лет и классику. Тематика подборки — «Music Classic».",Liberty Music Classic
+http://7.hls.gd/ch2858/mono.m3u8?token=rl_b779e17.v2_QtHhNK-pMZiOtl6Ny8NyDQEQdJuH3lgR7fMMf6ogndq_uczrjoXq4wW3g2Ew3KIey2TXcCgdVg2qJ5sZ
+
+#EXTINF:0 group-title="Классика и джаз" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Jazz».",Liberty Music Jazz
+http://7.hls.gd/ch2792/mono.m3u8?token=rl_b779e17.v2_Vc5vHsLjvSjUMgswCVCucQAM4zO1y1B6GD76wbzOfF62-R2MOiULKQ121KSlUzvRPgBFcpUmJ3jAmsBF
+
+#EXTINF:0 group-title="Классика и джаз" tvg-description="Телеканал классической музыки, опер и симфонических концертов.",Maestro TV
+http://7.hls.gd/ch3307/mono.m3u8?token=rl_b779e17.v2_A4Gz9cVSkXM3zPdywWLxLU5Oxdp9NitLvggqt1AkFWeZpvm3_yN64V6i6hZlXis78xEIW2ELa9KEdXAg
+
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/mezzo-live-hd.png" tvg-id="mezzo-live-hd" tvg-description="Классика, джаз и мировая музыка в прямых трансляциях (Mezzo Live HD).",Mezzo Live
 http://stream.mcquack.net/276/index.m3u8
+#http://7.hls.gd/ch130/mono.m3u8?token=rl_b779e17.v2_aOQzdCoh1T7i-TEKZF9P-DNfCSX9uZFvC6uZfRzwCuMmHmOXhwdhX421C3aSAllYKUo5oRNZgTgdK4A
 
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv" tvg-description="Международный музыкальный телеканал Stingray CMusic: позитивная и вдохновляющая музыка.",Stingray CMusic
 http://stream.mcquack.net/312/index.m3u8
 
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/stingray-djazz.png" tvg-id="stingray-djazz" tvg-description="Телеканал джазовой музыки и концертов Stingray.",Stingray Djazz
+http://7.hls.gd/ch1921/mono.m3u8?token=rl_b779e17.v2_67aRPK4b2KOn08HAfPrJPnb9Yq9vRJjcwmW0gMnbXukpSgx88fxJ76GEVx7hQ9BDKYww_43Ead5eskFZ
+
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/iconcerts.png" tvg-id="iconcerts" tvg-description="Концертный телеканал: живые выступления и записи концертов мировых артистов.",Stingray iConcerts
 https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
 #http://7.hls.gd/ch1922/mono.m3u8?token=rl_b779e17.v2_tu5dZwV-m-JhI8yWjoKLcYFaHJqLQzXpgwvOwTdtVWg31g8z-MAZzRxg7namKh5GdwxdDq-4KrZimxhO
+#http://7.hls.gd/ch324/mono.m3u8?token=rl_b779e17.v2_xCZf7d_0kMMeqKpRrRZr8NBPCNai8E5GCiXcWoioOS14QLWyAJn75YCEUyQno3-DxQso63NVMbDWyH8
+
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/stingray-qello.png" tvg-id="stingray-qello" tvg-description="Телеканал концертов и музыкальных документальных фильмов Stingray.",Stingray Qello
+http://7.hls.gd/ch2762/mono.m3u8?token=rl_b779e17.v2_HHmTgZH0_uUUNZYBCRfh-zl-w7Spcyf-op0teXX17zZ_mHGz4dQQ9AjwXRyJ-yho_HL4v7n1NutsO3mm
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/192tv.png" tvg-id="192tv" tvg-description="Музыкальный телеканал 192TV: клипы и музыкальные программы.",192TV
+http://7.hls.gd/ch3467/mono.m3u8?token=rl_b779e17.v2_ql9yqsm3pM3A-EChTOQhGwzTAlM78Kc3xO6aD4wS_1zPCvSl7XIEhagr4J9zU6kOgtztcJybZO_9qnjI
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1hd-music.png" tvg-id="1hd" tvg-description="Музыкальный телеканал 1HD: клипы в высоком качестве.",1HD Music
+http://7.hls.gd/ch328/mono.m3u8?token=rl_b779e17.v2_orSBqXIW065C15qT2FHyHMFr_GWdHkoDK7UH3211LtGddA4ITZP1b0rxocMOFF6UWYF5xHoMDe3dNy0
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/4ever-music.png" tvg-id="4ever-music" tvg-description="Музыкальный телеканал пакета 4ever: клипы и хиты.",4ever Music
+http://7.hls.gd/ch631/mono.m3u8?token=rl_b779e17.v2_pjt0HfpERtZE7K-zOkhiHkx5T9LRH1foVRzEjJz_ng2IFTeQDgnXm0kUhu7j-AQdcy1bZantVwnyqzk
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкально-развлекательный телеканал О2ТВ.",О2ТВ
+http://7.hls.gd/ch554/mono.m3u8?token=rl_b779e17.v2_GV0lShWkou6aLKYmw5f-9_NULG1duckUhpIcd7qi90H5nocIs8bMRHttGuACYSXTL5vXoDifWdGPZHw
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал с треками и клипами, созданными при помощи ИИ.",AI Music Channel
+http://7.hls.gd/ch3910/mono.m3u8?token=rl_b779e17.v2_svz7zHaXhFfXgCzC_jBJzzyVV6cphCgfb-7HVeRNRbYrGim-6omebR35_S1KNyl4TmbiuPEpeA3onts_
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/aiva.png" tvg-id="aiva" tvg-description="Музыкальный телеканал AIVA: современная музыка и клипы.",AIVA
+http://7.hls.gd/ch661/mono.m3u8?token=rl_b779e17.v2_UleLwX100ybXhwF0y7QA4eXPXgVHgfizA1q9abhMFHKAaDzYjtM6rsW5giqKlomHvAc-ilPReYnEyjg
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-metall.png" tvg-id="box-metall" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «Metall».",BOX Metall
+http://7.hls.gd/ch2491/mono.m3u8?token=rl_b779e17.v2__HgG8rJVMQhyiU9WTE6Ns7bM4YoRSiLblQ8VWcauP-oeCoDsjb-S68vHmTGy_Xio4WJpU2rA2erHZjcM
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «Music 2 4K».",BOX Music 2 4K
+http://7.hls.gd/ch2259/mono.m3u8?token=rl_b779e17.v2_nZL3peTYLW6Q76GRPLSKSILAtBQCU18Y56vNolZxQapVhz1j_Qstgzmq8Kc8hl_DVVT-X1XfvZDVzz4M
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-music-4k.png" tvg-id="box-music-4k" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «Music 4K».",BOX Music 4K
+http://7.hls.gd/ch2295/mono.m3u8?token=rl_b779e17.v2_qQcwtqWx3zbMaT03NWGotj8tBEa351gP7BAP7KV0LHbbsgv5gVPcIPm54-yhhVxWe4YrCw77sADsSiY9
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-ultrastars-4k.png" tvg-id="box-ultrastars-4k" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «UltraStars 4K».",BOX UltraStars 4K
+http://7.hls.gd/ch2931/mono.m3u8?token=rl_b779e17.v2_SGwguVx4J2o3nDCr2DD78b4VVUjpYkGnC1o-KJJDI_apC57y9q8pvaErG9hzbuBTUgJFzPuZwADNm8kT
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" tvg-id="bridge-tv-rock" tvg-description="Музыкальный телеканал Bridge TV: рок-музыка.",Bridge TV Rock
+http://7.hls.gd/ch644/mono.m3u8?token=rl_b779e17.v2_-tE-oYLLQWdPXCrgnMxWoaeNr2NXMpDTxGBAyfon9pF53Ljs8GhvI_zVj3VO1BOeSVVq09NaINYD9Ps
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал Bridge TV: этническая музыка народов мира.",Bridge TV Этно
+http://7.hls.gd/ch2261/mono.m3u8?token=rl_b779e17.v2_hrPVbE0QPR3HK061K4tBAKfUwdEx_HW-Lq4261yklayEPrvwpFwGPmy3QlDxve7iI6nbUuRcCEvI1s5y
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/eu-music.png" tvg-id="eu-music" tvg-description="Музыкальный телеканал EU.Music: европейские хиты и клипы.",EU.Music
+http://7.hls.gd/ch653/mono.m3u8?token=rl_b779e17.v2_TTOG7QOP5fZgI4qQ-Gw-yE05C6P5Mw9_Y-NaddGgWpYkWDWBcMDwgh4LdbW229hwr-Uq6A4rfbS-YdA
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал FON Music: фоновая и лаунж-музыка.",FON Music
+http://7.hls.gd/ch716/mono.m3u8?token=rl_b779e17.v2_fL1fqV1A680ETxOw1op6ATNsBCHq9XHeQvI366rUiJKCBy0TxiRAIhvSsrx7ZiARDGYvn1AYEMBUdjE
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Concerts».",Fresh Concerts
+http://7.hls.gd/ch1564/mono.m3u8?token=rl_b779e17.v2_Lkmte_BcZr2uOv-uJxhcVcCX9D3ukYaxHvh-so6RvpNaP8WqdZhzgYuMiKnaKQS4rS0zU2-zdRwLaxfs
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Lyrics».",Fresh Lyrics
+http://7.hls.gd/ch1566/mono.m3u8?token=rl_b779e17.v2_e44TdWFtMwojI0c3VeH8mOf24NozB-8sDPM_t_87F1J_MrSs_AjPzeCNZ1st-SUgjYRk6hf2vBjlaLjt
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: премьеры и кинохиты. Тематика подборки — «Pop Hits».",Fresh Pop Hits
+http://7.hls.gd/ch1567/mono.m3u8?token=rl_b779e17.v2_tijHAKYrcGoucfUdKPU2P9m83I2IOY0tPikp4PNCGShDkDbJ1jEFMIZpdXNI0WGxC98dqo1VNIVbPmgG
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Rock».",Fresh Rock
+http://7.hls.gd/ch1573/mono.m3u8?token=rl_b779e17.v2_E6cgGO2MF1vjKCgeZ3wltt52kQi6fpSd6wSF_8XF2ycLCYfqga36h-BFXI40lWF_RqHxBC85Iy29v--G
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Rock Covers».",Fresh Rock Covers
+http://7.hls.gd/ch1569/mono.m3u8?token=rl_b779e17.v2_MH0HxVXZQ6Mqto5av2nqeVsx2ayO5svRIHlUy1c1mPWWK33_mT0UD-I50X2OA3bN_dqq-fJbAgfSToj0
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Sad Music».",Fresh Sad Music
+http://7.hls.gd/ch1572/mono.m3u8?token=rl_b779e17.v2_ns11fg01YA5EEXM78TZZ3o6XUuSlmweTYQiDEd6m4d3W78AZ5zRTLZYIH6agjdRE3w7l1qIASpcY927k
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/inrating.png" tvg-id="inrating" tvg-description="Украинский интерактивный музыкальный телеканал InRating TV.",Inrating
 http://stream.mcquack.net/147/index.m3u8
 
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Alternative».",Liberty Music Alternative
+http://7.hls.gd/ch2865/mono.m3u8?token=rl_b779e17.v2_L7Swc3-j6yjXbrpumTTNtL242D1BZBc9HiT_EUCQJ7F1csMXPC08xv840XPaUYvx_gV1bvPpKwxej6u1
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music German».",Liberty Music German
+http://7.hls.gd/ch2861/mono.m3u8?token=rl_b779e17.v2_B3m1KKbwSqh50OPq16Lza_qrKYWm_T8XwhYSqeeyIrJW3_x9Gke4GYv1mXffVcpTSBnxIL6V6b-I71ow
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Hip-Hop».",Liberty Music Hip-Hop
+http://7.hls.gd/ch2794/mono.m3u8?token=rl_b779e17.v2_jOtlrEamovv_Dek9iD0sdtnVbqngzBfn_KgK6vECTQqcbahz9vT2eT1WTaaDta_czsIHwg-DBg6iN3b3
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Indi».",Liberty Music Indi
+http://7.hls.gd/ch2798/mono.m3u8?token=rl_b779e17.v2_Ro3-Fu69Essib9_EXaO_-Eq5h5tBCKnAQZXzsRSO0Mcj7qNy6HDKkS-qtkyZqRDtnoGa_DzbPeoHW0eZ
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music K-POP».",Liberty Music K-POP
+http://7.hls.gd/ch2793/mono.m3u8?token=rl_b779e17.v2_9PaO-g2oGDRTRy4DAbApsLiwnExW_GQBnF098KceRGzppLS37taW-eabonFkZAZRkIA9x89Ynw_nZMWe
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Kinder».",Liberty Music Kinder
+http://7.hls.gd/ch2882/mono.m3u8?token=rl_b779e17.v2_BkdVcc-_l_yWrY_SiJeKU-nZVnUtZkO3R_es5e1dP4VItI3p4pbIX7masx0DunnbBIbZSTaZ4Yxl_tGN
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music latino».",Liberty Music latino
+http://7.hls.gd/ch2797/mono.m3u8?token=rl_b779e17.v2_Dv_9mU2cw-tWOAMGKWxs9yhn8aBJBaP6Ji4Ww8zZvXe1IJVXyXnxpz8ouuyNo8uUCAuSpOVzzvG1toJi
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Mix».",Liberty Music Mix
+http://7.hls.gd/ch1757/mono.m3u8?token=rl_b779e17.v2_3phMuIff_xXIM1x5jwob_S9aD_diILwmnJG2hy6kf8rOAn_VDiAE1kM01cX0LW-NJJjb8KPFvT-4lBXI
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Pop».",Liberty Music Pop
+http://7.hls.gd/ch2796/mono.m3u8?token=rl_b779e17.v2_5rnXDRLq1dbTYQ7Pw4iS4bNATgn4uSD3iFjfS6-3iy23OGjV0-VmNqy4Aj-iM7NpGJQXTzj7_AJWP7Bo
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Relax».",Liberty Music Relax
+http://7.hls.gd/ch2189/mono.m3u8?token=rl_b779e17.v2_NCnMXgiHxLjjlCxaMm8LUmbgaaA-cLvTC-tML0UpxRnNcMlqaHwwUc7zuamWWOXDAjNAzWIvKz2vPR1v
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music RnB».",Liberty Music RnB
+http://7.hls.gd/ch2859/mono.m3u8?token=rl_b779e17.v2_P3efFKPxywoUqWxgf4JKx-NmH6NNe3jKi5WXGrPUA80e1Be_WReomSgjqbHQU-oL-YqZA9w4JK2ZpJ3H
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Rock».",Liberty Music Rock
+http://7.hls.gd/ch2791/mono.m3u8?token=rl_b779e17.v2_ZMsENDrCRkPTubTlkuHUQ3GwYJqSYULH1WqVDujMQ4sA9nE8gMNo0I2Jmuo1AGAYwOgoi2NlPiPAwKCp
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Сountry».",Liberty Music Сountry
+http://7.hls.gd/ch2864/mono.m3u8?token=rl_b779e17.v2_ZAsYjlAf2A-m7BawTGaHGdHjvq-NVuAVcm2YiqqWAaihMC38sqPqNGgqikrePcy3JS97kgZZJJPpwV6w
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/mcm-top.png" tvg-id="mcm-top" tvg-description="Французский музыкальный телеканал MCM Top: поп и танцевальные хиты.",MCM Top
+http://7.hls.gd/ch497/mono.m3u8?token=rl_b779e17.v2_gk9OHedEP4Lhc1_QblO-gH20PWQot-LxHXVFBb1sZ4_gr6ZxcdHA1d-ffYq8Qc6IOjIXIrokJuyJGV0
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал Melody: мелодичная музыка и ретро-хиты.",Melody
+http://7.hls.gd/ch2756/mono.m3u8?token=rl_b779e17.v2_Tf7TBGgc4ajiEIQd4AqJXSrt6tbMZn828b_LaO60uV6nM91kSFKB1UWw4l7wgdP1lLlBLikK435Y-mL1
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «MM»: музыкальные клипы и концерты. Тематика подборки — «Rock».",MM Rock
+http://7.hls.gd/ch1220/mono.m3u8?token=rl_b779e17.v2_G86LXKFXfAZjYAAvyxsryY49Wchqp2Vs2Bv_j3WIKOr7pePggkdVZLZdsEkYWHB0DADqC6dKXrUIuKGl
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «MM»: премьеры и кинохиты. Тематика подборки — «World Hits».",MM World Hits
+http://7.hls.gd/ch1228/mono.m3u8?token=rl_b779e17.v2_SWtcbwbtENli3LuIIvzChWVNlgnnEg6oRy9ejPKk48BfP93CgRoE1UuoE26SFV5pTx4tCzvV4GlWPefR
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/minimax-kvartirnik.png" tvg-id="minimax-kvartirnik" tvg-description="Музыкальный канал пакета «MM»: музыкальные клипы и концерты. Тематика подборки — «Квартирник».",MM Квартирник
+http://7.hls.gd/ch1240/mono.m3u8?token=rl_b779e17.v2_dXB-uOLp8vBNA193ci_PNPMRJnaAX7BYwO4b8ZBYf-ZPd-Wwyr8b9cOtAauswOcT3W8WkItZTD0sNNkz
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: хип-хоп, R&B и городская музыка.",MTV Base
+http://7.hls.gd/ch2766/mono.m3u8?token=rl_b779e17.v2_NqZwJIyd6gVTx7cAUwJUTmWbUkargN5_3vvtvxKd7PUKT1EcGESVrdTkTcOiBWQdxDO8zx02GT30ihY3
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: новинки и премьеры клипов.",MTV Brand New
+http://7.hls.gd/ch3921/mono.m3u8?token=rl_b779e17.v2_mMVXHypl4c0V0iD6LEH_ApNIlcsbPC6GpYjpSF6WX4T-JwXBbjN0zkXdErFa_WFp5RXl85ru-MxbLe5j
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/mtv-europe.png" tvg-id="mtv-europe" tvg-description="Европейская версия музыкального телеканала MTV.",MTV Europe
+http://7.hls.gd/ch030/mono.m3u8?token=rl_b779e17.v2_hei4iKhsd4vEMelLaGGo-Gqs1BYjOawoV7S1lZS1HeecktNqspaqaUPWOdAtt_paCQhfAJRJn9nyLQ
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: актуальные хиты и клипы.",MTV Hits
+http://7.hls.gd/ch3896/mono.m3u8?token=rl_b779e17.v2__OVG2zdc85uA46FBYKeKEZvWDoF9Ofejg1Bws5s6lJGxWDaUbv_yQOGussm8dmt5s6YjRfPQFY8oAy7h
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: поп-музыка и мировые звёзды.",MTV Idol
+http://7.hls.gd/ch2752/mono.m3u8?token=rl_b779e17.v2_JSrkBMkfRrY-pFMdBudaGaEpFcO8fg-ZcuplzU1IxHbSEQxDHZZBRO5NuqSu482Fi4pHhpQXnhHr1OnF
+
+#EXTINF:0 group-title="Музыка" tvg-description="Круглосуточный музыкальный телеканал MTV без рекламы.",MTV Music 24
+http://7.hls.gd/ch3923/mono.m3u8?token=rl_b779e17.v2_x0k9V51Vv1J25Q8YYZNU2xbc7kY_p-WIR9Eeeni1QcoXyd6QAJxmNhi2jmRDUMtUt7xgHTDZhc4DGc6t
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: поп-хиты и молодёжная музыка.",MTV OMG
+http://7.hls.gd/ch3919/mono.m3u8?token=rl_b779e17.v2_KZ-ZDKqgCjQrnv1dp1JXJNZ0Cjy984QbcU9DKW-rvnia1uACINLb-S76It7judARTYNGQfuadqIW9LRq
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: рок и альтернативная музыка.",MTV Pulse
+http://7.hls.gd/ch2758/mono.m3u8?token=rl_b779e17.v2_3SCGn9Rb3pXkSBXpofq3YqtiHXISxZfw4Bh6CZFsHBogxGSSIm6IyuqDw83K57LgyKbeci2ydX5616w6
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: рок-музыка и гитарные хиты.",MTV Rocks
+http://7.hls.gd/ch3920/mono.m3u8?token=rl_b779e17.v2_R_InEarC9nXFrtWCCy_cdGZWoO6Wj3CQJ2xPZobriSiMGRsq19BcntTdyzHMc49mXtANm9THfTW5kdMs
+
+#EXTINF:0 group-title="Музыка" tvg-description="Телеканал MTV: реалити-шоу и развлекательные программы.",MTV Shows
+http://7.hls.gd/ch3594/mono.m3u8?token=rl_b779e17.v2_YNERNBI_D7dT6-Jat3Ku1IdR3Rx6RrDYfzu7uh-bPbPXKEc1JPzaWLiirPO3cTE59nEHV9_-YfSNj01S
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-hits.png" tvg-id="musicbox-hits" tvg-description="Музыкальный телеканал Music Box: актуальные хиты.",Music Box Hits
+http://7.hls.gd/ch3420/mono.m3u8?token=rl_b779e17.v2_ZHbTymoGYy8VxhwdVDrdaf9lx0w5DwlDLQGlHOUk41Fnk-3u5wKb_iDm-VKglhsS5l-qYpIXHrDpETKk
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-sexy.png" tvg-id="musicbox-sexy" tvg-description="Музыкальный телеканал Music Box: клипы для взрослой аудитории.",Music Box Sexy
+http://7.hls.gd/ch3397/mono.m3u8?token=rl_b779e17.v2_wupJ5aQcO9FSWnCJG8AjhQkHf0CMLARzIUbxq7t6TWjJOUG95xJ7fJ97o6J0WmnBCUiJdRycYMQMGvkZ
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал с хитами российской и зарубежной эстрады.",Music Hits+
+http://7.hls.gd/ch2334/mono.m3u8?token=rl_b779e17.v2_cJneN0HQ0imipHXjoCNg8dL5mri30LubYoGW1KJ7koVcDqOiKzxk8Mj7_inolcyZYaDN5cWoOMQJayoU
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/sky-high-concert.png" tvg-id="sky-high-concert" tvg-description="Музыкальный канал пакета «Sky High»: музыкальные клипы и концерты. Тематика подборки — «Concert».",Sky High Concert
+http://7.hls.gd/ch1957/mono.m3u8?token=rl_b779e17.v2_8UMrwtU3kQIAv9OONBl-dYcNTBl-0bS5Por-W36Id9IEpFAXbPG6fHX9xY6Smrbd9fv-mtN7OxP1zXhm
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Sky High»: музыкальные клипы и концерты. Тематика подборки — «LO FI».",Sky High LO FI
+http://7.hls.gd/ch1959/mono.m3u8?token=rl_b779e17.v2_EDgDF81U0vkh-DCDLiOMgratiTdqT8PqpM9_MtSupVS13c0jol-gZ0aDbJaGfml84NZ0VNVwb7nbDB6f
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Sky High»: музыкальные клипы и концерты. Тематика подборки — «Music».",Sky High Music
+http://7.hls.gd/ch3178/mono.m3u8?token=rl_b779e17.v2_H5gMwxwFR5LaqWNkhZbGNnKpFg4Yqxd7G-acBV-K3E6DjnGrAiNj4Wd3clZfSBbH5qrZ7oP-EOakiuPA
+
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/song-tv-ru.png" tvg-id="song-tv-ru" tvg-description="Армянский музыкальный телеканал Song TV.",Song TV
 http://songtvam.ru:8060/hd/playlist.m3u8
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/team-muzloft.png" tvg-id="team-muzloft" tvg-description="Музыкальный канал пакета «TEAM»: музыкальные клипы и концерты. Тематика подборки — «Muzloft».",TEAM Muzloft
+http://7.hls.gd/ch4055/mono.m3u8?token=rl_b779e17.v2_w4RsC3-Z_tuUHRy2psZx49cIQEgooKDOzvns0zcZoWkk7ZKnA49D6mtZuXPDwM24XR_UQFpF5bHd5Zgg
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/velilla-hardheavyconc.png" tvg-id="velilla-hardheavyconc" tvg-description="Музыкальный канал пакета «Velilla TV»: музыкальные клипы и концерты. Тематика подборки — «Hard And Heavy Concerts».",Velilla TV Hard And Heavy Concerts
+http://7.hls.gd/ch2871/mono.m3u8?token=rl_b779e17.v2_HXwdELpQObAsCJIaara5NlSFICkXOd4aG6lNfC4xJfrgAHQL3jAjZIx0riHvZF3C9sGHepOK6uAtlsTN
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Velilla TV»: музыкальные клипы и концерты. Тематика подборки — «Magenta Musik Festivals».",Velilla TV Magenta Musik Festivals
+http://7.hls.gd/ch2333/mono.m3u8?token=rl_b779e17.v2_HoTt8Ka5g0DPweCnQtq-Vsh7Cik8daa9AMTjz68zaqhfVjWrfGdzBnPeNxkFM_vwQJe_LroH4nSeOXrk
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/velilla-poprockconc.png" tvg-id="velilla-poprockconc" tvg-description="Музыкальный канал пакета «Velilla TV»: музыкальные клипы и концерты. Тематика подборки — «Pop And Rock Concerts».",Velilla TV Pop And Rock Concerts
+http://7.hls.gd/ch2767/mono.m3u8?token=rl_b779e17.v2_RNIF-IcOfNztC588qHEL0gQHQ5rAg5RjDrx80ekzdD2_8HTuNersY82qAP1_2lsP2YtqPAnWM6xyhUQ1
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/yosso-musichits.png" tvg-id="yosso-musichits" tvg-description="Музыкальный канал пакета «Yosso TV»: премьеры и кинохиты. Тематика подборки — «Music Hits».",Yosso TV Music Hits
+http://7.hls.gd/ch1305/mono.m3u8?token=rl_b779e17.v2_Xfc8O_nNzpEA4d_TtNDiCOBVH5cezy0cC6MaJDOFUI9MvYBjXgP9bHyVbesLKHftRJMm0AKixbkEVVsL
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/la-minor.png" tvg-id="la-minor" tvg-description="Российский музыкальный телеканал шансона и авторской песни.",Ля-минор
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/shanson-tv.png" tvg-id="shanson-tv" tvg-description="Музыкальный телеканал шансона.",Шансон ТВ
+http://7.hls.gd/ch325/mono.m3u8?token=rl_b779e17.v2_CgfaDt0GWMi__hYRKkgbuC6wVDDSeTMZOQMunRKGdAhkzz_qWyXEocZvYriHynmBeT23c5553porFJg
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" tvg-id="bridge-tv-classic" tvg-description="Классика музыкальных клипов: золотые хиты 80-х, 90-х и 2000-х (Bridge Media).",Bridge TV Classic
 http://stream.mcquack.net/272/index.m3u8
 #http://7.hls.gd/ch492/mono.m3u8?token=rl_b779e17.v2_KWkvM3V8uiRVctBmvbESHJvJt6PEAax0VpUAHWtOUT7qehnB7brn0TXfEFPdU9nflRbiMqIQlBETwBI
 
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" tvg-id="bridge-tv-shlager" tvg-description="Музыкальный телеканал Bridge TV: шлягеры и хиты прошлых лет.",Bridge TV Шлягер
+http://7.hls.gd/ch548/mono.m3u8?token=rl_b779e17.v2_xa5Busrt3SUrNu8TVALTjoDfdTbRsqtpLoZGU230IyLo8cyP9JfyDmGXh3Nfd2lXqU9D8CIlvdcpW7Y
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «Fresh»: кино прошлых лет и классику. Тематика подборки — «Retro».",Fresh Retro
+http://7.hls.gd/ch1568/mono.m3u8?token=rl_b779e17.v2_eJICxzmo-pqjyd4tku1TxCaHc6MY6EM8DCriir-yBrqrlmUyZfEwAOXceVx7qWeF50Zrb9jDfmyIEr43
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «KLI»: кино прошлых лет и классику. Тематика подборки — «Retro».",KLI Retro
+http://7.hls.gd/ch4080/mono.m3u8?token=rl_b779e17.v2_KieCY7CrSYBBU2beP0I6sJdWz0z_SX2Q36t1ZkVpLjWS1mhK9oMxsgK9yJTBKuNd6Kta5gb1j4mcd9vh
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «Liberty»: кино прошлых лет и классику. Тематика подборки — «Music 90s Hits».",Liberty Music 90s Hits
+http://7.hls.gd/ch2795/mono.m3u8?token=rl_b779e17.v2_63JtGT6y6nC75LLlddjOCo4cEdqA9ApI3LZyvCXzv8Moe5UT4YOUjxaS3giaYG9oAnE7zc-nkw7yYZ0C
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Chanson».",Liberty Music Chanson
+http://7.hls.gd/ch2873/mono.m3u8?token=rl_b779e17.v2_u7W3zMx-Y9uYyY8aRluxTEnEBQH-HNKRyPyhIf2XU1PtYuHb4k7GH5_O2iGXgc-EvgQgFiNp3psiCmF5
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный телеканал MTV: хиты 2000-х.",MTV 00s
+http://7.hls.gd/ch3918/mono.m3u8?token=rl_b779e17.v2_YjCeJOmu8JgcPLLNh0wEXefwKJHKSmIvGQjxRdlByAlYp5ttYBVcbH2iQsWWP-sRj3pGUrIeXhBWbq-c
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный телеканал MTV: хиты 1980-х.",MTV 80s
+http://7.hls.gd/ch3916/mono.m3u8?token=rl_b779e17.v2_BwER1odI1EW3SDxC5re6toIxYSwbxDiY7OrmGRlwnXzKkfLVPEV1FnO4j1kbRhF7ID7eyIcgC6lJb9ND
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный телеканал MTV: хиты 1990-х.",MTV 90s
+http://7.hls.gd/ch3917/mono.m3u8?token=rl_b779e17.v2_v5NS10K5BjilHU-FQ6qLdK-UiaPZxopT_9AgdJZESsWris3iqfIafhvCSR2Q4El5p78pk3LxrcdZU6F9
+
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/mtv-classic-us.png" tvg-id="mtv-classic-us" tvg-description="Классические музыкальные клипы MTV.",MTV Classic
+http://7.hls.gd/ch3922/mono.m3u8?token=rl_b779e17.v2_-mAKOtZj746MAAbYBXVNfLmwb1J_B_mDIka0KCatbd0JWKOFQsUPAHogpSPT9aGnSPgtL-lO-atNvP0e
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный телеканал MTV: золотая коллекция клипов.",MTV Gold
+http://7.hls.gd/ch3924/mono.m3u8?token=rl_b779e17.v2_80P5e-vieNL72VEJPiPKLlAESeO4Lb7EIOWewwF3HnU_7wszfvhSFI5YBQRVBOsEncN01kjxHGyguLHr
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/musicbox-classic.png" tvg-id="musicbox-classic" tvg-description="Классические музыкальные хиты (Music Box Classic).",Music Box Classic
 https://dash4.antik.sk/live/mb_classic/index.m3u8
+#http://7.hls.gd/ch3396/mono.m3u8?token=rl_b779e17.v2_u9hpfVYhF2Qz_BbQaC7XBPI3328Q45WZScQ_SbWG1MQUvIl-LAZ3Q-zGnFfkG59p2xOVkTZWU1xb_-9E
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/musicbox-gold.png" tvg-id="musicbox" tvg-description="Музыкальный телеканал Music Box: золотые хиты прошлых десятилетий.",Musicbox Gold
+http://7.hls.gd/ch650/mono.m3u8?token=rl_b779e17.v2_zZeaqi_KnH9WdbzQayodFTSFzPMkb9yOMylW_WW3jpIjeMF0dvNtV757ydhO8cR8PA9Qrq4zIMAnB_I
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/veles-mafon.png" tvg-id="veles-mafon" tvg-description="Музыкальный канал пакета «VeleS»: музыкальные клипы и концерты. Тематика подборки — «Магнитофон».",VeleS Магнитофон
+http://7.hls.gd/ch2599/mono.m3u8?token=rl_b779e17.v2_M1LdeAEl2Zlqw-ZZ1ooKas3KfdhEv2KmtuxC-eEVi8fYl-gvl33X-r8IjPJNTMSURm6VNxIXFtttVTFN
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/velilla-eurodance90s.png" tvg-id="velilla-eurodance90s" tvg-description="Музыкальный канал пакета «Velilla TV»: кино прошлых лет и классику. Тематика подборки — «Eurodance 90s».",Velilla TV Eurodance 90s
+http://7.hls.gd/ch2765/mono.m3u8?token=rl_b779e17.v2_L-blru6baW6NABBk9jfRcnwEPQwJvBTOCFg9TpXh8gHvTuUzXYo9Ci8uByXTymp81uiuycxzbhMVPjRm
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/velilla-rusdance.png" tvg-id="velilla-rusdance" tvg-description="Музыкальный канал пакета «Velilla TV»: кино прошлых лет и классику. Тематика подборки — «Russiandance 90s».",Velilla TV Russiandance 90s
+http://7.hls.gd/ch2749/mono.m3u8?token=rl_b779e17.v2_CP8o7rP2gvMepc7voM5ScSmA0k7GYfS3h20x4pLyGI0HUgFoWTL3YOwX5GBma9cJQnfXO49ZUq0lcHk-
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/yosso-shanson.png" tvg-id="yosso-shanson" tvg-description="Музыкальный канал пакета «Yosso TV»: музыкальные клипы и концерты. Тематика подборки — «Шансон».",Yosso TV Шансон
+http://7.hls.gd/ch3705/mono.m3u8?token=rl_b779e17.v2_jBr2EYTt6GCgoPHAcHWflh22L0K36bBsKpB3hql7dUfqMsNxzyrbzjvEgAev3QYYU6ILKiWGctoCF9uD
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/vostok-tv.png" tvg-id="vostok-tv" tvg-description="Музыка и культура Востока.",Восток ТВ
 http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 #http://yhdbyndf.russtv.net/iptv/X88VFTA955FLLD/1054/index.m3u8
+
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" tvg-id="zhar-ptica" tvg-description="Музыкальный телеканал русской народной и фольклорной музыки.",Жар Птица
+http://7.hls.gd/ch531/mono.m3u8?token=rl_b779e17.v2_RGkQRkIqrvEtBVFE_cbv3Jt-Va1a-kLQ2mpQzfIJqYFjS2eqqEqPBZZRue6QwpzCDZikMJJ-DCv6VzA
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/zhara.png" tvg-id="zhara" tvg-description="Музыкальный канал ЖАРА: русские хиты, концерты и фестивали.",Жара
 http://stream.mcquack.net/386/index.m3u8
@@ -40,6 +282,10 @@ http://stream.mcquack.net/386/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muztv.png" tvg-id="muztv" tvg-description="Российский музыкальный телеканал: клипы, хит-парады и премии.",Муз ТВ
 http://stream.mcquack.net/86/index.m3u8
+#http://7.hls.gd/ch020/mono.m3u8?token=rl_b779e17.v2_ok-gnuuRmOy9IPMB0I1lRgc5mTryYpTNqf_tNQ42LBLpf9prDRmk2Hhkrheh0D_Zrhnih22thDsJOQ
+
+#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный телеканал живых выступлений и концертов.",Музыка Live
+http://7.hls.gd/ch523/mono.m3u8?token=rl_b779e17.v2_0GQZNWWCO2WtOKjO8qUTgqp8bVLjBUmg3SyossnvCNnFEpbX_fmiEH5ypTHK-lvkTDH6G89f_swgl7Y
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-id="muzyka-pervogo" tvg-description="Музыкальный телеканал с клипами от Первого канала.",Музыка первого
 http://stream.mcquack.net/153/index.m3u8
@@ -50,10 +296,31 @@ http://stream.mcquack.net/153/index.m3u8
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/tnt-music.png" tvg-id="tnt-music" tvg-description="Музыкальный канал ТНТ Music: актуальные клипы и чарты.",ТНТ music
 http://stream.mcquack.net/317/index.m3u8
 
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/box-ru-rap.png" tvg-id="box-ru-rap" tvg-description="Музыкальный канал пакета «BOX»: отечественное кино. Тематика подборки — «RU.RAP».",BOX RU.RAP
+http://7.hls.gd/ch2459/mono.m3u8?token=rl_b779e17.v2_rD_s4VNOgK_FVaigjtKRLaQfP4aUWkS-qE4FsEcEGJj2UNkiGDUmCbModC7IWZWA_NyZ9-IKkVuPvl-N
+
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" tvg-id="bridge-tv-fresh" tvg-description="Музыкальный телеканал Bridge TV: новинки российской и зарубежной музыки.",Bridge TV Fresh
+http://7.hls.gd/ch2754/mono.m3u8?token=rl_b779e17.v2_XTpeAfUhaOmgK8mnnmVWM-iXTzFgY0jEAo8ifFfiZWN0B55qauORIqaAc0guH6XvHaECZ6pt0tZ-pR3R
+
+#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный телеканал Bridge TV: актуальные хиты.",Bridge TV Hits
+http://7.hls.gd/ch493/mono.m3u8?token=rl_b779e17.v2_fC8o9EplgHxGsjrlh0CbXnuLvKrCZjGjuejqiZXup4IyNODue73vL8TjBWq00hhrzHQDpTovdD1N6gY
+
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" tvg-id="bridge-tv-ruxit" tvg-description="Музыкальный телеканал отечественной популярной музыки.",Bridge TV Русский Хит
 http://stream.mcquack.net/318/index.m3u8
 #http://stream.mcquack.net/320/index.m3u8
 #http://7.hls.gd/ch494/mono.m3u8?token=rl_b779e17.v2_mUX1_pIDIkHLpwpyx3KxvgW7oAHU1wHOrdfwpuetQt3NzRW85Fk_9G5Sqty26YYPVVamV0yHWk2-Z5s
+
+#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный канал пакета «Fresh»: отечественное кино. Тематика подборки — «Russian Pop».",Fresh Russian Pop
+http://7.hls.gd/ch1570/mono.m3u8?token=rl_b779e17.v2_W0SXUJUnrTphAc6-tW8A5twnZ6G367o3fFynbL5q6feDop-Q_EW2kZ7WV8u6RWE7VJOL22dgSbIMwvrI
+
+#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный канал пакета «Fresh»: отечественное кино. Тематика подборки — «Russian Rap».",Fresh Russian Rap
+http://7.hls.gd/ch1571/mono.m3u8?token=rl_b779e17.v2_5XTQZOSU9pTeD7rLUrtZiX3J-D0j_KQWwk9qrrfZWxq6e8KzXsHkEjuA6xDY50lD5qRZCzfu_tDaMp0N
+
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/kbc-nash-rock.png" tvg-id="kbc-nash-rock" tvg-description="Музыкальный канал пакета «KBC»: музыкальные клипы и концерты. Тематика подборки — «Наш Rock».",KBC-Наш Rock
+http://7.hls.gd/ch2849/mono.m3u8?token=rl_b779e17.v2_oHCxJoLYgqjdiqvSXvqD3YiEgbgcU6D0CV4wdfj1Oo5PRkJdwheFBPcWdNjc07KSVGSXFHdGCZtSCq_w
+
+#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный канал пакета «Liberty»: отечественное кино. Тематика подборки — «Music RU Hit».",Liberty Music RU Hit
+http://7.hls.gd/ch2760/mono.m3u8?token=rl_b779e17.v2_VHE_nYVAlOzRXclSSt_qSEKL0h_qEPIqMZTrSdf2MFVuHVGLIQuBepjUzethIy-B4uVQU38xc6nJDMfa
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/ru-tv.png" tvg-id="ru-tv" tvg-description="Музыкальный телеканал Русской Медиагруппы: русские клипы и хит-парады.",RU.TV
 https://rutvkids.ru/live/efir/index.m3u8
@@ -62,6 +329,7 @@ https://rutvkids.ru/live/efir/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Российский музыкальный телеканал: клипы отечественных исполнителей.",Russian MusicBox
 http://stream.mcquack.net/319/index.m3u8
+#http://7.hls.gd/ch555/mono.m3u8?token=rl_b779e17.v2_I8URg8jfKa8o_9s10y6IoBRM8R9Dl_QfHYwGoQPQ45CXj54w79sgfkK6tVQ97cY9SZOXbdnbVHtSxtQ
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Танцевальная и электронная музыка.",Best of Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
@@ -72,6 +340,10 @@ http://stream.mcquack.net/318/index.m3u8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd" tvg-description="Премиальная зарубежная музыка: стильные клипы и электроника (Bridge Media).",Bridge TV Deluxe
 http://stream.mcquack.net/92/index.m3u8
+#http://7.hls.gd/ch491/mono.m3u8?token=rl_b779e17.v2_f1y4U6Z3yp7Nxiv4v1XVAEOzXiArwnetciLzt0JKP2Mro-SjL9IBY35J1zrS_3CtWhaEg-S_sOImt2o
+
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" tvg-id="clubbing-tv" tvg-description="Международный телеканал клубной и электронной музыки.",Clubbing TV
+http://7.hls.gd/ch524/mono.m3u8?token=rl_b779e17.v2_AAXbh_XnpZWwql_QrFTRZ2Xg0EGFg3fSetwI2qQFC6f7IFm6ZIcZ5JZNCq1Ix6mDl1kYSAcKU6A_Dt8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/deluxe-lounge-de.png" tvg-id="deluxe-lounge-de" tvg-description="Музыкальный канал: лаундж и спокойная музыка.",Deluxe Lounge
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
@@ -80,6 +352,10 @@ https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv" tvg-description="Телеверсия радио «Европа Плюс»: топовые зарубежные и русские хиты.",Europa Plus TV
 http://stream.mcquack.net/184/index.m3u8
+#http://7.hls.gd/ch715/mono.m3u8?token=rl_b779e17.v2_hJlpR7dh0sK1BwKJ_lKpU7HQUkzsYk9xH7U5g9WzVOd9nKid3dDoApjJRUNwBP-1MJSdbjFoIKFJ1ho
+
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Dance».",Fresh Dance
+http://7.hls.gd/ch1565/mono.m3u8?token=rl_b779e17.v2_5m_Xhx0XycnegpigTGo076cMmvXccpUpzes8U0_DDQufs-CsYIpcoHIDJWmQ0aiJswLbz1rpjjErnybz
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный телеканал Kiss TV: поп- и танцевальные хиты.",Kiss
 https://kisstv.siliconweb.com/kissfm/kisstv/chunks.m3u8
@@ -87,5 +363,23 @@ https://kisstv.siliconweb.com/kissfm/kisstv/chunks.m3u8
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Турецкий музыкальный телеканал.",KN Music TV
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Dj».",Liberty Music Dj
+http://7.hls.gd/ch2790/mono.m3u8?token=rl_b779e17.v2__DTjVniKz-Ve2pipt1p8qGcqwuSPoSG9TpFh4O89ve4sCGUezdL5rkRlx4rieW4So8FdLYcGCsUDrgXl
+
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Electronic».",Liberty Music Electronic
+http://7.hls.gd/ch2879/mono.m3u8?token=rl_b779e17.v2_NcM8daC4Ej5MSmcq388UhvTmHZTXFu-RW0smexyZMlCM4aFx0nrRyql_0FkmeQet7RJD91jdWPlhR9Mr
+
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Электронная музыка: minimal и deep tech.",Minimal / Deep Tech
+
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный телеканал MTV: клубная и танцевальная музыка.",MTV Club
+http://7.hls.gd/ch3895/mono.m3u8?token=rl_b779e17.v2_-PNusF5VnN2xE8VH4H13mWqYd_W2kXSoUIhXls8_rniXp3a1T7sWcndTD_2F5LwZo0dsMDq88vg_B9SH
+
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный телеканал MTV: танцевальная и электронная музыка.",MTV Dance
+http://7.hls.gd/ch3915/mono.m3u8?token=rl_b779e17.v2_okGT0H5qyFQxPaIqEC9MFElg-mqAraJ6EzusiW3WKO74j6UmKfw_jLcGGRSHl3FbGF6dmeXPHd-ItIeM
+
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/musicbox-dance.png" tvg-id="musicbox-dance" tvg-description="Музыкальный телеканал Music Box: танцевальная музыка.",Music Box Dance
+http://7.hls.gd/ch3395/mono.m3u8?token=rl_b779e17.v2__6DJDyAnfEvMqEkGsuji0D93BZqvF4qRMe0HN2NPBs9zGliqlrtqESubkihZWb8eTRrArcjx5gp0k2ON
+
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/veles-djset.png" tvg-id="veles-djset" tvg-description="Музыкальный канал пакета «VeleS»: музыкальные клипы и концерты. Тематика подборки — «Dj Set».",VeleS Dj Set
+http://7.hls.gd/ch2593/mono.m3u8?token=rl_b779e17.v2_1ngNfEvg8dDKhtDRl568EU2JsqyaqQEgHUI5PCNtbv2fpt0aJBK_8WC-ja6SLuOuUv5PAViYzFTsLEhv
 

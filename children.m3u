@@ -6,16 +6,34 @@
 
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/capfantast.png" tvg-id="ginger-hd" tvg-description="Первый российский детский приключенческий телеканал (экс-Ginger HD): кино, мультфильмы и наука для детей 4–12 лет.",Капитан Фантастика
 
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/kinomult.png" tvg-id="kinomult" tvg-description="Телеканал полнометражных мультфильмов и анимационного кино.",Киномульт
+http://7.hls.gd/ch3329/mono.m3u8?token=rl_b779e17.v2_ZTNwh3qnsst4pzNnt-uGhwQzuZ7N_M1KEXFWGeY1qYuxx9P8N_WYG-HhIg36BfPMO6ud2SnA91pzASMU
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/multimania.png" tvg-id="multimania" tvg-description="Детский телеканал мультфильмов и анимационных сериалов.",Мультиландия
+http://7.hls.gd/ch634/mono.m3u8?token=rl_b779e17.v2_mcEGzg12kdbzlVlEAK9Upq0HXh0hHTThabp4KaDKrcXwxlbObO8VfxsaKOxPmzkw_tU2W2u63vCDXt0
+
 http://7.hls.gd/ch638/mono.m3u8?token=rl_b779e17.v2_h0zAyQnRLjOqeBzCGADN006UzLS6gPcBhcPGp8ZQe1sRHsrOhbU25yD39_401DIoKYvdLk9XkQhDpxI
 
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/multimuzyka.png" tvg-id="multimuzyka" tvg-description="Детский музыкальный канал: песни и клипы из мультфильмов.",Мультимузыка
 http://stream.mcquack.net/82/index.m3u8
 #http://7.hls.gd/ch484/mono.m3u8?token=rl_b779e17.v2_dErjjmMfWGYgcYXAX4o1FNzcgiP2jDr9elo43MlVQUf--Vz1Rj54r0lig5LluTZH3eRAKI8qbqFP5_c
 
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/radost-moya.png" tvg-id="radost-moya" tvg-description="Семейный познавательный телеканал: программы для детей и родителей.",Радость моя
+http://7.hls.gd/ch487/mono.m3u8?token=rl_b779e17.v2_Oo8CXxIF57PROD5X5IQZgyvsHSGlFVV84XecExG1pqbJwDqrDVNs59GKonzTszEgu4MqnSIzE43dfC0
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/ryzhy.png" tvg-id="ryzhy" tvg-description="Детский телеканал «Рыжий»: мультфильмы и детские программы.",Рыжий
+http://7.hls.gd/ch618/mono.m3u8?token=rl_b779e17.v2_jr8DKY3DaNfOWZPAQCpQyMXiI_6rkFxPIE2X3cl-fGXPm6wk_lq6vP9oiD0kgxswt-0sfKcIE8AZmZE
+
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/sts-kids-hd.png" tvg-id="sts-kids-hd" tvg-description="Детский телеканал СТС: мультсериалы и развлекательные программы.",СТС Kids
 http://stream.mcquack.net/197/index.m3u8
 #http://stream.shbro.org/stream/14B37BB54802/e2a8videom3u8.m3u8
 #http://7.hls.gd/ch483/mono.m3u8?token=rl_b779e17.v2_BiSGbYn_NH_b2rjSRmfAdi80UeWjxxeljD8yyyyz_6NCM0FfYQsBaMl7BTDGuwkEBvnWBCUzbBWf9AQ
+
+#EXTINF:0 group-title="Детские 6+" tvg-description="Детский телеканал о супергероях: мультсериалы и приключения.",Супергерои
+http://7.hls.gd/ch617/mono.m3u8?token=rl_b779e17.v2_8DgFc5qSJnzWgdP4QbpDiX8nuQY2SIqtRiWjHgWDb7wyuGdeqGeAvKMNYtm2v4jsnnNWAgRpSdug8yg
+
+#EXTINF:0 group-title="Детские 6+" tvg-description="Детский познавательный телеканал: развивающие программы и мультфильмы.",Уникум
+http://7.hls.gd/ch478/mono.m3u8?token=rl_b779e17.v2_3cM5AIwMXQ2wmEGQ3OMaQ3qpCfhmOvb04YK608D4NtmbPnUfONrm7yAqH9lDOUTGD9RNvPrVYuDWmMg
 
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/ani.png" tvg-id="ani" tvg-description="Российский телеканал аниме: японская анимация для подростков.",Ani
 http://89.33.29.115:8080/ani/index.m3u8
@@ -26,8 +44,20 @@ http://89.33.29.115:8080/ani/index.m3u8
 http://89.33.29.115:8080/Cartoon_Network/index.m3u8
 #http://7.hls.gd/ch081/mono.m3u8?token=rl_b779e17.v2_UQpMj_ueIBo-ck0y9i8F79x3aPCEI0Vq3Wui3vQGApOsyl2_6W-wOwG1m481q4dAQpKb2CYyO9BUMg
 
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/cartoons-90.png" tvg-id="cartoons-90" tvg-description="Телеканал мультсериалов 1990-х годов.",Cartoons 90
+http://7.hls.gd/ch1027/mono.m3u8?token=rl_b779e17.v2_ddl4hpZYblyFWM90cV5AkXBqqy_5aQLM6oH15CLjvrvMDNZ3bvpIDbZqsPVx-AJ0QxsbB_tIs1mN9CPZ
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/cartoons-big.png" tvg-id="cartoons-big" tvg-description="Телеканал полнометражных мультфильмов.",Cartoons Big
+http://7.hls.gd/ch1029/mono.m3u8?token=rl_b779e17.v2_-btNcvATfxBFoUsbsAgRRGzru35AuJjJQhJGC1_X94JmghTA_yIhc5a6VGuEkeW8Xx34lvwyBw4jm0Rt
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/cartoons-short.png" tvg-id="cartoons-short" tvg-description="Телеканал коротких мультфильмов.",Cartoons Short
+http://7.hls.gd/ch1028/mono.m3u8?token=rl_b779e17.v2__-uVhUM_i-MgJE03EqPmnBeW-C63BPIo-w48VLKmyBKs1HmbibjtkfZvW_VvAaDZ0wckE3m64shrQoH-
+
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/disney-c.png" tvg-id="disney-c" tvg-description="Детский телеканал Disney: мультсериалы, семейные фильмы и шоу.",Disney
 http://89.33.29.115:8080/disney/index.m3u8
+
+#EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/familyjam.png" tvg-id="familyjam" tvg-description="Семейный телеканал: мультфильмы, кино и программы для совместного просмотра.",FamilyJam
+http://7.hls.gd/ch3357/mono.m3u8?token=rl_b779e17.v2_pkISHxFfouVWae68AFi4-u12uDDxtIVV4eDxr4A3fXbMQDZESkvCxZFNAVjH3MIlFQ1z_CCL8HNLR35A
 
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/kidstv.png" tvg-id="kidstv" tvg-description="Детский телеканал с мультфильмами.",Kids TV
 https://wurljansonmedia.global.transmit.live/hls/69029561e0b3f0f215eef867/playlist.m3u8
@@ -49,14 +79,23 @@ https://hostrec.ru/live/wic2AtEFCLwsZcUkAgtZcjlYgjc.m3u8
 
 # Дошкольные
 
+#EXTINF:0 group-title="Дошкольные" tvg-description="Детский телеканал с мультсериалом «Буба» и другими анимационными проектами.",БубОкко ТВ
+http://7.hls.gd/ch3913/mono.m3u8?token=rl_b779e17.v2_G_TAYud8Qk1k-pFJiWCHMRbuih_vF2xs2b0ErMGLF22G2B-PJO8SjMsc1ugfJCgG4PZ39qabN2OUUqTf
+
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/v-gostiax-u-skazki.png" tvg-id="v-gostiax-u-skazki" tvg-description="Детский телеканал сказок: отечественные и зарубежные фильмы-сказки и мультфильмы.",В гостях у сказки
 http://stream.mcquack.net/93/index.m3u8
 #http://7.hls.gd/ch119/mono.m3u8?token=rl_b779e17.v2_1LpZzzYc2Pz6N1W0I8Dbo8y4YgEUKXJMPbYJaZRk3e1gmhiwDyQOb0jYIzoI468-7XTQ7DVxqkDqaWM
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/detsky-mir.png" tvg-id="detsky-mir" tvg-description="Детский телеканал: советские и российские мультфильмы и фильмы для детей.",Детский мир
+http://7.hls.gd/ch044/mono.m3u8?token=rl_b779e17.v2_M89aQgWKyUw5QXok3qNaaMV0oKl--6waggNHKCs4coOS17V6FIK1dE2AXAZDAbyH9DPHnHYKztXC9A
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/karusel.png" tvg-id="karusel" tvg-description="Главный российский детский телеканал: мультфильмы, развивающие и образовательные программы.",Карусель
 http://89.33.29.115:8080/Karusel/index.m3u8
 #http://stream.mcquack.net/120/index.m3u8
 #http://7.hls.gd/ch040/mono.m3u8?token=rl_b779e17.v2_9rlIJTJuF6kV34ePZ3grQGoouiqROa35exsyN3i7ceUe_UmsnFttadS-FMGmQs_QPTq6iqQeQofPEQ
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/liova.png" tvg-id="liova" tvg-description="Детский телеканал «Лёва»: мультфильмы и развивающие программы.",Лёва
+http://7.hls.gd/ch2080/mono.m3u8?token=rl_b779e17.v2_1ee49hnzoSmU3h1lx_NRQF_2ybbS3PUt0XapFJWH4vE8TTyWlOn0jfATEXgNex_jC2f68_iuHNyPZJ5q
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/mult.png" tvg-id="mult" tvg-description="Российский детский телеканал с отечественными мультсериалами.",Мульт
 http://89.33.29.115:8080/Mult/index.m3u8
@@ -65,6 +104,28 @@ http://89.33.29.115:8080/Mult/index.m3u8
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/o_.png" tvg-id="o_" tvg-description="Российский детский познавательно-развивающий телеканал для дошкольников.",О!
 http://stream.mcquack.net/60/index.m3u8
+#http://7.hls.gd/ch323/mono.m3u8?token=rl_b779e17.v2_UaLQdKiX6ZxtiOIYsvTjHrB_yY-9-9LxTI-y6OQd4PNvHt5s5Nqga6Oc0E_VG5fgVqq14DL3yMRZ9Hc
+
+#EXTINF:0 group-title="Дошкольные" tvg-description="Детский телеканал «Смайлик ТВ»: мультфильмы и весёлые программы.",Смайлик ТВ
+http://7.hls.gd/ch3052/mono.m3u8?token=rl_b779e17.v2_XQVEGWjtHbcf3DdkEGsXRBK_N1AP7SHPxldb6lSWME08wU_BYew6vRnysZUSLmPYs7tvrkfYZtqA5DvG
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/tiptop.png" tvg-id="tiptop" tvg-description="Детский телеканал «ТипТоп»: мультфильмы и познавательные программы.",ТипТоп
+http://7.hls.gd/ch3315/mono.m3u8?token=rl_b779e17.v2_k8CV2U0Ivs0RgU82uJ0QQK3t_rtkw7WfBRXb1XqbIuyHGfS5i10T5NyMTsBEB9ScrHwe9CW3pVFERaJB
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/chizhik.png" tvg-id="chizhik" tvg-description="Детский телеканал «Чижик»: мультфильмы для дошкольников.",Чижик
+http://7.hls.gd/ch425/mono.m3u8?token=rl_b779e17.v2_YkcvHVZ0T2TWyLIP9kNxRalnqsyRv00g8ppF_WwqxkLkXMC9u8Jbe_vq8oz0CeFl9Zv5IExsLuvlzDE
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/baby-time.png" tvg-id="baby-time" tvg-description="Телеканал для малышей: развивающие программы и мультфильмы.",Baby Time
+http://7.hls.gd/ch3317/mono.m3u8?token=rl_b779e17.v2_HUjVMuFX0agzg5-WBEB6qczhsj695WA8oG6yhg2Bq6ArcXFfJHEuVFbVH3mGuf-hIBNvjdO_23fsMeaw
+
+#EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/baby-tv.png" tvg-id="baby-tv" tvg-description="Телеканал для самых маленьких: развивающие мультфильмы и песенки.",Baby TV
+http://7.hls.gd/ch489/mono.m3u8?token=rl_b779e17.v2_HdaGuBDx5qlOU4VbUwzlOl6WJenEspEV5sM-uPm7RUTjFNFgOJCGdrcb08Ii6x1f4rFJHcMT_F67urc
+
+#EXTINF:0 group-title="Дошкольные" tvg-description="Детский телеканал мультсериалов для дошкольников.",Cartoonito
+http://7.hls.gd/ch486/mono.m3u8?token=rl_b779e17.v2_Rh0CxZVkCC1453oZHGF1mfjfxGXpo2OpsFS8olDnWwCgs16RAwtCE910cP1TNTOlh6E4mwbklt2bs80
+
+#EXTINF:0 group-title="Дошкольные" tvg-description="Детский телеканал Duck TV: короткие мультфильмы без слов для малышей.",Duck TV
+http://7.hls.gd/ch707/mono.m3u8?token=rl_b779e17.v2_2jUocGwOnWYUv3Gen0egGG1O_wnXiwJPQopajjuZnKJrMIDS-GlIvUzmoCDR-pGmxdMca-_FbxeiOVE
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/gulli-girl.png" tvg-id="gulli-girl" tvg-description="Детский телеканал для девочек: мультфильмы и сериалы (Gulli, русская версия).",Gulli Girl
 http://89.33.29.115:8080/Gulli/index.m3u8
@@ -90,13 +151,401 @@ http://stream.mcquack.net/220/index.m3u8
 http://89.33.29.115:8080/TiJi/index.m3u8
 #http://7.hls.gd/ch042/mono.m3u8?token=rl_b779e17.v2_NR2eUPdPkxdS3PKDePvFE23HAAtjm4JGFfji4snTtgos-2krR3ppcfL-WLTu9B9__CKuCQYO8p7fdA
 
+# BCU
+
+#EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kids.png" tvg-id="bcu-kids" tvg-description="Детский канал пакета «BCU»: мультфильмы и программы для детей. Тематика подборки — «Kids».",BCU Kids
+http://7.hls.gd/ch786/mono.m3u8?token=rl_b779e17.v2_adG7ymFqyS4pHQmXrYAjMwI-8zYNjlgTtPJFX7GbvrSl0hxIVLfSzVWbpkQQ7m-arSkTLGe1hQS17yU
+
+#EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kids-4k.png" tvg-id="bcu-kids-4k" tvg-description="Детский канал пакета «BCU»: мультфильмы и программы для детей. Тематика подборки — «Kids 4K».",BCU Kids 4K
+http://7.hls.gd/ch1428/mono.m3u8?token=rl_b779e17.v2_60MNRbIhFLdbaW6uxMKov3CLIW5mrEwESjjTxYpD6pJ6ksmMvhPaqph0XSUUeBCBzi2TNbO8VSCxml7B
+
+#EXTINF:0 group-title="BCU" tvg-description="Детский канал пакета «BCU»: мультфильмы и программы для детей. Тематика подборки — «Kids+».",BCU Kids+
+http://7.hls.gd/ch559/mono.m3u8?token=rl_b779e17.v2_UOvp1mVmwbKzBJ-aimJpU5oQPEAOdWAU-qCNTCkJTYdzEHF2YxnVcq1rwXOljSWGcva_26fjMnh1Bs4
+
+#EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-little.png" tvg-id="bcu-little" tvg-description="Детский канал пакета «BCU»: мультфильмы и программы для детей. Тематика подборки — «Little».",BCU Little
+http://7.hls.gd/ch1634/mono.m3u8?token=rl_b779e17.v2_a68lX72X1VFR77zmsxToH1tKHwrvZz6yKaTVUu0jMwou_TPJJ4M1cX_gzI3a-b05Nb-RWGDom6Obl7a7
+
+#EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-multserial.png" tvg-id="bcu-multserial" tvg-description="Детский канал пакета «BCU»: мультфильмы и программы для детей. Тематика подборки — «Мультсериал».",BCU Мультсериал
+http://7.hls.gd/ch787/mono.m3u8?token=rl_b779e17.v2_NlLIuKVJ7UdPR5UwCOSpisg_Hv98IiEu1HpHvUYZOmiafdHkLBb86vCIthCsPVhd1NJaMxVPkSRhJVc
+
+# CineMan
+
+#EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-kids4k.png" tvg-id="cineman-kids4k" tvg-description="Детский канал пакета «CineMan»: мультфильмы и программы для детей. Тематика подборки — «Kids 4K».",CineMan Kids 4K
+http://7.hls.gd/ch3049/mono.m3u8?token=rl_b779e17.v2_Qk6Aq8klsH11nbrBGbf1j0-eY__9ntyHXHEcku_3v4XBk81kIRbefVjAflz4hvEj9X_Hu8uegys5k8jB
+
+# Fresh
+
+#EXTINF:0 group-title="Fresh" tvg-logo="https://iptvx.one/picons/fresh-kids.png" tvg-id="fresh-kids" tvg-description="Детский канал пакета «Fresh»: мультфильмы и программы для детей. Тематика подборки — «Kids».",Fresh Kids
+http://7.hls.gd/ch1735/mono.m3u8?token=rl_b779e17.v2_D6gXYdao25KCYFZiI2j7GIQNu-NELCa7Q5Y__PHVE0_YCc5y6Ci8bMi_JlFcPu66Yf9kTJyFLi-IXCcf
+
+# KBC
+
+#EXTINF:0 group-title="KBC" tvg-logo="https://iptvx.one/picons/kbc-family-animation.png" tvg-id="kbc-family-animation" tvg-description="Детский канал пакета «KBC»: семейное кино. Тематика подборки — «Family Animation».",KBC-Family Animation
+http://7.hls.gd/ch2832/mono.m3u8?token=rl_b779e17.v2_TFKqVmoM3xTwLcXEgQfihiXRRBnGYrqKfkJ6BYUWQ7Va8-TI628RU8G_FFT22UgGs4I4_DSORTQtcpMV
+
+#EXTINF:0 group-title="KBC" tvg-description="Детский канал пакета «KBC»: мультфильмы и программы для детей. Тематика подборки — «Союзмультзал».",KBC-Союзмультзал
+http://7.hls.gd/ch2829/mono.m3u8?token=rl_b779e17.v2_8JQsNDOjH4j0eG1hbgWliFJgtwf9ork2hxqifOU-QU5NAreCqX_lwlvTjcuY8NZBAKYljaIpvech6rM3
+
+# Kernel TV
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-aladdin.png" tvg-id="kernel-aladdin" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Аладдин».",Kernel TV Аладдин
+http://7.hls.gd/ch3225/mono.m3u8?token=rl_b779e17.v2_Iws9_aTuJRk9d0VlMCd5pz-TUCRRpvVi7htjE8hgx3cX9sP9uX2g_VU1pPG5yQ-k7_0tF7P2eBQUaORu
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-alica.png" tvg-id="kernel-alica" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Алиса».",Kernel TV Алиса
+http://7.hls.gd/ch3226/mono.m3u8?token=rl_b779e17.v2_hNWuBjojp75BgQK8u-tipr-zRbqyD4E00ciVOAA_gBuEIZb8TLT8cYBA_M0_JaKhHdaS_dX817dGwkHF
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-barbosk.png" tvg-id="kernel-barbosk" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Барбоскины».",Kernel TV Барбоскины
+http://7.hls.gd/ch3228/mono.m3u8?token=rl_b779e17.v2_MadPP93-eJMLqd0COu8VevHC8zDnjbfyVG_Bg3RiGq5t0k0ztH8vUgdrMR1E_CowdGl1PP4nrBRyiJRr
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-ben10.png" tvg-id="kernel-ben10" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Бен 10».",Kernel TV Бен 10
+http://7.hls.gd/ch3229/mono.m3u8?token=rl_b779e17.v2_o3RzyGLeVhtTTSbf3-aLFi0YjKQP50VjrllTZG8SqAQtY5R-pT8tFrGBEp8bndbFLu5feiHIMGS3n_2k
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-buba.png" tvg-id="kernel-buba" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Буба».",Kernel TV Буба
+http://7.hls.gd/ch3230/mono.m3u8?token=rl_b779e17.v2_03-_geRClFjy1l9fJoyBGGqkR9lxb1afoOg847_9-HhH5gz6d6A3W5k2d7AdOafQ3Ey3321jW8g_ixCk
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-vinni.png" tvg-id="kernel-vinni" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Винни и его Друзья».",Kernel TV Винни и его Друзья
+http://7.hls.gd/ch3279/mono.m3u8?token=rl_b779e17.v2_Xz5NEs-qSJV1O1Qa5CzE6cmeMDRSQ4t6g9CzfO56ssMUQEkNE7InrfD_qUUrw5m4Q9k4y3n2zD3037WD
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-gravityfalls.png" tvg-id="kernel-gravityfalls" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Гравити Фолз».",Kernel TV Гравити Фолз
+http://7.hls.gd/ch3245/mono.m3u8?token=rl_b779e17.v2_DSrGglJxUZRVr7y7pC70A_aF418Vztfni3A7q4Li8QxN9VQ_sktWUxpHLCkP4oI10sM-6z98-aha5Tdd
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-gubkabob.png" tvg-id="kernel-gubkabob" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Губка Боб Квадратные Штаны».",Kernel TV Губка Боб Квадратные Штаны
+http://7.hls.gd/ch3246/mono.m3u8?token=rl_b779e17.v2_LxImjbxJS6z_4hUtjcKNkfBfAFM4czTcgow6JNOWUrHP0cBekfsP2JW4pAiR8Fa7Uy5t3I-Xro_JV0Nt
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-drakony.png" tvg-id="kernel-drakony" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Драконы и Всадники Олуха».",Kernel TV Драконы и Всадники Олуха
+http://7.hls.gd/ch3237/mono.m3u8?token=rl_b779e17.v2_ULQVVkAhPQjHuXpvRuIl4BIqMOxSeAr7D5cTfTaFJ-eIyKI9AmtQgNh41KFiP3Q3ygOUOymjpJwuP_P2
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-zvezdnyevojny.png" tvg-id="kernel-zvezdnyevojny" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Звёздные войны».",Kernel TV Звёздные войны
+http://7.hls.gd/ch3270/mono.m3u8?token=rl_b779e17.v2_R-uogr4u8jyN_rDiT9DjhD_vUcS42BtD1gOmC-8LUkpkoJEYZ_H1rnQjY_KWy6U3vDzyg6v3DzbZeWOL
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-komandaturbo.png" tvg-id="kernel-komandaturbo" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Команда Турбо».",Kernel TV Команда Турбо
+http://7.hls.gd/ch3277/mono.m3u8?token=rl_b779e17.v2_UTPHkZMgvpINcn3CqR6VSEwfM03d1EFOe0HFn_nR2ihHaH-CxhJEa0WQ1rGrzfoG871xx6AQDr6XiQId
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-lego.png" tvg-id="kernel-lego" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Лего».",Kernel TV Лего
+http://7.hls.gd/ch3251/mono.m3u8?token=rl_b779e17.v2_UvBCZeo91yloUInL4Ehma1xIe_GQPomnmPN68cGXktbm5KOhc-znpB3-C6fN8LflQnGVSuC7W0qJfMbu
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-ladybag.png" tvg-id="kernel-ladybag" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Леди Баг и Супер Кот».",Kernel TV Леди Баг и Супер Кот
+http://7.hls.gd/ch3250/mono.m3u8?token=rl_b779e17.v2_xOpi27MNKupH0wWmq3FJRbpt0w9r5bK1DrdfqMxEpZXMvo0k2918WQHXcTCg-yZGg0loVZeZ7XXKmK-L
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-lilo.png" tvg-id="kernel-lilo" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Лило и Стич».",Kernel TV Лило и Стич
+http://7.hls.gd/ch3252/mono.m3u8?token=rl_b779e17.v2_F8NLlHhWGLyPk-NHnn07M17RaoPG81HPTm_Ws2G9_m9cd7SA1PNA-W5kmKYuK4lCtAVI_wTg4IN0PWKO
+
+#EXTINF:0 group-title="Kernel TV" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Лунтик и его Друзья».",Kernel TV Лунтик и его Друзья
+http://7.hls.gd/ch3254/mono.m3u8?token=rl_b779e17.v2_JNJV0IInWoIf-2KDk8cxOL7OecGUSv7pBMux-gzl87ZgWEITJYgsPbXnnksMiU9tLgf73KwiDpUOESiU
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-malysh.png" tvg-id="kernel-malysh" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Малыш».",Kernel TV Малыш
+http://7.hls.gd/ch3256/mono.m3u8?token=rl_b779e17.v2_Ti0KdTCxUad62cjtVoDrIfQvcxbZisG4Y42gAsV36D6qjd1M8XhvJkV4a9shhK1Hy25AOm3KGKgSXATW
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-mashaimedved.png" tvg-id="kernel-mashaimedved" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Маша и Медведь».",Kernel TV Маша и Медведь
+http://7.hls.gd/ch3259/mono.m3u8?token=rl_b779e17.v2_To4weTYYXq6B1KkE1x_fPOcDMj4w7c9jSN-GBbr41tffkWwaGi0qGCbpdxqbv_zYsd7sOYSnFoB7OOOy
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-mimimishki.png" tvg-id="kernel-mimimishki" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «МИ-МИ-Мишки».",Kernel TV МИ-МИ-Мишки
+http://7.hls.gd/ch3260/mono.m3u8?token=rl_b779e17.v2_Xbc0atQwSNBv2w-s83_DdWDhUxMBC5yMuiNV-OFg-s8AL0JncsEkyhHUczFjtIRK7pu8yB2HF0SA5tRx
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-minifors.png" tvg-id="kernel-minifors" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «МиниФорс».",Kernel TV МиниФорс
+http://7.hls.gd/ch3261/mono.m3u8?token=rl_b779e17.v2_hENQnla5gkzpJyKHX30_EjokW0KQ3gVEJRBuQWLzMYIpen02U6x6c-7UxSqb9hSDwsL0uFun_Zjo-aLF
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-malenkyponi.png" tvg-id="kernel-malenkyponi" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Мой Маленький Пони».",Kernel TV Мой Маленький Пони
+http://7.hls.gd/ch3262/mono.m3u8?token=rl_b779e17.v2_U5YcLH2qPAFYPr5rbl1zFr7tn_dPppsr-KT_QgyxoE4OeZHJlsgtmRBu8nT5U6WJrf7hdAWi86j3U620
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-girls.png" tvg-id="kernel-girls" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Подружки».",Kernel TV Подружки
+http://7.hls.gd/ch3243/mono.m3u8?token=rl_b779e17.v2_BU9GdY6QkEqmm0XjFP0_IsWfH4BKzEAizi2-6gPgMUnEMVBp6cthtv6Euh6pq2Tvuwfi5INBwe6ZCo91
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-pushystiki.png" tvg-id="kernel-pushystiki" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Пушистики».",Kernel TV Пушистики
+http://7.hls.gd/ch3264/mono.m3u8?token=rl_b779e17.v2_1Gu3e20Ajg1WQU6BVSYcFbcMUkJ8b2H-qqhLh4WdfkRq-a2mnvA4--aEIjb698jEX9OA6qPeDrIWdLqU
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-rusalochka.png" tvg-id="kernel-rusalochka" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Русалочка».",Kernel TV Русалочка
+http://7.hls.gd/ch3266/mono.m3u8?token=rl_b779e17.v2_ZbQhBIpbWSUx-aCIUkK3xWt6SO-RSZwTdsmGbKamasg5h6pgpVyddhA2rgiXL4yvqCi7iB7YzCcvqeUt
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-smeshariki.png" tvg-id="kernel-smeshariki" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Смешарики».",Kernel TV Смешарики
+http://7.hls.gd/ch3268/mono.m3u8?token=rl_b779e17.v2_B1VgAuMrFn0nqyiyPiFPVe6bMgt8plfRl3LBv93HG9sEch9TvDyBKrk7JEmv-Zy9bqyxxAV1Z8nKkC5b
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-sonikbum.png" tvg-id="kernel-sonikbum" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Сонник Бум».",Kernel TV Сонник Бум
+http://7.hls.gd/ch3269/mono.m3u8?token=rl_b779e17.v2_6tmt0Zc_VDshzOqE97vg0_LcNC_H-O9mNkXJONXc4NFOzQcM-2FvV9FYOIPZ3ody155tiE43OHtxDtA0
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-superkrylia.png" tvg-id="kernel-superkrylia" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Супер Крылья».",Kernel TV Супер Крылья
+http://7.hls.gd/ch3271/mono.m3u8?token=rl_b779e17.v2_GL_-cpQUhzc8kIF0eYYqdKfzrVMPOtV6RsTngTckghof_jn-Ct_Ki_nkCd1h4nIsUPJH8At6rOYF6Q5n
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-timonpumba.png" tvg-id="kernel-timonpumba" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Тимон и Пумба».",Kernel TV Тимон и Пумба
+http://7.hls.gd/ch3274/mono.m3u8?token=rl_b779e17.v2_vpRtW6uVE5KjtiZzVmx1cBFd8Hcjrjf_xOeLLCUhNiCodMwj9YnRDdkjUUsHQrH16rt2Kq_pn2qe8lfJ
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-tomjerry.png" tvg-id="kernel-tomjerry" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Том и Джерри».",Kernel TV Том и Джерри
+http://7.hls.gd/ch3275/mono.m3u8?token=rl_b779e17.v2_TjfNssGSYhtNnFGm1vHz0cA27A0A0yIy9A8k5hicGikFFycZCGFJTcaZHnoYbRn1UuSxOOOlvu2vVnUA
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-trikota.png" tvg-id="kernel-trikota" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Три Кота».",Kernel TV Три Кота
+http://7.hls.gd/ch3276/mono.m3u8?token=rl_b779e17.v2_85xoFO4lQowmz2VDLvm6WqGpRp9N9rNjHMBTkq1uO0k_8D8QIYDg7BpuO6bn8BpyDPTlx9nDgESJE9EU
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-utinyeistorii.png" tvg-id="kernel-utinyeistorii" tvg-description="Детский канал пакета «Kernel TV»: историческое и военное кино. Тематика подборки — «Утиные истории».",Kernel TV Утиные истории
+http://7.hls.gd/ch3238/mono.m3u8?token=rl_b779e17.v2_jWeQYHuy1PL-8bwtd200YYweFKkT1_Lj1Mmfq1SgQYk8ax2LXM9u74OATT_6MCeRAMfrJbA9SPeHMskD
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-fiksiki.png" tvg-id="kernel-fiksiki" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Фиксики».",Kernel TV Фиксики
+http://7.hls.gd/ch3240/mono.m3u8?token=rl_b779e17.v2_Ep70HjBLRlb7iuRkLWty9x2_v-GcgMt-W-TnBeKPqdFiFDpwwRXu7BQ-uAJ6bTP8FB2wIVL-A_M0gPcv
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-finferb.png" tvg-id="kernel-finferb" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Финис и Ферб».",Kernel TV Финис и Ферб
+http://7.hls.gd/ch3239/mono.m3u8?token=rl_b779e17.v2_3sYDzpfbnsOKxTfA_B2Naif4W4q_c5WrFW04yZLUA9qhPOVxkZ92hd_BFi2t919U2ztVDOITa_Vlva7y
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-carevny.png" tvg-id="kernel-carevny" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Царевны».",Kernel TV Царевны
+http://7.hls.gd/ch3232/mono.m3u8?token=rl_b779e17.v2_VOjG8nRZopuaje78tPnPrlxLcVdtDihIkf9Na_1ckQgLuw5ZLxfPwl8Ji5KtoJZy_VCQkm_wKSWwHwgX
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-spiderman.png" tvg-id="kernel-spiderman" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Человек-Паук».",Kernel TV Человек-Паук
+http://7.hls.gd/ch3244/mono.m3u8?token=rl_b779e17.v2_cR246GOinhn1LUi5OHdXZ663fCzVl96HThl17TA5s_jnYPSJGsEvZtv5L6yTuge2XTooOIQ_xe94B_Nb
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-cherepashkininja.png" tvg-id="kernel-cherepashkininja" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Черепашки Ниндзя».",Kernel TV Черепашки Ниндзя
+http://7.hls.gd/ch3278/mono.m3u8?token=rl_b779e17.v2_86X8XLg1advpjeeffH4Yz_-R-JCMiro_84yC2Snh6Pi5ZVfMid-ufq9rSSAo_wBlykqy0u3lfbz_obJJ
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-chipndale.png" tvg-id="kernel-chipndale" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Чип и Дейл».",Kernel TV Чип и Дейл
+http://7.hls.gd/ch3234/mono.m3u8?token=rl_b779e17.v2_N7o0mmiMNKosQdQtH0Re77A-9cmnE8TuuRxUOdIwGjPmnC3i33vVJiJ-oY_yPg0q9W8s3Iyv_D4YlZA4
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-chernyplasch.png" tvg-id="kernel-chernyplasch" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Чёрный Плащ».",Kernel TV Чёрный Плащ
+http://7.hls.gd/ch3233/mono.m3u8?token=rl_b779e17.v2_nfNZB0zgcqfUDXiYR-iuE-lzVlf77HJzI7q7RNgYKEOJObfpQhCX3utG0jK1W_Zn79Vkivdv3USKhSgZ
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-shkodniki.png" tvg-id="kernel-shkodniki" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Шкодники».",Kernel TV Шкодники
+http://7.hls.gd/ch3267/mono.m3u8?token=rl_b779e17.v2_zxLWVEnrGSU8yVZ0GAzC_M-k2MM9Fh_jR-rPDnttDP30jvpOvWGzRPetSQCaR1QttX3Cme_NztpMnYQF
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-piespatrol.png" tvg-id="kernel-piespatrol" tvg-description="Детский канал пакета «Kernel TV»: мультфильмы и программы для детей. Тематика подборки — «Щенячий Патруль».",Kernel TV Щенячий Патруль
+http://7.hls.gd/ch3265/mono.m3u8?token=rl_b779e17.v2_WKp0jtVgYSMsU_mN1shOpL-XGRoA1F5cjz4_Ojg7cG99Zz1oOuUWuM_IeazIK2lDpAHpEF5E0l1juDq_
+
+# KLI
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Kids».",KLI Kids
+http://7.hls.gd/ch4076/mono.m3u8?token=rl_b779e17.v2_z8isfchm1K2giXxwS0fFIxzRKZHtpuCA_fE5sLxJKtmaFj72_u8VRPLZ67Ty0vIAIjqL0w6BpBcpMyAg
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Looney Tunes».",KLI Looney Tunes
+http://7.hls.gd/ch4058/mono.m3u8?token=rl_b779e17.v2_ol-t4ai6kqi_bV2SqFG_YDWZ-pPAGCFbrntgab-oFS9d7STuMhm4nG2_Zee0tn9r18wd8t60fUP9CWLy
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Tom and Jerry».",KLI Tom and Jerry
+http://7.hls.gd/ch4059/mono.m3u8?token=rl_b779e17.v2_msZ4cUr9heeQXEV0lQg62elUFx7dX2_NqB481warED4NC-WakpIU0aU6rg8DWN49UZGV9SY2BwgsOaBK
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Альф».",KLI Альф
+http://7.hls.gd/ch4060/mono.m3u8?token=rl_b779e17.v2_Qma_QI8oXYJLO_SqwFSiaFBzSMQ-j7zCrmAZoabreIKoylTS_A0chmudZo2pvultCoPLrDc1WMhXtVv1
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Винни Пух и его друзья».",KLI Винни Пух и его друзья
+http://7.hls.gd/ch4061/mono.m3u8?token=rl_b779e17.v2_GBRiKGTMlyGLOC18R2jY2twafmQz1TAw0L43r3fFAqAtada89OlkhRllh6M6K-dz9em6GphkDzCMJSv2
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Лунтик».",KLI Лунтик
+http://7.hls.gd/ch4063/mono.m3u8?token=rl_b779e17.v2_4QicaCbTFwokYbT5QoCoFPAZwfmHsacn64KyXANP7EAl_I6hr9YVqXO7XELv2OtciSr4l5qXl7HX3Jkq
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Мультики».",KLI Мультики
+http://7.hls.gd/ch4090/mono.m3u8?token=rl_b779e17.v2_o0eFb-7j9F4o_sh4TWrR73jHM4Mnu1NjIuP8hGlcz66XrwaKXfdF72D5hoKADRhhtJWnWmKPAq0ioQiA
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Простоквашино».",KLI Простоквашино
+http://7.hls.gd/ch4064/mono.m3u8?token=rl_b779e17.v2_vfEqEodpqze0-OPSUIrk9xmZWp_VRq_iSJlRRkKSG-zCuvY0E6ERt2TCGFIcGGlCbcad_ky_ZVlwVEDG
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: историческое и военное кино. Тематика подборки — «Утиные Истории».",KLI Утиные Истории
+http://7.hls.gd/ch4065/mono.m3u8?token=rl_b779e17.v2_nsXlVwTSoERd-01UL6hgBKsftOHrJS2Xmw3A32_X5mihhQnh2zdghwTseIZcG1oJX5u5ToCrOabnmKh0
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Черепашки-Ниндзя».",KLI Черепашки-Ниндзя
+http://7.hls.gd/ch4066/mono.m3u8?token=rl_b779e17.v2_Bpre17BaQ9ai9AkqZKjhkecBSoZAI6JAjKod8WFKgLXbhBtOttUi9aPmmoUvflOJ7nafU9cFvcGq1bbW
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Черный Плащ».",KLI Черный Плащ
+http://7.hls.gd/ch4067/mono.m3u8?token=rl_b779e17.v2_-mdSY1djWjVMixElY3A4zlBp31ydezlkYErn_W48_XOLXKdiKsxFQ_7Fo9ylT68HE_TXCFB7cB58cxKP
+
+#EXTINF:0 group-title="KLI" tvg-description="Детский канал пакета «KLI»: мультфильмы и программы для детей. Тематика подборки — «Чип и Дейл».",KLI Чип и Дейл
+http://7.hls.gd/ch4068/mono.m3u8?token=rl_b779e17.v2_n3vvTaWWbIo0vvocx7-I48tNI-1YFoainXhGCUq03YpWXhRdcPUGyx9Jm5lZkwl_CS_EhhrArkwytrqx
+
 # Liberty
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-disney.png" tvg-id="liberty-disney" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Disney».",Liberty Disney
+http://7.hls.gd/ch1747/mono.m3u8?token=rl_b779e17.v2_-MhsH6oZRpciFwPnHk8xRVJFP-mXYCPAkrhYgU6KnlzT3QpaGm68X2pA9FPPckLqu2fug1VDQhydzIAI
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-dreamworks.png" tvg-id="liberty-dreamworks" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Dreamworks 4K».",Liberty Dreamworks 4K
+http://7.hls.gd/ch2788/mono.m3u8?token=rl_b779e17.v2_n-qcGg785LLZzv_5OKWTNGU-_yIGeUG2RaONjw8fMV8gpuXWwv1TX-0ihNNrYTSbCMPdNUcfAGyMD1nc
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-pixar.png" tvg-id="liberty-pixar" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Pixar».",Liberty Pixar
+http://7.hls.gd/ch1746/mono.m3u8?token=rl_b779e17.v2_Wpa_Z4IPbLn76c4wY4JKbkutCJP4fGSkbpTJ6qg-dIuDGE0pCUTM6JZ3OWcUETUXHZtOWiMNNOnkB1JZ
+
+#EXTINF:0 group-title="Liberty" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Plankton».",Liberty Plankton
+http://7.hls.gd/ch2341/mono.m3u8?token=rl_b779e17.v2_liaNECAuvASJaY4EGiEf0kKUkgYIwUd-l1SZaAKMFIyMhiEqXYDhEIKHpvTmkDBkOJKYrmoKip2EUytg
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-bebimult.png" tvg-id="liberty-bebimult" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Бебимульт».",Liberty Бебимульт
+http://7.hls.gd/ch1759/mono.m3u8?token=rl_b779e17.v2_POrZl05WyOCj-4oEko2YKTk6wbPQdCqNFBGcdu4cqdbnZYHgxNUKBgu1ZjgUuAjHLkUQujt7LE6SF2Ei
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-krosh.png" tvg-id="liberty-krosh" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Крош».",Liberty Крош
+http://7.hls.gd/ch2620/mono.m3u8?token=rl_b779e17.v2_PPmuhMSd1oE9XBbjqX4yd3DO3be44cvyqFkxCL3jnkEn77mgsTWiFBU4IhsF6ppOG7wnmMosxkxTU8qw
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-mim.png" tvg-id="liberty-mim" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Мим».",Liberty Мим
+http://7.hls.gd/ch1779/mono.m3u8?token=rl_b779e17.v2_ODhPqNZLe4kJdpLhlN1YSUVg0SA1DVEax9FdmpJdFK0PxnEz8IcllvWFYYIoIy8h3YQCfXEPizcQtnhh
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-mult.png" tvg-id="liberty-mult" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Мульт 4K».",Liberty Мульт 4K
+http://7.hls.gd/ch1771/mono.m3u8?token=rl_b779e17.v2_V7va2pxvRVWpYXVwCP0ln4FdYOeq_7b172ArvR7tEWY-TuG7iEvk69UtRyRl61nH7z18iYDOwIENUXT_
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-multeng.png" tvg-id="liberty-multeng" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «МультENG 4K».",Liberty МультENG 4K
+http://7.hls.gd/ch1764/mono.m3u8?token=rl_b779e17.v2_DnqZJt0BKUWL3N7u6uHlLNgcDVE5imrMLU0mlrFX4Tm-3XEhGRQjzUaoWpeqEh_XixeHjD7YY5pTGOqA
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-multiversia.png" tvg-id="liberty-multiversia" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Мультверсия».",Liberty Мультверсия
+http://7.hls.gd/ch3187/mono.m3u8?token=rl_b779e17.v2_rm7fFHbsPME7wHXKh0LoFmxdh9cb5-T3MQY__aH1soU1TTBbD8sLXLYaq8l5ot0opoEWOfD2DTQk6_7v
+
+#EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-skazki.png" tvg-id="liberty-skazki" tvg-description="Детский канал пакета «Liberty»: мультфильмы и программы для детей. Тематика подборки — «Сказки».",Liberty Сказки
+http://7.hls.gd/ch1778/mono.m3u8?token=rl_b779e17.v2_MhtAIkCcpOhnzs6cWfkBhp1SeeW1Jhk6qgZI1Z2eTAIVu6kKu3lCwXI1hi-ZonTjykjqUZSjVhhSYIFR
+
+# Magic
+
+#EXTINF:0 group-title="Magic" tvg-logo="https://iptvx.one/picons/magic-disney.png" tvg-id="magic-disney" tvg-description="Детский канал пакета «Magic»: мультфильмы и программы для детей. Тематика подборки — «Disney».",Magic Disney
+http://7.hls.gd/ch1558/mono.m3u8?token=rl_b779e17.v2_dn4CYyN0nRdvSdFaFL-TMqTH0TFEnocyYFAfMGQzudHtyy5Up9PUkieOr3LIcuVIowugdYn5SIaVAG7W
 
 # Minimax
 
+# MM
+
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-honey.png" tvg-id="minimax-honey" tvg-description="Детский канал пакета «MM»: мультфильмы и программы для детей. Тематика подборки — «Honey».",MM Honey
+http://7.hls.gd/ch1231/mono.m3u8?token=rl_b779e17.v2_GZI5k2gcFYP9omsopFqpdwV0kIU-IAyZinmoO9c1Sqlt1oCHlGENkjRJit66Jenrks4numxAkr5bZ2uD
+
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-lesson.png" tvg-id="minimax-lesson" tvg-description="Детский канал пакета «MM»: мультфильмы и программы для детей. Тематика подборки — «Lesson».",MM Lesson
+http://7.hls.gd/ch1247/mono.m3u8?token=rl_b779e17.v2_sI1V97Lje0nVwNtzEaTSEagAKP1IQVEACLj8v6vPqgiwcb695XR1Q_p6AK23rwVsHgMIzk3TW_tRAgIt
+
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-smile.png" tvg-id="minimax-smile" tvg-description="Детский канал пакета «MM»: мультфильмы и программы для детей. Тематика подборки — «Smile».",MM Smile
+http://7.hls.gd/ch1248/mono.m3u8?token=rl_b779e17.v2_lHjbxuWu2BTfWc42DiXltQqzaZk9yrP6V5EtQEFiBRQR-1dIpidWFflNjUrszYIxdeb1Fy5taSluH2rk
+
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-tom-and-jerry.png" tvg-id="minimax-tom-and-jerry" tvg-description="Детский канал пакета «MM»: мультфильмы и программы для детей. Тематика подборки — «Tom and Jerry».",MM Tom and Jerry
+http://7.hls.gd/ch1221/mono.m3u8?token=rl_b779e17.v2_tW4vs5CGweMqgZKxAkMvPCdP96VSTWLD5VTP76Ix-pJ-UxlyKaFWFZmYakx5jesXiPHnTD14OP9yl9Uw
+
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-mult.png" tvg-id="minimax-mult" tvg-description="Детский канал пакета «MM»: мультфильмы и программы для детей. Тематика подборки — «USSR Мультфильм».",MM USSR Мультфильм
+http://7.hls.gd/ch1225/mono.m3u8?token=rl_b779e17.v2_FrjnlpJZeNr_Zr8PHUaXgBRd9VxphCPDlPZj2UBFGNKkI0u09Lq2TElR2Bxm1C0H91Wauub8gkrjr9ef
+
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-ussr-skazki.png" tvg-id="minimax-ussr-skazki" tvg-description="Детский канал пакета «MM»: мультфильмы и программы для детей. Тематика подборки — «USSR Сказки».",MM USSR Сказки
+http://7.hls.gd/ch1226/mono.m3u8?token=rl_b779e17.v2_Eb-jP9JtPso1aOo05nsVP38_W64ZxVwtpF9bbRVZt6EY6S9Bdaim66Beo5JLYjhrsqccWFaokiIjb7m8
+
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-walt-disney.png" tvg-id="minimax-walt-disney" tvg-description="Детский канал пакета «MM»: мультфильмы и программы для детей. Тематика подборки — «Walt Disney».",MM Walt Disney
+http://7.hls.gd/ch1265/mono.m3u8?token=rl_b779e17.v2_6w2R1vWcaNbIgAny-TDDQkANAUU4DOS86vrqPMvd6uwwyidHQR5vHK2nvAAdXSMPv4ULdrooDzA_E-zE
+
+# MS
+
+#EXTINF:0 group-title="MS" tvg-logo="https://iptvx.one/picons/minimax-animated-ms.png" tvg-id="minimax-animated-ms" tvg-description="Детский канал пакета «MS»: мультфильмы и программы для детей. Тематика подборки — «Animated».",MS Animated
+http://7.hls.gd/ch1287/mono.m3u8?token=rl_b779e17.v2_XQrTupF58wT5kqSbFtiyUl2Am1gfcR9XDWEUKn9W6JNwYbI_yInQZsDgXLMfMEWrFpIfbNPbtjL9Y3CU
+
+#EXTINF:0 group-title="MS" tvg-logo="https://iptvx.one/picons/minimax-ms-toons.png" tvg-id="minimax-ms-toons" tvg-description="Детский канал пакета «MS»: мультфильмы и программы для детей. Тематика подборки — «Toons».",MS Toons
+http://7.hls.gd/ch1290/mono.m3u8?token=rl_b779e17.v2_3F1lpqKnX2U-3tv7myb7xKKQJ5eeYLEG9z9fprrqYIAxQIQSZ8DXelh9B5LpI9_xnhEN3dr0dbl__qpT
+
+# Oasis
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-blocks.png" tvg-id="oasis-blocks" tvg-description="Детский канал пакета «Oasis»: мультфильмы и программы для детей. Тематика подборки — «Blocks».",Oasis Blocks
+http://7.hls.gd/ch2651/mono.m3u8?token=rl_b779e17.v2_mySpsvE_FBXHse7fyvLcTkzdNja99aGSQ_6_66wdAvvq5X-Fs_sSjlZtLR9iC6XQXIMJGwcWexE7AaPp
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-disneyclassic.png" tvg-id="oasis-disneyclassic" tvg-description="Детский канал пакета «Oasis»: кино прошлых лет и классику. Тематика подборки — «Disney Classic».",Oasis Disney Classic
+http://7.hls.gd/ch2658/mono.m3u8?token=rl_b779e17.v2_xORu3s1Z2NizlXritjZn0YQUpyw8jTMdbBIkoCgnotbwsM-9v_HEwvAxQ5VxC6KPK5Kexs8b_IkD7rQ5
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-disneyseries.png" tvg-id="oasis-disneyseries" tvg-description="Детский канал пакета «Oasis»: мультфильмы и программы для детей. Тематика подборки — «Disney Мультсериалы».",Oasis Disney Мультсериалы
+http://7.hls.gd/ch2659/mono.m3u8?token=rl_b779e17.v2_5LUXDXGC2alY1JafZ56DGBPV55_SYQY81ZqXZX2GlqgCsvkX3DMPSHaSCkB9mRXl42YqEd6ddfmpAPP4
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-pixar.png" tvg-id="oasis-pixar" tvg-description="Детский канал пакета «Oasis»: мультфильмы и программы для детей. Тематика подборки — «Pixar».",Oasis Pixar
+http://7.hls.gd/ch2680/mono.m3u8?token=rl_b779e17.v2_V59B8AEm7dEgqoOV1RUu6QUj-WUO-XagqbLqQ1lTxHXPTGCd9DcIYZxjz-rQcIVY-HYYqylrvWOUuOOG
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-rusmult.png" tvg-id="oasis-rusmult" tvg-description="Детский канал пакета «Oasis»: отечественное кино. Тематика подборки — «RUS Мульт».",Oasis RUS Мульт
+http://7.hls.gd/ch2683/mono.m3u8?token=rl_b779e17.v2_KRwxm_UCZtqP9lPTfr1CJWFkijbZnsu5Xi_QhOiuXpKI5s2n0rBGYCIoNf2k-zPkcGZUPLCok9oARq3A
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-tomandjerry.png" tvg-id="oasis-tomandjerry" tvg-description="Детский канал пакета «Oasis»: мультфильмы и программы для детей. Тематика подборки — «Tom And Jerry».",Oasis Tom And Jerry
+http://7.hls.gd/ch2693/mono.m3u8?token=rl_b779e17.v2_ZM8v7qx4SltrEt0UeysSFydnYvYdey3RHKgJI4ZIMcFR6hfG59zSszFofNt_78PFKc2jwtsA6P825xys
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-losyash.png" tvg-id="oasis-losyash" tvg-description="Детский канал пакета «Oasis»: мультфильмы и программы для детей. Тематика подборки — «Лосяш».",Oasis Лосяш
+http://7.hls.gd/ch2673/mono.m3u8?token=rl_b779e17.v2_QJ_7kaGJ_yQvsAL_9l5erEmlNtVhxADfhersz6mBkQXicFhoWplXVi8LmOvZU78lLlShIhPE31cGcLeg
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-squidward.png" tvg-id="oasis-squidward" tvg-description="Детский канал пакета «Oasis»: мультфильмы и программы для детей. Тематика подборки — «Сквидвард».",Oasis Сквидвард
+http://7.hls.gd/ch2689/mono.m3u8?token=rl_b779e17.v2_gLoZmV31e3798lGWmS_P5sCUQxSpPwzaYqcBTi5gTS-miRva-ssa3lBXqqgdCVOeZZelxGym-8tTPROo
+
+#EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-cherepashki.png" tvg-id="oasis-cherepashki" tvg-description="Детский канал пакета «Oasis»: мультфильмы и программы для детей. Тематика подборки — «Черепашки Нинзя».",Oasis Черепашки Нинзя
+http://7.hls.gd/ch2917/mono.m3u8?token=rl_b779e17.v2_Tp_tQnftTP9X1pBea9ZuoORuQLtmhrWh3cLuCBY8qqIe1h0k-nS0zMoioMWqu6PPIBKMr7M8eoyp0Sj9
+
+# Sky High
+
+#EXTINF:0 group-title="Sky High" tvg-logo="https://iptvx.one/picons/sky-high-boom-fhd.png" tvg-id="sky-high-boom-fhd" tvg-description="Детский канал пакета «Sky High»: мультфильмы и программы для детей. Тематика подборки — «Boom».",Sky High Boom
+http://7.hls.gd/ch1974/mono.m3u8?token=rl_b779e17.v2_6RBA9F1W5oiyiB8FlGGyLHyyr5QYPwomcbIASWoyQ-V7x0-nTwc-pwOIJsPw22aeAPRixjGDRxa69gRh
+
+#EXTINF:0 group-title="Sky High" tvg-logo="https://iptvx.one/picons/sky-high-bunny-hd.png" tvg-id="sky-high-bunny-hd" tvg-description="Детский канал пакета «Sky High»: мультфильмы и программы для детей. Тематика подборки — «Bunny».",Sky High Bunny
+http://7.hls.gd/ch1956/mono.m3u8?token=rl_b779e17.v2_XeDzvH71vcze8DHLleYF_emA-5Y-szZrLSVNmFJZlAx8p1awNgOBP92PaKOeivGh7hHv6xNL4pGkYiex
+
+#EXTINF:0 group-title="Sky High" tvg-logo="https://iptvx.one/picons/sky-high-jetix-hd.png" tvg-id="sky-high-jetix-hd" tvg-description="Детский канал пакета «Sky High»: мультфильмы и программы для детей. Тематика подборки — «Jetix».",Sky High Jetix
+http://7.hls.gd/ch3096/mono.m3u8?token=rl_b779e17.v2_uKPTPvr1AwP9srA8XZNVoMnAua6keuVg5BHjtvuX5s4k20aezajlzhSXdpi5ZJ7xNTonVmIqpw96yr5R
+
+#EXTINF:0 group-title="Sky High" tvg-logo="https://iptvx.one/picons/sky-high-junior-fhd.png" tvg-id="sky-high-junior-fhd" tvg-description="Детский канал пакета «Sky High»: мультфильмы и программы для детей. Тематика подборки — «Junior».",Sky High Junior
+http://7.hls.gd/ch1972/mono.m3u8?token=rl_b779e17.v2_FF19Cdn38JKreMySuenCZjTw8LPT4Wp3-4Ahj2LZdbbgVP0fQx3HaCgQ8BbRRma0QSj5NGcRg4rmThtc
+
+#EXTINF:0 group-title="Sky High" tvg-logo="https://iptvx.one/picons/sky-high-nicks-fhd.png" tvg-id="sky-high-nicks-fhd" tvg-description="Детский канал пакета «Sky High»: мультфильмы и программы для детей. Тематика подборки — «Nick S».",Sky High Nick S
+http://7.hls.gd/ch1983/mono.m3u8?token=rl_b779e17.v2_WJmU3wH_juwlbfqYH8nXfGYEu6iRM7GgYUn3KbQPDoDDmr3VrC76WH1lJXKvAQ9Za1i9ldRIT5VSAbbR
+
+#EXTINF:0 group-title="Sky High" tvg-logo="https://iptvx.one/picons/sky-high-teen-fhd.png" tvg-id="sky-high-teen-fhd" tvg-description="Детский канал пакета «Sky High»: мультфильмы и программы для детей. Тематика подборки — «Teen».",Sky High Teen
+http://7.hls.gd/ch1982/mono.m3u8?token=rl_b779e17.v2_BMtm5lW6x1GT5dNBbThHQ-8d9wQa5jkyMpoPjidLBhh3-snZ3bgLYjyTHJI97HIuO_J83iR0WfZgFl2a
+
+#EXTINF:0 group-title="Sky High" tvg-description="Детский канал пакета «Sky High»: мультфильмы и программы для детей. Тематика подборки — «Toons S».",Sky High Toons S
+http://7.hls.gd/ch1971/mono.m3u8?token=rl_b779e17.v2_KJY7x7-i1JzefJhrXHcreApoEM2prY44TwnAxXsYwAtLxQhzFiKcnq-lWb5owaLqAq_ZPSYFkBW8djDJ
+
 # StrahTV
+
+# TEAM
+
+#EXTINF:0 group-title="TEAM" tvg-logo="https://iptvx.one/picons/team-newtoons.png" tvg-id="team-newtoons" tvg-description="Детский канал пакета «TEAM»: мультфильмы и программы для детей. Тематика подборки — «NewToons».",TEAM NewToons
+http://7.hls.gd/ch3700/mono.m3u8?token=rl_b779e17.v2_zZdCBS-7RNWH71Bc0ncAsoO_kzslzTZmrMjOfPQajCL0bnb5nBSCPCL4LlIa9Bpbre3fwOQqPlkOFTWV
+
+#EXTINF:0 group-title="TEAM" tvg-logo="https://iptvx.one/picons/team-toons.png" tvg-id="team-toons" tvg-description="Детский канал пакета «TEAM»: мультфильмы и программы для детей. Тематика подборки — «Toons».",TEAM Toons
+http://7.hls.gd/ch3875/mono.m3u8?token=rl_b779e17.v2_PPj07-MAixF-wuXsVzBWML6HdA11U7rVmTXfzIG3DTOGUwWImVO_gQ6QCPoGTgtXAyJCwSCZ0bewfE_s
+
+#EXTINF:0 group-title="TEAM" tvg-logo="https://iptvx.one/picons/team-maszaplus.png" tvg-id="team-maszaplus" tvg-description="Детский канал пакета «TEAM»: мультфильмы и программы для детей. Тематика подборки — «МашаПлюс».",TEAM МашаПлюс
+http://7.hls.gd/ch3960/mono.m3u8?token=rl_b779e17.v2_4ScmEaKzC_eCYMU_EI7sUwet0tVYEs-jkK2MysWzd06p-vKZRsaRdEQfuj8cTi0SZ9LrVsvOhi4U4J-t
+
+#EXTINF:0 group-title="TEAM" tvg-logo="https://iptvx.one/picons/team-multarium.png" tvg-id="team-multarium" tvg-description="Детский канал пакета «TEAM»: мультфильмы и программы для детей. Тематика подборки — «Мультариум».",TEAM Мультариум
+http://7.hls.gd/ch3927/mono.m3u8?token=rl_b779e17.v2_Zo9NB5hPGw-GkSKw8WTh9aDsFeuS5JPBfaNFeJ9DAXVjDCcv19B9edxJCnfEgE2kepK1tOfqRFG8VO3n
+
+#EXTINF:0 group-title="TEAM" tvg-description="Детский канал пакета «TEAM»: мультфильмы и программы для детей. Тематика подборки — «Сказки».",TEAM Сказки
+http://7.hls.gd/ch4163/mono.m3u8?token=rl_b779e17.v2_nvwRQm8dqeKyzgFBD7eoZQhoNMhvcbDQVQSEZvIeAe5usUtpP9YaB0WDtS0sKDrteXIyaXUWWOsXpmGe
+
+# TVPlay
+
+#EXTINF:0 group-title="TVPlay" tvg-description="Детский канал пакета «TVPlay»: кино прошлых лет и классику. Тематика подборки — «90s Cartoons».",TVPlay 90s Cartoons
+http://7.hls.gd/ch3757/mono.m3u8?token=rl_b779e17.v2_pyLXb6ZiNPttRF2VjhgfnVc_T8YIcp-T1c7oD2fXETFhWa8VxDQm8SF_TuEQUDFwWcNYcv-dekLhMKLX
+
+#EXTINF:0 group-title="TVPlay" tvg-logo="https://iptvx.one/picons/tvplay-alf.png" tvg-id="tvplay-alf" tvg-description="Детский канал пакета «TVPlay»: мультфильмы и программы для детей. Тематика подборки — «Альф».",TVPlay Альф
+http://7.hls.gd/ch3760/mono.m3u8?token=rl_b779e17.v2_3Mc4nNVE1TKXrIyF1YVHkESOzixeZ6DHRWK6dJLY-g2l6zgz8w57CyYMZx5vxw24NUPtwQebMLE70ASn
+
+#EXTINF:0 group-title="TVPlay" tvg-logo="https://iptvx.one/picons/tvplay-detskoekino.png" tvg-id="tvplay-detskoekino" tvg-description="Детский канал пакета «TVPlay»: мультфильмы и программы для детей. Тематика подборки — «Детское Кино».",TVPlay Детское Кино
+http://7.hls.gd/ch3743/mono.m3u8?token=rl_b779e17.v2_HHJjF37jV6jff4HLy-A5qq2Ziy7NOuCmqosU831NzHm7_hUahHmg3C5d9UI14CaPvzhYO7S9otkyF0jC
+
+#EXTINF:0 group-title="TVPlay" tvg-logo="https://iptvx.one/picons/tvplay-eralash.png" tvg-id="tvplay-eralash" tvg-description="Детский канал пакета «TVPlay»: мультфильмы и программы для детей. Тематика подборки — «Ералаш».",TVPlay Ералаш
+http://7.hls.gd/ch3755/mono.m3u8?token=rl_b779e17.v2_ZcA2spJE7XqAWSs4DhTTPw9GXU6cDiKI82IyXmpcF48mgaSkYE6GHEbFhbP0SZVI3mRpMkRF7KiEIVb3
+
+#EXTINF:0 group-title="TVPlay" tvg-logo="https://iptvx.one/picons/tvplay-ladybag.png" tvg-id="tvplay-ladybag" tvg-description="Детский канал пакета «TVPlay»: мультфильмы и программы для детей. Тематика подборки — «Леди Баг и Супер Кот».",TVPlay Леди Баг и Супер Кот
+http://7.hls.gd/ch3778/mono.m3u8?token=rl_b779e17.v2_w4Qj-pZjdetYUQASh0Rw72u8t3lOO0_-OIagSAk9REblVhoxjmINvcMF6jlt-_3i7qwa9ku11pMd8kUC
+
+#EXTINF:0 group-title="TVPlay" tvg-description="Детский канал пакета «TVPlay»: мультфильмы и программы для детей. Тематика подборки — «Микки Маус».",TVPlay Микки Маус
+http://7.hls.gd/ch3815/mono.m3u8?token=rl_b779e17.v2_ar2-IOU81f9-TBmTMELVHF2CLtMGuAWdIL4DkUwKbGWuYCZnU2_SkKqtcPaekATb5RiqPAULWeQjRXDT
+
+#EXTINF:0 group-title="TVPlay" tvg-logo="https://iptvx.one/picons/tvplay-sovmulthd.png" tvg-id="tvplay-sovmulthd" tvg-description="Детский канал пакета «TVPlay»: кино прошлых лет и классику. Тематика подборки — «Советские Мультфильмы».",TVPlay Советские Мультфильмы
+http://7.hls.gd/ch3775/mono.m3u8?token=rl_b779e17.v2_hAZW6qxferfaUmRQsbjg7yG3NEyU-w3pWqYq2fjbtrXC7CnHU-VWxC2iWn4okXnr8677tEGPNnPC2pE4
+
+# VeleS
+
+#EXTINF:0 group-title="VeleS" tvg-logo="https://iptvx.one/picons/veles-kids.png" tvg-id="veles-kids" tvg-description="Детский канал пакета «VeleS»: мультфильмы и программы для детей. Тематика подборки — «Kids».",VeleS Kids
+http://7.hls.gd/ch2600/mono.m3u8?token=rl_b779e17.v2_VC34R6B3_1PJQVmsa1bDiRNntb4XLmYW1PcLWExhFtFPGkteU4slQQdUJuZGuPpYznyLEf9PG3cQaJH-
+
+# Velilla TV
+
+#EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-cartoondisney.png" tvg-id="velilla-cartoondisney" tvg-description="Детский канал пакета «Velilla TV»: мультфильмы и программы для детей. Тематика подборки — «Cartoons Disney».",Velilla TV Cartoons Disney
+http://7.hls.gd/ch3153/mono.m3u8?token=rl_b779e17.v2_w7DkiLSpi2ESLHhb9C9khaWrdB1WCw4L_G2_z41qqlLEXkyE_Ra8nLQavDLyz4iXqLYXiVu9q3cJmtva
+
+#EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-detsky.png" tvg-id="velilla-detsky" tvg-description="Детский канал пакета «Velilla TV»: мультфильмы и программы для детей. Тематика подборки — «Детский».",Velilla TV Детский
+http://7.hls.gd/ch3296/mono.m3u8?token=rl_b779e17.v2_Uq2wyuULMzP7HzRDg1p5YGCPjY3KZYNvG-KvouraNa-3RsfFSJHIHHww31d9MNRcjSDZ1CQkmK96waZt
+
+#EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-tij.png" tvg-id="velilla-tij" tvg-description="Детский канал пакета «Velilla TV»: мультфильмы и программы для детей. Тематика подборки — «Том и Джерри».",Velilla TV Том и Джерри
+http://7.hls.gd/ch3154/mono.m3u8?token=rl_b779e17.v2_oOUNCjD-H3pJ5w8L1UBn1aOygJ9tp0JPEr1WRDuaB3dzMSMGta4tT-h7RlGusr-5Xy26WAHPWTtMUejU
 
 # VF
 
 # Yosso TV
+#EXTINF:0 group-title="Yosso TV" tvg-description="Детский канал пакета «Yosso TV»: мультфильмы и программы для детей. Тематика подборки — «Cartoon».",Yosso TV Cartoon
+http://7.hls.gd/ch1314/mono.m3u8?token=rl_b779e17.v2_bW1tXurYvrNg8L2H86W96KjzrfdIJzTPZ3-Xay17I6d-ccOE7g9wSy1NnIify-dY51ZjDvW8KTAeS9cW
+
+#EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-disney.png" tvg-id="yosso-disney" tvg-description="Детский канал пакета «Yosso TV»: мультфильмы и программы для детей. Тематика подборки — «Disney».",Yosso TV Disney
+http://7.hls.gd/ch2456/mono.m3u8?token=rl_b779e17.v2_2XUD4n1rliWnegiovAqnywq2MrrGb8k86QwhQL9FsPep-Ue4bWIyrmeU5LvrblFIWliAVa8hjF76w0rw
+
+#EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-kids.png" tvg-id="yosso-kids" tvg-description="Детский канал пакета «Yosso TV»: мультфильмы и программы для детей. Тематика подборки — «Kids».",Yosso TV Kids
+http://7.hls.gd/ch1299/mono.m3u8?token=rl_b779e17.v2_MxI98uAGUkTES-thAxAfbQVBvBLxcC16gOVb72vBu4aITBCLGqGUqdFwab9TgTc94CreaCcPAGJKBjkS
+
+#EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-ndetskoe.png" tvg-id="yosso-ndetskoe" tvg-description="Детский канал пакета «Yosso TV»: отечественное кино. Тематика подборки — «Наше Детское».",Yosso TV Наше Детское
+http://7.hls.gd/ch2061/mono.m3u8?token=rl_b779e17.v2_Q9Ng3ETNI_GeLRcqrR0FBD4qspOvMPIGWdZLPBvyWn-2PpUBzVAgppc9C1Q0CAd_9jJBL1O90GB4YVuM
+
+#EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-soyuzmult.png" tvg-id="yosso-soyuzmult" tvg-description="Детский канал пакета «Yosso TV»: мультфильмы и программы для детей. Тематика подборки — «Союзмульт».",Yosso TV Союзмульт
+http://7.hls.gd/ch1304/mono.m3u8?token=rl_b779e17.v2_1WnV2BDG652IbzvQklZqi3dEKlK4xAEyN_cGIYW2gKWYC-Sy2lX2KJP3Xo4j5BiV9z-Ysg5MOENTLkob
+
+# Смотрим 100%
+
+#EXTINF:0 group-title="Смотрим 100%" tvg-description="Детский канал пакета «Смотрим 100%»: мультфильмы и программы для детей. Тематика подборки — «Детское».",100 Процентов Детское
+http://7.hls.gd/ch3118/mono.m3u8?token=rl_b779e17.v2_vMGqFM49ugnSaAxLxDZiYTLuZIzaGQJ8hRPo6ufgG0_BYu2PyYNjyfQGpXO3fkmSrXJPM4enC5qMwsaN
 
