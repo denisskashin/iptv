@@ -37,7 +37,6 @@ https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/playlist.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b1460000_sleng.m3u8
-#https://clck.ru/3F6ZUK
 #https://edge53.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1873224608_b5160000_sleng.m3u8
 #https://edge53.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w1873224608_b5160000_sleng.m3u8
@@ -409,28 +408,15 @@ http://stream.mcquack.net/384/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/986/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk" tvg-description="«РБК» — российский бизнес-телеканал. На нём представлены экономические, финансовые и политические новости Российской Федерации и зарубежных стран.",РБК
-http://online.video.rbc.ru/online/rbctv_1080p/index.m3u8
-#http://online.video.rbc.ru/online/rbctv_576p/index.m3u8
-#http://online.video.rbc.ru/online2/rbctv_1080p/index.m3u8
-#http://online.video.rbc.ru/online/rbctvhd_1080p/index.m3u8
-#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9Ny82LzIwMjUgMTo0OToyMyBQTSZoYXNoX3ZhbHVlPTVDZkpPbWo5L3dvM2tqNnQ5dDQvK3c9PSZ2YWxpZG1pbnV0ZXM9NDgw
-#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8
-#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8xMy8yMDI1IDEyOjQ5OjM0IEFNJmhhc2hfdmFsdWU9SC9uVEJEcTFLeDhaRG83MFVwSVBDQT09JnZhbGlkbWludXRlcz00ODA=
-#http://online.video.rbc.ru/online/rbctv_480p/index.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvNC8yMDI1IDI6NDk6MzYgUE0maGFzaF92YWx1ZT12Q1hScElvWmtORUJNNU91R1k1alNnPT0mdmFsaWRtaW51dGVzPTQ4MA==
-#http://e6.online.video.rbc.ru/online2/rbctv_480p/index.m3u8?checkedby:iptvcat.com
-#http://e6.online.video.rbc.ru/online2/rbctv_480p/index.m3u8
-#http://e3.online.video.rbc.ru/online2/rbctv_576p/index.m3u8?checkedby:iptvcat.com
+http://e3.online.video.rbc.ru/online2/rbctv_576p/index.m3u8?checkedby:iptvcat.com
 #http://e8.online.video.rbc.ru/online2/rbctv_576p/index.m3u8
 #http://e3.online.video.rbc.ru/online2/rbctv_576p/index.m3u8
-#http://online.video.rbc.ru/online/rbctv_576p/index.m3u8?checkedby:iptvcat.com
-#http://online.video.rbc.ru/online/rbctv_720p/index.m3u8
 #http://92.50.128.180/utv/1358/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/10029/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/16075/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2404/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/106/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9213/index.m3u8
-#http://online.video.rbc.ru/online/rbctv.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
 
@@ -959,44 +945,48 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/104/index.m3u8
 http://stream.shbro.org/stream/14B37BB54802/02efvideom3u8.m3u8
 #http://7.hls.gd/ch109/mono.m3u8?token=rl_b779e17.v2_jeHHssV38eVRuzEpHLjWgwEs5lqQHMFt8GRM3K_zt_uMYRbDD49_DCnKsAyYfzO_ouHyygsS4zv7vsM
 
+
+#EXTINF:-1 group-title="candidate",Первый
+http://stream.shbro.org/stream/14B37BB54802/dca4videom3u8.m3u8
+
+#EXTINF:-1 group-title="candidate",Duma TV (720p)
+http://185.23.80.23:8080/DumaTV/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Neizvestnaya Rossia HD
+http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
+
+#EXTINF:-1 group-title="candidate",Nano HD (1080p)
+http://185.23.80.23:8080/NANO_HD/index.m3u8
+
+#EXTINF:-1 group-title="candidate",TV BRICS Russian (1080p)
+http://185.23.80.23:8080/TVBRICS/index.m3u8
+
+#EXTINF:-1 group-title="candidate",2x2 (576p)
+http://185.23.80.23:8080/2x2/index.m3u8
+
+#EXTINF:-1 group-title="candidate",ART (576p)
+http://185.23.80.23:8080/ART/index.m3u8
+
+
 # ── test ──────────────────────────────────────────
 # Added: 2026-08-21 20:04:57  (3 URLs in 3 channel group(s))
 # ───────────────────────────────────────────────────
 
-#EXTINF:0 tvg-id="upltv1" group-title= tvg-logo="https://ip-tv.dev/images/ico/upl1.png", UPL 1 HD
+#EXTINF:0 tvg-id="upltv1" group-title="test" tvg-logo="https://ip-tv.dev/images/ico/upl1.png", UPL 1 HD
 http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4853/stream.m3u8
 
-#EXTINF:0 tvg-id="upltv2" group-title= tvg-logo="https://ip-tv.dev/images/ico/upl2.png", UPL 2 HD
+#EXTINF:0 tvg-id="upltv2" group-title="test" tvg-logo="https://ip-tv.dev/images/ico/upl2.png", UPL 2 HD
 http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4854/stream.m3u8
 
-#EXTINF:0 tvg-id="upltv3" group-title= tvg-logo="https://ip-tv.dev/images/ico/upl3.png", UPL 3 HD
+#EXTINF:0 tvg-id="upltv3" group-title="test" tvg-logo="https://ip-tv.dev/images/ico/upl3.png", UPL 3 HD
 http://cdnua03.hls.tv/524/hls/8743361621b245838bee193c9ec28322/4855/stream.m3u8
 
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-08-22 09:10:38  (1318 URLs in 1318 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 tvg-logo="https://shams.usite.pro/Log/pervyj_kanal.png" group-title="test",Первый
-http://stream.shbro.org/stream/14B37BB54802/dca4videom3u8.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Duma TV (720p)
-http://185.23.80.23:8080/DumaTV/index.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Unknown Russia HD (1080p)
-http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
 #EXTINF:0 tvg-id="ch1089" tvg-name="Первый HD Double" tvg-logo="http://hls.gd/images/chIcons/1089.png" tvg-rec="7" group-title="test", Первый HD Double
 http://7.hls.gd/ch1089/mono.m3u8?token=rl_b779e17.v2_qpSzJrH5D1oKD_kvBTMeNyi_mp3PzOSAV0QNQbG6Y-uzaEzY2A_x_-xRdd-wV3Vl7nfxCkHNI9ovODY2
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Nano HD (1080p)
-http://185.23.80.23:8080/NANO_HD/index.m3u8
 #EXTINF:0 tvg-id="ch1643" tvg-name="Первый" tvg-logo="http://hls.gd/images/chIcons/1643.png" tvg-rec="7" group-title="test", Первый
 http://7.hls.gd/ch1643/mono.m3u8?token=rl_b779e17.v2_vZoX3cSUB3ixUc3wSX3NymPOEvvulz7nAsH6oeyUcH0dfBM3m7eAJKi98yydiz51cgh5bF2kQD7eVArx
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TV BRICS Russian (1080p)
-http://185.23.80.23:8080/TVBRICS/index.m3u8
 #EXTINF:0 tvg-id="ch649" tvg-name="Первый Евpопa" tvg-logo="http://hls.gd/images/chIcons/649.png" tvg-rec="7" group-title="test", Первый Евpопa
 http://7.hls.gd/ch649/mono.m3u8?token=rl_b779e17.v2_1K1-bbBbkKz1KvIBv4NL_V05Y_9aP6L1EEtILe9P8VQ8AhkraDc3S__gWv7xYNMcumWfuWudoMfLVgk
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",2x2 (576p)
-http://185.23.80.23:8080/2x2/index.m3u8
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",ART (576p)
-http://185.23.80.23:8080/ART/index.m3u8
 #EXTINF:0 tvg-id="ch853" tvg-name="Россия 1 HD Double" tvg-logo="http://hls.gd/images/chIcons/853.png" tvg-rec="7" group-title="test", Россия 1 HD Double
 http://7.hls.gd/ch853/mono.m3u8?token=rl_b779e17.v2_rYcaxcbn-PTS1DYIcWB_0kRrJgTmQuyCCVUKu7e17iwN4Avgn2vCxEfN8rXFxQr_nqdJdoP8J2P9BGg
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",REN TV (576p)
