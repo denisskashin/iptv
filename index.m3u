@@ -71,6 +71,7 @@ https://ngtrk.dc.beltelecom.by/ngtrk/smil:informacionnyy.smil/playlist.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w707519564_b1460000_sleng.m3u8
 #https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9OS8xNy8yMDI0IDEwOjA0OjA4IEFNJmhhc2hfdmFsdWU9SDJKZTBvbkthK0M0RG14b3JWdkNzZz09JnZhbGlkbWludXRlcz0xMjA%3D
 #https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:informacionnyy.smil/chunklist_w499524774_b5160000_sleng.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/31912/index.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-description="Белорусский православный телеканал «Светлое ТВ».",Светлое ТВ
 
@@ -95,6 +96,9 @@ http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/tv3-by.png" tvg-id="tv3-by" tvg-description="Белорусская версия телеканала ТВ3: кино, сериалы и мистика.",ТВ3
 
 http://89.33.29.115:8080/TV_3/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5033/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/508/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9206/index.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/yasnae.png" tvg-id="minsk-tv" tvg-description="Минский городской телеканал «Яснае ТВ».",Яснае ТВ
 
@@ -106,15 +110,23 @@ http://89.33.29.115:8080/TV_3/index.m3u8
 
 #EXTINF:0 group-title="Международные версии" tvg-logo="https://iptvx.one/picons/ntv-mir.png" tvg-id="ntv-mir" tvg-description="Международная версия телеканала НТВ: новости, сериалы и программы.",НТВ Мир
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/14035/index.m3u8
+
 #EXTINF:0 group-title="Международные версии" tvg-description="Европейская версия Первого канала для зарубежной аудитории.",Первый канал Европа
 
 #EXTINF:0 group-title="Международные версии" tvg-logo="https://iptvx.one/picons/rtr-planeta.png" tvg-id="rtr-planeta-eu" tvg-description="РТР-Планета — международная версия телеканала «Россия 1» для русскоязычной аудитории за рубежом.",РТР-Планета
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/18042/index.m3u8
+
 #EXTINF:0 group-title="Международные версии" tvg-logo="https://iptvx.one/picons/tvci.png" tvg-id="tvci" tvg-description="Международная версия телеканала ТВ Центр для русскоязычной аудитории за рубежом.",ТВ Центр International
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15229/index.m3u8
 
 #EXTINF:0 group-title="Международные версии" tvg-description="Международная версия развлекательного телеканала ТНТ.",ТНТ International
 
 # Новости и политика
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15230/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/360-news.png" tvg-id="360-news" tvg-description="Новостной телеканал «360»: Москва, Подмосковье и Россия.",360.RU Новости
 https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
@@ -125,6 +137,7 @@ https://e10-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1.m3u8
 #http://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
 #https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #https://e10-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/18038/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/360-int.png" tvg-id="360-int" tvg-description="360° — российский федеральный новостной телеканал. Транслирует актуальные новости, аналитику и репортажи в режиме реального времени.",360°
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
@@ -138,30 +151,60 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/0.m3u8
 #https://e10-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1.m3u8
 #https://e10-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2065/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/825/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9209/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9036/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/vmeste-rf.png" tvg-id="vmeste-rf" tvg-description="Парламентский телеканал Совета Федерации: заседания, законотворчество и новости регионов.",Вместе-РФ
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9124/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2073/index.m3u8
+
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/dozhd.png" tvg-id="dozhd" tvg-description="Независимый российский информационный телеканал: новости, интервью и политические ток-шоу.",Дождь
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/20083/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2030/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-description="Телеканал Государственной Думы: заседания, законотворчество и парламентские новости.",Дума ТВ
 http://185.23.80.23:8080/DumaTV/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/izvestia.png" tvg-id="izvestia" tvg-description="Известия — российский федеральный информационный телеканал медиагруппы «Россия сегодня». Транслирует новости и аналитику.",Известия
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2008/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9216/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/18039/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" tvg-id="krasnaya-linia" tvg-description="Общественно-политический телеканал КПРФ: новости, публицистика и советское кино.",Красная линия
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9119/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2147/index.m3u8
+
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/mir24.png" tvg-id="mir-24" tvg-description="Круглосуточный информационный телеканал МТРК «Мир»: новости России и стран СНГ.",Мир 24
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2107/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/712/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9214/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9219/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/nastoiaschee-vremia.png" tvg-id="nastoyaschee-vremia" tvg-description="Настоящее время — русскоязычный новостной телеканал, совместный проект Радио Свобода и Радио Свободная Европа.",Настоящее время
 http://stream.mcquack.net/384/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/986/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" tvg-id="ntv-pravo" tvg-description="Правовой телеканал НТВ: судебные программы, расследования и юридические разборы.",НТВ Право
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk" tvg-description="«РБК» — российский бизнес-телеканал. На нём представлены экономические, финансовые и политические новости Российской Федерации и зарубежных стран.",РБК
 #http://92.50.128.180/utv/1358/index.m3u8
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/10029/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/16075/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2404/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/106/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9213/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24" tvg-description="Россия 24 — российский федеральный круглосуточный новостной телеканал ВГТРК. Освещает события в России и мире в режиме реального времени.",Россия 24
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/507/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15412/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" tvg-id="solovjinypomiot" tvg-description="Соловьёв Live — российский политический YouTube-канал и телеканал журналиста Владимира Соловьёва. Транслирует ток-шоу, дебаты и политическую аналитику.",Соловьев.Live
 
@@ -177,9 +220,12 @@ https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #http://news.cgtn.com/resource/live/russian/cgtn-r.m3u8
 #http://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
 #https://english-livetx.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802_hd.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9223/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rtvi.png" tvg-id="rtvi" tvg-description="Международный русскоязычный информационно-развлекательный телеканал: новости, аналитика и ток-шоу.",RTVi
 http://89.33.29.115:8080/RTVi/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2086/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9102/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-description="Международная медиасеть стран БРИКС: новости, экономика и культура на русском языке.",TV BRICS
 http://185.23.80.23:8080/TVBRICS/index.m3u8
@@ -190,6 +236,7 @@ http://185.23.80.23:8080/TVBRICS/index.m3u8
 http://89.33.29.115:8080/SET/index.m3u8
 #http://176.100.46.245:90/red/index.m3u8
 #http://stream.mcquack.net/69/index.m3u8
+#http://cloud02.03cdn.wf:8080/ch833/index.m3u8?token=a0e01ca42f61b818187127fdc543642cac7279637
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu" tvg-description="Федеральный развлекательный телеканал: фильмы и сериалы, юмор и travel-программы.",8tv
 
@@ -211,6 +258,9 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Российский развлекательный телеканал: тревел-шоу, реалити и развлекательные программы.",Пятница!
 http://stream.mcquack.net/181/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5031/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/503/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9207/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
 http://stream.mcquack.net/118/index.m3u8
@@ -281,7 +331,11 @@ http://streaming.astrakhan.ru/astrakhanrulivehd/tracks-v3a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/bst.png" tvg-id="bst" tvg-description="Башкирское спутниковое телевидение: новости и программы Республики Башкортостан.",БСТ
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2108/index.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Братска (Иркутская область).",БСТ 24
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15359/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/dzenzhinsk-tv.png" tvg-id="dzenzhinsk-tv" tvg-description="Городской телеканал Дзержинска (Нижегородская область).",Дзержинск ТВ
 https://v.dzertv.ru:8588/dzertv/live_yandex/tracks-v1a1/mono.m3u8
@@ -304,12 +358,19 @@ https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/moskva-24.png" tvg-id="moskva-24" tvg-description="Круглосуточный информационный телеканал Москвы: городские новости и репортажи.",Москва 24
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/523/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9218/index.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-description="Общественное телевидение Приморья (Владивосток): региональные новости и программы.",ОТВ
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15476/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/prim24.png" tvg-id="prim24" tvg-description="Информационный телеканал Приморского края: новости Владивостока и региона.",Прим 24
 http://prim24.ru/prim/prim24/chen.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Красноярский городской телеканал: местные новости и программы.",Прима
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15417/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/pro-astrahan.png" tvg-id="pro-astrahan" tvg-description="Астраханский городской телеканал: новости и программы о жизни города и области.",Про Астрахань
 
@@ -319,6 +380,8 @@ http://stream.mcquack.net/398/index.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/strk.png" tvg-id="strk" tvg-description="СТРК — Ставропольская краевая региональная телекомпания. Транслирует региональные новости и программы.",СТРК
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tvk-krasnoyarsk.png" tvg-id="tvk-krasnoyarsk" tvg-description="Региональный новостной телеканал Красноярска (ТВК).",ТВК
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15420/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-description="Городской телеканал Черноморска (Украина).",ТВЧ
 https://live.kharkov-z.ru/app/potok/playlist.m3u8
@@ -337,9 +400,17 @@ http://67.218.111.36/BogBlagTV/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/nadezhda.png" tvg-id="nadezhda" tvg-description="Христианский телеканал: проповеди, программы о вере и семейных ценностях.",Надежда
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2116/index.m3u8
+
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/soyuz.png" tvg-id="soyuz" tvg-description="Православный телеканал: богослужения, беседы о вере и просветительские программы.",Союз
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2016/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9112/index.m3u8
+
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/spas.png" tvg-id="spas" tvg-description="Спас — российский православный телеканал. Транслирует богослужения, проповеди, беседы о православной вере.",Спас
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/983/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9111/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/tri-angela.png" tvg-id="tri-angela" tvg-description="Три Ангела — христианский телеканал адвентистской церкви, транслирующий религиозные программы.",Три Ангела
 http://hls.tv.3angels.ru/stream/HQ.m3u8
@@ -362,37 +433,91 @@ http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
 http://stream.mcquack.net/291/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/112/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9096/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda" tvg-description="Звезда — российский федеральный телеканал, учреждённый Министерством обороны РФ. Транслирует военно-патриотический контент, новости и художественные фильмы.",Звезда
 http://51.158.144.33:2021/zvezda/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/544/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9098/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15115/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-id="zvezda-plus" tvg-description="Канал медиахолдинга «Звезда»: военно-патриотическое кино, сериалы и документальные программы.",Звезда Плюс
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19230/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/10059/index.m3u8
+
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir" tvg-description="Мир — межгосударственная телерадиокомпания стран СНГ. Транслирует новости, документальные фильмы и культурные программы для русскоязычной аудитории.",Мир
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15119/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/113/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9211/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv" tvg-description="НТВ — российский федеральный телеканал: остросюжетные сериалы, ток-шоу, документальные проекты и новости.",НТВ
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19405/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/213/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/501/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9203/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9028/index.m3u8
+
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr" tvg-description="Общественное телевидение России — федеральный телеканал: новости, публицистика и просветительские программы.",ОТР
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/20018/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/705/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9100/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy" tvg-description="Первый канал — крупнейший федеральный телеканал России. Ведёт вещание с 1951 года. Показывает новости, художественные фильмы, сериалы и развлекательные программы.",Первый канал
 #https://streaming.goodstream.icu/live/210-req_offset_28000000-req_window_0-2k_v5.m3u8
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2402/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/204/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/127/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9201/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/7253/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv" tvg-description="РЕН ТВ — российский федеральный телеканал. Специализируется на новостях, документальных фильмах, развлекательном и аналитическом контенте.",Рен ТВ
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2024/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/128/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9205/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9002/index.m3u8
+
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1" tvg-description="Россия 1 — российский федеральный телеканал ВГТРК: новости, сериалы, ток-шоу и развлекательные программы.",Россия 1
+
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19242/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2409/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/205/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/504/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9202/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15133/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/7252/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts" tvg-description="СТС — российский развлекательный телеканал. Специализируется на комедийных сериалах, фильмах и молодёжных программах.",СТС
 http://89.33.29.115:8080/STS_HD/index.m3u8
 #http://stream.mcquack.net/138/index.m3u8
 #http://89.33.29.115:8080/STS/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/506/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super" tvg-description="Суббота! — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает сериалы, реалити-шоу и лайфстайл-программы.",Суббота!
 http://stream.mcquack.net/269/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/826/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9103/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15118/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr" tvg-description="ТВ Центр — московский федеральный телеканал: новости столицы, сериалы, кино и публицистика.",ТВ Центр
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/520/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15454/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9095/index.m3u8
+
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt" tvg-description="ТНТ — российский федеральный развлекательный телеканал. Специализируется на комедийных сериалах, реалити-шоу и юмористических программах.",ТНТ
 http://stream.mcquack.net/135/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19238/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2417/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/237/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/502/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9204/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/7251/index.m3u8
 
 # Юмор
 
@@ -404,11 +529,16 @@ http://stream.mcquack.net/187/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv" tvg-description="Телеканал игр КВН: выпуски сезонов, фестивали и лучшие номера команд.",КВН ТВ
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/546/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9108/index.m3u8
+
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/perec-int.png" tvg-id="perec-int" tvg-description="Перец — российский развлекательный телеканал. Специализируется на юморе, комедийных программах и скрытой камере.",Перец
 http://stream.mcquack.net/121/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Телеканал юмора: скетч-шоу, концерты и комедийные программы.",Сарафан
 http://stream.mcquack.net/81/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/748/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9109/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvoetv-humor.png" tvg-id="tvoetv-humor" tvg-description="Твоё ТВ Юмор — российский тематический телеканал с юмористическими программами.",Твоё ТВ Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
@@ -422,8 +552,13 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4" tvg-description="ТНТ4 — российский развлекательный телеканал, дочерний по отношению к ТНТ. Показывает сериалы, кино и развлекательные программы.",ТНТ4
 
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/104/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9208/index.m3u8
+
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che" tvg-description="Российский развлекательный телеканал для мужской аудитории: сериалы, юмор, реалити и экстремальные шоу.",ЧЕ
 #http://89.33.29.115:8080/Che/index.m3u8
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/513/index.m3u8
+#http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9101/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz1.png" tvg-id="raz1" tvg-description="Юмористическо-развлекательный телеканал Раз ТВ.",RAZ 1
 http://stream.mcquack.net/463/index.m3u8
@@ -431,3 +566,79 @@ http://stream.mcquack.net/463/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2" tvg-description="Юмористическо-развлекательный телеканал Раз ТВ.",RAZ 2
 http://stream.mcquack.net/464/index.m3u8
 
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-08-24 20:04:07  (21 URLs in 20 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:-1 group-title="test", Чижик HD
+http://cloud02.03cdn.wf:8080/ch858/index.m3u8?token=a0e01ca42f61b818187127fdc543642c5e26a9637
+
+#EXTINF:-1 group-title="test", A2 HD
+http://cloud03.03cdn.wf:8080/ch555/index.m3u8?token=a0e01ca42f61b818187127fdc543642c099409fec
+
+#EXTINF:-1 group-title="test", HD Hollywood
+http://cloud03.03cdn.wf:8080/ch027/index.m3u8?token=a0e01ca42f61b818187127fdc543642c5d7d89fec
+
+#EXTINF:-1 group-title="test", Red Lips HD
+http://cloud02.03cdn.wf:8080/ch102/index.m3u8?token=a0e01ca42f61b818187127fdc543642cb0c299637
+#http://stream.mcquack.net/61/index.m3u8
+
+#EXTINF:-1 group-title="test",  Роман
+http://cloud03.03cdn.wf:8080/ch088/index.m3u8?token=a0e01ca42f61b818187127fdc543642cef5089fec
+#http://stream.mcquack.net/266/index.m3u8
+
+#EXTINF:-1 group-title="test", Sci-Fi
+http://cloud03.03cdn.wf:8080/ch160/index.m3u8?token=a0e01ca42f61b818187127fdc543642c986899fec
+#http://stream.mcquack.net/180/index.m3u8
+
+#EXTINF:-1 group-title="test", XXL
+http://cloud03.03cdn.wf:8080/ch101/index.m3u8?token=a0e01ca42f61b818187127fdc543642cf2cd59fec
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",6 СОТОК
+http://stream.mcquack.net/405/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",WILD
+http://stream.mcquack.net/149/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",kino kanal
+http://stream.mcquack.net/470/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",CINEMA HD
+http://stream.mcquack.net/62/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Cine Max
+http://stream.mcquack.net/476/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",CineMax 2
+http://stream.mcquack.net/475/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",CineMax 3
+http://stream.mcquack.net/474/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",CineMax 4
+http://stream.mcquack.net/472/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",CineMax 5
+http://stream.mcquack.net/471/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",FRESH tharilles
+http://stream.mcquack.net/434/index.m3u8
+
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",FRESH series
+http://stream.mcquack.net/430/index.m3u8
+
+#EXTINF:-1  parent-code="1234"tvg-rec="7" timeshift="7" group-title="test",WOODMAN
+http://stream.mcquack.net/56/index.m3u8
+
+#EXTINF:-1  parent-code="1234"tvg-rec="7" timeshift="7" group-title="test",GONZO
+http://stream.mcquack.net/59/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-08-24 20:56:28  (1 URLs in 1 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:0 tvg-rec="3" group-title="test",GNC HD
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/955/index.m3u8
