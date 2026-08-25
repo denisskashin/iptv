@@ -2,16 +2,16 @@
 """
 M3U Index Updater
 ==================
-Обслуживает НЕСКОЛЬКО плейлистов сразу: index.m3u и дополнительные тематические
-файлы (sport.m3u, music.m3u, foreign.m3u, children.m3u, tv_series.m3u,
-discovery.m3u, hobby.m3u — см.
-EXTRA_PLAYLISTS). Читает их, качает источники, находит каналы с совпадающим
-именем/tvg-id и вставляет рабочие ссылки прямо в блок нужного канала — в том
-файле, где этот канал лежит (первая активная ссылка без '#', последующие как
-'#url'-альтернативы).
+Обслуживает НЕСКОЛЬКО плейлистов сразу. Все они лежат в подпапке tv/ рядом
+со скриптом: tv/index.m3u и дополнительные тематические файлы (sport.m3u,
+music.m3u, foreign.m3u, children.m3u, tv_series.m3u, discovery.m3u,
+hobby.m3u — см. PLAYLIST_DIR и EXTRA_PLAYLISTS). Читает их, качает
+источники, находит каналы с совпадающим именем/tvg-id и вставляет рабочие
+ссылки прямо в блок нужного канала — в том файле, где этот канал лежит
+(первая активная ссылка без '#', последующие как '#url'-альтернативы).
 
 Найденные, но ещё не разобранные каналы сваливаются в группу '# test' В КОНЦЕ
-index.m3u (единый «входящий» ящик). Дедуп при этом идёт против ссылок ВО ВСЕХ
+tv/index.m3u (единый «входящий» ящик). Дедуп при этом идёт против ссылок ВО ВСЕХ
 обслуживаемых файлах, поэтому канал, уже лежащий в sport.m3u/music.m3u/…, в test
 повторно не попадёт.
 
@@ -32,8 +32,8 @@ Usage:
     python3 m3u_checker.py [options]
 
 Examples:
-    python3 m3u_checker.py                   # index.m3u + все EXTRA_PLAYLISTS
-    python3 m3u_checker.py --no-extra        # только index.m3u
+    python3 m3u_checker.py                   # tv/index.m3u + все EXTRA_PLAYLISTS
+    python3 m3u_checker.py --no-extra        # только tv/index.m3u
     python3 m3u_checker.py --index my_channels.m3u
     python3 m3u_checker.py --timeout 10 --workers 20
     python3 m3u_checker.py --sources https://example.com/list.m3u
@@ -258,7 +258,10 @@ def validate_config(cfg: Config, blocks: list[IndexBlock], log: logging.Logger) 
              else "⚙️  Config validation: OK")
 
 
-DEFAULT_INDEX_FILE  = "index.m3u"
+# Все обслуживаемые ТВ-плейлисты лежат в подпапке tv/ (пути — от текущей
+# директории, как и остальные конфиги чекера).
+PLAYLIST_DIR        = "tv"
+DEFAULT_INDEX_FILE  = os.path.join(PLAYLIST_DIR, "index.m3u")
 
 # Дополнительные плейлисты, которые чекер обслуживает НАРАВНЕ с index.m3u:
 # у их каналов тоже обновляются рабочие ссылки (Step 5a).
@@ -267,6 +270,7 @@ DEFAULT_INDEX_FILE  = "index.m3u"
 # поэтому файлы с несколькими группами (foreign.m3u, children.m3u, …) тоже ок.
 # Открытие «мусорки» test (Step 5b) остаётся ТОЛЬКО в index.m3u, но дедуп
 # новых ссылок идёт против URL'ов ВСЕХ перечисленных файлов.
+# Значения — basename: файл ищется в папке --index (по умолчанию tv/).
 EXTRA_PLAYLISTS: "OrderedDict[str, str]" = OrderedDict([
     ("Кино",           "cinema.m3u"),
     ("Спорт",          "sport.m3u"),
@@ -1901,7 +1905,7 @@ def main():
                               header=idx_header, blocks=idx_blocks, is_index=True))
 
     for label, fname in extra_specs:
-        # extra-файлы ищем рядом с --index (os.path.join("", x) == "x").
+        # extra-файлы ищем рядом с --index, т.е. в tv/ (os.path.join("", x) == "x").
         fpath = os.path.join(os.path.dirname(args.index), fname)
         if not os.path.exists(fpath):
             log.warning(f"⚠️  Extra playlist {fname!r} не найден — пропускаю "

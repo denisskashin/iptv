@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 enrich_candidates.py — заполняет tvg-logo и tvg-id (ссылка на расписание/EPG)
-для каналов group-title="candidate" в index.m3u и cinema.m3u,
+для каналов group-title="candidate" в tv/index.m3u и tv/cinema.m3u,
 беря данные из локального EPG (epg.xml, формат XMLTV iptvx.one).
 
 Что делает:
@@ -25,7 +25,7 @@ enrich_candidates.py — заполняет tvg-logo и tvg-id (ссылка н�
     ровно на вставленные атрибуты.
 
 Запуск:
-  python3 enrich_candidates.py                 # dry-run, index.m3u + cinema.m3u
+  python3 enrich_candidates.py                 # dry-run, tv/index.m3u + tv/cinema.m3u
   python3 enrich_candidates.py --apply         # применить с бэкапом
   python3 enrich_candidates.py --files a.m3u   # другой набор файлов
   python3 enrich_candidates.py --epg epg.xml   # другой EPG
@@ -40,6 +40,9 @@ import re
 import sys
 import tempfile
 from collections import defaultdict
+
+# Подпапка со всеми ТВ-плейлистами (рядом со скриптом).
+PLAYLIST_DIR = "tv"
 
 # --- Токены, отбрасываемые с ХВОСТА имени при нормализации -------------------
 # качество/служебные пометки чекера
@@ -338,9 +341,10 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     ap = argparse.ArgumentParser(description="Заполнить tvg-logo/tvg-id кандидатам из EPG.")
     ap.add_argument("--epg", default=os.path.join(script_dir, "epg.xml"))
+    tv_dir = os.path.join(script_dir, PLAYLIST_DIR)
     ap.add_argument("--files", nargs="+",
-                    default=[os.path.join(script_dir, "index.m3u"),
-                             os.path.join(script_dir, "cinema.m3u")])
+                    default=[os.path.join(tv_dir, "index.m3u"),
+                             os.path.join(tv_dir, "cinema.m3u")])
     ap.add_argument("--apply", action="store_true", help="записать изменения (иначе dry-run)")
     ap.add_argument("--no-backup", action="store_true")
     ap.add_argument("--sample", type=int, default=12, help="сколько примеров печатать")

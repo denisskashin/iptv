@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """
 group_candidates.py — разносит каналы group-title="candidate" из index.m3u по
-СМЫСЛОВЫМ группам. Целевые файлы:
+СМЫСЛОВЫМ группам. Все плейлисты лежат в подпапке tv/ рядом со скриптом
+(см. PLAYLIST_DIR). Целевые файлы (ниже — basename, на диске tv/<файл>):
   * index.m3u      — эфирное и региональное ТВ (Федеральные, Новости,
                      Развлекательные, Региональные, Беларусь, Религия, Юмор);
   * cinema.m3u     — киноканалы и бренды (Кино, VF, Viju, CineMan …);
@@ -56,8 +57,11 @@ from collections import Counter
 
 CAND = "candidate"
 PROPOSAL = "group_proposal.tsv"
+# Подпапка со всеми ТВ-плейлистами (рядом со скриптом).
+PLAYLIST_DIR = "tv"
 
-# Канонические целевые файлы (basename). candidate живёт в index.m3u.
+# Канонические целевые файлы (basename; на диске — в PLAYLIST_DIR).
+# candidate живёт в index.m3u.
 KNOWN_FILES = ["index.m3u", "cinema.m3u", "children.m3u", "tv_series.m3u",
                "discovery.m3u", "hobby.m3u", "music.m3u", "sport.m3u",
                "foreign.m3u"]
@@ -685,15 +689,16 @@ def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     ap = argparse.ArgumentParser(
         description="Разнос кандидатов по группам (index + тематические файлы).")
-    ap.add_argument("--index", default=os.path.join(script_dir, "index.m3u"))
-    ap.add_argument("--cinema", default=os.path.join(script_dir, "cinema.m3u"))
-    ap.add_argument("--children", default=os.path.join(script_dir, "children.m3u"))
-    ap.add_argument("--tv-series", default=os.path.join(script_dir, "tv_series.m3u"))
-    ap.add_argument("--discovery", default=os.path.join(script_dir, "discovery.m3u"))
-    ap.add_argument("--hobby", default=os.path.join(script_dir, "hobby.m3u"))
-    ap.add_argument("--music", default=os.path.join(script_dir, "music.m3u"))
-    ap.add_argument("--sport", default=os.path.join(script_dir, "sport.m3u"))
-    ap.add_argument("--foreign", default=os.path.join(script_dir, "foreign.m3u"))
+    tv_dir = os.path.join(script_dir, PLAYLIST_DIR)
+    ap.add_argument("--index", default=os.path.join(tv_dir, "index.m3u"))
+    ap.add_argument("--cinema", default=os.path.join(tv_dir, "cinema.m3u"))
+    ap.add_argument("--children", default=os.path.join(tv_dir, "children.m3u"))
+    ap.add_argument("--tv-series", default=os.path.join(tv_dir, "tv_series.m3u"))
+    ap.add_argument("--discovery", default=os.path.join(tv_dir, "discovery.m3u"))
+    ap.add_argument("--hobby", default=os.path.join(tv_dir, "hobby.m3u"))
+    ap.add_argument("--music", default=os.path.join(tv_dir, "music.m3u"))
+    ap.add_argument("--sport", default=os.path.join(tv_dir, "sport.m3u"))
+    ap.add_argument("--foreign", default=os.path.join(tv_dir, "foreign.m3u"))
     ap.add_argument("--rules", default=os.path.join(script_dir, "group_rules.txt"))
     ap.add_argument("--proposal", default=os.path.join(script_dir, PROPOSAL))
     ap.add_argument("--apply", action="store_true",
