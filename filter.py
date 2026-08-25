@@ -15,11 +15,12 @@
 Использование (с конфигом filter.cfg):
     python3 filter.py <source.m3u> <output.m3u>
 
-filter.cfg — файл рядом со скриптом, формат:
-    movies        = movies.m3u
+filter.cfg — файл рядом со скриптом; относительные пути в нём считаются от
+папки со скриптом (фильмы лежат в video/, watched.m3u — в корне). Формат:
+    movies        = video/movies.m3u
     watched       = watched.m3u
-    rus_movies    = rus_movies.m3u
-    cartoons      = cartoons.m3u
+    rus_movies    = video/rus_movies.m3u
+    cartoons      = video/cartoons.m3u
     blocked_sites = ashdi.vip, somesite.com
                     anothersite.net
 """
@@ -230,11 +231,20 @@ def load_config() -> dict:
         if part:
             blocked.add(part.lower())
 
+    # Относительные пути в конфиге — от папки со скриптом (video/movies.m3u
+    # и т.п.), абсолютные берутся как есть. Так короткий вызов работает из
+    # любой текущей директории.
+    base = cfg_path.parent
+
+    def _path(key: str):
+        value = section.get(key)
+        return str(base / value) if value else value
+
     return {
-        'movies':        section.get('movies'),
-        'watched':       section.get('watched'),
-        'rus_movies':    section.get('rus_movies'),
-        'cartoons':      section.get('cartoons'),
+        'movies':        _path('movies'),
+        'watched':       _path('watched'),
+        'rus_movies':    _path('rus_movies'),
+        'cartoons':      _path('cartoons'),
         'blocked_sites': blocked,
     }
 

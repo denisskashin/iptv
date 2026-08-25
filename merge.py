@@ -19,15 +19,29 @@
 мигрирует в новый.
 
 Использование:
-    python3 merge.py <new.m3u> <movies.m3u>
+    python3 merge.py <new.m3u> video/movies.m3u
 
-movies.m3u и filtered.m3u перезаписываются на месте.
+movies.m3u и filtered.m3u перезаписываются на месте. Фильмы лежат в video/,
+а filtered.m3u — в корне проекта, рядом со скриптом (см. resolve_filtered).
 """
 
 import re
 import sys
 from collections import defaultdict
 from pathlib import Path
+
+# filtered.m3u лежит в КОРНЕ проекта (рядом со скриптом), тогда как movies.m3u
+# и прочие фильмы переехали в video/ — брать его как соседа movies уже нельзя.
+FILTERED_NAME = 'filtered.m3u'
+
+
+def resolve_filtered(movies_file: str) -> str:
+    """Путь к filtered.m3u: сначала рядом со скриптом (корень проекта),
+    иначе — рядом с movies-файлом (старое поведение)."""
+    root = Path(__file__).resolve().parent / FILTERED_NAME
+    if root.exists():
+        return str(root)
+    return str(Path(movies_file).parent / FILTERED_NAME)
 
 
 def normalize(title: str) -> str:
@@ -274,7 +288,7 @@ def merge(new_file: str, movies_file: str):
             added += 1
 
     # --- Ищем альт-источники в filtered.m3u ---
-    filtered_path = str(Path(movies_file).parent / 'filtered.m3u')
+    filtered_path = resolve_filtered(movies_file)
     added_alt = skipped_alt = 0
     alt_consumed_norms = set()
 
