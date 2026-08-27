@@ -1,22 +1,436 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
+# Азербайджан
+
+#EXTINF:0 group-title="Азербайджан" tvg-logo="http://icon.ru-tv.site/icon/ARB%20TV%20HD.png" tvg-description="Азербайджанский развлекательный телеканал.",ARB
+http://live.ru-tv.site/8553/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Азербайджан" tvg-logo="https://iptvx.one/picons/aztv.png" tvg-id="aztv" tvg-description="Главный государственный телеканал Азербайджана.",AzTV
+http://live.ru-tv.site/8227/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Азербайджан" tvg-logo="https://iptvx.one/picons/cbc-az.png" tvg-id="cbc-az" tvg-description="Азербайджанский информационный телеканал.",CBC
+http://live.ru-tv.site/8229/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Азербайджан" tvg-logo="http://icon.ru-tv.site/icon/Ictimai%20TV.png" tvg-description="Азербайджанский общественный телеканал.",Ictimai Televiziya
+http://live.ru-tv.site/8228/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Азербайджан" tvg-logo="http://icon.ru-tv.site/icon/Space%20TV.png" tvg-description="Азербайджанский развлекательный телеканал.",Space TV
+http://live.ru-tv.site/8226/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Азербайджан" tvg-logo="https://iptvx.one/picons/xezer.png" tvg-id="xezer" tvg-description="Азербайджанский развлекательный телеканал.",Xezer
+http://live.ru-tv.site/8230/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 # Армения
+
+#EXTINF:0 group-title="Армения" tvg-logo="http://icon.ru-tv.site/icon/ABN.png" tvg-description="Армянский телеканал.",ABN
+http://live.ru-tv.site/8693/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Армения" tvg-logo="http://icon.ru-tv.site/icon/Ararat%20AM.png" tvg-description="Армянский телеканал.",Ararat
+http://live.ru-tv.site/9175/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Армения" tvg-logo="http://icon.ru-tv.site/icon/Armenia%20TV%20AM.png" tvg-description="Армянский развлекательный телеканал.",Armenia TV
+http://live.ru-tv.site/8692/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Армения" tvg-logo="https://iptvx.one/picons/kentron-tv.png" tvg-id="kentron-tv" tvg-description="Армянский информационно-развлекательный телеканал.",Kentron TV
+http://live.ru-tv.site/8249/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Армения" tvg-logo="http://icon.ru-tv.site/icon/shant.png" tvg-description="Армянский развлекательный телеканал «Шант».",SHANT
+http://live.ru-tv.site/8320/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Армения" tvg-logo="https://iptvx.one/picons/shant-premium.png" tvg-id="shant-premium-hd" tvg-description="Армянский премиальный телеканал кино и сериалов.",SHANT Premium
+http://live.ru-tv.site/8384/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Болгария
+
+#EXTINF:0 group-title="Болгария" tvg-logo="http://icon.ru-tv.site/icon/%D0%91%D0%9D%D0%A2%201%20BG.png" tvg-description="Первый канал Болгарского национального телевидения.",БНТ 1
+http://live.ru-tv.site/9196/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Болгария" tvg-logo="http://icon.ru-tv.site/icon/%D0%91%D0%9D%D0%A2%202%20BG.png" tvg-description="Второй канал Болгарского национального телевидения.",БНТ 2
+http://live.ru-tv.site/9197/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Болгария" tvg-logo="https://iptvx.one/picons/btv.png" tvg-description="Болгарский коммерческий телеканал bTV.",bTV BG
+http://live.ru-tv.site/9198/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Болгария" tvg-logo="http://icon.ru-tv.site/icon/NOVA%20BG.png" tvg-description="Болгарский коммерческий телеканал Nova.",NOVA
+http://live.ru-tv.site/9201/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Великобритания
 
 #EXTINF:0 group-title="Великобритания" tvg-description="Британский телеканал драматических сериалов производства BBC.",BBC First
 
+# Германия
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/3sat%20DE.png" tvg-description="Немецкоязычный культурно-познавательный канал ARD, ZDF, ORF и SRG.",3sat
+http://live.ru-tv.site/8264/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/ATV%20DE.png" tvg-description="Немецкий региональный телеканал Аугсбурга.",a.tv
+http://live.ru-tv.site/8270/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/arte-hd.png" tvg-id="arte-hd" tvg-description="Франко-немецкий культурный телеканал.",arte
+http://live.ru-tv.site/8261/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/das-erste.png" tvg-id="das-erste" tvg-description="Первый канал немецкого общественного вещания ARD.",Das Erste
+http://live.ru-tv.site/8263/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/HR%20HD%20DE.png" tvg-description="Общественный телеканал земли Гессен.",HR Fernsehen
+http://live.ru-tv.site/8279/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/INULTRA%20UHD%20DE.png" tvg-description="Немецкий демонстрационный канал сверхвысокой чёткости.",INULTRA
+http://live.ru-tv.site/9115/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/kabel-1.png" tvg-id="kabel-1" tvg-description="Немецкий канал кино, сериалов и реалити.",Kabel Eins
+http://live.ru-tv.site/8257/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/n-tv-hd-de.png" tvg-id="n-tv-hd-de" tvg-description="Немецкий новостной телеканал.",n-tv
+http://live.ru-tv.site/8251/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/NDR%20HD%20DE.png" tvg-description="Общественный телеканал севера Германии (Гамбург, Нижняя Саксония).",NDR
+http://live.ru-tv.site/8091/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/NIEDERBAYERN%20TV%20Landshut%20HD%20DE.png" tvg-description="Немецкий региональный телеканал Ландсхута (Нижняя Бавария).",NIEDERBAYERN TV Landshut
+http://live.ru-tv.site/9112/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/ORF%201%20HD%20DE.png" tvg-description="Первый канал общественного телевидения Австрии.",ORF 1
+http://live.ru-tv.site/8271/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/ORF_2_HD.png" tvg-description="Второй канал общественного телевидения Австрии: культура и регионы.",ORF 2
+http://live.ru-tv.site/8272/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/prosieben.png" tvg-id="prosieben" tvg-description="Немецкий развлекательный канал: американские сериалы и блокбастеры.",ProSieben
+http://live.ru-tv.site/8256/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/prosieben-maxx.png" tvg-id="prosieben-maxx" tvg-description="Немецкий канал аниме, сериалов и документалистики.",ProSieben Maxx
+http://live.ru-tv.site/8265/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/rt-news.png" tvg-description="Немецкоязычная версия телеканала RT.",RT DE
+http://live.ru-tv.site/8925/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/rtl.png" tvg-id="rtl" tvg-description="Крупнейший частный телеканал Германии: шоу, сериалы, кино.",RTL
+http://live.ru-tv.site/8250/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/rtl2.png" tvg-id="rtl2" tvg-description="Немецкий развлекательный канал: реалити, сериалы, кино.",RTL 2
+http://live.ru-tv.site/8254/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/rtl-nitro-de.png" tvg-id="rtl-nitro-de" tvg-description="Немецкий мужской развлекательный канал группы RTL.",RTL Nitro
+http://live.ru-tv.site/8253/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/sat1.png" tvg-id="sat1" tvg-description="Немецкий частный телеканал: сериалы, шоу, кино.",Sat.1
+http://live.ru-tv.site/8255/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/sixx-de.png" tvg-id="sixx-de" tvg-description="Немецкий женский развлекательный канал.",SIXX
+http://live.ru-tv.site/8259/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/super-rtl-hd.png" tvg-id="super-rtl-hd" tvg-description="Немецкий семейный канал: детские программы днём, кино вечером.",Super RTL
+http://live.ru-tv.site/8252/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/vox.png" tvg-id="vox" tvg-description="Немецкий канал документальных шоу, сериалов и кулинарии.",VOX
+http://live.ru-tv.site/8262/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/WDR%20HD%20Aachen%20DE.png" tvg-description="Общественный телеканал Северного Рейна-Вестфалии.",WDR
+http://live.ru-tv.site/8797/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="http://icon.ru-tv.site/icon/WELT%20HD%20DE.png" tvg-description="Немецкий новостной и документальный телеканал.",Welt
+http://live.ru-tv.site/8798/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Германия" tvg-logo="https://iptvx.one/picons/zdf.png" tvg-id="zdf" tvg-description="Второй канал немецкого общественного телевидения.",ZDF
+http://live.ru-tv.site/8260/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Греция
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/ANT1%20GR.png" tvg-description="Греческий коммерческий телеканал ANT1.",ANT1
+http://live.ru-tv.site/9191/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/ERT%201%20GR.png" tvg-description="Первый канал греческого общественного вещания ERT.",ERT1
+http://live.ru-tv.site/8855/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/ERT%202%20GR.png" tvg-description="Второй канал греческого общественного вещания.",ERT2
+http://live.ru-tv.site/8850/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/ERT%203%20GR.png" tvg-description="Третий канал греческого общественного вещания (Салоники).",ERT3
+http://live.ru-tv.site/9188/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/Makedonia%20GR.png" tvg-description="Греческий региональный телеканал Салоник.",Makedonia
+http://live.ru-tv.site/9195/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/MEGA%20GR.png" tvg-description="Греческий коммерческий телеканал MEGA.",MEGA GR
+http://live.ru-tv.site/9189/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/SKAI%20GR.png" tvg-description="Греческий информационно-развлекательный телеканал.",SKAI
+http://live.ru-tv.site/9194/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Греция" tvg-logo="http://icon.ru-tv.site/icon/Star%20GR.png" tvg-description="Греческий коммерческий телеканал Star.",Star GR
+http://live.ru-tv.site/9193/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Грузия
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/1TV%20Georgia.png" tvg-description="Первый канал Грузинского общественного вещателя.",1TV
+http://live.ru-tv.site/8216/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="https://iptvx.one/picons/ajara-tv.png" tvg-id="ajara-tv" tvg-description="Грузинский общественный телеканал Аджарии.",Ajara TV
+http://live.ru-tv.site/8205/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Comedy%20Arkhi.png" tvg-description="Грузинский юмористический телеканал.",Comedy TV GE
+http://live.ru-tv.site/8972/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Formula.png" tvg-description="Грузинский информационный телеканал «Формула».",Formula GE
+http://live.ru-tv.site/8659/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/GDS%20TV%20GE.png" tvg-description="Грузинский развлекательный телеканал.",GDS
+http://live.ru-tv.site/8224/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Imedi%20TV%20GE.png" tvg-description="Грузинский коммерческий телеканал «Имеди».",Imedi TV
+http://live.ru-tv.site/8202/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Kavkasia%20GE.png" tvg-description="Грузинский информационный телеканал «Кавкасия».",Kavkasia
+http://live.ru-tv.site/9169/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Maestro.png" tvg-description="Грузинский информационно-развлекательный телеканал.",Maestro
+http://live.ru-tv.site/8217/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Marao.png" tvg-description="Грузинский региональный телеканал.",Marao
+http://live.ru-tv.site/9181/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Palitra%20news.png" tvg-description="Грузинский новостной телеканал.",Palitra News
+http://live.ru-tv.site/9139/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Pirveli%20GE.png" tvg-description="Грузинский информационный телеканал «ТВ Пирвели».",Pirveli
+http://live.ru-tv.site/8761/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/POS%20TV%20HD%20GE.png" tvg-description="Грузинский региональный телеканал.",POS TV
+http://live.ru-tv.site/9506/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Rioni%20tv.png" tvg-description="Грузинский региональный телеканал Кутаиси.",Rioni
+http://live.ru-tv.site/9505/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Rustavi2.png" tvg-description="Грузинский коммерческий телеканал «Рустави 2».",Rustavi 2
+http://live.ru-tv.site/8562/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/Silk%20Universal%20HD.png" tvg-description="Грузинский развлекательный телеканал оператора Silk.",Silk Universal
+http://live.ru-tv.site/9503/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Грузия" tvg-logo="http://icon.ru-tv.site/icon/TV%2025.png" tvg-description="Грузинский региональный телеканал Батуми.",TV 25
+http://live.ru-tv.site/8536/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Израиль
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/Kan%2011%20IL.png" tvg-description="Первый канал израильского общественного вещания «Кан 11».",Израиль 11
+http://live.ru-tv.site/8348/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8309/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/CHANNEL%2012%20HD%20IL.png" tvg-description="Израильский коммерческий телеканал «Кешет 12».",Израиль 12
+http://live.ru-tv.site/8160/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8400/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/CHANNEL%2013%20HD%20IL.png" tvg-description="Израильский коммерческий телеканал «Решет 13».",Израиль 13
+http://live.ru-tv.site/8143/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8352/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/Channel%2014%20IL.png" tvg-description="Израильский телеканал «Наши 14».",Израиль 14
+http://live.ru-tv.site/8349/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8112/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/Channel%209%20HD%20IL.png" tvg-description="Русскоязычный телеканал Израиля («9 канал»).",Израиль 9
+http://live.ru-tv.site/8107/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8524/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/24.png" tvg-description="Израильский музыкальный телеканал.",Channel 24 IL
+http://live.ru-tv.site/8371/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/HIDABRUT%20IL.png" tvg-description="Израильский религиозный телеканал.",Hidabroot
+http://live.ru-tv.site/8530/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/Entertainment%20IL.png" tvg-description="Развлекательный канал израильского оператора HOT.",HOT Entertainment
+http://live.ru-tv.site/8729/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/HOT3%20HD%20IL.png" tvg-description="Развлекательный канал израильского оператора HOT.",HOT3
+http://live.ru-tv.site/8715/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/i24%20IL.png" tvg-description="Израильский международный новостной телеканал.",i24 News
+http://live.ru-tv.site/9482/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/Kan%20Elady.png" tvg-description="Израильский образовательный канал общественного вещания.",Kan 23
+http://live.ru-tv.site/8730/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Израиль" tvg-logo="http://icon.ru-tv.site/icon/KNESET%20CHANNE%20IL.png" tvg-description="Парламентский телеканал Кнессета Израиля.",Knesset
+http://live.ru-tv.site/8723/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Испания
+
+#EXTINF:0 group-title="Испания" tvg-logo="http://icon.ru-tv.site/icon/Antena_3_HD_ES1.png" tvg-description="Испанский коммерческий телеканал Antena 3.",Antena 3
+http://live.ru-tv.site/8590/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Испания" tvg-logo="http://icon.ru-tv.site/icon/Be_Mad_HD_ES.png" tvg-description="Испанский познавательный телеканал.",Be Mad
+http://live.ru-tv.site/9179/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Испания" tvg-logo="http://icon.ru-tv.site/icon/Cuatro_HD_ES.png" tvg-description="Испанский коммерческий телеканал Cuatro.",Cuatro
+http://live.ru-tv.site/8846/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Испания" tvg-logo="http://icon.ru-tv.site/icon/La_1_HD_ES.png" tvg-description="Первый канал испанского общественного вещания RTVE.",La 1
+http://live.ru-tv.site/8765/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Испания" tvg-logo="http://icon.ru-tv.site/icon/La_2_HD_ES.png" tvg-description="Второй канал испанского общественного вещания: культура и документалистика.",La 2
+http://live.ru-tv.site/8847/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Италия
+
+#EXTINF:0 group-title="Италия" tvg-logo="http://icon.ru-tv.site/icon/Canale%205%20HD%20IT.png" tvg-description="Итальянский коммерческий телеканал Canale 5.",Canale 5
+http://live.ru-tv.site/8830/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Италия" tvg-logo="http://icon.ru-tv.site/icon/Rai%201%20HD.png" tvg-description="Первый канал итальянского общественного вещания RAI.",Rai 1
+http://live.ru-tv.site/8856/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Италия" tvg-logo="http://icon.ru-tv.site/icon/Rai%202%20HD.png" tvg-description="Второй канал итальянского общественного вещания RAI.",Rai 2
+http://live.ru-tv.site/8843/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Италия" tvg-logo="http://icon.ru-tv.site/icon/Rai%203%20HD.png" tvg-description="Третий канал итальянского общественного вещания RAI.",Rai 3
+http://live.ru-tv.site/8865/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 # Казахстан
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19181/index.m3u8
 
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/xabar24.png" tvg-id="xabar24" tvg-description="Казахстанский круглосуточный новостной телеканал.",24kz
+http://live.ru-tv.site/8915/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/31%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%20KZ.png" tvg-description="Казахстанский развлекательный телеканал.",31 канал
+http://live.ru-tv.site/8529/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/7kanal-kz.png" tvg-id="7kanal-kz" tvg-description="Казахстанский развлекательный телеканал.",7 канал KZ
+http://live.ru-tv.site/8521/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/aifak-kz.png" tvg-id="aifak-kz" tvg-description="Казахстанский эфирный телеканал.",Айғак
+http://live.ru-tv.site/9282/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/alautv.png" tvg-id="alautv" tvg-description="Казахстанский эфирный телеканал.",Алау ТВ
+http://live.ru-tv.site/9296/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/zhetysu.png" tvg-id="zhetysu" tvg-description="Казахстанский эфирный телеканал.",Жетысу
+http://live.ru-tv.site/9297/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/%D0%98%D1%80%D0%B1%D0%B8%D1%81%20%D0%A2%D0%92%20KZ.png" tvg-description="Казахстанский эфирный телеканал.",Ирбис ТВ
+http://live.ru-tv.site/9308/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Казахстан" tvg-description="Казахстанский киноканал боевиков и остросюжетного кино.",Кино Боевик
 
-#EXTINF:0 group-title="Казахстан" tvg-description="Казахстанский киноканал мирового кинематографа.",Мировое Кино
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/kinoboevik-kz.png" tvg-id="kinoboevik-kz" tvg-description="Казахстанский киноканал.",КиноБоевик
+http://live.ru-tv.site/9320/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="Казахстан" tvg-description="Казахстанский киноканал: премьеры и хиты мирового проката.",Премиум Кино
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/ktk-kz.png" tvg-id="ktk-kz" tvg-description="Казахстанский коммерческий телеканал: новости, сериалы, шоу.",КТК
+http://live.ru-tv.site/8901/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="Казахстан" tvg-description="Казахстанский киноканал семейного кино.",Семейное Кино
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/koktem-kz.png" tvg-id="koktem-kz" tvg-description="Казахстанский эфирный телеканал.",Көктем
+http://live.ru-tv.site/9318/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-description="Казахстанский киноканал мирового кинематографа." tvg-logo="https://iptvx.one/picons/mirovoe-kino-kz.png" tvg-id="mirovoe-kino-kz",Мировое Кино
+http://live.ru-tv.site/9322/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/novoe-televidenie.png" tvg-id="novoe-televidenie" tvg-description="Казахстанский региональный телеканал.",Новое Телевидение
+http://live.ru-tv.site/9301/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/ntk-kz.png" tvg-id="ntk-kz" tvg-description="Казахстанский развлекательный телеканал.",НТК
+http://live.ru-tv.site/8902/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/%D0%9E%D1%82%D1%8B%D1%80%D0%B0%D1%80%20KZ.png" tvg-description="Казахстанский эфирный телеканал.",Отырар
+http://live.ru-tv.site/9280/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%20%D0%95%D0%B2%D1%80%D0%B0%D0%B7%D0%B8%D1%8F.png" tvg-description="Казахстанский телеканал «Первый канал Евразия».",Первый Евразия
+http://live.ru-tv.site/8520/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/pervy-karagandinsky.png" tvg-id="pervy-karagandinsky" tvg-description="Казахстанский региональный телеканал Караганды.",Первый Карагандинский
+http://live.ru-tv.site/9309/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-description="Казахстанский киноканал: премьеры и хиты мирового проката." tvg-logo="https://iptvx.one/picons/premium-kino-kz.png" tvg-id="premium-kino-kz",Премиум Кино
+http://live.ru-tv.site/9321/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/%D0%A0%D0%98%D0%9A%D0%90-%D0%A2%D0%92%20KZ.png" tvg-description="Казахстанский эфирный телеканал.",РИКА-ТВ
+http://live.ru-tv.site/9284/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-description="Казахстанский киноканал семейного кино." tvg-logo="https://iptvx.one/picons/semejnoe-kino-kz.png" tvg-id="semejnoe-kino-kz",Семейное Кино
+http://live.ru-tv.site/9323/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd" tvg-description="Казахстанский развлекательный телеканал.",Твое ТВ
+http://live.ru-tv.site/9302/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/toy-duman.png" tvg-id="toy-duman" tvg-description="Казахстанский музыкально-развлекательный телеканал.",Той Думан
+http://live.ru-tv.site/9294/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/%D0%A2%D2%B1%D1%80%D0%B0%D0%BD%20%D0%A2%D0%92%20KZ.png" tvg-description="Казахстанский эфирный телеканал.",Тұран ТВ
+http://live.ru-tv.site/9279/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/xabar.png" tvg-id="xabar" tvg-description="Казахстанский государственный информационный телеканал.",Хабар
+http://live.ru-tv.site/8515/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/abaitv.png" tvg-id="abaitv" tvg-description="Казахстанский культурно-просветительский телеканал.",ABAI TV
+http://live.ru-tv.site/9253/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/Almaty%20KZ.png" tvg-description="Казахстанский эфирный телеканал.",Almaty
+http://live.ru-tv.site/9304/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/altai-kz.png" tvg-id="altai-kz" tvg-description="Казахстанский эфирный телеканал.",ALTAI
+http://live.ru-tv.site/9307/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/aqjaiyq.png" tvg-id="aqjaiyq" tvg-description="Казахстанский эфирный телеканал.",AQJAIYQ
+http://live.ru-tv.site/9290/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/aqtobe.png" tvg-id="aqtobe" tvg-description="Казахстанский эфирный телеканал.",AQTOBE
+http://live.ru-tv.site/9306/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/Astana%20TV.png" tvg-description="Казахстанский развлекательный телеканал.",Astana TV
+http://live.ru-tv.site/8522/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/atameken-business.png" tvg-id="atameken-business" tvg-description="Казахстанский деловой телеканал.",Atameken Business
+http://live.ru-tv.site/9300/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/atyray.png" tvg-id="atyray" tvg-description="Казахстанский эфирный телеканал.",ATYRAY
+http://live.ru-tv.site/9283/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/beetv-oir.png" tvg-id="beetv-oir" tvg-description="Канал казахстанского пакета BeeTV с travel-шоу «Орёл и решка».",BeeTV Орел и Решка
+http://live.ru-tv.site/9312/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/Dostyq%20TV%202.png" tvg-description="Казахстанский эфирный телеканал.",Dostyq TV
+http://live.ru-tv.site/9291/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/ertis.png" tvg-id="ertis" tvg-description="Казахстанский эфирный телеканал.",ERTIS
+http://live.ru-tv.site/9299/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/jambyl-kz.png" tvg-id="jambyl-kz" tvg-description="Казахстанский эфирный телеканал.",JAMBYL
+http://live.ru-tv.site/9285/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/kazakh-tv.png" tvg-id="kazakh-tv" tvg-description="Казахстанский международный телеканал (Kazakh TV).",Jibek Joly
+http://live.ru-tv.site/9315/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="http://icon.ru-tv.site/icon/KOKSE%20KZ.png" tvg-description="Казахстанский эфирный телеканал.",KOKSE
+http://live.ru-tv.site/9286/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/mangystay.png" tvg-id="mangystay" tvg-description="Казахстанский эфирный телеканал.",MANGYSTAY
+http://live.ru-tv.site/9298/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/ontustik.png" tvg-id="ontustik" tvg-description="Казахстанский эфирный телеканал.",ONTUSTIK
+http://live.ru-tv.site/9281/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/kazakhstan.png" tvg-id="kazakhstan" tvg-description="Главный государственный телеканал Казахстана.",QAZAQSTAN
+http://live.ru-tv.site/8106/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/qostanai-kz.png" tvg-id="qostanai-kz" tvg-description="Казахстанский эфирный телеканал.",QOSTANAI
+http://live.ru-tv.site/9287/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/qyzyljar.png" tvg-id="qyzyljar" tvg-description="Казахстанский эфирный телеканал.",QYZYLJAR
+http://live.ru-tv.site/9303/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/qyzylorda-kz.png" tvg-id="qyzylorda-kz" tvg-description="Казахстанский эфирный телеканал.",QYZYLORDA
+http://live.ru-tv.site/9292/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/saryarqa.png" tvg-id="saryarqa" tvg-description="Казахстанский эфирный телеканал.",SARYARQA
+http://live.ru-tv.site/8287/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/semei.png" tvg-id="semei" tvg-description="Казахстанский эфирный телеканал.",SEMEI
+http://live.ru-tv.site/9288/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/show-kz.png" tvg-id="show-kz" tvg-description="Казахстанский развлекательный телеканал.",SHOW
+http://live.ru-tv.site/9319/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/ulytau-kz.png" tvg-id="ulytau-kz" tvg-description="Казахстанский эфирный телеканал.",Ulytau
+http://live.ru-tv.site/9289/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Киргизия
 
@@ -65,8 +479,24 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19181/index.m3u8
 #EXTINF:0 group-title="Киргизия" tvg-description="Киргизский киноканал.",CineMax
 
 http://stream.mcquack.net/484/index.m3u8
+#http://stream.mcquack.net/476/index.m3u8
+
+#EXTINF:0 group-title="Киргизия" tvg-logo="https://iptvx.one/picons/cinemax2.png" tvg-id="cinemax2" tvg-description="Киргизский киноканал пакета CineMax.",CineMax 2
+http://stream.mcquack.net/475/index.m3u8
+
+#EXTINF:0 group-title="Киргизия" tvg-description="Киргизский киноканал пакета CineMax.",CineMax 3
+http://stream.mcquack.net/474/index.m3u8
+
+#EXTINF:0 group-title="Киргизия" tvg-description="Киргизский киноканал пакета CineMax.",CineMax 4
+http://stream.mcquack.net/472/index.m3u8
+
+#EXTINF:0 group-title="Киргизия" tvg-description="Киргизский киноканал пакета CineMax.",CineMax 5
+http://stream.mcquack.net/471/index.m3u8
 
 #EXTINF:0 group-title="Киргизия" tvg-description="Киргизский детский телеканал.",KidsTV Kyrgyzstan
+
+#EXTINF:0 group-title="Киргизия" tvg-description="Киргизский киноканал.",Kino Kanal
+http://stream.mcquack.net/470/index.m3u8
 
 #EXTINF:0 group-title="Киргизия" tvg-description="Киргизский спортивный телеканал.",KyrgyzSport
 
@@ -92,17 +522,122 @@ http://stream.mcquack.net/484/index.m3u8
 
 #EXTINF:0 group-title="Китай" tvg-logo="https://iptvx.one/picons/cgtn.png" tvg-id="cgtn" tvg-description="Международный англоязычный телеканал Китая: новости, аналитика и документальные программы.",CGTN
 
+# Латвия
+
+#EXTINF:0 group-title="Латвия" tvg-logo="http://icon.ru-tv.site/icon/TV3%20Plus%20HD%20LT.png" tvg-description="Латвийский русскоязычный развлекательный телеканал.",3+
+http://live.ru-tv.site/8776/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="https://iptvx.one/picons/360-lv.png" tvg-id="360-lv" tvg-description="Латвийский развлекательный телеканал.",360TV
+http://live.ru-tv.site/8660/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="http://icon.ru-tv.site/icon/Duo3%20HD%20EE.png" tvg-description="Латвийский телеканал сериалов пакета Duo.",Duo 3 LV
+http://live.ru-tv.site/8749/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="http://icon.ru-tv.site/icon/Duo%205.png" tvg-description="Латвийский телеканал пакета Duo.",Duo 5 LV
+http://live.ru-tv.site/8754/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="http://icon.ru-tv.site/icon/Duo%206.png" tvg-description="Латвийский телеканал кино и сериалов пакета Duo.",Duo 6 LV
+http://live.ru-tv.site/8756/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="https://iptvx.one/picons/ltv1.png" tvg-id="ltv1" tvg-description="Первый канал латвийского общественного вещания LTV.",LTV1
+http://live.ru-tv.site/8408/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="https://iptvx.one/picons/ltv7.png" tvg-id="ltv7" tvg-description="Второй канал латвийского общественного вещания: спорт и программы на русском.",LTV7
+http://live.ru-tv.site/9005/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="https://iptvx.one/picons/stv-pirma.png" tvg-id="stv-pirma!" tvg-description="Латвийский развлекательный телеканал.",STV Pirmā!
+http://live.ru-tv.site/9011/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="http://icon.ru-tv.site/icon/TV24%20LV.png" tvg-description="Латвийский информационный телеканал.",TV24
+http://live.ru-tv.site/8783/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="https://iptvx.one/picons/lnt.png" tvg-id="lnt" tvg-description="Латвийский телеканал LNT: сериалы и шоу.",TV3 life
+http://live.ru-tv.site/8389/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="http://icon.ru-tv.site/icon/TV3%20EE.png" tvg-description="Латвийский коммерческий телеканал TV3.",TV3 LV
+http://live.ru-tv.site/9014/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="http://icon.ru-tv.site/icon/TV4%20HD%20LV.png" tvg-description="Латвийский русскоязычный телеканал.",TV4 LV
+http://live.ru-tv.site/9015/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Латвия" tvg-logo="https://iptvx.one/picons/tv6-lv.png" tvg-id="tv6-lv" tvg-description="Латвийский развлекательный телеканал.",TV6 LV
+http://live.ru-tv.site/8490/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 # Литва
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/830/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9217/index.m3u8
 
+#EXTINF:0 group-title="Литва" tvg-logo="https://iptvx.one/picons/balticum-tv.png" tvg-id="balticum-tv" tvg-description="Литовский телеканал оператора Balticum.",Balticum
+http://live.ru-tv.site/8504/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="https://iptvx.one/picons/btv.png" tvg-id="btv" tvg-description="Литовский развлекательный телеканал.",BTV LT
+http://live.ru-tv.site/8750/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/Delfi%20TV%20HD%20LT.png" tvg-description="Литовский информационный телеканал портала Delfi.",Delfi TV
+http://live.ru-tv.site/8519/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/DUO6%20HD%20LV.png" tvg-description="Литовский телеканал кино и сериалов пакета Duo.",Duo 6 LT
+http://live.ru-tv.site/8503/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="https://iptvx.one/picons/info-tv.png" tvg-id="info-tv" tvg-description="Литовский информационный телеканал.",Info TV
+http://live.ru-tv.site/8499/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/Lietuvos%20Rytas%20HD%20LT.png" tvg-description="Литовский информационный телеканал издания Lietuvos rytas.",Lietuvos Rytas
+http://live.ru-tv.site/8497/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="https://iptvx.one/picons/lnk.png" tvg-id="lnk" tvg-description="Литовский коммерческий телеканал LNK.",LNK
+http://live.ru-tv.site/8751/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/LRT%20TV%20HD%20LT.png" tvg-description="Первый канал литовского общественного вещания LRT.",LRT
+http://live.ru-tv.site/8752/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Литва" tvg-logo="https://iptvx.one/picons/lrt-kultura.png" tvg-id="lrt-kultura" tvg-description="Литовский общественный культурно-просветительский телеканал (бывший LRT Kultūra).",LRT Plius
 http://stream.mcquack.net/353/index.m3u8
+#http://live.ru-tv.site/8753/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="https://iptvx.one/picons/pukas-lt.png" tvg-id="pukas-lt" tvg-description="Литовский музыкально-развлекательный телеканал.",Pūkas TV
+http://live.ru-tv.site/8506/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="https://iptvx.one/picons/seimas-tiesiogiai-lt.png" tvg-id="seimas-tiesiogiai-lt" tvg-description="Прямая трансляция заседаний Сейма Литвы.",Seimas Tiesiogiai
+http://live.ru-tv.site/8507/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/TV1%20LT.png" tvg-description="Литовский телеканал сериалов и кино.",TV1 LT
+http://live.ru-tv.site/8698/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/TV3%20LT.png" tvg-description="Литовский коммерческий телеканал TV3.",TV3 LT
+http://live.ru-tv.site/8696/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/TV6%20LT.png" tvg-description="Литовский развлекательный телеканал.",TV6 LT
+http://live.ru-tv.site/8697/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Литва" tvg-logo="http://icon.ru-tv.site/icon/TV8%20HD%20LT.png" tvg-description="Литовский телеканал для женской аудитории.",TV8 LT
+http://live.ru-tv.site/8511/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Молдова
+
+#EXTINF:0 group-title="Молдова" tvg-logo="http://icon.ru-tv.site/icon/Jurnal%20TV%20HD%20MD.png" tvg-description="Молдавский информационный телеканал.",Jurnal TV
+http://live.ru-tv.site/8508/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Молдова" tvg-logo="https://iptvx.one/picons/moldova-1.png" tvg-id="moldova-1" tvg-description="Первый канал Молдавского общественного вещания.",Moldova 1
+http://live.ru-tv.site/8900/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Молдова" tvg-logo="https://iptvx.one/picons/moldova-2.png" tvg-id="moldova-2" tvg-description="Второй канал Молдавского общественного вещания.",Moldova 2
+http://live.ru-tv.site/8543/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Молдова" tvg-logo="https://iptvx.one/picons/n4.png" tvg-id="n4" tvg-description="Молдавский региональный телеканал.",N4
+http://live.ru-tv.site/8548/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Молдова" tvg-logo="http://icon.ru-tv.site/icon/TV8%20HD%20MD.png" tvg-description="Молдавский информационный телеканал.",TV8 MD
+http://live.ru-tv.site/8544/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Молдова" tvg-logo="http://icon.ru-tv.site/icon/TVC%2021%20MD.png" tvg-description="Молдавский русскоязычный телеканал.",TVC21
+http://live.ru-tv.site/8498/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Новости
 
-#EXTINF:0 group-title="Новости" tvg-description="Международный новостной телеканал BBC на английском языке.",BBC World News
+#EXTINF:0 group-title="Новости" tvg-description="Международный новостной телеканал BBC на английском языке." tvg-logo="https://iptvx.one/picons/bbc.png" tvg-id="bbc",BBC World News
+http://live.ru-tv.site/8036/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Новости" tvg-description="Международный деловой телеканал Bloomberg: финансы, рынки и бизнес-аналитика.",Bloomberg
 
@@ -122,16 +657,325 @@ http://89.33.29.115:8080/Euronews/index.m3u8
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/fox-news-us.png" tvg-id="fox-news-us" tvg-description="Американский новостной телеканал Fox News.",Fox News
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/31915/index.m3u8
+#http://live.ru-tv.site/8378/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/france24.png" tvg-id="france24-en" tvg-description="Международный новостной телеканал Франции на английском языке.",France 24
+http://live.ru-tv.site/8397/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/rt-news.png" tvg-id="rt-news" tvg-description="RT (Russia Today) — российский международный новостной телеканал.",RT
 https://wisewatchoott.wiseplayout.com/RT/master.m3u8
 #https://rumble.com/live-hls-dvr/33aw1a/playlist.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9220/index.m3u8
 
+# Польша
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/polsat.png" tvg-id="polsat" tvg-description="Польский коммерческий телеканал Polsat.",Polsat
+http://live.ru-tv.site/8409/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/polsat2.png" tvg-id="polsat2" tvg-description="Польский развлекательный телеканал группы Polsat.",Polsat 2
+http://live.ru-tv.site/8953/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/polsat-news-2.png" tvg-id="polsat-news-2" tvg-description="Польский информационный телеканал группы Polsat.",Polsat News 2
+http://live.ru-tv.site/8787/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="http://icon.ru-tv.site/icon/TV6%20FHD%20PL.png" tvg-description="Польский развлекательный телеканал TV6.",TV 6
+http://live.ru-tv.site/8790/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tv-puls.png" tvg-id="tv-puls" tvg-description="Польский семейный телеканал.",TV Puls
+http://live.ru-tv.site/8864/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tv4-pl.png" tvg-id="tv4-pl" tvg-description="Польский развлекательный телеканал TV4.",TV4 PL
+http://live.ru-tv.site/8829/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvn-pl.png" tvg-id="tvn-pl" tvg-description="Польский коммерческий телеканал TVN.",TVN
+http://live.ru-tv.site/9213/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvn7-pl.png" tvg-id="tvn7-pl" tvg-description="Польский телеканал сериалов и кино группы TVN.",TVN 7
+http://live.ru-tv.site/9218/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvn-turbo-pl.png" tvg-id="tvn-turbo-pl" tvg-description="Польский телеканал об автомобилях и технике.",TVN Turbo
+http://live.ru-tv.site/9217/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvn24-bis-pl.png" tvg-id="tvn24-bis-pl" tvg-description="Польский международный новостной телеканал группы TVN.",TVN24 BiS
+http://live.ru-tv.site/9215/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvp-hd.png" tvg-id="tvp-hd" tvg-description="Канал польского общественного вещания TVP в высоком разрешении.",TVP
+http://live.ru-tv.site/8303/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvp1.png" tvg-id="tvp1" tvg-description="Первый канал польского общественного вещания TVP.",TVP 1
+http://live.ru-tv.site/8858/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvp2.png" tvg-id="tvp2" tvg-description="Второй канал польского общественного вещания TVP.",TVP 2
+http://live.ru-tv.site/8774/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvp3.png" tvg-id="tvp3" tvg-description="Региональный канал польского общественного вещания.",TVP 3
+http://live.ru-tv.site/8834/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvp-info.png" tvg-id="tvp-info" tvg-description="Польский информационный телеканал TVP.",TVP INFO
+http://live.ru-tv.site/8859/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Польша" tvg-logo="https://iptvx.one/picons/tvs-pl.png" tvg-id="tvs-pl" tvg-description="Польский региональный телеканал Силезии.",TVS
+http://live.ru-tv.site/8950/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Румыния
+
+#EXTINF:0 group-title="Румыния" tvg-logo="http://icon.ru-tv.site/icon/Pro%20TV%20RO.png" tvg-description="Румынский коммерческий телеканал PRO TV.",PRO TV
+http://live.ru-tv.site/8699/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Румыния" tvg-logo="https://iptvx.one/picons/tvr1.png" tvg-id="tvr1" tvg-description="Первый канал румынского общественного телевидения.",TVR 1
+http://live.ru-tv.site/8700/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Румыния" tvg-logo="https://iptvx.one/picons/tvr2.png" tvg-id="tvr2" tvg-description="Второй канал румынского общественного телевидения.",TVR 2
+http://live.ru-tv.site/8701/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 # США
+
+#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/ABC.png" tvg-description="Американская эфирная телесеть ABC.",ABC
+http://live.ru-tv.site/8122/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-logo="https://iptvx.one/picons/bbc-amerika-us.png" tvg-id="bbc-amerika-us" tvg-description="Американская версия BBC: британские сериалы и шоу.",BBC America
+http://live.ru-tv.site/8610/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-description="Американская эфирная сеть для афроамериканской аудитории.",BOUNCE
+http://live.ru-tv.site/8535/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/Bravo%20HD%20US.png" tvg-description="Американский канал реалити-шоу и лайфстайла.",Bravo US
+http://live.ru-tv.site/8377/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/CBS%20New%20York.png" tvg-description="Американская эфирная телесеть CBS (нью-йоркский фид).",CBS NY
+http://live.ru-tv.site/8792/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/CNBC%20Canada%20CA.png" tvg-description="Американский деловой и финансовый новостной канал.",CNBC US
+http://live.ru-tv.site/8675/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/CNN%20CA.png" tvg-description="Американский фид круглосуточного новостного канала CNN.",CNN US
+http://live.ru-tv.site/8760/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-logo="https://iptvx.one/picons/msnbc-us.png" tvg-id="msnbc-us" tvg-description="Американский новостной и общественно-политический канал.",MSNBC
+http://live.ru-tv.site/8583/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/NBC2.png" tvg-description="Американская эфирная телесеть NBC.",NBC
+http://live.ru-tv.site/9494/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="США" tvg-description="Американский региональный спортивный телеканал Нью-Йорка (SNY): бейсбол, баскетбол и футбол.",SportsNet New York
 http://40.160.24.55/SNY/index.m3u8
+
+# Таджикистан
+
+#EXTINF:0 group-title="Таджикистан" tvg-logo="http://icon.ru-tv.site/icon/Jahonnamo.png" tvg-description="Таджикский информационный телеканал.",Джахоннамо
+http://live.ru-tv.site/8212/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Таджикистан" tvg-logo="http://icon.ru-tv.site/icon/TV%20Sinamo.png" tvg-description="Таджикский киноканал.",Синамо
+http://live.ru-tv.site/9173/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Таджикистан" tvg-logo="http://icon.ru-tv.site/icon/Bakhoristan%20HD.png" tvg-description="Таджикский детский и молодёжный телеканал.",ТВ Баҳористон
+http://live.ru-tv.site/8210/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Таджикистан" tvg-logo="http://icon.ru-tv.site/icon/Safina%20HD.png" tvg-description="Таджикский телеканал «Сафина».",ТВ Сафина
+http://live.ru-tv.site/8209/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Таджикистан" tvg-logo="http://icon.ru-tv.site/icon/Tojikistan%20HD.png" tvg-description="Главный государственный телеканал Таджикистана.",TVT
+http://live.ru-tv.site/9174/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Турция
+
+#EXTINF:0 group-title="Турция" tvg-logo="http://icon.ru-tv.site/icon/24%20HD.png" tvg-description="Турецкий новостной телеканал.",24 TV
+http://live.ru-tv.site/8969/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="http://icon.ru-tv.site/icon/360%20TV%20HD%20TR.png" tvg-description="Турецкий развлекательно-информационный телеканал 360.",360 TR
+http://live.ru-tv.site/8844/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/a-haber-tr.png" tvg-id="a-haber-tr" tvg-description="Турецкий новостной телеканал.",A HABER
+http://live.ru-tv.site/8919/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/atv-hd-tr.png" tvg-id="atv-hd-tr" tvg-description="Турецкий развлекательный телеканал ATV.",ATV
+http://live.ru-tv.site/8956/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8669/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/beyaz-tv-tr.png" tvg-id="beyaz-tv-tr" tvg-description="Турецкий развлекательный телеканал.",BEYAZ TV
+http://live.ru-tv.site/8823/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/bloomberg-ht-tr.png" tvg-id="bloomberg-ht-tr" tvg-description="Турецкий деловой телеканал Bloomberg HT.",BLOOMBERG HT
+http://live.ru-tv.site/8857/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/cnn-turk.png" tvg-id="cnn-turk" tvg-description="Турецкая версия новостного телеканала CNN.",CNN TÜRK
+http://live.ru-tv.site/8861/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="http://icon.ru-tv.site/icon/Dream%20Turk%20HD%20TR.png" tvg-description="Турецкий музыкальный телеканал.",DREAM TÜRK TV
+http://live.ru-tv.site/8934/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8862/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/kanal-7-hd-tr.png" tvg-id="kanal-7-hd-tr" tvg-description="Турецкий семейный телеканал.",Kanal 7 TR
+http://live.ru-tv.site/8668/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/kanal-d-hd.png" tvg-id="kanal-d-hd" tvg-description="Турецкий развлекательный телеканал Kanal D.",KANAL D
+http://live.ru-tv.site/8817/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/ntv-hd-tr.png" tvg-id="ntv-hd-tr" tvg-description="Турецкий новостной телеканал NTV.",NTV
+http://live.ru-tv.site/8813/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="http://icon.ru-tv.site/icon/Show%20Turk%20TR.png" tvg-description="Турецкий развлекательный телеканал Show TV.",Show Turk
+http://live.ru-tv.site/8845/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/star-tv-hd-tr.png" tvg-id="star-tv-hd-tr" tvg-description="Турецкий развлекательный телеканал Star TV.",STAR TV
+http://live.ru-tv.site/8800/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/teve2hd.png" tvg-id="teve2hd" tvg-description="Турецкий развлекательный телеканал TEVE2.",TEVE2
+http://live.ru-tv.site/8818/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/trt-1-hd.png" tvg-id="trt-1-hd" tvg-description="Главный канал турецкого общественного вещания TRT.",TRT 1
+http://live.ru-tv.site/8809/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/trt-avaz.png" tvg-id="trt-avaz" tvg-description="Турецкий телеканал TRT для тюркоязычных стран.",TRT AVAZ
+http://live.ru-tv.site/8801/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/trt-haber-hd.png" tvg-id="trt-haber-hd" tvg-description="Турецкий новостной телеканал TRT.",TRT HABER
+http://live.ru-tv.site/8805/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="http://icon.ru-tv.site/icon/TRT%20KURDI.png" tvg-description="Турецкий телеканал TRT на курдском языке.",TRT KURDİ
+http://live.ru-tv.site/8841/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="http://icon.ru-tv.site/icon/TV%208.5%20FHD%20TR.png" tvg-description="Турецкий телеканал сериалов и спорта TV8.5.",TV 8,5
+http://live.ru-tv.site/8814/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="https://iptvx.one/picons/tv8-tr.png" tvg-id="tv8-tr" tvg-description="Турецкий развлекательный телеканал TV8.",TV8 TR
+http://live.ru-tv.site/8811/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Турция" tvg-logo="http://icon.ru-tv.site/icon/Haberturk%20HD.png" tvg-description="Турецкий новостной телеканал.",TÜRKHABER TV
+http://live.ru-tv.site/8819/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Узбекистан
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/BizTV%20HD%20UZ.png" tvg-description="Узбекский развлекательный телеканал.",BIZ TV
+http://live.ru-tv.site/9163/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Medeniyyet.png" tvg-description="Узбекский телеканал культуры и просвещения.",Madaniyat va Ma'rifat
+http://live.ru-tv.site/8244/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Mahalla%20UZ.png" tvg-description="Узбекский телеканал о жизни махалли.",Mahalla
+http://live.ru-tv.site/8248/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Mening%20Yurtim%20FHD%20UZ.png" tvg-description="Узбекский познавательный телеканал.",Mening Yurtim
+http://live.ru-tv.site/9161/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Milliy%20TV%20UZ.png" tvg-description="Узбекский национальный телеканал.",Milliy TV
+http://live.ru-tv.site/9180/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Navo.png" tvg-description="Узбекский музыкальный телеканал.",NAVO
+http://live.ru-tv.site/8218/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Nurafshon%20TV%20UZ.png" tvg-description="Узбекский региональный телеканал.",Nurafshon TV
+http://live.ru-tv.site/9171/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Ozbekiston.png" tvg-description="Главный государственный телеканал Узбекистана.",O'zbekiston
+http://live.ru-tv.site/8220/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Ozbekiston%2024%20HD%20UZ.png" tvg-description="Узбекский круглосуточный новостной телеканал.",O'zbekiston 24
+http://live.ru-tv.site/8247/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Renessans%20TV%20UZ.png" tvg-description="Узбекский культурно-просветительский телеканал.",Renessans TV
+http://live.ru-tv.site/9124/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Sevimli%20UZ.png" tvg-description="Узбекский развлекательный телеканал.",Sevimli
+http://live.ru-tv.site/9042/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="https://iptvx.one/picons/toshkent-uz.png" tvg-id="toshkent-uz" tvg-description="Узбекский телеканал Ташкента.",Toshkent
+http://live.ru-tv.site/8241/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/UzReport%20HD%20UZ.png" tvg-description="Узбекский деловой и новостной телеканал.",UzReport
+http://live.ru-tv.site/9162/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Yoshlar%20HD%20UZ.png" tvg-description="Узбекский молодёжный телеканал.",Yoshlar
+http://live.ru-tv.site/8219/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Узбекистан" tvg-logo="http://icon.ru-tv.site/icon/Zo'r%20TV%20HD%20UZ.png" tvg-description="Узбекский развлекательный телеканал.",ZO'R TV
+http://live.ru-tv.site/9172/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Украина
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/1plus1.png" tvg-id="1plus1" tvg-description="Украинский телеканал 1+1 в режиме информационного марафона.",1+1 МАРАФОН
+http://live.ru-tv.site/8116/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/1plus1-ukraina.png" tvg-id="1plus1-ukraina" tvg-description="Украинский развлекательный телеканал группы 1+1.",1+1 Україна UA
+http://live.ru-tv.site/8482/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/2plus2.png" tvg-id="2plus2" tvg-description="Украинский мужской развлекательный телеканал: кино и спорт.",2+2
+http://live.ru-tv.site/8117/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/24news-ua.png" tvg-id="24news-ua" tvg-description="Украинский круглосуточный новостной телеканал.",24 канал
+http://live.ru-tv.site/8344/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="http://icon.ru-tv.site/icon/5%20%D0%9A%D0%B0%D0%BD%D0%B0%D0%BB%20HD.png" tvg-description="Украинский информационный телеканал «5 канал».",5 канал UA
+http://live.ru-tv.site/8093/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="http://icon.ru-tv.site/icon/8%20%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%20HD%20UA.png" tvg-description="Украинский региональный телеканал.",8 канал UA
+http://live.ru-tv.site/8334/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="http://icon.ru-tv.site/icon/%D0%91%D1%96%D0%B3%D1%83%D0%B4%D1%96%20UA.png" tvg-description="Украинский телеканал сериалов и мелодрам.",Бігуді
+http://live.ru-tv.site/9328/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="http://icon.ru-tv.site/icon/%D0%94%D1%96%D0%BC%20HD.png" tvg-description="Украинский телеканал для переселенцев и жителей прифронтовых территорий.",ДІМ
+http://live.ru-tv.site/8211/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/espreso-tv.png" tvg-id="espreso-tv" tvg-description="Украинский информационный телеканал.",Еспресо
+http://live.ru-tv.site/8243/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/k2-ua.png" tvg-id="k2-ua" tvg-description="Украинский телеканал о доме, семье и кулинарии.",К2
+http://live.ru-tv.site/9326/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/kvartal-tv.png" tvg-id="kvartal-tv" tvg-description="Украинский юмористический телеканал студии «Квартал 95».",Квартал ТВ
+http://live.ru-tv.site/8345/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/mega-ua.png" tvg-id="mega-ua" tvg-description="Украинский познавательный телеканал.",Мега
+http://live.ru-tv.site/8100/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/novy-kanal-ua.png" tvg-id="novy-kanal-ua" tvg-description="Украинский молодёжный развлекательный телеканал.",Новий канал
+http://live.ru-tv.site/8130/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/ntn-ua.png" tvg-id="ntn-ua" tvg-description="Украинский телеканал криминальных сериалов и расследований.",НТН
+http://live.ru-tv.site/8280/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/otse.png" tvg-id="otse" tvg-description="Украинский телеканал классического кино и сериалов.",ОЦЕ
+http://live.ru-tv.site/9324/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="http://icon.ru-tv.site/icon/UA%20%D0%9F%D0%B5%D1%80%D1%88%D0%B8%D0%B9%20HD.png" tvg-description="Первый канал Украинского общественного телевидения (Суспільне).",Перший
+http://live.ru-tv.site/8273/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/priamyj.png" tvg-id="priamyj" tvg-description="Украинский информационный телеканал.",Прямий
+http://live.ru-tv.site/8284/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/rada-ua.png" tvg-id="rada-ua" tvg-description="Парламентский телеканал Верховной Рады Украины.",Рада
+http://live.ru-tv.site/8347/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/stb-ua.png" tvg-id="stb-ua" tvg-description="Украинский развлекательный телеканал СТБ.",СТБ
+http://live.ru-tv.site/8090/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/ua-dnipro.png" tvg-id="51kanal" tvg-description="Украинский региональный общественный телеканал Днепропетровщины.",Суспільне Дніпро
+http://live.ru-tv.site/8462/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/kultura-ua.png" tvg-id="kultura-ua" tvg-description="Украинский общественный телеканал культуры.",Суспільне Культура
+http://live.ru-tv.site/8816/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/tet.png" tvg-id="tet-ua" tvg-description="Украинский молодёжный комедийный телеканал.",ТЕТ
+http://live.ru-tv.site/8138/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="http://icon.ru-tv.site/icon/%D0%98%D0%BD%D1%82%D0%B5%D1%80%20UA.png" tvg-description="Украинский общенациональный телеканал «Интер».",Інтер
+http://live.ru-tv.site/8089/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/bolt.png" tvg-id="bolt" tvg-description="Украинский телеканал об автомобилях и технике.",Bolt
+http://live.ru-tv.site/9329/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/ua-tv.png" tvg-id="ua-tv" tvg-description="Украинский русскоязычный международный телеканал.",FREEДОМ
+http://live.ru-tv.site/8540/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/ictv.png" tvg-id="ictv-ua" tvg-description="Украинский общенациональный информационно-развлекательный телеканал.",ICTV
+http://live.ru-tv.site/8092/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="http://icon.ru-tv.site/icon/ICTV%202%20HD.png" tvg-description="Украинский телеканал сериалов и кино группы ICTV.",ICTV 2
+http://live.ru-tv.site/8077/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Украина" tvg-logo="https://iptvx.one/picons/zoom-ua.png" tvg-id="zoom-ua" tvg-description="Украинский развлекательный телеканал о кино и шоу-бизнесе.",Zoom
+http://live.ru-tv.site/9332/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Франция
 
@@ -139,8 +983,44 @@ http://40.160.24.55/SNY/index.m3u8
 
 # Эстония
 
+#EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/duo3tv.png" tvg-id="sony-channel-ee" tvg-description="Эстонский телеканал сериалов пакета Duo.",Duo 3 EE
+http://live.ru-tv.site/8791/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/kanal-11-ee.png" tvg-id="kanal-11-ee" tvg-description="Эстонский развлекательный телеканал пакета Duo.",Duo 4
+http://live.ru-tv.site/8492/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/Duo%205.png" tvg-description="Эстонский телеканал пакета Duo.",Duo 5 EE
+http://live.ru-tv.site/8493/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/duo6tv.png" tvg-id="sony-turbo-ee" tvg-description="Эстонский телеканал кино и сериалов пакета Duo.",Duo 6 EE
+http://live.ru-tv.site/8364/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/eesti-kanal.png" tvg-id="eesti-kanal" tvg-description="Эстонский развлекательный телеканал.",EESTI KANAL
+http://live.ru-tv.site/8518/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV%20EE.png" tvg-description="Первый канал эстонского общественного вещания ERR.",ETV
+http://live.ru-tv.site/8512/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV2%20EE.png" tvg-description="Второй канал эстонского общественного вещания.",ETV 2
+http://live.ru-tv.site/8943/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV+%20EE.png" tvg-description="Русскоязычный канал эстонского общественного вещания.",ETV+
+http://live.ru-tv.site/9219/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/Duo7%20HD%20EE.png" tvg-description="Эстонский телеканал сериалов и кино.",Kanal 7 EE
+http://live.ru-tv.site/8494/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/Kanal%202%20EE.png" tvg-description="Эстонский коммерческий развлекательный телеканал.",Kanal2
+http://live.ru-tv.site/8491/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Эстония" tvg-description="Парламентский телеканал Эстонии: трансляции заседаний Рийгикогу.",Riigikogu
 https://le02.euddn.net/6487956abb8faf0706d8c4c2465f54cb3625b812fec8e13d11668907ff00f44b004ea22691a9216c71ebda22b7e6e57c8b923aeee9e1e6aa447947c014b7a3babd73ab865562f4ae463ce0c617da65805296ed52a0af64d7d881781d282ea970de7a1ab524c1ea73e271a8df71d43212f4850e2d81241308886184db1abf516f2d6d0b9965402fc7c960e27fa968eabb077474e7493c278ebae58d614923fb2f5c76c2865cb681763ffd765a39a629ce/smil:rk_live_1.smil/playlist.m3u8
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/TV3%20EE.png" tvg-description="Эстонский коммерческий телеканал TV3.",TV3 EE
+http://live.ru-tv.site/8557/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/TV6%20LT.png" tvg-description="Эстонский развлекательный телеканал.",TV6 EE
+http://live.ru-tv.site/8496/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Япония
 

@@ -30,13 +30,20 @@ http://live.ru-tv.site/8947/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Боевики и фантастика" tvg-logo="https://iptvx.one/picons/star-cinema.png" tvg-id="star-cinema" tvg-description="Киноканал художественных фильмов.",Star Cinema
 https://edge-fast.evrideo.tv/4e160454-ffee-4efc-beb6-a141b0343f51_0_HLS/manifest.m3u8
+#http://live.ru-tv.site/8935/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Зарубежное кино
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/13-strt.png" tvg-id="13-strt" tvg-description="Немецкий канал триллеров и криминальных сериалов.",13th Street
+http://live.ru-tv.site/8290/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/eurokino.png" tvg-id="evrokino" tvg-description="Телеканал европейского авторского и фестивального кино.",Еврокино
 http://89.33.29.115:8080/Evrokino/index.m3u8
 #http://stream.mcquack.net/385/index.m3u8
 #http://live.ru-tv.site/8034/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/%D0%9A%D0%B8%D0%BD%D0%BE%20%D0%94%D1%80%D0%B0%D0%BC%D0%B0%20HD%20KZ.png" tvg-description="Казахстанский киноканал драматического кино.",Кино Драма
+http://live.ru-tv.site/9293/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/kinokult.png" tvg-id="kinokult" tvg-description="Киноканал культового кино и фильмов для ценителей.",КиноКульт
 
@@ -49,6 +56,7 @@ http://185.121.1.163:8083/Kinoman/index.m3u8
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/tvxxi.png" tvg-id="tvxxi" tvg-description="Русскоязычный киноканал TV XXI: художественные фильмы разных жанров.",ТВ XXI
 http://stream.mcquack.net/152/index.m3u8
+#http://live.ru-tv.site/8213/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/feniks-plus-kino.png" tvg-id="feniks-plus-kino" tvg-description="Киноканал «Феникс+ Кино»: фильмы мирового проката.",Феникс+ Кино
 
@@ -56,20 +64,71 @@ http://live.ru-tv.site/8412/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/amc.png" tvg-id="amc" tvg-description="Американский киноканал AMC: культовые фильмы и сериалы.",AMC
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/AMC%20US.png" tvg-description="Американский фид киноканала AMC.",AMC US
+http://live.ru-tv.site/9496/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/axn-pl.png" tvg-id="axn-pl" tvg-description="Польская версия канала AXN: сериалы и кино.",AXN
+http://live.ru-tv.site/9212/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/axn-spin-pl.png" tvg-id="axn-spin-pl" tvg-description="Польский телеканал остросюжетных сериалов AXN Spin.",AXN Spin
+http://live.ru-tv.site/9211/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/balticum-auksinis.png" tvg-id="balticum-auksinis" tvg-description="Литовский киноканал оператора Balticum.",Balticum Auksinis
+http://live.ru-tv.site/8505/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/balticum-platinum.png" tvg-id="balticum-platinum" tvg-description="Литовский премиальный киноканал оператора Balticum.",Balticum Platinum
+http://live.ru-tv.site/8510/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/beetv-movies.png" tvg-id="beetv-movies" tvg-description="Киноканал казахстанского пакета BeeTV.",BeeTV Movies
+http://live.ru-tv.site/9310/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/bTV%20Cinema%20BG.png" tvg-description="Болгарский киноканал пакета bTV.",bTV Cinema
+http://live.ru-tv.site/9199/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/bTV%20Comedy%20BG.png" tvg-description="Болгарский комедийный телеканал пакета bTV.",bTV Comedy
+http://live.ru-tv.site/9200/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-description="Скандинавский платный киноканал: голливудские хиты и европейское кино.",C More Hits
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/cinema-ru.png" tvg-id="cinema-ru" tvg-description="Киноканал художественных фильмов разных жанров.",Cinema
 http://89.33.29.115:8080/cinema/index.m3u8
+#http://stream.mcquack.net/62/index.m3u8
+#http://live.ru-tv.site/8949/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-description="Зарубежное кино в сверхвысоком разрешении.",Cinema UHD
 
 http://live.ru-tv.site/8906/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/CineMax%20HD%20RO.png" tvg-description="Американский премиальный киноканал Cinemax.",CineMAX US
+http://live.ru-tv.site/8532/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-description="Международный телеканал комедийных сериалов, шоу и стендапа.",Comedy Central
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Comedy%20Central%20RO.png" tvg-description="Немецкая версия Comedy Central: комедийные сериалы и стендап.",Comedy Central DE
+http://live.ru-tv.site/8267/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/epik-drama.png" tvg-id="epik-drama" tvg-description="Телеканал исторических драм и костюмированного кино.",Epic Drama
+http://live.ru-tv.site/8757/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-description="Американский канал классического семейного кино.",Family Movie Classics
+http://live.ru-tv.site/8613/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/filmbox-arthouse.png" tvg-id="filmbox-arthouse" tvg-description="Телеканал артхаусного и фестивального кино.",FilmBox ArtHouse
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/FilmBox_festival_HD.png" tvg-description="Киноканал пакета FilmBox: фестивальное и авторское кино.",FilmBox+ Festival
+http://live.ru-tv.site/8661/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/FilmBox_ONE.png" tvg-description="Киноканал пакета FilmBox.",FilmBox+ One
+http://live.ru-tv.site/8938/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Filmzone%20HD.png" tvg-description="Киноканал прибалтийского пакета Filmzone.",Filmzone
+http://live.ru-tv.site/8758/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Filmzone%20Plus%20HD.png" tvg-description="Премиальный киноканал прибалтийского пакета Filmzone.",Filmzone+ LT
+http://live.ru-tv.site/9032/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Filmzone%20Plus%20HD.png" tvg-description="Премиальный киноканал прибалтийского пакета Filmzone.",Filmzone+ LV
+http://live.ru-tv.site/8759/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/flixsnip.png" tvg-id="flixsnip" tvg-description="Киноканал коротких форм и подборок фильмов.",FlixSnip
 
@@ -80,9 +139,51 @@ http://stream.mcquack.net/182/index.m3u8
 #http://live.ru-tv.site/8051/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8168/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-description="Американский молодёжный канал сериалов и кино.",Freeform
+http://live.ru-tv.site/8586/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/FX%20HD%20TR.png" tvg-description="Эстонская версия канала FX: сериалы и кино.",FX EE
+http://live.ru-tv.site/8495/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/FX%20HD%20US.png" tvg-description="Американский фид канала FX: сериалы и кино.",FX US
+http://live.ru-tv.site/8600/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/tv1000-premium.png" tvg-id="tv1000-premium" tvg-description="Киноканал прибалтийского оператора Go3.",Go3 Films LT
+http://live.ru-tv.site/8514/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/tv1000-premium.png" tvg-description="Киноканал прибалтийского оператора Go3.",Go3 Films LV
+http://live.ru-tv.site/8995/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/hbo-hd.png" tvg-id="hbo-hd" tvg-description="Американский премиальный канал HBO: сериалы и кино.",HBO
+http://live.ru-tv.site/8788/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/HBO%20Comedy%20HD%20US.png" tvg-description="Комедийный канал американского пакета HBO.",HBO Comedy
+http://live.ru-tv.site/8605/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/HBO%20Signature%20HD%20US.png" tvg-description="Канал американского пакета HBO: драмы и авторское кино.",HBO Signature
+http://live.ru-tv.site/8785/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-description="Канал американского пакета HBO: остросюжетное кино и сериалы.",HBO Zone
+http://live.ru-tv.site/8604/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/hollywood.png" tvg-id="hollywood" tvg-description="Голливудское кино круглосуточно.",Hollywood
 #http://stream.mcquack.net/268/index.m3u8
 http://live.ru-tv.site/8651/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/HOT%20CINEMA%202%20HD%20IL.png" tvg-description="Киноканал израильского оператора HOT.",HOT Cinema 2
+http://live.ru-tv.site/8713/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/HOT%20CINEMA%203%20HD%20IL.png" tvg-description="Киноканал израильского оператора HOT.",HOT Cinema 3
+http://live.ru-tv.site/8714/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/HOT%20cinema%204%20IL.png" tvg-description="Киноканал израильского оператора HOT.",HOT Cinema 4
+http://live.ru-tv.site/8712/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Hot%20HBO%20HD%20IL.png" tvg-description="Канал израильского оператора HOT с сериалами HBO.",HOT HBO
+http://live.ru-tv.site/8716/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/HOT%20ZONE%20HD%20IL.png" tvg-description="Канал израильского оператора HOT: сериалы и шоу.",HOT Zone
+http://live.ru-tv.site/8720/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/kino-1.png" tvg-id="kino-1" tvg-description="Фильмовый телеканал: художественное кино круглосуточно.",Kino 1
 http://stream.mcquack.net/395/index.m3u8
@@ -90,13 +191,55 @@ http://stream.mcquack.net/395/index.m3u8
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/kino-1-hd.png" tvg-id="kino-1-hd" tvg-description="Фильмовый телеканал: художественное кино круглосуточно.",Kino 2
 http://stream.mcquack.net/465/index.m3u8
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/kinoteatr-uz.png" tvg-id="kinoteatr-uz" tvg-description="Узбекский киноканал.",Kinoteatr
+http://live.ru-tv.site/8222/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Romance%20TV%20HH%20DE.png" tvg-description="Немецкий канал мелодрам и романтических сериалов.",Romance TV
+http://live.ru-tv.site/8672/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-description="Киноканал масштабных киносаг и эпических историй.",Saga
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/shot-tv.png" tvg-id="shot-tv" tvg-description="Киноканал остросюжетного и жанрового кино.",Shot TV
 
 http://live.ru-tv.site/8358/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/sky-cinema-action.png" tvg-id="sky-cinema-action" tvg-description="Киноканал немецкого Sky: боевики.",Sky Cinema Action
+http://live.ru-tv.site/8283/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/sky-cinema-highlights-hd.png" tvg-description="Киноканал немецкого Sky: блокбастеры.",Sky Cinema Blockbuster
+http://live.ru-tv.site/8362/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/sky-cinema-classics.png" tvg-id="sky-cinema-classics" tvg-description="Киноканал немецкого Sky: классика мирового кино.",Sky Cinema Classics
+http://live.ru-tv.site/8924/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/sky%20Cinema%20Premieren%20DE.png" tvg-description="Киноканал немецкого Sky: премьеры.",Sky Cinema Premieren
+http://live.ru-tv.site/8286/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/sky%20Crime%20HD%20DE.png" tvg-description="Канал немецкого Sky: криминальная документалистика.",Sky Crime
+http://live.ru-tv.site/8780/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/sky%20Krimi%20DE.png" tvg-description="Канал немецкого Sky: детективные сериалы.",Sky Krimi
+http://live.ru-tv.site/8781/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/sky%20one%20HD%20DE.png" tvg-description="Развлекательный канал немецкого Sky: сериалы и шоу.",Sky One
+http://live.ru-tv.site/8921/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/star-family.png" tvg-id="star-family" tvg-description="Киноканал семейного кино и фильмов для совместного просмотра.",Star Family
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Syfy%20HD%20DE.png" tvg-description="Немецкая версия SYFY: фантастика и фэнтези.",SYFY
+http://live.ru-tv.site/8288/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/tvn-fabula-pl.png" tvg-id="tvn-fabula-pl" tvg-description="Польский телеканал кино и сериалов группы TVN.",TVN Fabuła
+http://live.ru-tv.site/9214/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/DE%20Universal%20TV%20(Sky)%20HD.png" tvg-description="Немецкая версия Universal TV: сериалы и кино.",Universal
+http://live.ru-tv.site/8796/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/DE%20Warner%20TV%20Comedy%20(Sky)%20HD.png" tvg-description="Немецкий комедийный канал Warner Bros.",Warner Comedy
+http://live.ru-tv.site/8399/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/DE%20Warner%20TV%20Film%20(Sky)%20HD.png" tvg-description="Немецкий киноканал Warner Bros.",Warner Film
+http://live.ru-tv.site/8281/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Индийское и азиатское
 
@@ -198,6 +341,10 @@ http://stream.mcquack.net/445/index.m3u8
 #http://live.ru-tv.site/8148/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Премьеры и хиты" tvg-logo="https://iptvx.one/picons/kion-xit.png" tvg-id="kion-xit" tvg-description="Киноканал онлайн-кинотеатра KION: хиты и премьеры.",KION Хит
+http://live.ru-tv.site/8966/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Премьеры и хиты" tvg-description="Киноканал онлайн-кинотеатра Okko: премьеры и хиты.",Okko Прайм
+http://live.ru-tv.site/9183/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Российское кино
 
@@ -244,6 +391,10 @@ http://stream.mcquack.net/236/index.m3u8
 #http://live.ru-tv.site/8136/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/illuzion-plus.png" tvg-id="illuzion-plus" tvg-description="Киноканал авторского и классического кино.",Иллюзион +
+http://live.ru-tv.site/8134/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/klassika-kino.png" tvg-id="klassika-kino" tvg-description="Телеканал классического кинематографа.",Классика Кино
+http://live.ru-tv.site/9487/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/mosfilm.png" tvg-id="mosfilm" tvg-description="Золотой фонд «Мосфильма»: легендарная советская киноклассика.",Мосфильм. Золотая коллекция
 http://stream.mcquack.net/369/index.m3u8
@@ -335,16 +486,21 @@ http://live.ru-tv.site/8945/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozakaz.png" tvg-id="bcu-media" tvg-description="Флагманский канал пакета BCU Media: кино по заявкам зрителей.",BCU
 http://stream.mcquack.net/488/index.m3u8
+#http://live.ru-tv.site/8886/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-action.png" tvg-id="bcu-action" tvg-description="Киноканал пакета «BCU»: боевики и криминальное кино. Тематика подборки — «Action».",BCU Action
 
 http://live.ru-tv.site/8481/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8876/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-biography-hdr.png" tvg-id="bcu-biography-hdr" tvg-description="Киноканал пакета «BCU»: историческое и военное кино. Тематика подборки — «Biography HDR».",BCU Biography HDR
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-catastrophe.png" tvg-id="bcu-catastrophe" tvg-description="Киноканал пакета «BCU»: приключения и фильмы-катастрофы. Тематика подборки — «Catastrophe».",BCU Catastrophe
 
 http://live.ru-tv.site/8877/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-charm.png" tvg-id="bcu-charm" tvg-description="Канал романтического кино пакета «BCU».",BCU Charm
+http://live.ru-tv.site/8978/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-cinema.png" tvg-id="bcu-cinema" tvg-description="Киноканал пакета «BCU»: тематическое кино. Тематика подборки — «Cinema».",BCU Cinema
 
@@ -385,6 +541,7 @@ http://live.ru-tv.site/8879/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-filmystic.png" tvg-id="bcu-filmystic" tvg-description="Киноканал пакета «BCU»: тематическое кино. Тематика подборки — «Filmystic».",BCU Filmystic
 
 http://live.ru-tv.site/8479/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8880/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-history.png" tvg-id="bcu-history" tvg-description="Киноканал пакета «BCU»: историческое и военное кино. Тематика подборки — «History».",BCU History
 
@@ -417,18 +574,28 @@ http://live.ru-tv.site/8882/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-premiere.png" tvg-id="bcu-premiere" tvg-description="Киноканал пакета «BCU»: премьеры и кинохиты. Тематика подборки — «Premiere».",BCU Premiere
 
 http://live.ru-tv.site/8475/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8883/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozal-prem-1.png" tvg-id="bcu-kinozal-prem-1" tvg-description="Киноканал пакета «BCU»: премьеры и кинохиты. Тематика подборки — «Premiere 1».",BCU Premiere 1
 
 http://live.ru-tv.site/8468/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="BCU" tvg-logo="http://icon.ru-tv.site/icon/BCU%20%D0%9A%D0%B8%D0%BD%D0%BE%D0%B7%D0%B0%D0%BB%20Premiere%201%20HD.png" tvg-description="Премьерный киноканал пакета «BCU» в HDR.",BCU Premiere 1 HDR
+http://live.ru-tv.site/8870/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozal-prem-2.png" tvg-id="bcu-kinozal-prem-2" tvg-description="Киноканал пакета «BCU»: премьеры и кинохиты. Тематика подборки — «Premiere 2».",BCU Premiere 2
 
 http://live.ru-tv.site/8473/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="BCU" tvg-logo="http://icon.ru-tv.site/icon/BCU%20%D0%9A%D0%B8%D0%BD%D0%BE%D0%B7%D0%B0%D0%BB%20Premiere%202%20HD.png" tvg-description="Премьерный киноканал пакета «BCU» в HDR.",BCU Premiere 2 HDR
+http://live.ru-tv.site/8872/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-kinozal-prem-3.png" tvg-id="bcu-kinozal-prem-3" tvg-description="Киноканал пакета «BCU»: премьеры и кинохиты. Тематика подборки — «Premiere 3».",BCU Premiere 3
 
 http://live.ru-tv.site/8474/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="BCU" tvg-logo="http://icon.ru-tv.site/icon/BCU%20%D0%9A%D0%B8%D0%BD%D0%BE%D0%B7%D0%B0%D0%BB%20Premiere%203%20HD.png" tvg-description="Премьерный киноканал пакета «BCU» в HDR.",BCU Premiere 3 HDR
+http://live.ru-tv.site/8873/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-premiere-4k.png" tvg-id="bcu-premiere-4k" tvg-description="Киноканал пакета «BCU»: премьеры и кинохиты. Тематика подборки — «Premiere Ultra 4K».",BCU Premiere Ultra 4K
 
@@ -506,6 +673,7 @@ http://stream.mcquack.net/74/index.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/nashe-lubimoe.png" tvg-id="nashe-lubimoe" tvg-description="Телеканал любимого отечественного кино: советская и российская киноклассика.",Наше любимое кино
 http://stream.mcquack.net/456/index.m3u8
+#http://live.ru-tv.site/8310/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/nashe-muzhskoe.png" tvg-id="nashe-muzhskoe" tvg-description="Киноканал мужского кино: боевики, военные и приключенческие фильмы.",Наше мужское
 http://stream.mcquack.net/362/index.m3u8
@@ -546,6 +714,7 @@ http://live.ru-tv.site/8440/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8419/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BOX" tvg-logo="https://iptvx.one/picons/box-docu.png" tvg-id="box-docu" tvg-description="Киноканал пакета «BOX»: документальное и познавательное содержание. Тематика подборки — «Docu.».",BOX Docu.
+http://live.ru-tv.site/8424/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BOX" tvg-logo="https://iptvx.one/picons/box-fantasy.png" tvg-id="box-fantasy" tvg-description="Киноканал пакета «BOX»: фэнтези и волшебные истории. Тематика подборки — «Fantasy».",BOX Fantasy
 
@@ -575,7 +744,8 @@ http://live.ru-tv.site/8439/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 http://live.ru-tv.site/8983/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="BOX" tvg-description="Киноканал пакета «BOX»: тематическое кино. Тематика подборки — «Kosmo 4K HDR».",BOX Kosmo 4K HDR
+#EXTINF:0 group-title="BOX" tvg-description="Киноканал пакета «BOX»: тематическое кино. Тематика подборки — «Kosmo 4K HDR»." tvg-logo="https://iptvx.one/picons/box-kosmo-4k.png" tvg-id="box-kosmo-4k",BOX Kosmo 4K HDR
+http://live.ru-tv.site/8448/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="BOX" tvg-logo="https://iptvx.one/picons/box-myday.png" tvg-id="box-myday" tvg-description="Киноканал пакета «BOX»: приключения и фильмы-катастрофы. Тематика подборки — «Mayday».",BOX Mayday
 
@@ -640,6 +810,7 @@ http://live.ru-tv.site/8418/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman.png" tvg-id="cineman" tvg-description="Киноканал пакета «CineMan»: тематическое кино.",CineMan
 
 http://stream.mcquack.net/122/index.m3u8
+#http://live.ru-tv.site/8952/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-action.png" tvg-id="cineman-action" tvg-description="Киноканал пакета «CineMan»: боевики и криминальное кино. Тематика подборки — «Action».",CineMan Action
 
@@ -649,7 +820,14 @@ http://stream.mcquack.net/122/index.m3u8
 
 http://live.ru-tv.site/8795/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="CineMan" tvg-logo="http://icon.ru-tv.site/icon/CineMan%20ExExEx.png" tvg-description="Канал остросюжетного кино пакета «CineMan».",CineMan ExExEx
+http://live.ru-tv.site/8868/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="CineMan" tvg-logo="http://icon.ru-tv.site/icon/CineMan%20ExExEx%20TWO.png" tvg-description="Канал остросюжетного кино пакета «CineMan».",CineMan ExExEx Two
+http://live.ru-tv.site/8869/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-marvel.png" tvg-id="cineman-marvel" tvg-description="Киноканал пакета «CineMan»: кино о супергероях и комиксах. Тематика подборки — «Marvel».",CineMan Marvel
+http://live.ru-tv.site/8951/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-melodrama.png" tvg-id="cineman-melodrama" tvg-description="Киноканал пакета «CineMan»: мелодрамы и романтическое кино. Тематика подборки — «Melodrama».",CineMan Melodrama
 
@@ -658,6 +836,7 @@ http://live.ru-tv.site/8795/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8804/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-premium.png" tvg-id="cineman-premium" tvg-description="Киноканал пакета «CineMan»: тематическое кино. Тематика подборки — «Premium».",CineMan Premium
+http://live.ru-tv.site/8967/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-relax.png" tvg-id="cineman-relax" tvg-description="Киноканал пакета «CineMan»: тематическое кино. Тематика подборки — «Relax 4K».",CineMan Relax 4K
 
@@ -666,22 +845,39 @@ http://live.ru-tv.site/8822/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-thriller.png" tvg-id="cineman-thriller" tvg-description="Киноканал пакета «CineMan»: триллеры и напряжённое кино. Тематика подборки — «Thriller».",CineMan Thriller
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-top.png" tvg-id="cineman-top" tvg-description="Киноканал пакета «CineMan»: премьеры и кинохиты. Тематика подборки — «Top».",CineMan Top
+http://live.ru-tv.site/8959/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-vhs.png" tvg-id="cineman-vhs" tvg-description="Киноканал пакета «CineMan»: кино прошлых лет и классику. Тематика подборки — «VHS».",CineMan VHS
+http://live.ru-tv.site/8807/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-dub-ssr.png" tvg-id="cineman-dub-ssr" tvg-description="Киноканал пакета «CineMan»: кино прошлых лет и классику. Тематика подборки — «Дубляж СССР».",CineMan Дубляж СССР
+http://live.ru-tv.site/9498/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-katastrofy.png" tvg-id="cineman-katastrofy" tvg-description="Киноканал пакета «CineMan»: приключения и фильмы-катастрофы. Тематика подборки — «Катастрофы».",CineMan Катастрофы
+http://live.ru-tv.site/8957/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-comedy.png" tvg-id="cineman-comedy" tvg-description="Киноканал пакета «CineMan»: комедии и юмористическое кино. Тематика подборки — «Комедия».",CineMan Комедия
 
+#EXTINF:0 group-title="CineMan" tvg-logo="http://icon.ru-tv.site/icon/cineman-melodrama.png" tvg-description="Канал мелодрам пакета «CineMan».",CineMan Мелодрама
+http://live.ru-tv.site/8955/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="CineMan" tvg-logo="http://icon.ru-tv.site/icon/cineman-aircrash.png" tvg-description="Канал пакета «CineMan» с циклом «Расследования авиакатастроф».",CineMan Расследование авиакатастроф
+http://live.ru-tv.site/8826/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-rukino.png" tvg-id="cineman-rukino" tvg-description="Киноканал пакета «CineMan»: тематическое кино. Тематика подборки — «РуКино».",CineMan РуКино
+http://live.ru-tv.site/8871/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-simps.png" tvg-id="cineman-simps" tvg-description="Киноканал пакета «CineMan»: тематическое кино. Тематика подборки — «Симпсоны».",Cineman Симпсоны
+http://live.ru-tv.site/8833/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-sssr-fhd.png" tvg-id="cineman-sssr-fhd" tvg-description="Киноканал пакета «CineMan»: кино прошлых лет и классику. Тематика подборки — «СССР».",CineMan СССР
+http://live.ru-tv.site/9121/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="CineMan" tvg-logo="http://icon.ru-tv.site/icon/cineman-thriller.png" tvg-description="Канал триллеров пакета «CineMan».",CineMan Триллер
+http://live.ru-tv.site/8954/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-uzhasy.png" tvg-id="cineman-uzhasy" tvg-description="Киноканал пакета «CineMan»: фильмы ужасов и мистику. Тематика подборки — «Ужасы».",CineMan Ужасы
+http://live.ru-tv.site/8960/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Eye
 
@@ -729,6 +925,9 @@ http://stream.mcquack.net/433/index.m3u8
 
 #EXTINF:0 group-title="Fresh" tvg-logo="https://iptvx.one/picons/fresh-thriller.png" tvg-id="fresh-thriller" tvg-description="Киноканал пакета «Fresh»: триллеры и напряжённое кино. Тематика подборки — «Thriller».",Fresh Thriller
 
+#EXTINF:0 group-title="Fresh" tvg-description="Канал триллеров пакета «Fresh».",Fresh Thrillers
+http://stream.mcquack.net/434/index.m3u8
+
 #EXTINF:0 group-title="Fresh" tvg-logo="https://iptvx.one/picons/fresh-vhs.png" tvg-id="fresh-vhs" tvg-description="Киноканал пакета «Fresh»: кино прошлых лет и классику. Тематика подборки — «Vhs».",Fresh Vhs
 
 # Gold Line
@@ -736,12 +935,15 @@ http://stream.mcquack.net/433/index.m3u8
 http://stream.mcquack.net/428/index.m3u8
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-brief.png" tvg-id="goldline-brief" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Brief».",Gold Line Brief
+http://live.ru-tv.site/8568/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-chef.png" tvg-id="goldline-chef" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Chef».",Gold Line Chef
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-civils.png" tvg-id="goldline-civils" tvg-description="Киноканал пакета «Gold Line»: документальное и познавательное содержание. Тематика подборки — «Civilizations».",Gold Line Civilizations
+http://live.ru-tv.site/9500/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-evidence.png" tvg-id="goldline-evidence" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Evidence».",Gold Line Evidence
+http://live.ru-tv.site/8569/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-exist.png" tvg-id="goldline-exist" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Exist».",Gold Line Exist
 
@@ -750,18 +952,27 @@ http://stream.mcquack.net/428/index.m3u8
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-hostage.png" tvg-id="goldline-hostage" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Hostage».",Gold Line Hostage
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-island.png" tvg-id="goldline-island" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Island».",Gold Line Island
+http://live.ru-tv.site/8534/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-motivation.png" tvg-id="goldline-motivation" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Motivation».",Gold Line Motivation
 
-#EXTINF:0 group-title="Gold Line" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Naked and Funny».",Gold Line Naked and Funny
+#EXTINF:0 group-title="Gold Line" tvg-description="Киноканал пакета «Gold Line»: тематическое кино. Тематика подборки — «Naked and Funny»." tvg-logo="http://icon.ru-tv.site/icon/GL_Naked_and_Funny.png",Gold Line Naked and Funny
+http://live.ru-tv.site/8570/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-psy.png" tvg-id="goldline-psy" tvg-description="Киноканал пакета «Gold Line»: триллеры и напряжённое кино. Тематика подборки — «Psycho».",Gold Line Psycho
+http://live.ru-tv.site/8483/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-survival.png" tvg-id="goldline-survival" tvg-description="Киноканал пакета «Gold Line»: приключения и фильмы-катастрофы. Тематика подборки — «Survival».",Gold Line Survival
+http://live.ru-tv.site/8571/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-vhs.png" tvg-id="goldline-vhs" tvg-description="Киноканал пакета «Gold Line»: кино прошлых лет и классику. Тематика подборки — «VHS».",Gold Line VHS
+http://live.ru-tv.site/9492/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-detektiv.png" tvg-id="goldline-detektiv" tvg-description="Киноканал пакета «Gold Line»: боевики и криминальное кино. Тематика подборки — «Детектив».",Gold Line Детектив
+http://live.ru-tv.site/8573/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Gold Line" tvg-logo="http://icon.ru-tv.site/icon/GL_Exist.png" tvg-description="Канал пакета «Gold Line» о паранормальных явлениях.",Gold Line Паранормальное
+http://live.ru-tv.site/8489/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # KBC
 
@@ -812,26 +1023,43 @@ http://stream.mcquack.net/428/index.m3u8
 # Kernel TV
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-anime.png" tvg-id="kernel-anime" tvg-description="Киноканал пакета «Kernel TV»: азиатское кино и анимацию. Тематика подборки — «Аниме».",Kernel TV Аниме
+http://live.ru-tv.site/9048/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-vremia.png" tvg-id="kernel-vremia" tvg-description="Киноканал пакета «Kernel TV»: тематическое кино. Тематика подборки — «Время».",Kernel TV Время
+http://live.ru-tv.site/9054/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-geroj.png" tvg-id="kernel-geroj" tvg-description="Киноканал пакета «Kernel TV»: тематическое кино. Тематика подборки — «Герой».",Kernel TV Герой
+http://live.ru-tv.site/9055/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-komedia.png" tvg-id="kernel-komedia" tvg-description="Киноканал пакета «Kernel TV»: комедии и юмористическое кино. Тематика подборки — «Комедия».",Kernel TV Комедия
+http://live.ru-tv.site/9063/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-kosmos.png" tvg-id="kernel-kosmos" tvg-description="Киноканал пакета «Kernel TV»: фантастику и космическое кино. Тематика подборки — «Космос».",Kernel TV Космос
+http://live.ru-tv.site/9064/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-luktime.png" tvg-id="kernel-luktime" tvg-description="Киноканал пакета «Kernel TV»: документальное и познавательное содержание. Тематика подборки — «Люк Путешественник во Времени».",Kernel TV Люк Путешественник во Времени
+http://live.ru-tv.site/9069/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-magia.png" tvg-id="kernel-magia" tvg-description="Киноканал пакета «Kernel TV»: фэнтези и волшебные истории. Тематика подборки — «Магия».",Kernel TV Магия
+http://live.ru-tv.site/9070/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-marveldc.png" tvg-id="kernel-marveldc" tvg-description="Киноканал пакета «Kernel TV»: кино о супергероях и комиксах. Тематика подборки — «Марвел vs DC».",Kernel TV Марвел vs DC
+http://live.ru-tv.site/9071/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-newmovies.png" tvg-id="kernel-newmovies" tvg-description="Киноканал пакета «Kernel TV»: премьеры и кинохиты. Тематика подборки — «Новинки».",Kernel TV Новинки
+http://live.ru-tv.site/9077/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="http://icon.ru-tv.site/icon/kernel-robots.png" tvg-description="Канал пакета «Kernel TV»: кино о роботах.",Kernel TV Роботы
+http://live.ru-tv.site/9483/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Kernel TV" tvg-logo="http://icon.ru-tv.site/icon/Kernel_TV___.png" tvg-description="Канал пакета «Kernel TV»: кино о гонках и скорости.",Kernel TV Скорость
+http://live.ru-tv.site/8690/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-hny.png" tvg-id="kernel-hny" tvg-description="Киноканал пакета «Kernel TV»: тематическое кино. Тематика подборки — «Счастливого Нового Года».",Kernel TV Счастливого Нового Года
+http://live.ru-tv.site/9084/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-futurama.png" tvg-id="kernel-futurama" tvg-description="Киноканал пакета «Kernel TV»: тематическое кино. Тематика подборки — «Футурама».",Kernel TV Футурама
+http://live.ru-tv.site/9090/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # KLI
 
@@ -1074,6 +1302,9 @@ http://live.ru-tv.site/8614/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 http://live.ru-tv.site/8656/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-ussr-fantastika.png" tvg-description="Канал советской драмы пакета «MM».",MM USSR Драма
+http://live.ru-tv.site/8894/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-ussr-komedija.png" tvg-id="minimax-ussr-komedija" tvg-description="Киноканал пакета «MM»: комедии и юмористическое кино. Тематика подборки — «USSR Комедия».",MM USSR Комедия
 
 http://live.ru-tv.site/8744/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -1242,7 +1473,8 @@ http://live.ru-tv.site/8631/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 http://live.ru-tv.site/8994/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="MS" tvg-description="Киноканал пакета «MS»: фэнтези и волшебные истории. Тематика подборки — «Magic».",MS Magic
+#EXTINF:0 group-title="MS" tvg-description="Киноканал пакета «MS»: фэнтези и волшебные истории. Тематика подборки — «Magic»." tvg-logo="https://iptvx.one/picons/minimax-ms-magic-4k.png" tvg-id="minimax-ms-magic-4k",MS Magic
+http://live.ru-tv.site/8657/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="MS" tvg-logo="https://iptvx.one/picons/minimax-ms-prisons.png" tvg-id="minimax-ms-prisons" tvg-description="Киноканал пакета «MS»: тематическое кино. Тематика подборки — «Prisons».",MS Prisons
 
@@ -1711,10 +1943,12 @@ http://stream.mcquack.net/202/index.m3u8
 http://89.33.29.115:8080/TV1000/index.m3u8
 #http://stream.mcquack.net/110/index.m3u8
 #http://185.121.1.163:8083/TV1000/index.m3u8
+#http://live.ru-tv.site/8048/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-action.png" tvg-id="tv1000-action" tvg-description="Боевики и остросюжетное кино (viju TV1000 action).",TV 1000 Action
 http://89.33.29.115:8080/TV1000_Action/index.m3u8
 #http://stream.mcquack.net/100/index.m3u8
+#http://live.ru-tv.site/8049/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Viju" tvg-logo="https://iptvx.one/picons/viju-tv1000-romantica.png" tvg-id="viju-tv1000-romantica" tvg-description="Романтическое кино и мелодрамы (viju TV1000 romantica).",TV 1000 Romantica
 
@@ -1724,18 +1958,23 @@ http://live.ru-tv.site/8973/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Viju" tvg-logo="https://iptvx.one/picons/tv1000-russkoe-kino.png" tvg-id="tv1000-russkoe-kino" tvg-description="Отечественное кино и сериалы (viju TV1000 Русское).",TV 1000 Русское кино
 http://185.121.1.163:8083/TV1000RusskoeKino/index.m3u8
+#http://live.ru-tv.site/8050/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Viasat
 
 #EXTINF:0 group-title="Viasat" tvg-logo="https://iptvx.one/picons/vip-comedy-cee.png" tvg-id="vip-comedy-cee" tvg-description="Телеканал комедийного кино (Viasat).",Kino Comedy
+http://live.ru-tv.site/9019/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Viasat" tvg-logo="https://iptvx.one/picons/tv1000-cee.png" tvg-id="tv1000-cee" tvg-description="Киноканал Viasat: фильмы всех жанров.",Viasat Kino
+http://live.ru-tv.site/9020/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Viasat" tvg-logo="https://iptvx.one/picons/tv1000-action-cee.png" tvg-id="tv1000-action-cee" tvg-description="Боевики и остросюжетное кино от Viasat.",Viasat Kino Action
+http://live.ru-tv.site/9018/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Viasat" tvg-logo="https://iptvx.one/picons/vip-megahit-cee.png" tvg-id="vip-megahit-cee" tvg-description="Киноканал пакета Viasat: кассовые кинохиты и блокбастеры.",Viasat Kino Megahit
 
 #EXTINF:0 group-title="Viasat" tvg-logo="https://iptvx.one/picons/tv1000-worldkino.png" tvg-id="tv1000-worldkino" tvg-description="Мировое кино от Viasat: премьеры и хиты зарубежного проката.",Viasat Kino World
+http://live.ru-tv.site/9034/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Yosso TV
 
