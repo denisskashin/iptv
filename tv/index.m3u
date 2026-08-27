@@ -250,7 +250,6 @@ http://185.23.80.23:8080/TVBRICS/index.m3u8
 http://89.33.29.115:8080/SET/index.m3u8
 #http://176.100.46.245:90/red/index.m3u8
 #http://stream.mcquack.net/69/index.m3u8
-#http://cloud02.03cdn.wf:8080/ch833/index.m3u8?token=a0e01ca42f61b818187127fdc543642cac7279637
 #http://live.ru-tv.site/8653/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8929/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
@@ -623,30 +622,11 @@ http://stream.mcquack.net/464/index.m3u8
 # Added: 2026-08-24 20:04:07  (21 URLs in 20 channel group(s))
 # ───────────────────────────────────────────────────
 
-#EXTINF:-1 group-title="test", Чижик HD
-http://cloud02.03cdn.wf:8080/ch858/index.m3u8?token=a0e01ca42f61b818187127fdc543642c5e26a9637
-
-#EXTINF:-1 group-title="test", A2 HD
-http://cloud03.03cdn.wf:8080/ch555/index.m3u8?token=a0e01ca42f61b818187127fdc543642c099409fec
-
-#EXTINF:-1 group-title="test", HD Hollywood
-http://cloud03.03cdn.wf:8080/ch027/index.m3u8?token=a0e01ca42f61b818187127fdc543642c5d7d89fec
-
-#EXTINF:-1 group-title="test", Red Lips HD
-http://cloud02.03cdn.wf:8080/ch102/index.m3u8?token=a0e01ca42f61b818187127fdc543642cb0c299637
-#http://stream.mcquack.net/61/index.m3u8
-#http://live.ru-tv.site/8030/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
 #EXTINF:-1 group-title="test",  Роман
-http://cloud03.03cdn.wf:8080/ch088/index.m3u8?token=a0e01ca42f61b818187127fdc543642cef5089fec
-#http://stream.mcquack.net/266/index.m3u8
+http://stream.mcquack.net/266/index.m3u8
 
 #EXTINF:-1 group-title="test", Sci-Fi
-http://cloud03.03cdn.wf:8080/ch160/index.m3u8?token=a0e01ca42f61b818187127fdc543642c986899fec
-#http://stream.mcquack.net/180/index.m3u8
-
-#EXTINF:-1 group-title="test", XXL
-http://cloud03.03cdn.wf:8080/ch101/index.m3u8?token=a0e01ca42f61b818187127fdc543642cf2cd59fec
+http://stream.mcquack.net/180/index.m3u8
 
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",6 СОТОК
 http://stream.mcquack.net/405/index.m3u8
