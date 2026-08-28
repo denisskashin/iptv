@@ -43,19 +43,25 @@ http://live.ru-tv.site/8282/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://stream.mcquack.net/117/index.m3u8
 #http://live.ru-tv.site/8035/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8204/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-109/mpegts
+#http://5.9.11.197:57419/chu-401/mpegts
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia2.png" tvg-id="amedia2" tvg-description="Второй канал Amedia: зарубежные сериалы и премьеры.",Amedia 2
 
 http://live.ru-tv.site/8927/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-402/mpegts
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-hit.png" tvg-id="amedia-hit" tvg-description="Телеканал популярных зарубежных сериалов (Amedia).",Amedia Hit
 http://stream.mcquack.net/162/index.m3u8
 #http://live.ru-tv.site/8159/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-87/mpegts
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium" tvg-description="Телеканал премиальных зарубежных сериалов (Amedia).",Amedia Premium
 http://stream.mcquack.net/151/index.m3u8
 #http://stream.mcquack.net/162/index.m3u8
 #http://live.ru-tv.site/8215/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-88/mpegts
+#http://195.64.140.147:10062/62
 
 # BCU
 
@@ -233,6 +239,8 @@ http://live.ru-tv.site/8623/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="START" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air" tvg-description="Телеканал онлайн-кинотеатра START: российские сериалы и фильмы собственного производства.",START Air
 http://stream.mcquack.net/128/index.m3u8
 #http://live.ru-tv.site/8398/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-1641/mpegts
+#http://195.64.140.147:10063/63
 
 #EXTINF:0 group-title="START" tvg-logo="https://iptvx.one/picons/start-world.png" tvg-id="start-world" tvg-description="Зарубежные сериалы онлайн-кинотеатра START.",START World
 
@@ -356,22 +364,32 @@ http://stream.mcquack.net/301/index.m3u8
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/16062/index.m3u8
 #http://live.ru-tv.site/8383/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-130/mpegts
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala" tvg-description="Телеканал российских сериалов: детективы, криминальные драмы и мелодрамы.",Мир сериала
 
 http://live.ru-tv.site/8662/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-127/mpegts
+#http://46.8.46.14/MirSeriala/index.m3u8
+#http://195.64.140.147:10089/89
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller" tvg-description="Телеканал российских сериалов и экранизаций.",Русский бестселлер
 http://stream.mcquack.net/208/index.m3u8
 #http://live.ru-tv.site/8162/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-135/mpegts
+#http://46.8.46.14/rubestseller/index.m3u8
+#http://195.64.140.147:10075/75
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-id="russky-detektiv" tvg-description="Телеканал российских детективных сериалов.",Русский Детектив
 
 http://live.ru-tv.site/8161/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10077/77
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman" tvg-description="Телеканал российских мелодрам и сериалов.",Русский роман
 http://stream.mcquack.net/266/index.m3u8
 #http://live.ru-tv.site/8010/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-136/mpegts
+#http://46.8.46.14/ruroman/index.m3u8
 
 #EXTINF:0 group-title="Русский" tvg-description="Телеканал российских криминальных сериалов и детективов.",DUO RuCrime
 

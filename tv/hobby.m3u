@@ -5,14 +5,15 @@
 #EXTINF:0 group-title="Авто" tvg-logo="https://iptvx.one/picons/avto24.png" tvg-id="avto24" tvg-description="«Авто24» — это уникальный российский автомобильный информационно-развлекательный телеканал с тематическим медиаконтентом собственного производства.",Авто 24
 http://stream.mcquack.net/78/index.m3u8
 #http://185.121.1.163:8083/Avto24/index.m3u8
+#http://195.64.140.147:10118/118
 
 #EXTINF:0 group-title="Авто" tvg-logo="https://iptvx.one/picons/avto-plus.png" tvg-id="avto-plus" tvg-description="Телеканал об автомобилях: тест-драйвы, автоновости, тюнинг и советы автолюбителям.",Авто Плюс
-
 http://live.ru-tv.site/8095/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://46.8.46.14/avtoplus/index.m3u8
 
 #EXTINF:0 group-title="Авто" tvg-logo="https://iptvx.one/picons/drive.png" tvg-id="drive" tvg-description="Автомобильный телеканал: тест-драйвы, тюнинг и автоспорт.",Драйв
-
 http://live.ru-tv.site/8654/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://46.8.46.14/Drive/index.m3u8
 
 #EXTINF:0 group-title="Авто" tvg-logo="https://iptvx.one/picons/auto-motor-sport-de.png" tvg-id="auto-motor-sport-de" tvg-description="Немецкий канал об автомобилях и автоспорте (Auto Motor und Sport).",Auto Motor Sport
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/31209ff0-72bd-11eb-908d-533d39655269/0/master.m3u8?uid=%7BPSID%7D&optout=%7BTARGETOPT%7D&country=DE&vendor=samsung&ads%3Aapp_domain=%7BAPP_DOMAIN%7D&ads%3Aapp_name=%7BAPP_NAME%7D&coppa=1&ads%3Atcf=%7BTC_STRING%7D
@@ -22,10 +23,13 @@ https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/6sotok.png" tvg-id="6sotok" tvg-description="Телеканал о даче, саде и огороде.",6 соток
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/bobior.png" tvg-id="bobior" tvg-description="Телеканал о ремонте, обустройстве дома и DIY-проектах.",Бобёр
-
 http://live.ru-tv.site/8172/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10163/163
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodnaya-zhizn.png" tvg-id="zagorodnaya-zhizn" tvg-description="Телеканал о загородном доме, участке и жизни за городом.",Загородная жизнь
+
+http://46.8.46.14/usadba/index.m3u8
+#http://195.64.140.147:10180/180
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/zagorodny.png" tvg-id="zagorodny" tvg-description="Загородный — российский тематический телеканал о загородном образе жизни.",Загородный
 
@@ -38,15 +42,17 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2099/index.m3u8
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/usadba.png" tvg-id="usadba" tvg-description="Усадьба — российский тематический телеканал о загородном строительстве, садоводстве и домашнем хозяйстве.",Усадьба
 http://stream.mcquack.net/211/index.m3u8
 #http://live.ru-tv.site/8017/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10028/28
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/hgtv.png" tvg-id="hgtv" tvg-description="HGTV (Home and Garden Television) — международный телеканал, посвящённый ремонту, дизайну интерьеров и садоводству.",HGTV
-
 http://live.ru-tv.site/8355/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="http://icon.ru-tv.site/icon/HGTV%20Canada%20CA.png" tvg-description="Американский фид канала о доме, ремонте и дизайне.",HGTV US
 http://live.ru-tv.site/8580/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/home4k.png" tvg-id="home-4k" tvg-description="Телеканал об архитектуре, дизайне и интерьерах в разрешении 4K.",Home 4K
+
+http://live.ru-tv.site/8903/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="http://icon.ru-tv.site/icon/Home%20Plus%20IL.png" tvg-description="Израильский телеканал о доме, ремонте и дизайне.",Home Plus
 http://live.ru-tv.site/8703/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -60,12 +66,14 @@ http://live.ru-tv.site/8903/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="Еда и кулинария" tvg-logo="https://iptvx.one/picons/kuxnia-tv.png" tvg-id="kuxnia-tv" tvg-description="Кухня ТВ — российский тематический телеканал, посвящённый кулинарии, рецептам и гастрономии.",Кухня
 http://stream.mcquack.net/179/index.m3u8
 #http://live.ru-tv.site/8063/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10037/37
 
 #EXTINF:0 group-title="Еда и кулинария" tvg-logo="https://iptvx.one/picons/pervy-vegetariansky.png" tvg-id="pervy-vegetariansky" tvg-description="Телеканал о вегетарианской и растительной кухне, здоровом питании и образе жизни.",Первый вегетарианский
 
 #EXTINF:0 group-title="Еда и кулинария" tvg-logo="https://iptvx.one/picons/telekafe.png" tvg-id="telekafe" tvg-description="Телекафе — российский кулинарный телеканал. Транслирует кулинарные шоу, рецепты и программы о еде.",Телекафе
 http://stream.mcquack.net/314/index.m3u8
 #http://live.ru-tv.site/8094/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://46.8.46.14/telecafe/index.m3u8
 
 #EXTINF:0 group-title="Еда и кулинария" tvg-logo="http://icon.ru-tv.site/icon/Dasturxon%20TV%20UZ.png" tvg-description="Узбекский кулинарный телеканал.",Dasturxon TV
 http://live.ru-tv.site/9182/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -96,9 +104,12 @@ http://89.33.29.115:8080/Eda/index.m3u8
 #EXTINF:0 group-title="Здоровье и фитнес" tvg-logo="https://iptvx.one/picons/doktor.png" tvg-id="doktor" tvg-description="Доктор — российский медицинский телеканал, транслирующий программы о здоровье и медицине.",Доктор
 http://stream.mcquack.net/80/index.m3u8
 #http://live.ru-tv.site/8214/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://46.8.46.14/doktor/index.m3u8
+#http://195.64.140.147:10177/177
 
 #EXTINF:0 group-title="Здоровье и фитнес" tvg-logo="https://iptvx.one/picons/zhivi-aktivno.png" tvg-id="zhivi-aktivno" tvg-description="Живи Активно — российский тематический телеканал о здоровом образе жизни, спорте и фитнесе.",Живи Активно
 http://stream.mcquack.net/132/index.m3u8
+#http://195.64.140.147:10178/178
 
 #EXTINF:0 group-title="Здоровье и фитнес" tvg-logo="https://iptvx.one/picons/zhivi.png" tvg-id="zhivi" tvg-description="Телеканал о фитнесе, йоге и здоровом образе жизни.",Живи!
 
@@ -125,6 +136,7 @@ http://stream.mcquack.net/227/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9104/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15116/index.m3u8
 #http://live.ru-tv.site/8062/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://46.8.46.14/dom/index.m3u8
 
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/nash-dom.png" tvg-id="nash-dom" tvg-description="Телеканал о доме, уюте, ремонте и семье.",Наш Дом
 http://85.234.33.63/stream/c11.m3u8
@@ -132,6 +144,7 @@ http://85.234.33.63/stream/c11.m3u8
 #EXTINF:0 group-title="Лайфстайл" tvg-description="Лайфстайл-телеканал НТВ: мода, дом, кулинария и стиль жизни.",НТВ Стиль
 
 http://live.ru-tv.site/8306/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://5.9.11.197:57419/chu-129/mpegts
 
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love" tvg-description="СТС Love — российский развлекательный канал, ориентированный на женскую аудиторию. Показывает мелодрамы, ток-шоу и лирические сериалы.",СТС Love
 #http://stream.mcquack.net/183/index.m3u8
@@ -139,12 +152,14 @@ http://89.33.29.115:8080/STS_Love/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/103/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9099/index.m3u8
 #http://live.ru-tv.site/8174/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10140/140
 
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/yu.png" tvg-id="yu" tvg-description="Развлекательный телеканал для женской аудитории: реалити-шоу, сериалы и лайфстайл-программы.",Ю
 http://stream.mcquack.net/230/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/534/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9107/index.m3u8
 #http://live.ru-tv.site/8099/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://46.8.46.14/utv/index.m3u8
 
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="http://icon.ru-tv.site/icon/Ego%20Total%20IL.png" tvg-description="Израильский мужской лайфстайл-телеканал.",Ego Total
 http://live.ru-tv.site/8726/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -156,6 +171,7 @@ http://live.ru-tv.site/8717/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://stream.mcquack.net/168/index.m3u8
 http://89.33.29.115:8080/TLC_HD/index.m3u8
 #http://live.ru-tv.site/8060/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10137/137
 
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/tvn-style-pl.png" tvg-id="tvn-style-pl" tvg-description="Польский лайфстайл-телеканал группы TVN.",TVN Style
 http://live.ru-tv.site/9216/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -180,6 +196,7 @@ http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 #http://cdn.wfc.tv/cdn/stream-eng-1080p.m3u8
 #http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 #http://live.ru-tv.site/8103/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 
 #EXTINF:0 group-title="Мода и красота" tvg-logo="https://iptvx.one/picons/world-fashion-channel.png" tvg-id="world-fashion-channel" tvg-description="Российская версия телеканала о моде и стиле.",World Fashion Channel Russia
 http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
@@ -190,6 +207,7 @@ http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/dialogi-o-rybalke.png" tvg-id="dialogi-o-rybalke" tvg-description="Диалоги о рыбалке — российский тематический телеканал и программа о рыбалке, посвящённые рыболовному спорту.",Диалоги о рыбалке
 http://stream.mcquack.net/264/index.m3u8
 #http://live.ru-tv.site/8324/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10117/117
 
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/dikaya-oxota-hd.png" tvg-id="dikaya-oxota-hd" tvg-description="Дикая Охота — российский тематический телеканал об охоте в дикой природе.",Дикая Охота
 http://stream.mcquack.net/274/index.m3u8
@@ -202,6 +220,7 @@ http://stream.mcquack.net/275/index.m3u8
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/dikiy.png" tvg-id="dikiy" tvg-description="Телеканал об охоте, рыбалке и жизни на дикой природе.",Дикий
 
 http://live.ru-tv.site/9205/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10139/139
 
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/muzhskoy.png" tvg-id="muzhskoy" tvg-description="Телеканал о мужских увлечениях: охота и рыбалка, автомобили, оружие, спорт, техника и мастерство своими руками.",Мужской
 #http://89.33.29.115:8080/Muzhskoy/index.m3u8
@@ -210,10 +229,13 @@ http://live.ru-tv.site/9205/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://stream.mcquack.net/155/index.m3u8
 #http://185.121.1.163:8083/OhotaRybalka/index.m3u8
 #http://live.ru-tv.site/8065/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://195.64.140.147:10039/39
 
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/oxotnik-i-rybolov-hd.png" tvg-id="oxotnik-i-rybolov-hd" tvg-description="Охотник и Рыболов — российский тематический телеканал для любителей охоты и рыбной ловли.",Охотник и Рыболов
 http://stream.mcquack.net/194/index.m3u8
 #http://live.ru-tv.site/8183/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://46.8.46.14/ohota/index.m3u8
+#http://195.64.140.147:10162/162
 
 #EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/oxotnik-i-rybolov.png" tvg-id="oxotnik-i-rybolov" tvg-description="Рыболов — российский тематический телеканал о рыбалке.",Рыболов
 
