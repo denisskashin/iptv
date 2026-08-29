@@ -94,6 +94,7 @@ vcp*.myplaytv.com
 *.playlist.live-video.net
 *.03cdn.wf
 *.hls.gd
+*.smotrim.ru
 
 # --- blocked hosts ---
 rhema-radio.streamguys1.com
@@ -674,7 +675,6 @@ cdn.porntext.biz
 ostroeporno.com
 live24.trkcrimea.ru
 tvchannelstream1.tvzvezda.ru
-player.smotrim.ru
 vod.splay.uz
 live.jtx-online.ru
 live.presstv.ir
@@ -727,7 +727,6 @@ ext.cdn.nashnet.tv
 hls.peers.tv
 livetv.mylifeisgood.net.ru
 muzzik-live.morescreens.com
-stream.smotrim.ru
 tvip.btk.teleos.ru
 uiptv.do.am
 vslive.pw
@@ -1183,6 +1182,9 @@ tv-streaming.bsh.ru
 89.33.29.118
 188.138.29.131
 201.186.41.99
+195.64.140.147
+5.9.11.197
+46.8.46.14
 
 # --- blocked full URLs / paths ---
 
@@ -1240,18 +1242,11 @@ http://185.121.1.163:8083/kinouzhas/index.m3u
 
 http://89.33.29.115:8080/drama/index.m3u8
 http://89.33.29.115:8080/STB/index.m3u8
+http://89.33.29.115:8080/TET/index.m3u8
 
 http://185.23.80.23:8080/REN/index.m3u8
 http://filmtv.zapto.org/FILM_TV_GROUP/video.m3u8?token=Ijb9BSWre2eLJ3
 
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-08-26 21:26 ---
-# отдельные ссылки (92):
 http://live.ru-tv.site/8258/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8274/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8291/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -1337,12 +1332,7 @@ http://live.ru-tv.site/9493/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9499/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9225/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8151/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
-# --- 2026-08-28 20:32 ---
-# хосты, где мертво всё (1):
-live-gtrk.smotrim.ru
-# отдельные ссылки (109):
-http://195.64.140.147:10123/123
+http://live.ru-tv.site/9105/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8288/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8394/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8395/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -1392,7 +1382,6 @@ http://live.ru-tv.site/9057/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9058/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9059/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9060/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://live.ru-tv.site/9061/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9062/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9063/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9064/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -1447,7 +1436,29 @@ http://live.ru-tv.site/9160/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9237/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9483/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9508/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
-https://live.smotrim.ru/vgtrk/0/kultura-hd/track_105_319a299f/chunklist.m3u8
-https://live.smotrim.ru/vgtrk/0/russia1-hd/1080p.m3u8
-https://live.smotrim.ru/vgtrk/0/russia24-hd/1080p.m3u8
+http://live.ru-tv.site/8275/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9313/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9311/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8289/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9052/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9058/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-08-28 23:50 ---
+# отдельные ссылки (10):
+http://live.ru-tv.site/8505/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8538/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8556/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9061/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9199/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9200/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9305/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9314/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9316/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9318/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
