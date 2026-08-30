@@ -95,6 +95,8 @@ vcp*.myplaytv.com
 *.03cdn.wf
 *.hls.gd
 *.smotrim.ru
+*.vcdn.biz
+*.cdnmedia.tv
 
 # --- blocked hosts ---
 rhema-radio.streamguys1.com
@@ -857,6 +859,17 @@ stream.shbro.org
 cdnua03.hls.tv
 7.team.ga
 tv-streaming.bsh.ru
+vokta.raytahost.com
+vs.sednastream.com
+vod.obs.co.kr
+vipottbpkstream.vip.hr
+vs20.live.opencaster.com
+s.ok54.de
+stream-207963.castr.net
+stream.castr.com
+stream.oursnetworktv.com
+stream.streaming4u.hu
+streamer2.nexgen.bz
 
 # --- blocked IPs ---
 45.190.28.50
@@ -1185,6 +1198,16 @@ tv-streaming.bsh.ru
 195.64.140.147
 5.9.11.197
 46.8.46.14
+103.175.73.12
+103.58.160.157
+115.42.65.142
+145.239.5.177
+168.205.87.198
+170.84.165.204
+176.61.157.250
+177.10.184.193
+185.234.111.229
+185.246.209.113
 
 # --- blocked full URLs / paths ---
 
@@ -1245,6 +1268,13 @@ http://89.33.29.115:8080/STB/index.m3u8
 http://89.33.29.115:8080/TET/index.m3u8
 
 http://185.23.80.23:8080/REN/index.m3u8
+
+http://122.248.43.242:1935/jtvmadura/_definst_/mystream/playlist.m3u8
+http://122.248.43.242:1935/padangtv/_definst_/mystream/playlist.m3u8
+
+http://15.204.246.24:8080/bolivisionhd/index.m3u8
+http://15.204.246.24:8080/eltrecehd/index.m3u8
+
 http://filmtv.zapto.org/FILM_TV_GROUP/video.m3u8?token=Ijb9BSWre2eLJ3
 
 http://live.ru-tv.site/8258/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -1442,16 +1472,7 @@ http://live.ru-tv.site/9311/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8289/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9052/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9058/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-08-28 23:50 ---
-# отдельные ссылки (10):
+http://live.ru-tv.site/8269/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8505/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8538/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8556/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -1463,34 +1484,6 @@ http://live.ru-tv.site/9314/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9316/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9318/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-# --- 2026-08-30 17:26 ---
-# хосты, где мертво всё (8):
-liveingesta118.cdnmedia.tv
-liveingesta318.cdnmedia.tv
-s.ok54.de
-stream-207963.castr.net
-stream.castr.com
-stream.oursnetworktv.com
-stream.streaming4u.hu
-streamer2.nexgen.bz
-# отдельные ссылки (275):
-http://103.175.73.12:8080/live/676/master.m3u8
-http://103.58.160.157:8278/720-antv/playlist.m3u8
-http://115.42.65.142:9981/stream/channelid/1273966657
-http://122.248.43.242:1935/jtvmadura/_definst_/mystream/playlist.m3u8
-http://122.248.43.242:1935/padangtv/_definst_/mystream/playlist.m3u8
-http://145.239.5.177/147/index.m3u8
-http://145.239.5.177/224/index.m3u8
-http://145.239.5.177/305/index.m3u8
-http://145.239.5.177/330/index.m3u8
-http://15.204.246.24:8080/bolivisionhd/index.m3u8
-http://15.204.246.24:8080/eltrecehd/index.m3u8
-http://168.205.87.198:8555/live/1368/123456/150.m3u8
-http://170.84.165.204/canal_21_hd/index.m3u8
-http://176.61.157.250/novatv/index.m3u8
-http://177.10.184.193:8000/play/a06a/index.m3u8
-http://185.234.111.229:8000/play/a05u
-http://185.246.209.113/chchhd/index.m3u8
 http://185.47.212.25:8080/tdp_hd/index.m3u8
 http://190.181.18.82:4111/play/a005/index.m3u8
 http://193.46.58.239:8080/bbconehd/index.m3u8
@@ -1733,14 +1726,6 @@ https://video2.getstreamhosting.com:19360/8216/8216.m3u8
 https://video2.lhdserver.es/canal9cosespu/live.m3u8
 https://video2.lhdserver.es/despiertatv/live.m3u8
 https://videostream.chileservidores.com:8081/osornotv/index.m3u8
-https://vipottbpkstream.vip.hr/content/onevip-hls/live/channel(mtm)/index.m3u8
-https://vipottbpkstream.vip.hr/content/onevip-hls/live/channel(shutel)/index.m3u8
-https://vipottbpkstream.vip.hr/content/onevip-hls/live/channel(tv21)/index.m3u8
-https://vod.obs.co.kr:444/live/obsstream1/tv.stream/playlist.m3u8
-https://vokta.raytahost.com/live/voktatv/index.m3u8
-https://vs.sednastream.com:1936/alportv/alportv/playlist.m3u8
-https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_mje7m10atbkswn3chzhznbgig7lkulpx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8
-https://vs20.live.opencaster.com/planetachannel_089eff6d/index.m3u8
 https://watch.davestv8.com/hls/stream.m3u8
 https://watch.haitilive.net/freehb/rtvs/index.m3u8
 https://watch.haitilive.net/naktvhd/index.m3u8
