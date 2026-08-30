@@ -198,6 +198,9 @@ http://live.ru-tv.site/8672/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 http://live.ru-tv.site/8358/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-description="Американский премиальный канал Showtime: оригинальные сериалы и кинопремьеры.",Showtime US
+http://live.ru-tv.site/8606/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/sky-cinema-action.png" tvg-id="sky-cinema-action" tvg-description="Киноканал немецкого Sky: боевики.",Sky Cinema Action
 http://live.ru-tv.site/8283/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
@@ -225,10 +228,22 @@ http://live.ru-tv.site/8936/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/Syfy%20HD%20DE.png" tvg-description="Немецкая версия SYFY: фантастика и фэнтези.",SYFY
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/DE%20SYFY%20(Sky)%20HD.png" tvg-description="Американская версия SYFY: фантастика, фэнтези и мистика.",SYFY US
+http://live.ru-tv.site/8578/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/TBS.png" tvg-description="Американский развлекательный канал TBS: комедийные сериалы, кино и спорт.",TBS US
+http://live.ru-tv.site/8485/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/TNT.png" tvg-description="Американский канал TNT: драматические сериалы, кино и трансляции NBA.",TNT US
+http://live.ru-tv.site/8607/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/tvn-fabula-pl.png" tvg-id="tvn-fabula-pl" tvg-description="Польский телеканал кино и сериалов группы TVN.",TVN Fabuła
 http://live.ru-tv.site/9214/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/DE%20Universal%20TV%20(Sky)%20HD.png" tvg-description="Немецкая версия Universal TV: сериалы и кино.",Universal
+
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/USA.png" tvg-description="Американский канал USA Network: сериалы, кино и реслинг WWE.",USA Network US
+http://live.ru-tv.site/9495/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="http://icon.ru-tv.site/icon/DE%20Warner%20TV%20Comedy%20(Sky)%20HD.png" tvg-description="Немецкий комедийный канал Warner Bros.",Warner Comedy
 http://live.ru-tv.site/8399/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -415,6 +430,9 @@ http://stream.mcquack.net/242/index.m3u8
 #EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/sov-kinklass.png" tvg-id="sov-kinklass" tvg-description="Киноканал золотого фонда советского кинематографа.",Советская киноклассика
 
 http://live.ru-tv.site/9461/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+#EXTINF:0 group-title="Советское и ретро" tvg-description="Ретроканал советского кино: художественные фильмы киностудий СССР.",СССР
+http://dtv.vol.net.ua/CCCP/index.m3u8
 
 #EXTINF:0 group-title="Советское и ретро" tvg-logo="https://iptvx.one/picons/vhs-ka.png" tvg-id="vhs-ka" tvg-description="Киноканал фильмов эпохи видеосалонов в атмосфере VHS.",VHS-ка
 

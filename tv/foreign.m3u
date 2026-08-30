@@ -133,8 +133,9 @@ http://live.ru-tv.site/8364/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/eesti-kanal.png" tvg-id="eesti-kanal" tvg-description="Эстонский развлекательный телеканал.",EESTI KANAL
 http://live.ru-tv.site/8518/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV%20EE.png" tvg-description="Первый канал эстонского общественного вещания ERR.",ETV
+#EXTINF:0 tvg-id="etv-ee" group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV%20EE.png" tvg-description="Первый канал эстонского общественного вещания ERR.",ETV
 http://live.ru-tv.site/8512/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#https://sb.err.ee/live/etv.m3u8
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV2%20EE.png" tvg-description="Второй канал эстонского общественного вещания.",ETV 2
 http://live.ru-tv.site/8943/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5

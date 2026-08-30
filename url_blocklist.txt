@@ -97,6 +97,7 @@ vcp*.myplaytv.com
 *.smotrim.ru
 *.vcdn.biz
 *.cdnmedia.tv
+*.smartbit.co
 
 # --- blocked hosts ---
 rhema-radio.streamguys1.com
@@ -870,6 +871,9 @@ stream.castr.com
 stream.oursnetworktv.com
 stream.streaming4u.hu
 streamer2.nexgen.bz
+tvlocales-live.freecaster.com
+tvr-tvrmoldova.cdn.zitec.com
+cdn.amixtv.com
 
 # --- blocked IPs ---
 45.190.28.50
@@ -1208,6 +1212,7 @@ streamer2.nexgen.bz
 177.10.184.193
 185.234.111.229
 185.246.209.113
+185.47.212.25
 
 # --- blocked full URLs / paths ---
 
@@ -1274,6 +1279,8 @@ http://122.248.43.242:1935/padangtv/_definst_/mystream/playlist.m3u8
 
 http://15.204.246.24:8080/bolivisionhd/index.m3u8
 http://15.204.246.24:8080/eltrecehd/index.m3u8
+
+http://dtv.vol.net.ua/CCCP/index.m3u8
 
 http://filmtv.zapto.org/FILM_TV_GROUP/video.m3u8?token=Ijb9BSWre2eLJ3
 
@@ -1483,8 +1490,13 @@ http://live.ru-tv.site/9305/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9314/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9316/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/9318/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8794/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8721/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8245/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8580/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8727/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/8728/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-http://185.47.212.25:8080/tdp_hd/index.m3u8
 http://190.181.18.82:4111/play/a005/index.m3u8
 http://193.46.58.239:8080/bbconehd/index.m3u8
 http://193.46.58.239:8080/bbctwohd/index.m3u8
@@ -1537,18 +1549,6 @@ https://btutzctahuf0wjoq.cdn.streamingserver.io/hls/yjvam8hlp2g3u08z02tv0yz66rq3
 https://cartv.streaming.aranova.es/hls/live/aragontv_canal1.m3u8
 https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
 https://cdn-grupo-10049.ciclano.io:1443/grupo-10049/grupo-10049/playlist.m3u8
-https://cdn-tiva-isaocorp-cloudecast-com.smartbit.co/metropole/index.m3u8
-https://cdn-tiva-isaocorp-cloudecast-com.smartbit.co/tvadorar/index.m3u8
-https://cdn-tiva-maystreaming-cloudecast-com.smartbit.co/redemeio/index.m3u8
-https://cdn-tiva-srv5-zcast-com-br.smartbit.co/canalstart/canalstart/playlist.m3u8
-https://cdn-tiva-stmv1-samcast-com-br.smartbit.co/demaistv6503/demaistv6503/playlist.m3u8
-https://cdn-tiva-video01-logicahost-com-br.smartbit.co/bemmelhor/bemmelhor/playlist.m3u8
-https://cdn-tiva-video01-logicahost-com-br.smartbit.co/canalaugetv/canalaugetv/playlist.m3u8
-https://cdn-tiva-video03-logicahost-com-br.smartbit.co/cariocainternacional1/cariocainternacional1/playlist.m3u8
-https://cdn-tiva-video08-logicahost-com-br.smartbit.co/lidertvssp/lidertvssp/playlist.m3u8
-https://cdn-tiva-video09-logicahost-com-br.smartbit.co/tvgazin/tvgazin/playlist.m3u8
-https://cdn.amixtv.com/c7boaco/index.m3u8
-https://cdn.amixtv.com/vivatv/index.m3u8
 https://cdn.fastocloud.com/leonel.m3u8
 https://cdn.live.br1.jmvstream.com/w/lvw-15748/lvw15748_yed7yzlurc/playlist.m3u8
 https://cdn.live.br1.jmvstream.com/webtv/avj-15235/playlist/playlist.m3u8
@@ -1710,10 +1710,6 @@ https://tv.radiohosting.online:1936/tv344/tv344/playlist.m3u8
 https://tv1.ninatv.cl/hls/stream.m3u8
 https://tv7plus.com/hls/tv7_site.m3u8
 https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
-https://tvlocales-live.freecaster.com/live/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5/95d2e3af-5ab8-45a9-9dc9-f544d006b5d5.isml/master.m3u8
-https://tvlocales-live.freecaster.com/rtc/95d2f6ec-22f7-4027-b23d-d5372116b2ad/95d2f6ec-22f7-4027-b23d-d5372116b2ad.isml/master.m3u8
-https://tvlocales-live.freecaster.com/tvcom/95d2f656-ba85-4e13-affc-f1936be1a86d/95d2f656-ba85-4e13-affc-f1936be1a86d.isml/master.m3u8
-https://tvr-tvrmoldova.cdn.zitec.com/live/tvrmoldova/main.m3u8
 https://tvsw7-hls.secdn.net/tvsw7-chorigin/play/prod-bb11dd0e11ca45229a3f58aeff5213d8/playlist.m3u8
 https://vdo.digitalbox.xyz:3266/live/kanal34tvlive.m3u8
 https://vdo.tecnoservix.stream:3007/live/canal15zamoranolive.m3u8

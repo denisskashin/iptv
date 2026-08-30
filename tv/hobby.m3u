@@ -40,9 +40,6 @@ http://stream.mcquack.net/211/index.m3u8
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/hgtv.png" tvg-id="hgtv" tvg-description="HGTV (Home and Garden Television) — международный телеканал, посвящённый ремонту, дизайну интерьеров и садоводству.",HGTV
 http://live.ru-tv.site/8355/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="http://icon.ru-tv.site/icon/HGTV%20Canada%20CA.png" tvg-description="Американский фид канала о доме, ремонте и дизайне.",HGTV US
-http://live.ru-tv.site/8580/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/home4k.png" tvg-id="home-4k" tvg-description="Телеканал об архитектуре, дизайне и интерьерах в разрешении 4K.",Home 4K
 
 http://live.ru-tv.site/8903/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -66,12 +63,6 @@ http://stream.mcquack.net/179/index.m3u8
 http://stream.mcquack.net/314/index.m3u8
 #http://live.ru-tv.site/8094/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="Еда и кулинария" tvg-logo="http://icon.ru-tv.site/icon/Dasturxon%20TV%20UZ.png" tvg-description="Узбекский кулинарный телеканал.",Dasturxon TV
-http://live.ru-tv.site/9182/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
-#EXTINF:0 group-title="Еда и кулинария" tvg-logo="http://icon.ru-tv.site/icon/Food%20Network%20IL.png" tvg-description="Израильский кулинарный телеканал.",Food Channel
-http://live.ru-tv.site/8727/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
 #EXTINF:0 group-title="Еда и кулинария" tvg-id="Food.Food.In" tvg-description="Food Food — индийский кулинарный телеканал.",Food Food
 http://103.175.73.12:8080/live/143/143_0.m3u8
 
@@ -79,9 +70,7 @@ http://103.175.73.12:8080/live/143/143_0.m3u8
 http://stream.mcquack.net/298/index.m3u8
 #https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
 #http://live.ru-tv.site/8385/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
-#EXTINF:0 group-title="Еда и кулинария" tvg-logo="http://icon.ru-tv.site/icon/Food%20Network%20RO.png" tvg-description="Американский фид кулинарного канала Food Network.",Food Network US
-http://live.ru-tv.site/8581/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://live.ru-tv.site/8581/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Еда и кулинария" tvg-logo="https://iptvx.one/picons/eda-hd.png" tvg-id="eda-hd" tvg-description="Кулинарный телеканал Food Time: рецепты, кухни мира и гастрономические путешествия.",Food Time
 http://89.33.29.115:8080/Eda/index.m3u8
@@ -111,9 +100,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2022/index.m3u8
 
 #EXTINF:0 group-title="Здоровье и фитнес" tvg-logo="https://iptvx.one/picons/tonus-tv.png" tvg-id="tonus-tv" tvg-description="Телеканал о здоровье, фитнесе и здоровом образе жизни.",Тонус
 
-#EXTINF:0 group-title="Здоровье и фитнес" tvg-logo="http://icon.ru-tv.site/icon/HEALTH%20CHANNEL%20HD%20IL.png" tvg-description="Израильский телеканал о здоровье.",Health Channel
-http://live.ru-tv.site/8728/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
 #EXTINF:0 group-title="Здоровье и фитнес" tvg-logo="https://iptvx.one/picons/myzen-4k.png" tvg-id="myzen-4k" tvg-description="Телеканал релаксации и медитации в разрешении 4K: природа, музыка и спокойствие.",MyZen 4K
 
 # Лайфстайл
@@ -128,8 +114,7 @@ http://stream.mcquack.net/227/index.m3u8
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/nash-dom.png" tvg-id="nash-dom" tvg-description="Телеканал о доме, уюте, ремонте и семье.",Наш Дом
 http://85.234.33.63/stream/c11.m3u8
 
-#EXTINF:0 group-title="Лайфстайл" tvg-description="Лайфстайл-телеканал НТВ: мода, дом, кулинария и стиль жизни.",НТВ Стиль
-
+#EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/ntv-style.png" tvg-id="ntv-style" tvg-description="Лайфстайл-телеканал НТВ: мода, дом, кулинария и стиль жизни.",НТВ Стиль
 http://live.ru-tv.site/8306/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/sts-love.png" tvg-id="sts-love" tvg-description="СТС Love — российский развлекательный канал, ориентированный на женскую аудиторию. Показывает мелодрамы, ток-шоу и лирические сериалы.",СТС Love
@@ -144,12 +129,6 @@ http://stream.mcquack.net/230/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/534/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9107/index.m3u8
 #http://live.ru-tv.site/8099/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
-#EXTINF:0 group-title="Лайфстайл" tvg-logo="http://icon.ru-tv.site/icon/Ego%20Total%20IL.png" tvg-description="Израильский мужской лайфстайл-телеканал.",Ego Total
-http://live.ru-tv.site/8726/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
-#EXTINF:0 group-title="Лайфстайл" tvg-logo="http://icon.ru-tv.site/icon/Good%20Life%20IL.png" tvg-description="Израильский лайфстайл-телеканал.",Good Life
-http://live.ru-tv.site/8717/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Лайфстайл" tvg-logo="https://iptvx.one/picons/tlc.png" tvg-id="tlc" audio-track="rus" tvg-description="TLC (The Learning Channel) — международный развлекательный телеканал. Специализируется на реалити-шоу, лайфстайл и документальных программах.",TLC
 #http://stream.mcquack.net/168/index.m3u8
