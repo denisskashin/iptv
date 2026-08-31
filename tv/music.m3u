@@ -84,6 +84,8 @@ http://live.ru-tv.site/9295/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/inrating.png" tvg-id="inrating" tvg-description="Украинский интерактивный музыкальный телеканал InRating TV.",Inrating
 
+http://stream.mcquack.net/147/index.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Alternative».",Liberty Music Alternative
 
 #EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music German».",Liberty Music German
@@ -193,9 +195,6 @@ http://live.ru-tv.site/8123/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/yosso-musichits.png" tvg-id="yosso-musichits" tvg-description="Музыкальный канал пакета «Yosso TV»: премьеры и кинохиты. Тематика подборки — «Music Hits».",Yosso TV Music Hits
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/zwei-music-television-de.png" tvg-id="zwei-music-television-de" tvg-description="Немецкий музыкальный телеканал.",ZWEI MUSIC TELEVISION
-http://live.ru-tv.site/9101/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-
 # Ретро и шансон
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/la-minor.png" tvg-id="la-minor" tvg-description="Российский музыкальный телеканал шансона и авторской песни.",Ля-минор
@@ -207,6 +206,7 @@ http://live.ru-tv.site/8126/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" tvg-id="bridge-tv-classic" tvg-description="Классика музыкальных клипов: золотые хиты 80-х, 90-х и 2000-х (Bridge Media).",Bridge TV Classic
 #http://live.ru-tv.site/8450/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/272/index.m3u8
 
 #EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" tvg-id="bridge-tv-shlager" tvg-description="Музыкальный телеканал Bridge TV: шлягеры и хиты прошлых лет.",Bridge TV Шлягер
 
@@ -253,17 +253,22 @@ http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/zhara.png" tvg-id="zhara" tvg-description="Музыкальный канал ЖАРА: русские хиты, концерты и фестивали.",Жара
 #http://live.ru-tv.site/8361/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/386/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muztv.png" tvg-id="muztv" tvg-description="Российский музыкальный телеканал: клипы, хит-парады и премии.",Муз ТВ
 #http://live.ru-tv.site/8190/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://95.215.124.204:5000/udp/225.1.2.25:1234
+#http://stream.mcquack.net/86/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-id="muzyka-pervogo" tvg-description="Музыкальный телеканал с клипами от Первого канала.",Музыка первого
 #http://live.ru-tv.site/8135/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/153/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz" tvg-description="Музыкальный телеканал с клипами.",Первый музыкальный
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/tnt-music.png" tvg-id="tnt-music" tvg-description="Музыкальный канал ТНТ Music: актуальные клипы и чарты.",ТНТ music
+
+http://stream.mcquack.net/317/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/box-ru-rap.png" tvg-id="box-ru-rap" tvg-description="Музыкальный канал пакета «BOX»: отечественное кино. Тематика подборки — «RU.RAP».",BOX RU.RAP
 
@@ -291,6 +296,7 @@ https://rutvkids.ru/live/efir/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Российский музыкальный телеканал: клипы отечественных исполнителей.",Russian MusicBox
 #http://live.ru-tv.site/8189/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/319/index.m3u8
 
 # Танцевальная и электронная
 
@@ -299,6 +305,7 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-tv.png" tvg-id="bridge-tv" tvg-description="Музыкальный телеканал с клипами.",Bridge TV
 #http://live.ru-tv.site/8527/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/318/index.m3u8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd" tvg-description="Премиальная зарубежная музыка: стильные клипы и электроника (Bridge Media).",Bridge TV Deluxe
 http://stream.mcquack.net/92/index.m3u8
@@ -313,6 +320,7 @@ https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv" tvg-description="Телеверсия радио «Европа Плюс»: топовые зарубежные и русские хиты.",Europa Plus TV
 #http://live.ru-tv.site/8033/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/184/index.m3u8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Dance».",Fresh Dance
 
