@@ -110,6 +110,8 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5033/index.m3u8
 #http://live.ru-tv.site/8114/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://95.215.124.204:5000/udp/225.1.2.15:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9206/index.m3u8
+#http://89.33.29.115:8080/TV_3/index.m3u8
+#http://flussonic.linkintel.ru/tv-3/index.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/yasnae.png" tvg-id="minsk-tv" tvg-description="Минский городской телеканал «Яснае ТВ».",Яснае ТВ
 
@@ -295,6 +297,7 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 http://95.215.124.204:5000/udp/225.1.2.18:1234
 #http://stream.mcquack.net/181/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9207/index.m3u8
+#http://flussonic.linkintel.ru/Pyatnica/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
 #http://live.ru-tv.site/8054/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -606,6 +609,7 @@ http://95.215.124.204:5000/udp/225.1.2.11:1234
 #http://stream.mcquack.net/135/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9204/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/7251/index.m3u8
+#http://flussonic.linkintel.ru/tnt/index.m3u8
 
 # Юмор
 
@@ -699,3 +703,69 @@ http://stream.mcquack.net/121/index.m3u8
 
 #EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Канал О!
 http://stream.mcquack.net/60/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-01 19:08:51  (8 URLs in 8 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:-1  group-title="test",FightBox HD
+https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
+
+#EXTINF:-1  group-title="test",ESPN Deportes HD
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+
+#EXTINF:-1 tvg-name="" tvg-logo="https://i.ibb.co/SwDtG9g2/image-55.png" group-title="test", Ател ТВ (Рыбинск)
+https://iptv.atel.me/live/123/atel.m3u8
+
+#EXTINF:-1 group-title="test", Life TV EE
+http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
+
+#EXTINF:-1  group-title="test",Vocea Basarabiei
+https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8
+
+#EXTINF:-1  group-title="test",FilmBox
+http://46.149.191.219:9100/play/a015
+
+#EXTINF:-1 tvg-logo="https://files.itv.uz/uploads/iptv/channels/2024/01/16//831e49fb69f8612123c28fa0ac7bec7e-q-500x500.jpeg" group-title="test", ORIAT DONO FM (UZ)
+http://oriat.mediabay.uz/oriatdono.m3u8
+
+#EXTINF:-1 tvg-id="DopaChannel.th@SD" tvg-logo="https://i.imgur.com/Z9vxti4.png" group-title="test",Dopa Channel
+http://dopachannel.truegse.com/live/dopatv03.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-03 16:31:53  (15 URLs in 15 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",REN TV (576p)
+http://flussonic.linkintel.ru/ren_tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",NTV HD (1080p)
+http://flussonic.linkintel.ru/ntv/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Mult (576p)
+http://flussonic.linkintel.ru/Mult/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",STS (576p)
+http://flussonic.linkintel.ru/sts/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Che! (576p)
+http://flussonic.linkintel.ru/che/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Carousel (576p)
+http://flussonic.linkintel.ru/Karusel/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TV Centr (576p)
+http://flussonic.linkintel.ru/tvc/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Zvezda (576p)
+http://flussonic.linkintel.ru/zvezda/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",OTR (576p)
+http://flussonic.linkintel.ru/otr/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TNT4 (576p)
+http://flussonic.linkintel.ru/tnt4/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Amedia Hit (576p)
+http://flussonic.linkintel.ru/amedia-hit/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Cinema (576p)
+http://flussonic.linkintel.ru/cinema/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Kino TV (576p)
+http://flussonic.linkintel.ru/kino-tv/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Match! Ultra (576p)
+http://flussonic.linkintel.ru/match/index.m3u8
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Mama (576p)
+http://flussonic.linkintel.ru/mama/index.m3u8

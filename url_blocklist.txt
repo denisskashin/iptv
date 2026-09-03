@@ -1600,3 +1600,43 @@ http://live.ru-tv.site/8036/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8675/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8755/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8558/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-09-03 16:31 ---
+# отдельные ссылки (30):
+http://168.228.44.241:9998/play/a0dz/index.m3u8
+http://dtv.vol.net.ua/nat_geo_wild_hd/index.m3u8
+http://dtv.vol.net.ua/setanta_sports/index.m3u8
+http://dtv.vol.net.ua/viasat_history/index.m3u8
+http://dtv.vol.net.ua/viasat_nature/index.m3u8
+http://flussonic.linkintel.ru/ani/index.m3u8
+http://flussonic.linkintel.ru/gulli_girl/index.m3u8
+http://flussonic.linkintel.ru/tiji/index.m3u8
+http://pvr-spb-08.tlgx.ru:8987/ch_s08_rst_legtv_rtg/index.m3u8?clckid=55fcb46d
+http://pvr-spb-08.tlgx.ru:8987/ch_s08_rst_legtv_travel_channel/index.m3u8?clckid=d7df0133
+http://stream.mcquack.net/100/index.m3u8
+http://stream.mcquack.net/107/index.m3u8
+http://stream.mcquack.net/129/index.m3u8
+http://stream.mcquack.net/147/index.m3u8
+http://stream.mcquack.net/182/index.m3u8
+http://stream.mcquack.net/207/index.m3u8
+http://stream.mcquack.net/240/index.m3u8
+http://stream.mcquack.net/263/index.m3u8
+http://stream.mcquack.net/276/index.m3u8
+http://stream.mcquack.net/278/index.m3u8
+http://stream.mcquack.net/291/index.m3u8
+http://stream.mcquack.net/320/index.m3u8
+http://stream.mcquack.net/412/index.m3u8
+http://stream.mcquack.net/416/index.m3u8
+http://stream.mcquack.net/434/index.m3u8
+http://stream.mcquack.net/463/index.m3u8
+http://stream.mcquack.net/60/index.m3u8
+http://stream.mcquack.net/64/index.m3u8
+http://stream.mcquack.net/70/index.m3u8
+http://stream.mcquack.net/78/index.m3u8
