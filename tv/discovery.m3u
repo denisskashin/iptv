@@ -64,7 +64,6 @@ http://89.33.29.115:8080/Viasat_Explorer/index.m3u8
 
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/365-dnej.png" tvg-id="365-dnej" tvg-description="365 дней ТВ — российский телеканал, транслирующий документальное кино, исторические программы и познавательный контент.",365 дней
 #http://live.ru-tv.site/8068/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://stream.mcquack.net/70/index.m3u8
 
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/arsenaltv.png" tvg-id="arsenaltv" tvg-description="Военно-познавательный телеканал: оружие, военная техника и история армий.",Арсенал
 
@@ -111,7 +110,6 @@ http://live.ru-tv.site/9226/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/viasat-history.png" tvg-id="viasat-history" tvg-description="Документальные фильмы об истории от Viasat: древние цивилизации и мировые события.",Viasat History
 http://stream.mcquack.net/101/index.m3u8
 #http://live.ru-tv.site/8086/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://dtv.vol.net.ua/Viasat_History/index.m3u8
 
 # Культура и искусство
 
@@ -168,6 +166,7 @@ http://live.ru-tv.site/8369/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8337/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/texno-24.png" tvg-id="texno-24" tvg-description="Техно 24 — российский телеканал о технологиях, гаджетах и инновациях.",Техно 24
+http://stream.mcquack.net/209/index.m3u8
 #http://live.ru-tv.site/8196/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/da-vinci.png" tvg-id="da-vinci" tvg-description="Познавательный канал для всей семьи: наука, история и открытия (Da Vinci Learning).",Da Vinci
@@ -282,7 +281,6 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" tvg-id="nat-geo-wild" tvg-description="National Geographic Wild — международный канал о дикой природе и животных. Транслирует документальные фильмы о животном мире.",National Geographic Wild
 #http://live.ru-tv.site/8079/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8188/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://dtv.vol.net.ua/Nat_Geo_Wild_HD/index.m3u8
 #http://stream.mcquack.net/149/index.m3u8
 #http://live.ru-tv.site/8087/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
@@ -290,7 +288,6 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 http://live.ru-tv.site/8069/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/viasat-nature-history-hd.png" tvg-id="viasat-nature-history-hd" tvg-description="Viju Planet — телеканал балтийской медиагруппы Viju о природе и путешествиях.",Planet
-http://stream.mcquack.net/240/index.m3u8
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/quadro4k.png" tvg-id="quadro4k" tvg-description="Российский телеканал в разрешении 4K: природа, путешествия и видовые съёмки.",Quadro 4K
 
@@ -300,7 +297,6 @@ http://live.ru-tv.site/8681/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8920/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature" tvg-description="Viasat Nature — канал о природе балтийской медиагруппы Viju.",Viasat Nature
-http://dtv.vol.net.ua/Viasat_Nature/index.m3u8
 #http://live.ru-tv.site/8087/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 # Путешествия
@@ -347,12 +343,10 @@ http://89.33.29.115:8080/National_Geo_HD/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv" tvg-description="RTG TV — российский телеканал о туризме и путешествиях.",RTG TV
 http://stream.mcquack.net/164/index.m3u8
-#http://pvr-spb-08.tlgx.ru:8987/CH_S08_RST_LEGTV_RTG/index.m3u8?clckid=55fcb46d
 #http://live.ru-tv.site/8173/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-channel.png" tvg-id="travel-channel" tvg-description="Международный канал о путешествиях Travel Channel: страны, приключения и гастрономия.",Travel channel
 http://stream.mcquack.net/231/index.m3u8
-#http://pvr-spb-08.tlgx.ru:8987/CH_S08_RST_LEGTV_TRAVEL_CHANNEL/index.m3u8?clckid=d7df0133
 #http://live.ru-tv.site/8083/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8315/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 

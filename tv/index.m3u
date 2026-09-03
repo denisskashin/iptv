@@ -108,10 +108,8 @@ http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5033/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/508/index.m3u8
 #http://live.ru-tv.site/8114/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.15:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9206/index.m3u8
 #http://89.33.29.115:8080/TV_3/index.m3u8
-#http://flussonic.linkintel.ru/tv-3/index.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/yasnae.png" tvg-id="minsk-tv" tvg-description="Минский городской телеканал «Яснае ТВ».",Яснае ТВ
 
@@ -288,16 +286,13 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #https://tvn-tv.ru:81/hls/stream.m3u8
 #https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 #http://live.ru-tv.site/8665/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.3:1234
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Российский развлекательный телеканал: тревел-шоу, реалити и развлекательные программы.",Пятница!
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5031/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/503/index.m3u8
 #http://live.ru-tv.site/8066/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://95.215.124.204:5000/udp/225.1.2.18:1234
 #http://stream.mcquack.net/181/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9207/index.m3u8
-#http://flussonic.linkintel.ru/Pyatnica/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
 #http://live.ru-tv.site/8054/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -466,7 +461,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2016/index.m3u8
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/983/index.m3u8
 #http://live.ru-tv.site/8301/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.13:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9111/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="http://icon.ru-tv.site/icon/%D0%A2%D0%91%D0%9D%20orig.png" tvg-description="Христианский телеканал.",ТБН
@@ -486,6 +480,7 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/955/index.m3u8
 http://lifetv.bitflip.ee/live/stream1.m3u8
 #https://lifetv.mpks.sk/s.m3u8
 #http://lifetv.bitflip.ee/live/stream2.m3u8
+#http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика",TBN Baltia EE
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
@@ -495,15 +490,12 @@ http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru" tvg-description="5 канал (Петербург — Пятый канал) — российский федеральный телеканал. Транслирует новости, документальные фильмы и развлекательные программы.",5 канал
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/112/index.m3u8
 #http://live.ru-tv.site/8009/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://95.215.124.204:5000/udp/225.1.2.5:1234
-#http://stream.mcquack.net/291/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9096/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda" tvg-description="Звезда — российский федеральный телеканал, учреждённый Министерством обороны РФ. Транслирует военно-патриотический контент, новости и художественные фильмы.",Звезда
 http://51.158.144.33:2021/zvezda/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/544/index.m3u8
 #http://live.ru-tv.site/8037/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.16:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9098/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15115/index.m3u8
 
@@ -519,7 +511,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15119/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/113/index.m3u8
 #http://live.ru-tv.site/8641/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8560/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.20:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9211/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv" tvg-description="НТВ — российский федеральный телеканал: остросюжетные сериалы, ток-шоу, документальные проекты и новости.",НТВ
@@ -529,7 +520,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19405/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/501/index.m3u8
 #http://live.ru-tv.site/8003/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8156/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.6:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9028/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9203/index.m3u8
 
@@ -538,7 +528,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19405/index.m3u8
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/20018/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/705/index.m3u8
 #http://live.ru-tv.site/8146/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.19:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9100/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy" tvg-description="Первый канал — крупнейший федеральный телеканал России. Ведёт вещание с 1951 года. Показывает новости, художественные фильмы, сериалы и развлекательные программы.",Первый канал
@@ -549,7 +538,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/2402/index.m3u8
 #http://live.ru-tv.site/8001/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8150/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8120/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.1:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9201/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/7253/index.m3u8
 
@@ -570,7 +558,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19242/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/504/index.m3u8
 #http://live.ru-tv.site/8002/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8152/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.2:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9202/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15133/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/7252/index.m3u8
@@ -581,7 +568,6 @@ http://89.33.29.115:8080/STS_HD/index.m3u8
 #http://89.33.29.115:8080/STS/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/506/index.m3u8
 #http://live.ru-tv.site/8005/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.12:1234
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super" tvg-description="Суббота! — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает сериалы, реалити-шоу и лайфстайл-программы.",Суббота!
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/826/index.m3u8
@@ -594,7 +580,6 @@ http://stream.mcquack.net/269/index.m3u8
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/520/index.m3u8
 #http://live.ru-tv.site/8006/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://95.215.124.204:5000/udp/225.1.2.10:1234
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9095/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15454/index.m3u8
 
@@ -605,11 +590,9 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/520/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/502/index.m3u8
 #http://live.ru-tv.site/8007/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8311/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://95.215.124.204:5000/udp/225.1.2.11:1234
 #http://stream.mcquack.net/135/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9204/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/7251/index.m3u8
-#http://flussonic.linkintel.ru/tnt/index.m3u8
 
 # Юмор
 
@@ -627,6 +610,7 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/546/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9108/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/perec-int.png" tvg-id="perec-int" tvg-description="Перец — российский развлекательный телеканал. Специализируется на юморе, комедийных программах и скрытой камере.",Перец
+http://stream.mcquack.net/121/index.m3u8
 #http://live.ru-tv.site/8640/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan" tvg-description="Телеканал юмора: скетч-шоу, концерты и комедийные программы.",Сарафан
@@ -658,42 +642,61 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/513/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9101/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz1.png" tvg-id="raz1" tvg-description="Юмористическо-развлекательный телеканал Раз ТВ.",RAZ 1
-http://stream.mcquack.net/463/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2" tvg-description="Юмористическо-развлекательный телеканал Раз ТВ.",RAZ 2
 http://stream.mcquack.net/464/index.m3u8
 
 
 
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Viju TV 1000 Action
-http://stream.mcquack.net/100/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",24Техно
-http://stream.mcquack.net/209/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Setanta Sports UA
-http://stream.mcquack.net/313/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Trace Sports
-http://stream.mcquack.net/256/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",KHL ТВ
-http://stream.mcquack.net/166/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Bridge хит
-http://stream.mcquack.net/320/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",RU TV
-http://stream.mcquack.net/109/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Peretz International (576p)
-http://stream.mcquack.net/121/index.m3u8
-
-#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",Канал О!
-http://stream.mcquack.net/60/index.m3u8
-
-#EXTINF:-1  group-title="test",FightBox HD
-https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
-
-#EXTINF:-1 group-title="test", Life TV EE
-http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-03 18:52:41  (31 URLs in 18 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="saga-tv" tvg-name="Saga TV" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/saga_tv_logo.png" url-scrlogo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/saga_tv.png" group-title="test",Saga TV [НЕ Исправен!]
+http://ce97dd7a.amazzin.pw/iptv/8Q77ZPL94T3MA32EADN9V35E/32103/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="Premiere HD" tvg-id="premiere-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4719.png" tvg-rec="7" group-title="test",PG Premiere HD
+http://b639b845.otttv.pw/iptv/WNHY4X7ZMZ9LVC/11094/index.m3u8
+#EXTINF:-1 tvg-name="Europa Plus Light" tvg-id="no_epg" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/EuropaPlusLight.png" group-title="test",Europa Plus Light
+http://mp3128.light.streamr.ru/
+#http://eptop128.streamr.ru/
+#https://hls-01-regions.emgsound.ru/11_msk/96/playlist.m3u8
+#http://mp3128.new.streamr.ru/
+#https://hls-01-europaplus-party.emgsound.ru/22/112/playlist.m3u8
+#https://hls-01-europaplus-urban.emgsound.ru/28/playlist.m3u8
+#https://hls-01-fresh.emgsound.ru/9/playlist.m3u8
+#https://hls-01-europaplus-kpop.emgsound.ru/europaplus-kpop/playlist.m3u8
+#https://hls-01-europaplus-rock.emgsound.ru/europaplus-rock/playlist.m3u8
+#http://dff13dfa.ottrast.com/iptv/ZBE628EP2BYBP5/11058/index.m3u8
+#EXTINF:-1 tvg-name="Мультимания LV" tvg-id="multimania-lv" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/multimaniya_logo.png" group-title="test",Мультимания
+http://bde.online24.pm/play/116/F6E1DD42544DD10/video.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Премьера" tvg-id="vf-premiera" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4644.png" tvg-rec="7" group-title="test",VF Премьера
+http://b639b845.otttv.pw/iptv/WNHY4X7ZMZ9LVC/10051/index.m3u8
+#EXTINF:0 tvg-name="FRESH Hits HD" tvg-id="no_epg_music" tvg-logo="http://epg.one/img2/6272.png" tvg-rec="0" group-title="test",FRESH Hits HD
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18084/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18092/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18086/index.m3u8
+#http://dff13dfa.ottrast.com/iptv/ZBE628EP2BYBP5/18085/index.m3u8
+#http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/18091/index.m3u8
+#EXTINF:0 tvg-name="Z!Serial HD" tvg-id="z-serial" tvg-logo="http://epg.one/img2/5898.png" tvg-rec="0" group-title="test",Z!Serial HD
+http://b639b845.otttv.pw/iptv/WNHY4X7ZMZ9LVC/15140/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="Ultra HD Cinema" tvg-id="ultra-hd-cinema" tvg-anyquality=1 tvg-logo="http://epg.one/img2/2743.png" tvg-rec="3" group-title="test",Ultra HD Cinema
+http://6au8zl0c.megatv.fun/iptv/E8Q36367WLXKB3/4000/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="USSR HD" tvg-id="ussr-premieregroup" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4727.png" tvg-rec="7" group-title="test",PG USSR HD
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/11102/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Граиндхаус" tvg-id="vf-graindhaus" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/7714.png" tvg-rec="0" group-title="test",VF Граиндхаус
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/14158/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Сериал" tvg-id="vf-serial" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5200.png" tvg-rec="0" group-title="test",VF Сериал
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/13087/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Classic" tvg-id="vf-classic" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4647.png" tvg-rec="7" group-title="test",VF Classic
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/10054/index.m3u8
+#EXTINF:0 tvg-name="VF Mystic" tvg-id="vf-mystic" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4598.png" tvg-rec="7" group-title="test",VF Mystic
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/10007/index.m3u8
+#EXTINF:0 tvg-name="VF VHS" tvg-id="vf-vhs" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4600.png" tvg-rec="7" group-title="test",VF VHS
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/10009/index.m3u8
+#EXTINF:0 tvg-rec="0" tvg-name="VHS-ка Русское кино" tvg-id="no_epg_cinema" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vhs-ка.png" url-scrlogo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vhs-ка_русское_кино.png" group-title="test",VHS-ка Русское кино
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/31925/index.m3u8
+#EXTINF:-1 tvg-name="Рик и Морти" tvg-id="no_epg_mult" tvg-logo="https://avatars.mds.yandex.net/i?id=f381e43bcbc6d1c5b1f2cab6eee502c2_l-5889060-images-thumbs&n=13" group-title="test",Рик и Морти
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/30171/index.m3u8
+#EXTINF:0 tvg-name="VF Охота" tvg-id="vf-oxota" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5992.png" tvg-rec="0" group-title="test",VF Охота
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/15513/index.m3u8
+#EXTINF:0 tvg-name="VF Стройка" tvg-id="vf-strojka" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/6125.png" tvg-rec="0" group-title="test",VF Стройка
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/16139/index.m3u8

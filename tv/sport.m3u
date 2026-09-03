@@ -96,6 +96,9 @@ http://89.33.29.115:8080/Boks_TV/index.m3u8
 #http://live.ru-tv.site/8319/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://stream.mcquack.net/279/index.m3u8
 
+#EXTINF:0 group-title="Единоборства" tvg-logo="https://iptvx.one/picons/fightbox-hd.png" tvg-id="fightbox-hd" tvg-description="FightBox — международный телеканал единоборств: ММА, кикбоксинг, бокс, тайский бокс и грэпплинг.",FightBox
+https://nosignal1.antenaplay.ro/hls/fightbox-hd/index.m3u8
+
 #EXTINF:0 group-title="Единоборства" tvg-logo="https://iptvx.one/picons/m1global.png" tvg-id="m1global" tvg-description="MMA-TV — телеканал смешанных единоборств и турниров промоушена M-1 Global.",MMA-TV
 http://live.ru-tv.site/8380/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
@@ -113,7 +116,6 @@ https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-tv.png" tvg-id="match-tv" tvg-description="Матч! — ведущий российский спортивный телеканал. Транслирует футбол, хоккей и другие популярные виды спорта.",Матч!
 #http://live.ru-tv.site/8016/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8179/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://95.215.124.204:5000/udp/225.1.2.8:1234
 #http://stream.mcquack.net/169/index.m3u8
 
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena" tvg-description="Спортивные события телеканала «Матч! Арена».",Матч! Арена
@@ -155,6 +157,7 @@ http://live.ru-tv.site/8022/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8029/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8238/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://stream.mcquack.net/185/index.m3u8
+#http://6au8zl0c.megatv.fun/iptv/E8Q36367WLXKB3/2408/index.m3u8
 
 # Спорт
 
@@ -335,7 +338,6 @@ http://live.ru-tv.site/8488/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/9022/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8899/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://live.ru-tv.site/8996/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://stream.mcquack.net/416/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/tvplay-sports-plus.png" tvg-id="tvplay-sports-plus" tvg-description="Спортивный канал прибалтийского оператора Go3 (эстонский фид).",Go3 Sport 2 EE
 http://live.ru-tv.site/9023/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -576,10 +578,11 @@ http://live.ru-tv.site/9317/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta-sports.png" tvg-id="setanta-sports" tvg-description="Спортивный телеканал Setanta Sports.",Setanta Sports 1
 #http://live.ru-tv.site/8565/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://stream.mcquack.net/234/index.m3u8
+#http://myott.tv/stream/E9LYLBWT7X/234.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta-ua.png" tvg-id="setanta-ua" tvg-description="Украинская версия Setanta Sports: европейские футбольные чемпионаты и украинские турниры.",Setanta Sports Ukraine
 http://live.ru-tv.site/8382/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://dtv.vol.net.ua/Setanta_Sports/index.m3u8
+#http://stream.mcquack.net/313/index.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta-sports-plus.png" tvg-id="setanta-sports-plus" tvg-description="Второй канал Setanta Sports: футбол и европейские турниры.",Setanta Sports+
 #http://live.ru-tv.site/8676/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -629,6 +632,7 @@ http://live.ru-tv.site/8964/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8367/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Хоккей" tvg-logo="https://iptvx.one/picons/kxl.png" tvg-id="kxl" tvg-description="КХЛ (Kontinental Hockey League TV) — официальный телеканал Континентальной хоккейной лиги. Транслирует матчи КХЛ и хоккейные программы.",KHL
+http://stream.mcquack.net/166/index.m3u8
 #http://live.ru-tv.site/8025/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Хоккей" tvg-logo="https://iptvx.one/picons/kxl-hd.png" tvg-id="kxl-hd" tvg-description="Телеканал Континентальной хоккейной лиги (КХЛ).",KHL Prime
@@ -650,6 +654,7 @@ http://stream.mcquack.net/148/index.m3u8
 http://live.ru-tv.site/8907/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Экстрим" tvg-logo="https://iptvx.one/picons/trace-sport-stars.png" tvg-id="trace-sport-stars" tvg-description="Trace Sport Stars: жизнь и стиль звёзд мирового спорта.",Trace Sport Stars
+http://stream.mcquack.net/256/index.m3u8
 #https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 #http://live.ru-tv.site/9190/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 

@@ -12,7 +12,6 @@
 http://live.ru-tv.site/8031/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/mezzo-live-hd.png" tvg-id="mezzo-live-hd" tvg-description="Классика, джаз и мировая музыка в прямых трансляциях (Mezzo Live HD).",Mezzo Live
-http://stream.mcquack.net/276/index.m3u8
 
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv" tvg-description="Международный музыкальный телеканал Stingray CMusic: позитивная и вдохновляющая музыка.",Stingray CMusic
 http://stream.mcquack.net/312/index.m3u8
@@ -84,7 +83,6 @@ http://live.ru-tv.site/9295/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/inrating.png" tvg-id="inrating" tvg-description="Украинский интерактивный музыкальный телеканал InRating TV.",Inrating
 
-http://stream.mcquack.net/147/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Alternative».",Liberty Music Alternative
 
@@ -257,7 +255,6 @@ http://stream.mcquack.net/386/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muztv.png" tvg-id="muztv" tvg-description="Российский музыкальный телеканал: клипы, хит-парады и премии.",Муз ТВ
 #http://live.ru-tv.site/8190/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-http://95.215.124.204:5000/udp/225.1.2.25:1234
 #http://stream.mcquack.net/86/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-id="muzyka-pervogo" tvg-description="Музыкальный телеканал с клипами от Первого канала.",Музыка первого
@@ -272,11 +269,12 @@ http://stream.mcquack.net/317/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/box-ru-rap.png" tvg-id="box-ru-rap" tvg-description="Музыкальный канал пакета «BOX»: отечественное кино. Тематика подборки — «RU.RAP».",BOX RU.RAP
 
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/20171/index.m3u8
+
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" tvg-id="bridge-tv-fresh" tvg-description="Музыкальный телеканал Bridge TV: новинки российской и зарубежной музыки.",Bridge TV Fresh
 http://live.ru-tv.site/9230/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный телеканал Bridge TV: актуальные хиты.",Bridge TV Hits
-
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" tvg-id="bridge-tv-dance" tvg-description="Музыкальный телеканал Bridge TV: актуальные хиты.",Bridge TV Hits
 http://live.ru-tv.site/9202/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" tvg-id="bridge-tv-ruxit" tvg-description="Музыкальный телеканал отечественной популярной музыки.",Bridge TV Русский Хит
@@ -293,6 +291,7 @@ http://live.ru-tv.site/9202/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/ru-tv.png" tvg-id="ru-tv" tvg-description="Музыкальный телеканал Русской Медиагруппы: русские клипы и хит-парады.",RU.TV
 https://rutvkids.ru/live/efir/index.m3u8
 #http://live.ru-tv.site/8185/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://stream.mcquack.net/109/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Российский музыкальный телеканал: клипы отечественных исполнителей.",Russian MusicBox
 #http://live.ru-tv.site/8189/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -321,6 +320,7 @@ https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv" tvg-description="Телеверсия радио «Европа Плюс»: топовые зарубежные и русские хиты.",Europa Plus TV
 #http://live.ru-tv.site/8033/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://stream.mcquack.net/184/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/20029/index.m3u8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Dance».",Fresh Dance
 
