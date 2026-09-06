@@ -291,7 +291,6 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/5031/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/503/index.m3u8
 #http://live.ru-tv.site/8066/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
-#http://stream.mcquack.net/181/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9207/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
@@ -564,7 +563,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/19242/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts" tvg-description="СТС — российский развлекательный телеканал. Специализируется на комедийных сериалах, фильмах и молодёжных программах.",СТС
 http://89.33.29.115:8080/STS_HD/index.m3u8
-#http://stream.mcquack.net/138/index.m3u8
 #http://89.33.29.115:8080/STS/index.m3u8
 #http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/506/index.m3u8
 #http://live.ru-tv.site/8005/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
@@ -644,17 +642,20 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/513/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz1.png" tvg-id="raz1" tvg-description="Юмористическо-развлекательный телеканал Раз ТВ.",RAZ 1
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2" tvg-description="Юмористическо-развлекательный телеканал Раз ТВ.",RAZ 2
-http://stream.mcquack.net/464/index.m3u8
 
 
 
 # ── test ──────────────────────────────────────────
 # Added: 2026-09-03 18:52:41  (31 URLs in 18 channel group(s))
 # ───────────────────────────────────────────────────
+
 #EXTINF:-1 tvg-id="saga-tv" tvg-name="Saga TV" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/saga_tv_logo.png" url-scrlogo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/saga_tv.png" group-title="test",Saga TV [НЕ Исправен!]
 http://ce97dd7a.amazzin.pw/iptv/8Q77ZPL94T3MA32EADN9V35E/32103/index.m3u8
+#http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/32103/index.m3u8
+
 #EXTINF:0 tvg-shift=0 tvg-name="Premiere HD" tvg-id="premiere-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4719.png" tvg-rec="7" group-title="test",PG Premiere HD
 http://b639b845.otttv.pw/iptv/WNHY4X7ZMZ9LVC/11094/index.m3u8
+
 #EXTINF:-1 tvg-name="Europa Plus Light" tvg-id="no_epg" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/EuropaPlusLight.png" group-title="test",Europa Plus Light
 http://mp3128.light.streamr.ru/
 #http://eptop128.streamr.ru/
@@ -666,37 +667,188 @@ http://mp3128.light.streamr.ru/
 #https://hls-01-europaplus-kpop.emgsound.ru/europaplus-kpop/playlist.m3u8
 #https://hls-01-europaplus-rock.emgsound.ru/europaplus-rock/playlist.m3u8
 #http://dff13dfa.ottrast.com/iptv/ZBE628EP2BYBP5/11058/index.m3u8
+#http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/15511/index.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/15514/index.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/15515/index.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/16138/index.m3u8
+
 #EXTINF:-1 tvg-name="Мультимания LV" tvg-id="multimania-lv" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/multimaniya_logo.png" group-title="test",Мультимания
 http://bde.online24.pm/play/116/F6E1DD42544DD10/video.m3u8
+
 #EXTINF:0 tvg-shift=0 tvg-name="VF Премьера" tvg-id="vf-premiera" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4644.png" tvg-rec="7" group-title="test",VF Премьера
 http://b639b845.otttv.pw/iptv/WNHY4X7ZMZ9LVC/10051/index.m3u8
+
 #EXTINF:0 tvg-name="FRESH Hits HD" tvg-id="no_epg_music" tvg-logo="http://epg.one/img2/6272.png" tvg-rec="0" group-title="test",FRESH Hits HD
 http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18084/index.m3u8
 #http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18092/index.m3u8
 #http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18086/index.m3u8
 #http://dff13dfa.ottrast.com/iptv/ZBE628EP2BYBP5/18085/index.m3u8
 #http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/18091/index.m3u8
+
 #EXTINF:0 tvg-name="Z!Serial HD" tvg-id="z-serial" tvg-logo="http://epg.one/img2/5898.png" tvg-rec="0" group-title="test",Z!Serial HD
 http://b639b845.otttv.pw/iptv/WNHY4X7ZMZ9LVC/15140/index.m3u8
+
 #EXTINF:0 tvg-shift=0 tvg-name="Ultra HD Cinema" tvg-id="ultra-hd-cinema" tvg-anyquality=1 tvg-logo="http://epg.one/img2/2743.png" tvg-rec="3" group-title="test",Ultra HD Cinema
 http://6au8zl0c.megatv.fun/iptv/E8Q36367WLXKB3/4000/index.m3u8
+
 #EXTINF:0 tvg-shift=0 tvg-name="USSR HD" tvg-id="ussr-premieregroup" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4727.png" tvg-rec="7" group-title="test",PG USSR HD
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/11102/index.m3u8
+
 #EXTINF:0 tvg-shift=0 tvg-name="VF Граиндхаус" tvg-id="vf-graindhaus" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/7714.png" tvg-rec="0" group-title="test",VF Граиндхаус
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/14158/index.m3u8
+
 #EXTINF:0 tvg-shift=0 tvg-name="VF Сериал" tvg-id="vf-serial" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5200.png" tvg-rec="0" group-title="test",VF Сериал
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/13087/index.m3u8
+
 #EXTINF:0 tvg-shift=0 tvg-name="VF Classic" tvg-id="vf-classic" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4647.png" tvg-rec="7" group-title="test",VF Classic
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/10054/index.m3u8
+
 #EXTINF:0 tvg-name="VF Mystic" tvg-id="vf-mystic" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4598.png" tvg-rec="7" group-title="test",VF Mystic
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/10007/index.m3u8
+
 #EXTINF:0 tvg-name="VF VHS" tvg-id="vf-vhs" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4600.png" tvg-rec="7" group-title="test",VF VHS
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/10009/index.m3u8
+
 #EXTINF:0 tvg-rec="0" tvg-name="VHS-ка Русское кино" tvg-id="no_epg_cinema" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vhs-ка.png" url-scrlogo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vhs-ка_русское_кино.png" group-title="test",VHS-ка Русское кино
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/31925/index.m3u8
+#http://tvoetv.space:8080/tvoetv/index.m3u8
+
 #EXTINF:-1 tvg-name="Рик и Морти" tvg-id="no_epg_mult" tvg-logo="https://avatars.mds.yandex.net/i?id=f381e43bcbc6d1c5b1f2cab6eee502c2_l-5889060-images-thumbs&n=13" group-title="test",Рик и Морти
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/30171/index.m3u8
+#http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11066/index.m3u8
+#http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/15520/index.m3u8
+
 #EXTINF:0 tvg-name="VF Охота" tvg-id="vf-oxota" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5992.png" tvg-rec="0" group-title="test",VF Охота
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/15513/index.m3u8
+
 #EXTINF:0 tvg-name="VF Стройка" tvg-id="vf-strojka" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/6125.png" tvg-rec="0" group-title="test",VF Стройка
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/16139/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-04 19:23:35  (25 URLs in 25 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:-1  group-title="test",Disney Channel HD
+http://66.102.126.10:8000/play/a013/index.m3u8
+
+#EXTINF:-1  group-title="test",National Geographic HD (576p)
+http://103.165.93.31:8095/nationalGeographic/index.m3u8
+
+#EXTINF:-1 tvg-id="detvoraplushd" tvg-name="ДетвораПлюс HD" group-title="test",ДетвораПлюс HD
+https://cdn.rostelekom-tv.xyz/live/WAYU4PTJ_VVz4wAQ.m3u8
+
+#EXTINF:-1 tvg-id="velvetmenthd" tvg-name="Velvet. Ментовские Сериалы HD" group-title="test",Velvet. Ментовские Сериалы HD
+https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
+
+#EXTINF:-1 tvg-id="velvetsovetskoehd" tvg-name="Velvet. Советское кино HD" group-title="test",Velvet. Советское кино HD
+https://cdn.rostelekom-tv.xyz/live/nF4sFCa49nFPHSF_.m3u8
+
+#EXTINF:-1 tvg-id="velvetzolotohd" tvg-name="Velvet. Золотая коллекция HD" group-title="test",Velvet. Золотая коллекция HD
+https://cdn.rostelekom-tv.xyz/live/v804qFZr0QVQ1s9Z.m3u8
+
+#EXTINF:-1 tvg-id="velveteurkinohd" tvg-name="Velvet. Европейское кино HD" group-title="test",Velvet. Европейское кино HD
+https://cdn.rostelekom-tv.xyz/live/LQ3j0n7j0Kq4OQm8.m3u8
+
+#EXTINF:-1 tvg-id="serialyhityhd" tvg-name="Velvet. Сериалы Хиты HD" group-title="test",Velvet. Сериалы Хиты HD
+https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
+
+#EXTINF:-1 tvg-id="velvetsvatyhd" tvg-name="Velvet. Сваты HD" tvg-logo="https://cdn.rostelekom-tv.xyz/picons/5c274519467ec9c5.png" group-title="test",Velvet. Сваты HD
+https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
+
+#EXTINF:-1 tvg-shift=0 tvg-name="Bolt Россия" tvg-id="bolt-ru" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/bolt.png" group-title="test",Bolt Россия
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/6322/index.m3u8
+
+#EXTINF:-1 tvg-name="Eye Modern" tvg-id="eye-modern" tvg-logo="https://iptvx.one/picons/eye-modern.png" group-title="test",Eye Modern
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/17068/index.m3u8
+
+#EXTINF:-1 tvg-name="Eye Criminal" tvg-id="eye-criminal" tvg-logo="https://iptvx.one/picons/eye-criminal.png" group-title="test",Eye Criminal
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/17067/index.m3u8
+
+#EXTINF:-1 tvg-name="Eye Oscar" tvg-id="eye-oscar" tvg-logo="https://iptvx.one/picons/eye-oscar.png" group-title="test",Eye Oscar
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/17065/index.m3u8
+
+#EXTINF:-1 tvg-name="Eye Media" tvg-id="eye-media" tvg-logo="https://iptvx.one/picons/eye-media.png" group-title="test",Eye Media
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/17064/index.m3u8
+
+#EXTINF:-1 tvg-name="MyTV HD" tvg-id="mytv" tvg-logo="http://epg.one/img2/104.png" group-title="test",MyTV
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/19407/index.m3u8
+
+#EXTINF:-1 tvg-name="MyTV 2 HD" tvg-id="mytv2" tvg-logo="http://epg.one/img2/105.png" group-title="test",MyTV 2
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/19408/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="РуКино HD" tvg-id="rukino-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4721.png" group-title="test",PG РуКино HD
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/11096/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="Paradise HD" tvg-id="paradise-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4725.png" tvg-rec="7" group-title="test",PG Paradise HD
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/11100/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="Victory HD" tvg-id="victory-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4722.png" tvg-rec="7" group-title="test",PG Victory HD
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/11097/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="VF Бесстыжие" tvg-id="vf-besstyzhye" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/7272.png" tvg-rec="7" group-title="test",VF Бесстыжие
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/10075/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="VF Гарри Поттер" tvg-id="vf-garipoter" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/7276.png" tvg-rec="0" group-title="test",VF Гарри Поттер
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/14230/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="VF Индия" tvg-id="vf-indiya" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5203.png" tvg-rec="0" group-title="test",VF Индия
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/13090/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="VF Игра престолов" tvg-id="vf-igraprestolov" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/6323.png" tvg-rec="0" group-title="test",VF Игра престолов
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/18119/index.m3u8
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TV-3 HD (1080p)
+
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TNT4 (576p)
+http://stream.mcquack.net/106/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-05 22:12:33  (11 URLs in 11 channel group(s))
+# ───────────────────────────────────────────────────
+
+#EXTINF:0 tvg-shift=0 tvg-name="Premium HD" tvg-id="premium-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4720.png" tvg-rec="7" group-title="test",PG Premium HD
+http://bde.online24.pm/play/7145/F6E1DD42544DD10/video.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="Paradox HD" tvg-id="paradox-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4723.png" tvg-rec="7" group-title="test",PG Paradox HD
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11098/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="Serial HD" tvg-id="serial-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4726.png" tvg-rec="7" group-title="test",PG Serial HD
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11101/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="Thriller HD" tvg-id="thriller-hd" tvg-anyquality=0 tvg-logo="http://epg.one/img2/4724.png" tvg-rec="7" group-title="test",PG Thriller HD
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11099/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="VF Без цензуры" tvg-id="vf-bezcenzury" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/6160.png" tvg-rec="0" group-title="test",VF Без цензуры
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/17017/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="VF Криминал" tvg-id="vf-kriminal" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5206.png" tvg-rec="0" group-title="test",VF Криминал
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/13093/index.m3u8
+
+#EXTINF:0 tvg-shift=0 tvg-name="VF Comics" tvg-id="vf-comics" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" ="http://epg.one/img2/5205.png" tvg-rec="0" group-title="test",VF Comics
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/13092/index.m3u8
+
+#EXTINF:0 tvg-name="Z!Crime HD" tvg-id="z-crime" tvg-logo="http://epg.one/img2/1115.png" tvg-rec="0" group-title="test",Z!Crime HD
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/14136/index.m3u8
+
+#EXTINF:0 gtvg-name="Z!Horror HD" tvg-id="z-horror" tvg-logo="http://epg.one/img2/1116.png" tvg-rec="0" group-title="test",Z!Horror HD
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/14137/index.m3u8
+
+#EXTINF:0 tvg-name="VF Скуби-Ду" tvg-id="vf-skubidu" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/6162.png" tvg-rec="0" group-title="test",VF Скуби-Ду
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/17007/index.m3u8
+
+#EXTINF:0 tvg-name="VF Концерты" tvg-id="vf-koncerty" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/7663.png" tvg-rec="0" group-title="test",VF Концерты
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/14159/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-06 12:08:11  (2 URLs in 1 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:0  tvg-id="http://ottiptvfilmtvgroup.zapto.org:8568/epg.xml"  tvg-name="FILM TV HD" group-title="test" tvg-logo="http://filmtvgroup.site/uploads/channel/FILMTVHD.png",FILM TV HD
+https://ottiptvfilmtvgroup.zapto.org:8080/kino_tv/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3ODg2ODMzNjIsImV4cCI6MTc4ODc2OTc2Miwic3ViIjoiQWRtaW4ifQ.elQlt9rDrYlfbg85aZPXxIarprRqhdf58qFUNs3wQqs
+#https://ottiptvfilmtvgroup.zapto.org:8080/FILMTVKinozal/index.m3u8?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3ODg2ODMzNjIsImV4cCI6MTc4ODc2OTc2Miwic3ViIjoiQWRtaW4ifQ.elQlt9rDrYlfbg85aZPXxIarprRqhdf58qFUNs3wQqs
