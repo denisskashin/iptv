@@ -2,11 +2,19 @@
 
 # Сериалы
 
+#EXTINF:0 group-title="Сериалы" tvg-description="Канал с анимационным сериалом «Рик и Морти» нон-стоп.",Рик и Морти
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/30171/index.m3u8
+#http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11066/index.m3u8
+#http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/15520/index.m3u8
+
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/beetv-series-kz.png" tvg-id="beetv-series-kz" tvg-description="Сериальный канал казахстанского пакета BeeTV.",BeeTV Series
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/beetv-vd.png" tvg-id="beetv-vd" tvg-description="Канал казахстанского пакета BeeTV с документальным циклом «Вещдок».",BeeTV Вещдок
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/beetv-sm.png" tvg-id="beetv-sm" tvg-description="Канал семейных мелодрам казахстанского пакета BeeTV.",BeeTV Семейные мелодрамы
+
+#EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/bolt.png" tvg-id="bolt-ru" tvg-description="Российская версия канала Bolt: сериалы нон-стоп.",Bolt Россия
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/6322/index.m3u8
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/sky-atlantic.png" tvg-id="sky-atlantic" tvg-description="Канал немецкого Sky с сериалами HBO и оригинальными драмами.",Sky Atlantic
 
@@ -29,10 +37,12 @@ http://live.ru-tv.site/8927/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-hit.png" tvg-id="amedia-hit" tvg-description="Телеканал популярных зарубежных сериалов (Amedia).",Amedia Hit
 #http://live.ru-tv.site/8159/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/162/index.m3u8
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium" tvg-description="Телеканал премиальных зарубежных сериалов (Amedia).",Amedia Premium
 #http://live.ru-tv.site/8215/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://stream.mcquack.net/151/index.m3u8
+#http://stream.mcquack.net/162/index.m3u8
 
 # BCU
 
@@ -108,12 +118,15 @@ http://live.ru-tv.site/8825/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="Fox" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife" tvg-description="Телеканал зарубежных сериалов и lifestyle (Fox Life).",Fox Life
 #http://live.ru-tv.site/8052/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/9232/index.m3u8
+#http://stream.mcquack.net/129/index.m3u8
 
 # Fresh
 
 #EXTINF:0 group-title="Fresh" tvg-logo="https://iptvx.one/picons/fresh-series.png" tvg-id="fresh-series" tvg-description="Сериальный канал пакета «Fresh»: сериалы. Тематика подборки — «Series».",Fresh Series
 
 # Gold Line
+
+http://stream.mcquack.net/430/index.m3u8
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-series.png" tvg-id="goldline-series" tvg-description="Сериальный канал пакета «Gold Line»: сериалы. Тематика подборки — «Series».",Gold Line Series
 
@@ -199,6 +212,11 @@ http://live.ru-tv.site/8623/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-sashatanya.png" tvg-id="oasis-sashatanya" tvg-description="Сериальный канал пакета «Oasis»: сериалы. Тематика подборки — «Саша Таня».",Oasis Саша Таня
 
 #EXTINF:0 group-title="Oasis" tvg-logo="https://iptvx.one/picons/oasis-smallville.png" tvg-id="oasis-smallville" tvg-description="Сериальный канал пакета «Oasis»: сериалы. Тематика подборки — «Тайны Смолвиля».",Oasis Тайны Смолвиля
+
+# PG
+
+#EXTINF:0 group-title="PG" tvg-logo="https://iptvx.one/picons/serial-hd.png" tvg-id="serial-hd" tvg-description="Сериальный канал пакета «Premiere Group»: российские сериалы.",PG Serial HD
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11101/index.m3u8
 
 # Sky High
 
@@ -298,11 +316,44 @@ http://live.ru-tv.site/8402/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-elenir.png" tvg-id="velilla-elenir" tvg-description="Сериальный канал пакета «Velilla TV»: сериалы. Тематика подборки — «Элен и Ребята».",Velilla TV Элен и Ребята
 
+# Velvet
+
+#EXTINF:0 group-title="Velvet" tvg-description="Сериальный канал пакета «Velvet»: детективы и полицейские сериалы.",Velvet. Ментовские Сериалы HD
+https://cdn.rostelekom-tv.xyz/live/tWQ0ge9rspBQhRst.m3u8
+
+#EXTINF:0 group-title="Velvet" tvg-description="Канал пакета «Velvet» с сериалом «Сваты» нон-стоп.",Velvet. Сваты HD
+https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
+
+#EXTINF:0 group-title="Velvet" tvg-description="Сериальный канал пакета «Velvet»: популярные сериалы.",Velvet. Сериалы Хиты HD
+https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
+
+# VF
+
+#EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-bezcenzury.png" tvg-id="vf-bezcenzury" tvg-description="Сериальный канал пакета «VF»: российские драмы без цензуры.",VF Без цензуры
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/17017/index.m3u8
+
+#EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-besstyzhye.png" tvg-id="vf-besstyzhye" tvg-description="Канал пакета «VF» с сериалом «Бесстыжие» нон-стоп.",VF Бесстыжие
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/10075/index.m3u8
+
+#EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-igraprestolov.png" tvg-id="vf-igraprestolov" tvg-description="Канал пакета «VF» с сериалом «Игра престолов» нон-стоп.",VF Игра престолов
+http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/18119/index.m3u8
+
+#EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-kriminal.png" tvg-id="vf-kriminal" tvg-description="Сериальный канал пакета «VF»: криминальные сериалы и детективы.",VF Криминал
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/13093/index.m3u8
+
+#EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-serial.png" tvg-id="vf-serial" tvg-description="Сериальный канал пакета «VF»: сериалы нон-стоп.",VF Сериал
+http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/13087/index.m3u8
+
 # Viju+
 
 #EXTINF:0 group-title="Viju+" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial" tvg-description="Сериальный телеканал.",Viju+ Serial
 http://stream.mcquack.net/311/index.m3u8
 #http://live.ru-tv.site/9222/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+
+# Z!
+
+#EXTINF:0 group-title="Z!" tvg-logo="https://iptvx.one/picons/z-serial.png" tvg-id="z-serial" tvg-description="Сериальный канал пакета «Z!»: сериалы нон-стоп.",Z!Serial HD
+http://b639b845.otttv.pw/iptv/WNHY4X7ZMZ9LVC/15140/index.m3u8
 
 # Азия
 
@@ -310,6 +361,7 @@ http://stream.mcquack.net/311/index.m3u8
 http://89.33.29.115:8080/dorama_hd/index.m3u8
 #http://live.ru-tv.site/8937/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 #http://6au8zl0c.megatv.fun/iptv/E8Q36367WLXKB3/2131/index.m3u8
+#http://stream.mcquack.net/412/index.m3u8
 
 #EXTINF:0 group-title="Азия" tvg-logo="https://iptvx.one/picons/kineko.png" tvg-id="kineko" tvg-description="«Кинеко» — телеканал топовых азиатских сериалов из Южной Кореи, Японии и Китая.",Кинеко
 http://185.121.1.163:8083/Kineko/index.m3u8
@@ -342,10 +394,12 @@ http://live.ru-tv.site/8662/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller" tvg-description="Телеканал российских сериалов и экранизаций.",Русский бестселлер
 #http://live.ru-tv.site/8162/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/208/index.m3u8
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-id="russky-detektiv" tvg-description="Телеканал российских детективных сериалов.",Русский Детектив
 
 http://live.ru-tv.site/8161/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+#http://stream.mcquack.net/204/index.m3u8
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman" tvg-description="Телеканал российских мелодрам и сериалов.",Русский роман
 #http://live.ru-tv.site/8010/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5

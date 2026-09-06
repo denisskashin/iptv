@@ -13,6 +13,8 @@ http://live.ru-tv.site/8031/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/mezzo-live-hd.png" tvg-id="mezzo-live-hd" tvg-description="Классика, джаз и мировая музыка в прямых трансляциях (Mezzo Live HD).",Mezzo Live
 
+http://stream.mcquack.net/276/index.m3u8
+
 #EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv" tvg-description="Международный музыкальный телеканал Stingray CMusic: позитивная и вдохновляющая музыка.",Stingray CMusic
 http://stream.mcquack.net/312/index.m3u8
 
@@ -62,11 +64,35 @@ http://live.ru-tv.site/9231/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/eu-music.png" tvg-id="eu-music" tvg-description="Музыкальный телеканал EU.Music: европейские хиты и клипы.",EU.Music
 
+#EXTINF:0 group-title="Музыка" tvg-description="Аудиоканал радиостанции «Европа Плюс»: лёгкая музыка и хиты.",Europa Plus Light
+http://mp3128.light.streamr.ru/
+#http://eptop128.streamr.ru/
+#https://hls-01-regions.emgsound.ru/11_msk/96/playlist.m3u8
+#http://mp3128.new.streamr.ru/
+#https://hls-01-europaplus-party.emgsound.ru/22/112/playlist.m3u8
+#https://hls-01-europaplus-urban.emgsound.ru/28/playlist.m3u8
+#https://hls-01-fresh.emgsound.ru/9/playlist.m3u8
+#https://hls-01-europaplus-kpop.emgsound.ru/europaplus-kpop/playlist.m3u8
+#https://hls-01-europaplus-rock.emgsound.ru/europaplus-rock/playlist.m3u8
+#http://dff13dfa.ottrast.com/iptv/ZBE628EP2BYBP5/11058/index.m3u8
+#http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/15511/index.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/15514/index.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/15515/index.m3u8
+#http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/16138/index.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал FON Music: фоновая и лаунж-музыка.",FON Music
 
 http://live.ru-tv.site/8350/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Concerts».",Fresh Concerts
+
+#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал FRESH Hits: клипы и хиты.",FRESH Hits HD
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18084/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18092/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18086/index.m3u8
+#http://dff13dfa.ottrast.com/iptv/ZBE628EP2BYBP5/18085/index.m3u8
+#http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/18091/index.m3u8
 
 #EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Lyrics».",Fresh Lyrics
 
@@ -185,6 +211,9 @@ http://live.ru-tv.site/8806/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/velilla-poprockconc.png" tvg-id="velilla-poprockconc" tvg-description="Музыкальный канал пакета «Velilla TV»: музыкальные клипы и концерты. Тематика подборки — «Pop And Rock Concerts».",Velilla TV Pop And Rock Concerts
 
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/vf-koncerty.png" tvg-id="vf-koncerty" tvg-description="Канал пакета «VF» с концертами и музыкальными программами.",VF Концерты
+http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/14159/index.m3u8
+
 #EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/viva-rus.png" tvg-id="viva-rus" tvg-description="Российская версия музыкального телеканала VIVA.",VIVA Russia
 http://live.ru-tv.site/8567/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
@@ -293,6 +322,7 @@ https://rutvkids.ru/live/efir/index.m3u8
 
 #EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Российский музыкальный телеканал: клипы отечественных исполнителей.",Russian MusicBox
 #http://live.ru-tv.site/8189/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/319/index.m3u8
 
 # Танцевальная и электронная
 
@@ -301,6 +331,7 @@ https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-tv.png" tvg-id="bridge-tv" tvg-description="Музыкальный телеканал с клипами.",Bridge TV
 #http://live.ru-tv.site/8527/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://stream.mcquack.net/318/index.m3u8
 
 #EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd" tvg-description="Премиальная зарубежная музыка: стильные клипы и электроника (Bridge Media).",Bridge TV Deluxe
 http://stream.mcquack.net/92/index.m3u8

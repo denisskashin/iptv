@@ -974,6 +974,8 @@ watch.haitilive.net
 wowza5.video-streams.nl
 iptv.atel.me
 flussonic.linkintel.ru
+dtv.vol.net.ua
+pvr-spb-08.tlgx.ru
 
 # --- blocked IPs ---
 46.149.191.219
@@ -1335,34 +1337,6 @@ https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1/chunklist_w1487441
 https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2/chunklist_w148744111_b5160000_sleng.m3u8
 https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24/chunklist_w148744111_b5160000_sleng.m3u8
 
-http://stream.mcquack.net/401/index.m3u8
-http://stream.mcquack.net/402/index.m3u8
-http://stream.mcquack.net/116/index.m3u8
-http://stream.mcquack.net/218/index.m3u8
-http://stream.mcquack.net/330/index.m3u8
-http://stream.mcquack.net/156/index.m3u8
-http://stream.mcquack.net/157/index.m3u8
-http://stream.mcquack.net/173/index.m3u8
-http://stream.mcquack.net/73/index.m3u8
-http://stream.mcquack.net/142/index.m3u8
-http://stream.mcquack.net/83/index.m3u8
-http://stream.mcquack.net/144/index.m3u8
-http://stream.mcquack.net/204/index.m3u8
-http://stream.mcquack.net/303/index.m3u8
-http://stream.mcquack.net/72/index.m3u8
-http://stream.mcquack.net/75/index.m3u8
-http://stream.mcquack.net/440/index.m3u8
-http://stream.mcquack.net/422/index.m3u8
-http://stream.mcquack.net/423/index.m3u8
-http://stream.mcquack.net/424/index.m3u8
-http://stream.mcquack.net/426/index.m3u8
-http://stream.mcquack.net/427/index.m3u8
-http://stream.mcquack.net/428/index.m3u8
-http://stream.mcquack.net/429/index.m3u8
-http://stream.mcquack.net/430/index.m3u8
-http://stream.mcquack.net/431/index.m3u8
-http://stream.mcquack.net/405/index.m3u8
-
 http://185.37.150.38/test/index.m3u8
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/15012/index.m3u8
@@ -1386,8 +1360,6 @@ http://122.248.43.242:1935/padangtv/_definst_/mystream/playlist.m3u8
 
 http://15.204.246.24:8080/bolivisionhd/index.m3u8
 http://15.204.246.24:8080/eltrecehd/index.m3u8
-
-http://dtv.vol.net.ua/CCCP/index.m3u8
 
 http://filmtv.zapto.org/FILM_TV_GROUP/video.m3u8?token=Ijb9BSWre2eLJ3
 
@@ -1605,60 +1577,12 @@ http://live.ru-tv.site/8036/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8675/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8755/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 http://live.ru-tv.site/8558/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
+http://live.ru-tv.site/9464/video.m3u8?token=6ae9990c11ab92b4aeef0bd9ec492bd5
 
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-09-03 16:31 ---
-# отдельные ссылки (30):
 http://168.228.44.241:9998/play/a0dz/index.m3u8
-http://pvr-spb-08.tlgx.ru:8987/ch_s08_rst_legtv_rtg/index.m3u8?clckid=55fcb46d
-http://pvr-spb-08.tlgx.ru:8987/ch_s08_rst_legtv_travel_channel/index.m3u8?clckid=d7df0133
-http://stream.mcquack.net/100/index.m3u8
-http://stream.mcquack.net/107/index.m3u8
-http://stream.mcquack.net/129/index.m3u8
-http://stream.mcquack.net/147/index.m3u8
-http://stream.mcquack.net/182/index.m3u8
-http://stream.mcquack.net/207/index.m3u8
-http://stream.mcquack.net/240/index.m3u8
-http://stream.mcquack.net/263/index.m3u8
-http://stream.mcquack.net/276/index.m3u8
-http://stream.mcquack.net/278/index.m3u8
-http://stream.mcquack.net/291/index.m3u8
-http://stream.mcquack.net/320/index.m3u8
-http://stream.mcquack.net/412/index.m3u8
-http://stream.mcquack.net/416/index.m3u8
-http://stream.mcquack.net/434/index.m3u8
-http://stream.mcquack.net/463/index.m3u8
-http://stream.mcquack.net/60/index.m3u8
-http://stream.mcquack.net/64/index.m3u8
-http://stream.mcquack.net/70/index.m3u8
-http://stream.mcquack.net/78/index.m3u8
 
 # --- 2026-09-03 18:52 ---
 # отдельные ссылки (75):
-http://stream.mcquack.net/126/index.m3u8
-http://stream.mcquack.net/138/index.m3u8
-http://stream.mcquack.net/169/index.m3u8
-http://stream.mcquack.net/180/index.m3u8
-http://stream.mcquack.net/188/index.m3u8
-http://stream.mcquack.net/198/index.m3u8
-http://stream.mcquack.net/202/index.m3u8
-http://stream.mcquack.net/217/index.m3u8
-http://stream.mcquack.net/221/index.m3u8
-http://stream.mcquack.net/225/index.m3u8
-http://stream.mcquack.net/236/index.m3u8
-http://stream.mcquack.net/265/index.m3u8
-http://stream.mcquack.net/275/index.m3u8
-http://stream.mcquack.net/319/index.m3u8
-http://stream.mcquack.net/395/index.m3u8
-http://stream.mcquack.net/465/index.m3u8
-http://stream.mcquack.net/74/index.m3u8
-http://stream.mcquack.net/93/index.m3u8
 http://vbxvnxfr.megatv.fun/iptv/d75x5q6furmzyz/10006/index.m3u8
 http://vbxvnxfr.megatv.fun/iptv/d75x5q6furmzyz/10008/index.m3u8
 http://vbxvnxfr.megatv.fun/iptv/d75x5q6furmzyz/10053/index.m3u8
@@ -1712,62 +1636,51 @@ http://vbxvnxfr.megatv.fun/iptv/d75x5q6furmzyz/9182/index.m3u8
 http://vbxvnxfr.megatv.fun/iptv/d75x5q6furmzyz/9317/index.m3u8
 https://stream.almaz-media.tv/radio
 
-# --- 2026-09-04 19:23 ---
-# отдельные ссылки (21):
-http://stream.mcquack.net/110/index.m3u8
-http://stream.mcquack.net/141/index.m3u8
+# --- 2026-09-06 15:12 ---
+# отдельные ссылки (46):
+http://stream.mcquack.net/100/index.m3u8
+http://stream.mcquack.net/112/index.m3u8
+http://stream.mcquack.net/119/index.m3u8
+http://stream.mcquack.net/126/index.m3u8
+http://stream.mcquack.net/135/index.m3u8
+http://stream.mcquack.net/147/index.m3u8
 http://stream.mcquack.net/152/index.m3u8
 http://stream.mcquack.net/153/index.m3u8
-http://stream.mcquack.net/162/index.m3u8
-http://stream.mcquack.net/181/index.m3u8
-http://stream.mcquack.net/200/index.m3u8
-http://stream.mcquack.net/205/index.m3u8
+http://stream.mcquack.net/180/index.m3u8
+http://stream.mcquack.net/182/index.m3u8
+http://stream.mcquack.net/191/index.m3u8
+http://stream.mcquack.net/198/index.m3u8
+http://stream.mcquack.net/202/index.m3u8
+http://stream.mcquack.net/214/index.m3u8
+http://stream.mcquack.net/225/index.m3u8
+http://stream.mcquack.net/227/index.m3u8
 http://stream.mcquack.net/234/index.m3u8
-http://stream.mcquack.net/235/index.m3u8
-http://stream.mcquack.net/264/index.m3u8
-http://stream.mcquack.net/317/index.m3u8
-http://stream.mcquack.net/318/index.m3u8
-http://stream.mcquack.net/362/index.m3u8
-http://stream.mcquack.net/364/index.m3u8
-http://stream.mcquack.net/420/index.m3u8
-http://stream.mcquack.net/451/index.m3u8
-http://stream.mcquack.net/461/index.m3u8
-http://stream.mcquack.net/464/index.m3u8
-http://stream.mcquack.net/68/index.m3u8
-http://stream.mcquack.net/79/index.m3u8
-
-# --- 2026-09-05 22:12 ---
-# хосты, где мертво всё (1):
-dtv.vol.net.ua
-# отдельные ссылки (12):
-http://stream.mcquack.net/112/index.m3u8
-http://stream.mcquack.net/122/index.m3u8
-http://stream.mcquack.net/136/index.m3u8
-http://stream.mcquack.net/155/index.m3u8
-http://stream.mcquack.net/170/index.m3u8
-http://stream.mcquack.net/176/index.m3u8
-http://stream.mcquack.net/208/index.m3u8
-http://stream.mcquack.net/213/index.m3u8
-http://stream.mcquack.net/242/index.m3u8
-http://stream.mcquack.net/313/index.m3u8
-http://stream.mcquack.net/392/index.m3u8
-http://stream.mcquack.net/419/index.m3u8
-
-# --- 2026-09-06 12:08 ---
-# отдельные ссылки (16):
-http://stream.mcquack.net/111/index.m3u8
-http://stream.mcquack.net/133/index.m3u8
-http://stream.mcquack.net/164/index.m3u8
-http://stream.mcquack.net/206/index.m3u8
-http://stream.mcquack.net/212/index.m3u8
-http://stream.mcquack.net/220/index.m3u8
 http://stream.mcquack.net/239/index.m3u8
 http://stream.mcquack.net/241/index.m3u8
-http://stream.mcquack.net/272/index.m3u8
-http://stream.mcquack.net/390/index.m3u8
-http://stream.mcquack.net/425/index.m3u8
-http://stream.mcquack.net/446/index.m3u8
+http://stream.mcquack.net/242/index.m3u8
+http://stream.mcquack.net/264/index.m3u8
+http://stream.mcquack.net/274/index.m3u8
+http://stream.mcquack.net/303/index.m3u8
+http://stream.mcquack.net/312/index.m3u8
+http://stream.mcquack.net/317/index.m3u8
+http://stream.mcquack.net/320/index.m3u8
+http://stream.mcquack.net/333/index.m3u8
+http://stream.mcquack.net/385/index.m3u8
+http://stream.mcquack.net/392/index.m3u8
+http://stream.mcquack.net/393/index.m3u8
+http://stream.mcquack.net/398/index.m3u8
+http://stream.mcquack.net/402/index.m3u8
+http://stream.mcquack.net/403/index.m3u8
+http://stream.mcquack.net/419/index.m3u8
+http://stream.mcquack.net/423/index.m3u8
+http://stream.mcquack.net/429/index.m3u8
+http://stream.mcquack.net/448/index.m3u8
+http://stream.mcquack.net/451/index.m3u8
 http://stream.mcquack.net/456/index.m3u8
-http://stream.mcquack.net/474/index.m3u8
-http://stream.mcquack.net/492/index.m3u8
-http://stream.mcquack.net/82/index.m3u8
+http://stream.mcquack.net/465/index.m3u8
+http://stream.mcquack.net/470/index.m3u8
+http://stream.mcquack.net/491/index.m3u8
+http://stream.mcquack.net/70/index.m3u8
+http://stream.mcquack.net/72/index.m3u8
+http://stream.mcquack.net/81/index.m3u8
+http://stream.mcquack.net/92/index.m3u8
