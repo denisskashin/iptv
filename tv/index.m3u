@@ -111,6 +111,7 @@ http://89.33.29.115:8080/TV_3/index.m3u8
 #EXTINF:0 group-title="Международные версии" tvg-logo="https://iptvx.one/picons/ntv-mir.png" tvg-id="ntv-mir" tvg-description="Международная версия телеканала НТВ: новости, сериалы и программы.",НТВ Мир
 
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/14035/index.m3u8
+#http://6g5f8g9d.ucomist.net/iptv/RCY5BALHTUERP7TGCU8ZWFDG/14035/index.m3u8
 
 #EXTINF:0 group-title="Международные версии" tvg-description="Европейская версия Первого канала для зарубежной аудитории.",Первый канал Европа
 
@@ -494,7 +495,6 @@ http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/205/index.m3u8
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/506/index.m3u8
 #http://89.33.29.115:8080/STS_HD/index.m3u8
 #http://89.33.29.115:8080/STS/index.m3u8
-#http://stream.mcquack.net/138/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super" tvg-description="Суббота! — российский развлекательный телеканал, ориентированный на женскую аудиторию. Показывает сериалы, реалити-шоу и лайфстайл-программы.",Суббота!
 http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/9103/index.m3u8
@@ -572,3 +572,28 @@ https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
 #EXTINF:-1 group-title="test" tvg-id="turkserial-hd" tvg-name="Velvet. Турецкие сериалы HD" tvg-logo="https://cdn.rostelekom-tv.xyz/picons/3a97ff710bd5fb7a.png" Velvet. Турецкие сериалы HD
 https://cdn.rostelekom-tv.xyz/live/3c9TIqiOO4n7o4zK.m3u8
 
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-10 10:06:29  (10 URLs in 10 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",GrandF TV Fantazy
+http://62.141.35.207:8080/fantazy/video.m3u8?token=WDJ_ON27CzbeN2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test", MrErrorHQ
+https://assimilator.tv/uploads/MrErrorHQ.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/bjBsFPkh/image-33.png" tvg-id="" group-title="test", TV1 (KG)
+https://kgtv.online/live/tv1kg_cinemastan/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test", DreakingDad
+https://assimilator.tv/uploads/DreakingDad.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",GrandF TV Thriller
+http://62.141.35.207:8080/triller/video.m3u8?token=WDJ_ON27CzbeN2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",Любимый KG
+https://kgtv.online/live/lyubimyy/0.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",GrandF TV Comedy
+http://62.141.35.207:8080/comedy/video.m3u8?token=WDJ_ON27CzbeN2
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",7 TV KG
+https://kgtv.online/live/7_kanal/0.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",GrandF TV Action HD
+http://62.141.35.207:8080/action/video.m3u8?token=WDJ_ON27CzbeN2
+#EXTINF:0 tvg-rec="0" group-title="test",Инфоканал
+http://2bfc56d1.akadatel.com/iptv/2CCHRDS4D8ZRLH/407/index.m3u8
