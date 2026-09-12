@@ -40,8 +40,6 @@ https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus3.smil/chunklist_w_b
 #https://edge55.dc.beltelecom.by/ngtrk/smil:belarus3.smil/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus4-vitebsk.png" tvg-id="belarus4-vitebsk" tvg-description="Региональный канал Белтелерадиокомпании для Витебской области.",Беларусь 4 Витебск
-https://ngtrk.dc.beltelecom.by/vtv/_definst_/bt4.stream/playlist.m3u8
-#https://ngtrk.dc.beltelecom.by/vtv/bt4.stream/playlist.m3u8
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belarus4-gomel.png" tvg-id="belarus4-gomel" tvg-description="«Беларусь 4. Гомель» (бел. «Беларусь 4. Гомель») — гомельский областной государственный телеканал.",Беларусь 4 Гомель
 http://46.56.85.151:8080/0.m3u8
@@ -477,9 +475,6 @@ https://kgtv.online/live/7_kanal/0.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",GrandF TV Action HD
 http://62.141.35.207:8080/action/video.m3u8?token=WDJ_ON27CzbeN2
 
-#EXTINF:0 tvg-rec="0" group-title="test",Инфоканал
-
-
 
 # ── test ──────────────────────────────────────────
 # Added: 2026-09-12 18:30:46  (17 URLs in 17 channel group(s))
@@ -516,5 +511,9 @@ http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/15010/index.m3u8
 http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/19428/index.m3u8
 #EXTINF:0 tvg-name="VF Melodrama" tvg-id="vf-melodrama" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4597.png" tvg-rec="7" group-title="test",VF Melodrama
 http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/10006/index.m3u8
-#EXTINF:-1 group-title="test" audio-track="rus", FilmUADrama HD
-http://stream.mcquack.net/273/index.m3u8
+
+#EXTINF:-1 group-title="test",Кроха
+#http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11066/index.m3u8
+
+#EXTINF:0 group-title="test",VF Мультуб
+#http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/15520/index.m3u8
