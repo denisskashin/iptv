@@ -39,6 +39,7 @@ http://stream.mcquack.net/151/index.m3u8
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-ruserial.png" tvg-id="bcu-ruserial" tvg-description="Сериальный канал пакета «BCU»: отечественное кино. Тематика подборки — «RUSerial».",BCU RUSerial
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/11046/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/11046/index.m3u8
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-svaty.png" tvg-id="bcu-svaty" tvg-description="Сериальный канал пакета «BCU»: сериалы. Тематика подборки — «Сваты».",BCU Сваты
 
@@ -66,6 +67,7 @@ http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/19281/index.m3u8
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-miniseries.png" tvg-id="cineman-miniseries" tvg-description="Сериальный канал пакета «CineMan»: сериалы. Тематика подборки — «Miniseries».",CineMan Miniseries
 http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/19437/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/19437/index.m3u8
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-vovserials.png" tvg-id="cineman-vovserials" tvg-description="Сериальный канал пакета «CineMan»: историческое и военное кино. Тематика подборки — «Военные Сериалы».",CineMan Военные Сериалы
 
@@ -188,11 +190,11 @@ http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/11101/index.m3u8
 # START
 
 #EXTINF:0 group-title="START" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air" tvg-description="Телеканал онлайн-кинотеатра START: российские сериалы и фильмы собственного производства.",START Air
-http://stream.mcquack.net/128/index.m3u8
 #http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/18036/index.m3u8
 
 #EXTINF:0 group-title="START" tvg-logo="https://iptvx.one/picons/start-world.png" tvg-id="start-world" tvg-description="Зарубежные сериалы онлайн-кинотеатра START.",START World
 http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/19248/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/19248/index.m3u8
 
 # TEAM
 
@@ -294,15 +296,18 @@ http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/17017/index.m3u8
 
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-besstyzhye.png" tvg-id="vf-besstyzhye" tvg-description="Канал пакета «VF» с сериалом «Бесстыжие» нон-стоп.",VF Бесстыжие
 http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/10075/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/10075/index.m3u8
 
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-igraprestolov.png" tvg-id="vf-igraprestolov" tvg-description="Канал пакета «VF» с сериалом «Игра престолов» нон-стоп.",VF Игра престолов
 http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/18119/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18119/index.m3u8
 
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-kriminal.png" tvg-id="vf-kriminal" tvg-description="Сериальный канал пакета «VF»: криминальные сериалы и детективы.",VF Криминал
 http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/13093/index.m3u8
 
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-serial.png" tvg-id="vf-serial" tvg-description="Сериальный канал пакета «VF»: сериалы нон-стоп.",VF Сериал
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/13087/index.m3u8
+#http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/11115/index.m3u8
 
 # Viju+
 
@@ -330,6 +335,8 @@ http://vbxvnxfr.megatv.fun/iptv/D75X5Q6FURMZYZ/6389/index.m3u8
 # НТВ
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-serial.png" tvg-id="ntv-serial" tvg-description="Телеканал сериалов производства НТВ: детективы, криминальные драмы и комедии.",НТВ Сериалы
+
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/744/index.m3u8
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-xit.png" tvg-id="ntv-xit" tvg-description="Круглосуточный показ популярных остросюжетных сериалов НТВ.",НТВ Хит
 

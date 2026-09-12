@@ -215,7 +215,6 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica" tvg-description="Российский развлекательный телеканал: тревел-шоу, реалити и развлекательные программы.",Пятница!
-http://stream.mcquack.net/181/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce" tvg-description="Федеральный семейно-развлекательный телеканал: анимация, семейные сериалы и комедии.",Солнце
 http://stream.mcquack.net/118/index.m3u8
@@ -403,8 +402,8 @@ http://stream.mcquack.net/269/index.m3u8
 # Юмор
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/2na2.png" tvg-id="2na2" tvg-description="Телеканал взрослой анимации: мультсериалы и комедийные шоу.",2x2
-http://stream.mcquack.net/187/index.m3u8
-#http://185.23.80.23:8080/2x2/index.m3u8
+http://185.23.80.23:8080/2x2/index.m3u8
+#http://stream.mcquack.net/187/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/anekdottv.png" tvg-id="anekdottv" tvg-description="Юмористический телеканал: анекдоты, скетчи и комедийные программы.",Анекдот ТВ
 
@@ -480,3 +479,42 @@ http://62.141.35.207:8080/action/video.m3u8?token=WDJ_ON27CzbeN2
 
 #EXTINF:0 tvg-rec="0" group-title="test",Инфоканал
 
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-09-12 18:30:46  (17 URLs in 17 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-logo="https://tv.alterna.ar/alternatv.png" group-title="test",Alterna TV (720p) [Not 24/7]
+https://tv.alterna.ar/stream/hls/live.m3u8
+#EXTINF:-1 tvg-id="MetropolaTV.ro@SD" tvg-logo="https://i.imgur.com/Gzq05v8.png" group-title="test",Metropola TV (1080p) [Not 24/7]
+https://www.livemetropolatv.ro/MetropolaTV/Metro/playlist.m3u8
+#EXTINF:-1 group-title="test" audio-track="rus", Astrakhan.RU Sport HD
+http://streaming.astrakhan.ru/astrakhanrusporthd/tracks-v1a1/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF История" tvg-id="vf-istorya" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5204.png" tvg-rec="0" group-title="test",VF История
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/13091/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Катастрофы" tvg-id="vf-katastrofy" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4666.png" tvg-rec="7" group-title="test",VF Катастрофы
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/10080/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Кино 4K" tvg-id="vf-kino4k" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4804.png" tvg-rec="0" group-title="test",VF Кино 4K
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/11114/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Классика" tvg-id="vf-klassika" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4646.png" tvg-rec="7" group-title="test",VF Классика
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/10053/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Комедия" tvg-id="vf-komedia" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4648.png" tvg-rec="7" group-title="test",VF Комедия
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/10055/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Мыльные оперы" tvg-id="vf-mylnoper" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5201.png" tvg-rec="0" group-title="test",VF Мыльные оперы
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/13088/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Оскар" tvg-id="vf-oskar" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4794.png" tvg-rec="0" group-title="test",VF Оскар
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/11122/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Сверхъестественное" tvg-id="vf-supernatural" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/6147.png" tvg-rec="0" group-title="test",VF Сверхъестественное
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/17003/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Ужасы" tvg-id="vf-uzhasy" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4599.png" tvg-rec="7" group-title="test",VF Ужасы
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/10008/index.m3u8
+#EXTINF:0 tvg-shift=0 tvg-name="VF Detective" tvg-id="vf-detective" tvg-anyquality=1 tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4792.png" tvg-rec="0" group-title="test",VF Detective
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/11120/index.m3u8
+#EXTINF:0 tvg-name="VF Disney Movie" tvg-id="vf-disney-movie" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/7278.png" tvg-rec="0" group-title="test",VF Disney Movie
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/15010/index.m3u8
+#EXTINF:0 tvg-name="VF HBO" tvg-id="vf-hbo" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/6824.png" tvg-rec="0" group-title="test",VF HBO
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/19428/index.m3u8
+#EXTINF:0 tvg-name="VF Melodrama" tvg-id="vf-melodrama" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/4597.png" tvg-rec="7" group-title="test",VF Melodrama
+http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/10006/index.m3u8
+#EXTINF:-1 group-title="test" audio-track="rus", FilmUADrama HD
+http://stream.mcquack.net/273/index.m3u8
