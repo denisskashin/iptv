@@ -2,57 +2,60 @@
 
 # Классика и джаз
 
-#EXTINF:0 group-title="Классика и джаз" tvg-description="Музыкальный канал пакета «Liberty»: кино прошлых лет и классику. Тематика подборки — «Music Classic».",Liberty Music Classic
+#EXTINF:0 group-title="Классика и джаз",Liberty Music Classic
 
-#EXTINF:0 group-title="Классика и джаз" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Jazz».",Liberty Music Jazz
+#EXTINF:0 group-title="Классика и джаз",Liberty Music Jazz
 
-#EXTINF:0 group-title="Классика и джаз" tvg-description="Телеканал классической музыки, опер и симфонических концертов.",Maestro TV
+#EXTINF:0 group-title="Классика и джаз",Maestro TV
 
-#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/mezzo.png" tvg-id="mezzo" tvg-description="Международный телеканал классической музыки, джаза и танца.",Mezzo
-
-
-#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/mezzo-live-hd.png" tvg-id="mezzo-live-hd" tvg-description="Классика, джаз и мировая музыка в прямых трансляциях (Mezzo Live HD).",Mezzo Live
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/mezzo.png" tvg-id="mezzo",Mezzo
 
 
+http://89.33.29.115:8080/Mezzo_HD/tracks-v1a1/mono.m3u8
 
-#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv" tvg-description="Международный музыкальный телеканал Stingray CMusic: позитивная и вдохновляющая музыка.",Stingray CMusic
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/mezzo-live-hd.png" tvg-id="mezzo-live-hd",Mezzo Live
 
-#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/stingray-djazz.png" tvg-id="stingray-djazz" tvg-description="Телеканал джазовой музыки и концертов Stingray.",Stingray Djazz
 
-#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/iconcerts.png" tvg-id="iconcerts" tvg-description="Концертный телеканал: живые выступления и записи концертов мировых артистов.",Stingray iConcerts
+
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/c-music-tv.png" tvg-id="c-music-tv",Stingray CMusic
+
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/stingray-djazz.png" tvg-id="stingray-djazz",Stingray Djazz
+
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/iconcerts.png" tvg-id="iconcerts",Stingray iConcerts
 https://dash4.antik.sk/live/test_stingray_iconcerts_hd_hevc50/playlist.m3u8
+#http://stream.mcquack.net/267/index.m3u8
 
-#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/stingray-qello.png" tvg-id="stingray-qello" tvg-description="Телеканал концертов и музыкальных документальных фильмов Stingray.",Stingray Qello
+#EXTINF:0 group-title="Классика и джаз" tvg-logo="https://iptvx.one/picons/stingray-qello.png" tvg-id="stingray-qello",Stingray Qello
 
 # Музыка
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/192tv.png" tvg-id="192tv" tvg-description="Музыкальный телеканал 192TV: клипы и музыкальные программы.",192TV
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/192tv.png" tvg-id="192tv",192TV
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1hd-music.png" tvg-id="1hd" tvg-description="Музыкальный телеканал 1HD: клипы в высоком качестве.",1HD Music
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/1hd-music.png" tvg-id="1hd",1HD Music
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/4ever-music.png" tvg-id="4ever-music" tvg-description="Музыкальный телеканал пакета 4ever: клипы и хиты.",4ever Music
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/4ever-music.png" tvg-id="4ever-music",4ever Music
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/m2-ua.png" tvg-id="m2-ua" tvg-description="Украинский музыкальный телеканал украиноязычной музыки.",М2
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/m2-ua.png" tvg-id="m2-ua",М2
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/aiva.png" tvg-id="aiva" tvg-description="Музыкальный телеканал AIVA: современная музыка и клипы.",AIVA
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/aiva.png" tvg-id="aiva",AIVA
 
-#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/AXS%20TV%20HD%20US.png" tvg-description="Американский канал живых концертов и музыкальной документалистики.",AXS
+#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/AXS%20TV%20HD%20US.png",AXS
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-metall.png" tvg-id="box-metall" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «Metall».",BOX Metall
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-metall.png" tvg-id="box-metall",BOX Metall
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «Music 2 4K».",BOX Music 2 4K
+#EXTINF:0 group-title="Музыка",BOX Music 2 4K
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-music-4k.png" tvg-id="box-music-4k" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «Music 4K».",BOX Music 4K
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-music-4k.png" tvg-id="box-music-4k",BOX Music 4K
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-ultrastars-4k.png" tvg-id="box-ultrastars-4k" tvg-description="Музыкальный канал пакета «BOX»: музыкальные клипы и концерты. Тематика подборки — «UltraStars 4K».",BOX UltraStars 4K
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/box-ultrastars-4k.png" tvg-id="box-ultrastars-4k",BOX UltraStars 4K
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" tvg-id="bridge-tv-rock" tvg-description="Музыкальный телеканал Bridge TV: рок-музыка.",Bridge TV Rock
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-rock.png" tvg-id="bridge-tv-rock",Bridge TV Rock
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал Bridge TV: этническая музыка народов мира." tvg-logo="https://iptvx.one/picons/bridge-tv-etno.png" tvg-id="bridge-tv-etno",Bridge TV Этно
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-etno.png" tvg-id="bridge-tv-etno",Bridge TV Этно
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/eu-music.png" tvg-id="eu-music" tvg-description="Музыкальный телеканал EU.Music: европейские хиты и клипы.",EU.Music
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/eu-music.png" tvg-id="eu-music",EU.Music
 
-#EXTINF:0 group-title="Музыка" tvg-description="Аудиоканал радиостанции «Европа Плюс»: лёгкая музыка и хиты.",Europa Plus Light
+#EXTINF:0 group-title="Музыка",Europa Plus Light
 http://mp3128.light.streamr.ru/
 #http://eptop128.streamr.ru/
 #https://hls-01-regions.emgsound.ru/11_msk/96/playlist.m3u8
@@ -69,271 +72,281 @@ http://mp3128.light.streamr.ru/
 #http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/15515/index.m3u8
 #http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/16138/index.m3u8
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал FON Music: фоновая и лаунж-музыка.",FON Music
+#EXTINF:0 group-title="Музыка",FON Music
 
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Concerts».",Fresh Concerts
+#EXTINF:0 group-title="Музыка",Fresh Concerts
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал FRESH Hits: клипы и хиты.",FRESH Hits HD
+#EXTINF:0 group-title="Музыка",FRESH Hits HD
 http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18084/index.m3u8
 #http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18092/index.m3u8
 #http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/18086/index.m3u8
 #http://dff13dfa.ottrast.com/iptv/ZBE628EP2BYBP5/18085/index.m3u8
 #http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/18091/index.m3u8
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Lyrics».",Fresh Lyrics
+#EXTINF:0 group-title="Музыка",Fresh Lyrics
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: премьеры и кинохиты. Тематика подборки — «Pop Hits».",Fresh Pop Hits
+#EXTINF:0 group-title="Музыка",Fresh Pop Hits
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Rock».",Fresh Rock
+#EXTINF:0 group-title="Музыка",Fresh Rock
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Rock Covers».",Fresh Rock Covers
+#EXTINF:0 group-title="Музыка",Fresh Rock Covers
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Sad Music».",Fresh Sad Music
+#EXTINF:0 group-title="Музыка",Fresh Sad Music
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/hit-tv.png" tvg-id="hit-tv" tvg-description="Казахстанский музыкальный телеканал.",Hit TV
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/hit-tv.png" tvg-id="hit-tv",Hit TV
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/inrating.png" tvg-id="inrating" tvg-description="Украинский интерактивный музыкальный телеканал InRating TV.",Inrating
-
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Alternative».",Liberty Music Alternative
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music German».",Liberty Music German
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Hip-Hop».",Liberty Music Hip-Hop
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Indi».",Liberty Music Indi
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music K-POP».",Liberty Music K-POP
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Kinder».",Liberty Music Kinder
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music latino».",Liberty Music latino
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Mix».",Liberty Music Mix
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Pop».",Liberty Music Pop
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Relax».",Liberty Music Relax
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music RnB».",Liberty Music RnB
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Rock».",Liberty Music Rock
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Сountry».",Liberty Music Сountry
-
-#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/M1%20HD.png" tvg-description="Украинский музыкальный телеканал.",M1
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/inrating.png" tvg-id="inrating",Inrating
 
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/mcm-top.png" tvg-id="mcm-top" tvg-description="Французский музыкальный телеканал MCM Top: поп и танцевальные хиты.",MCM Top
+#EXTINF:0 group-title="Музыка",Liberty Music Alternative
+
+#EXTINF:0 group-title="Музыка",Liberty Music German
+
+#EXTINF:0 group-title="Музыка",Liberty Music Hip-Hop
+
+#EXTINF:0 group-title="Музыка",Liberty Music Indi
+
+#EXTINF:0 group-title="Музыка",Liberty Music K-POP
+
+#EXTINF:0 group-title="Музыка",Liberty Music Kinder
+
+#EXTINF:0 group-title="Музыка",Liberty Music latino
+
+#EXTINF:0 group-title="Музыка",Liberty Music Mix
+
+#EXTINF:0 group-title="Музыка",Liberty Music Pop
+
+#EXTINF:0 group-title="Музыка",Liberty Music Relax
+
+#EXTINF:0 group-title="Музыка",Liberty Music RnB
+
+#EXTINF:0 group-title="Музыка",Liberty Music Rock
+
+#EXTINF:0 group-title="Музыка",Liberty Music Сountry
+
+#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/M1%20HD.png",M1
 
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал Melody: мелодичная музыка и ретро-хиты.",Melody
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «MM»: музыкальные клипы и концерты. Тематика подборки — «Rock».",MM Rock
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/mcm-top.png" tvg-id="mcm-top",MCM Top
 
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «MM»: премьеры и кинохиты. Тематика подборки — «World Hits».",MM World Hits
+http://89.33.29.115:8080/MCM/tracks-v1a1/mono.m3u8
+
+#EXTINF:0 group-title="Музыка",Melody
+
+#EXTINF:0 group-title="Музыка",MM Rock
 
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/minimax-kvartirnik.png" tvg-id="minimax-kvartirnik" tvg-description="Музыкальный канал пакета «MM»: музыкальные клипы и концерты. Тематика подборки — «Квартирник».",MM Квартирник
+#EXTINF:0 group-title="Музыка",MM World Hits
 
 
-#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/MTV%20DE.png" tvg-description="Американский фид музыкального телеканала MTV.",MTV
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: хип-хоп, R&B и городская музыка.",MTV Base
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: новинки и премьеры клипов.",MTV Brand New
-
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/mtv-europe.png" tvg-id="mtv-europe" tvg-description="Европейская версия музыкального телеканала MTV.",MTV Europe
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: актуальные хиты и клипы.",MTV Hits
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: поп-музыка и мировые звёзды.",MTV Idol
-
-#EXTINF:0 group-title="Музыка" tvg-description="Круглосуточный музыкальный телеканал MTV без рекламы.",MTV Music 24
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: поп-хиты и молодёжная музыка.",MTV OMG
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: рок и альтернативная музыка.",MTV Pulse
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал MTV: рок-музыка и гитарные хиты.",MTV Rocks
-
-#EXTINF:0 group-title="Музыка" tvg-description="Телеканал MTV: реалити-шоу и развлекательные программы.",MTV Shows
-
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-hits.png" tvg-id="musicbox-hits" tvg-description="Музыкальный телеканал Music Box: актуальные хиты.",Music Box Hits
-
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-sexy.png" tvg-id="musicbox-sexy" tvg-description="Музыкальный телеканал Music Box: клипы для взрослой аудитории.",Music Box Sexy
-
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный телеканал с хитами российской и зарубежной эстрады.",Music Hits+
-
-#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/My%20Hits.png" tvg-description="Эстонский музыкальный телеканал.",My Hits
-
-#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/NR1%20TURK%20TV%20HD.png" tvg-description="Турецкий музыкальный телеканал.",Nr1 Turk
-
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/sky-high-concert.png" tvg-id="sky-high-concert" tvg-description="Музыкальный канал пакета «Sky High»: музыкальные клипы и концерты. Тематика подборки — «Concert».",Sky High Concert
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/minimax-kvartirnik.png" tvg-id="minimax-kvartirnik",MM Квартирник
 
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Sky High»: музыкальные клипы и концерты. Тематика подборки — «LO FI».",Sky High LO FI
+#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/MTV%20DE.png",MTV
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Sky High»: музыкальные клипы и концерты. Тематика подборки — «Music».",Sky High Music
+#EXTINF:0 group-title="Музыка",MTV Base
+
+#EXTINF:0 group-title="Музыка",MTV Brand New
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/mtv-europe.png" tvg-id="mtv-europe",MTV Europe
+
+#EXTINF:0 group-title="Музыка",MTV Hits
+
+#EXTINF:0 group-title="Музыка",MTV Idol
+
+#EXTINF:0 group-title="Музыка",MTV Music 24
+
+#EXTINF:0 group-title="Музыка",MTV OMG
+
+#EXTINF:0 group-title="Музыка",MTV Pulse
+
+#EXTINF:0 group-title="Музыка",MTV Rocks
+
+#EXTINF:0 group-title="Музыка",MTV Shows
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-hits.png" tvg-id="musicbox-hits",Music Box Hits
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/musicbox-sexy.png" tvg-id="musicbox-sexy",Music Box Sexy
+
+#EXTINF:0 group-title="Музыка",Music Hits+
+
+#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/My%20Hits.png",My Hits
+
+#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/NR1%20TURK%20TV%20HD.png",Nr1 Turk
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/sky-high-concert.png" tvg-id="sky-high-concert",Sky High Concert
 
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/song-tv-ru.png" tvg-id="song-tv-ru" tvg-description="Армянский музыкальный телеканал Song TV.",Song TV
+#EXTINF:0 group-title="Музыка",Sky High LO FI
+
+#EXTINF:0 group-title="Музыка",Sky High Music
+
+
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/song-tv-ru.png" tvg-id="song-tv-ru",Song TV
 http://songtvam.ru:8060/hd/playlist.m3u8
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/team-muzloft.png" tvg-id="team-muzloft" tvg-description="Музыкальный канал пакета «TEAM»: музыкальные клипы и концерты. Тематика подборки — «Muzloft».",TEAM Muzloft
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/team-muzloft.png" tvg-id="team-muzloft",TEAM Muzloft
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/trt-muzik-tr.png" tvg-id="trt-muzik-tr" tvg-description="Турецкий музыкальный телеканал TRT.",TRT MÜZİK
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/trt-muzik-tr.png" tvg-id="trt-muzik-tr",TRT MÜZİK
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/velilla-hardheavyconc.png" tvg-id="velilla-hardheavyconc" tvg-description="Музыкальный канал пакета «Velilla TV»: музыкальные клипы и концерты. Тематика подборки — «Hard And Heavy Concerts».",Velilla TV Hard And Heavy Concerts
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/velilla-hardheavyconc.png" tvg-id="velilla-hardheavyconc",Velilla TV Hard And Heavy Concerts
 
-#EXTINF:0 group-title="Музыка" tvg-description="Музыкальный канал пакета «Velilla TV»: музыкальные клипы и концерты. Тематика подборки — «Magenta Musik Festivals».",Velilla TV Magenta Musik Festivals
+#EXTINF:0 group-title="Музыка",Velilla TV Magenta Musik Festivals
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/velilla-poprockconc.png" tvg-id="velilla-poprockconc" tvg-description="Музыкальный канал пакета «Velilla TV»: музыкальные клипы и концерты. Тематика подборки — «Pop And Rock Concerts».",Velilla TV Pop And Rock Concerts
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/velilla-poprockconc.png" tvg-id="velilla-poprockconc",Velilla TV Pop And Rock Concerts
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/vf-koncerty.png" tvg-id="vf-koncerty" tvg-description="Канал пакета «VF» с концертами и музыкальными программами.",VF Концерты
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/vf-koncerty.png" tvg-id="vf-koncerty",VF Концерты
 http://33a28853.cbilant.com/iptv/HVGN6PEPMAXGE2R9NS99WXG4/14159/index.m3u8
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/viva-rus.png" tvg-id="viva-rus" tvg-description="Российская версия музыкального телеканала VIVA.",VIVA Russia
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/viva-rus.png" tvg-id="viva-rus",VIVA Russia
 
-#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/Yamtihoni%20IL.png" tvg-description="Израильский музыкальный телеканал средиземноморской музыки.",Yam Tihoni
+#EXTINF:0 group-title="Музыка" tvg-logo="http://icon.ru-tv.site/icon/Yamtihoni%20IL.png",Yam Tihoni
 
-#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/yosso-musichits.png" tvg-id="yosso-musichits" tvg-description="Музыкальный канал пакета «Yosso TV»: премьеры и кинохиты. Тематика подборки — «Music Hits».",Yosso TV Music Hits
+#EXTINF:0 group-title="Музыка" tvg-logo="https://iptvx.one/picons/yosso-musichits.png" tvg-id="yosso-musichits",Yosso TV Music Hits
 
 # Ретро и шансон
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/la-minor.png" tvg-id="la-minor" tvg-description="Российский музыкальный телеканал шансона и авторской песни.",Ля-минор
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/la-minor.png" tvg-id="la-minor",Ля-минор
 
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/shanson-tv.png" tvg-id="shanson-tv" tvg-description="Музыкальный телеканал шансона.",Шансон ТВ
+http://89.33.29.115:8080/Lya-minor/tracks-v1a1/mono.m3u8
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/shanson-tv.png" tvg-id="shanson-tv",Шансон ТВ
 
 
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" tvg-id="bridge-tv-classic" tvg-description="Классика музыкальных клипов: золотые хиты 80-х, 90-х и 2000-х (Bridge Media).",Bridge TV Classic
+http://89.33.29.115:8080/ShansonTV/tracks-v1a1/mono.m3u8
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-classic.png" tvg-id="bridge-tv-classic",Bridge TV Classic
 
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" tvg-id="bridge-tv-shlager" tvg-description="Музыкальный телеканал Bridge TV: шлягеры и хиты прошлых лет.",Bridge TV Шлягер
+http://89.33.29.115:8080/Bridge_TV_Classic/tracks-v1a1/mono.m3u8
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «Fresh»: кино прошлых лет и классику. Тематика подборки — «Retro».",Fresh Retro
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/bridge-tv-shlager.png" tvg-id="bridge-tv-shlager",Bridge TV Шлягер
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «KLI»: кино прошлых лет и классику. Тематика подборки — «Retro».",KLI Retro
+#EXTINF:0 group-title="Ретро и шансон",Fresh Retro
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «Liberty»: кино прошлых лет и классику. Тематика подборки — «Music 90s Hits».",Liberty Music 90s Hits
+#EXTINF:0 group-title="Ретро и шансон",KLI Retro
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Chanson».",Liberty Music Chanson
+#EXTINF:0 group-title="Ретро и шансон",Liberty Music 90s Hits
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный телеканал MTV: хиты 2000-х.",MTV 00s
+#EXTINF:0 group-title="Ретро и шансон",Liberty Music Chanson
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный телеканал MTV: хиты 1990-х.",MTV 90s
+#EXTINF:0 group-title="Ретро и шансон",MTV 00s
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/mtv-classic-us.png" tvg-id="mtv-classic-us" tvg-description="Классические музыкальные клипы MTV.",MTV Classic
+#EXTINF:0 group-title="Ретро и шансон",MTV 90s
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-description="Музыкальный телеканал MTV: золотая коллекция клипов.",MTV Gold
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/mtv-classic-us.png" tvg-id="mtv-classic-us",MTV Classic
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/musicbox-classic.png" tvg-id="musicbox-classic" tvg-description="Классические музыкальные хиты (Music Box Classic).",Music Box Classic
+#EXTINF:0 group-title="Ретро и шансон",MTV Gold
+
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/musicbox-classic.png" tvg-id="musicbox-classic",Music Box Classic
 https://dash4.antik.sk/live/mb_classic/index.m3u8
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/musicbox-gold.png" tvg-id="musicbox" tvg-description="Музыкальный телеканал Music Box: золотые хиты прошлых десятилетий.",Musicbox Gold
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/musicbox-gold.png" tvg-id="musicbox",Musicbox Gold
 
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/veles-mafon.png" tvg-id="veles-mafon" tvg-description="Музыкальный канал пакета «VeleS»: музыкальные клипы и концерты. Тематика подборки — «Магнитофон».",VeleS Магнитофон
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/veles-mafon.png" tvg-id="veles-mafon",VeleS Магнитофон
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/velilla-eurodance90s.png" tvg-id="velilla-eurodance90s" tvg-description="Музыкальный канал пакета «Velilla TV»: кино прошлых лет и классику. Тематика подборки — «Eurodance 90s».",Velilla TV Eurodance 90s
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/velilla-eurodance90s.png" tvg-id="velilla-eurodance90s",Velilla TV Eurodance 90s
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/velilla-rusdance.png" tvg-id="velilla-rusdance" tvg-description="Музыкальный канал пакета «Velilla TV»: кино прошлых лет и классику. Тематика подборки — «Russiandance 90s».",Velilla TV Russiandance 90s
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/velilla-rusdance.png" tvg-id="velilla-rusdance",Velilla TV Russiandance 90s
 
-#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/yosso-shanson.png" tvg-id="yosso-shanson" tvg-description="Музыкальный канал пакета «Yosso TV»: музыкальные клипы и концерты. Тематика подборки — «Шансон».",Yosso TV Шансон
+#EXTINF:0 group-title="Ретро и шансон" tvg-logo="https://iptvx.one/picons/yosso-shanson.png" tvg-id="yosso-shanson",Yosso TV Шансон
 
 # Русская музыка
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/vostok-tv.png" tvg-id="vostok-tv" tvg-description="Музыка и культура Востока.",Восток ТВ
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/vostok-tv.png" tvg-id="vostok-tv",Восток ТВ
 http://yhdbyndf.russtv.net/iptv/X88VFTA955FLLD/1054/index.m3u8
 #http://911play.ru:3456/live/VostokSite/cdnVostaoc911tv123456/489.m3u8
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" tvg-id="zhar-ptica" tvg-description="Музыкальный телеканал русской народной и фольклорной музыки.",Жар Птица
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/zhar-ptica.png" tvg-id="zhar-ptica",Жар Птица
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/zhara.png" tvg-id="zhara" tvg-description="Музыкальный канал ЖАРА: русские хиты, концерты и фестивали.",Жара
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/zhara.png" tvg-id="zhara",Жара
 http://stream.mcquack.net/386/index.m3u8
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muztv.png" tvg-id="muztv" tvg-description="Российский музыкальный телеканал: клипы, хит-парады и премии.",Муз ТВ
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muztv.png" tvg-id="muztv",Муз ТВ
 http://stream.mcquack.net/86/index.m3u8
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-id="muzyka-pervogo" tvg-description="Музыкальный телеканал с клипами от Первого канала.",Музыка первого
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/muzyka-pervogo.png" tvg-id="muzyka-pervogo",Музыка первого
 
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz" tvg-description="Музыкальный телеканал с клипами.",Первый музыкальный
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/1muz.png" tvg-id="onemuz",Первый музыкальный
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/tnt-music.png" tvg-id="tnt-music" tvg-description="Музыкальный канал ТНТ Music: актуальные клипы и чарты.",ТНТ music
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/tnt-music.png" tvg-id="tnt-music",ТНТ music
 
 
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/box-ru-rap.png" tvg-id="box-ru-rap" tvg-description="Музыкальный канал пакета «BOX»: отечественное кино. Тематика подборки — «RU.RAP».",BOX RU.RAP
+http://89.33.29.115:8080/TNT_Music/tracks-v1a1/mono.m3u8
+
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/box-ru-rap.png" tvg-id="box-ru-rap",BOX RU.RAP
 http://hy4dzynk.rostelekom.xyz/iptv/QXRPSB7GMN4VWW/20171/index.m3u8
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" tvg-id="bridge-tv-fresh" tvg-description="Музыкальный телеканал Bridge TV: новинки российской и зарубежной музыки.",Bridge TV Fresh
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-fresh.png" tvg-id="bridge-tv-fresh",Bridge TV Fresh
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" tvg-id="bridge-tv-dance" tvg-description="Музыкальный телеканал Bridge TV: актуальные хиты.",Bridge TV Hits
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-dance.png" tvg-id="bridge-tv-dance",Bridge TV Hits
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" tvg-id="bridge-tv-ruxit" tvg-description="Музыкальный телеканал отечественной популярной музыки.",Bridge TV Русский Хит
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/bridge-tv-ruxit.png" tvg-id="bridge-tv-ruxit",Bridge TV Русский Хит
 
-#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный канал пакета «Fresh»: отечественное кино. Тематика подборки — «Russian Pop».",Fresh Russian Pop
+#EXTINF:0 group-title="Русская музыка",Fresh Russian Pop
 
-#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный канал пакета «Fresh»: отечественное кино. Тематика подборки — «Russian Rap».",Fresh Russian Rap
+#EXTINF:0 group-title="Русская музыка",Fresh Russian Rap
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/kbc-nash-rock.png" tvg-id="kbc-nash-rock" tvg-description="Музыкальный канал пакета «KBC»: музыкальные клипы и концерты. Тематика подборки — «Наш Rock».",KBC-Наш Rock
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/kbc-nash-rock.png" tvg-id="kbc-nash-rock",KBC-Наш Rock
 
 
-#EXTINF:0 group-title="Русская музыка" tvg-description="Музыкальный канал пакета «Liberty»: отечественное кино. Тематика подборки — «Music RU Hit».",Liberty Music RU Hit
+#EXTINF:0 group-title="Русская музыка",Liberty Music RU Hit
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/ru-tv.png" tvg-id="ru-tv" tvg-description="Музыкальный телеканал Русской Медиагруппы: русские клипы и хит-парады.",RU.TV
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/ru-tv.png" tvg-id="ru-tv",RU.TV
 https://rutvkids.ru/live/efir/index.m3u8
 #http://stream.mcquack.net/109/index.m3u8
 
-#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox" tvg-description="Российский музыкальный телеканал: клипы отечественных исполнителей.",Russian MusicBox
+#EXTINF:0 group-title="Русская музыка" tvg-logo="https://iptvx.one/picons/russian-musicbox.png" tvg-id="russian-musicbox",Russian MusicBox
 
 # Танцевальная и электронная
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Танцевальная и электронная музыка.",Best of Dance TV
+#EXTINF:0 group-title="Танцевальная и электронная",Best of Dance TV
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-tv.png" tvg-id="bridge-tv" tvg-description="Музыкальный телеканал с клипами.",Bridge TV
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-tv.png" tvg-id="bridge-tv",Bridge TV
 
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd" tvg-description="Премиальная зарубежная музыка: стильные клипы и электроника (Bridge Media).",Bridge TV Deluxe
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/bridge-hd.png" tvg-id="bridge-hd",Bridge TV Deluxe
 
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" tvg-id="clubbing-tv" tvg-description="Международный телеканал клубной и электронной музыки.",Clubbing TV
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/clubbing-tv.png" tvg-id="clubbing-tv",Clubbing TV
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/deluxe-lounge-de.png" tvg-id="deluxe-lounge-de" tvg-description="Музыкальный канал: лаундж и спокойная музыка.",Deluxe Lounge
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/deluxe-lounge-de.png" tvg-id="deluxe-lounge-de",Deluxe Lounge
 https://d46c0ebf9ef94053848fdd7b1f2f6b90.mediatailor.eu-central-1.amazonaws.com/v1/master/81bfcafb76f9c947b24574657a9ce7fe14ad75c0/live-prod/9a087b26-8be4-11eb-a7de-bacfe1f83627/0/master.m3u8?country=DE&optout=0&uid=749544ec3d9a45d48c600d03cac91dfd&vendor=philips
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Электронная танцевальная музыка (EDM).",EDM Mainstage
+#EXTINF:0 group-title="Танцевальная и электронная",EDM Mainstage
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv" tvg-description="Телеверсия радио «Европа Плюс»: топовые зарубежные и русские хиты.",Europa Plus TV
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/europa-plus-tv.png" tvg-id="europa-plus-tv",Europa Plus TV
 http://stream.mcquack.net/184/index.m3u8
 #http://85bf102f.kazaktelekom.com/iptv/PV75VQNMKV69RQ/20029/index.m3u8
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Fresh»: музыкальные клипы и концерты. Тематика подборки — «Dance».",Fresh Dance
+#EXTINF:0 group-title="Танцевальная и электронная",Fresh Dance
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный телеканал Kiss TV: поп- и танцевальные хиты.",Kiss
+#EXTINF:0 group-title="Танцевальная и электронная",Kiss
 https://kisstv.siliconweb.com/kissfm/kisstv/chunks.m3u8
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Турецкий музыкальный телеканал.",KN Music TV
+#EXTINF:0 group-title="Танцевальная и электронная",KN Music TV
 https://cdn4.yayin.com.tr/kntv/tracks-v1a1/mono.m3u8
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Dj».",Liberty Music Dj
+#EXTINF:0 group-title="Танцевальная и электронная",Liberty Music Dj
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный канал пакета «Liberty»: музыкальные клипы и концерты. Тематика подборки — «Music Electronic».",Liberty Music Electronic
+#EXTINF:0 group-title="Танцевальная и электронная",Liberty Music Electronic
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Электронная музыка: minimal и deep tech.",Minimal / Deep Tech
+#EXTINF:0 group-title="Танцевальная и электронная",Minimal / Deep Tech
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный телеканал MTV: клубная и танцевальная музыка.",MTV Club
+#EXTINF:0 group-title="Танцевальная и электронная",MTV Club
 
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-description="Музыкальный телеканал MTV: танцевальная и электронная музыка.",MTV Dance
+#EXTINF:0 group-title="Танцевальная и электронная",MTV Dance
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/musicbox-dance.png" tvg-id="musicbox-dance" tvg-description="Музыкальный телеканал Music Box: танцевальная музыка.",Music Box Dance
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/musicbox-dance.png" tvg-id="musicbox-dance",Music Box Dance
 
-#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/veles-djset.png" tvg-id="veles-djset" tvg-description="Музыкальный канал пакета «VeleS»: музыкальные клипы и концерты. Тематика подборки — «Dj Set».",VeleS Dj Set
+#EXTINF:0 group-title="Танцевальная и электронная" tvg-logo="https://iptvx.one/picons/veles-djset.png" tvg-id="veles-djset",VeleS Dj Set
 
