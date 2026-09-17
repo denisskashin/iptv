@@ -56,6 +56,7 @@ http://89.33.29.115:8080/TERRA_HD/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Документальные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore",Viasat Explore
 http://89.33.29.115:8080/Viasat_Explorer/index.m3u8
+#http://89.33.29.115:8080/Viasat_Explorer/tracks-v1a1/mono.m3u8
 
 # История и военные
 
@@ -97,6 +98,7 @@ http://45.177.114.114/HISTORY/index.m3u8
 #http://s1.00x00.es/20963/index.m3u8?token=6AC15D94169C
 
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/h2.png" tvg-id="h2",History2
+http://89.33.29.115:8080/H2_HD/tracks-v1a1/mono.m3u8
 
 
 #EXTINF:0 group-title="История и военные" tvg-logo="http://icon.ru-tv.site/icon/Spiegel%20Geschichte%20HD%20DE.png",SPIEGEL GESCHICHTE
@@ -145,10 +147,11 @@ http://stream.mcquack.net/125/index.m3u8
 http://89.33.29.115:8080/Nauka_2.0/index.m3u8
 #http://stream.mcquack.net/125/index.m3u8
 
-#EXTINF:0 group-title="Наука и техника",Первый Космический
+#EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/kosmichesky.png" tvg-id="eureka-hd",Первый Космический
 
 
 http://l7psy1ox.zyntras.top/iptv/C8HT2KRR3S43HX/908/index.m3u8
+#http://89.33.29.115:8080/Eureka_HD/tracks-v1a1/mono.m3u8
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/galaxy-tv.png" tvg-id="galaxy-tv",Тайны Галактики
 
@@ -274,6 +277,10 @@ http://stream.mcquack.net/149/index.m3u8
 
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/viasat-nature.png" tvg-id="viasat-nature",Viasat Nature
+http://89.33.29.115:8080/Viasat_Nature_HD/tracks-v1a1/mono.m3u8
+
+#EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/zoopark.png" tvg-id="zoopark",ZooПарк
+http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/731/index.m3u8
 
 # Путешествия
 
