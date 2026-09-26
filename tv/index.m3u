@@ -105,7 +105,7 @@ http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/14035/index.m3u8
 
 #EXTINF:0 group-title="Международные версии" tvg-logo="https://iptvx.one/picons/tvci.png" tvg-id="tvci",ТВ Центр International
 
-#EXTINF:0 group-title="Международные версии",ТНТ International
+#EXTINF:0 group-title="Международные версии" tvg-logo="https://iptvx.one/picons/tnt-int-eu.png" tvg-id="tnt-int-eu",ТНТ International
 
 # Новости и политика
 
@@ -188,6 +188,7 @@ http://176.100.46.245:90/red/index.m3u8
 #http://stream.mcquack.net/69/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu",8tv
+http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/bolshoj-efir.png" tvg-id="bolshoj-efir",Большой эфир
 
@@ -209,7 +210,6 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce",Солнце
 http://stream.mcquack.net/118/index.m3u8
-#http://s1.00x00.es/10637/index.m3u8?token=6AC15D94169C
 #http://stream.mcquack.net/118/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 #http://stream.mcquack.net/118/tracks-v1a1/mono.ts.m3u8
 
@@ -408,7 +408,6 @@ http://67.218.111.36/BogBlagTV/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/soyuz.png" tvg-id="soyuz",Союз
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="https://iptvx.one/picons/spas.png" tvg-id="spas",Спас
-http://31.148.5.241/kanal_12/index.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика" tvg-logo="http://icon.ru-tv.site/icon/%D0%A2%D0%91%D0%9D%20orig.png",ТБН
 
@@ -432,7 +431,6 @@ http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
 # Федеральные
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" tvg-id="5kanal-ru",5 канал
-http://s1.00x00.es/10632/index.m3u8?token=6AC15D94169C
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda",Звезда
 http://51.158.144.33:2021/zvezda/index.m3u8
@@ -495,144 +493,4 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz1.png" tvg-id="raz1",RAZ 1
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2",RAZ 2
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-09-25 14:13:12  (783 URLs in 602 channel group(s))
-# ───────────────────────────────────────────────────
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TNT International Belarus (1080p)
-http://05cea6e8.ucomist.net/iptv/VK7YCHHWNDD8XC/15230/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Channel 8 International (576p) [Geo-blocked]
-http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
-
-#EXTINF:-1 group-title="test",РенТВ Молдова
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Ani (576p)
-#http://stream.mcquack.net/306/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Boks TV (576p)
-#http://stream.mcquack.net/154/index.m3u8
-
-#EXTINF:-1 group-title="test",ABTO24
-
-#EXTINF:-1 group-title="test",НТВ-ХИТ
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Gulli Girl (576p)
-#http://stream.mcquack.net/305/index.m3u8
-
-#EXTINF:-1 group-title="test",Nat Geo Wild
-#http://stream.mcquack.net/149/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",KHL (576p)
-#http://stream.mcquack.net/166/index.m3u8
-
-#EXTINF:-1 group-title="test",CTC Kids HD
-
-#EXTINF:-1 tvg-id="no_epg" tvg-logo="http://odinson.me/storage/iptv/channels/yqo7as9fqw.png" group-title="test" timeshift="3" catchup="default" catchup-source="http://66.90.110.10:8080/iSU67k1Rv7/mpegts?token=CNVkbIWpdNQAUXGC&utc=${start}" catchup-days="3",Agro TV SD Moldova MD
-https://hls-01-regions.emgsound.ru/11_msk/96/playlist.m3u8
-#http://eptop128.streamr.ru/
-#http://mp3128.new.streamr.ru/
-#https://hls-01-europaplus-party.emgsound.ru/22/112/playlist.m3u8
-#https://hls-01-europaplus-urban.emgsound.ru/28/playlist.m3u8
-#https://hls-01-fresh.emgsound.ru/9/playlist.m3u8
-#https://hls-01-europaplus-kpop.emgsound.ru/europaplus-kpop/playlist.m3u8
-#https://hls-01-europaplus-rock.emgsound.ru/europaplus-rock/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Mult (576p)
-#http://stream.mcquack.net/232/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Nauka (576p)
-#http://stream.mcquack.net/125/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",NST (576p)
-#http://stream.mcquack.net/207/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",STS Love (576p)
-#http://stream.mcquack.net/183/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",TiJi (576p)
-#http://stream.mcquack.net/111/index.m3u8
-
-#EXTINF:-1 group-title="test",9 Волна
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Vremya (576p)
-#http://stream.mcquack.net/237/index.m3u8
-
-#EXTINF:-1 group-title="test",viju+ Comedy
-
-#EXTINF:-1 group-title="test",viju+ Megahit
-#http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/201/index.m3u8
-
-#EXTINF:-1 group-title="test",viju+ Premiere
-
-#EXTINF:-1 group-title="test",ducktv
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",T24 (576p)
-#http://stream.mcquack.net/209/index.m3u8
-
-#EXTINF:-1 tvg-name="Гриффины" tvg-id="no_epg_mult" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/гриффины.png" group-title="test",Гриффины
-http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/30187/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Doctor (576p)
-#http://stream.mcquack.net/80/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Indiyskoye Kino (576p)
-#http://stream.mcquack.net/104/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Kinomix (576p)
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Kinokomedija (576p)
-#http://stream.mcquack.net/265/index.m3u8
-
-#EXTINF:-1 group-title="test",КОННЫЙ МИР
-http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",UDAR (1080p)
-#http://stream.mcquack.net/279/index.m3u8
-
-#EXTINF:-1 group-title="test",КХЛ
-
-#EXTINF:-1 tvg-id="no_epg_cinema" tvg-logo="http://odinson.me/storage/iptv/channels/tm9dCeb8gO.png" group-title="test" timeshift="2" catchup="default" catchup-source="http://66.90.110.10:8080/kcmXd3DL7Y/mpegts?token=CNVkbIWpdNQAUXGC&utc=${start}" catchup-days="2",BEST Films HD
-http://tvoetv.space:8080/tvoetv/index.m3u8
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Solnce (576p)
-#http://stream.mcquack.net/118/index.m3u8
-
-#EXTINF:-1 group-title="test",GRT
-
-#EXTINF:-1 group-title="test",NTS
-
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Match! Arena (576p)
-#http://stream.mcquack.net/163/index.m3u8
-
-#EXTINF:-1 group-title="test",Телеканал 360
-
-#EXTINF:-1 group-title="test",Усадьба-ТВ
-
-#EXTINF:-1 tvg-id="filmua-drama" tvg-logo="http://odinson.me/storage/iptv/channels/tCE2vYJ9kl.png" group-title="test",Film.Ua Drama HD
-http://stream.mcquack.net/273/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="test",Travel XP HD
-http://stream.mcquack.net/451/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="test",Insight TV HD
-http://stream.mcquack.net/361/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="test",Nature Relaxation
-http://stream.mcquack.net/459/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="test",Закон ТВ
-http://stream.mcquack.net/406/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="test",М1
-http://stream.mcquack.net/218/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="test",Спорт 5
-
-#EXTINF:-1 group-title="test",VPN Киномикс HD
-http://stream.mcquack.net/133/tracks-v1a1/mono.ts.m3u8
-
-#EXTINF:-1 group-title="test",VPN Fox Life HD
 
