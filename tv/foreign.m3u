@@ -1,27 +1,14 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
-
-#EXTINF:0 group-title="Великобритания",BBC First
-
 #EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/kinoboevik-kz.png" tvg-id="kinoboevik-kz",КиноБоевик
-
-http://66.90.110.10:8080/IbF7ubicZ3/index.m3u8?token=CNVkbIWpdNQAUXGC
 
 #EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/mirovoe-kino-kz.png" tvg-id="mirovoe-kino-kz",Мировое Кино
 
-http://66.90.110.10:8080/pcATkOOJn2/index.m3u8?token=CNVkbIWpdNQAUXGC
-
 #EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/premium-kino-kz.png" tvg-id="premium-kino-kz",Премиум Кино
-
-http://66.90.110.10:8080/Hk12mVgvRR/index.m3u8?token=CNVkbIWpdNQAUXGC
 
 #EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/semejnoe-kino-kz.png" tvg-id="semejnoe-kino-kz",Семейное Кино
 
-http://66.90.110.10:8080/j4qX1GZAaq/index.m3u8?token=CNVkbIWpdNQAUXGC
-
 #EXTINF:0 group-title="Казахстан" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твое ТВ
-
-
 http://tvoetv.space:8080/tvoetv/index.m3u8
 
 #EXTINF:0 group-title="Киргизия",CineMax
@@ -42,32 +29,16 @@ http://stream.mcquack.net/471/index.m3u8
 
 #EXTINF:0 group-title="Киргизия",Kino Kanal
 
-# Китай
-
-#EXTINF:0 group-title="Китай" tvg-logo="https://iptvx.one/picons/cgtn.png" tvg-id="cgtn",CGTN
-
 # Новости
-
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/bbc.png" tvg-id="bbc",BBC World News
 
-http://66.90.110.10:8080/a3HAVUxKJd/index.m3u8?token=CNVkbIWpdNQAUXGC
-
 #EXTINF:0 group-title="Новости",Bloomberg
-
-http://66.90.110.10:8080/U4IiKx8BUXVXpTmt/index.m3u8?token=CNVkbIWpdNQAUXGC
-
-#EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/cnbc-europe.png" tvg-id="cnbc-europe",CNBC
-
 
 #EXTINF:0 group-title="Новости",CNN International
 
-http://66.90.110.10:8080/qs9tZSL327/index.m3u8?token=CNVkbIWpdNQAUXGC
-#http://66.90.110.10:8080/mOdyZwK6tI/index.m3u8?token=CNVkbIWpdNQAUXGC
-
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/deutsche-welle-eu.png" tvg-id="deutsche-welle-eu",Deutsche Welle
 http://stream.mcquack.net/440/index.m3u8
-#http://66.90.110.10:8080/S4Ik2RI3MT/index.m3u8?token=CNVkbIWpdNQAUXGC
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/euronews.png" tvg-id="euronews",Euronews
 http://89.33.29.115:8080/Euronews/index.m3u8
@@ -76,31 +47,9 @@ http://89.33.29.115:8080/Euronews/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/fox-news-us.png" tvg-id="fox-news-us",Fox News
 
-
-
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/rt-news.png" tvg-id="rt-news",RT
 https://wisewatchoott.wiseplayout.com/RT/master.m3u8
 #https://rumble.com/live-hls-dvr/33aw1a/playlist.m3u8
-
-# США
-
-#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/ABC.png",ABC
-
-#EXTINF:0 group-title="США" tvg-logo="https://iptvx.one/picons/bbc-amerika-us.png" tvg-id="bbc-amerika-us",BBC America
-
-#EXTINF:0 group-title="США",BOUNCE
-
-#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/Bravo%20HD%20US.png",Bravo US
-
-#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/CBS%20New%20York.png",CBS NY
-
-#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/CNBC%20Canada%20CA.png",CNBC US
-
-#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/CNN%20CA.png",CNN US
-
-#EXTINF:0 group-title="США" tvg-logo="https://iptvx.one/picons/msnbc-us.png" tvg-id="msnbc-us",MSNBC
-
-#EXTINF:0 group-title="США" tvg-logo="http://icon.ru-tv.site/icon/NBC2.png",NBC
 
 # Франция
 
@@ -108,42 +57,24 @@ https://wisewatchoott.wiseplayout.com/RT/master.m3u8
 
 # Эстония
 
-
-http://66.90.110.10:8080/tLkQZes6I2/index.m3u8?token=CNVkbIWpdNQAUXGC
-
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/duo3tv.png" tvg-id="sony-channel-ee",Duo 3 EE
 
-
-http://66.90.110.10:8080/RKMSNR2I3K/index.m3u8?token=CNVkbIWpdNQAUXGC
-#http://66.90.110.10:8080/nbymwJQjCo/index.m3u8?token=CNVkbIWpdNQAUXGC
-
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/kanal-11-ee.png" tvg-id="kanal-11-ee",Duo 4
-
-http://66.90.110.10:8080/v3Oflw1uNi/index.m3u8?token=CNVkbIWpdNQAUXGC
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/Duo%205.png",Duo 5 EE
 
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/duo6tv.png" tvg-id="sony-turbo-ee",Duo 6 EE
 
-
-http://66.90.110.10:8080/op5zBYqcoC/index.m3u8?token=CNVkbIWpdNQAUXGC
-#http://66.90.110.10:8080/yjW6OqsX2w/index.m3u8?token=CNVkbIWpdNQAUXGC
-
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/eesti-kanal.png" tvg-id="eesti-kanal",EESTI KANAL
-
-http://66.90.110.10:8080/FHx1zDWyFB/index.m3u8?token=CNVkbIWpdNQAUXGC
 
 #EXTINF:0 tvg-id="etv-ee" group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV%20EE.png",ETV
 https://sb.err.ee/live/etv.m3u8
-#http://66.90.110.10:8080/G5cd7YkXsn/index.m3u8?token=CNVkbIWpdNQAUXGC
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV2%20EE.png",ETV 2
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV+%20EE.png",ETV+
 
-
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/Duo7%20HD%20EE.png",Kanal 7 EE
-
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/Kanal%202%20EE.png",Kanal2
 
@@ -152,8 +83,5 @@ https://le02.euddn.net/6487956abb8faf0706d8c4c2465f54cb3625b812fec8e13d11668907f
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/TV3%20EE.png",TV3 EE
 
-
-
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/TV6%20LT.png",TV6 EE
-
 
