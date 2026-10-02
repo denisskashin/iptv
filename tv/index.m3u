@@ -211,7 +211,6 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce",Солнце
 http://stream.mcquack.net/118/index.m3u8
 #http://stream.mcquack.net/118/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
-#http://stream.mcquack.net/118/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Развлекательные",Страна ТВ HD
 
@@ -491,6 +490,17 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che",ЧЕ
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz1.png" tvg-id="raz1",RAZ 1
+http://stream.mcquack.net/463/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2",RAZ 2
+http://stream.mcquack.net/464/tracks-v1a1/mono.ts.m3u8
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-10-02 17:59:48  (11 URLs in 11 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",360° Новости
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
+#EXTINF:0 tvg-name="StrahTV Ералаш" tvg-id="no_epg" tvg-logo="http://epg.one/img2/4775.png" tvg-rec="7" group-title="test",StrahTV Ералаш
+http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/11058/index.m3u8
 
