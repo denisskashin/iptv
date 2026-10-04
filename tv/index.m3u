@@ -471,7 +471,6 @@ http://185.23.80.23:8080/2x2/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/perec-int.png" tvg-id="perec-int",Перец
-#http://bde.online24.pm/play/484/F6E1DD42544DD10/video.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan",Сарафан
 
@@ -490,14 +489,12 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che",ЧЕ
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz1.png" tvg-id="raz1",RAZ 1
-http://stream.mcquack.net/463/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2",RAZ 2
-http://stream.mcquack.net/464/tracks-v1a1/mono.ts.m3u8
-
 
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",360° Новости
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
+
 #EXTINF:0 tvg-name="StrahTV Ералаш" tvg-id="no_epg" tvg-logo="http://epg.one/img2/4775.png" tvg-rec="7" group-title="test",StrahTV Ералаш
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/11058/index.m3u8
 #http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
@@ -509,5 +506,7 @@ http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/11058/index.m3u8
 #https://hls-01-fresh.emgsound.ru/9/playlist.m3u8
 #https://hls-01-europaplus-kpop.emgsound.ru/europaplus-kpop/playlist.m3u8
 #https://hls-01-europaplus-rock.emgsound.ru/europaplus-rock/playlist.m3u8
+
 #EXTINF:-1 group-title="test",ATR HD
 http://stream.mcquack.net/244/tracks-v1a1/mono.ts.m3u8
+
