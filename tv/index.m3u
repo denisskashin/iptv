@@ -185,7 +185,6 @@ http://185.23.80.23:8080/TVBRICS/index.m3u8
 http://176.100.46.245:90/red/index.m3u8
 #http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/559/index.m3u8
 #http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/559/index.m3u8
-#http://stream.mcquack.net/69/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu",8tv
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
@@ -210,7 +209,6 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce",Солнце
 http://stream.mcquack.net/118/index.m3u8
-#http://stream.mcquack.net/118/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 
 #EXTINF:0 group-title="Развлекательные",Страна ТВ HD
 
@@ -271,8 +269,6 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/abakan24.png" tvg-id="abakan24",Абакан 24
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/almazny-kray.png" tvg-id="almazny-kray",Алмазный край
-http://stream.almaz-media.tv:8081/hls/720.m3u8
-#https://stream.almaz-media.tv:8080/hls/720.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/astraxan24.png" tvg-id="astraxan24",Астрахань 24
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
@@ -386,6 +382,8 @@ https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tomskoe-vremia.png" tvg-id="tomskoe-vremia",Томское время
 
+http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/15299/index.m3u8
+
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/tuapse24.png" tvg-id="tuapse24",Туапсе 24 HD
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/yugra.png" tvg-id="yugra",Югра
@@ -463,8 +461,6 @@ http://51.158.144.33:2021/zvezda/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/2na2.png" tvg-id="2na2",2x2
 http://185.23.80.23:8080/2x2/index.m3u8
 #http://stream.mcquack.net/187/index.m3u8
-#http://stream.mcquack.net/187/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
-#http://stream.mcquack.net/187/tracks-v1a1/mono.ts.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/anekdottv.png" tvg-id="anekdottv",Анекдот ТВ
 
@@ -506,3 +502,57 @@ http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/11058/index.m3u8
 #https://hls-01-fresh.emgsound.ru/9/playlist.m3u8
 #https://hls-01-europaplus-kpop.emgsound.ru/europaplus-kpop/playlist.m3u8
 #https://hls-01-europaplus-rock.emgsound.ru/europaplus-rock/playlist.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-10-08 10:02:14  (24 URLs in 24 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 group-title="test",Kino
+http://91.205.196.7:8000/play/a00z
+#EXTINF:-1 group-title="test",ТВ 3
+http://91.205.196.7:8000/play/a02p
+#EXTINF:-1 group-title="test",Ararat TV
+http://91.205.196.7:8000/play/a001
+#EXTINF:-1 group-title="test",ITC
+http://91.205.196.7:8000/play/a002
+#EXTINF:-1 group-title="test",Bari
+http://91.205.196.7:8000/play/a00y
+#EXTINF:-1 group-title="test",Կինոման HD
+http://91.205.196.7:8000/play/a02l
+#EXTINF:-1 group-title="test",PREMIUM-1
+http://91.205.196.7:8000/play/a03n
+#EXTINF:-1 group-title="test",PREMIUM-2
+http://91.205.196.7:8000/play/a03o
+#EXTINF:-1 group-title="test",PREMIUM-3
+http://91.205.196.7:8000/play/a03p
+#EXTINF:-1 group-title="test",PREMIUM-4
+http://91.205.196.7:8000/play/a03q
+#EXTINF:-1 group-title="test",PREMIUM-5
+http://91.205.196.7:8000/play/a03r
+#EXTINF:-1 group-title="test",PREMIUM-6
+http://91.205.196.7:8000/play/a03s
+#EXTINF:-1 group-title="test",Լայֆ Հաք HD FILMZONE
+http://91.205.196.7:8000/play/a021
+#EXTINF:-1 group-title="test",DELTA TRAVEL
+http://91.205.196.7:8000/play/a025
+#EXTINF:-1 group-title="test",NAT.GEO.WILD HD
+http://91.205.196.7:8000/play/a02a
+#EXTINF:-1 group-title="test", Թավա ՏՎ HD
+http://91.205.196.7:8000/play/a02c
+#EXTINF:-1 group-title="test",МАТЧ БОЕЦ
+http://91.205.196.7:8000/play/a02s
+#EXTINF:-1 group-title="test",FAST SPORT HD
+http://91.205.196.7:8000/play/a02t
+#EXTINF:-1 group-title="test",МАТЧ ПЛАНЕТА
+http://91.205.196.7:8000/play/a02u
+#EXTINF:-1 group-title="test",Ֆիթնես ՏՎ HD
+http://91.205.196.7:8000/play/a02x
+#EXTINF:-1 group-title="test",VIJU+SPORT
+http://91.205.196.7:8000/play/a02y
+#EXTINF:-1 group-title="test",МАТЧ ФУТБОЛ 1 HD
+http://91.205.196.7:8000/play/a02z
+#EXTINF:-1 group-title="test",МАТЧ ФУТБОЛ 2 HD
+http://91.205.196.7:8000/play/a030
+#EXTINF:-1 group-title="test",MATCH PREMYER
+http://91.205.196.7:8000/play/a03l

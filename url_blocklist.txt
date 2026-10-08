@@ -1735,3 +1735,19 @@ http://130.193.73.10:8937/play/a015
 http://185.23.80.23:8080/DumaTV/index.m3u8
 http://212.77.128.179:8089/www_mezhdunet/mezhdunet/chunks.m3u8
 http://cdn.universmotri.ru/live/smil:mbr.smil/chunklist_b1328000_slru.m3u8
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-10-08 10:02 ---
+# хосты, где мертво всё (2):
+178.76.68.60:7441
+85.117.61.97:8000
+# отдельные ссылки (3):
+http://stream.mcquack.net/265/index.m3u8
+http://stream.mcquack.net/56/index.m3u8
+https://cityeden..tv/content/34185/index.m3u8

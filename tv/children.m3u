@@ -150,8 +150,6 @@ http://stream.mcquack.net/306/index.m3u8
 
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/cartoon-network.png" tvg-id="cartoon-network",Cartoon Network
 
-http://80.245.95.243:8888/play/qwe9877/index.m3u8
-
 #EXTINF:0 group-title="Детские 6+" tvg-logo="https://iptvx.one/picons/cartoons-90.png" tvg-id="cartoons-90",Cartoons 90
 http://stream.mcquack.net/484/index.m3u8
 
@@ -199,7 +197,6 @@ http://l7psy1ox.zyntras.top/iptv/C8HT2KRR3S43HX/9263/index.m3u8
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/detsky-mir.png" tvg-id="detsky-mir",Детский мир
 http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/543/index.m3u8
 #http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/543/index.m3u8
-#http://80.245.95.243:8888/play/ert4862/index.m3u8
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/karusel.png" tvg-id="karusel",Карусель
 
@@ -243,7 +240,6 @@ http://l7psy1ox.zyntras.top/iptv/C8HT2KRR3S43HX/109/index.m3u8
 http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/138/index.m3u8
 #http://stream.mcquack.net/150/index.m3u8
 #http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/138/index.m3u8
-#http://stream.mcquack.net/150/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/nick-jr.png" tvg-id="nick-jr",Nick Jr
 http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/114/index.m3u8
@@ -251,7 +247,6 @@ http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/114/index.m3u8
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/tiji.png" tvg-id="tiji",TiJi
 http://stream.mcquack.net/111/index.m3u8
-#http://stream.mcquack.net/111/tracks-v1a1/mono.ts.m3u8?ads=1&filter.tracks=v1a1
 
 #EXTINF:0 group-title="Дошкольные" tvg-logo="https://iptvx.one/picons/trt-cocuk-tr.png" tvg-id="trt-cocuk-tr",TRT ÇOCUK
 
@@ -469,6 +464,8 @@ http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/13016/index.m3u8
 
 # MS
 
+http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/13064/index.m3u8
+
 #EXTINF:0 group-title="MS" tvg-logo="https://iptvx.one/picons/minimax-animated-ms.png" tvg-id="minimax-animated-ms",MS Animated
 
 #EXTINF:0 group-title="MS" tvg-logo="https://iptvx.one/picons/minimax-ms-toons.png" tvg-id="minimax-ms-toons",MS Toons
@@ -519,6 +516,8 @@ http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/11057/index.m3u8
 #EXTINF:0 group-title="StrahTV",StrahTV Кроха ТВ
 
 # TEAM
+
+http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/11066/index.m3u8
 
 #EXTINF:0 group-title="TEAM" tvg-logo="https://iptvx.one/picons/team-newtoons.png" tvg-id="team-newtoons",TEAM NewToons
 
@@ -581,13 +580,18 @@ http://l7psy1ox.zyntras.top/iptv/C8HT2KRR3S43HX/11123/index.m3u8
 
 #EXTINF:0 group-title="VF",VF Мультуб
 
+http://tekif05g.velstraso.top/iptv/DH73W9LE59XCGF/15520/index.m3u8
+
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-multfilmy-sssr.png" tvg-id="vf-multfilmy-sssr",VF Мультфильмы СССР
 http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/10086/index.m3u8
 
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-nowogodmult.png" tvg-id="vf-nowogodmult",VF Новогодние мультфильмы
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/15523/index.m3u8
+#http://tekif05g.velstraso.top/iptv/DH73W9LE59XCGF/15523/index.m3u8
 
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-skubidu.png" tvg-id="vf-skubidu",VF Скуби-Ду
+
+http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/17007/index.m3u8
 
 #EXTINF:0 group-title="VF" tvg-logo="https://iptvx.one/picons/vf-soyuzmultfilm.png" tvg-id="vf-soyuzmultfilm",VF Союзмультфильм
 http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/14238/index.m3u8
@@ -598,6 +602,7 @@ http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/14238/index.m3u8
 #EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/c-cartoon.png" tvg-id="c-cartoon",Yosso TV Cartoon
 http://86f624624.amazzin.pw/iptv/2795X4UAMFQ29D/16050/index.m3u8
 #http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/16050/index.m3u8
+#http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/16050/index.m3u8
 
 #EXTINF:0 group-title="Yosso TV" tvg-logo="https://iptvx.one/picons/yosso-disney.png" tvg-id="yosso-disney",Yosso TV Disney
 
