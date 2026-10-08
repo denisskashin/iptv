@@ -1001,6 +1001,7 @@ tvr-tvrmoldova.cdn.zitec.com
 stream7.zivoli.it
 stream.zrtk.ru
 mlax7sqv.zyntras.top
+k0sumsob.lunexas.top
 
 # --- blocked IPs ---
 4.59.210.197
@@ -1359,8 +1360,8 @@ mlax7sqv.zyntras.top
 217.174.225.146
 217.174.229.136
 217.182.77.27
+45.177.114.114
 
-# --- blocked full URLs / paths ---
 https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1/chunklist_w148744111_b5160000_sleng.m3u8
 https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2/chunklist_w148744111_b5160000_sleng.m3u8
 https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24/chunklist_w148744111_b5160000_sleng.m3u8
@@ -1376,14 +1377,6 @@ http://185.121.1.163:8083/kinouzhas/index.m3u
 http://212.233.98.62/okino-tv/index.m3u8
 
 
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-09-06 15:12 … 2026-10-04 17:06, сведено 2026-10-06 ---
-# отдельные ссылки (354):
 https://live.acwugtv.com/hls/stream.m3u8
 http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/2005/index.m3u8
 http://b1d98e28.amazzin.pw/iptv/CN5Y444G9H77QSKXU2V6SEW7/9003/index.m3u8
@@ -1717,6 +1710,8 @@ http://stream.mcquack.net/490/tracks-v1a1/mono.ts.m3u8
 http://stream.mcquack.net/491/index.m3u8
 http://stream.mcquack.net/492/index.m3u8
 http://stream.mcquack.net/493/index.m3u8
+http://stream.mcquack.net/244/tracks-v1a1/mono.ts.m3u8
+
 http://6au8zl0c.megatv.fun/iptv/E8Q36367WLXKB3/9347/index.m3u8
 http://flussonic0.podryad.net/gorodtv/tracks-v1a1/mono.m3u8
 https://s1.radiumcast.top/memfs/674b2d4f-7d6e-49be-9c6c-3094868259d9.m3u8
@@ -1727,7 +1722,7 @@ https://wifispeed.trapemn.tv:1936/comunales/autonoma-tv/playlist.m3u8
 https://vod.tv7.fi/tv7-ru/_definst_/smil:tv7-ru.smil/chunklist_w802965519_b946000_slru.m3u8
 https://tvsamaragis.tk/new/new/tracks-v1a1/mono.m3u8
 http://6g5f8g9d.ucomist.net/iptv/RCY5BALHTUERP7TGCU8ZWFDG/14035/index.m3u8
-#https://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
+https://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
 https://cdn.universmotri.ru/live/smil:univer.smil/chunklist_w911267907_b3628000_slru.m3u8
 http://62.141.35.207:8080/action/video.m3u8?token=wdj_on27czben2
 http://62.141.35.207:8080/comedy/video.m3u8?token=wdj_on27czben2
@@ -1739,3 +1734,4 @@ http://120.39.52.202:5140/%e7%a6%8f%e5%bb%ba%e7%bb%bc%e5%90%88
 http://130.193.73.10:8937/play/a015
 http://185.23.80.23:8080/DumaTV/index.m3u8
 http://212.77.128.179:8089/www_mezhdunet/mezhdunet/chunks.m3u8
+http://cdn.universmotri.ru/live/smil:mbr.smil/chunklist_b1328000_slru.m3u8
