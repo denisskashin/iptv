@@ -496,6 +496,7 @@ https://hls-01-regions.emgsound.ru/11_msk/96/playlist.m3u8
 #https://hls-01-fresh.emgsound.ru/9/playlist.m3u8
 #https://hls-01-europaplus-kpop.emgsound.ru/europaplus-kpop/playlist.m3u8
 #https://hls-01-europaplus-rock.emgsound.ru/europaplus-rock/playlist.m3u8
+#http://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 
 #EXTINF:0 group-title="test",CineMax
 http://stream.mcquack.net/484/index.m3u8
@@ -509,3 +510,13 @@ http://stream.mcquack.net/472/index.m3u8
 
 #EXTINF:0 group-title="test",CineMax 5
 http://stream.mcquack.net/471/index.m3u8
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-10-09 21:30:12  (2 URLs in 2 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:0 tvg-name="VF Мультуб" tvg-id="no_epg_mult" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5995.png" tvg-rec="0" group-title="test",VF Мультуб
+http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/15520/index.m3u8
+#EXTINF:-1 catchup-days="7" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/ЯмалРегион.png" tvg-id="Ямал Регион" group-title="test",Ямал Регион
+http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/31897/index.m3u8
