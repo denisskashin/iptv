@@ -486,7 +486,7 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2",RAZ 2
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",360° Новости
+#EXTINF:-1 tvg-logo="https://iptvx.one/picons/360-news.png" tvg-id="360-news" group-title="test",360° Новости
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8
 
 #EXTINF:0 tvg-name="StrahTV Ералаш" tvg-id="no_epg" tvg-logo="http://epg.one/img2/4775.png" tvg-rec="7" group-title="test",StrahTV Ералаш
@@ -524,6 +524,6 @@ http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/15520/index.m3u8
 #http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/11003/index.m3u8
 #http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/11001/index.m3u8
 
-#EXTINF:-1 catchup-days="7" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/ЯмалРегион.png" tvg-id="Ямал Регион" group-title="test",Ямал Регион
+#EXTINF:-1 catchup-days="7" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/ЯмалРегион.png" tvg-id="yamal-region" group-title="test",Ямал Регион
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/31897/index.m3u8
 
