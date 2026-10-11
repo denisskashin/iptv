@@ -27,6 +27,15 @@ epg_check.py — у каких каналов tv/*.m3u нет программы
 программу перестали обновлять: в приложении у него нет ни «сейчас идёт»,
 ни новых записей в архиве.
 
+Ещё — «чужой канал»: ссылка, по которой играет не тот канал, что в
+названии. У edem номер канала в ссылке (…/iptv/<токен>/<номер>/index.m3u8)
+сквозной для всех его доменов, поэтому плейлисты edem/ilook из sources.txt
+дают словарь «номер → имя». Расхождение имени с нашим — подозрение:
+m3u_checker.py подбирает ссылки по названиям и так уже ставил Family HDR и
+Fantasy на поток BCU СССР, а FRESH Hits — на FRESH Concerts (11.10.2026).
+Бывают и ложные тревоги — переименованный канал («Food Time» у edem «Еда»).
+Без сети или с --no-edem эта часть пропускается.
+
 Ничего не пишет в плейлисты — только отчёт (и CSV с --csv).
 
 Программа (epg.xml, формат XMLTV iptvx.one) — та же, что у
@@ -39,6 +48,8 @@ enrich_candidates.py. Свежую скачать:
   python3 epg_check.py --epg ~/x/epg.xml    # другая программа
   python3 epg_check.py --files tv/children.m3u
   python3 epg_check.py --csv epg_check.csv  # всё построчно в таблицу
+  python3 epg_check.py --no-edem            # без сверки ссылок с edem
+  python3 epg_check.py --edem iedem.m3u8    # свой плейлист edem (файл/URL)
 """
 
 import argparse
@@ -47,6 +58,7 @@ import glob
 import os
 import re
 import sys
+import urllib.request
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 
@@ -178,12 +190,116 @@ def check(entries, names, count, by_norm):
         yield e, tid, status, cands
 
 
+# ── чужой канал по номеру edem ───────────────────────────────────────────
+
+EDEM_NUM = re.compile(r'/iptv/[A-Z0-9]+/(\d+)/(?:index|video|mono)\.m3u8')
+SOURCES = os.path.join(HERE, 'sources.txt')
+
+# Слова, которые ничего не говорят о канале: бренд пакета и качество.
+# Без них «Fresh Rock» и «FRESH Dance HD» не совпадут по «fresh».
+NOISE = re.compile(
+    r'\b(hd|fhd|uhd|4k|hdr|orig|tv|тв|vf|bcu|pg|mm|z|yosso|citrus|cineman|'
+    r'liberty|venera|strahtv|box|team|kernel|fresh|cartoons?|kids|kino|кино|'
+    r'канал|channel|premium|plus|int|international|the)\b')
+LATIN = str.maketrans({
+    'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e', 'ж': 'z',
+    'з': 'z', 'и': 'i', 'й': 'i', 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n',
+    'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u', 'ф': 'f',
+    'х': 'h', 'ц': 'c', 'ч': 'c', 'ш': 's', 'щ': 's', 'ы': 'y', 'э': 'e',
+    'ю': 'u', 'я': 'a', 'ъ': '', 'ь': ''})
+
+
+def edem_sources() -> list:
+    """Плейлисты edem/ilook из sources.txt (не EPG и не картинки)."""
+    try:
+        with open(SOURCES, encoding='utf-8') as f:
+            return [s.strip() for s in f
+                    if s.strip() and not s.startswith('#')
+                    and re.search(r'iedem|ilook', s) and 'epg.one' not in s]
+    except OSError:
+        return []
+
+
+def read_text(src: str) -> str:
+    if re.match(r'https?://', src):
+        req = urllib.request.Request(src, headers={'User-Agent': 'Mozilla/5.0'})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read().decode('utf-8', errors='replace')
+    with open(os.path.expanduser(src), encoding='utf-8', errors='replace') as f:
+        return f.read()
+
+
+def edem_names(srcs: list) -> dict:
+    """Номер канала edem → имена из плейлистов edem."""
+    names = defaultdict(set)
+    for src in srcs:
+        try:
+            text = read_text(src)
+        except Exception as e:  # сеть, 404, таймаут — остальные источники идут
+            print(f'  edem: не скачался {src[:70]} ({e})')
+            continue
+        title = None
+        for raw in text.splitlines():
+            line = raw.strip()
+            if line.startswith('#EXTINF'):
+                cut = title_comma(line)
+                title = line[cut + 1:].strip() if cut >= 0 else None
+            elif title and line.startswith('http'):
+                m = EDEM_NUM.search(line)
+                if m:
+                    names[m.group(1)].add(title)
+                title = None
+    return names
+
+
+def words(name: str) -> set:
+    s = NOISE.sub(' ', name.lower().replace('ё', 'е'))
+    return {w for w in re.findall(r'\w+', s) if len(w) > 1}
+
+
+def same_channel(ours: str, theirs: str) -> bool:
+    """Похожи ли имена: общее слово или одинаковое начало слова латиницей
+    («Пиксар» ↔ «Pixar», «Восток» ↔ «Vostok»). Не с чем сравнивать (одни
+    бренды) — считаем, что похожи: тревога без улик хуже тишины."""
+    a, b = words(ours), words(theirs)
+    if not a or not b or a & b:
+        return True
+    la = {w.translate(LATIN).replace('x', 'ks')[:4] for w in a}
+    lb = {w.translate(LATIN).replace('x', 'ks')[:4] for w in b}
+    return bool(la & lb)
+
+
+def foreign_streams(files: list, names: dict) -> list:
+    """Ссылки, по номеру которых у edem другой канал."""
+    found = []
+    for path in files:
+        for e in read_playlist(path):
+            seen = set()
+            for i, url in enumerate(e['urls']):
+                m = EDEM_NUM.search(url)
+                theirs = names.get(m.group(1)) if m else None
+                if not theirs or m.group(1) in seen:
+                    continue
+                seen.add(m.group(1))
+                if any(same_channel(e['title'], t) for t in theirs):
+                    continue
+                found.append((os.path.relpath(path, HERE), e['line'], e['title'],
+                              m.group(1), 'основная' if i == 0 else 'зеркало',
+                              sorted(theirs)[:2]))
+    return found
+
+
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[1])
     ap.add_argument('--epg', default=os.path.join(HERE, 'epg.xml'))
     ap.add_argument('--files', nargs='*', default=None,
                     help='плейлисты (по умолчанию tv/*.m3u)')
     ap.add_argument('--csv', default=None, help='записать всё в CSV')
+    ap.add_argument('--edem', nargs='*', default=None,
+                    help='плейлисты edem для сверки ссылок (по умолчанию — '
+                         'iedem/ilook из sources.txt)')
+    ap.add_argument('--no-edem', action='store_true',
+                    help='не сверять ссылки с edem')
     args = ap.parse_args()
 
     files = args.files or sorted(glob.glob(PLAYLIST_GLOB))
@@ -244,6 +360,20 @@ def main() -> None:
     total = sum(totals.values())
     print(f'\nвсего каналов {total}, с программой {totals[OK]}'
           + ''.join(f', {s} {totals[s]}' for s in STATUSES[1:] if totals[s]))
+
+    if not args.no_edem:
+        srcs = args.edem if args.edem else edem_sources()
+        edem = edem_names(srcs) if srcs else {}
+        if edem:
+            bad = foreign_streams(files, edem)
+            print(f'\nчужой канал по номеру edem (словарь: {len(edem)} номеров '
+                  f'из {len(srcs)} плейлистов): {len(bad) or "нет"}')
+            for name, line, title, num, kind, theirs in bad:
+                print(f'  {name}  {line:>5}  {title} — {num} ({kind}): у edem '
+                      + ', '.join(f'«{t}»' for t in theirs))
+        else:
+            print('\nчужой канал по номеру edem: словаря нет — плейлисты edem '
+                  'не скачались (или --edem пуст)')
 
     if args.csv and rows:
         with open(args.csv, 'w', newline='', encoding='utf-8') as f:
