@@ -72,11 +72,10 @@ https://ngtrk.dc.beltelecom.by/vtv/_definst_/vitebsk.stream/playlist.m3u8
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belros.png" tvg-id="tro",Союзный
 
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/stv-by.png" tvg-id="stv-by",СТВ
-#http://86.57.147.236/HLS/ctvby/playlist.m3u8
+http://86.57.147.236/HLS/ctvby/playlist.m3u8
 #https://edge53.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist_w1093126388.m3u8
 #https://edge55.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist_w1789650572.m3u8
 #https://edge56.dc.beltelecom.by/ctv/_definst_/ctv.stream/chunklist_w357074489.m3u8
-#http://edge59.dc.beltelecom.by/ctv/_definst_/ctv.stream/playlist.m3u8
 #https://ngtrk.dc.beltelecom.by/ctv/_definst_/ctv.stream/playlist.m3u8
 #http://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8
 #https://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8
@@ -199,7 +198,6 @@ http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/prodvizhenie.png" tvg-id="prodvizhenie",Продвижение
 http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #http://83.166.243.97:8081/ltv1TNT/1/playlist.m3u8
-#https://tvn-tv.ru:81/hls/stream.m3u8
 #https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica",Пятница!
@@ -218,16 +216,13 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvoyo-tv-hd.png" tvg-id="tvoyo-tv-hd",Твоё ТВ
 http://tvoetv.space:8080/tvoetv/index.m3u8
-#http://tvoetv.space:8080/tvoetv/mpegts?token=MkP9_m4vd1
 #http://tvoetv.space:8080/tvoetv/video.m3u8
-#https://tvoetv.space/tvoetv/mpegts
 #https://tvoetv.space/tvoetv/index.m3u8
 #https://tvoetv.space/tvoetv/video.m3u8
 #https://tvoetv.space/tvoetv/tracks-v1a1/mono.m3u8
 #http://tvoetv.space:8080/tvoetv/playlist.m3u8
 #http://tvoetv.space:8080/tvoetv/tracks-v1a1/mono.m3u8
 #http://84.38.180.145:8080/tvoetv/index.m3u8
-#http://lime-pi2.tlgx.ru:8987/CH_TVOETV/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/yuvelirochka.png" tvg-id="yuvelirochka",Ювелирочка
 
@@ -468,7 +463,6 @@ http://185.23.80.23:8080/2x2/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvoetv-humor.png" tvg-id="tvoetv-humor",Твоё ТВ Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #http://tvoetv.space:8080/tvoetv_humor/video.m3u8
-#https://tvoetv.space/tvoetv_humor/mpegts
 #https://tvoetv.space/tvoetv_humor/index.m3u8
 #https://tvoetv.space/tvoetv_humor/video.m3u8
 #http://tvoetv.space:8080/tvoetv_humor/tracks-v1a1/mono.m3u8
