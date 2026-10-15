@@ -205,7 +205,6 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/piatnica.png" tvg-id="piatnica",Пятница!
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce",Солнце
-http://stream.mcquack.net/118/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные",Страна ТВ HD
 
@@ -519,7 +518,17 @@ http://stream.mcquack.net/471/index.m3u8
 
 #EXTINF:0 tvg-name="VF Мультуб" tvg-id="no_epg_mult" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/vf_logo.png" url-scrlogo="http://epg.one/img2/5995.png" tvg-rec="0" group-title="test",VF Мультуб
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/15520/index.m3u8
+#http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/11003/index.m3u8
+#http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/11001/index.m3u8
+#http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/11057/index.m3u8
 
 #EXTINF:-1 catchup-days="7" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/ЯмалРегион.png" tvg-id="yamal-region" group-title="test",Ямал Регион
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/31897/index.m3u8
 
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-10-14 19:02:43  (1 URLs in 1 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Quadro (2160p)
+http://57.128.231.171:8080/316/index.m3u8
