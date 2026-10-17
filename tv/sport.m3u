@@ -91,6 +91,8 @@ https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-tv.png" tvg-id="match-tv",Матч!
 
+http://runner.webhop.info:525/live/matchsd?token=6eef1c913c65d47f3405cca78aa592cf
+
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-arena.png" tvg-id="match-arena",Арена
 http://stream.mcquack.net/163/index.m3u8
 
@@ -102,7 +104,6 @@ http://stream.mcquack.net/163/index.m3u8
 
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-premiere.png" tvg-id="match-premier",Премьер
 
-http://185.23.80.23:8080/MATCH_PREMIER/index.m3u8
 
 #EXTINF:0 group-title="Матч!" tvg-logo="https://iptvx.one/picons/match-strana.png" tvg-id="match-nash-sport",Страна
 
@@ -258,7 +259,11 @@ http://200.10.30.241:8000/play/a01r/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1",Eurosport 1
 
+http://runner.webhop.info:525/live/eurosporthd?token=6eef1c913c65d47f3405cca78aa592cf
+
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2",Eurosport 2
+
+http://runner.webhop.info:525/live/eurosport2?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/fast-sport-am.png" tvg-id="fast-sport-am",Fast Sport
 
@@ -450,6 +455,8 @@ http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/10058/index.m3u8
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/football-ru.png" tvg-id="football-ru",Футбол
 
+http://runner.webhop.info:525/live/futballhd?token=6eef1c913c65d47f3405cca78aa592cf
+
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/benfica-tv.png" tvg-id="benfica-tv",Benfica TV
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/fifa-plus-uk.png" tvg-id="fifa-plus-uk",Fifa+
@@ -507,6 +514,8 @@ http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/270/index.m3u8
 #EXTINF:0 group-title="Хоккей" tvg-logo="https://iptvx.one/picons/xokkejny.png" tvg-id="xokkejny",Хоккей ТВ
 
 #EXTINF:0 group-title="Хоккей" tvg-logo="https://iptvx.one/picons/kxl.png" tvg-id="kxl",KHL
+
+http://runner.webhop.info:525/live/khl?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="Хоккей" tvg-logo="https://iptvx.one/picons/kxl-hd.png" tvg-id="kxl-hd",KHL Prime
 

@@ -17,7 +17,6 @@ http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/2176/index.m3u8
 #EXTINF:0 group-title="Документальные" tvg-logo="https://iptvx.one/picons/kto-est-kto.png" tvg-id="kto-est-kto",Кто есть кто
 
 #EXTINF:0 group-title="Документальные" tvg-logo="https://iptvx.one/picons/neizvestnaya-rosia.png" tvg-id="neizvestnaya-rosia",Неизвестная Россия
-http://185.23.80.23:8080/NeizvestnayaRossia/index.m3u8
 
 #EXTINF:0 group-title="Документальные" tvg-logo="https://iptvx.one/picons/otkryty-mir.png" tvg-id="otkryty-mir",Открытый мир
 http://212.233.98.62/0mir/index.m3u8
@@ -43,6 +42,7 @@ http://stream.mcquack.net/450/index.m3u8
 
 #EXTINF:0 group-title="Документальные" tvg-logo="https://iptvx.one/picons/viasat-explore.png" tvg-id="viasat-explore",Viasat Explore
 #http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/163/index.m3u8
+http://runner.webhop.info:525/live/viasatexplore?token=6eef1c913c65d47f3405cca78aa592cf
 
 # История и военные
 
@@ -54,9 +54,13 @@ http://stream.mcquack.net/450/index.m3u8
 
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/vremia.png" tvg-id="vremia",Время
 
+http://runner.webhop.info:525/live/vremya?token=6eef1c913c65d47f3405cca78aa592cf
+
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/istoria.png" tvg-id="istoria",История
 
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/nostalgia.png" tvg-id="nostalgia",Ностальгия
+
+http://runner.webhop.info:525/live/nostalgia?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="История и военные" tvg-logo="https://iptvx.one/picons/oruzhie.png" tvg-id="oruzhie",Оружие
 
@@ -74,7 +78,6 @@ http://stream.mcquack.net/101/index.m3u8
 # Культура и искусство
 
 #EXTINF:0 group-title="Культура и искусство" tvg-logo="https://iptvx.one/picons/art-tv.png" tvg-id="art-tv",Арт
-http://185.23.80.23:8080/ART/index.m3u8
 #http://89.104.114.24:8080/art/index.m3u8?token=test
 #http://89.104.114.24:8080/art/index.m3u8
 
@@ -90,6 +93,8 @@ http://213.108.175.226/telplushd/index.m3u8
 
 #EXTINF:0 group-title="Культура и искусство" tvg-logo="https://iptvx.one/picons/kultura.png" tvg-id="kultura",Россия Культура
 
+http://runner.webhop.info:525/live/rossiyak?token=6eef1c913c65d47f3405cca78aa592cf
+
 #EXTINF:0 group-title="Культура и искусство" tvg-logo="https://iptvx.one/picons/teatr.png" tvg-id="teatr",Театр
 
 #EXTINF:0 group-title="Культура и искусство" tvg-logo="https://iptvx.one/picons/museum-4k.png" tvg-id="museum-4k",Museum UHD
@@ -101,11 +106,12 @@ http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/z-science.png" tvg-id="z-science",Z!Science HD
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/nano-hd.png" tvg-id="nano-hd",Нано
-http://185.23.80.23:8080/NANO_HD/index.m3u8
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/nauka.png" tvg-id="nauka",Наука
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/nauka-20.png" tvg-id="nauka-20",Наука 2.0
+
+http://runner.webhop.info:525/live/nauka2?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/nauchpop.png" tvg-id="nauchpop",Научпоп HD
 
@@ -123,6 +129,8 @@ http://stream.mcquack.net/209/index.m3u8
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/DISCOVERYCHANNEL/CMAF/index.m3u8
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/discovery-science.png" tvg-id="discovery-science",Discovery Science
+
+http://runner.webhop.info:525/live/discoveryscience?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="Наука и техника",Galaxy TV
 
@@ -193,6 +201,7 @@ http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/9324/index.m3u8
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/animal-planet-eu.png" tvg-id="animal-planet-eu",Animal Planet
 http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/218/index.m3u8
 #http://stream.mcquack.net/114/index.m3u8
+#http://runner.webhop.info:525/live/animalplanethd?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/big-planet.png" tvg-id="big-planet",Big Planet
 
@@ -238,6 +247,7 @@ http://stream.mcquack.net/304/index.m3u8
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/moya-planeta.png" tvg-id="moya-planeta",Моя Планета
 http://stream.mcquack.net/124/index.m3u8
+#http://runner.webhop.info:525/live/moyaplaneta?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/morskoy.png" tvg-id="morskoy",Моя стихия
 
@@ -254,6 +264,8 @@ http://stream.mcquack.net/124/index.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/rtg-tv.png" tvg-id="rtg-tv",RTG TV
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-channel.png" tvg-id="travel-channel",Travel channel
+
+http://runner.webhop.info:525/live/travelchannel?token=6eef1c913c65d47f3405cca78aa592cf
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/travel-xp-hd.png" tvg-id="travel-xp-hd",Travel XP
 
