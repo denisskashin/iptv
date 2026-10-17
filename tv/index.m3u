@@ -149,7 +149,6 @@ http://stream.mcquack.net/384/index.m3u8
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/ntv-pravo.png" tvg-id="ntv-pravo",НТВ Право
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rbk.png" tvg-id="rbk",РБК
-http://92.50.128.180/utv/1358/index.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24",Россия 24
 
@@ -406,10 +405,7 @@ http://hls.tv.3angels.ru/stream/HQ.m3u8
 #EXTINF:0 group-title="Религия и изотерика",GNC HD
 
 #EXTINF:0 group-title="Религия и изотерика",Life TV
-http://lifetv.bitflip.ee/live/stream1.m3u8
-#https://lifetv.mpks.sk/s.m3u8
-#http://lifetv.bitflip.ee/live/stream2.m3u8
-#http://lifetv.bitflip.ee/live/stream1_1/index.m3u8
+https://lifetv.mpks.sk/s.m3u8
 
 #EXTINF:0 group-title="Религия и изотерика",TBN Baltia EE
 http://dc.tbnbaltia.eu:8088/dvr/tracks-v1a1/rewind-21600.m3u8
@@ -509,14 +505,6 @@ http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/15520/index.m3u8
 #EXTINF:-1 catchup-days="7" tvg-logo="https://gitflic.ru/project/romzes_25/playlisttv/blob/raw?file=imgtv/ЯмалРегион.png" tvg-id="yamal-region" group-title="test",Ямал Регион
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/31897/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Quadro (2160p)
-http://57.128.231.171:8080/316/index.m3u8
-
-
-
-# ── test ──────────────────────────────────────────
-# Added: 2026-10-17 10:06:44  (77 URLs in 77 channel group(s))
-# ───────────────────────────────────────────────────
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",Movify Kino
 https://sirius.movify.tv/MovifyKino_Mpeg4/video.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" group-title="test" ,Мамонтенок ТВ
@@ -526,76 +514,6 @@ https://sirius.movify.tv/VilksUnZakis_Mpeg4/video.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" group-title="test" ,Пингвин
 https://venera.movify.tv/PingvinRu/tracks-v1a1/mono.ts.m3u8
-#EXTINF:-1 tvg-id="360 Канал" tvg-name="360 Канал" catchup="default" catchup-type="default" catchup-days="3" tvg-rec="3" catchup-source="http://ott1.dyndns.tv:8443/360/index-${start}-${timestamp}.m3u8?token=6eef1c913c65d47f3405cca78aa592cf" tvg-logo="http://s.topiptv.ink/img/logos/360.png" group-title="test",360 Канал
-#EXTINF:-1 tvg-id="CNN" tvg-name="CNN" tvg-logo="http://s.topiptv.ink/img/logos/cnn.png" group-title="test",CNN
-#EXTINF:-1 tvg-id="Dizi Timeless" tvg-name="Dizi Timeless" catchup="default" catchup-type="default" catchup-days="3" tvg-rec="3" catchup-source="http://ott1.dyndns.tv:8443/dizitimeless/index-${start}-${timestamp}.m3u8?token=6eef1c913c65d47f3405cca78aa592cf" tvg-logo="http://s.topiptv.ink/img/logos/dizi.png" group-title="test",Dizi Timeless
-#EXTINF:-1 tvg-id="Filmzone+ HD LT" tvg-name="Filmzone+ HD LT" tvg-logo="http://s.topiptv.ink/img/logos/filmzoneplushd.png" group-title="test",Filmzone+ HD LT
-#EXTINF:-1 tvg-id="FON Music" tvg-name="FON Music" tvg-logo="http://s.topiptv.ink/img/logos/fonmusic.png" group-title="test",FON Music
-#EXTINF:-1 tvg-id="Galaxy" tvg-name="Galaxy" catchup="default" catchup-type="default" catchup-days="3" tvg-rec="3" catchup-source="http://ott1.dyndns.tv:8443/galaxy/index-${start}-${timestamp}.m3u8?token=6eef1c913c65d47f3405cca78aa592cf" tvg-logo="http://s.topiptv.ink/img/logos/galaxy.png" group-title="test",Galaxy
-#EXTINF:-1 tvg-id="HDL" tvg-name="HDL" tvg-logo="http://s.topiptv.ink/img/logos/hdlife.png" group-title="test",HDL
-#EXTINF:-1 tvg-id="ID Xtra" tvg-name="ID Xtra" tvg-logo="http://s.topiptv.ink/img/logos/idxtra.png" group-title="test",ID Xtra
-#EXTINF:-1 tvg-id="Kiss TV RO" tvg-name="Kiss TV RO" tvg-logo="http://s.topiptv.ink/img/logos/kisstv.png" group-title="test",Kiss TV RO
-#EXTINF:-1 tvg-id="Music Box 80s HD" tvg-name="Music Box 80s HD" tvg-logo="http://s.topiptv.ink/img/logos/musicbox80s.png" group-title="test",Music Box 80s HD
-#EXTINF:-1 tvg-id="Music Box 90s HD" tvg-name="Music Box 90s HD" tvg-logo="http://s.topiptv.ink/img/logos/musicbox90s.png" group-title="test",Music Box 90s HD
-#EXTINF:-1 tvg-id="NRG91 GR" tvg-name="NRG91 GR" tvg-logo="http://s.topiptv.ink/img/logos/nrg91.png" group-title="test",NRG91 GR
-#EXTINF:-1 tvg-id="Sky News" tvg-name="Sky News" tvg-logo="http://s.topiptv.ink/img/logos/skynews.png" group-title="test",Sky News
-#EXTINF:-1 tvg-id="Start Air HD" tvg-name="Start Air HD" tvg-logo="http://s.topiptv.ink/img/logos/startairhd.png" group-title="test",Start Air HD
-#EXTINF:-1 tvg-id="Start World HD" tvg-name="Start World HD" tvg-logo="http://s.topiptv.ink/img/logos/startworldhd.png" group-title="test",Start World HD
-#EXTINF:-1 tvg-id="TV XXI (TV21)" tvg-name="TV XXI (TV21)" tvg-logo="http://s.topiptv.ink/img/logos/tv21.png" group-title="test",TV XXI (TV21)
+
 #EXTINF:0 tvg-name="FRESH Rock Covers HD" tvg-id="no_epg_music" tvg-logo="http://epg.one/img2/6277.png" tvg-rec="0" group-title="test",FRESH Rock Covers HD
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/18089/index.m3u8
-#EXTINF:-1 tvg-id="Travel+ Adventure" tvg-name="Travel+ Adventure" tvg-logo="http://s.topiptv.ink/img/logos/travelplusadventure.png" group-title="test",Travel+ Adventure
-#EXTINF:-1 tvg-id="World Fashion Channel (рус.)" tvg-name="World Fashion Channel (рус.)" tvg-logo="http://s.topiptv.ink/img/logos/worldfashion.png" group-title="test",World Fashion Channel (рус.)
-#EXTINF:-1 tvg-id="Драйв ТВ" tvg-name="Драйв ТВ" tvg-logo="http://s.topiptv.ink/img/logos/draiv.png" group-title="test",Драйв ТВ
-#EXTINF:-1 tvg-id="Еда ТВ" tvg-name="Еда ТВ" tvg-logo="http://s.topiptv.ink/img/logos/edatv.png" group-title="test",Еда ТВ
-#EXTINF:-1 tvg-id="Канал 2x2" tvg-name="Канал 2x2" catchup="default" catchup-type="default" catchup-days="3" tvg-rec="3" catchup-source="http://cdn04.ath.cx:4627/archive/2x2?offset=-${offset}&utcstart=${timestamp}" tvg-logo="http://s.topiptv.ink/img/logos/2x2.png" group-title="test",Канал 2x2
-#EXTINF:-1 tvg-id="Матч! Футбол 1" tvg-name="Матч! Футбол 1" tvg-logo="http://s.topiptv.ink/img/logos/matchfutbol1.png" group-title="test",Матч! Футбол 1
-#EXTINF:-1 tvg-id="Матч! Футбол 2" tvg-name="Матч! Футбол 2" tvg-logo="http://s.topiptv.ink/img/logos/matchfutbol2.png" group-title="test",Матч! Футбол 2
-#EXTINF:-1 tvg-id="Матч! Футбол 3" tvg-name="Матч! Футбол 3" tvg-logo="http://s.topiptv.ink/img/logos/matchfutbol3.png" group-title="test",Матч! Футбол 3
-#EXTINF:-1 tvg-id="Настоящее Страшное ТВ" tvg-name="Настоящее Страшное ТВ" tvg-logo="http://s.topiptv.ink/img/logos/nst.png" group-title="test",Настоящее Страшное ТВ
-#EXTINF:-1 tvg-id="Наше любимое кино" tvg-name="Наше любимое кино" catchup="default" catchup-type="default" catchup-days="3" tvg-rec="3" catchup-source="http://ott1.dyndns.tv:8443/lubimoekino/index-${start}-${timestamp}.m3u8?token=6eef1c913c65d47f3405cca78aa592cf" tvg-logo="http://s.topiptv.ink/img/logos/lubimoekino.png" group-title="test",Наше любимое кино
-#EXTINF:-1 tvg-id="Первый канал Евразия" tvg-name="Первый канал Евразия" tvg-logo="http://s.topiptv.ink/img/logos/perviysd.png" group-title="test",Первый канал Евразия
-#EXTINF:-1 tvg-id="РТР-Планета Европа" tvg-name="РТР-Планета Европа" tvg-logo="http://s.topiptv.ink/img/logos/rtr.png" group-title="test",РТР-Планета Европа
-#EXTINF:-1 tvg-id="ATR" tvg-name="ATR" tvg-logo="http://s.topiptv.ink/img/logos/atr.png" group-title="test",ATR
-#EXTINF:-1 tvg-id="Enter Film" tvg-name="Enter Film" tvg-logo="http://s.topiptv.ink/img/logos/enterfilm.png" group-title="test",Enter Film
-#EXTINF:-1 tvg-id="NIKI Kids HD UA" tvg-name="NIKI Kids HD UA" tvg-logo="http://s.topiptv.ink/img/logos/nikikidshdua.png" group-title="test",NIKI Kids HD UA
-#EXTINF:-1 tvg-id="NIKI Junior HD UA" tvg-name="NIKI Junior HD UA" tvg-logo="http://s.topiptv.ink/img/logos/nikijuniorhdua.png" group-title="test",NIKI Junior HD UA
-#EXTINF:-1 tvg-id="Star Family HD UA" tvg-name="Star Family HD UA" tvg-logo="http://s.topiptv.ink/img/logos/starfamilyhdua.png" group-title="test",Star Family HD UA
-#EXTINF:-1 tvg-id="Star Cinema HD UA" tvg-name="Star Cinema HD UA" tvg-logo="http://s.topiptv.ink/img/logos/estarcinemahdua.png" group-title="test",Star Cinema HD UA
-#EXTINF:-1 tvg-id="Канал 1+1 International" tvg-name="Канал 1+1 International" tvg-logo="http://s.topiptv.ink/img/logos/1plus1int.png" group-title="test",Канал 1+1 International
-#EXTINF:-1 tvg-id="Канал 1+1 Україна HD" tvg-name="Канал 1+1 Україна HD" catchup="default" catchup-type="default" catchup-days="3" tvg-rec="3" catchup-source="http://ott1.dyndns.tv:8443/1+1hd/index-${start}-${timestamp}.m3u8?token=6eef1c913c65d47f3405cca78aa592cf" tvg-logo="http://s.topiptv.ink/img/logos/1plus1hd.png" group-title="test",Канал 1+1 Україна HD
-#EXTINF:-1 tvg-id="UATV" tvg-name="UATV" tvg-logo="http://s.topiptv.ink/img/logos/uatv.png" group-title="test",UATV
-#EXTINF:-1 tvg-id="UATV HD" tvg-name="UATV HD" tvg-logo="http://s.topiptv.ink/img/logos/uatv.png" group-title="test",UATV HD
-#EXTINF:-1 tvg-id="5 канал (Україна)" tvg-name="5 канал (Україна)" tvg-logo="http://s.topiptv.ink/img/logos/5kanalukr.png" group-title="test",5 канал (Україна)
-#EXTINF:-1 tvg-id="5 канал HD (Україна)" tvg-name="5 канал HD (Україна)" tvg-logo="http://s.topiptv.ink/img/logos/5kanalukr.png" group-title="test",5 канал HD (Україна)
-#EXTINF:-1 tvg-id="М1 HD" tvg-name="М1 HD" tvg-logo="http://s.topiptv.ink/img/logos/m1.png" group-title="test",М1 HD
-#EXTINF:-1 tvg-id="М2 HD" tvg-name="М2 HD" tvg-logo="http://s.topiptv.ink/img/logos/m2.png" group-title="test",М2 HD
-#EXTINF:-1 tvg-id="Еспресо ТВ" tvg-name="Еспресо ТВ" tvg-logo="http://s.topiptv.ink/img/logos/spresotv.png" group-title="test",Еспресо ТВ
-#EXTINF:-1 tvg-id="Orhei TV MD" tvg-name="Orhei TV MD" tvg-logo="http://s.topiptv.ink/img/logos/orheitv.png" group-title="test",Orhei TV MD
-#EXTINF:-1 tvg-id="Pro TV HD MD" tvg-name="Pro TV HD MD" tvg-logo="http://s.topiptv.ink/img/logos/protvhdmd.png" group-title="test",Pro TV HD MD
-#EXTINF:-1 tvg-id="Publika MD" tvg-name="Publika MD" tvg-logo="http://s.topiptv.ink/img/logos/publikatvmd.png" group-title="test",Publika MD
-#EXTINF:-1 tvg-id="Rlive HD MD" tvg-name="Rlive HD MD" tvg-logo="http://s.topiptv.ink/img/logos/rlivehdmd.png" group-title="test",Rlive HD MD
-#EXTINF:-1 tvg-id="Canal 2 HD MD" tvg-name="Canal 2 HD MD" tvg-logo="http://s.topiptv.ink/img/logos/canal2hdmd.png" group-title="test",Canal 2 HD MD
-#EXTINF:-1 tvg-id="Canal 3 HD MD" tvg-name="Canal 3 HD MD" tvg-logo="http://s.topiptv.ink/img/logos/canal3hdmd.png" group-title="test",Canal 3 HD MD
-#EXTINF:-1 tvg-id="СТС Mega TV MD" tvg-name="СТС Mega TV MD" tvg-logo="http://s.topiptv.ink/img/logos/megatvmd.png" group-title="test",СТС Mega TV MD
-#EXTINF:-1 tvg-id="Prime HD MD" tvg-name="Prime HD MD" tvg-logo="http://s.topiptv.ink/img/logos/primehdmd.png" group-title="test",Prime HD MD
-#EXTINF:-1 tvg-id="RTR MD" tvg-name="RTR MD" tvg-logo="http://s.topiptv.ink/img/logos/rtrmdmd.png" group-title="test",RTR MD
-#EXTINF:-1 tvg-id="RenTV MD" tvg-name="RenTV MD" tvg-logo="http://s.topiptv.ink/img/logos/rentvmd.png" group-title="test",RenTV MD
-#EXTINF:-1 tvg-id="NTV MD" tvg-name="NTV MD" tvg-logo="http://s.topiptv.ink/img/logos/ntvmd.png" group-title="test",NTV MD
-#EXTINF:-1 tvg-id="Primul MD" tvg-name="Primul MD" tvg-logo="http://s.topiptv.ink/img/logos/primulmd.png" group-title="test",Primul MD
-#EXTINF:-1 tvg-id="Noroc TV HD MD" tvg-name="Noroc TV HD MD" tvg-logo="http://s.topiptv.ink/img/logos/noroctvhdmd.png" group-title="test",Noroc TV HD MD
-#EXTINF:-1 tvg-id="Antena 1 HD RO" tvg-name="Antena 1 HD RO" tvg-logo="http://s.topiptv.ink/img/logos/antena1hdro.png" group-title="test",Antena 1 HD RO
-#EXTINF:-1 tvg-id="TVR HD RO" tvg-name="TVR HD RO" tvg-logo="http://s.topiptv.ink/img/logos/tvrhdro.png" group-title="test",TVR HD RO
-#EXTINF:-1 tvg-id="HBO HD RO" tvg-name="HBO HD RO" tvg-logo="http://s.topiptv.ink/img/logos/hbohdro.png" group-title="test",HBO HD RO
-#EXTINF:-1 tvg-id="HBO 2 RO" tvg-name="HBO 2 RO" tvg-logo="http://s.topiptv.ink/img/logos/hbo2ro.png" group-title="test",HBO 2 RO
-#EXTINF:-1 tvg-id="HBO 3 RO" tvg-name="HBO 3 RO" tvg-logo="http://s.topiptv.ink/img/logos/hbo3ro.png" group-title="test",HBO 3 RO
-#EXTINF:-1 tvg-id="OTV Latvia HD" tvg-name="OTV Latvia HD" tvg-logo="http://s.topiptv.ink/img/logos/OTV.png" group-title="test",OTV Latvia HD
-#EXTINF:-1 tvg-id="Go3 Lietuva" tvg-name="Go3 Lietuva" tvg-logo="http://s.topiptv.ink/img/logos/tv3lietuva.png" group-title="test",Go3 Lietuva
-#EXTINF:-1 tvg-id="TV6 Lietuva" tvg-name="TV6 Lietuva" tvg-logo="http://s.topiptv.ink/img/logos/tv6lietuva.png" group-title="test",TV6 Lietuva
-#EXTINF:-1 tvg-id="LRT HD" tvg-name="LRT HD" tvg-logo="http://s.topiptv.ink/img/logos/tv8lietuva.png" group-title="test",LRT HD
-#EXTINF:-1 tvg-id="LRT Plus" tvg-name="LRT Plus" tvg-logo="http://s.topiptv.ink/img/logos/lrtplus.png" group-title="test",LRT Plus
-#EXTINF:-1 tvg-id="Lietuvos ryto televizija" tvg-name="Lietuvos ryto televizija" tvg-logo="http://s.topiptv.ink/img/logos/lietuvosryto.png" group-title="test",Lietuvos ryto televizija
-#EXTINF:-1 tvg-id="Kidzone Baltic" tvg-name="Kidzone Baltic" tvg-logo="http://s.topiptv.ink/img/logos/kidzone.png" group-title="test",Kidzone Baltic
-#EXTINF:-1 tvg-id="Go3 Films" tvg-name="Go3 Films" tvg-logo="http://s.topiptv.ink/img/logos/tv3film.png" group-title="test",Go3 Films
-#EXTINF:-1 tvg-id="3+ (LV)" tvg-name="3+ (LV)" tvg-logo="http://s.topiptv.ink/img/logos/3pluslv.png" group-title="test",3+ (LV)
-#EXTINF:-1 tvg-id="TV 8 HD" tvg-name="TV 8 HD" tvg-logo="http://s.topiptv.ink/img/logos/tv8.png" group-title="test",TV 8 HD
