@@ -76,6 +76,9 @@ http://stream.mcquack.net/268/index.m3u8
 
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/kinoteatr-uz.png" tvg-id="kinoteatr-uz",Kinoteatr
 
+#EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/movify-kino.png" tvg-id="movify-kino",Movify Kino
+https://sirius.movify.tv/MovifyKino_Mpeg4/video.m3u8
+
 #EXTINF:0 group-title="Зарубежное кино" tvg-logo="https://iptvx.one/picons/saga-tv.png" tvg-id="saga-tv",Saga
 http://dda3aa01fc.edemist.com/iptv/KSKRCX75EL4VFTSHWYUKQUGB/32103/index.m3u8
 
@@ -667,6 +670,21 @@ http://stream.mcquack.net/476/index.m3u8
 http://stream.mcquack.net/355/index.m3u8
 #http://9ynqmie5.velstraso.top/iptv/69MMWMTC4WNS7Y/11010/index.m3u8
 #http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/11010/index.m3u8
+
+# CineMax
+
+#EXTINF:0 group-title="CineMax" tvg-logo="https://iptvx.one/picons/cinemax-kg.png" tvg-id="cinemax-kg",CineMax
+http://stream.mcquack.net/484/index.m3u8
+#http://stream.mcquack.net/476/index.m3u8
+
+#EXTINF:0 group-title="CineMax",CineMax 2
+http://stream.mcquack.net/475/index.m3u8
+
+#EXTINF:0 group-title="CineMax",CineMax 4
+http://stream.mcquack.net/472/index.m3u8
+
+#EXTINF:0 group-title="CineMax",CineMax 5
+http://stream.mcquack.net/471/index.m3u8
 
 # Eye
 
