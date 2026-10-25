@@ -48,7 +48,6 @@ http://46.56.85.151:8080/0.m3u8
 #https://edge52.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w1485261529_b2660000_sleng.m3u8
 #https://edge53.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/chunklist_w1049318557_b2660000_sleng.m3u8
 #https://edge55.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5.smil/chunklist_w654405596_b2660000_sleng.m3u8
-#https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5/playlist.m3u8
 #https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 #https://edge55.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 
@@ -570,3 +569,44 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2",RAZ 2
 
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-10-25 18:32:42  (31 URLs in 5 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1  group-title="test"  tvg-logo="https://otv.server-img.lfstrm.tv/images/channel_logos/logo_638108d82e47243302bc81f1.png" ,Balapan Internationalᴴᴰ 🇰🇿
+http://194.190.78.80/Balapan/index.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="no_epg_radio"  tvg-logo="https://i.postimg.cc/WzLh40Th/image.png" ,Львівська Хвиля FM 🇺🇦
+http://onair.lviv.fm:8000/lviv.fm
+#http://stream.ehrhiti.lv:8000/Stream_66.mp3
+#http://stream.ehrhiti.lv:8000/khr.mp3
+#EXTINF:-1  group-title="test"  tvg-id="no_epg_cinema"  tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/0e6bc225-2783-4ba8-a24e-57cf5f40bc87-profile_image-70x70.png"   tvg-name="Kin0ZALL",Kin0ZALLᴴᴰ
+https://assimilator.tv/uploads/KinoZall.m3u8
+#https://www.achotv.com/ver-tv-online/api/proxy.php?url=http%3A%2F%2Fcdn-konultvazerbaijan.yayin.com.tr%2Fkonultvazerbaijan%2Fkonultvazerbaijan%2Ftracks-v1a1%2Fmono.m3u8
+#https://www.dropbox.com/scl/fi/31jvkp5jpc1688hyg2dg3/tocoxoj.m3u?rlkey=lh6un75pak0o3hulg3v4wok4r&dl=1
+#https://assimilator.tv/uploads/kinomix%20double.m3u8
+#https://assimilator.tv/uploads/DreakingDad.m3u8
+#https://assimilator.tv/uploads/CriminalStories.m3u8
+#https://assimilator.tv/uploads/scripach.m3u8
+#EXTINF:-1  group-title="test"  tvg-id="no_epg_music" ,88 Stereo FM SD
+http://68.235.48.51:1935/CableLatino/88stereo/playlist.m3u8
+#http://albportal.net/albkanalemusic.m3u8
+#https://tvboom.ro/live-tv/live.m3u8
+#http://cdn.nng.cloudns.us/live/m3u8/id/0c913970f4e0137.m3u8
+#http://190.61.90.17:40000/play/a0hk/index.m3u8
+#http://air.radiorecord.md:8000/RecordMD
+#https://stream.fomixmedia.nl/FomixTV/video.m3u8
+#https://myradio24.org/tisradio_video.m3u8
+#https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
+#https://11c1368ec8294a8d8c7c079248909db4.mediatailor.us-east-2.amazonaws.com/v1/manifest/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast-dj/f4b5bb2a-2416-43ba-9e5a-3492f862328b/0.m3u8
+#https://vtrnk.online/radio_stream
+#https://mumt04.tangotv.in/m18aqlK4EPICMUSIC/index.m3u8
+#https://a.cdni.live/rodrigo2364/rodrigo2364/playlist.m3u8
+#https://myradio24.org/tisradio_video.m3u8?secret=FILM_TV_GROUP?token=ZmlsbXR2Z3JvdXB8fE1USXdOVEU1T0RKSGNrRm0=
+#https://myradio24.org/tisradio_video.m3u8?|User-Agent=http-user-agent=Lavf/56.15.102
+#https://m1b2.worldcast.tv/dancetelevisiontwo/2/dancetelevisiontwo.m3u8
+#http://77.85.236.219:6061/play/Box_TV/index.m3u8
+#http://iptvnow.nl:80/a88dc97c5a/778b8f730696/1283259
+#http://iptvnow.nl:80/a88dc97c5a/778b8f730696/1283071
+#EXTINF:-1  group-title="test"  tvg-id="cgtn"  tvg-logo="http://epg.one/img2/2267.png" ,CGTN SD
+https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
