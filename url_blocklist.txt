@@ -1923,3 +1923,93 @@ http://partners.universmotri.ru/live/univer.sdp_480p/playlist.m3u?wmsAuthSign=c2
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w684715497_b1460000_sleng.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2.smil/chunklist_w695777312_b5160000_sleng.m3u8
 
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-10-25 15:42 ---
+# хосты, где мертво всё (4):
+diasporaprimetv.ottct.pro
+radio.promodj.com
+stream.vivamax.pro
+81.166.129.185:8001
+# отдельные ссылки (75):
+http://177.234.249.178:8888/goltv/index.m3u8
+http://177.234.249.178:8888/mtv/index.m3u8
+http://181.119.66.28:8081/telehit-musica/index.m3u8
+http://185.105.117.51/content/37909/index.m3u8
+http://188.134.10.11:8010/live
+http://192.162.37.3:8000/play/a00m/index.m3u8
+http://212.26.132.129:8000/armyfm
+http://91.218.212.84:8000/radionv.mp3
+http://93.125.121.76:8080/stv/index.m3u8
+http://93.184.10.248/jordansport/index.m3u8
+http://am01.plink-pile.ch/20758/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20761/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20762/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20854/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20911/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20937/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20941/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20943/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/20944/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21103/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21105/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21145/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21146/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21147/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21148/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21149/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/21150/index.m3u8?token=z7yceyuy6bbrnm
+http://am01.plink-pile.ch/8051/index.m3u8?token=z7yceyuy6bbrnm
+http://cam.ntks.ru/dramteatr/index.m3u8
+http://cam.ntks.ru/goroshnikova66hd/index.m3u8
+http://cam.ntks.ru/stroiteley27_15hd/index.m3u8
+http://de.vivamax.pro/tvoetvhumor/index.m3u8?token=tvoetv
+http://e91ax34m.ottclub.xyz/iptv/lne7ck973bxbgd/2455/index.m3u
+http://edge126.rdsnet.ro:84/profm/dancefm.mp3
+http://ngtrk.dc.beltelecom.by/ctv/ctv.stream/chunklist.m3u8
+http://rtmp.one.by:1400
+http://ru1.plist.link:3355/rnaowlskv5b2567/index.m3u8?token=ktslluylh7abbhsncf4k19gvexyvop2omn-tiq7sxdupgseehvdyuylffe1xgb6g.zmeich
+http://ru1.plist.link:3355/rnaowlskv5b42782/index.m3u8?token=ktslluylh7abbhsncf4k16jms_nspe-f8z07amniglrdr7srgfk3f1ccf15dumbp.zmeich
+http://ru1.plist.link:3355/rnaowlskv5b73302/index.m3u8?token=ktslluylh7abbhsncf4k12cx3q7ipv6m06tleecvm7xpsqc71iwwkwhjy8vowg2r.zmeich
+http://ru1.plist.link:3355/rnaowlskv5b73305/index.m3u8?token=ktslluylh7abbhsncf4k1794lvvyi0laqcwiifr5chqhm2itzvcal2uusjsnqunp.zmeich
+http://ru1.plist.link:3355/rnaowlskv5b93303/index.m3u8?token=ktslluylh7abbhsncf4k1wriz5tojmrw6trshqiaiy9nhrzkjljewgtdfuve5tok.zmeich
+http://sim.md:8000/enigma
+http://stream.mcquack.net/130/index.m3u8
+http://stream.mcquack.net/157/index.m3u8
+http://stream.mcquack.net/219/index.m3u8
+http://stream.mcquack.net/258/index.m3u8
+http://stream.mcquack.net/260/index.m3u8
+http://stream.mcquack.net/271/index.m3u8
+http://stream.mcquack.net/329/index.m3u8
+http://stream.mcquack.net/358/index.m3u8
+http://stream.mcquack.net/368/index.m3u8
+http://stream.mcquack.net/436/index.m3u8
+http://stream.mcquack.net/447/tracks-v1a1/mono.ts.m3u8
+http://stream.mcquack.net/449/index.m3u8
+http://stream.mcquack.net/487/index.m3u8
+http://stream.mcquack.net/490/index.m3u8
+http://stream.mcquack.net/71/index.m3u8
+https://78.servicecdn.ru/streams/877_13/720p/index.m3u8
+https://78.servicecdn.ru/streams/877_13/playlist.m3u8
+https://clck.ru/3t2yad
+https://clck.ru/3t2ywd
+https://clck.ru/3t2yzk
+https://edge51.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w1701491008_b5160000_sleng.m3u8
+https://kctv.koryofront.org/stream/index.m3u8
+https://kgtv.online/live/lyubimyy/0.m3u8
+https://kgtv.online/live/osh_tv/oshtv.m3u8
+https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/chunklist_w1244197741_b1460000_sleng.m3u8
+https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5/playlist.m3u8
+https://sc4.gergosnet.com/mxhd.mp3
+https://sc4.gergosnet.com/puls90hd.mp3
+https://sc4.gergosnet.com/pulshd.mp3
+https://sc4.gergosnet.com/pulstrancehd.mp3
+https://smotret.tv/iframes/krasnaya-liniya.m3u8
+https://stream-17.mazana.tv/slagrpremium.m3u8s
+https://tv.intchoson.com/kctv/main_stream.m3u8
