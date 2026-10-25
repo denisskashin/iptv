@@ -119,6 +119,7 @@ http://stream.mcquack.net/168/index.m3u8
 # Мода и красота
 
 #EXTINF:0 group-title="Мода и красота" tvg-logo="https://iptvx.one/picons/fashion-one.png" tvg-id="fashion-one",Fashion & LifeStyle
+http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/2412/index.m3u8
 
 #EXTINF:0 group-title="Мода и красота" tvg-logo="https://iptvx.one/picons/fashion-tv.png" tvg-id="fashion-tv",Fashion TV
 https://edge-fast3.evrideo.tv/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
@@ -145,6 +146,7 @@ http://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 #http://cdn.wfc.tv/cdn/stream-rus-720p.m3u8
 #http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 #http://cdn03.dyndns.tv:525/live/worldfashionru?token=ce39104cda2bb561c2659329a294e056
+#https://cdn.wfc.tv/cdn/stream-eng-720p.m3u8
 
 #EXTINF:0 group-title="Мода и красота" tvg-logo="https://iptvx.one/picons/world-fashion-channel.png" tvg-id="world-fashion-channel",World Fashion Channel Russia
 http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
@@ -153,6 +155,12 @@ http://cdn.wfc.tv/cdn/stream-rus-1080p.m3u8
 #EXTINF:0 group-title="Мода и красота" tvg-logo="https://iptvx.one/picons/womens-magazine.png" tvg-id="womens-magazine",Женский Журнал
 
 # Охота и рыбалка
+
+#EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/rybalka.png" tvg-id="rybalka",Рыбалка HD
+http://stream.mcquack.net/286/index.m3u8
+
+#EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/rybalka-i-oxota.png" tvg-id="rybalka-i-oxota",Рыбалка и Охота
+http://77.85.236.219:6061/play/Ribalka_i_Ohota/index.m3u8
 
 #EXTINF:0 group-title="Охота и рыбалка",VF Рыбалка
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/16138/index.m3u8
