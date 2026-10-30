@@ -202,10 +202,6 @@ cdn.balelbrus.com
 bear-tv.net
 tv.beatfm.nl
 server.bellaradio.it
-centrfm.dc.beltelecom.by
-edge50.dc.beltelecom.by
-live.dc.beltelecom.by
-stream1.dc.beltelecom.by
 betkinglive.online
 stream01.bgu.ru
 webtvstream.bhtelecom.ba
@@ -1027,8 +1023,14 @@ live26regiontv.ru
 iptvnow.nl
 stream.yamal1.ru
 ib6vzaug.rostelekom.xyz
+centrfm.dc.beltelecom.by
+edge50.dc.beltelecom.by
+live.dc.beltelecom.by
+stream1.dc.beltelecom.by
 edge55.dc.beltelecom.by
+edge59.dc.beltelecom.by
 iyh5mlxw.klaipedalt.org
+edge52.dc.beltelecom.by
 
 # --- blocked IPs ---
 4.59.210.197
@@ -1402,10 +1404,7 @@ iyh5mlxw.klaipedalt.org
 51.158.144.33
 88.212.15.17
 57.128.196.110
-
-https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1/chunklist_w148744111_b5160000_sleng.m3u8
-https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus2/chunklist_w148744111_b5160000_sleng.m3u8
-https://edge59.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24/chunklist_w148744111_b5160000_sleng.m3u8
+151.237.83.99
 
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b1010000_sleng.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus24.smil/chunklist_w_b1460000_sleng.m3u8
@@ -1429,7 +1428,6 @@ http://212.233.98.62/okino-tv/index.m3u8
 https://live.acwugtv.com/hls/stream.m3u8
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
 https://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
-http://edge59.dc.beltelecom.by/ctv/_definst_/ctv.stream/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus1.smil/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/playlist.m3u8
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus24.smil/playlist.m3u8
@@ -1823,6 +1821,7 @@ http://ru1.plist.link:3355/RNaoWLSkV5b53004/index.m3u8?token=ktSlluyLH7abBHsNCf4
 http://ru1.plist.link:3355/RNaoWLSkV5b53007/index.m3u8?token=ktSlluyLH7abBHsNCf4k18z916gX6hN62eP1xXD9gH-wDNlI8pmArzmN5QKNDbEh.zmeich
 http://ru1.plist.link:3355/RNaoWLSkV5b93008/index.m3u8?token=ktSlluyLH7abBHsNCf4k17KuM_xoNNIHHrkCckckUlgOxzl9NoSplFHCsO8cyFL0.zmeich
 http://ru1.plist.link:3355/RNaoWLSkV5b02889/index.m3u8?token=3tDMIRqp8Y0bDIoD2JqhGPxwGg4KUX4F4fsCGQey38EAil2zg3nvzvPBDRzgRNYX.zmeich
+http://ru1.plist.link:3355/RNaoWLSkV5b9039/index.m3u8?token=ktSlluyLH7abBHsNCf4k13Fct6y0OdzVbLKKPerF4SHKNSyHSgpUWx8uUNv8SmYy.zmeich
 
 http://91ea1cae.edemist.com/iptv/YPYAYTZV9TYE5V/15515/index.m3u8
 
@@ -1925,3 +1924,33 @@ http://streaming.astrakhan.ru/proastrakhanhd/tracks-v1a1/index.m3u8
 http://streaming.astrakhan.ru/proastrakhanhd/tracks-v1a1/mono.ts.m3u8
 http://streaming.astrakhan.ru/proastrakhanhd/tracks-v2a1/mono.ts.m3u8
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
+
+# --- 2026-10-30 14:43 ---
+# отдельные ссылки (27):
+http://ru1.plist.link:3355/rnaowlskv5b6071/index.m3u8?token=ktslluylh7abbhsncf4k12hmfo778-3gmfqe8h50hh52jd9xzgtrtsudyeoxyshf.zmeich
+http://ru1.plist.link:3355/rnaowlskv5b9039/index.m3u8?token=ktslluylh7abbhsncf4k13fct6y0odzvblkkperf4shknsyhsgpuwx8uunv8smyy.zmeich
+http://stream.mcquack.net/108/index.m3u8
+http://stream.mcquack.net/111/index.m3u8
+http://stream.mcquack.net/121/index.m3u8
+http://stream.mcquack.net/136/index.m3u8
+http://stream.mcquack.net/141/index.m3u8
+http://stream.mcquack.net/164/index.m3u8
+http://stream.mcquack.net/177/index.m3u8
+http://stream.mcquack.net/179/index.m3u8
+http://stream.mcquack.net/208/index.m3u8
+http://stream.mcquack.net/212/index.m3u8
+http://stream.mcquack.net/238/index.m3u8
+http://stream.mcquack.net/257/index.m3u8
+http://stream.mcquack.net/263/index.m3u8
+http://stream.mcquack.net/276/index.m3u8
+http://stream.mcquack.net/330/index.m3u8
+http://stream.mcquack.net/362/index.m3u8
+http://stream.mcquack.net/373/index.m3u8
+http://stream.mcquack.net/396/index.m3u8
+http://stream.mcquack.net/398/index.m3u8
+http://stream.mcquack.net/412/index.m3u8
+http://stream.mcquack.net/416/index.m3u8
+http://stream.mcquack.net/457/index.m3u8
+http://stream.mcquack.net/464/index.m3u8
+http://stream.mcquack.net/60/index.m3u8
+http://stream.mcquack.net/81/index.m3u8
