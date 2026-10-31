@@ -1,27 +1,5 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
-# StrahTV
-
-#EXTINF:0 group-title="StrahTV",The X-Files
-
-#EXTINF:0 group-title="StrahTV",Байки из склепа
-
-#EXTINF:0 group-title="StrahTV",Громовы
-
-#EXTINF:0 group-title="StrahTV",Интерны ТВ
-
-#EXTINF:0 group-title="StrahTV",Коломбо
-
-#EXTINF:0 group-title="StrahTV",Однажды в милиции
-
-#EXTINF:0 group-title="StrahTV",Ольга HD
-
-#EXTINF:0 group-title="StrahTV",Репка HD
-
-#EXTINF:0 group-title="StrahTV",Сваты
-
-#EXTINF:0 group-title="StrahTV",Универ ТВ
-
 # Viasat
 
 #EXTINF:0 group-title="Viasat" tvg-logo="https://iptvx.one/picons/viasat-serial.png" tvg-id="viasat-serial",Serial HD
@@ -80,16 +58,12 @@ http://o1nbiadn.megatv.fun/iptv/PDS2THE2VHU8NZ/31657/index.m3u8
 
 # CineMan
 
-#EXTINF:0 group-title="CineMan",Emergency Room
-
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-miniseries.png" tvg-id="cineman-miniseries",Miniseries
-
 http://stream.mcquack.net/122/index.m3u8
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-vovserials.png" tvg-id="cineman-vovserials",Военные Сериалы
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-komseri.png" tvg-id="cineman-komseri",Комедийные сериалы
-
 http://9ynqmie5.velstraso.top/iptv/69MMWMTC4WNS7Y/31628/index.m3u8
 
 #EXTINF:0 group-title="CineMan" tvg-logo="https://iptvx.one/picons/cineman-gluhar.png" tvg-id="cineman-gluhar",Криминальные Сериалы
@@ -109,10 +83,9 @@ http://stream.mcquack.net/477/index.m3u8
 # Fox
 
 #EXTINF:0 group-title="Fox" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife",Life
+http://stream.mcquack.net/129/index.m3u8
 
 # Fresh
-
-http://stream.mcquack.net/129/index.m3u8
 
 #EXTINF:0 group-title="Fresh" tvg-logo="https://iptvx.one/picons/fresh-series.png" tvg-id="fresh-series",Series
 http://stream.mcquack.net/430/index.m3u8
@@ -123,14 +96,11 @@ http://stream.mcquack.net/430/index.m3u8
 
 #EXTINF:0 group-title="Gold Line" tvg-logo="https://iptvx.one/picons/goldline-nevski.png" tvg-id="goldline-nevski",Невский
 
-#EXTINF:0 group-title="Gold Line",Сериалы
-
 # Kernel TV
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-bumdom.png" tvg-id="kernel-bumdom",Бумажный дом
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-doktor.png" tvg-id="kernel-doktor",Доктор
-
 http://stream.mcquack.net/80/index.m3u8
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-interny.png" tvg-id="kernel-interny",Интерны
@@ -139,23 +109,14 @@ http://stream.mcquack.net/80/index.m3u8
 
 #EXTINF:0 group-title="Kernel TV" tvg-logo="https://iptvx.one/picons/kernel-svaty.png" tvg-id="kernel-svaty",Сваты
 
-# KLI
-
-#EXTINF:0 group-title="KLI",Киносерия
-
-#EXTINF:0 group-title="KLI",Полицейский с Рублёвки
-
-#EXTINF:0 group-title="KLI",Сериал
-
 # Liberty
 
 #EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-svaty.png" tvg-id="liberty-svaty",Сваты
 
 #EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-serialy.png" tvg-id="liberty-serialy",Сериалы
+http://bzm3mfjq.velstraso.top/iptv/X3RTSXQY3SXQNLX4R3BN53BD/31665/index.m3u8
 
 # MM
-
-http://bzm3mfjq.velstraso.top/iptv/X3RTSXQY3SXQNLX4R3BN53BD/31665/index.m3u8
 
 #EXTINF:0 group-title="MM" tvg-logo="https://iptvx.one/picons/minimax-voronini.png" tvg-id="minimax-voronini",Воронины
 
@@ -226,7 +187,6 @@ http://bzm3mfjq.velstraso.top/iptv/X3RTSXQY3SXQNLX4R3BN53BD/31665/index.m3u8
 
 #EXTINF:0 group-title="TEAM" tvg-logo="https://iptvx.one/picons/team-sled.png" tvg-id="team-sled",След
 
-
 # TVPlay
 
 #EXTINF:0 group-title="TVPlay" tvg-logo="https://iptvx.one/picons/tvplay-buffyistrebitelnicavampirovhd.png" tvg-id="tvplay-buffyistrebitelnicavampirovhd",Баффи
@@ -276,24 +236,11 @@ http://stream.mcquack.net/227/index.m3u8
 
 #EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-ruserial.png" tvg-id="velilla-ruserial",Русский Сериал
 
-
 #EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-sitkom.png" tvg-id="velilla-sitkom",Ситком
 
 #EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-sw.png" tvg-id="velilla-sw",Счастливы Вместе
 
 #EXTINF:0 group-title="Velilla TV" tvg-logo="https://iptvx.one/picons/velilla-elenir.png" tvg-id="velilla-elenir",Элен и Ребята
-
-# Velvet
-
-#EXTINF:0 group-title="Velvet",Ментовские Сериалы HD
-
-#EXTINF:0 group-title="Velvet",Мировые сериалы HD
-
-#EXTINF:0 group-title="Velvet",Сваты HD
-
-#EXTINF:0 group-title="Velvet",Сериалы Хиты HD
-
-#EXTINF:0 group-title="Velvet",Турецкие сериалы HD
 
 # VF
 
@@ -385,10 +332,9 @@ http://9ynqmie5.velstraso.top/iptv/69MMWMTC4WNS7Y/18198/index.m3u8
 # Viju+
 
 #EXTINF:0 group-title="Viju+" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial",Serial
+http://stream.mcquack.net/311/index.m3u8
 
 # Z!
-
-http://stream.mcquack.net/311/index.m3u8
 
 #EXTINF:0 group-title="Z!" tvg-logo="https://iptvx.one/picons/z-serial.png" tvg-id="z-serial",Serial HD
 
@@ -415,11 +361,9 @@ http://185.121.1.163:8083/Kineko/index.m3u8
 # Русский
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala",Мир сериала
-
 http://ztf5jtil.zyntras.top/iptv/KLEYQYC7TPZ8G7W822WQCXNQ/856/index.m3u8
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller",Русский бестселлер
-
 http://ztf5jtil.zyntras.top/iptv/KLEYQYC7TPZ8G7W822WQCXNQ/9141/index.m3u8
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-id="russky-detektiv",Русский Детектив
@@ -428,6 +372,3 @@ http://4197b1f4.kazaktelekom.org/iptv/NXLLLMU654RENM/907/index.m3u8
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman",Русский роман
 #http://stream.mcquack.net/266/index.m3u8
 #http://6au8zl0c.megatv.fun/iptv/E8Q36367WLXKB3/2076/index.m3u8
-
-#EXTINF:0 group-title="Русский",DUO RuCrime
-
