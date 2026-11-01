@@ -1047,6 +1047,9 @@ stream7.zivoli.it
 stream.zrtk.ru
 l7psy1ox.zyntras.top
 mlax7sqv.zyntras.top
+tv.105.net
+app.live.112.events
+stream.1music.hu
 
 # --- blocked IPs ---
 4.59.210.197
@@ -1432,12 +1435,6 @@ mlax7sqv.zyntras.top
 217.182.77.27
 
 # --- blocked URLs ---
-http://tv.105.net/live/105test1/playlist.m3u8
-http://tv.105.net/live/rmc1/playlist.m3u8
-http://tv.105.net:1935/live/virgin1/index.m3u8
-http://app.live.112.events/hls-ua/112hd_hi/index.m3u8
-http://app.live.112.events/hls-ua/112hd_mid/index.m3u8
-http://stream.1music.hu/stream/1music.m3u8
 https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 http://arigus-online.ru/files/playlist.m3u8
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
@@ -1822,7 +1819,7 @@ http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/9181/index.m3u8
 http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/9305/index.m3u8
 http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/9340/index.m3u8
 http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/14013/index.m3u8
-#http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/14014/index.m3u8
+http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/14014/index.m3u8
 http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/14022/index.m3u8
 http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/14031/index.m3u8
 http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/19349/index.m3u8
@@ -1905,3 +1902,53 @@ http://195.5.108.14:1935/live/itv1/playlist.m3u8
 http://212.26.132.86/hls/mb_ua_2500.m3u8
 http://212.26.132.129:8000/armyfm
 http://212.233.98.62/okino-tv/index.m3u8
+
+http://cdn.play-x.app:2095/concert_UHD/index.m3u8?token=9b5e7b2868a58590ab5ffc55450e6410eea9c5fb
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-10-31 22:23 ---
+# отдельные ссылки (20):
+http://stream.mcquack.net/107/index.m3u8
+http://stream.mcquack.net/151/index.m3u8
+http://stream.mcquack.net/183/index.m3u8
+http://stream.mcquack.net/194/index.m3u8
+http://stream.mcquack.net/202/index.m3u8
+http://stream.mcquack.net/240/index.m3u8
+http://stream.mcquack.net/241/index.m3u8
+http://stream.mcquack.net/264/index.m3u8
+http://stream.mcquack.net/275/index.m3u8
+http://stream.mcquack.net/291/index.m3u8
+http://stream.mcquack.net/318/index.m3u8
+http://stream.mcquack.net/33/index.m3u8
+http://stream.mcquack.net/349/index.m3u8
+http://stream.mcquack.net/395/index.m3u8
+http://stream.mcquack.net/405/index.m3u8
+http://stream.mcquack.net/443/index.m3u8
+http://stream.mcquack.net/448/index.m3u8
+http://stream.mcquack.net/451/index.m3u8
+http://stream.mcquack.net/465/index.m3u8
+http://stream.mcquack.net/76/index.m3u8
+
+# --- 2026-11-01 10:30 ---
+# отдельные ссылки (15):
+http://stream.mcquack.net/142/index.m3u8
+http://stream.mcquack.net/155/index.m3u8
+http://stream.mcquack.net/166/index.m3u8
+http://stream.mcquack.net/211/index.m3u8
+http://stream.mcquack.net/232/index.m3u8
+http://stream.mcquack.net/317/index.m3u8
+http://stream.mcquack.net/356/index.m3u8
+http://stream.mcquack.net/361/index.m3u8
+http://stream.mcquack.net/392/index.m3u8
+http://stream.mcquack.net/403/index.m3u8
+http://stream.mcquack.net/420/index.m3u8
+http://stream.mcquack.net/64/index.m3u8
+http://stream.mcquack.net/69/index.m3u8
+http://stream.mcquack.net/79/index.m3u8
+http://stream.mcquack.net/93/index.m3u8
