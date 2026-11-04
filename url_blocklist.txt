@@ -1050,6 +1050,8 @@ mlax7sqv.zyntras.top
 tv.105.net
 app.live.112.events
 stream.1music.hu
+live-k2302-kbp.1plus1.video
+assimilator.tv
 
 # --- blocked IPs ---
 4.59.210.197
@@ -1433,9 +1435,11 @@ stream.1music.hu
 217.174.225.146
 217.174.229.136
 217.182.77.27
+82.209.219.165
+85.117.37.43
+85.117.61.84
 
 # --- blocked URLs ---
-https://live-k2302-kbp.1plus1.video/sport/smil:sport.smil/playlist.m3u8
 http://arigus-online.ru/files/playlist.m3u8
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
 http://streaming.astrakhan.ru/proastrakhanhd/tracks-v1a1/index.m3u8
@@ -1905,15 +1909,6 @@ http://212.233.98.62/okino-tv/index.m3u8
 
 http://cdn.play-x.app:2095/concert_UHD/index.m3u8?token=9b5e7b2868a58590ab5ffc55450e6410eea9c5fb
 
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-10-31 22:23 ---
-# отдельные ссылки (20):
 http://stream.mcquack.net/107/index.m3u8
 http://stream.mcquack.net/151/index.m3u8
 http://stream.mcquack.net/183/index.m3u8
@@ -1935,8 +1930,6 @@ http://stream.mcquack.net/451/index.m3u8
 http://stream.mcquack.net/465/index.m3u8
 http://stream.mcquack.net/76/index.m3u8
 
-# --- 2026-11-01 10:30 ---
-# отдельные ссылки (15):
 http://stream.mcquack.net/142/index.m3u8
 http://stream.mcquack.net/155/index.m3u8
 http://stream.mcquack.net/166/index.m3u8
@@ -1953,8 +1946,6 @@ http://stream.mcquack.net/69/index.m3u8
 http://stream.mcquack.net/79/index.m3u8
 http://stream.mcquack.net/93/index.m3u8
 
-# --- 2026-11-04 08:51 ---
-# отдельные ссылки (9):
 http://192.162.37.3:8000/play/a003/index.m3u8
 http://ru1.plist.link:3355/rnaowlskv5b920066/index.m3u8?token=ktslluylh7abbhsncf4k1xh-qgptzwbd3s5gzyj5tgu774twt4lhtqsqzhqbvbze.zmeich
 http://stream.mcquack.net/129/index.m3u8
