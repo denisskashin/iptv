@@ -150,7 +150,7 @@ https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFX
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/sony.png" tvg-id="sony-tv",.red
 http://176.100.46.245:90/red/index.m3u8
-#http://stream.mcquack.net/69/index.m3u8
+#http://85.117.37.43/red/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu",8tv
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
@@ -458,6 +458,7 @@ https://s7.iptv-24.net/1020/index.m3u8?scheme=https
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts",СТС
 http://stream.mcquack.net/138/index.m3u8
+#http://85.117.61.84/sts/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super",Суббота!
 
@@ -515,3 +516,80 @@ http://stream.mcquack.net/470/index.m3u8
 http://67.218.111.36/BogBlagTV/tracks-v1a1/mono.m3u8
 #https://glorystarplus.tv/BogBlagTV/tracks-v1a1/mono.m3u8
 
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-11-04 08:51:13  (36 URLs in 36 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1  group-title="test"  tvg-id="grodno-plus"  tvg-logo="https://iptvx.one/picons/grodno-plus.png" ,ГРОДНО+ 🇧🇾
+http://82.209.219.165:1235/gpsd
+#EXTINF:-1 group-title="test",vijuTV1000
+http://85.117.37.43/vijuTV1000/index.m3u8
+#EXTINF:-1 group-title="test",amedia1
+http://85.117.61.84/amedia1/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",Flatmate
+https://assimilator.tv/uploads/FlatMate.m3u8
+#EXTINF:-1 group-title="test",amedia2
+http://85.117.61.84/amedia2/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test",CriminalStories
+https://assimilator.tv/uploads/CriminalStories.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test", LollyDragon
+https://assimilator.tv/uploads/LollyDragon.m3u8
+#EXTINF:-1 group-title="test",cnn EN
+http://85.117.37.43/cnn/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test", Kin0ZALL
+https://assimilator.tv/uploads/KinoZall.m3u8
+#EXTINF:-1 group-title="test",dw EN
+http://85.117.37.43/dw/index.m3u8
+#EXTINF:-1 group-title="test",mirseriala
+http://85.117.61.84/mirseriala/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/BS4m2tT/WEWEWEWE.png" tvg-id="" group-title="test", KA6AH
+https://assimilator.tv/uploads/KA6AH.m3u8
+#EXTINF:-1 group-title="test",Euronews EN
+http://85.117.37.43/Euronews/index.m3u8
+#EXTINF:-1 group-title="test",Золотая коллекция
+http://85.117.61.84/mosfilm/index.m3u8
+#EXTINF:-1 group-title="test",eurosport1 EN
+http://85.117.37.43/eurosport1/index.m3u8
+#EXTINF:-1 group-title="test",oxotaribalka
+http://85.117.61.84/oxotaribalka/index.m3u8
+#EXTINF:-1 group-title="test",france24
+http://85.117.37.43/france24/index.m3u8
+#EXTINF:-1 group-title="test",piatnica
+http://85.117.61.84/piatnica/index.m3u8
+#EXTINF:-1 group-title="test",imedi GEO
+http://85.117.37.43/imedi/index.m3u8
+#EXTINF:-1 group-title="test",planeta
+http://85.117.61.84/planeta/index.m3u8
+#EXTINF:-1 group-title="test",rustavi2 GEO
+http://85.117.37.43/rustavi2/index.m3u8
+#EXTINF:-1 group-title="test",Romanantika
+http://85.117.61.84/rusroman/index.m3u8
+#EXTINF:-1 group-title="test",vijuhistory
+http://85.117.37.43/vijuhistory/index.m3u8
+#EXTINF:-1 group-title="test",tv21
+http://85.117.61.84/tv21/index.m3u8
+#EXTINF:-1 group-title="test",tvpirveli
+http://85.117.37.43/tvpirveli/index.m3u8
+#EXTINF:-1 group-title="test",setanta2 🇬🇪
+http://85.117.61.84/setanta2/index.m3u8
+#EXTINF:-1 group-title="test",vijunature
+http://85.117.37.43/vijunature/index.m3u8
+#EXTINF:-1 group-title="test",postv GEO
+http://85.117.37.43/postv/index.m3u8
+#EXTINF:-1 group-title="test",setanta3
+http://85.117.61.84/setanta3/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="test",Eurosport 1 Russia (1080p)
+https://s7.iptv-24.net/1439/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="test",Eurosport 2 Russia (1080p)
+https://s7.iptv-24.net/1452/playlist.m3u8
+#EXTINF:-1 group-title="test",Зоопарк
+http://85.117.61.84/zoo/index.m3u8
+#EXTINF:-1 group-title="test",tv25 🇬🇪
+http://85.117.61.84/tv25/index.m3u8
+#EXTINF:-1 group-title="test",silkuniversal 🇬🇪
+http://85.117.61.84/silkuniversal/index.m3u8
+#EXTINF:-1 group-title="test",gds 🇬🇪
+http://85.117.61.84/gds/index.m3u8
+#EXTINF:-1 group-title="test",fashion
+http://85.117.61.84/fashion/index.m3u8
