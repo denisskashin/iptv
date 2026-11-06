@@ -1052,6 +1052,9 @@ app.live.112.events
 stream.1music.hu
 live-k2302-kbp.1plus1.video
 assimilator.tv
+live.mana2.my
+live.m2.tv
+tv78.life.ru
 
 # --- blocked IPs ---
 4.59.210.197
@@ -1442,6 +1445,7 @@ assimilator.tv
 177.234.249.178
 91.218.212.84
 93.125.121.76
+190.117.20.37
 
 # --- blocked URLs ---
 http://arigus-online.ru/files/playlist.m3u8
@@ -1514,14 +1518,8 @@ https://edge-01.kino.watch/horror/index.m3u8
 https://kctv.koryofront.org/stream/index.m3u8
 http://stream.euroasia.lfstrm.tv/perviy_evrasia/1/index.m3u8
 http://streams.almaata.kcell.lfstrm.tv/perviy_evrasia/1/index.m3u8
-http://tv78.life.ru/lifetv/480p/index.m3u8
-http://tv78.life.ru/lifetv/720p/index.m3u8
 http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist_b1328800.m3u8
-http://live.m2.tv/hls3/720/stream.m3u8
-http://live.m2.tv/hls/stream.m3u8
 https://m3ut.net/p/982815674/1/45
-https://live.mana2.my/selangortv/index.m3u8?auth_key=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd&token=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd
-https://live.mana2.my/tv1/index.m3u8?auth_key=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047&token=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047
 https://stream-17.mazana.tv/slagrpremium.m3u8s
 http://stream.mcquack.net/47/index.m3u8
 http://stream.mcquack.net/49/tracks-v1a1/mono.ts.m3u
@@ -1811,6 +1809,7 @@ http://ru1.plist.link:3355/RNaoWLSkV5b93008/index.m3u8?token=ktSlluyLH7abBHsNCf4
 http://ru1.plist.link:3355/RNaoWLSkV5b93011/index.m3u8?token=ktSlluyLH7abBHsNCf4k16r-1QsQoB4aj84dSc-_A-OljDDILfj7EPEJM72yHg4f.zmeich
 http://ru1.plist.link:3355/rnaowlskv5b93303/index.m3u8?token=ktslluylh7abbhsncf4k1wriz5tojmrw6trshqiaiy9nhrzkjljewgtdfuve5tok.zmeich
 http://ru1.plist.link:3355/RNaoWLSkV5b920066/index.m3u8?token=ktSlluyLH7abBHsNCf4k1xH-qGpTzWBd3S5gZyJ5TgU774TwT4lHtQSQZhQBVbZe.zmeich
+http://ru1.plist.link:3355/RNaoWLSkV5b420053/index.m3u8?token=ktSlluyLH7abBHsNCf4k1zV-4ANrPW2nKjz-MVvTYd_Y1R7mcS5FUwuYmQ_TU-zv.zmeich
 
 http://flussonic0.podryad.net/gorodtv/tracks-v1a1/mono.m3u8
 http://v1.proofix.ru/live-tv8-2/europe/playlist.m3u8
@@ -1958,3 +1957,32 @@ http://stream.mcquack.net/225/index.m3u8
 http://stream.mcquack.net/432/index.m3u8
 http://stream.mcquack.net/434/index.m3u8
 http://stream.mcquack.net/444/index.m3u8
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-11-06 16:14 ---
+# отдельные ссылки (19):
+http://93.113.203.165/iptv/f5bm9gxmapybdk/19231/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/19385/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/20128/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/6144/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/9062/index.m3u8
+http://ru1.plist.link:3355/rnaowlskv5b120054/index.m3u8?token=ktslluylh7abbhsncf4k1530l-furcq4xgqaxgimws3s9ta0pig4lgefe1sv3kxe.zmeich
+http://ru1.plist.link:3355/rnaowlskv5b220069/index.m3u8?token=ktslluylh7abbhsncf4k10hvxfawiudwi6sippcq7af81fdmvehlshtdv7r_wvl7.zmeich
+http://stream.mcquack.net/122/index.m3u8
+http://stream.mcquack.net/124/index.m3u8
+http://stream.mcquack.net/187/index.m3u8
+http://stream.mcquack.net/205/index.m3u8
+http://stream.mcquack.net/216/index.m3u8
+http://stream.mcquack.net/272/index.m3u8
+http://stream.mcquack.net/314/index.m3u8
+http://stream.mcquack.net/369/index.m3u8
+http://stream.mcquack.net/429/index.m3u8
+http://stream.mcquack.net/445/index.m3u8
+http://stream.mcquack.net/70/index.m3u8
+https://partneta.cdn.mgmlcdn.com/omsport/smil:omsport.stream.smil/chunklist_b900000.m3u8
