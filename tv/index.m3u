@@ -424,7 +424,6 @@ https://s7.iptv-24.net/1020/index.m3u8?scheme=https
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super",Суббота!
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr",ТВ Центр
-http://prokazov.ottolok.net/iptv/2FNSKRDMY4NH2GQBSC96NCBQ/520/index.m3u8
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt",ТНТ
 
@@ -460,7 +459,7 @@ http://stream.mcquack.net/106/index.m3u8
 #EXTINF:-1 tvg-logo="https://bugsfreeweb.github.io/LiveTVCollector/BugsfreeLogo/default-logo.png" group-title="test",Oplot 2 (720p) [Geo-blocked]
 http://91.224.16.9:7779/Oplot_2/index.m3u8
 
-#EXTINF:-1  group-title="test" tvg-rec="7" timeshift="7",kino kanal
+#EXTINF:-1 group-title="test" tvg-rec="7" timeshift="7",kino kanal
 http://stream.mcquack.net/470/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="test",Eurosport 1 Russia (1080p)
