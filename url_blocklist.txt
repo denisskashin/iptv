@@ -2000,3 +2000,32 @@ http://ztf5jtil.zyntras.top/iptv/KLEYQYC7TPZ8G7W822WQCXNQ/865/index.m3u8
 
 http://ru1.plist.link:3355/RNaoWLSkV5b71702/index.m3u8?token=ktSlluyLH7abBHsNCf4k18QgOUaGIYEw7dzl9xuy9aoCEYAlyASNFv0KKzwWQHl5.zmeich
 http://ru1.plist.link:3355/RNaoWLSkV5b3477/index.m3u8?token=ktSlluyLH7abBHsNCf4k13b25e6pjAzXbwUohRMsI8UeDZ-dwHJv3Ti6LPZkWxpw.zmeich
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-11-11 21:07 ---
+# отдельные ссылки (19):
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/14013/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/14014/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/14022/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/14031/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/19385/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/20128/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/2412/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/6144/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/9062/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/9277/index.m3u8
+http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/9312/index.m3u8
+http://ru1.plist.link:3355/rnaowlskv5b020031/index.m3u8?token=ktslluylh7abbhsncf4k14hb_jfjmyb0yp4frnoor6bqscm6ctuyhb4zfjhodlwo.zmeich
+http://stream.mcquack.net/106/index.m3u8
+http://stream.mcquack.net/161/index.m3u8
+http://stream.mcquack.net/304/index.m3u8
+http://stream.mcquack.net/484/index.m3u8
+https://s7.iptv-24.net/1009/tracks-v1a1/mono.m3u8
+https://s7.iptv-24.net/1422/tracks-v1a1/mono.m3u8
+https://s7.iptv-24.net/1426/index.m3u8
