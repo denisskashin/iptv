@@ -19,7 +19,12 @@ http://stream.mcquack.net/440/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/euronews.png" tvg-id="euronews",Euronews
 
+http://0acd745f.akadatel.com/iptv/LM3PN6CZBA9X3RYH9KL5BNNU/828/index.m3u8
+#http://0acd745f.akadatel.com/iptv/LM3PN6CZBA9X3RYH9KL5BNNU/9215/index.m3u8
+
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/fox-news-us.png" tvg-id="fox-news-us",Fox News
+
+http://0acd745f.akadatel.com/iptv/LM3PN6CZBA9X3RYH9KL5BNNU/31915/index.m3u8
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/rt-news.png" tvg-id="rt-news",RT
 https://wisewatchoott.wiseplayout.com/RT/master.m3u8
@@ -30,6 +35,8 @@ https://wisewatchoott.wiseplayout.com/RT/master.m3u8
 #EXTINF:0 group-title="Франция" tvg-logo="https://iptvx.one/picons/museum-hd.png" tvg-id="museum-hd",Museum TV
 
 # Эстония
+
+http://0acd745f.akadatel.com/iptv/LM3PN6CZBA9X3RYH9KL5BNNU/7246/index.m3u8
 
 #EXTINF:0 group-title="Эстония" tvg-logo="https://iptvx.one/picons/duo3tv.png" tvg-id="sony-channel-ee",Duo 3 EE
 
@@ -45,8 +52,10 @@ https://wisewatchoott.wiseplayout.com/RT/master.m3u8
 https://sb.err.ee/live/etv.m3u8
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV2%20EE.png",ETV 2
+https://sb.err.ee/live/etv2.m3u8
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/ETV+%20EE.png",ETV+
+https://sb.err.ee/live/etvpluss.m3u8
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/Duo7%20HD%20EE.png",Kanal 7 EE
 
@@ -55,4 +64,7 @@ https://sb.err.ee/live/etv.m3u8
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/TV3%20EE.png",TV3 EE
 
 #EXTINF:0 group-title="Эстония" tvg-logo="http://icon.ru-tv.site/icon/TV6%20LT.png",TV6 EE
+
+#EXTINF:0 group-title="Эстония",OTV
+http://88.212.7.14/live/otv/playlist.m3u8
 
