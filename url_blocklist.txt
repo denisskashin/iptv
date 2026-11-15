@@ -1774,6 +1774,7 @@ directes-tv-int.3catdirectes.cat
 217.174.225.146
 217.174.229.136
 217.182.77.27
+77.37.224.102
 
 # --- blocked URLs ---
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
@@ -2276,19 +2277,8 @@ http://stream.mcquack.net/450/index.m3u8
 181.79.86.130
 200.115.120.1
 
-
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-11-15 15:24 ---
-# хосты, где мертво всё (2):
 tvnow.hostless.app
 185.170.153.13:6878
-# отдельные ссылки (71):
 http://200.115.120.1:8000/play/ca82266/index.m3u8
 http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/14021/index.m3u8
 http://r9jgzc02.russtv.net/iptv/rdxd2kkg257qk5/14032/index.m3u8
@@ -2360,3 +2350,45 @@ http://stream.mcquack.net/347/tracks-v1a1/mono.ts.m3u8
 http://stream.mcquack.net/78/index.m3u8
 http://sultanios.alwaysdata.net/vavo.php?id=3174529991
 http://xgaot86j.statgovlt.fun/iptv/bl5fewms5uethn66htbazn2r/30150/index.m3u8
+ignac16.github.io
+
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-11-15 16:47 ---
+# хосты, где мертво всё (1):
+r9jgzc02.russtv.net
+# отдельные ссылки (28):
+http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
+http://stream.mcquack.net/119/index.m3u8
+http://stream.mcquack.net/347/index.m3u8
+http://stream.mcquack.net/348/index.m3u8
+http://stream.mcquack.net/352/index.m3u8
+http://stream.mcquack.net/422/index.m3u8
+http://stream.mcquack.net/477/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13016/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13018/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13026/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13029/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13036/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13039/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13040/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13042/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13043/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13051/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13058/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13059/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13062/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/13064/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/14128/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/15111/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/15511/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/2010/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/708/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/9165/index.m3u8
+http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/9262/index.m3u8
