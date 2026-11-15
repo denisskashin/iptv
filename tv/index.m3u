@@ -246,6 +246,13 @@ http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/14021/index.m3u8
 
 #EXTINF:0 group-title="Развлекательные",Плюс/Минус 16
 
+#EXTINF:0 group-title="Развлекательные" tvg-logo="http://icon.ru-tv.site/icon/MTV%20DE.png" tvg-id="mtv-de",MTV
+http://77.85.236.219:6061/play/MTV/index.m3u8
+
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/mtv-europe.png" tvg-id="mtv-europe",MTV Europe
+
+#EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tvplay-svoyaigra.png" tvg-id="tvplay-svoyaigra",TVPlay Своя Игра
+
 # Региональные
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/10kanal-novokuzneck.png" tvg-id="10kanal-novokuzneck",10 канал
@@ -597,12 +604,18 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/raz2.png" tvg-id="raz2",RAZ 2
 
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/team-comedyclub.png" tvg-id="team-comedyclub",TEAM Comedy Club
 
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/team-pelmeni.png" tvg-id="team-pelmeni",TEAM Пельмени
 
-# ── test ──────────────────────────────────────────
-# Added: 2026-11-14 22:20:29  (2 URLs in 2 channel group(s))
-# ───────────────────────────────────────────────────
-#EXTINF:-1 tvg-id="StarJalsha.in@SD" tvg-logo="https://i.imgur.com/IlufzR5.png" group-title="test",Star Jalsha (1080p) [Geo-blocked]
-http://cdn98.com/play/live.php?extension=ts&mac=00:1A:79:99:54:11&play_token=o1cczsG9wV&stream=225805
-#EXTINF:-1 tvg-id="VivaLatino.ua@SD" tvg-logo="https://i.imgur.com/KRakHAq.png" group-title="test",¡Viva Latino! (1080p)
-http://stream.mcquack.net/285/index.m3u8
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvplay-gorodok.png" tvg-id="tvplay-gorodok",TVPlay Городок
+
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvplay-fitil.png" tvg-id="tvplay-fitil",TVPlay Фитиль
+
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvplay-yumor.png" tvg-id="tvplay-yumor",TVPlay Юмор
+
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvplay-sketchshow.png" tvg-id="tvplay-sketchshow",TVPlay Скетч Шоу
+
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvplay-6kadrov.png" tvg-id="tvplay-6kadrov",TVPlay 6 Кадров
+
+#EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/skycam-100500.png" tvg-id="skycam-100500",SkyCam 100500

@@ -19,6 +19,8 @@ http://stream.mcquack.net/186/index.m3u8
 
 #EXTINF:0 group-title="Авто",VF Авто
 
+#EXTINF:0 group-title="Авто" tvg-logo="https://iptvx.one/picons/box-auttrend.png" tvg-id="box-auttrend",BOX AutoTrend
+
 # Дом, дача и ремонт
 
 #EXTINF:0 group-title="Дом, дача и ремонт" tvg-logo="https://iptvx.one/picons/6sotok.png" tvg-id="6sotok",6 соток
@@ -84,6 +86,10 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 https://live-4.otcnet.ru/504/135/1080p/index.m3u8
 
 #EXTINF:0 group-title="Еда и кулинария",VF Домашний повар
+
+#EXTINF:0 group-title="Еда и кулинария" tvg-logo="https://iptvx.one/picons/box-gurman.png" tvg-id="box-gurman",BOX Gurman
+
+#EXTINF:0 group-title="Еда и кулинария" tvg-logo="https://iptvx.one/picons/yosso-food.png" tvg-id="yosso-food",Yosso TV Food
 
 # Здоровье и фитнес
 
@@ -198,3 +204,5 @@ http://ru1.plist.link:3355/RNaoWLSkV5b3048/index.m3u8?token=ktSlluyLH7abBHsNCf4k
 
 #EXTINF:0 group-title="Охота и рыбалка",VF Рыбалка
 
+
+#EXTINF:0 group-title="Охота и рыбалка" tvg-logo="https://iptvx.one/picons/oasis-fishing.png" tvg-id="oasis-fishing",Oasis Рыбалка
