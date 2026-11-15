@@ -34,6 +34,8 @@ https://edge53.dc.beltelecom.by/ngtrk/_definst_/smil:belarus5/chunklist_w1049318
 #EXTINF:0 group-title="Беларусь" tvg-logo="https://iptvx.one/picons/belsat.png" tvg-id="belsat",Белсат ТВ
 
 
+http://ru1.plist.link:3355/FGfpnUmovVu0726/index.m3u8?token=wc1xU1wizX7dGAprm2rsvrzSbtf9q_FXL033CP_eZIjD6GIt2VvBihebKijzT-NB.tg6457680141
+
 #EXTINF:0 group-title="Беларусь",Варяг
 https://ngtrk.dc.beltelecom.by/vtv/_definst_/vitebsk.stream/playlist.m3u8
 
@@ -147,6 +149,7 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/rossia-24.png" tvg-id="rossia-24",Россия 24
 https://s7.iptv-24.net/1021/index.m3u8?scheme=https
+#http://77.37.224.102:4022/udp/225.77.225.107:5000
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/solovjinypomiot.png" tvg-id="solovjinypomiot",Соловьев.Live
 
@@ -190,9 +193,13 @@ http://83.166.243.97:8081/ltv1TNT/1/chunks.m3u8
 
 
 
+http://77.37.224.102:4022/udp/225.77.32.169:5000
+#http://77.37.224.102:4022/udp/225.77.225.116:5000
+
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/solnce.png" tvg-id="solnce",Солнце
 
 http://stream.mcquack.net/118/index.m3u8
+#http://77.37.224.102:4022/udp/225.77.32.185:5000
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tayna.png" tvg-id="tayna",Тайна
 
@@ -201,6 +208,8 @@ http://stream.mcquack.net/118/index.m3u8
 
 
 http://185.76.10.53:8080/srv5/tv3_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+#http://77.37.224.102:4022/udp/225.77.32.160:5000
+#http://77.37.224.102:4022/udp/225.77.225.115:5000
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/tv3-int.png" tvg-id="tv3-int",ТВ3 International
 
@@ -346,6 +355,7 @@ https://v.dzertv.ru:8588/dzertv/live_yandex/tracks-v1a1/mono.m3u8
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/doverie.png" tvg-id="doverie",Доверие
 
 http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/9342/index.m3u8
+#http://77.37.224.102:4022/udp/225.77.32.173:5000
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/evrasia.png" tvg-id="evrasia",Евразия HD
 
@@ -379,6 +389,8 @@ https://tvbelgorod.ru:90/mirbelogorya/index.m3u8
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/moskva-24.png" tvg-id="moskva-24",Москва 24
 
+
+http://77.37.224.102:4022/udp/225.77.32.174:5000
 
 #EXTINF:0 group-title="Региональные" tvg-logo="https://iptvx.one/picons/muromtv.png" tvg-id="muromtv",Муром ТВ (Владимир)
 http://live.murom-tv.ru/hls/stream.m3u8
@@ -528,22 +540,33 @@ https://venera.movify.tv/Pro100tvRu/tracks-v1a1/mono.ts.m3u8
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/zvezda.png" tvg-id="zvezda",Звезда
 
 
+http://77.37.224.102:4022/udp/225.77.32.167:5000
+#http://77.37.224.102:4022/udp/225.77.225.117:5000
+
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/zvezda-plus.png" tvg-id="zvezda-plus",Звезда Плюс
 
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/mir.png" tvg-id="mir",Мир
 
 
+http://77.37.224.102:4022/udp/225.77.32.178:5000
+#http://77.37.224.102:4022/udp/225.77.225.118:5000
+
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/ntv.png" tvg-id="ntv",НТВ
 
 http://185.76.10.53:8080/srv5/ntv_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+#http://77.37.224.102:4022/udp/225.77.225.104:5000
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/otr.png" tvg-id="otr",ОТР
 
 
+http://77.37.224.102:4022/udp/225.77.32.172:5000
+#http://77.37.224.102:4022/udp/225.77.225.109:5000
+
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/pervy.png" tvg-id="pervy",Первый канал
 
-#http://stream.mcquack.net/250/index.m3u8
+
+http://77.37.224.102:4022/udp/225.77.225.101:5000
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/prnk-tv.png" tvg-id="prnk-tv",Первый Российский Национальный Канал HD
 
@@ -551,40 +574,40 @@ http://185.76.10.53:8080/srv5/ntv_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/rentv.png" tvg-id="rentv",Рен ТВ
 
 http://185.76.10.53:8080/srv5/ren_tv_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+#http://77.37.224.102:4022/udp/225.77.32.162:5000
+#http://77.37.224.102:4022/udp/225.77.225.111:5000
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/rossia1.png" tvg-id="rossia1",Россия 1
 https://s7.iptv-24.net/1020/index.m3u8?scheme=https
+#http://77.37.224.102:4022/udp/225.77.225.102:5000
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/sts.png" tvg-id="sts",СТС
-
 http://185.76.10.53:8080/srv5/sts_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+#http://77.37.224.102:4022/udp/225.77.32.163:5000
+#http://77.37.224.102:4022/udp/225.77.225.113:5000
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/subbota.png" tvg-id="super",Суббота!
-
-http://185.76.10.53:8080/srv5/super/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+http://77.37.224.102:4022/udp/225.77.32.186:5000
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/tvcentr.png" tvg-id="tvcentr",ТВ Центр
 
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt",ТНТ
 http://185.76.10.53:8080/srv5/tnt_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+#http://77.37.224.102:4022/udp/225.77.32.161:5000
+#http://77.37.224.102:4022/udp/225.77.225.119:5000
 
 # Юмор
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/2na2.png" tvg-id="2na2",2x2
 
-
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/anekdottv.png" tvg-id="anekdottv",Анекдот ТВ
-
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/kvn-tv.png" tvg-id="kvn-tv",КВН ТВ
 
-
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/perec-int.png" tvg-id="perec-int",Перец
 
-
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/sarafan.png" tvg-id="sarafan",Сарафан
-
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvoetv-humor.png" tvg-id="tvoetv-humor",Твоё ТВ Юмор
 http://tvoetv.space:8080/tvoetv_humor/index.m3u8
@@ -596,6 +619,7 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tnt4.png" tvg-id="tnt4",ТНТ4
 #http://185.76.10.53:8080/srv5/tnt4_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+http://77.37.224.102:4022/udp/225.77.32.180:5000
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/che.png" tvg-id="che",ЧЕ
 
@@ -619,3 +643,98 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/tvplay-6kadrov.png" tvg-id="tvplay-6kadrov",TVPlay 6 Кадров
 
 #EXTINF:0 group-title="Юмор" tvg-logo="https://iptvx.one/picons/skycam-100500.png" tvg-id="skycam-100500",SkyCam 100500
+
+
+
+# ── test ──────────────────────────────────────────
+# Added: 2026-11-15 15:24:28  (46 URLs in 43 channel group(s))
+# ───────────────────────────────────────────────────
+#EXTINF:-1 tvg-id="AssamTalks.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/s142683_ld_h15_aa.png?lock=720x540" group-title="test",Assam Talks (576p)
+https://cdn.pishow.tv/ott/live/258/master.m3u8
+#EXTINF:-1 tvg-id="Franceinfo.fr@SD" tvg-logo="https://i.imgur.com/eITXz6A.png" group-title="test",Franceinfo (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_info/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="StarAction.us@SD" tvg-logo="https://i.imgur.com/XD1Tpet.png" group-title="test",Star Action (720p)
+http://85.237.89.159:3342/ar-s/STAR-Action-HD/index.m3u8
+#EXTINF:-1 tvg-id="Kidz.es@SD" tvg-logo="https://i.imgur.com/iBgsCOV.png" group-title="test",Kidz (1080p) [Geo-blocked]
+https://c82fe9a663ed758d6c517fb44c28ba73.4gfbw5.channel-assembly.mediatailor.eu-west-1.amazonaws.com/v1/channel/648c271d2bfab0e4177a0d61/648c271d2bfab0e4177a0d61/3.m3u8
+#EXTINF:-1 tvg-id="LaSexta.es@HD" tvg-logo="https://i.imgur.com/aKV5voq.png" group-title="test",La Sexta HD (1080p)
+https://ignac16.github.io/voxel-tv-streams/la6.mpd
+#EXTINF:-1 tvg-id="Maxcine2.us@HD" tvg-logo="https://gia.tv/streams/pptv/209163.png" group-title="test",Maxcine 2 (720p)
+https://183.giatvcdn.com/giatvplayout7/giatv-209163/playlist.m3u8
+#EXTINF:-1 tvg-id="LCI.fr@SD" tvg-logo="https://i.imgur.com/DED8EXs.png" group-title="test",LCI (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/lci/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="AdriaticSport2.ba@SD" tvg-logo="https://channels2.digital.ugbb.net/wp-content/uploads/2022/04/logo-adriatic-sport-2.png" group-title="test",Adriatic Sport 2
+http://sultanios.alwaysdata.net/vavo.php?ID=2665922581
+#EXTINF:-1 tvg-id="NickelodeonArabia.ae@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="test",Nickelodeon Arabia (1080i)
+http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8
+#EXTINF:-1 tvg-id="Mega.es@HD" tvg-logo="https://i.imgur.com/Udrt2eK.png" group-title="test",Mega (Spain) HD (1080p)
+https://ignac16.github.io/voxel-tv-streams/mega.mpd
+#EXTINF:-1 group-title="test",ТВЦ
+http://77.37.224.102:4022/udp/225.77.32.159:5000
+#http://77.37.224.102:4022/udp/225.77.225.110:5000
+#EXTINF:-1 tvg-id="Maxcine.us@HD" tvg-logo="https://gia.tv/streams/pptv/208138.png" group-title="test",Maxcine (720p)
+https://183.giatvcdn.com/giatvplayout7/giatv-208138/playlist.m3u8
+#EXTINF:-1 tvg-id="AdriaticSport3.ba@SD" tvg-logo="https://channels2.digital.ugbb.net/wp-content/uploads/2022/04/logo-adriatic-sport-3.png" group-title="test",Adriatic Sport 3
+http://sultanios.alwaysdata.net/vavo.php?ID=2743527845
+#EXTINF:-1 tvg-id="DiscoveryChannelMiddleEastAfrica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/2019_Discovery_logo.svg/960px-2019_Discovery_logo.svg.png" group-title="test",Discovery Channel Middle East & Africa (720p)
+http://85.237.89.159:3342/ar-s/Discovery-HD/index.m3u8
+#EXTINF:-1 tvg-id="Neox.es@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Neox_2023_logo.svg/500px-Neox_2023_logo.svg.png" group-title="test",Neox HD (1080p)
+https://ignac16.github.io/voxel-tv-streams/neox.mpd
+#EXTINF:-1 tvg-id="MaxcineComedy.us@HD" tvg-logo="https://gia.tv/streams/pptv/208730.png" group-title="test",Maxcine Comedy (720p)
+https://183.giatvcdn.com/giatvplayout7/giatv-208730/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@Italy" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="test",Eurosport 1 Italy
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="MaxcineFamily.us@HD" tvg-logo="https://gia.tv/streams/pptv/208817.png" group-title="test",Maxcine Family (720p)
+https://183.giatvcdn.com/giatvplayout7/giatv-208817/playlist.m3u8
+#EXTINF:-1 tvg-id="MaxcineKids.us@HD" tvg-logo="https://gia.tv/streams/pptv/209909.png" group-title="test",Maxcine Kids (720p)
+https://183.giatvcdn.com/giatvplayout7/giatv-209909/playlist.m3u8
+#EXTINF:-1 tvg-id="DigiSport2.ro@HD" tvg-logo="https://i.imgur.com/KWDUi3v.png" group-title="test",Digi Sport 2 HD
+http://sultanios.alwaysdata.net/vavo.php?ID=867728420
+#EXTINF:-1 tvg-id="Eurosport2.fr@Italy" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="test",Eurosport 2 Italy (540p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="DigiSport3.ro@HD" tvg-logo="https://i.imgur.com/T1ci5UK.png" group-title="test",Digi Sport 3 HD
+http://sultanios.alwaysdata.net/vavo.php?ID=4279401658
+#EXTINF:-1 tvg-id="ElChavoTV.mx@HD" tvg-logo="https://gia.tv/streams/pptv/211465.png" group-title="test",El Chavo TV (720p)
+https://183.giatvcdn.com/giatvplayout7/giatv-211465/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@UK" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="test",Eurosport 2 UK
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="test",Ю-ТВ
+http://77.37.224.102:4022/udp/225.77.32.164:5000
+#EXTINF:-1 tvg-id="TF1SeriesFilms.fr@SD" tvg-logo="https://i.imgur.com/4CJIDKQ.png" group-title="test",TF1 Series Films (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tf1_series_films/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport3Polska.pl@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/da/Eurosport_3_2022.svg/revision/latest?cb=20220418054130" group-title="test",Eurosport 3 Polska
+http://sultanios.alwaysdata.net/vavo.php?ID=512159637
+#EXTINF:-1 tvg-id="France4.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="test",France 4 (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_4/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport4Polska.pl@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ae/Eurosport_4_2022.svg/revision/latest?cb=20220418053934" group-title="test",Eurosport 4 Polska
+http://sultanios.alwaysdata.net/vavo.php?ID=2896573317
+#EXTINF:-1 group-title="test", XT!
+http://77.37.224.102:4022/udp/225.77.32.166:5000
+#EXTINF:-1 tvg-id="Nickelodeon.fr@SD" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="test",Nickelodeon (France) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="NickelodeonJunior.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" group-title="test",Nickelodeon Junior (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon_junior/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.fr@SD" tvg-logo="https://i.imgur.com/OWRUPA4.png" group-title="test",Nicktoons (France) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nicktoons/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="6ter.fr@SD" tvg-logo="https://i.imgur.com/2nd5Cox.png" group-title="test",6ter (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/6ter_fr/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="MTV.fr@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/MTV_2021_%28brand_version%29.svg/960px-MTV_2021_%28brand_version%29.svg.png" group-title="test",MTV (France) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mtv/live.livx/playlist.m3u8
+#EXTINF:-1 group-title="test",РАДИО МАЯК
+http://77.37.224.102:4022/udp/225.77.32.175:5000
+#EXTINF:-1 group-title="test",РАДИО РОССИЯ
+http://77.37.224.102:4022/udp/225.77.32.176:5000
+#EXTINF:-1 group-title="test",РАДИО ВЕСТИ FM
+http://77.37.224.102:4022/udp/225.77.32.177:5000
+#EXTINF:-1 group-title="test",Radio
+http://77.37.224.102:4022/udp/225.77.32.181:5000
+#http://77.37.224.102:4022/udp/225.77.32.183:5000
+#http://77.37.224.102:4022/udp/225.77.32.182:5000
+#EXTINF:-1 tvg-id="E.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ef/E%21_2022_%28Scarlet%29.svg/revision/latest?cb=20260709150437" group-title="test",E! (Romania)
+http://sultanios.alwaysdata.net/vavo.php?ID=3166915380
+#EXTINF:-1 group-title="test",МОСКВА 24 HD
+http://77.37.224.102:4022/udp/225.77.32.189:5000
+#EXTINF:-1 group-title="test", ПЯТЫЙ
+http://77.37.224.102:4022/udp/225.77.225.105:5000
+#EXTINF:-1 group-title="test",РУ ТВ
+http://77.37.224.102:4022/udp/225.33.23.41:5000

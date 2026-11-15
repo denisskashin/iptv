@@ -33,7 +33,6 @@ http://r9jgzc02.russtv.net/iptv/RDXD2KKG257QK5/9305/index.m3u8
 
 
 #EXTINF:0 group-title="Документальные" tvg-logo="https://iptvx.one/picons/the-explorers.png" tvg-id="the-explorers",Explorers
-http://stream.mcquack.net/450/index.m3u8
 #https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
 
 #EXTINF:0 group-title="Документальные" tvg-logo="https://iptvx.one/picons/insight-ultra-hd.png" tvg-id="insight-ultra-hd",Insight UHD
@@ -125,6 +124,8 @@ http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:0 group-title="Культура и искусство" tvg-logo="https://iptvx.one/picons/kultura.png" tvg-id="kultura",Россия Культура
 
 
+http://77.37.224.102:4022/udp/225.77.225.106:5000
+
 #EXTINF:0 group-title="Культура и искусство" tvg-logo="https://iptvx.one/picons/teatr.png" tvg-id="teatr",Театр
 
 
@@ -155,6 +156,8 @@ http://213.108.175.226/telplushd/index.m3u8
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/galaxy-tv.png" tvg-id="galaxy-tv",Тайны Галактики
 
 
+
+http://ztf5jtil.zyntras.top/iptv/KLEYQYC7TPZ8G7W822WQCXNQ/2010/index.m3u8
 
 #EXTINF:0 group-title="Наука и техника" tvg-logo="https://iptvx.one/picons/texno-24.png" tvg-id="texno-24",Техно 24
 http://stream.mcquack.net/209/index.m3u8
@@ -267,8 +270,7 @@ http://s7.merlive.am/animalplanet/index.m3u8
 
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/love-nature-4k.png" tvg-id="love-nature-4k",Love Nature
-https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
-#http://ul4ywaxc.streamoras.top/iptv/Z5MTMA99SKQMGV/32087/index.m3u8
+http://ul4ywaxc.streamoras.top/iptv/Z5MTMA99SKQMGV/32087/index.m3u8
 
 #EXTINF:0 group-title="Природа и животные" tvg-logo="https://iptvx.one/picons/nat-geo-wild.png" tvg-id="nat-geo-wild",National Geographic Wild
 #http://tv.fm7.pp.ru/p9/7fec12a3178f6ba7efb5a453c/video.m3u8?token=7bsegsmudc
@@ -380,3 +382,4 @@ http://stream.mcquack.net/116/index.m3u8
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/liberty-plan360.png" tvg-id="liberty-plan360",Liberty Планета360
 
 #EXTINF:0 group-title="Путешествия" tvg-logo="https://iptvx.one/picons/minimax-live-planet.png" tvg-id="minimax-live-planet",MM Live Planet
+
