@@ -1330,6 +1330,8 @@ mumbai-edge.smartplaytv.in
 aegis-cloudfront-1.tubi.video
 6a82f65f.edemist.com
 directes-tv-int.3catdirectes.cat
+s7.merlive.am
+livetv.shamon-cable.net
 
 # --- blocked IPs ---
 4.59.210.197
@@ -2118,7 +2120,6 @@ http://stream.mcquack.net/448/index.m3u8
 http://stream.mcquack.net/451/index.m3u8
 http://stream.mcquack.net/465/index.m3u8
 http://stream.mcquack.net/76/index.m3u8
-
 http://stream.mcquack.net/142/index.m3u8
 http://stream.mcquack.net/155/index.m3u8
 http://stream.mcquack.net/166/index.m3u8
@@ -2229,7 +2230,6 @@ http://stream.mcquack.net/442/index.m3u8
 http://stream.mcquack.net/485/index.m3u8
 http://stream.mcquack.net/80/index.m3u8
 https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8
-https://livetv.shamon-cable.net:8443/sony_yay/index.m3u8
 
 http://185.76.10.53:8080/srv5/super/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
 
@@ -2241,7 +2241,6 @@ http://stream.mcquack.net/348/tracks-v1a1/mono.ts.m3u8
 http://stream.mcquack.net/386/index.m3u8
 http://stream.mcquack.net/425/index.m3u8
 http://stream.mcquack.net/450/index.m3u8
-
 
 181.79.86.130
 200.115.120.1
@@ -2292,19 +2291,11 @@ http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/9165/index.m3u8
 http://ztf5jtil.zyntras.top/iptv/kleyqyc7tpz8g7w822wqcxnq/9262/index.m3u8
 
 
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-11-15 20:33 ---
-# отдельные ссылки (7):
 http://92.114.85.87:8016/play/a00b/index.m3u8
 http://stream.mcquack.net/285/index.m3u8
 http://stream.mcquack.net/351/index.m3u8
 http://stream.mcquack.net/384/index.m3u8
 http://stream.mcquack.net/41/index.m3u8
 http://sultanios.alwaysdata.net/vavo.php?id=4238619703
-https://livetv.shamon-cable.net:8443/eurosport-hd/index.m3u8
+
+http://185.76.10.53:8080/srv5/ntv_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
