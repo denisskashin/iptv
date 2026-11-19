@@ -34,6 +34,10 @@ http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
 
 #EXTINF:0 group-title="Гольф" tvg-logo="https://iptvx.one/picons/sky-sport-golf-de.png" tvg-id="sky-sport-golf-de",Sky Sport Golf (DE)
 
+#EXTINF:0 group-title="Гольф" tvg-logo="https://iptvx.one/picons/golf-cnl-us.png" tvg-id="golf-cnl-us",Golf Channel
+http://181.119.215.61:8000/play/a04q/index.m3u8
+#http://181.119.215.61:8000/play/a0h1/index.m3u8
+
 # Единоборства
 
 #EXTINF:0 group-title="Единоборства" tvg-logo="https://iptvx.one/picons/box-tv.png" tvg-id="box-tv",Бокс ТВ
@@ -67,6 +71,9 @@ https://linear-893.frequency.stream/dist/xumo/893/hls/master/playlist.m3u8
 #EXTINF:0 group-title="Единоборства",StrahTV MMA TIME
 
 #EXTINF:0 group-title="Единоборства",UFC Fight
+
+#EXTINF:0 group-title="Единоборства",Glory Kickboxing
+https://6f972d29.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0dsb3J5S2lja2JveGluZ19ITFM/playlist.m3u8
 
 # Матч!
 
@@ -343,10 +350,12 @@ http://xgaot86j.statgovlt.fun/iptv/BL5FEWMS5UETHN66HTBAZN2R/31455/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn-us.png" tvg-id="espn-us",ESPN
 http://85.237.89.160:9590/usa-s/ESPN-HD/index.m3u8
+#http://181.119.215.61:8000/play/a05r/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/espn2-us.png" tvg-id="espn2-us",ESPN 2
 http://200.10.30.241:8000/play/a01r/index.m3u8
 #http://85.237.89.160:9590/usa-s/ESPN-2-HD/index.m3u8
+#http://181.119.215.61:8000/play/a05s/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport1.png" tvg-id="eurosport1",Eurosport 1
 http://77.85.236.219:6061/play/Eurosport_1/index.m3u8
@@ -359,6 +368,7 @@ http://77.85.236.219:6061/play/Eurosport_1/index.m3u8
 #http://88.212.7.14/live/test_esp1_hevc_tizen/playlist.m3u8
 #http://88.212.7.14/live/esp1_hun/index.m3u8
 #https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_it/live.livx/playlist.m3u8
+#https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1_en/live.livx/playlist.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/eurosport2.png" tvg-id="eurosport2",Eurosport 2
 http://77.85.236.219:6061/play/Eurosport_2/index.m3u8
@@ -646,10 +656,66 @@ https://cdn.pishow.tv/ott/live/1161/master.m3u8
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/qsport-kg.png" tvg-id="qsport-kg",QSport (KG)
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport-tv-by.png" tvg-id="sport-tv-by",Спорт ТВ (Беларусь)
+http://ed00856c.ottolok.net/iptv/9TEF53NVQBBLQZDGQSTSR6ZD/32004/index.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sport1-de.png" tvg-id="sport1-de",Sport1 DE
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/sport1/live.livx/playlist.m3u8
 
 #EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sky-sport-tennis-de.png" tvg-id="sky-sport-tennis-de",Sky Sport Tennis (DE)
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/5sport-gold-il.png" tvg-id="5sport-gold-il",5Sport Gold
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_gold/live.livx/playlist.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/sony-sports-ten3-in.png" tvg-id="sony-sports-ten3-in",Sony Sports Ten 3
+https://r2.amml.in/sony-ten-3-hd/live.m3u8
+
+#EXTINF:0 group-title="Спорт",MRTV Sports
+https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/5sport-live-il.png" tvg-id="5sport-live-il",5Sport Live
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_live/live.livx/playlist.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/yes-sport-5-4k.png" tvg-id="yes-sport-5-4k",5Sport 4K
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5_4k_avc/live.livx/playlist.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/yes-sport-5.png" tvg-id="yes-sport-5",5Sport
+https://r.il.cdn-redge.media/livehls/oil/freetv/live/sport_5/live.livx/playlist.m3u8
+
+#EXTINF:0 group-title="Спорт",Claro Sports 1
+http://181.119.215.61:8000/play/a07o/index.m3u8
+
+#EXTINF:0 group-title="Спорт",Claro Sports 2
+http://181.119.215.61:8000/play/a07p/index.m3u8
+
+#EXTINF:0 group-title="Спорт",Claro Sports 3
+http://181.119.215.61:8000/play/a07i/index.m3u8
+
+#EXTINF:0 group-title="Спорт",Deportes TVC
+http://181.119.215.61:8000/play/a061/index.m3u8
+
+#EXTINF:0 group-title="Спорт",ESPN 4
+http://181.119.215.61:8000/play/a05x/index.m3u8
+
+#EXTINF:0 group-title="Спорт",ESPN 3
+http://181.119.215.61:8000/play/a05t/index.m3u8
+
+#EXTINF:0 group-title="Спорт",ESPN 5
+http://181.119.215.61:8000/play/a05y/index.m3u8
+
+#EXTINF:0 group-title="Спорт",ESPN 6
+http://181.119.215.61:8000/play/a05u/index.m3u8
+
+#EXTINF:0 group-title="Спорт",TUDN
+http://181.119.215.61:8000/play/a07v/index.m3u8
+
+#EXTINF:0 group-title="Спорт",Latin America Sport
+http://181.119.215.61:8000/play/a03j/index.m3u8
+
+#EXTINF:0 group-title="Спорт",Tigo Sports
+http://181.119.215.61:8000/play/a02v/index.m3u8
+
+#EXTINF:0 group-title="Спорт" tvg-logo="https://iptvx.one/picons/fox-sports3-mx.png" tvg-id="fox-sports3-mx",Fox Sports 3
+http://181.119.215.61:8000/play/a0kj/index.m3u8
 
 # Ziggo
 
@@ -744,6 +810,12 @@ http://ru1.plist.link:3355/RNaoWLSkV5b4333/index.m3u8?token=nLVo5iYzf6PuKC_59pJY
 
 #EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/setanta2-kz.png" tvg-id="setanta2-kz",Setanta Sports 2 KZ
 
+#EXTINF:0 group-title="Футбол",FUTV
+http://181.119.215.61:8000/play/a05f/index.m3u8
+
+#EXTINF:0 group-title="Футбол" tvg-logo="https://iptvx.one/picons/sky-sports-laliga-mx.png" tvg-id="sky-sports-laliga-mx",Sky Sports LaLiga
+http://181.119.215.61:8000/play/a07q/index.m3u8
+
 # Хоккей
 
 #EXTINF:0 group-title="Хоккей" tvg-logo="https://iptvx.one/picons/xokkejny.png" tvg-id="xokkejny",Хоккей ТВ
@@ -761,8 +833,6 @@ http://ru1.plist.link:3355/RNaoWLSkV5b6138/index.m3u8?token=ktSlluyLH7abBHsNCf4k
 # Экстрим
 
 #EXTINF:0 group-title="Экстрим" tvg-logo="https://iptvx.one/picons/fastfunbox-hd.png" tvg-id="fastfunbox-hd",Fast & Fun Box
-https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
-#https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8
 
 #EXTINF:0 group-title="Экстрим" tvg-logo="https://iptvx.one/picons/russky-ekstrim.png" tvg-id="russky-ekstrim",Русский Экстрим
 
@@ -782,10 +852,4 @@ http://stream.mcquack.net/256/index.m3u8
 
 #EXTINF:0 group-title="Экстрим",Red Bull TV
 https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
-#https://886bd3fbc782459f8de7555d32d7e9ce.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-957-WORBLATAMESFAST-WHALETVPLUS/957/whaletvplus/hls/master/playlist.m3u8
-#https://46cfeb23c7f74853bba7a256655a3119.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-582-WORBDACHDEFAST-WHALETVPLUS/582/whaletvplus/hls/master/playlist.m3u8
-#https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8
-#https://0b73ace69ebb45eaa249bb87837cb958.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-644-WORBUSENFAST-LG_US/644/lgtv/hls/master/playlist.m3u8
-#https://d03ae6b5c6724c24867e97a3dc04934a.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-1026-WORBBRPTFAST-WHALETVPLUS/1026/hls/master/playlist.m3u8
-#https://1a3566cb46914c5499fbc86fbc4ac87e.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-932-WORBUKENFAST-WHALETVPLUS/932/whaletvplus/hls/master/playlist.m3u8
 

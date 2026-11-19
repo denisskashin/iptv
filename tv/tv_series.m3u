@@ -389,6 +389,9 @@ http://ztf5jtil.zyntras.top/iptv/KLEYQYC7TPZ8G7W822WQCXNQ/9141/index.m3u8
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman",Русский роман
 #http://185.76.10.53:8080/srv5/rus_roman_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
 
+#EXTINF:0 group-title="Русский",VB Российские Сериалы HD
+https://183.giatvcdn.com/ssh101/ssh101/russerials/playlist.m3u8
+
 # Триколор
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/zal-35-tricolor.png" tvg-id="zal-35-tricolor",Зал 35 (Марш Турецкого)
@@ -430,4 +433,15 @@ http://ztf5jtil.zyntras.top/iptv/KLEYQYC7TPZ8G7W822WQCXNQ/9141/index.m3u8
 # TOP
 
 #EXTINF:0 group-title="TOP",Великолепный Век
+
+# IPTVPLAY
+
+#EXTINF:0 group-title="IPTVPLAY",IPTVPLAY Интерны
+https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3917.m3u8
+
+#EXTINF:0 group-title="IPTVPLAY",IPTVPLAY ВЕДЬМАК
+https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3919.m3u8
+
+#EXTINF:0 group-title="IPTVPLAY",IPTVPLAY ДЕСЯТОЕ КОРОЛЕВСТВО
+https://social.tvp.pp.ru/public-playlist/q3sndMn4jxOpMXOiAx_OauuobFGwrYWiWO9SGtLt7nI/3988.m3u8
 
