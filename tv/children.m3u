@@ -379,20 +379,14 @@ https://r.il.cdn-redge.media/livehls/oil/freetv/live/junior/live.livx/playlist.m
 
 #EXTINF:0 group-title="" tvg-logo="https://iptvx.one/picons/yosso-soyuzmult.png" tvg-id="yosso-soyuzmult",Союзмульт
 
-# StrahTV
-
-#EXTINF:0 group-title="StrahTV",StrahTV Том и Джерри
-https://183.giatvcdn.com/giatvplayout7/giatv-208314/playlist.m3u8
-
 # Tviksel
 
 #EXTINF:0 group-title="Tviksel" tvg-logo="https://iptvx.one/picons/detkino-tviksel.png" tvg-id="detkino-tviksel",Tviksel Детское кино
 
 #EXTINF:0 group-title="Tviksel" tvg-logo="https://iptvx.one/picons/detkinoint-tviksel.png" tvg-id="detkinoint-tviksel",Детское кино International
+http://195.209.212.23:8081/hls/Detskoe_Kino_int/playlist.m3u8
 
 # Триколор
-
-http://195.209.212.23:8081/hls/Detskoe_Kino_int/playlist.m3u8
 
 #EXTINF:0 group-title="Триколор" tvg-logo="https://iptvx.one/picons/zal-07-tricolor.png" tvg-id="zal-07-tricolor",Зал 7 (Три богатыря)
 
