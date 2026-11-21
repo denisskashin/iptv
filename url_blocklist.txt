@@ -1337,6 +1337,9 @@ d875e960.megatv.fun
 osoyz0xv.ottclub.xyz
 test02.mdn.ors.at
 ztf5jtil.zyntras.top
+channels.trace.plus
+tvnow.hostless.app
+stream.mcquack.net
 
 # --- blocked IPs ---
 103.253.74.210
@@ -1790,6 +1793,9 @@ ztf5jtil.zyntras.top
 57.128.225.206
 185.228.163.146
 89.44.231.73
+181.79.86.130
+200.115.120.1
+185.170.153.13
 
 # --- blocked URLs ---
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
@@ -1889,11 +1895,6 @@ https://distribution.sportitalialive.it/origin/laziostyle_abr/playlist.m3u8
 
 http://185.76.10.53:8080/srv5/super/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
 
-181.79.86.130
-200.115.120.1
-
-tvnow.hostless.app
-185.170.153.13:6878
 http://200.115.120.1:8000/play/ca82266/index.m3u8
 
 http://xgaot86j.statgovlt.fun/iptv/bl5fewms5uethn66htbazn2r/30150/index.m3u8
@@ -1907,6 +1908,7 @@ https://play-fulltv.com.ar/playtvpre/tntsportschile.m3u8
 http://181.119.215.61:8000/play/a04r/index.m3u8
 http://181.119.215.61:8000/play/a084/index.m3u8
 http://34.92.70.128/voyo-sport-1/index.m3u8
+
 https://atlantida1.aquax1.cfd/cofyfilm/usergendxn8lzrnd.m3u8
 https://atlantida1.aquax1.cfd/disjr/usergendxvoq4rnd.m3u8
 https://cache0.wonvt.st/live/0c4r73315dt0we0fitn3j/master.m3u8
@@ -1915,16 +1917,19 @@ https://cdn.acnlive.net/liveapp/streams/hold_the_line.m3u8
 http://ed00856c.ottolok.net/iptv/9TEF53NVQBBLQZDGQSTSR6ZD/32165/index.m3u8
 
 
+http://185.76.10.53:8080/srv5/star_sinema/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+http://90.170.214.40:9700/stream/avatel/nickelodeon/master.m3u8
+https://edge-rs-01.maksnet.tv/informertv-secure/web/playlist.m3u8
+
+
 # === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
 # Добавлено проверкой. Строки без схемы — хосты целиком
 # (совпадение по подстроке), строки с http:// — точное
 # совпадение URL. Блок можно удалить целиком: чекер
 # просто проверит эти ссылки заново.
 
-# --- 2026-11-20 21:31 ---
-# хосты, где мертво всё (1):
-stream.mcquack.net
-# отдельные ссылки (15):
-http://185.76.10.53:8080/srv5/star_sinema/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
-http://90.170.214.40:9700/stream/avatel/nickelodeon/master.m3u8
-https://edge-rs-01.maksnet.tv/informertv-secure/web/playlist.m3u8
+# --- 2026-11-21 19:10 ---
+# отдельные ссылки (3):
+http://tvsen5.aynascope.net/disney/index.m3u8
+http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
