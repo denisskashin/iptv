@@ -1797,6 +1797,7 @@ tv.fm7.pp.ru
 181.79.86.130
 200.115.120.1
 185.170.153.13
+116.90.120.149
 
 # --- blocked URLs ---
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
@@ -1927,24 +1928,7 @@ https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
 
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 
-
-# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
-# Добавлено проверкой. Строки без схемы — хосты целиком
-# (совпадение по подстроке), строки с http:// — точное
-# совпадение URL. Блок можно удалить целиком: чекер
-# просто проверит эти ссылки заново.
-
-# --- 2026-11-22 11:49 ---
-# отдельные ссылки (2):
 https://live.koryocdn.org/sports/index.m3u8
 https://live.uspeh.my/8986/video.m3u8?token=ehfhvnjtwqcqsikn
-
-# --- 2026-11-22 12:37 ---
-# отдельные ссылки (1):
 http://45.170.130.224:8000/play/a020/index.m3u8
-
-# --- 2026-11-22 18:49 ---
-# хосты, где мертво всё (1):
-116.90.120.149:8000
-# отдельные ссылки (1):
 http://ed00856c.ottolok.net/iptv/9tef53nvqbblqzdgqstsr6zd/32004/index.m3u8
