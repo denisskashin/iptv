@@ -115,6 +115,9 @@ AUTO_DEAD_MARKER = "# === auto-dead: добавлено m3u_checker.py (точн
 SOURCES_FILE        = "sources.txt"        # источники плейлистов, по URL в строке
 NAME_BLOCKLIST_FILE = "name_blocklist.txt" # блоклист имён каналов
 ALIASES_FILE        = "aliases.txt"        # '<имя в источнике> => <имя в index.m3u>'
+# Цель алиаса вида 'id:<tvg-id>' матчит блок по tvg-id, а не по имени — для
+# каналов бренд-пакетов, чьи голые имена («Ужасы», «Сваты») повторяются в разных группах.
+ALIAS_ID_PREFIX     = "id:"
 
 
 def _read_config_lines(path: str, log: logging.Logger, what: str) -> list[str]:
@@ -234,8 +237,14 @@ def validate_config(cfg: Config, blocks: list[IndexBlock], log: logging.Logger) 
             warn += 1
             log.warning(f"⚙️  sources: дубль источника (×{cnt}): {u}")
 
+    block_ids = {b.tvg_id.strip().lower() for b in blocks if b.tvg_id}
     for src_name, dst in sorted(cfg.aliases.items()):
         dst_l = dst.strip().lower()
+        if dst_l.startswith(ALIAS_ID_PREFIX):
+            if dst_l[len(ALIAS_ID_PREFIX):].strip() not in block_ids:
+                warn += 1
+                log.warning(f"⚙️  aliases: {src_name!r} → {dst!r} — блока с таким tvg-id нет")
+            continue
         if src_name == dst_l:
             warn += 1
             log.warning(f"⚙️  aliases: самоалиас (no-op): {dst!r}")
@@ -314,6 +323,7 @@ class SourceChannel:
     name: str
     source: str
     tvg_id: str = ""
+    id_alias: bool = False                # tvg-id подставлен алиасом 'id:…' — матчить только по нему
     reachable: Optional[bool]  = None
     http_status: Optional[int] = None
     check_error: Optional[str] = None
@@ -1262,7 +1272,13 @@ def find_matching_block(
     by_id: dict[str, IndexBlock],
     log: logging.Logger,
 ) -> Optional[IndexBlock]:
-    """Матч по имени (приоритет), затем по tvg-id. O(1) вместо перебора блоков."""
+    """Матч по имени (приоритет), затем по tvg-id. O(1) вместо перебора блоков.
+    Канал с id-алиасом матчится только по tvg-id."""
+    if src_ch.id_alias:
+        blk = by_id.get(src_ch.tvg_id.strip().lower())
+        if blk is not None:
+            log.debug(f"   MATCH [id-alias={src_ch.tvg_id!r}] ↔ idx={blk.name!r}")
+        return blk
     blk = by_name.get(src_ch.name.strip().lower())
     if blk is not None:
         log.debug(f"   MATCH [name={src_ch.name!r}] ↔ idx={blk.name!r}")
@@ -1950,7 +1966,11 @@ def main():
         # в заблокированный «Салям» и попадал в 5a, но отсекался в 5b.
         for ch in found:
             canonical = cfg.aliases.get(ch.name.strip().lower())
-            if canonical:
+            if canonical and canonical.lower().startswith(ALIAS_ID_PREFIX):
+                ch.tvg_id = canonical[len(ALIAS_ID_PREFIX):].strip()
+                ch.id_alias = True
+                log.debug(f"   ALIAS: {ch.name!r} → tvg-id {ch.tvg_id!r}")
+            elif canonical:
                 log.debug(f"   ALIAS: {ch.name!r} → {canonical!r}")
                 ch.name = canonical
 

@@ -1340,6 +1340,7 @@ ztf5jtil.zyntras.top
 channels.trace.plus
 tvnow.hostless.app
 stream.mcquack.net
+tv.fm7.pp.ru
 
 # --- blocked IPs ---
 103.253.74.210
@@ -1916,10 +1917,15 @@ https://cache0.wonvt.st/live/1ewxgzu023dos60vlh62k/master.m3u8
 https://cdn.acnlive.net/liveapp/streams/hold_the_line.m3u8
 http://ed00856c.ottolok.net/iptv/9TEF53NVQBBLQZDGQSTSR6ZD/32165/index.m3u8
 
-
 http://185.76.10.53:8080/srv5/star_sinema/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
 http://90.170.214.40:9700/stream/avatel/nickelodeon/master.m3u8
 https://edge-rs-01.maksnet.tv/informertv-secure/web/playlist.m3u8
+
+http://tvsen5.aynascope.net/disney/index.m3u8
+http://tvsen5.aynascope.net/maasrangatv/index.m3u8
+https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
+
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/0.m3u8
 
 
 # === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
@@ -1928,8 +1934,7 @@ https://edge-rs-01.maksnet.tv/informertv-secure/web/playlist.m3u8
 # совпадение URL. Блок можно удалить целиком: чекер
 # просто проверит эти ссылки заново.
 
-# --- 2026-11-21 19:10 ---
-# отдельные ссылки (3):
-http://tvsen5.aynascope.net/disney/index.m3u8
-http://tvsen5.aynascope.net/maasrangatv/index.m3u8
-https://linear-599.frequency.stream/dist/stirr/599/hls/master/playlist.m3u8
+# --- 2026-11-22 11:49 ---
+# отдельные ссылки (2):
+https://live.koryocdn.org/sports/index.m3u8
+https://live.uspeh.my/8986/video.m3u8?token=ehfhvnjtwqcqsikn
