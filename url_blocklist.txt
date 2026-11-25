@@ -1935,3 +1935,24 @@ https://live.uspeh.my/8986/video.m3u8?token=ehfhvnjtwqcqsikn
 http://45.170.130.224:8000/play/a020/index.m3u8
 http://ed00856c.ottolok.net/iptv/9tef53nvqbblqzdgqstsr6zd/32004/index.m3u8
 http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/93619/hlsx/pl.m3u8
+
+
+# === auto-dead: добавлено m3u_checker.py (точное совпадение URL) ===
+# Добавлено проверкой. Строки без схемы — хосты целиком
+# (совпадение по подстроке), строки с http:// — точное
+# совпадение URL. Блок можно удалить целиком: чекер
+# просто проверит эти ссылки заново.
+
+# --- 2026-11-25 09:16 ---
+# отдельные ссылки (11):
+http://195.201.243.254/stream10/index.m3u8
+http://38.194.226.190:8000/play/a02r/index.m3u8
+http://cloud.logichost.in:1935/live/mplus/index.m3u8
+http://tv.streambox.fr/live/testlivestream/testlivestream/31.m3u8
+http://tv.streambox.fr/live/testlivestream/testlivestream/49.m3u8
+http://xgaot86j.statgovlt.fun/iptv/bl5fewms5uethn66htbazn2r/31455/index.m3u8
+https://box.bbaria.net/durontotv/index.m3u8
+https://live.skystream.in/live/thanimatvtvm/index.m3u8
+https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
+https://proxy-v.rctiplus.id/live/web/galaxyprem/index.m3u8
+https://vip-acasatv.online:25463/lrzugxaup3/6782859900/5449.m3u8
