@@ -134,7 +134,6 @@ http://edge-tv-ll.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/1.m3u8
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" tvg-id="krasnaya-linia",Красная линия
 
 
-https://live.uspeh.my/8390/video.m3u8?token=EHFHvNjTwqcqsiKN
 
 #EXTINF:0 group-title="Новости и политика" tvg-logo="https://iptvx.one/picons/mir24.png" tvg-id="mir-24",Мир 24
 
@@ -170,8 +169,6 @@ https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFX
 http://176.100.46.245:90/red/index.m3u8
 #http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/12760/hlsx/pl.m3u8
 #http://rr2.tvdosug.net/~201af66d572197816b137775813348e2276/48273/hlsx/pl.m3u8
-#https://live.uspeh.my/8653/video.m3u8?token=EHFHvNjTwqcqsiKN
-#https://live.uspeh.my/8929/video.m3u8?token=EHFHvNjTwqcqsiKN
 
 #EXTINF:0 group-title="Развлекательные" tvg-logo="https://iptvx.one/picons/8kanal-eu.png" tvg-id="8kanal-eu",8tv
 http://live-11cinema.cdnvideo.net/11cinemanet/11cinemanet/playlist.m3u8
@@ -504,7 +501,6 @@ http://185.76.10.53:8080/srv5/sts_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m
 
 
 #EXTINF:0 group-title="Федеральные" tvg-logo="https://iptvx.one/picons/tnt.png" tvg-id="tnt",ТНТ
-http://185.76.10.53:8080/srv5/tnt_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
 
 # Юмор
 
@@ -556,21 +552,31 @@ http://tvoetv.space:8080/tvoetv_humor/index.m3u8
 # ── test ──────────────────────────────────────────
 # Added: 2026-11-26 17:13:35  (9 URLs in 9 channel group(s))
 # ───────────────────────────────────────────────────
+
 #EXTINF:-1 tvg-id="DigiSport1.ro@SD" tvg-logo="https://i.imgur.com/5zMxDYq.png" group-title="test",Digi Sport 1 (576i)
 https://rundle.tv/proxy5.php?src=https%3A%2F%2Fkuruk1.xn--okq6e.shop%2Fkuk1%2Fusergendx419snx12kdgwqrnd.m3u8
+
 #EXTINF:-1 tvg-id="NickelodeonAsia.sg@Indonesia" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="test",Nickelodeon Asia Indonesia (720p)
 http://103.165.207.108:8000/play/a00v/index.m3u8
+
 #EXTINF:-1 tvg-id="NickelodeonFlanders.be@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png" group-title="test",Nickelodeon Flanders
 http://93.92.17.139:9981/stream/channelid/788918401?profile=pass
+
 #EXTINF:-1 tvg-id="CCNET.in@SD" tvg-logo="https://play-lh.googleusercontent.com/q5iULjQ59LU1X_ExM6aKYQk64fouGbzBtdKTgNSgO8sHdGfTcgcbIaunns9pATnwu2ttBpAm-DftDzV6u-ClJg8" group-title="test",CC NET (1080p)
 https://live.skystream.in/live/ccnet7082/index.m3u8
+
 #EXTINF:-1 tvg-id="DrisyaNewsPala.in@SD" tvg-logo="https://play-lh.googleusercontent.com/9HetsKoBEAixDgC6P9kKuy7EqiPmd2wUewuaD0-DuDbBxrHmQPTGIsc6DtZd5nmj5pod-mHLlIWJMOFlsC0XPWA" group-title="test",Drisya News Pala (576p)
 https://live.skystream.in/live/DrisyaPala2924/index.m3u8
+
 #EXTINF:-1 tvg-id="K7KeralamChannel.in@SD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9HJ1d-xOsWKg7ZYyU7algdOhJspVrXQUvQnCxqKfsrw&s=10" group-title="test",K7 Keralam Channel (1080p)
 https://live.skystream.in/live/keralam2742/index.m3u8
+
 #EXTINF:-1 tvg-id="WarnerTV.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Warner2018LA.png/960px-Warner2018LA.png" group-title="test",Warner TV (Romania) (576i)
 http://91.235.165.117:8001/play/a08h/index.m3u8
+
 #EXTINF:-1 tvg-id="NickJr.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="test",Nick Jr. (Romania) (576i)
 http://91.235.165.117:8001/play/a038/index.m3u8
+
 #EXTINF:-1 tvg-id="History.ro@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="test",History (Romania) (576i)
 http://91.235.165.117:8001/play/a08t/index.m3u8
+
