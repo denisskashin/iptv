@@ -4,11 +4,14 @@
 
 #EXTINF:0 group-title="Viasat" tvg-logo="https://iptvx.one/picons/viasat-serial.png" tvg-id="viasat-serial",Serial HD
 http://777905.live.tvstitch.com/playlist.m3u8?master=599&source=aHR0cDovLzE3Ni4xMjIuMTAzLjI0MTo3MDAwL2NoNDUvdHJhY2tzLXYyYTEvbW9uby5tM3U4P2xpdmU9MSZpcD0xNzguMTM2LjQyLjIyMCZpZD05NDg4NjUmc2VjcmV0PW4xdTd1aTA2JnNzbD0xJjIxeW89MCZlPTE3OTA2MDExNzAmc3Q9VS12czVHQmhOdF9WQXJ4bHVYVzR2dw==
+#http://s2.00x00.es/10006/index.m3u8?token=0C0BB8C458E3
 
 # Сериалы
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/now-series.png" tvg-id="now-series",NOW Series HD
 
+
+http://s2.00x00.es/10226/index.m3u8?token=0C0BB8C458E3
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/beetv-series-kz.png" tvg-id="beetv-series-kz",BeeTV Series
 
@@ -25,23 +28,36 @@ http://777905.live.tvstitch.com/playlist.m3u8?master=599&source=aHR0cDovLzE3Ni4x
 
 #EXTINF:0 group-title="Сериалы" tvg-logo="https://iptvx.one/picons/vhska-serial.png" tvg-id="vhska-serial",VHS-ка Сериал
 
+#EXTINF:0 group-title="Сериалы",SeriesTV
+http://s2.00x00.es/10319/index.m3u8?token=0C0BB8C458E3
+
 # Amedia
 
 
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia1.png" tvg-id="amedia1",1
+http://s2.00x00.es/10171/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10173/index.m3u8?token=0C0BB8C458E3
 
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia2.png" tvg-id="amedia2",2
+http://s2.00x00.es/10172/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10174/index.m3u8?token=0C0BB8C458E3
 
 
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-hit.png" tvg-id="amedia-hit",Hit
 
 
+http://s2.00x00.es/10165/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10178/index.m3u8?token=0C0BB8C458E3
+
 #EXTINF:0 group-title="Amedia" tvg-logo="https://iptvx.one/picons/amedia-premium.png" tvg-id="amedia-premium",Premium
+http://s2.00x00.es/10162/index.m3u8?token=0C0BB8C458E3
 
 
 # BCU
+
+http://s2.00x00.es/10128/index.m3u8?token=0C0BB8C458E3
 
 #EXTINF:0 group-title="BCU" tvg-logo="https://iptvx.one/picons/bcu-ruserial.png" tvg-id="bcu-ruserial",RUSerial
 
@@ -96,6 +112,7 @@ http://185.76.10.53:8080/srv5/vip_serial_hd/tracks-v1a1/mono.m3u8?cid=144&did=53
 
 
 #EXTINF:0 group-title="Fox" tvg-logo="https://iptvx.one/picons/foxlife.png" tvg-id="foxlife",Life
+http://s2.00x00.es/10164/index.m3u8?token=0C0BB8C458E3
 
 
 # Fresh
@@ -128,6 +145,18 @@ http://185.76.10.53:8080/srv5/vip_serial_hd/tracks-v1a1/mono.m3u8?cid=144&did=53
 #EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-svaty.png" tvg-id="liberty-svaty",Сваты
 
 #EXTINF:0 group-title="Liberty" tvg-logo="https://iptvx.one/picons/liberty-serialy.png" tvg-id="liberty-serialy",Сериалы
+
+# MiTV
+
+#EXTINF:0 group-title="MiTV" tvg-id="mitv-brigada",Бригада
+http://s2.00x00.es/10395/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:0 group-title="MiTV" tvg-id="mitv-mentovskie-voiny",Ментовские войны
+http://s2.00x00.es/10399/index.m3u8?token=0C0BB8C458E3
+
+#EXTINF:0 group-title="MiTV" tvg-id="mitv-fonari",Улицы разбитых фонарей
+http://s2.00x00.es/10394/index.m3u8?token=0C0BB8C458E3
+
 
 # MM
 
@@ -188,10 +217,14 @@ http://185.76.10.53:8080/srv5/vip_serial_hd/tracks-v1a1/mono.m3u8?cid=144&did=53
 #EXTINF:0 group-title="START" tvg-logo="https://iptvx.one/picons/start-air.png" tvg-id="start-air",Air
 
 
+http://s2.00x00.es/10274/index.m3u8?token=0C0BB8C458E3
+
 #EXTINF:0 group-title="START" tvg-logo="https://iptvx.one/picons/start-world.png" tvg-id="start-world",World
 
 # TEAM
 
+
+http://s2.00x00.es/10275/index.m3u8?token=0C0BB8C458E3
 
 #EXTINF:0 group-title="TEAM" tvg-logo="https://iptvx.one/picons/team-csi.png" tvg-id="team-csi",C.S.I.
 
@@ -234,6 +267,7 @@ http://185.76.10.53:8080/srv5/vip_serial_hd/tracks-v1a1/mono.m3u8?cid=144&did=53
 # VeleS
 
 #EXTINF:0 group-title="VeleS" tvg-logo="https://iptvx.one/picons/veles-kinoser.png" tvg-id="veles-kinoser",Киносерия
+http://s2.00x00.es/10324/index.m3u8?token=0C0BB8C458E3
 
 # Velilla TV
 
@@ -369,6 +403,7 @@ http://bde.seeetv.cc/play/7125/16419D145D0E706/video.m3u8
 #EXTINF:0 group-title="Viju+" tvg-logo="https://iptvx.one/picons/vip-serial.png" tvg-id="vip-serial",Serial
 
 #http://185.76.10.53:8080/srv5/vip_serial_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+http://s2.00x00.es/10121/index.m3u8?token=0C0BB8C458E3
 
 # Z!
 
@@ -382,8 +417,13 @@ http://bde.seeetv.cc/play/7125/16419D145D0E706/video.m3u8
 
 
 
+http://s2.00x00.es/10218/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10219/index.m3u8?token=0C0BB8C458E3
+
 #EXTINF:0 group-title="Азия" tvg-logo="https://iptvx.one/picons/kineko.png" tvg-id="kineko",Кинеко
 http://185.121.1.163:8083/Kineko/index.m3u8
+#http://s2.00x00.es/10220/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10221/index.m3u8?token=0C0BB8C458E3
 
 #EXTINF:0 group-title="Азия" tvg-logo="https://iptvx.one/picons/sapfir.png" tvg-id="sapfir",Сапфир
 
@@ -392,25 +432,40 @@ http://185.121.1.163:8083/Kineko/index.m3u8
 
 
 
+http://s2.00x00.es/10222/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10223/index.m3u8?token=0C0BB8C458E3
+
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-serial.png" tvg-id="ntv-serial",Сериалы
+
+http://s2.00x00.es/10154/index.m3u8?token=0C0BB8C458E3
 
 #EXTINF:0 group-title="НТВ" tvg-logo="https://iptvx.one/picons/ntv-xit.png" tvg-id="ntv-xit",Хит
 http://185.76.10.53:8080/srv5/ntv_hit/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+#http://s2.00x00.es/10155/index.m3u8?token=0C0BB8C458E3
 
 # Русский
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/mir-seriala.png" tvg-id="mir-seriala",Мир сериала
 
 
+http://s2.00x00.es/10145/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10146/index.m3u8?token=0C0BB8C458E3
+
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-bestseller.png" tvg-id="russky-bestseller",Русский бестселлер
 
+
+http://s2.00x00.es/10156/index.m3u8?token=0C0BB8C458E3
 
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-detektiv.png" tvg-id="russky-detektiv",Русский Детектив
 
 
 
+http://s2.00x00.es/10185/index.m3u8?token=0C0BB8C458E3
+
 #EXTINF:0 group-title="Русский" tvg-logo="https://iptvx.one/picons/russky-roman.png" tvg-id="russky-roman",Русский роман
 #http://185.76.10.53:8080/srv5/rus_roman_hd/tracks-v1a1/mono.m3u8?cid=144&did=5366158&m=1&rid=24397&token=2022b6576a65c40ede42a7d4941b5471
+http://s2.00x00.es/10157/index.m3u8?token=0C0BB8C458E3
+#http://s2.00x00.es/10158/index.m3u8?token=0C0BB8C458E3
 
 #EXTINF:0 group-title="Русский",VB Российские Сериалы HD
 

@@ -1,5 +1,11 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz, https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz"
 
+# Латвия
+
+#EXTINF:0 group-title="Латвия" tvg-logo="https://iptvx.one/picons/otv-lv.png" tvg-id="otv-lv",OTV (Латвия)
+http://s2.00x00.es/10224/index.m3u8?token=0C0BB8C458E3
+
+
 # Новости
 
 #EXTINF:0 group-title="Новости" tvg-logo="https://iptvx.one/picons/bbc.png" tvg-id="bbc",BBC World News
